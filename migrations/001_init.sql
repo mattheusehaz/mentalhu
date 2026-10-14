@@ -42,7 +42,8 @@ CREATE TABLE IF NOT EXISTS newsletter_subscribers (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
-CREATE UNIQUE INDEX IF NOT EXISTS idx_newsletter_email_lower ON newsletter_subscribers (lower(email));
+CREATE UNIQUE INDEX IF NOT EXISTS idx_newsletter_email ON newsletter_subscribers (email);
+CREATE INDEX IF NOT EXISTS idx_newsletter_email_lower ON newsletter_subscribers (lower(email));
 
 CREATE TABLE IF NOT EXISTS cms_audit_log (
   id BIGSERIAL PRIMARY KEY,
