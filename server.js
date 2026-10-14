@@ -121,7 +121,7 @@ app.post('/api/admin/login', authLimiter, async (req, res) => {
 
   let valid = false;
   if (ADMIN_PASSWORD_HASH) valid = await bcrypt.compare(password, ADMIN_PASSWORD_HASH);
-  else if (ADMIN_PASSWORD) valid = crypto.timingSafeEqual(Buffer.from(password), Buffer.from(ADMIN_PASSWORD));
+  else if (ADMIN_PASSWORD) valid = password.length === ADMIN_PASSWORD.length && crypto.timingSafeEqual(Buffer.from(password), Buffer.from(ADMIN_PASSWORD));
   if (!valid) return res.status(401).json({ error: 'Hibás belépési adatok.' });
 
   const token = jwt.sign({ email, role: 'admin' }, JWT_SECRET, { expiresIn: '12h' });
@@ -293,7 +293,7 @@ app.post('/api/newsletter/subscribe', newsletterLimiter, async (req, res) => {
   await pool.query(`
     INSERT INTO newsletter_subscribers(email,status,source,consent_text,unsubscribe_token)
     VALUES($1,'active',$2,$3,$4)
-    ON CONFLICT (lower(email)) DO UPDATE SET
+    ON CONFLICT (email) DO UPDATE SET
       status='active',source=EXCLUDED.source,consent_text=EXCLUDED.consent_text,
       consent_at=now(),updated_at=now()
   `, [email, source, consent, token]);
