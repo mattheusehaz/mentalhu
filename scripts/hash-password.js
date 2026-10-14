@@ -1,0 +1,1 @@
+const bcrypt=require('bcryptjs');const p=process.argv[2];if(!p){console.error('Használat: npm run hash-password -- "jelszó"');process.exit(1)}bcrypt.hash(p,12).then(h=>console.log(h));
