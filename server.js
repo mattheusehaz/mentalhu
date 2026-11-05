@@ -7,7 +7,6 @@ const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const multer = require('multer');
-const sharp = require('sharp');
 const sanitizeHtml = require('sanitize-html');
 const slugify = require('slugify');
 const { Pool } = require('pg');
@@ -244,18 +243,10 @@ const upload = multer({
 app.post('/api/admin/media', auth, upload.single('image'), async (req, res) => {
   if (!req.file) return res.status(400).json({ error: 'Nincs feltöltött kép.' });
   const alt = String(req.body.alt_text || '').slice(0, 300);
-  const image = sharp(req.file.buffer).rotate();
-  const metadata = await image.metadata();
-  const maxWidth = 2400;
-  const processed = await image
-    .resize({ width: Math.min(metadata.width || maxWidth, maxWidth), withoutEnlargement: true })
-    .webp({ quality: 88, effort: 4 })
-    .toBuffer();
-  const outMeta = await sharp(processed).metadata();
-  const filename = (req.file.originalname.replace(/\.[^.]+$/, '') || 'image') + '.webp';
+  const filename = req.file.originalname || 'image';
   const { rows } = await pool.query(
     'INSERT INTO media(filename,mime_type,data,width,height,alt_text) VALUES($1,$2,$3,$4,$5,$6) RETURNING id,filename,mime_type,width,height,alt_text,created_at',
-    [filename, 'image/webp', processed, outMeta.width, outMeta.height, alt]
+    [filename, req.file.mimetype, req.file.buffer, null, null, alt]
   );
   audit('upload', 'media', rows[0].id, req.user.email, { filename });
   res.status(201).json({ ...rows[0], url: '/media/' + rows[0].id });
