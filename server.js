@@ -510,6 +510,9 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({ error: err.message || 'Szerverhiba.' });
 });
 
-migrate()
-  .then(() => app.listen(PORT, () => console.log(`MENTÁL.hu CMS listening on ${PORT}`)))
-  .catch(err => { console.error('Migration failed', err); process.exit(1); });
+app.listen(PORT, () => {
+  console.log(`MENTÁL.hu CMS listening on ${PORT}`);
+  migrate()
+    .then(() => console.log('Database migrations completed'))
+    .catch(err => console.error('Migration failed', err));
+});
