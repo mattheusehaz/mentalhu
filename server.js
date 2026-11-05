@@ -25,9 +25,29 @@ if (!process.env.CMS_JWT_SECRET) console.warn('CMS_JWT_SECRET is not set: using 
 
 const pool = new Pool({
   connectionString: DATABASE_URL,
+  connectionTimeoutMillis: 7000,
+  idleTimeoutMillis: 30000,
+  query_timeout: 15000,
+  statement_timeout: 15000,
   ssl: process.env.PGSSLMODE === 'disable' ? false : { rejectUnauthorized: false }
 });
 
+// Database readiness repair v1
+const dbState = { phase: 'initializing', ready: false, error: null };
+pool.on('error', err => console.error('[db] idle connection error:', err.code || 'CONNECTION_ERROR'));
+function safeDbCode(err) {
+  if (typeof err?.code === 'string' && /^[A-Z0-9_]{2,40}$/.test(err.code)) return err.code;
+  return /timeout|timed out/i.test(err?.message || '') ? 'DB_CONNECTION_TIMEOUT' : 'DATABASE_ERROR';
+}
+function unavailable(req, res) {
+  res.set('Cache-Control', 'no-store');
+  res.set('Retry-After', '15');
+  res.status(503);
+  if (req.path.startsWith('/api/') || req.path.startsWith('/health/')) {
+    return res.json({ ok: false, error: 'A katalógus adatbázisa átmenetileg nem elérhető.', code: 'DATABASE_UNAVAILABLE' });
+  }
+  return res.type('html').send(directoryShell('A katalógus átmenetileg nem elérhető', '<main class="section"><h1>A katalógus átmenetileg nem elérhető</h1><p>Az adatbázis-kapcsolat jelenleg nem működik. Kérjük, próbáld újra később.</p><p><a href="/">Vissza a főoldalra</a></p></main>'));
+}
 app.set('trust proxy', 1);
 app.use(helmet({
   contentSecurityPolicy: {
@@ -102,30 +122,59 @@ function articleSlug(input, fallbackTitle) {
 async function migrate() {
   const fs = require('fs');
   const zlib = require('zlib');
-  const files = ['001_init.sql','002_directory.sql','003_public_seed.sql'];
-  for (const file of files) {
-    const sql = fs.readFileSync(path.join(ROOT, 'migrations', file), 'utf8');
-    await pool.query(sql);
+  const steps = ['001_init.sql', '002_directory.sql', '003_public_seed.sql'].map(name => ({
+    name, sql: fs.readFileSync(path.join(ROOT, 'migrations', name), 'utf8')
+  }));
+  const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
+  steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
+  const client = await pool.connect();
+  let locked = false;
+  try {
+    await client.query('SELECT pg_advisory_lock($1)', [6938035]);
+    locked = true;
+    await client.query('CREATE TABLE IF NOT EXISTS cms_schema_migrations (name TEXT PRIMARY KEY, checksum TEXT NOT NULL, applied_at TIMESTAMPTZ NOT NULL DEFAULT now())');
+    for (const step of steps) {
+      const applied = await client.query('SELECT name FROM cms_schema_migrations WHERE name=$1', [step.name]);
+      if (applied.rowCount) continue;
+      await client.query('BEGIN');
+      try {
+        await client.query(step.sql);
+        await client.query('INSERT INTO cms_schema_migrations(name,checksum) VALUES($1,$2)', [step.name, crypto.createHash('sha256').update(step.sql).digest('hex')]);
+        await client.query('COMMIT');
+        console.log('[migration] applied:', step.name);
+      } catch (err) {
+        await client.query('ROLLBACK').catch(() => {});
+        console.error('[migration] failed:', step.name, safeDbCode(err));
+        throw err;
+      }
+    }
+  } finally {
+    if (locked) await client.query('SELECT pg_advisory_unlock($1)', [6938035]).catch(() => {});
+    client.release();
   }
-
-  const bulkParts = [0,1,2,3].map(i =>
-    fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim()
-  );
-  const bulkSql = zlib.gunzipSync(Buffer.from(bulkParts.join(''), 'base64')).toString('utf8');
-  await pool.query(bulkSql);
 }
 
 app.get('/health', (_req, res) => {
   res.status(200).json({ ok: true, service: 'mentalhu' });
 });
 
-app.get('/health/db', async (_req, res) => {
+app.get(['/health/db', '/health/ready'], async (_req, res) => {
+  res.set('Cache-Control', 'no-store');
   try {
     await pool.query('SELECT 1');
-    res.status(200).json({ ok: true, database: true });
+    if (!dbState.ready) return res.status(503).json({ ok: false, database: true, migrations: false, phase: dbState.phase, code: dbState.error });
+    const { rows } = await pool.query("SELECT (SELECT count(*)::int FROM directory_categories WHERE active=true) AS categories, (SELECT count(*)::int FROM directory_listings WHERE status='published') AS listings");
+    res.status(200).json({ ok: true, database: true, migrations: true, ...rows[0] });
   } catch (err) {
-    res.status(503).json({ ok: false, database: false, error: err.code || err.message });
+    res.status(503).json({ ok: false, database: false, migrations: dbState.ready, phase: dbState.phase, code: safeDbCode(err) });
   }
+});
+
+// A fallback menu is not evidence that the database is ready.
+app.use((req, res, next) => {
+  const prefixes = ['/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/cikk/', '/media/', '/leiratkozas/'];
+  if (!dbState.ready && prefixes.some(prefix => req.path.startsWith(prefix))) return unavailable(req, res);
+  next();
 });
 
 app.post('/api/admin/login', authLimiter, async (req, res) => {
@@ -326,25 +375,8 @@ app.get('/api/public/categories', async (_req, res) => {
     `);
     res.json(rows);
   } catch (err) {
-    console.error('categories API fallback:', err.message);
-    res.json([
-      {slug:'pszichologusok',name:'Pszichológusok',group_name:'Szakmai segítség',icon:'◌',verification_level:'professional',listing_count:0},
-      {slug:'pszichiaterek',name:'Pszichiáterek',group_name:'Szakmai segítség',icon:'✚',verification_level:'healthcare',listing_count:0},
-      {slug:'pszichoterapeutak',name:'Pszichoterapeuták',group_name:'Szakmai segítség',icon:'◎',verification_level:'healthcare',listing_count:0},
-      {slug:'mentalhigienes-szakemberek',name:'Mentálhigiénés szakemberek',group_name:'Szakmai segítség',icon:'○',verification_level:'professional',listing_count:0},
-      {slug:'par-es-csaladterapeutak',name:'Pár- és családterapeuták',group_name:'Szakmai segítség',icon:'♡',verification_level:'professional',listing_count:0},
-      {slug:'coachok',name:'Coachok',group_name:'Fejlődés és életvezetés',icon:'↗',verification_level:'professional',listing_count:0},
-      {slug:'mediatorok',name:'Mediátorok',group_name:'Fejlődés és életvezetés',icon:'⇄',verification_level:'professional',listing_count:0},
-      {slug:'dietetikusok',name:'Dietetikusok',group_name:'Test és jóllét',icon:'◒',verification_level:'healthcare',listing_count:0},
-      {slug:'masszorok',name:'Masszőrök',group_name:'Test és jóllét',icon:'≈',verification_level:'wellness',listing_count:0},
-      {slug:'fogaszatok',name:'Fogászatok',group_name:'Test és jóllét',icon:'◌',verification_level:'healthcare',listing_count:0},
-      {slug:'joga-es-mozgas',name:'Jóga és mozgás',group_name:'Test és jóllét',icon:'△',verification_level:'wellness',listing_count:0},
-      {slug:'kineziologusok',name:'Kineziológusok',group_name:'Alternatív és spirituális',icon:'∞',verification_level:'alternative',listing_count:0},
-      {slug:'asztrologusok',name:'Asztrológusok',group_name:'Alternatív és spirituális',icon:'✦',verification_level:'alternative',listing_count:0},
-      {slug:'kepzesek',name:'Képzések',group_name:'Programok és tudás',icon:'▤',verification_level:'education',listing_count:0},
-      {slug:'konferenciak-es-esemenyek',name:'Konferenciák és események',group_name:'Programok és tudás',icon:'◫',verification_level:'education',listing_count:0},
-      {slug:'magazinok-es-portalok',name:'Magazinok és portálok',group_name:'Programok és tudás',icon:'▧',verification_level:'media',listing_count:0}
-    ]);
+    console.error('[categories]', safeDbCode(err));
+    return unavailable(_req, res);
   }
 });
 
@@ -538,14 +570,32 @@ function escapeHtml(s='') {
 app.use('/admin', express.static(path.join(ROOT, 'admin'), { index: 'index.html' }));
 app.use(express.static(ROOT, { extensions: ['html'], index: 'index.html' }));
 
-app.use((err, _req, res, _next) => {
-  console.error(err);
-  res.status(500).json({ error: err.message || 'Szerverhiba.' });
+app.use((err, req, res, _next) => {
+  const code = safeDbCode(err);
+  console.error('[request]', req.path, code);
+  if (res.headersSent) return _next(err);
+  if (/^(?:ECONN|ETIMEDOUT|ENOTFOUND|EHOST|ENET|DB_CONNECTION|DATABASE_ERROR|08|57P)/.test(code)) return unavailable(req, res);
+  res.status(500).json({ error: 'A kérés feldolgozása nem sikerült.', code: 'REQUEST_FAILED' });
 });
 
+async function initializeDatabase() {
+  dbState.phase = 'migrating';
+  try {
+    if (!DATABASE_URL) throw Object.assign(new Error('Missing database configuration'), { code: 'DATABASE_URL_MISSING' });
+    await migrate();
+    dbState.ready = true;
+    dbState.phase = 'ready';
+    dbState.error = null;
+    console.log('Database migrations completed');
+  } catch (err) {
+    dbState.ready = false;
+    dbState.phase = 'failed';
+    dbState.error = safeDbCode(err);
+    console.error('[db] initialization failed:', dbState.error, 'Check DATABASE_URL, VPC routing and database trusted sources.');
+    setTimeout(initializeDatabase, 15000).unref();
+  }
+}
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`MENTÁL.hu CMS listening on 0.0.0.0:${PORT}`);
-  migrate()
-    .then(() => console.log('Database migrations completed'))
-    .catch(err => console.error('Migration failed', err));
+  console.log('MENTÁL.hu CMS listening on 0.0.0.0:' + PORT);
+  initializeDatabase();
 });
