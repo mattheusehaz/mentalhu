@@ -101,11 +101,18 @@ function articleSlug(input, fallbackTitle) {
 
 async function migrate() {
   const fs = require('fs');
+  const zlib = require('zlib');
   const files = ['001_init.sql','002_directory.sql','003_public_seed.sql'];
   for (const file of files) {
     const sql = fs.readFileSync(path.join(ROOT, 'migrations', file), 'utf8');
     await pool.query(sql);
   }
+
+  const bulkParts = [0,1,2,3].map(i =>
+    fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim()
+  );
+  const bulkSql = zlib.gunzipSync(Buffer.from(bulkParts.join(''), 'base64')).toString('utf8');
+  await pool.query(bulkSql);
 }
 
 app.get('/health', (_req, res) => {
