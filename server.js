@@ -101,7 +101,7 @@ function articleSlug(input, fallbackTitle) {
 
 async function migrate() {
   const fs = require('fs');
-  const files = ['001_init.sql','002_directory.sql'];
+  const files = ['001_init.sql','002_directory.sql','003_public_seed.sql'];
   for (const file of files) {
     const sql = fs.readFileSync(path.join(ROOT, 'migrations', file), 'utf8');
     await pool.query(sql);
