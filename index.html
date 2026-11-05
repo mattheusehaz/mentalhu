@@ -1,23 +1,192 @@
-<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="MENTÁL.hu – mentális egészséghez, jólléthez és önismerethez kapcsolódó szakemberek, szolgáltatók, képzések és programok gyűjtőoldala."><title>MENTÁL.hu – Találd meg, aki segíthet</title><link rel="stylesheet" href="/directory.css?v=1"></head><body>
-<header class="dir-header"><div class="dir-brandwrap"><a class="dir-brand" href="/">MENTÁL<span>.hu</span></a><span class="dir-tag">Mentális egészség és jóllét – egy helyen</span></div><nav class="dir-nav"><a href="#kategoriak">KATEGÓRIÁK</a><a href="#kiemeltek">KIEMELTEK</a><a href="#hogyan">HOGYAN MŰKÖDIK?</a><a href="#felkerules">FELKERÜLÉS</a></nav><div class="dir-actions"><a class="outline-btn" href="/admin">BELÉPÉS</a><a class="solid-btn" href="#felkerules">SZOLGÁLTATÓ VAGYOK</a></div></header>
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="MENTÁL.hu – szakemberek, szolgáltatók, képzések és mentális jólléthez kapcsolódó lehetőségek egy helyen.">
+  <title>MENTÁL.hu – Mentális támogatás, egy helyen</title>
+  <link rel="stylesheet" href="/directory.css?v=design-20261105">
+</head>
+<body class="home-page">
+<header class="dir-header">
+  <a class="brand-lockup" href="/" aria-label="MENTÁL.hu főoldal">
+    <span class="logo-mark" aria-hidden="true"><i></i><b></b><em></em></span>
+    <span class="brand-copy"><strong>MENTÁL<span>.hu</span></strong><small>Mentális egészség • Szakemberek • Tudás</small></span>
+  </a>
+  <nav class="dir-nav" aria-label="Fő navigáció">
+    <a href="#szakemberek">Szakemberek</a>
+    <a href="#kategoriak">Kategóriák</a>
+    <a href="#programok">Képzések és események</a>
+    <a href="#felkerules">Szolgáltatóknak</a>
+  </nav>
+  <div class="dir-actions">
+    <a class="search-circle" href="#kereso" aria-label="Keresés">⌕</a>
+    <a class="solid-btn" href="#felkerules">Szolgáltatói regisztráció</a>
+  </div>
+</header>
+
 <main>
-<section class="directory-hero"><div class="directory-hero-inner"><div><div class="kicker">MENTÁL.HU SZOLGÁLTATÓI KATALÓGUS</div><h1>Találd meg,<br>aki segíthet.</h1><p>Pszichológustól dietetikusig, coachtól konferenciáig: egy helyen gyűjtjük a mentális egészséghez, jólléthez és önismerethez kapcsolódó szakembereket, szolgáltatásokat és programokat.</p><form id="searchForm" class="hero-search"><div class="search-grid"><input id="q" placeholder="Mit vagy kit keresel?"><select id="cat"><option value="">Minden kategória</option></select><input id="city" placeholder="Város vagy online"><button>KERESÉS →</button></div></form><div class="trust-note"><span class="trust-dot">✓</span><div>A katalógusban <strong>külön jelöljük</strong> az egészségügyi, szakmai, wellness és alternatív kategóriákat. A megjelenés nem jelent automatikus szakmai ajánlást.</div></div></div><aside class="hero-side"><h3>Nem tudod, kihez fordulj?</h3><p>Indulj a problémádból vagy élethelyzetedből, és nézd meg, milyen típusú segítség illik hozzá. A cél nem az, hogy mindenkit egy kalap alá vegyünk, hanem hogy átláthatóbb legyen a választás.</p><div class="note">„Nem mindig egy válasz hiányzik. Néha csak azt kell tudni, hol érdemes keresni.”</div></aside></div></section>
+<section class="home-hero">
+  <div class="hero-copy">
+    <div class="hero-kicker">MENTÁL.HU ORSZÁGOS KATALÓGUS</div>
+    <h1>Mentális támogatás,<br>egy helyen.</h1>
+    <p>Pszichológusok, pszichiáterek, coachok, dietetikusok és más segítő szakemberek, szolgáltatások és programok országos gyűjtőoldala.</p>
+    <form id="searchForm" class="hero-search" action="/kereses">
+      <span class="search-icon">⌕</span>
+      <input id="q" name="q" autocomplete="off" placeholder="Szakember, szolgáltatás vagy téma keresése…">
+      <select id="cat" name="category" aria-label="Kategória"><option value="">Minden kategória</option></select>
+      <input id="city" name="city" placeholder="Város">
+      <button>Keresés</button>
+    </form>
+    <div class="popular-searches">
+      <strong>Népszerű:</strong>
+      <a href="/kategoria/pszichologusok">pszichológus</a>
+      <a href="/kategoria/pszichiaterek">pszichiáter</a>
+      <a href="/kategoria/coachok">coach</a>
+      <a href="/kategoria/dietetikusok">dietetikus</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="/assets/hero-hq.jpg" alt="Nyugodt, elmélyült pillanat">
+    <div class="hero-photo-fade"></div>
+  </div>
+</section>
 
-<section class="section" id="kategoriak"><div class="section-head"><div><h2>Miben keresel segítséget?</h2><p>A kategóriák nem egyenértékű szakmai minősítések. Az orvosi és egészségügyi szolgáltatásokat külön jelöljük a wellness- és alternatív szolgáltatásoktól.</p></div></div><div id="categoryGroups" class="category-groups"><p>Kategóriák betöltése…</p></div></section>
+<section class="home-block compact" id="kategoriak">
+  <div class="block-head">
+    <div><span class="mini-label">GYORS INDULÁS</span><h2>Böngéssz kategóriák szerint</h2></div>
+    <a href="#minden-kategoria">Összes kategória →</a>
+  </div>
+  <div id="quickCategories" class="quick-categories"><div class="skeleton-row">Kategóriák betöltése…</div></div>
+</section>
 
-<section class="featured-strip" id="kiemeltek"><div class="section"><div class="section-head"><div><h2>Kiemelt szolgáltatók</h2><p>Olyan profilok, amelyek részletes adatlapot, elérhetőséget és szolgáltatási információkat tartalmaznak.</p></div></div><div id="featuredListings" class="listing-grid"><div class="listing-card"><h3>Még épül a katalógus</h3><p>A szolgáltatói adatbázis feltöltése folyamatban van. Addig is beküldheted a saját profilodat.</p></div></div></div></section>
+<section class="home-block" id="szakemberek">
+  <div class="block-head">
+    <div><span class="mini-label">AKIKHEZ FORDULHATSZ</span><h2>Kiemelt szakemberek és szolgáltatók</h2></div>
+    <a href="/kereses">Összes szolgáltató →</a>
+  </div>
+  <div id="featuredListings" class="provider-grid">
+    <div class="provider-card placeholder"><div class="provider-avatar">M</div><h3>A katalógus betöltése folyamatban…</h3></div>
+  </div>
+</section>
 
-<section class="section" id="hogyan"><div class="section-head"><div><h2>Hogyan működik?</h2><p>Egyszerű keresés, átlátható kategóriák és részletes profilok.</p></div></div><div class="how"><div class="step"><span>01</span><h3>Válassz kategóriát</h3><p>Pszichológus, pszichiáter, coach, dietetikus, képzés, esemény vagy más kapcsolódó terület.</p></div><div class="step"><span>02</span><h3>Szűrj helyre és online-ra</h3><p>Keress város alapján, vagy nézd meg, ki dolgozik online is.</p></div><div class="step"><span>03</span><h3>Nézd meg a profilt</h3><p>Végzettség, szakterületek, ár-információ, elérhetőség és foglalási link egy helyen.</p></div></div></section>
+<section class="resource-band" id="programok">
+  <div class="home-block resource-inner">
+    <div class="block-head">
+      <div><span class="mini-label">TÖBB MINT SZAKEMBERKERESŐ</span><h2>Programok, képzések és tudásforrások</h2></div>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card" href="/kategoria/kepzesek">
+        <img src="/assets/rec-2-hq.jpg" alt="">
+        <span>KÉPZÉSEK</span><h3>Tanulj, fejlődj, mélyülj el</h3><p>Szakmai és önismereti képzések egy helyen.</p><b>Megnézem →</b>
+      </a>
+      <a class="resource-card" href="/kategoria/konferenciak-es-esemenyek">
+        <img src="/assets/fresh-2-hq.jpg" alt="">
+        <span>ESEMÉNYEK</span><h3>Konferenciák és workshopok</h3><p>Találkozások, ahol tudás és kapcsolódás születik.</p><b>Megnézem →</b>
+      </a>
+      <a class="resource-card" href="/kategoria/magazinok-es-portalok">
+        <img src="/assets/rec-1-hq.jpg" alt="">
+        <span>MAGAZINOK ÉS PORTÁLOK</span><h3>Hiteles helyek, ahol tovább olvashatsz</h3><p>Mentális egészséggel foglalkozó kiadványok és oldalak.</p><b>Megnézem →</b>
+      </a>
+    </div>
+  </div>
+</section>
 
-<section class="submit-band" id="felkerules"><div class="submit-inner"><div><div class="kicker" style="color:var(--terr);font-size:10px;letter-spacing:.16em;font-weight:700">SZOLGÁLTATÓKNAK</div><h2>Legyél fent a MENTÁL.hu-n</h2><p>Pszichológus, pszichiáter, coach, dietetikus, terapeuta, masszőr, képzőhely, rendezvényszervező vagy más, mentális egészséghez és jólléthez kapcsolódó szolgáltató vagy? Küldd be az adataidat. A megjelenéseket moderáljuk, hogy a kategóriák és a képesítések egyértelműen legyenek feltüntetve.</p></div><form id="submitForm" class="submit-form"><input name="name" required placeholder="Szolgáltató / szakember neve"><input name="contact_name" placeholder="Kapcsolattartó neve"><input name="email" type="email" required placeholder="E-mail"><input name="phone" placeholder="Telefon"><input name="website_url" placeholder="Weboldal"><input name="city" placeholder="Város"><select name="category_slugs" id="submitCategory"><option value="">Kategória</option></select><label style="display:flex;align-items:center;gap:8px;font-size:12px"><input type="checkbox" name="online_available" style="width:auto"> Online is elérhető</label><textarea name="description" placeholder="Rövid bemutatkozás, szolgáltatás"></textarea><textarea name="qualifications" placeholder="Végzettség / képesítés / szakmai háttér"></textarea><label class="wide" style="font-size:11px"><input required type="checkbox" name="consent" style="width:auto"> Hozzájárulok, hogy a beküldött adataimat a MENTÁL.hu a jelentkezés elbírálásához kezelje.</label><button>BEKÜLDÖM →</button><div id="submitMsg" class="wide" style="font-size:12px"></div></form></div></section>
+<section class="home-block all-categories" id="minden-kategoria">
+  <div class="block-head">
+    <div><span class="mini-label">TELJES KATALÓGUS</span><h2>Minden kategória</h2></div>
+    <p>Egészségügyi, szakmai, jólléti és alternatív kategóriákat külön jelölünk.</p>
+  </div>
+  <div id="categoryGroups" class="category-groups"><div class="skeleton-row">Kategóriák betöltése…</div></div>
+</section>
+
+<section class="trust-strip">
+  <div class="trust-item"><span class="trust-icon">✓</span><div><strong>Egyértelmű kategóriák</strong><small>Egészségügyi és alternatív területek külön jelölve</small></div></div>
+  <div class="trust-item"><span class="trust-icon">◎</span><div><strong>Országos kereső</strong><small>Budapest és vidéki szolgáltatók egyaránt</small></div></div>
+  <div class="trust-item"><span class="trust-icon">⌂</span><div><strong>Személyesen vagy online</strong><small>Hely és online elérhetőség szerint szűrhető</small></div></div>
+</section>
+
+<section class="provider-cta" id="felkerules">
+  <div class="provider-cta-copy">
+    <span class="mini-label">SZOLGÁLTATÓKNAK</span>
+    <h2>Legyél megtalálható a MENTÁL.hu-n</h2>
+    <p>Segítő szakember, rendelő, képzőhely, rendezvényszervező vagy jólléti szolgáltató vagy? Küldd be az adataidat, mi pedig kategorizáljuk és moderáljuk a profilt.</p>
+  </div>
+  <details class="registration-box">
+    <summary>Szolgáltatói regisztráció →</summary>
+    <form id="submitForm" class="submit-form">
+      <input name="name" required placeholder="Szolgáltató / szakember neve">
+      <input name="contact_name" placeholder="Kapcsolattartó neve">
+      <input name="email" type="email" required placeholder="E-mail">
+      <input name="phone" placeholder="Telefon">
+      <input name="website_url" placeholder="Weboldal">
+      <input name="city" placeholder="Város">
+      <select name="category_slugs" id="submitCategory"><option value="">Kategória</option></select>
+      <label class="checkline"><input type="checkbox" name="online_available"> Online is elérhető</label>
+      <textarea name="description" placeholder="Rövid bemutatkozás, szolgáltatás"></textarea>
+      <textarea name="qualifications" placeholder="Végzettség / képesítés / szakmai háttér"></textarea>
+      <label class="consent"><input required type="checkbox" name="consent"> Hozzájárulok, hogy a beküldött adataimat a MENTÁL.hu a jelentkezés elbírálásához kezelje.</label>
+      <button>Beküldöm →</button>
+      <div id="submitMsg" class="form-message"></div>
+    </form>
+  </details>
+</section>
 </main>
-<footer class="footer"><div class="footer-inner"><div><div class="footer-brand">MENTÁL.hu</div><small>Találd meg, aki segíthet.</small></div><small>A MENTÁL.hu katalógusa tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai vagy egészségügyi ajánlást.</small></div></footer>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <a class="footer-brand" href="/">MENTÁL.hu</a>
+    <nav><a href="#kategoriak">Kategóriák</a><a href="#szakemberek">Szakemberek</a><a href="#felkerules">Regisztráció</a><a href="/admin">Admin</a></nav>
+    <small>A MENTÁL.hu katalógusa tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai vagy egészségügyi ajánlást.</small>
+  </div>
+</footer>
+
 <script>
 const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 let cats=[];
-async function loadCategories(){cats=await fetch('/api/public/categories').then(r=>r.json());const groups={};cats.forEach(c=>(groups[c.group_name]??=[]).push(c));document.getElementById('cat').innerHTML='<option value="">Minden kategória</option>'+cats.map(c=>'<option value="'+esc(c.slug)+'">'+esc(c.name)+'</option>').join('');document.getElementById('submitCategory').innerHTML='<option value="">Kategória</option>'+cats.map(c=>'<option value="'+esc(c.slug)+'">'+esc(c.name)+'</option>').join('');document.getElementById('categoryGroups').innerHTML=Object.entries(groups).map(([g,items])=>'<div class="category-group"><h3>'+esc(g)+'</h3><div class="category-cards">'+items.map(c=>'<a class="category-card" href="/kategoria/'+encodeURIComponent(c.slug)+'"><div class="category-icon">'+esc(c.icon)+'</div><strong>'+esc(c.name)+'</strong><small>'+c.listing_count+' szolgáltató</small>'+(c.verification_level==='healthcare'?'<div class="verify-note">Egészségügyi / szabályozott terület</div>':c.verification_level==='alternative'?'<div class="verify-note">Alternatív / nem egészségügyi kategória</div>':'')+'</a>').join('')+'</div></div>').join('')}
-async function loadFeatured(){const data=await fetch('/api/public/listings?limit=6').then(r=>r.json());if(!data.length)return;document.getElementById('featuredListings').innerHTML=data.map(x=>'<a class="listing-card '+(x.featured?'featured':'')+'" href="'+x.url+'"><div class="listing-head">'+(x.profile_image_url?'<img class="listing-avatar" src="'+x.profile_image_url+'" alt="">':'<div class="listing-avatar">'+esc(x.name[0])+'</div>')+'<div><h3>'+esc(x.name)+'</h3>'+(x.verified?'<div class="verified">✓ Ellenőrzött adatok</div>':'')+'</div></div><p>'+esc(x.short_description||'Részletes szolgáltatói profil és elérhetőségek.')+'</p><div class="chips">'+(x.categories||[]).slice(0,3).map(c=>'<span class="chip">'+esc(c.name)+'</span>').join('')+(x.online_available?'<span class="chip">Online</span>':'')+'</div><div class="listing-foot"><span>'+esc(x.city||'Magyarország')+'</span><span>Profil →</span></div></a>').join('')}
-document.getElementById('searchForm').addEventListener('submit',e=>{e.preventDefault();const p=new URLSearchParams();if(q.value)p.set('q',q.value);if(cat.value)p.set('category',cat.value);if(city.value)p.set('city',city.value);location.href='/kereses?'+p.toString()});
-document.getElementById('submitForm').addEventListener('submit',async e=>{e.preventDefault();const fd=new FormData(e.target),o=Object.fromEntries(fd.entries());o.online_available=fd.has('online_available');o.consent=fd.has('consent');const msg=document.getElementById('submitMsg');msg.textContent='Küldés…';try{const r=await fetch('/api/directory/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)});const d=await r.json();if(!r.ok)throw new Error(d.error||'Hiba');msg.textContent=d.message;e.target.reset()}catch(err){msg.textContent=err.message}});
-loadCategories().catch(()=>{const fallback=[['Szakmai segítség',[['pszichologusok','Ψ','Pszichológusok'],['pszichiaterek','✚','Pszichiáterek'],['pszichoterapeutak','◉','Pszichoterapeuták'],['mentalhigienes-szakemberek','○','Mentálhigiénés szakemberek'],['par-es-csaladterapeutak','⌁','Pár- és családterapeuták']]],['Fejlődés és életvezetés',[['coachok','↗','Coachok'],['mediatorok','⇄','Mediátorok'],['karrier-tanacsadok','◇','Karrier-tanácsadók']]],['Test és jóllét',[['dietetikusok','◒','Dietetikusok'],['masszorok','≈','Masszőrök'],['fogaszatok','◌','Fogászatok'],['joga-es-mozgas','△','Jóga és mozgás']]],['Alternatív és spirituális',[['kineziologusok','∞','Kineziológusok'],['asztrologusok','✦','Asztrológusok'],['termeszetgyogyaszat','❧','Természetgyógyászat']]],['Programok és tudás',[['kepzesek','▤','Képzések'],['konferenciak-es-esemenyek','◫','Konferenciák és események'],['magazinok-es-portalok','▧','Magazinok és portálok'],['podcastok-es-konyvek','◍','Podcastok és könyvek']]]];categoryGroups.innerHTML=fallback.map(([g,items])=>'<div class="category-group"><h3>'+g+'</h3><div class="category-cards">'+items.map(([slug,icon,name])=>'<a class="category-card" href="/#felkerules"><div class="category-icon">'+icon+'</div><strong>'+name+'</strong><small>A katalógus feltöltés alatt</small></a>').join('')+'</div></div>').join('')});loadFeatured().catch(()=>{});
-</script></body></html>
+const quickOrder=['pszichologusok','pszichiaterek','pszichoterapeutak','coachok','dietetikusok','par-es-csaladterapeutak','kepzesek','konferenciak-es-esemenyek'];
+const iconMap={
+  'pszichologusok':'◌','pszichiaterek':'✚','pszichoterapeutak':'◎','coachok':'↗',
+  'dietetikusok':'◒','par-es-csaladterapeutak':'♡','kepzesek':'▤','konferenciak-es-esemenyek':'◫'
+};
+async function loadCategories(){
+  const r=await fetch('/api/public/categories'); if(!r.ok) throw new Error('categories');
+  cats=await r.json();
+  document.getElementById('cat').innerHTML='<option value="">Minden kategória</option>'+cats.map(c=>'<option value="'+esc(c.slug)+'">'+esc(c.name)+'</option>').join('');
+  document.getElementById('submitCategory').innerHTML='<option value="">Kategória</option>'+cats.map(c=>'<option value="'+esc(c.slug)+'">'+esc(c.name)+'</option>').join('');
+  const bySlug=Object.fromEntries(cats.map(c=>[c.slug,c]));
+  const quick=quickOrder.map(s=>bySlug[s]).filter(Boolean);
+  document.getElementById('quickCategories').innerHTML=quick.map(c=>'<a class="quick-category" href="/kategoria/'+encodeURIComponent(c.slug)+'"><span class="quick-icon">'+(iconMap[c.slug]||esc(c.icon)||'•')+'</span><strong>'+esc(c.name)+'</strong><small>'+c.listing_count+' találat</small></a>').join('');
+  const groups={}; cats.forEach(c=>(groups[c.group_name]??=[]).push(c));
+  document.getElementById('categoryGroups').innerHTML=Object.entries(groups).map(([g,items])=>'<div class="category-group"><h3>'+esc(g)+'</h3><div class="category-link-list">'+items.map(c=>'<a href="/kategoria/'+encodeURIComponent(c.slug)+'"><span>'+esc(c.name)+'</span><b>'+c.listing_count+'</b></a>').join('')+'</div></div>').join('');
+}
+async function loadFeatured(){
+  const r=await fetch('/api/public/listings?limit=8'); if(!r.ok) throw new Error('listings');
+  const data=await r.json(); if(!data.length) return;
+  document.getElementById('featuredListings').innerHTML=data.slice(0,4).map(x=>{
+    const cat=(x.categories&&x.categories[0])?x.categories[0].name:'Szolgáltató';
+    const tags=(x.categories||[]).slice(0,2).map(c=>'<span>'+esc(c.name)+'</span>').join('');
+    return '<a class="provider-card" href="'+x.url+'">'+
+      '<div class="provider-top">'+(x.profile_image_url?'<img class="provider-avatar" src="'+x.profile_image_url+'" alt="">':'<div class="provider-avatar">'+esc(x.name[0])+'</div>')+
+      '<div><h3>'+esc(x.name)+'</h3><p>'+esc(cat)+'</p></div></div>'+
+      '<div class="provider-tags">'+tags+(x.online_available?'<span>Online</span>':'')+'</div>'+
+      '<div class="provider-location">⌖ '+esc(x.city||'Magyarország')+(x.verified?'<b>✓ Ellenőrzött</b>':'')+'</div>'+
+    '</a>';
+  }).join('');
+}
+document.getElementById('searchForm').addEventListener('submit',e=>{
+  e.preventDefault(); const p=new URLSearchParams();
+  if(q.value)p.set('q',q.value); if(cat.value)p.set('category',cat.value); if(city.value)p.set('city',city.value);
+  location.href='/kereses?'+p.toString();
+});
+document.getElementById('submitForm').addEventListener('submit',async e=>{
+  e.preventDefault(); const fd=new FormData(e.target),o=Object.fromEntries(fd.entries());
+  o.online_available=fd.has('online_available'); o.consent=fd.has('consent');
+  const msg=document.getElementById('submitMsg'); msg.textContent='Küldés…';
+  try{const r=await fetch('/api/directory/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)});const d=await r.json();if(!r.ok)throw new Error(d.error||'Hiba történt');msg.textContent=d.message;e.target.reset()}
+  catch(err){msg.textContent=err.message}
+});
+loadCategories().catch(()=>{document.getElementById('quickCategories').innerHTML='<div class="skeleton-row">A kategóriák az adatbázis kapcsolódása után jelennek meg.</div>';});
+loadFeatured().catch(()=>{});
+</script>
+</body></html>
