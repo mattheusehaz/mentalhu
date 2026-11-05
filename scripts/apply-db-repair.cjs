@@ -1,5 +1,5 @@
 'use strict';
-// One-time, idempotent repair of the original scaffold. No credentials are stored here.
+// Idempotent repair of the initial scaffold. No production credentials are used.
 const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
@@ -43,7 +43,6 @@ head = head.split('\n').map(line => {
 }).join('\n');
 assert.equal(seedRows, 51, 'Unexpected initial seed size');
 seed = head + seed.slice(conflictAt);
-// Do not overwrite later editorial changes when introducing migration tracking.
 seed = seed.replace(/ON CONFLICT \(slug\) DO UPDATE SET[\s\S]*?updated_at=now\(\);/, 'ON CONFLICT (slug) DO NOTHING;');
 fs.writeFileSync(seedFile, seed);
 console.log('Initial seed checked:', seedRows, 'rows; corrected:', repairedRows);
@@ -54,7 +53,7 @@ if (!server.includes('// Database readiness repair v1')) {
     server = server.replace(from, () => to);
   }
   replaceOnce("  connectionString: DATABASE_URL,\n", "  connectionString: DATABASE_URL,\n  connectionTimeoutMillis: 7000,\n  idleTimeoutMillis: 30000,\n  query_timeout: 15000,\n  statement_timeout: 15000,\n");
-  replaceOnce("app.set('trust proxy', 1);", `// Database readiness repair v1
+  replaceOnce("app.set('trust proxy', 1);", String.raw`// Database readiness repair v1
 const dbState = { phase: 'initializing', ready: false, error: null };
 pool.on('error', err => console.error('[db] idle connection error:', err.code || 'CONNECTION_ERROR'));
 function safeDbCode(err) {
@@ -68,14 +67,14 @@ function unavailable(req, res) {
   if (req.path.startsWith('/api/') || req.path.startsWith('/health/')) {
     return res.json({ ok: false, error: 'A katalógus adatbázisa átmenetileg nem elérhető.', code: 'DATABASE_UNAVAILABLE' });
   }
-  return res.type('html').send(directoryShell('A katalógus átmenetileg nem elérhető', '<main class="section"><h1>A katalógus átmenetileg nem elérhető</h1><p>Az adatbázis-kapcsolat helyreállításán dolgozunk. Kérjük, próbáld újra később.</p><p><a href="/">Vissza a főoldalra</a></p></main>'));
+  return res.type('html').send(directoryShell('A katalógus átmenetileg nem elérhető', '<main class="section"><h1>A katalógus átmenetileg nem elérhető</h1><p>Az adatbázis-kapcsolat jelenleg nem működik. Kérjük, próbáld újra később.</p><p><a href="/">Vissza a főoldalra</a></p></main>'));
 }
 app.set('trust proxy', 1);`);
 
   const migrationStart = server.indexOf('async function migrate() {');
   const migrationEnd = server.indexOf("\napp.get('/health',", migrationStart);
   assert(migrationStart >= 0 && migrationEnd > migrationStart, 'Migration block not found');
-  server = server.slice(0, migrationStart) + `async function migrate() {
+  server = server.slice(0, migrationStart) + String.raw`async function migrate() {
   const fs = require('fs');
   const zlib = require('zlib');
   const steps = ['001_init.sql', '002_directory.sql', '003_public_seed.sql'].map(name => ({
@@ -114,7 +113,7 @@ app.set('trust proxy', 1);`);
   const healthStart = server.indexOf("app.get('/health/db',");
   const healthEnd = server.indexOf("\napp.post('/api/admin/login',", healthStart);
   assert(healthStart >= 0 && healthEnd > healthStart, 'DB health block not found');
-  server = server.slice(0, healthStart) + `app.get(['/health/db', '/health/ready'], async (_req, res) => {
+  server = server.slice(0, healthStart) + String.raw`app.get(['/health/db', '/health/ready'], async (_req, res) => {
   res.set('Cache-Control', 'no-store');
   try {
     await pool.query('SELECT 1');
@@ -126,10 +125,10 @@ app.set('trust proxy', 1);`);
   }
 });
 
-// Do not present a fallback catalog as a successful database response.
+// A fallback menu is not evidence that the database is ready.
 app.use((req, res, next) => {
-  const needsDatabase = /^(?:\/api\/(?:public|directory|newsletter)(?:\/|$)|\/api\/admin\/(?:articles|media|subscribers|directory)(?:\/|\.|$)|\/(?:kereses|kategoria|szolgaltato|cikk|media|leiratkozas)(?:\/|$))/.test(req.path);
-  if (needsDatabase && !dbState.ready) return unavailable(req, res);
+  const prefixes = ['/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/cikk/', '/media/', '/leiratkozas/'];
+  if (!dbState.ready && prefixes.some(prefix => req.path.startsWith(prefix))) return unavailable(req, res);
   next();
 });
 ` + server.slice(healthEnd);
@@ -142,7 +141,7 @@ app.use((req, res, next) => {
   replaceOnce(`app.use((err, _req, res, _next) => {
   console.error(err);
   res.status(500).json({ error: err.message || 'Szerverhiba.' });
-});`, `app.use((err, req, res, _next) => {
+});`, String.raw`app.use((err, req, res, _next) => {
   const code = safeDbCode(err);
   console.error('[request]', req.path, code);
   if (res.headersSent) return _next(err);
@@ -152,7 +151,7 @@ app.use((req, res, next) => {
 
   const listenStart = server.indexOf("app.listen(PORT, '0.0.0.0', () => {");
   assert(listenStart >= 0, 'Listen block not found');
-  server = server.slice(0, listenStart) + `async function initializeDatabase() {
+  server = server.slice(0, listenStart) + String.raw`async function initializeDatabase() {
   dbState.phase = 'migrating';
   try {
     if (!DATABASE_URL) throw Object.assign(new Error('Missing database configuration'), { code: 'DATABASE_URL_MISSING' });
