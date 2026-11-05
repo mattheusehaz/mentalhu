@@ -313,17 +313,39 @@ app.get('/leiratkozas/:token', async (req, res) => {
 
 
 app.get('/api/public/categories', async (_req, res) => {
-  const { rows } = await pool.query(`
-    SELECT c.id,c.slug,c.name,c.group_name,c.description,c.icon,c.verification_level,
-           COUNT(lc.listing_id) FILTER (WHERE l.status='published')::int AS listing_count
-    FROM directory_categories c
-    LEFT JOIN directory_listing_categories lc ON lc.category_id=c.id
-    LEFT JOIN directory_listings l ON l.id=lc.listing_id
-    WHERE c.active=true
-    GROUP BY c.id
-    ORDER BY c.sort_order,c.name
-  `);
-  res.json(rows);
+  try {
+    const { rows } = await pool.query(`
+      SELECT c.id,c.slug,c.name,c.group_name,c.description,c.icon,c.verification_level,
+             COUNT(lc.listing_id) FILTER (WHERE l.status='published')::int AS listing_count
+      FROM directory_categories c
+      LEFT JOIN directory_listing_categories lc ON lc.category_id=c.id
+      LEFT JOIN directory_listings l ON l.id=lc.listing_id
+      WHERE c.active=true
+      GROUP BY c.id
+      ORDER BY c.sort_order,c.name
+    `);
+    res.json(rows);
+  } catch (err) {
+    console.error('categories API fallback:', err.message);
+    res.json([
+      {slug:'pszichologusok',name:'Pszichológusok',group_name:'Szakmai segítség',icon:'◌',verification_level:'professional',listing_count:0},
+      {slug:'pszichiaterek',name:'Pszichiáterek',group_name:'Szakmai segítség',icon:'✚',verification_level:'healthcare',listing_count:0},
+      {slug:'pszichoterapeutak',name:'Pszichoterapeuták',group_name:'Szakmai segítség',icon:'◎',verification_level:'healthcare',listing_count:0},
+      {slug:'mentalhigienes-szakemberek',name:'Mentálhigiénés szakemberek',group_name:'Szakmai segítség',icon:'○',verification_level:'professional',listing_count:0},
+      {slug:'par-es-csaladterapeutak',name:'Pár- és családterapeuták',group_name:'Szakmai segítség',icon:'♡',verification_level:'professional',listing_count:0},
+      {slug:'coachok',name:'Coachok',group_name:'Fejlődés és életvezetés',icon:'↗',verification_level:'professional',listing_count:0},
+      {slug:'mediatorok',name:'Mediátorok',group_name:'Fejlődés és életvezetés',icon:'⇄',verification_level:'professional',listing_count:0},
+      {slug:'dietetikusok',name:'Dietetikusok',group_name:'Test és jóllét',icon:'◒',verification_level:'healthcare',listing_count:0},
+      {slug:'masszorok',name:'Masszőrök',group_name:'Test és jóllét',icon:'≈',verification_level:'wellness',listing_count:0},
+      {slug:'fogaszatok',name:'Fogászatok',group_name:'Test és jóllét',icon:'◌',verification_level:'healthcare',listing_count:0},
+      {slug:'joga-es-mozgas',name:'Jóga és mozgás',group_name:'Test és jóllét',icon:'△',verification_level:'wellness',listing_count:0},
+      {slug:'kineziologusok',name:'Kineziológusok',group_name:'Alternatív és spirituális',icon:'∞',verification_level:'alternative',listing_count:0},
+      {slug:'asztrologusok',name:'Asztrológusok',group_name:'Alternatív és spirituális',icon:'✦',verification_level:'alternative',listing_count:0},
+      {slug:'kepzesek',name:'Képzések',group_name:'Programok és tudás',icon:'▤',verification_level:'education',listing_count:0},
+      {slug:'konferenciak-es-esemenyek',name:'Konferenciák és események',group_name:'Programok és tudás',icon:'◫',verification_level:'education',listing_count:0},
+      {slug:'magazinok-es-portalok',name:'Magazinok és portálok',group_name:'Programok és tudás',icon:'▧',verification_level:'media',listing_count:0}
+    ]);
+  }
 });
 
 app.get('/api/public/listings', async (req, res) => {
@@ -466,7 +488,7 @@ app.get('/cikk/:slug', async (req, res, next) => {
 
 
 function directoryShell(title, body) {
-  return `<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)} – MENTÁL.hu</title><link rel="stylesheet" href="/directory.css?v=logo-20261105"></head><body><header class="dir-header"><a class="brand-lockup" href="/" aria-label="MENTÁL.hu főoldal"><span class="brand-copy"><strong class="wordmark">MENTÁL<span>.hu</span></strong><small>MENTÁLIS EGÉSZSÉG • SZAKEMBEREK • TUDÁS</small></span></a><nav class="dir-nav"><a href="/#kategoriak">KATEGÓRIÁK</a><a href="/#kiemeltek">KIEMELTEK</a><a href="/#felkerules">FELKERÜLÉS</a></nav><div class="dir-actions"><a class="outline-btn" href="/admin">BELÉPÉS</a><a class="solid-btn" href="/#felkerules">SZOLGÁLTATÓ VAGYOK</a></div></header>${body}<footer class="footer"><div class="footer-inner"><div><div class="footer-brand">MENTÁL.hu</div><small>Találd meg, aki segíthet.</small></div><small>A katalógus tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai ajánlást.</small></div></footer></body></html>`;
+  return `<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)} – MENTÁL.hu</title><link rel="stylesheet" href="/directory.css?v=logo-20261105"></head><body><header class="dir-header"><a class="brand-lockup" href="/" aria-label="MENTÁL.hu főoldal"><svg class="brand-symbol" viewBox="0 0 52 44" aria-hidden="true"><path d="M5 35V16C5 10 9 6 14 6s9 4 9 10v19"></path><path d="M23 35V16c0-6 4-10 9-10s9 4 9 10v19"></path><circle cx="45" cy="11" r="4"></circle></svg><span class="brand-copy"><strong class="wordmark">MENTÁL<span>.hu</span></strong><small>szakemberek és szolgáltatások</small></span></a><nav class="dir-nav"><a href="/#kategoriak">KATEGÓRIÁK</a><a href="/#kiemeltek">KIEMELTEK</a><a href="/#felkerules">FELKERÜLÉS</a></nav><div class="dir-actions"><a class="outline-btn" href="/admin">BELÉPÉS</a><a class="solid-btn" href="/#felkerules">SZOLGÁLTATÓ VAGYOK</a></div></header>${body}<footer class="footer"><div class="footer-inner"><div><div class="footer-brand">MENTÁL.hu</div><small>Találd meg, aki segíthet.</small></div><small>A katalógus tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai ajánlást.</small></div></footer></body></html>`;
 }
 
 function listingCards(rows) {
