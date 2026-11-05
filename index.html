@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="MENTÁL.hu – szakemberek, szolgáltatók, képzések és mentális jólléthez kapcsolódó lehetőségek egy helyen.">
   <title>MENTÁL.hu – Mentális támogatás, egy helyen</title>
-  <link rel="stylesheet" href="/directory.css?v=design-20261105-2">
+  <link rel="stylesheet" href="/directory.css?v=design-20261105-3">
 </head>
 <body class="home-page">
 <header class="dir-header">
@@ -38,7 +38,17 @@
     <form id="searchForm" class="hero-search" action="/kereses">
       <span class="search-icon">⌕</span>
       <input id="q" name="q" autocomplete="off" placeholder="Szakember, szolgáltatás vagy téma keresése…">
-      <select id="cat" name="category" aria-label="Kategória"><option value="">Minden kategória</option></select>
+      <select id="cat" name="category" aria-label="Kategória">
+        <option value="">Minden kategória</option>
+        <option value="pszichologusok">Pszichológusok</option>
+        <option value="pszichiaterek">Pszichiáterek</option>
+        <option value="pszichoterapeutak">Pszichoterapeuták</option>
+        <option value="coachok">Coachok</option>
+        <option value="dietetikusok">Dietetikusok</option>
+        <option value="par-es-csaladterapeutak">Pár- és családterapeuták</option>
+        <option value="kepzesek">Képzések</option>
+        <option value="konferenciak-es-esemenyek">Konferenciák és események</option>
+      </select>
       <input id="city" name="city" placeholder="Város">
       <button>Keresés</button>
     </form>
@@ -61,47 +71,51 @@
     <div><h2>Böngéssz kategóriák szerint</h2></div>
     <a href="#minden-kategoria">Összes kategória →</a>
   </div>
-  <div id="quickCategories" class="quick-categories"><div class="skeleton-row">Kategóriák betöltése…</div></div>
+  <div id="quickCategories" class="quick-categories">
+    <a class="quick-category" href="/kategoria/pszichologusok"><span class="quick-icon">◌</span><strong>Pszichológusok</strong><small>Szakemberek és központok</small></a>
+    <a class="quick-category" href="/kategoria/pszichiaterek"><span class="quick-icon">✚</span><strong>Pszichiáterek</strong><small>Szakorvosok és rendelők</small></a>
+    <a class="quick-category" href="/kategoria/pszichoterapeutak"><span class="quick-icon">◎</span><strong>Pszichoterapeuták</strong><small>Terápiás segítség</small></a>
+    <a class="quick-category" href="/kategoria/coachok"><span class="quick-icon">↗</span><strong>Coachok</strong><small>Életvezetés és fejlődés</small></a>
+    <a class="quick-category" href="/kategoria/dietetikusok"><span class="quick-icon">◒</span><strong>Dietetikusok</strong><small>Táplálkozási segítség</small></a>
+    <a class="quick-category" href="/kategoria/par-es-csaladterapeutak"><span class="quick-icon">♡</span><strong>Pár- és családterápia</strong><small>Kapcsolati támogatás</small></a>
+    <a class="quick-category" href="/kategoria/kepzesek"><span class="quick-icon">▤</span><strong>Képzések</strong><small>Szakmai és önismereti</small></a>
+    <a class="quick-category" href="/kategoria/konferenciak-es-esemenyek"><span class="quick-icon">◫</span><strong>Események</strong><small>Konferenciák és workshopok</small></a>
+  </div>
 </section>
 
 <section class="home-block" id="szakemberek">
   <div class="block-head">
-    <div><h2>Kiemelt szakemberek és szolgáltatók</h2></div>
+    <div><h2>Szakemberek és szolgáltatók</h2></div>
     <a href="/kereses">Összes szolgáltató →</a>
   </div>
   <div id="featuredListings" class="provider-grid">
-    <div class="provider-card placeholder"><div class="provider-avatar">M</div><h3>A katalógus betöltése folyamatban…</h3></div>
+    <a class="provider-card" href="/szolgaltato/levitania-pszichologiai-kozpont"><div class="provider-top"><div class="provider-avatar">L</div><div><h3>Levitánia Pszichológiai Központ</h3><p>Pszichológiai központ</p></div></div><div class="provider-tags"><span>Pszichológia</span><span>Budapest</span></div><div class="provider-location">⌖ Budapest</div></a>
+    <a class="provider-card" href="/szolgaltato/lineamed-debrecen"><div class="provider-top"><div class="provider-avatar">L</div><div><h3>LineaMed</h3><p>Pszichiátriai és pszichológiai magánrendelés</p></div></div><div class="provider-tags"><span>Pszichiátria</span><span>Pszichológia</span></div><div class="provider-location">⌖ Debrecen</div></a>
+    <a class="provider-card" href="/szolgaltato/mentaline-szeged"><div class="provider-top"><div class="provider-avatar">M</div><div><h3>Mentaline Pszichológiai Stúdió</h3><p>Pszichológiai és mentálhigiénés stúdió</p></div></div><div class="provider-tags"><span>Pszichológia</span><span>Család</span></div><div class="provider-location">⌖ Szeged</div></a>
+    <a class="provider-card" href="/szolgaltato/rovienne-pecs"><div class="provider-top"><div class="provider-avatar">R</div><div><h3>Rovienne Pszichológiai Központ</h3><p>Pszichológiai és terápiás központ</p></div></div><div class="provider-tags"><span>Pszichoterápia</span><span>Pszichiátria</span></div><div class="provider-location">⌖ Pécs</div></a>
   </div>
 </section>
 
 <section class="resource-band" id="programok">
   <div class="home-block resource-inner">
-    <div class="block-head">
-      <div><h2>Programok, képzések és tudásforrások</h2></div>
-    </div>
+    <div class="block-head"><div><h2>Programok, képzések és tudásforrások</h2></div></div>
     <div class="resource-grid">
-      <a class="resource-card" href="/kategoria/kepzesek">
-        <img src="/assets/rec-2-hq.jpg" alt="">
-        <span>KÉPZÉSEK</span><h3>Tanulj, fejlődj, mélyülj el</h3><p>Szakmai és önismereti képzések egy helyen.</p><b>Megnézem →</b>
-      </a>
-      <a class="resource-card" href="/kategoria/konferenciak-es-esemenyek">
-        <img src="/assets/fresh-2-hq.jpg" alt="">
-        <span>ESEMÉNYEK</span><h3>Konferenciák és workshopok</h3><p>Találkozások, ahol tudás és kapcsolódás születik.</p><b>Megnézem →</b>
-      </a>
-      <a class="resource-card" href="/kategoria/magazinok-es-portalok">
-        <img src="/assets/rec-1-hq.jpg" alt="">
-        <span>MAGAZINOK ÉS PORTÁLOK</span><h3>Hiteles helyek, ahol tovább olvashatsz</h3><p>Mentális egészséggel foglalkozó kiadványok és oldalak.</p><b>Megnézem →</b>
-      </a>
+      <a class="resource-card" href="/kategoria/kepzesek"><img src="/assets/rec-2-hq.jpg" alt=""><span>KÉPZÉSEK</span><h3>Tanulj, fejlődj, mélyülj el</h3><p>Szakmai és önismereti képzések egy helyen.</p><b>Megnézem →</b></a>
+      <a class="resource-card" href="/kategoria/konferenciak-es-esemenyek"><img src="/assets/fresh-2-hq.jpg" alt=""><span>ESEMÉNYEK</span><h3>Konferenciák és workshopok</h3><p>Találkozások, ahol tudás és kapcsolódás születik.</p><b>Megnézem →</b></a>
+      <a class="resource-card" href="/kategoria/magazinok-es-portalok"><img src="/assets/rec-1-hq.jpg" alt=""><span>MAGAZINOK ÉS PORTÁLOK</span><h3>Hiteles helyek, ahol tovább olvashatsz</h3><p>Mentális egészséggel foglalkozó kiadványok és oldalak.</p><b>Megnézem →</b></a>
     </div>
   </div>
 </section>
 
 <section class="home-block all-categories" id="minden-kategoria">
-  <div class="block-head">
-    <div><h2>Minden kategória</h2></div>
-    <p>Egészségügyi, szakmai, jólléti és alternatív kategóriákat külön jelölünk.</p>
+  <div class="block-head"><div><h2>Minden kategória</h2></div><p>Egészségügyi, szakmai, jólléti és alternatív kategóriákat külön jelölünk.</p></div>
+  <div id="categoryGroups" class="category-groups">
+    <div class="category-group"><h3>Szakmai segítség</h3><div class="category-link-list"><a href="/kategoria/pszichologusok"><span>Pszichológusok</span><b>›</b></a><a href="/kategoria/pszichiaterek"><span>Pszichiáterek</span><b>›</b></a><a href="/kategoria/pszichoterapeutak"><span>Pszichoterapeuták</span><b>›</b></a><a href="/kategoria/mentalhigienes-szakemberek"><span>Mentálhigiénés szakemberek</span><b>›</b></a><a href="/kategoria/par-es-csaladterapeutak"><span>Pár- és családterapeuták</span><b>›</b></a></div></div>
+    <div class="category-group"><h3>Fejlődés és életvezetés</h3><div class="category-link-list"><a href="/kategoria/coachok"><span>Coachok</span><b>›</b></a><a href="/kategoria/mediatorok"><span>Mediátorok</span><b>›</b></a><a href="/kategoria/karrier-tanacsadok"><span>Karrier-tanácsadók</span><b>›</b></a></div></div>
+    <div class="category-group"><h3>Test és jóllét</h3><div class="category-link-list"><a href="/kategoria/dietetikusok"><span>Dietetikusok</span><b>›</b></a><a href="/kategoria/masszorok"><span>Masszőrök</span><b>›</b></a><a href="/kategoria/fogaszatok"><span>Fogászatok</span><b>›</b></a><a href="/kategoria/joga-es-mozgas"><span>Jóga és mozgás</span><b>›</b></a></div></div>
+    <div class="category-group"><h3>Alternatív és spirituális</h3><div class="category-link-list"><a href="/kategoria/kineziologusok"><span>Kineziológusok</span><b>›</b></a><a href="/kategoria/asztrologusok"><span>Asztrológusok</span><b>›</b></a><a href="/kategoria/termeszetgyogyaszat"><span>Természetgyógyászat</span><b>›</b></a></div></div>
+    <div class="category-group"><h3>Programok és tudás</h3><div class="category-link-list"><a href="/kategoria/kepzesek"><span>Képzések</span><b>›</b></a><a href="/kategoria/konferenciak-es-esemenyek"><span>Konferenciák és események</span><b>›</b></a><a href="/kategoria/magazinok-es-portalok"><span>Magazinok és portálok</span><b>›</b></a><a href="/kategoria/podcastok-es-konyvek"><span>Podcastok és könyvek</span><b>›</b></a></div></div>
   </div>
-  <div id="categoryGroups" class="category-groups"><div class="skeleton-row">Kategóriák betöltése…</div></div>
 </section>
 
 <section class="trust-strip">
@@ -111,38 +125,20 @@
 </section>
 
 <section class="provider-cta" id="felkerules">
-  <div class="provider-cta-copy">
-    
-    <h2>Legyél megtalálható a MENTÁL.hu-n</h2>
-    <p>Segítő szakember, rendelő, képzőhely, rendezvényszervező vagy jólléti szolgáltató vagy? Küldd be az adataidat, mi pedig kategorizáljuk és moderáljuk a profilt.</p>
-  </div>
+  <div class="provider-cta-copy"><h2>Legyél megtalálható a MENTÁL.hu-n</h2><p>Segítő szakember, rendelő, képzőhely, rendezvényszervező vagy jólléti szolgáltató vagy? Küldd be az adataidat, mi pedig kategorizáljuk és moderáljuk a profilt.</p></div>
   <details class="registration-box">
     <summary>Szolgáltatói regisztráció →</summary>
     <form id="submitForm" class="submit-form">
-      <input name="name" required placeholder="Szolgáltató / szakember neve">
-      <input name="contact_name" placeholder="Kapcsolattartó neve">
-      <input name="email" type="email" required placeholder="E-mail">
-      <input name="phone" placeholder="Telefon">
-      <input name="website_url" placeholder="Weboldal">
-      <input name="city" placeholder="Város">
-      <select name="category_slugs" id="submitCategory"><option value="">Kategória</option></select>
-      <label class="checkline"><input type="checkbox" name="online_available"> Online is elérhető</label>
-      <textarea name="description" placeholder="Rövid bemutatkozás, szolgáltatás"></textarea>
-      <textarea name="qualifications" placeholder="Végzettség / képesítés / szakmai háttér"></textarea>
-      <label class="consent"><input required type="checkbox" name="consent"> Hozzájárulok, hogy a beküldött adataimat a MENTÁL.hu a jelentkezés elbírálásához kezelje.</label>
-      <button>Beküldöm →</button>
-      <div id="submitMsg" class="form-message"></div>
+      <input name="name" required placeholder="Szolgáltató / szakember neve"><input name="contact_name" placeholder="Kapcsolattartó neve"><input name="email" type="email" required placeholder="E-mail"><input name="phone" placeholder="Telefon"><input name="website_url" placeholder="Weboldal"><input name="city" placeholder="Város">
+      <select name="category_slugs" id="submitCategory"><option value="">Kategória</option><option value="pszichologusok">Pszichológusok</option><option value="pszichiaterek">Pszichiáterek</option><option value="coachok">Coachok</option><option value="dietetikusok">Dietetikusok</option></select>
+      <label class="checkline"><input type="checkbox" name="online_available"> Online is elérhető</label><textarea name="description" placeholder="Rövid bemutatkozás, szolgáltatás"></textarea><textarea name="qualifications" placeholder="Végzettség / képesítés / szakmai háttér"></textarea><label class="consent"><input required type="checkbox" name="consent"> Hozzájárulok, hogy a beküldött adataimat a MENTÁL.hu a jelentkezés elbírálásához kezelje.</label><button>Beküldöm →</button><div id="submitMsg" class="form-message"></div>
     </form>
   </details>
 </section>
 </main>
 
-<footer class="footer">
-  <div class="footer-inner">
-    <a class="footer-brand" href="/">MENTÁL.hu</a>
-    <nav><a href="#kategoriak">Kategóriák</a><a href="#szakemberek">Szakemberek</a><a href="#felkerules">Regisztráció</a><a href="/admin">Admin</a></nav>
-    <small>A MENTÁL.hu katalógusa tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai vagy egészségügyi ajánlást.</small>
-  </div>
-</footer>
+<footer class="footer"><div class="footer-inner"><a class="footer-brand" href="/">MENTÁL.hu</a><nav><a href="#kategoriak">Kategóriák</a><a href="#szakemberek">Szakemberek</a><a href="#felkerules">Regisztráció</a><a href="/admin">Admin</a></nav><small>A MENTÁL.hu katalógusa tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai vagy egészségügyi ajánlást.</small></div></footer>
 
-<script src="/directory.js?v=20261105-2" defer></script>\n</body></html>
+<script src="/directory.js?v=20261105-3" defer></script>
+</body>
+</html>
