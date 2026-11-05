@@ -356,12 +356,12 @@ app.get('/api/public/listings', async (req, res) => {
   const limit = Math.min(100, Math.max(1, Number(req.query.limit || 30)));
   const params = [];
   const where = ["l.status='published'"];
-  if (category) { params.push(category); where.push(`c.slug=${params.length}`); }
-  if (city) { params.push(city); where.push(`lower(l.city)=lower(${params.length})`); }
+  if (category) { params.push(category); where.push('c.slug=$' + params.length); }
+  if (city) { params.push(city); where.push('lower(l.city)=lower($' + params.length + ')'); }
   if (online) where.push('l.online_available=true');
   if (q) {
     params.push('%' + q + '%');
-    where.push(`(l.name ILIKE ${params.length} OR l.short_description ILIKE ${params.length} OR l.specialties ILIKE ${params.length} OR l.city ILIKE ${params.length})`);
+    where.push('(l.name ILIKE $' + params.length + ' OR l.short_description ILIKE $' + params.length + ' OR l.specialties ILIKE $' + params.length + ' OR l.city ILIKE $' + params.length + ')');
   }
   params.push(limit);
   const { rows } = await pool.query(`
@@ -376,7 +376,7 @@ app.get('/api/public/listings', async (req, res) => {
     WHERE ${where.join(' AND ')}
     GROUP BY l.id
     ORDER BY l.featured DESC,l.verified DESC,l.name
-    LIMIT ${params.length}
+    LIMIT $${params.length}
   `, params);
   res.json(rows.map(x => ({...x, profile_image_url:x.profile_image_id?'/media/'+x.profile_image_id:null, logo_image_url:x.logo_image_id?'/media/'+x.logo_image_id:null, url:'/szolgaltato/'+x.slug})));
 });
@@ -498,12 +498,12 @@ function listingCards(rows) {
 
 async function queryListings({category='',city='',q='',online=false,limit=60}) {
   const params=[]; const where=["l.status='published'"];
-  if(category){params.push(category);where.push(`c.slug=${params.length}`)}
-  if(city){params.push(city);where.push(`lower(l.city)=lower(${params.length})`)}
+  if(category){params.push(category);where.push('c.slug=$' + params.length)}
+  if(city){params.push(city);where.push('lower(l.city)=lower($' + params.length + ')')}
   if(online)where.push('l.online_available=true');
-  if(q){params.push('%'+q+'%');where.push(`(l.name ILIKE ${params.length} OR l.short_description ILIKE ${params.length} OR l.specialties ILIKE ${params.length} OR l.city ILIKE ${params.length})`)}
+  if(q){params.push('%'+q+'%');where.push('(l.name ILIKE $' + params.length + ' OR l.short_description ILIKE $' + params.length + ' OR l.specialties ILIKE $' + params.length + ' OR l.city ILIKE $' + params.length + ')')}
   params.push(limit);
-  const {rows}=await pool.query(`SELECT l.*,COALESCE(json_agg(DISTINCT jsonb_build_object('slug',c.slug,'name',c.name,'verification_level',c.verification_level)) FILTER(WHERE c.id IS NOT NULL),'[]') AS categories FROM directory_listings l LEFT JOIN directory_listing_categories lc ON lc.listing_id=l.id LEFT JOIN directory_categories c ON c.id=lc.category_id WHERE ${where.join(' AND ')} GROUP BY l.id ORDER BY l.featured DESC,l.verified DESC,l.name LIMIT ${params.length}`,params);
+  const {rows}=await pool.query(`SELECT l.*,COALESCE(json_agg(DISTINCT jsonb_build_object('slug',c.slug,'name',c.name,'verification_level',c.verification_level)) FILTER(WHERE c.id IS NOT NULL),'[]') AS categories FROM directory_listings l LEFT JOIN directory_listing_categories lc ON lc.listing_id=l.id LEFT JOIN directory_categories c ON c.id=lc.category_id WHERE ${where.join(' AND ')} GROUP BY l.id ORDER BY l.featured DESC,l.verified DESC,l.name LIMIT $${params.length}`,params);
   return rows;
 }
 
