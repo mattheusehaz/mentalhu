@@ -108,12 +108,16 @@ async function migrate() {
   }
 }
 
-app.get('/health', async (_req, res) => {
+app.get('/health', (_req, res) => {
+  res.status(200).json({ ok: true, service: 'mentalhu' });
+});
+
+app.get('/health/db', async (_req, res) => {
   try {
     await pool.query('SELECT 1');
-    res.json({ ok: true, database: true });
-  } catch {
-    res.status(503).json({ ok: false, database: false });
+    res.status(200).json({ ok: true, database: true });
+  } catch (err) {
+    res.status(503).json({ ok: false, database: false, error: err.code || err.message });
   }
 });
 
@@ -510,8 +514,8 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({ error: err.message || 'Szerverhiba.' });
 });
 
-app.listen(PORT, () => {
-  console.log(`MENTÁL.hu CMS listening on ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`MENTÁL.hu CMS listening on 0.0.0.0:${PORT}`);
   migrate()
     .then(() => console.log('Database migrations completed'))
     .catch(err => console.error('Migration failed', err));
