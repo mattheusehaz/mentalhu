@@ -1,0 +1,40 @@
+name: Permission repair integration
+on:
+  push:
+    branches: [fix/one-command-db-repair-20261106]
+    paths:
+      - scripts/repair-database.cjs
+      - scripts/test-permission-repair.cjs
+      - .github/workflows/permission-repair.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  permission-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ci_admin
+          POSTGRES_PASSWORD: ci-local-database-only
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ci_admin -d postgres"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://ci_admin:ci-local-database-only@127.0.0.1:5432/postgres
+      PGSSLMODE: disable
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci
+      - run: node --check scripts/repair-database.cjs
+      - name: Reproduce 42501 and repair without changing the running server
+        run: node scripts/test-permission-repair.cjs
