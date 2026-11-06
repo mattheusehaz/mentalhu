@@ -1,0 +1,72 @@
+{
+  "existing": 399,
+  "candidate_entities": 1323,
+  "new_entities": 1310,
+  "projected_unique_total": 1709,
+  "categories": {
+    "pszichologusok": 226,
+    "pszichiaterek": 44,
+    "pszichoterapeutak": 119,
+    "mentalhigienes-szakemberek": 45,
+    "par-es-csaladterapeutak": 893,
+    "coachok": 216,
+    "mediatorok": 52,
+    "karrier-tanacsadok": 0,
+    "dietetikusok": 25,
+    "masszorok": 94,
+    "fogaszatok": 77,
+    "joga-es-mozgas": 18,
+    "alvas-es-relaxacio": 38,
+    "kineziologusok": 2,
+    "asztrologusok": 14,
+    "termeszetgyogyaszat": 3,
+    "kepzesek": 4,
+    "konferenciak-es-esemenyek": 0,
+    "magazinok-es-portalok": 5,
+    "podcastok-es-konyvek": 0,
+    "kozossegek-es-csoportok": 0,
+    "csaladallitas": 25
+  },
+  "below_minimum": {
+    "karrier-tanacsadok": 0,
+    "joga-es-mozgas": 18,
+    "kineziologusok": 2,
+    "asztrologusok": 14,
+    "termeszetgyogyaszat": 3,
+    "kepzesek": 4,
+    "konferenciak-es-esemenyek": 0,
+    "magazinok-es-portalok": 5,
+    "podcastok-es-konyvek": 0,
+    "kozossegek-es-csoportok": 0
+  },
+  "sources": [
+    {
+      "source": "csalad",
+      "new_candidates": 863
+    },
+    {
+      "source": "csaladmental",
+      "new_candidates": 28
+    },
+    {
+      "source": "integrativ",
+      "new_candidates": 84
+    },
+    {
+      "source": "metamese",
+      "new_candidates": 29
+    },
+    {
+      "source": "icf",
+      "new_candidates": 203
+    },
+    {
+      "source": "icon",
+      "new_candidates": 25
+    },
+    {
+      "source": "winwin",
+      "new_candidates": 47
+    }
+  ]
+}

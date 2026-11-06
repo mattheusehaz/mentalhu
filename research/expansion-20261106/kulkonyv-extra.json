@@ -1,0 +1,1015 @@
+{
+  "url": "https://nyitottakademia.hu/",
+  "title": "Nyitott Akadémia ...a lélek dolgai",
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "AKCIÓS KÖNYVVÁSÁR",
+      "attrs": {
+        "class": [
+          "event-card__title"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "A bél-agy-immun-hormon-kapcsolat",
+      "attrs": {
+        "class": [
+          "event-card__title"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "A bél-agy-immun-hormon-kapcsolat",
+      "attrs": {
+        "class": [
+          "event-card__title"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Sikerlista",
+      "attrs": {
+        "class": [
+          "section__title",
+          "section__title--mb-0"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Terri Cole",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Szigethi Zsófia",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Unoka Zsolt",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Nico Sternbaum",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "John Bradshaw",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Legújabb kiadványaink",
+      "attrs": {
+        "class": [
+          "section__title",
+          "section__title--mb-0"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Jagi Dzsimpei",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Szigethi Zsófia",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "John Bradshaw",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Terri Cole",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Unoka Zsolt",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Szigethi Zsófia",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Nico Sternbaum",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Schéder Veronika",
+      "attrs": {
+        "class": [
+          "book-card__author"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Rendezvénynaptár",
+      "attrs": {
+        "class": [
+          "section__title"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "AKCIÓS KÖNYVVÁSÁR",
+      "attrs": {
+        "class": [
+          "event-card__title"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "A bél-agy-immun-hormon-kapcsolat",
+      "attrs": {
+        "class": [
+          "event-card__title"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "A bél-agy-immun-hormon-kapcsolat",
+      "attrs": {
+        "class": [
+          "event-card__title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Hírlevél",
+      "attrs": {
+        "class": [
+          "quicknav__title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Magazin",
+      "attrs": {
+        "class": [
+          "quicknav__title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Kövess Facebookon!",
+      "attrs": {
+        "class": [
+          "quicknav__title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "#nyitott.akademia",
+      "attrs": {
+        "class": [
+          "quicknav__title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Ügyfélfogadás",
+      "attrs": {
+        "class": [
+          "footer__title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Irodánk címe",
+      "attrs": {
+        "class": [
+          "footer__title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Irodánk megközelíthető",
+      "attrs": {
+        "class": [
+          "footer__title"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "name": "0 Kosár",
+      "url": "https://nyitottakademia.hu/checkout/index",
+      "attrs": {
+        "href": "/checkout/index",
+        "class": [
+          "btn",
+          "btn--show-cart",
+          "js-show-cart"
+        ]
+      }
+    },
+    {
+      "name": "ONLINE jegyvásárlás",
+      "url": "https://nyitottakademia.hu/rendezvenyek",
+      "attrs": {
+        "class": [
+          "btn",
+          "btn--online-ticket"
+        ],
+        "href": "/rendezvenyek"
+      }
+    },
+    {
+      "name": "Nyitólap",
+      "url": "https://nyitottakademia.hu/nyitolap",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/nyitolap"
+      }
+    },
+    {
+      "name": "Rendezvények",
+      "url": "https://nyitottakademia.hu/rendezvenyek",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/rendezvenyek"
+      }
+    },
+    {
+      "name": "Kiadványok",
+      "url": "https://nyitottakademia.hu/webshop/kulcslyuk-kiado-konyvei",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/webshop/kulcslyuk-kiado-konyvei"
+      }
+    },
+    {
+      "name": "Auditórium",
+      "url": "https://auditorium.hu",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "target": "_blank",
+        "href": "https://auditorium.hu"
+      }
+    },
+    {
+      "name": "Bejelentkezés",
+      "url": "https://nyitottakademia.hu/belepes",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/belepes"
+      }
+    },
+    {
+      "name": "10-25% kiadói kedvezmény a Kulcslyuk Kiadó összes könyvére",
+      "url": "https://nyitottakademia.hu/webshop/kulcslyuk-kiado-konyvei",
+      "attrs": {
+        "href": "/webshop/kulcslyuk-kiado-konyvei",
+        "class": [
+          "feature__link"
+        ]
+      }
+    },
+    {
+      "name": "Ingyenes kiszállítás 2024. okt. 1. után megjelenő könyvek – 15 000 Ft felett Korábban megjelent könyvek – 10 000 Ft felett",
+      "url": "https://nyitottakademia.hu/szallitasi-koltsegek",
+      "attrs": {
+        "href": "/szallitasi-koltsegek",
+        "class": [
+          "feature__link"
+        ]
+      }
+    },
+    {
+      "name": "Előadóink, szerzőink Nézd meg, kikkel találkozhatsz nálunk!",
+      "url": "https://nyitottakademia.hu/eloadok",
+      "attrs": {
+        "href": "/eloadok",
+        "class": [
+          "feature__link"
+        ]
+      }
+    },
+    {
+      "name": "Bővebb információ",
+      "url": "https://nyitottakademia.hu/rendezvenyek/szeged/akcios-konyvvasar-2489",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/rendezvenyek/szeged/akcios-konyvvasar-2489",
+        "class": [
+          "btn",
+          "btn--secondary"
+        ]
+      }
+    },
+    {
+      "name": "Bővebb információ és jegyvásárlás",
+      "url": "https://nyitottakademia.hu/rendezvenyek/tata/a-belagyimmunhormonkapcsolat-2474",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/rendezvenyek/tata/a-belagyimmunhormonkapcsolat-2474",
+        "class": [
+          "btn",
+          "btn--secondary"
+        ]
+      }
+    },
+    {
+      "name": "Bővebb információ és jegyvásárlás",
+      "url": "https://nyitottakademia.hu/rendezvenyek/szekszard/a-belagyimmunhormonkapcsolat-2485",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/rendezvenyek/szekszard/a-belagyimmunhormonkapcsolat-2485",
+        "class": [
+          "btn",
+          "btn--secondary"
+        ]
+      }
+    },
+    {
+      "name": "1 -10 % ÚJ Apaseb Terri Cole Eredeti ár: 5 500 Ft Online ár: 4 950 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "2 -25 % Láthatatlan akadályok Szigethi Zsófia Eredeti ár: 4 990 Ft Online ár: 3 740 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_lathatatlan-akadalyok-6996",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_lathatatlan-akadalyok-6996",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_lathatatlan-akadalyok-6996",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_lathatatlan-akadalyok-6996",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "3 -10 % ÚJ Élettörténeted térképe Unoka Zsolt Eredeti ár: 6 990 Ft Online ár: 6 290 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "4 -25 % ÚJ Rázd meg a karácsonyfát! Nico Sternbaum Eredeti ár: 4 500 Ft Online ár: 3 380 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "5 -25 % Hazatérés önmagadhoz John Bradshaw Eredeti ár: 4 490 Ft Online ár: 3 370 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_hazateres-onmagadhoz-6055",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_hazateres-onmagadhoz-6055",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_hazateres-onmagadhoz-6055",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_hazateres-onmagadhoz-6055",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "Teljes lista",
+      "url": "https://nyitottakademia.hu/sikerlista",
+      "attrs": {
+        "href": "/sikerlista",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-10 % Előrendelhető! Jagi Dzsimpei Dzsikorikai A japán módszer, amellyel rátalálhatsz a valódi hivatásodra Eredeti ár: 4 800 Ft Online ár: 4 320 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/jagi-dzsimpei_dzsikorikai-7997",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/jagi-dzsimpei_dzsikorikai-7997",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/jagi-dzsimpei_dzsikorikai-7997",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/jagi-dzsimpei_dzsikorikai-7997",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-10 % Előrendelhető! Szigethi Zsófia A Kifli család meséi Ismerkedés az érzelmek világával Eredeti ár: 4 500 Ft Online ár: 4 050 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_a-kifli-csalad-mesei-7824",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_a-kifli-csalad-mesei-7824",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_a-kifli-csalad-mesei-7824",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_a-kifli-csalad-mesei-7824",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-10 % Előrendelhető! John Bradshaw Értsd meg a családodat, hogy megértsd önmagad! Eredeti ár: 4 990 Ft Online ár: 4 490 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_ertsd-meg-a-csaladodat-hogy-megertsd-onmagad-7520",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_ertsd-meg-a-csaladodat-hogy-megertsd-onmagad-7520",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_ertsd-meg-a-csaladodat-hogy-megertsd-onmagad-7520",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_ertsd-meg-a-csaladodat-hogy-megertsd-onmagad-7520",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-10 % Terri Cole Apaseb Gyógyítsd meg a benned élő gyermeket, és vedd vissza a saját erődet Eredeti ár: 5 500 Ft Online ár: 4 950 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-10 % Unoka Zsolt Élettörténeted térképe Társszerző 1. - Sématerápia és önismeret Eredeti ár: 6 990 Ft Online ár: 6 290 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-10 % Szigethi Zsófia Kifli Sanyi Érzelmek, barátságok, beszélgetések Eredeti ár: 4 500 Ft Online ár: 4 050 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_kifli-sanyi-7781",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_kifli-sanyi-7781",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_kifli-sanyi-7781",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_kifli-sanyi-7781",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-25 % Nico Sternbaum Rázd meg a karácsonyfát! Szórakoztató és fejlesztő interaktív könyv gyerekeknek Eredeti ár: 4 500 Ft Online ár: 3 380 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/nico-sternbaum_razd-meg-a-karacsonyfat-7780",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "-10 % Schéder Veronika Betűbalett - A titkos nyelv A betűtanulást, az olvasási készséget fejlesztő mesekönyv az Integratív Diszlexia Terápia(R)… Eredeti ár: 4 500 Ft Online ár: 4 050 Ft",
+      "url": "https://nyitottakademia.hu/webshop/konyv/scheder-veronika_betubalett-7774",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/scheder-veronika_betubalett-7774",
+        "class": [
+          "book-card__content"
+        ]
+      }
+    },
+    {
+      "name": "Részletek",
+      "url": "https://nyitottakademia.hu/webshop/konyv/scheder-veronika_betubalett-7774",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/webshop/konyv/scheder-veronika_betubalett-7774",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "További könyveink",
+      "url": "https://nyitottakademia.hu/webshop/kulcslyuk-kiado-konyvei",
+      "attrs": {
+        "href": "/webshop/kulcslyuk-kiado-konyvei",
+        "class": [
+          "btn",
+          "btn--secondary"
+        ]
+      }
+    },
+    {
+      "name": "7",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261107"
+      }
+    },
+    {
+      "name": "9",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261109"
+      }
+    },
+    {
+      "name": "10",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261110"
+      }
+    },
+    {
+      "name": "11",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261111"
+      }
+    },
+    {
+      "name": "12",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261112"
+      }
+    },
+    {
+      "name": "14",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261114"
+      }
+    },
+    {
+      "name": "18",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261118"
+      }
+    },
+    {
+      "name": "19",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261119"
+      }
+    },
+    {
+      "name": "22",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261122"
+      }
+    },
+    {
+      "name": "25",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261125"
+      }
+    },
+    {
+      "name": "26",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261126"
+      }
+    },
+    {
+      "name": "27",
+      "url": "https://nyitottakademia.hu/",
+      "attrs": {
+        "href": "#",
+        "class": [
+          "calendar__event",
+          "js-calendar-day"
+        ],
+        "data-calendar-day__date": "20261127"
+      }
+    },
+    {
+      "name": "Bővebb információ",
+      "url": "https://nyitottakademia.hu/rendezvenyek/szeged/akcios-konyvvasar-2489",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/rendezvenyek/szeged/akcios-konyvvasar-2489",
+        "class": [
+          "btn",
+          "btn--secondary"
+        ]
+      }
+    },
+    {
+      "name": "Bővebb információ és jegyvásárlás",
+      "url": "https://nyitottakademia.hu/rendezvenyek/tata/a-belagyimmunhormonkapcsolat-2474",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/rendezvenyek/tata/a-belagyimmunhormonkapcsolat-2474",
+        "class": [
+          "btn",
+          "btn--secondary"
+        ]
+      }
+    },
+    {
+      "name": "Bővebb információ és jegyvásárlás",
+      "url": "https://nyitottakademia.hu/rendezvenyek/szekszard/a-belagyimmunhormonkapcsolat-2485",
+      "attrs": {
+        "href": "https://nyitottakademia.hu/rendezvenyek/szekszard/a-belagyimmunhormonkapcsolat-2485",
+        "class": [
+          "btn",
+          "btn--secondary"
+        ]
+      }
+    },
+    {
+      "name": "További rendezvényeink",
+      "url": "https://nyitottakademia.hu/rendezvenyek",
+      "attrs": {
+        "href": "/rendezvenyek",
+        "class": [
+          "btn",
+          "btn--outline-secondary"
+        ]
+      }
+    },
+    {
+      "name": "Hírlevél",
+      "url": "https://nyitottakademia.hu/hirlevel-feliratkozas",
+      "attrs": {
+        "href": "/hirlevel-feliratkozas",
+        "class": [
+          "quicknav"
+        ]
+      }
+    },
+    {
+      "name": "Magazin",
+      "url": "https://nyitottakademia.hu/magazin",
+      "attrs": {
+        "href": "/magazin",
+        "class": [
+          "quicknav"
+        ]
+      }
+    },
+    {
+      "name": "Kövess Facebookon!",
+      "url": "https://www.facebook.com/nyitottakademia/",
+      "attrs": {
+        "href": "https://www.facebook.com/nyitottakademia/",
+        "target": "_blank",
+        "class": [
+          "quicknav"
+        ]
+      }
+    },
+    {
+      "name": "#nyitott.akademia",
+      "url": "https://www.instagram.com/nyitott.akademia/",
+      "attrs": {
+        "href": "https://www.instagram.com/nyitott.akademia/",
+        "target": "_blank",
+        "class": [
+          "quicknav"
+        ]
+      }
+    },
+    {
+      "name": "Kedvezményeink",
+      "url": "https://nyitottakademia.hu/kedvezmenyek",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/kedvezmenyek"
+      }
+    },
+    {
+      "name": "Átvételi információk",
+      "url": "https://nyitottakademia.hu/atveteli-informaciok",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/atveteli-informaciok"
+      }
+    },
+    {
+      "name": "Vásárlási tudnivalók",
+      "url": "https://nyitottakademia.hu/vasarlasi-tudnivalok",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/vasarlasi-tudnivalok"
+      }
+    },
+    {
+      "name": "Adatkezelési tájékoztató",
+      "url": "https://nyitottakademia.hu/adatkezeles",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/adatkezeles"
+      }
+    },
+    {
+      "name": "Online elállás",
+      "url": "https://nyitottakademia.hu/elallas",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/elallas"
+      }
+    },
+    {
+      "name": "Impresszum",
+      "url": "https://nyitottakademia.hu/impresszum",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/impresszum"
+      }
+    },
+    {
+      "name": "Kapcsolat",
+      "url": "https://nyitottakademia.hu/kapcsolat",
+      "attrs": {
+        "class": [
+          "nav__link"
+        ],
+        "href": "/kapcsolat"
+      }
+    },
+    {
+      "name": "Térkép megtekintése",
+      "url": "https://nyitottakademia.hu/kapcsolat",
+      "attrs": {
+        "href": "/kapcsolat",
+        "class": [
+          "btn",
+          "btn--outline-light",
+          "footer__link"
+        ]
+      }
+    }
+  ]
+}
