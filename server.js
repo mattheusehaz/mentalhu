@@ -70,6 +70,7 @@ function auth(req, res, next) {
     const token = req.cookies.mental_cms;
     if (!token) return res.status(401).json({ error: 'Nincs bejelentkezve.' });
     req.user = jwt.verify(token, JWT_SECRET);
+    if(req.user.role!=='admin')return res.status(403).json({error:'Adminisztrátori jogosultság szükséges.'});
     next();
   } catch {
     res.clearCookie('mental_cms');
@@ -122,6 +123,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -167,10 +169,14 @@ app.get(['/health/db', '/health/ready'], async (_req, res) => {
 
 // A fallback menu is not evidence that the database is ready.
 app.use((req, res, next) => {
-  const prefixes = ['/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/cikk/', '/media/', '/leiratkozas/'];
+  const prefixes = ['/api/contact/', '/api/admin/contact/', '/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/cikk/', '/media/', '/leiratkozas/'];
   if (!dbState.ready && prefixes.some(prefix => req.path.startsWith(prefix))) return unavailable(req, res);
   next();
 });
+
+const contactService = require('./lib/contact-inquiries.cjs').createContactService({pool,auth,dbState,audit});
+contactService.register(app);
+contactService.start();
 
 app.post('/api/admin/login', authLimiter, async (req, res) => {
   const email = String(req.body.email || '').trim().toLowerCase();
@@ -391,7 +397,8 @@ app.get('/api/public/listings/:slug', async (req, res) => {
   `, [req.params.slug]);
   if (!rows[0]) return res.status(404).json({error:'Nem található.'});
   const x=rows[0];
-  res.json({...x,profile_image_url:x.profile_image_id?'/media/'+x.profile_image_id:null,logo_image_url:x.logo_image_id?'/media/'+x.logo_image_id:null});
+  const {admin_notes,email_source_url,contact_disabled,...publicListing}=x;
+  res.json({...publicListing,profile_image_url:x.profile_image_id?'/media/'+x.profile_image_id:null,logo_image_url:x.logo_image_id?'/media/'+x.logo_image_id:null});
 });
 
 app.post('/api/directory/submit', newsletterLimiter, async (req, res) => {
@@ -498,13 +505,18 @@ app.get('/szolgaltato/:slug', async(req,res,next)=>{
   const isAlt=(x.categories||[]).some(c=>c.verification_level==='alternative'),isHealth=(x.categories||[]).some(c=>c.verification_level==='healthcare');
   const disclosure=isAlt?'Alternatív / nem egészségügyi szolgáltatás. Nem helyettesíti az egészségügyi ellátást.':isHealth?'Egészségügyi vagy szabályozott szakmai terület. A jogosultságokat érdemes a megfelelő nyilvántartásban is ellenőrizni.':'A profil a szolgáltató által megadott és/vagy nyilvánosan elérhető információkat tartalmaz.';
   const body=`<main><section class="directory-hero"><div class="directory-hero-inner"><div><div class="kicker">${(x.categories||[]).map(c=>escapeHtml(c.name)).join(' · ')}</div><h1>${escapeHtml(x.name)}</h1><p>${escapeHtml(x.short_description)}</p><div class="chips">${x.online_available?'<span class="chip">Online is</span>':''}${x.verified?'<span class="chip">✓ Ellenőrzött adatok</span>':''}<span class="chip">${escapeHtml(x.city||'Magyarország')}</span></div><div class="trust-note"><span class="trust-dot">i</span><div>${escapeHtml(disclosure)}</div></div></div><aside class="hero-side">${x.profile_image_id?'<img src="/media/'+x.profile_image_id+'" style="width:100%;max-height:320px;object-fit:cover" alt="">':''}<h3>Kapcsolat</h3>${x.website_url?'<p><a href="'+escapeHtml(x.website_url)+'" target="_blank" rel="noopener">Weboldal ↗</a></p>':''}${x.booking_url?'<p><a class="solid-btn" href="'+escapeHtml(x.booking_url)+'" target="_blank" rel="noopener">IDŐPONT / FOGLALÁS</a></p>':''}${x.phone?'<p>'+escapeHtml(x.phone)+'</p>':''}</aside></div></section><section class="section"><div style="display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:40px"><article><div class="section-head"><div><h2>Bemutatkozás</h2></div></div><p style="font:18px/1.7 Georgia,serif;color:#4e5c54;white-space:pre-wrap">${escapeHtml(x.description||x.short_description)}</p></article><aside style="background:#e7ece3;padding:24px"><h3 style="font:normal 25px Georgia,serif;color:#153c30">Adatok</h3>${x.qualifications?'<p><strong>Végzettség / háttér</strong><br>'+escapeHtml(x.qualifications)+'</p>':''}${x.specialties?'<p><strong>Szakterületek</strong><br>'+escapeHtml(x.specialties)+'</p>':''}${x.price_info?'<p><strong>Árak</strong><br>'+escapeHtml(x.price_info)+'</p>':''}${x.languages?'<p><strong>Nyelvek</strong><br>'+escapeHtml(x.languages)+'</p>':''}${x.address?'<p><strong>Cím</strong><br>'+escapeHtml(x.address)+'</p>':''}</aside></div></section></main>`;
-  res.type('html').send(directoryShell(x.name,body));
+  const sourceLink=x.source_url?'<p><a href="'+escapeHtml(x.source_url)+'" target="_blank" rel="noopener noreferrer">Nyilvános forrás és elérhetőség ↗</a></p>':'';
+  const eventInfo=x.event_start?'<p>Meghirdetett időpont: '+escapeHtml(new Date(x.event_start).toLocaleString('hu-HU',{timeZone:'Europe/Budapest'}))+'</p>':'';
+  const profile=body.replace('<h3>Kapcsolat</h3>','<h3>Kapcsolat</h3>'+sourceLink+eventInfo+'<p><a class="solid-btn" href="#kapcsolat">Kapcsolatfelvételi űrlap</a></p>');
+  res.type('html').send(directoryShell(x.name,profile.replace('</main>',contactService.markup(x)+'</main>')));
 });
 
 function escapeHtml(s='') {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 }
 
+// Do not expose application code, migrations or research snapshots as static pages.
+app.use((req,res,next)=>{const p=req.path.toLowerCase();if(/^\/(?:research|scripts|lib|migrations|node_modules|\.git|\.github|test|tests)(?:\/|$)/.test(p)||/^\/(?:server\.js|package(?:-lock)?\.json|procfile|dockerfile|readme(?:\.md)?|\.env.*)$/.test(p))return res.status(404).end();next();});
 app.use('/admin', express.static(path.join(ROOT, 'admin'), { index: 'index.html' }));
 app.use(express.static(ROOT, { extensions: ['html'], index: 'index.html' }));
 

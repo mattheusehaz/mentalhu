@@ -1,0 +1,11 @@
+{
+  "exact_website_aliases": [
+    {
+      "old_candidate_slug": "mindennapi-pszichologia",
+      "existing_slug": "mindennapi-pszichologia-mipszi",
+      "name": "Mindennapi Pszichológia",
+      "existing_name": "Mindennapi Pszichológia – MiPszi",
+      "website": "https://mipszi.hu/"
+    }
+  ]
+}

@@ -20448,16 +20448,18 @@
     "slug": "barkoczi-beata",
     "name": "Barkóczi Beáta",
     "kind": "provider",
-    "city": "",
+    "city": "Budapest",
     "qualifications": "ICF Magyar Tagozat nyilvános coach-adatlapja",
     "website_url": "",
     "source_url": "https://coachingfederation.hu/tagjaink/230/",
     "source_name": "ICF Magyar Tagozat",
     "categories": [
-      "coachok"
+      "coachok",
+      "ful-orr-gegeszek"
     ],
     "sources": [
-      "https://coachingfederation.hu/tagjaink/230/"
+      "https://coachingfederation.hu/tagjaink/230/",
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
     ],
     "existing_slug": null,
     "evidence": "Barkóczi Beáta MCC",
@@ -26481,14 +26483,14 @@
     "city": "Budapest",
     "qualifications": "",
     "website_url": "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurologia-es-stroke-ellatas",
-    "source_url": "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurolologia-es-stroke-ellatas",
+    "source_url": "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurologia-es-stroke-ellatas",
     "source_name": "epc.euintezmeny.hu",
     "categories": [
       "demencia",
       "neurologia"
     ],
     "sources": [
-      "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurolologia-es-stroke-ellatas"
+      "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurologia-es-stroke-ellatas"
     ],
     "existing_slug": null,
     "evidence": "epc.euintezmeny.hu",
@@ -26813,15 +26815,15 @@
     "kind": "provider",
     "city": "Budapest",
     "qualifications": "",
-    "website_url": "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit-1",
-    "source_url": "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit-1",
+    "website_url": "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit",
+    "source_url": "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit",
     "source_name": "www.neurologiaikozpont.hu",
     "categories": [
       "demencia",
       "neurologia"
     ],
     "sources": [
-      "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit-1"
+      "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit"
     ],
     "existing_slug": null,
     "evidence": "A neurológus szakorvos bemutatkozásában demencia és Alzheimer-kór szerepel.",
@@ -26847,6 +26849,2701 @@
     "evidence": "szinapszispecs.hu",
     "retrieved_at": "2026-11-06",
     "verified": false
+  },
+  {
+    "slug": "terri-cole-apaseb",
+    "name": "Terri Cole – Apaseb",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/terri-cole_apaseb-7808"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "szigethi-zsofia-lathatatlan-akadalyok",
+    "name": "Szigethi Zsófia – Láthatatlan akadályok",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_lathatatlan-akadalyok-6996",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_lathatatlan-akadalyok-6996",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_lathatatlan-akadalyok-6996"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "unoka-zsolt-elettorteneted-terkepe",
+    "name": "Unoka Zsolt – Élettörténeted térképe",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/unoka-zsolt_elettorteneted-terkepe-7801"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "john-bradshaw-hazateres-onmagadhoz",
+    "name": "John Bradshaw – Hazatérés önmagadhoz",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_hazateres-onmagadhoz-6055",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_hazateres-onmagadhoz-6055",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_hazateres-onmagadhoz-6055"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "jagi-dzsimpei-dzsikorikai",
+    "name": "Jagi Dzsimpei – Dzsikorikai",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/jagi-dzsimpei_dzsikorikai-7997",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/jagi-dzsimpei_dzsikorikai-7997",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/jagi-dzsimpei_dzsikorikai-7997"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "szigethi-zsofia-a-kifli-csalad-mesei",
+    "name": "Szigethi Zsófia – A Kifli család meséi",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_a-kifli-csalad-mesei-7824",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_a-kifli-csalad-mesei-7824",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/szigethi-zsofia_a-kifli-csalad-mesei-7824"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "john-bradshaw-ertsd-meg-a-csaladodat-hogy-megertsd-onmagad",
+    "name": "John Bradshaw – Értsd meg a családodat, hogy megértsd önmagad!",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_ertsd-meg-a-csaladodat-hogy-megertsd-onmagad-7520",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_ertsd-meg-a-csaladodat-hogy-megertsd-onmagad-7520",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/john-bradshaw_ertsd-meg-a-csaladodat-hogy-megertsd-onmagad-7520"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "szabo-bartha-anett-elfaradtunk",
+    "name": "Szabó-Bartha Anett – Elfáradtunk",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "katia-fredriksen-es-yael-rothman-maskepp-gondolkodok-autizmus",
+    "name": "Katia Fredriksen és Yael Rothman – Másképp gondolkodók: Autizmus",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-autizmus-7741",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-autizmus-7741",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-autizmus-7741"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "mogyorosy-revesz-zsuzsanna-es-vaskor-greta-a-felelemtol-a-biztonsagig",
+    "name": "Mogyorósy-Révész Zsuzsanna és Vaskor Gréta – A félelemtől a biztonságig",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_a-felelemtol-a-biztonsagig-7730",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_a-felelemtol-a-biztonsagig-7730",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_a-felelemtol-a-biztonsagig-7730"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "john-w-james-es-russell-friedman-gyaszfeldolgozas-modszer-kezikonyv",
+    "name": "John W. James és Russell Friedman – Gyászfeldolgozás Módszer kézikönyv",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_gyaszfeldolgozas-modszer%C2%AE-kezikonyv-7587",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_gyaszfeldolgozas-modszer%C2%AE-kezikonyv-7587",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_gyaszfeldolgozas-modszer%C2%AE-kezikonyv-7587"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "katia-fredriksen-es-yael-rothman-maskepp-gondolkodok-adhd",
+    "name": "Katia Fredriksen és Yael Rothman – Másképp gondolkodók: ADHD",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-adhd-7582",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-adhd-7582",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-adhd-7582"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "popper-peter-egy-illuzio-halala",
+    "name": "Popper Péter – Egy illúzió halála",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/popper-peter_egy-illuzio-halala-7522",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/popper-peter_egy-illuzio-halala-7522",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/popper-peter_egy-illuzio-halala-7522"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "fejes-dora-futoterapia",
+    "name": "Fejes Dóra – Futóterápia",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/fejes-dora_futoterapia-7028",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/fejes-dora_futoterapia-7028",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/fejes-dora_futoterapia-7028"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "thuroczy-bertalan-amit-egykori-onmagamnak-meselnek",
+    "name": "Thuróczy Bertalan – Amit egykori önmagamnak mesélnék",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/thuroczy-bertalan_amit-egykori-onmagamnak-meselnek-7426",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/thuroczy-bertalan_amit-egykori-onmagamnak-meselnek-7426",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/thuroczy-bertalan_amit-egykori-onmagamnak-meselnek-7426"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "almasi-kitti-elarult-bizalom",
+    "name": "Almási Kitti – Elárult bizalom",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/almasi-kitti_elarult-bizalom-7089",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/almasi-kitti_elarult-bizalom-7089",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/almasi-kitti_elarult-bizalom-7089"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "bagdy-emoke-pszichologiai-rejtelmek-a-muveszetekben-es-eletunkben",
+    "name": "Bagdy Emőke – Pszichológiai rejtelmek a művészetekben és életünkben",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/bagdy-emoke_pszichologiai-rejtelmek-a-muveszetekben-es-eletunkben-7088",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/bagdy-emoke_pszichologiai-rejtelmek-a-muveszetekben-es-eletunkben-7088",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/bagdy-emoke_pszichologiai-rejtelmek-a-muveszetekben-es-eletunkben-7088"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű könyv. Bibliográfiai adatok, tartalomismertető és beszerzési lehetőség a kiadó oldalán. Ismeretterjesztő forrás, nem személyre szabott diagnózis vagy kezelés.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "szabo-bartha-anett-semakemia",
+    "name": "Szabó-Bartha Anett – Sémakémia",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű pszichológiai könyv. A hivatkozott kiadói oldal kapcsolódó könyvei között található; a külön adatlap onnan nyitható meg.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "szabo-bartha-anett-elmenk-csapdajaban",
+    "name": "Szabó-Bartha Anett – Elménk csapdájában",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű pszichológiai könyv. A hivatkozott kiadói oldal kapcsolódó könyvei között található; a külön adatlap onnan nyitható meg.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "szabo-bartha-anett-es-szondy-mate-demonaink",
+    "name": "Szabó-Bartha Anett és Szondy Máté – Démonaink",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/szabobartha-anett_elfaradtunk-7588"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű pszichológiai könyv. A hivatkozott kiadói oldal kapcsolódó könyvei között található; a külön adatlap onnan nyitható meg.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "peg-dawson-es-richard-guare-okos-de-szetszort",
+    "name": "Peg Dawson és Richard Guare – Okos, de szétszórt",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-adhd-7582",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-adhd-7582",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/valogatott-irasok_maskepp-gondolkodok-adhd-7582"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű pszichológiai könyv. A hivatkozott kiadói oldal kapcsolódó könyvei között található; a külön adatlap onnan nyitható meg.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "pal-kata-dorottya-es-sas-eszter-krisztina-mentalis-elsosegely-naplo",
+    "name": "Pál Kata Dorottya és Sas Eszter Krisztina – Mentális elsősegély napló",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/webshop/konyv/fejes-dora_futoterapia-7028",
+    "source_url": "https://nyitottakademia.hu/webshop/konyv/fejes-dora_futoterapia-7028",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "podcastok-es-konyvek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/webshop/konyv/fejes-dora_futoterapia-7028"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű pszichológiai könyv. A hivatkozott kiadói oldal kapcsolódó könyvei között található; a külön adatlap onnan nyitható meg.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "asrs-felnott-adhd-onbeszamolos-skalak",
+    "name": "ASRS – felnőtt ADHD önbeszámolós skálák",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php",
+    "source_url": "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php",
+    "source_name": "www.hcp.med.harvard.edu",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php"
+    ],
+    "existing_slug": null,
+    "evidence": "www.hcp.med.harvard.edu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Harvard Medical School; a felhasználási feltételeket és fordításokat a hivatalos oldalon ellenőrizd. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "who-5-jolleti-kerdoiv",
+    "name": "WHO-5 – jólléti kérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.who.int/publications/m/item/who-ucn-msd-mhe-2024.01",
+    "source_url": "https://www.who.int/publications/m/item/who-ucn-msd-mhe-2024.01",
+    "source_name": "www.who.int",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.who.int/publications/m/item/who-ucn-msd-mhe-2024.01"
+    ],
+    "existing_slug": null,
+    "evidence": "www.who.int",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "WHO; magyar nyelvű változat is elérhető a hivatalos nyelvi listában. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "sdq-kepessegek-es-nehezsegek-kerdoiv",
+    "name": "SDQ – Képességek és Nehézségek Kérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.sdqinfo.org/py/sdqinfo/b3.py?language=Hungarian",
+    "source_url": "https://www.sdqinfo.org/py/sdqinfo/b3.py?language=Hungarian",
+    "source_name": "www.sdqinfo.org",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.sdqinfo.org/py/sdqinfo/b3.py?language=Hungarian"
+    ],
+    "existing_slug": null,
+    "evidence": "www.sdqinfo.org",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A kérdőív hivatalos magyar nyelvű változatainak oldala; életkor és kitöltő szerinti változatok. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "phq-9-depresszios-tunetek-szurokerdoive",
+    "name": "PHQ-9 – depressziós tünetek szűrőkérdőíve",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.hiv.uw.edu/page/mental-health-screening/phq-9",
+    "source_url": "https://www.hiv.uw.edu/page/mental-health-screening/phq-9",
+    "source_name": "www.hiv.uw.edu",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.hiv.uw.edu/page/mental-health-screening/phq-9"
+    ],
+    "existing_slug": null,
+    "evidence": "www.hiv.uw.edu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "University of Washington; angol nyelvű szakmai szűrőeszköz. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "gad-7-szorongasos-tunetek-szurokerdoive",
+    "name": "GAD-7 – szorongásos tünetek szűrőkérdőíve",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.hiv.uw.edu/page/mental-health-screening/gad-7",
+    "source_url": "https://www.hiv.uw.edu/page/mental-health-screening/gad-7",
+    "source_name": "www.hiv.uw.edu",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.hiv.uw.edu/page/mental-health-screening/gad-7"
+    ],
+    "existing_slug": null,
+    "evidence": "www.hiv.uw.edu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "University of Washington; angol nyelvű szakmai szűrőeszköz. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "k6-es-k10-psziches-distressz-skalak",
+    "name": "K6 és K10 – pszichés distressz skálák",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.hcp.med.harvard.edu/ncs/k6_scales.php",
+    "source_url": "https://www.hcp.med.harvard.edu/ncs/k6_scales.php",
+    "source_name": "www.hcp.med.harvard.edu",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.hcp.med.harvard.edu/ncs/k6_scales.php"
+    ],
+    "existing_slug": null,
+    "evidence": "www.hcp.med.harvard.edu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Harvard Medical School; kérdőívváltozatok és használati információ. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "audit-alkoholfogyasztasi-szurokerdoiv",
+    "name": "AUDIT – alkoholfogyasztási szűrőkérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://sbi.euro.who.int/tools/audit",
+    "source_url": "https://sbi.euro.who.int/tools/audit",
+    "source_name": "sbi.euro.who.int",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://sbi.euro.who.int/tools/audit"
+    ],
+    "existing_slug": null,
+    "evidence": "sbi.euro.who.int",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "WHO európai szakmai eszköztár. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "assist-szerhasznalati-szures",
+    "name": "ASSIST – szerhasználati szűrés",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.who.int/activities/screening-and-brief-interventions-for-substance-use-problems",
+    "source_url": "https://www.who.int/activities/screening-and-brief-interventions-for-substance-use-problems",
+    "source_name": "www.who.int",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.who.int/activities/screening-and-brief-interventions-for-substance-use-problems"
+    ],
+    "existing_slug": null,
+    "evidence": "www.who.int",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "WHO; elsősorban egészségügyi szakemberek által alkalmazott szűrési eszköztár. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "epworth-almossagi-skala-ess",
+    "name": "Epworth Álmossági Skála – ESS",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/ess",
+    "source_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/ess",
+    "source_name": "site.thoracic.org",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/ess"
+    ],
+    "existing_slug": null,
+    "evidence": "site.thoracic.org",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "American Thoracic Society; a nappali álmosság felmérésére szolgáló kérdőív adatlapja. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "stop-bang-alvasi-apnoe-kockazatanak-szurese",
+    "name": "STOP-Bang – alvási apnoe kockázatának szűrése",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/stop-bang",
+    "source_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/stop-bang",
+    "source_name": "site.thoracic.org",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/stop-bang"
+    ],
+    "existing_slug": null,
+    "evidence": "site.thoracic.org",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "American Thoracic Society; szűrőeszköz, nem alvásvizsgálat vagy diagnózis. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "isi-insomnia-severity-index",
+    "name": "ISI – Insomnia Severity Index",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/isi",
+    "source_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/isi",
+    "source_name": "site.thoracic.org",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/isi"
+    ],
+    "existing_slug": null,
+    "evidence": "site.thoracic.org",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "American Thoracic Society; alvási nehézségek kérdőíves felmérésének szakmai adatlapja. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "psqi-pittsburgh-sleep-quality-index",
+    "name": "PSQI – Pittsburgh Sleep Quality Index",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.sleep.pitt.edu/psqi",
+    "source_url": "https://www.sleep.pitt.edu/psqi",
+    "source_name": "www.sleep.pitt.edu",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.sleep.pitt.edu/psqi"
+    ],
+    "existing_slug": null,
+    "evidence": "www.sleep.pitt.edu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "University of Pittsburgh; a felhasználási és engedélyezési feltételek a fejlesztő oldalán. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "aq-felnott-autizmus-spektrum-kerdoiv",
+    "name": "AQ – felnőtt autizmus-spektrum kérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.autismresearchcentre.com/tests/autism-spectrum-quotient-aq-adult/",
+    "source_url": "https://www.autismresearchcentre.com/tests/autism-spectrum-quotient-aq-adult/",
+    "source_name": "www.autismresearchcentre.com",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.autismresearchcentre.com/tests/autism-spectrum-quotient-aq-adult/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.autismresearchcentre.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Autism Research Centre; angol nyelvű kutatási és szűrési forrás. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "m-chat-r-f-kisgyermekkori-autizmusszuro-eszkoz",
+    "name": "M-CHAT-R/F – kisgyermekkori autizmusszűrő eszköz",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.mchatscreen.com/",
+    "source_url": "https://www.mchatscreen.com/",
+    "source_name": "www.mchatscreen.com",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.mchatscreen.com/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.mchatscreen.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A fejlesztők hivatalos oldala; életkorhoz kötött szűrés, szükség esetén szakmai követéssel. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "moca-montreal-cognitive-assessment",
+    "name": "MoCA – Montreal Cognitive Assessment",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.mocacognition.com/the-moca-test/",
+    "source_url": "https://www.mocacognition.com/the-moca-test/",
+    "source_name": "www.mocacognition.com",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.mocacognition.com/the-moca-test/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.mocacognition.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Szakember által alkalmazandó kognitív vizsgálati eszköz. Nem önkitöltős internetes demenciadiagnózis. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "whoqol-bref-eletminoseg-kerdoiv",
+    "name": "WHOQOL-BREF – életminőség-kérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.who.int/tools/whoqol/whoqol-bref",
+    "source_url": "https://www.who.int/tools/whoqol/whoqol-bref",
+    "source_name": "www.who.int",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.who.int/tools/whoqol/whoqol-bref"
+    ],
+    "existing_slug": null,
+    "evidence": "www.who.int",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "WHO; nyelvi változatok és a használat feltételei a hivatalos oldalon. A MENTÁL.hu csak a forráshoz irányít: nem végez kiértékelést és nem ment tesztválaszokat. A szűrőeredmény önmagában nem diagnózis.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / elérhető fordítások a forrásnál"
+  },
+  {
+    "slug": "pcl-5-ptsd-tuneti-kerdoiv",
+    "name": "PCL-5 – PTSD tüneti kérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/ptsd-checklist.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/ptsd-checklist.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/ptsd-checklist.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "pc-ptsd-5-ptsd-szurokerdoiv",
+    "name": "PC-PTSD-5 – PTSD szűrőkérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/screens/pc-ptsd.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/screens/pc-ptsd.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/screens/pc-ptsd.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "dsps-disszociativ-tunetek-skalaja",
+    "name": "DSPS – disszociatív tünetek skálája",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/dissociative_subtype_dsps.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/dissociative_subtype_dsps.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/dissociative_subtype_dsps.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "dss-disszociativ-tunetek-kerdoive",
+    "name": "DSS – disszociatív tünetek kérdőíve",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/dss.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/dss.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/dss.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "lec-5-eletesemenyek-kerdoiv",
+    "name": "LEC-5 – életesemények kérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/te-measures/life_events_checklist.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/te-measures/life_events_checklist.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/te-measures/life_events_checklist.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "itq-nemzetkozi-trauma-kerdoiv",
+    "name": "ITQ – nemzetközi trauma kérdőív",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/itq.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/itq.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/itq.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "pds-5-poszttraumas-tunetek-skalaja",
+    "name": "PDS-5 – poszttraumás tünetek skálája",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/pds.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/pds.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/adult-sr/pds.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "sprint-poszttraumas-tuneti-szuro",
+    "name": "SPRINT – poszttraumás tüneti szűrő",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/screens/sprint.asp",
+    "source_url": "https://www.ptsd.va.gov/PTSD/professional/assessment/screens/sprint.asp",
+    "source_name": "www.ptsd.va.gov",
+    "categories": [
+      "tesztek"
+    ],
+    "sources": [
+      "https://www.ptsd.va.gov/PTSD/professional/assessment/screens/sprint.asp"
+    ],
+    "existing_slug": null,
+    "evidence": "www.ptsd.va.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A National Center for PTSD szakmai eszközismertetője. Nem minden eszköz önkitöltős vagy szabadon felhasználható; a hozzáférést és a megfelelő alkalmazást a forrásoldalon kell ellenőrizni. A szűrés nem diagnózis, válaszokat nem tárolunk.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol / fordítások a forrásnál"
+  },
+  {
+    "slug": "antener-oktatasszervezo-kft-coachkepzesek",
+    "name": "Antener Oktatásszervező Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://coachkepzo.com/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "coach-akademia-kft-coachkepzesek",
+    "name": "Coach Akadémia Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://coachakademia.hu/esti-coach-kepzes/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "coach-school-coachkepzesek",
+    "name": "Coach School – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://coachschool.hu/szolgaltatasaink/1",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "gordon-ta-kft-coachkepzesek",
+    "name": "Gordon & TA Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://gordonta.hu/kepzesek/coach-kepzes/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "ikigai-business-education-coachkepzesek",
+    "name": "Ikigai Business Education – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://ikigaibusiness.hu/kepzesek/kepzesek/leiras/start-modularis-life-es-business-coach-kepzes-2025-2026/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "punkosdi-teologiai-foiskola-business-coach-coachkepzesek",
+    "name": "Pünkösdi Teológiai Főiskola – Business Coach – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://ptf.hu/kepzes/business-coach/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "solutionsurfers-coachkepzesek",
+    "name": "SolutionSurfers – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://solutionsurfers.hu/termek/brief-coaching-roviden/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "sport-levelup-soos-tremeco-kft-coachkepzesek",
+    "name": "Sport-Levelup / Soós-Tremeco Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://sport-levelup.hu/nemzetkozileg-minositett-sport-coach-kepzes/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "mindset-change-coachkepzesek",
+    "name": "Mindset Change – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://e-coach.hu/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "legacy-kft-coachkepzesek",
+    "name": "Legacy Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.legacy.hu",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "business-coach-kft-coachkepzesek",
+    "name": "Business Coach Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://businesscoach.hu/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "co-create-kft-coachkepzesek",
+    "name": "Co-Create Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://development.cocreate.hu/nyilt-kepzesek/co-create-coach-camp",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "grow-group-coachkepzesek",
+    "name": "Grow Group – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://grow-group.com/nyilt-kepzesek/integrativ-coach-kepzes/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "chn-nemzetkozi-coach-iskola-coachkepzesek",
+    "name": "CHN Nemzetközi Coach Iskola – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://coachinghataroknelkul.hu/mcc-mastery-accelerator-program/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "ascon-consulting-kft-coachkepzesek",
+    "name": "Ascon Consulting Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.transzformativ-teamcoaching.hu/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "compassion-academy-coachkepzesek",
+    "name": "Compassion Academy – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://compassionatecoaching.co/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "pcm-coachokra-trenerekre-es-szupervizorokra-szabva-esettanulmanyokkal-fuszerezve-coachkepzesek",
+    "name": "PCM coachokra, trénerekre és szupervízorokra szabva, esettanulmányokkal fűszerezve – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://domenyerika.com/wp-content/uploads/2025/02/PCM-20250317.pdf?fbclid=IwZXh0bgNhZW0CMTAAAR1MDEjQZlv-W0NYt0nscIRaLc6FvCaBfdeAh7h2GKYhEXYCAsCW1eOQ7HY_aem_PrxKNhxLEn2e1DTSrMapng",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "elet-orom-programok-kft-coachkepzesek",
+    "name": "Élet-Öröm Programok Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://eletoromprogramok.com/kepzesek/kepzesek/leiras/cce-nehez-helyzetek-kezelese",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "hr-partner-consulting-kft-coachkepzesek",
+    "name": "HR Partner Consulting Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://actionlearning.hu/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "the-impacter-development-centre-coachkepzesek",
+    "name": "The Impacter Development Centre – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://beyond-knowledge.com/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "icq-global-ltd-coachkepzesek",
+    "name": "ICQ Global Ltd – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://icq.global/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "l-con-global-ltd-coachkepzesek",
+    "name": "L-CON Global Ltd – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://lconglobal.com/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "paf-pozitiv-attitud-formalas-coachkepzesek",
+    "name": "PAF Pozitív Attitűd Formálás – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://pafhungary.hu/tevekenysegeink/egeszsegugyi-coach-kepzes.html",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "buda-laszlo-testtol-lelekig-kft-coachkepzesek",
+    "name": "Dr. Buda László – Testtől Lélekig Kft. – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://ultrarovidterapia.hu/utacoachingban/",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "soft-skill-akademia-coachkepzesek",
+    "name": "Soft Skill Akadémia – coachképzések",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://softskillakademia.hu/action-learning-group-coaching?fbclid=IwY2xjawUYnHdwZG9mBWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4ntB7Sxyyurbs7AEw7H4SJbNuua_5Qs6KclRPKQbTAjF0wj4AnQpCW2e_Z2g_aem_TUCKz9FyVA-e9n5Kwc7QGA",
+    "source_url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Az ICF Magyar Tagozat képzőhely-listáján szereplő szervezet. A pontos programot, belépési feltételeket, indulást és az akkreditáció aktuális érvényességét a képzőnél ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "mindennapi-pszichologia",
+    "name": "Mindennapi Pszichológia",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://mipszi.hu/",
+    "source_url": "https://mipszi.hu/",
+    "source_name": "mipszi.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://mipszi.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "mipszi.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "pszichoterapia-mentalport",
+    "name": "Pszichoterápia – MentalPort",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.mentalport.hu/",
+    "source_url": "https://www.mentalport.hu/",
+    "source_name": "www.mentalport.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.mentalport.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.mentalport.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "szorongok-magazin",
+    "name": "Szorongók magazin",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://szorongok.hu/rolunk/",
+    "source_url": "https://szorongok.hu/rolunk/",
+    "source_name": "szorongok.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://szorongok.hu/rolunk/"
+    ],
+    "existing_slug": null,
+    "evidence": "szorongok.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-coachszemle",
+    "name": "Magyar Coachszemle",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://coachszemle.hu/",
+    "source_url": "https://coachszemle.hu/",
+    "source_name": "coachszemle.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://coachszemle.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachszemle.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "egeszsegvonal-lelki-egeszseg",
+    "name": "Egészségvonal – lelki egészség",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelki-egeszseg.html",
+    "source_url": "https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelki-egeszseg.html",
+    "source_name": "egeszsegvonal.gov.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelki-egeszseg.html"
+    ],
+    "existing_slug": null,
+    "evidence": "egeszsegvonal.gov.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "webbeteg-psziches-betegsegek",
+    "name": "WEBBeteg – pszichés betegségek",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.webbeteg.hu/cikkek/psziches",
+    "source_url": "https://www.webbeteg.hu/cikkek/psziches",
+    "source_name": "www.webbeteg.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.webbeteg.hu/cikkek/psziches"
+    ],
+    "existing_slug": null,
+    "evidence": "www.webbeteg.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "hazipatika",
+    "name": "Házipatika",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.hazipatika.com/",
+    "source_url": "https://www.hazipatika.com/",
+    "source_name": "www.hazipatika.com",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.hazipatika.com/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.hazipatika.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "kepmas",
+    "name": "Képmás",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://kepmas.hu/",
+    "source_url": "https://kepmas.hu/",
+    "source_name": "kepmas.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://kepmas.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "kepmas.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "nok-lapja-pszichologia",
+    "name": "Nők Lapja – pszichológia",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.noklapja.hu/",
+    "source_url": "https://www.noklapja.hu/",
+    "source_name": "www.noklapja.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.noklapja.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.noklapja.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "divany-lelek-es-pszichologia",
+    "name": "Dívány – lélek és pszichológia",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://divany.hu/",
+    "source_url": "https://divany.hu/",
+    "source_name": "divany.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://divany.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "divany.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "rirosz-mentalis-egeszseg",
+    "name": "RIROSZ – mentális egészség",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.rirosz.hu/mentalis-egeszseg/",
+    "source_url": "https://www.rirosz.hu/mentalis-egeszseg/",
+    "source_name": "www.rirosz.hu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.rirosz.hu/mentalis-egeszseg/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.rirosz.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Magyar nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "national-institute-of-mental-health-health-information",
+    "name": "National Institute of Mental Health – Health Information",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.nimh.nih.gov/health",
+    "source_url": "https://www.nimh.nih.gov/health",
+    "source_name": "www.nimh.nih.gov",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.nimh.nih.gov/health"
+    ],
+    "existing_slug": null,
+    "evidence": "www.nimh.nih.gov",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "american-psychological-association-psychology-topics",
+    "name": "American Psychological Association – Psychology Topics",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.apa.org/topics",
+    "source_url": "https://www.apa.org/topics",
+    "source_name": "www.apa.org",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.apa.org/topics"
+    ],
+    "existing_slug": null,
+    "evidence": "www.apa.org",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "mind-information-and-support",
+    "name": "Mind – Information and Support",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.mind.org.uk/information-support/",
+    "source_url": "https://www.mind.org.uk/information-support/",
+    "source_name": "www.mind.org.uk",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.mind.org.uk/information-support/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.mind.org.uk",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "mental-health-foundation-mental-health-information",
+    "name": "Mental Health Foundation – mental health information",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.mentalhealth.org.uk/explore-mental-health",
+    "source_url": "https://www.mentalhealth.org.uk/explore-mental-health",
+    "source_name": "www.mentalhealth.org.uk",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.mentalhealth.org.uk/explore-mental-health"
+    ],
+    "existing_slug": null,
+    "evidence": "www.mentalhealth.org.uk",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "nhs-mental-health",
+    "name": "NHS – Mental Health",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.nhs.uk/mental-health/",
+    "source_url": "https://www.nhs.uk/mental-health/",
+    "source_name": "www.nhs.uk",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.nhs.uk/mental-health/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.nhs.uk",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "greater-good-magazine-uc-berkeley",
+    "name": "Greater Good Magazine – UC Berkeley",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://greatergood.berkeley.edu/",
+    "source_url": "https://greatergood.berkeley.edu/",
+    "source_name": "greatergood.berkeley.edu",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://greatergood.berkeley.edu/"
+    ],
+    "existing_slug": null,
+    "evidence": "greatergood.berkeley.edu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "psychology-today",
+    "name": "Psychology Today",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.psychologytoday.com/",
+    "source_url": "https://www.psychologytoday.com/",
+    "source_name": "www.psychologytoday.com",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.psychologytoday.com/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.psychologytoday.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "verywell-mind",
+    "name": "Verywell Mind",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.verywellmind.com/",
+    "source_url": "https://www.verywellmind.com/",
+    "source_name": "www.verywellmind.com",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.verywellmind.com/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.verywellmind.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "who-mental-health",
+    "name": "WHO – Mental Health",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.who.int/health-topics/mental-health",
+    "source_url": "https://www.who.int/health-topics/mental-health",
+    "source_name": "www.who.int",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.who.int/health-topics/mental-health"
+    ],
+    "existing_slug": null,
+    "evidence": "www.who.int",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "child-mind-institute",
+    "name": "Child Mind Institute",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://childmind.org/",
+    "source_url": "https://childmind.org/",
+    "source_name": "childmind.org",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://childmind.org/"
+    ],
+    "existing_slug": null,
+    "evidence": "childmind.org",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "youngminds-mental-health-information",
+    "name": "YoungMinds – mental health information",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.youngminds.org.uk/",
+    "source_url": "https://www.youngminds.org.uk/",
+    "source_name": "www.youngminds.org.uk",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.youngminds.org.uk/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.youngminds.org.uk",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "royal-college-of-psychiatrists-mental-health",
+    "name": "Royal College of Psychiatrists – Mental Health",
+    "kind": "media",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.rcpsych.ac.uk/mental-health",
+    "source_url": "https://www.rcpsych.ac.uk/mental-health",
+    "source_name": "www.rcpsych.ac.uk",
+    "categories": [
+      "magazinok-es-portalok"
+    ],
+    "sources": [
+      "https://www.rcpsych.ac.uk/mental-health"
+    ],
+    "existing_slug": null,
+    "evidence": "www.rcpsych.ac.uk",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Angol nyelvű tájékoztató portál vagy szerkesztőségi kiadvány, mentális egészséggel, pszichológiával vagy jólléttel kapcsolatos tartalmakkal. A hivatkozás a kiadó vagy intézmény saját felületére vezet; nem személyre szabott ellátás.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Angol"
+  },
+  {
+    "slug": "magyar-pszichologiai-tarsasag-rendezvenyek",
+    "name": "Magyar Pszichológiai Társaság – rendezvények",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://mpt.hu/rendezvenyek/",
+    "source_url": "https://mpt.hu/rendezvenyek/",
+    "source_name": "mpt.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://mpt.hu/rendezvenyek/"
+    ],
+    "existing_slug": null,
+    "evidence": "mpt.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-pszichiatriai-tarsasag-szakmai-rendezvenyek",
+    "name": "Magyar Pszichiátriai Társaság – szakmai rendezvények",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.mptpszichiatria.hu/",
+    "source_url": "https://www.mptpszichiatria.hu/",
+    "source_name": "www.mptpszichiatria.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://www.mptpszichiatria.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.mptpszichiatria.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-individualpszichologiai-egyesulet-esemenynaptar",
+    "name": "Magyar Individuálpszichológiai Egyesület – eseménynaptár",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://mipe.hu/esemenynaptar/",
+    "source_url": "https://mipe.hu/esemenynaptar/",
+    "source_name": "mipe.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://mipe.hu/esemenynaptar/"
+    ],
+    "existing_slug": null,
+    "evidence": "mipe.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "mindset-pszichologiai-esemenyek",
+    "name": "Mindset – pszichológiai események",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://mindsetpszichologia.hu/esemenyek",
+    "source_url": "https://mindsetpszichologia.hu/esemenyek",
+    "source_name": "mindsetpszichologia.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://mindsetpszichologia.hu/esemenyek"
+    ],
+    "existing_slug": null,
+    "evidence": "mindsetpszichologia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "jog-es-pszichologia-eloadasok-es-treningek",
+    "name": "Jog és Pszichológia – előadások és tréningek",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://jogespszichologia.hu/event",
+    "source_url": "https://jogespszichologia.hu/event",
+    "source_name": "jogespszichologia.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://jogespszichologia.hu/event"
+    ],
+    "existing_slug": null,
+    "evidence": "jogespszichologia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "icf-magyar-tagozat-esemenyek",
+    "name": "ICF Magyar Tagozat – események",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://coachingfederation.hu/esemenyek/",
+    "source_url": "https://coachingfederation.hu/esemenyek/",
+    "source_name": "coachingfederation.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://coachingfederation.hu/esemenyek/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachingfederation.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "kepmas-estek",
+    "name": "Képmás-estek",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://kepmas.hu/hu/kepmas-estek",
+    "source_url": "https://kepmas.hu/hu/kepmas-estek",
+    "source_name": "kepmas.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://kepmas.hu/hu/kepmas-estek"
+    ],
+    "existing_slug": null,
+    "evidence": "kepmas.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "nyitott-akademia-pszichologiai-eloadasok",
+    "name": "Nyitott Akadémia – pszichológiai előadások",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nyitottakademia.hu/rendezvenyek",
+    "source_url": "https://nyitottakademia.hu/rendezvenyek",
+    "source_name": "nyitottakademia.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://nyitottakademia.hu/rendezvenyek"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottakademia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "pszichoterapia-folyoirat-konferenciak",
+    "name": "Pszichoterápia folyóirat – konferenciák",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.mentalport.hu/pszichoterapia-konferencia/",
+    "source_url": "https://www.mentalport.hu/pszichoterapia-konferencia/",
+    "source_name": "www.mentalport.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://www.mentalport.hu/pszichoterapia-konferencia/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.mentalport.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-pszichodrama-egyesulet-szakmai-programok",
+    "name": "Magyar Pszichodráma Egyesület – szakmai programok",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.pszichodrama.hu/",
+    "source_url": "https://www.pszichodrama.hu/",
+    "source_name": "www.pszichodrama.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://www.pszichodrama.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.pszichodrama.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "semmelweis-mentalhigiene-intezet-konferenciak",
+    "name": "Semmelweis Mentálhigiéné Intézet – konferenciák",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/mental/konferenciak/",
+    "source_url": "https://semmelweis.hu/mental/konferenciak/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://semmelweis.hu/mental/konferenciak/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "semmelweis-egyetem-tudomanyos-programnaptar",
+    "name": "Semmelweis Egyetem – tudományos programnaptár",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/hirek/events/cat/tudomanyos-eloadasok-konferenciak-programok/",
+    "source_url": "https://semmelweis.hu/hirek/events/cat/tudomanyos-eloadasok-konferenciak-programok/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://semmelweis.hu/hirek/events/cat/tudomanyos-eloadasok-konferenciak-programok/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-mentalizacios-egyesulet-konferencia",
+    "name": "Magyar Mentalizációs Egyesület – konferencia",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://mbthungary.eu/konferencia/",
+    "source_url": "https://mbthungary.eu/konferencia/",
+    "source_name": "mbthungary.eu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://mbthungary.eu/konferencia/"
+    ],
+    "existing_slug": null,
+    "evidence": "mbthungary.eu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-pszichoanalitikus-egyesulet-konferenciak",
+    "name": "Magyar Pszichoanalitikus Egyesület – konferenciák",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://psychoanalysis.hu/konferencia",
+    "source_url": "https://psychoanalysis.hu/konferencia",
+    "source_name": "psychoanalysis.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://psychoanalysis.hu/konferencia"
+    ],
+    "existing_slug": null,
+    "evidence": "psychoanalysis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-gyermek-es-ifjusagpszichiatria-es-tarsszakmak-tarsasaga-rendezvenyek",
+    "name": "Magyar Gyermek- és Ifjúságpszichiátria és Társszakmák Társasága – rendezvények",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.magyipett.hu/",
+    "source_url": "https://www.magyipett.hu/",
+    "source_name": "www.magyipett.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://www.magyipett.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.magyipett.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-csaladterapias-egyesulet-szakmai-rendezvenyek",
+    "name": "Magyar Családterápiás Egyesület – szakmai rendezvények",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://csaladterapia.hu/",
+    "source_url": "https://csaladterapia.hu/",
+    "source_name": "csaladterapia.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://csaladterapia.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "csaladterapia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "integrativ-pszichoterapias-egyesulet-konferenciak",
+    "name": "Integratív Pszichoterápiás Egyesület – konferenciák",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://integrativ.hu/",
+    "source_url": "https://integrativ.hu/",
+    "source_name": "integrativ.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://integrativ.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "integrativ.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-hipnozis-egyesulet-szakmai-talalkozok",
+    "name": "Magyar Hipnózis Egyesület – szakmai találkozók",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://hipnozis-mhe.hu/",
+    "source_url": "https://hipnozis-mhe.hu/",
+    "source_name": "hipnozis-mhe.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "hipnozis-mhe.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-relaxacios-es-szimbolumterapias-egyesulet-szakmai-programok",
+    "name": "Magyar Relaxációs és Szimbólumterápiás Egyesület – szakmai programok",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://relaxacio.hu/",
+    "source_url": "https://relaxacio.hu/",
+    "source_name": "relaxacio.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://relaxacio.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "relaxacio.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-viselkedes-kognitiv-es-sematerapias-egyesulet-programok",
+    "name": "Magyar Viselkedés-, Kognitív és Sématerápiás Egyesület – programok",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://vikote.hu/",
+    "source_url": "https://vikote.hu/",
+    "source_name": "vikote.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://vikote.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "vikote.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "magyar-lelki-elsosegely-telefonszolgalatok-szovetsege-szakmai-rendezvenyek",
+    "name": "Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége – szakmai rendezvények",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://sos116-123.hu/",
+    "source_url": "https://sos116-123.hu/",
+    "source_name": "sos116-123.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://sos116-123.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "sos116-123.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "bbte-alkalmazott-pszichologia-intezet-esemenyek",
+    "name": "BBTE Alkalmazott Pszichológia Intézet – események",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://pszichologia.psiedu.ubbcluj.ro/hu/hirek-es-esemenyek/esemenyek/",
+    "source_url": "https://pszichologia.psiedu.ubbcluj.ro/hu/hirek-es-esemenyek/esemenyek/",
+    "source_name": "pszichologia.psiedu.ubbcluj.ro",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://pszichologia.psiedu.ubbcluj.ro/hu/hirek-es-esemenyek/esemenyek/"
+    ],
+    "existing_slug": null,
+    "evidence": "pszichologia.psiedu.ubbcluj.ro",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Rendezvényszervező, szakmai programsorozat vagy eseménynaptár. Ez az adatlap nem egy újonnan meghirdetett alkalom dátumát jelöli: az aktuális időpontokat, jelentkezést és esetleges korábbi archívumot a szervező oldalán ellenőrizd.",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar"
+  },
+  {
+    "slug": "kapcsolodas-napja-2026-november-20",
+    "name": "Kapcsolódás Napja – 2026. november 20.",
+    "kind": "event",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://kapcsolodasnapja.hu/",
+    "source_url": "https://kapcsolodasnapja.hu/",
+    "source_name": "kapcsolodasnapja.hu",
+    "categories": [
+      "konferenciak-es-esemenyek"
+    ],
+    "sources": [
+      "https://kapcsolodasnapja.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "kapcsolodasnapja.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Mentálhigiénés konferencia a kapcsolódásról és jóllétről. Helyszín: Sugár Event rendezvényközpont. A program és a jegyinformáció a szervező saját oldalán található.",
+    "event_start": "2026-11-20T09:00:00+01:00",
+    "event_end": "2026-11-20T16:00:00+01:00",
+    "source_verified_via": "primary publisher or institution page",
+    "languages": "Magyar",
+    "email": "kapcsolodasnapja@proptechdigital.com",
+    "email_source_url": "https://kapcsolodasnapja.hu/"
   },
   {
     "slug": "maitri-jogastudio",
@@ -28887,6 +31584,1552 @@
     "verified": false
   },
   {
+    "slug": "aranyoss-katalin",
+    "name": "Dr. Aranyoss Katalin",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szemész szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "czigany-tamas",
+    "name": "Dr. Czigány Tamás",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "czirjak-sandor",
+    "name": "Prof. Dr. Czirják Sándor",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "dolhay-eszter",
+    "name": "Dr. Dolhay Eszter",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szemész szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "farkas-judit",
+    "name": "Dr. Farkas Judit",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "fazekas-eszter",
+    "name": "Dr. Fazekas Eszter",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "ferencz-maria-eva-ph-d",
+    "name": "Dr. Ferencz Mária Éva Ph.D.",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "profilvezető főorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "finszter-tamas",
+    "name": "Dr. Finszter Tamás",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "főorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gaal-zsuzsanna",
+    "name": "Dr. Gaál Zsuzsanna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Szemészeti Profil",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+      "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "gaspar-akos",
+    "name": "Dr. Gáspár Ákos",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gonczi-gergely",
+    "name": "Dr. Gönczi Gergely",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "neurológus szakorvos, pszichoterapeuta szakorvos; Neurológia-Stroke Rehabilitációs Osztály, Pszichoterápiás Ambulancia",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "hermann-zsuzsa",
+    "name": "Dr. Hermann Zsuzsa",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "horvath-helena",
+    "name": "Dr. Horváth Heléna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "fül-orr gégégyógyászat szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "dr-horvath-zsuzsanna-gyor",
+    "name": "Dr. Horváth Zsuzsanna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": "dr-horvath-zsuzsanna-gyor",
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kara-miklos-peter",
+    "name": "Dr. Kara Miklós Péter",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "fül-orr gégégyógyászat szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kiss-laura-anna",
+    "name": "Dr. Kiss Laura Anna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kiss-zoltan-ph-d",
+    "name": "Dr. Kiss Zoltán Ph.D.",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "klapka-alma",
+    "name": "Dr. Klapka Alma",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szemész szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kovacs-kusza-katalin",
+    "name": "Dr. Kovács Kusza Katalin",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "lakatos-lili",
+    "name": "Dr. Lakatos Lili",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "magyar-sarolta-julia",
+    "name": "Dr. Magyar Sarolta Julia",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szemész szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "magyari-zuberecz-kamilla-edina",
+    "name": "Dr. Magyari-Zuberecz Kamilla Edina",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "mako-adam-ph-d",
+    "name": "Dr. Makó Ádám Ph.D.",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "nemeth-eniko",
+    "name": "Dr. Németh Enikő",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "palya-fanni",
+    "name": "Dr. Pálya Fanni",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Szemészeti Profil",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+      "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "popper-sachetti-andrea",
+    "name": "Dr. Popper-Sachetti Andrea",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "pordany-bagoly-edit",
+    "name": "Dr. Pordány-Bagoly Edit",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "revesz-gabor",
+    "name": "Dr. Révész Gábor",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szabo-orsolya-zsuzsanna",
+    "name": "Dr. Szabó Orsolya Zsuzsanna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Szemészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szakolczay-vrabel-gabor",
+    "name": "Dr. Szakolczay-Vrábel Gábor",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szegleti-gabor",
+    "name": "Dr. Szegleti Gábor",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szupera-zoltan",
+    "name": "Dr. Szupera Zoltán",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "thomka-magdolna",
+    "name": "Dr. Thomka Magdolna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "osztályvezető főorvos; Neurológia-Stroke Rehabilitációs Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "varga-vince",
+    "name": "Dr. Varga Vince",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "neurológia szakorvos; Neurológiai Osztály",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "vardi-katalin-borbala",
+    "name": "Dr. Várdi Katalin Borbála",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "szakorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "velich-attila",
+    "name": "Dr. Velich Attila",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "főorvos; Fül-Orr-Gégészeti Profil",
+    "website_url": "",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/",
+    "source_name": "Dél-budai Centrumkórház – Szent Imre Egyetemi Oktatókórház",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/orvosaink-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "aranyi-zsuzsanna",
+    "name": "Dr. Arányi Zsuzsanna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-aranyi-zsuzsanna-phd/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-aranyi-zsuzsanna-phd/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-aranyi-zsuzsanna-phd/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "bereczki-daniel",
+    "name": "Dr. Bereczki Dániel",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-bereczki-daniel/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-bereczki-daniel/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-bereczki-daniel/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "bozsik-gyorgy",
+    "name": "Dr. Bozsik György",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-bozsik-gyorgy/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-bozsik-gyorgy/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-bozsik-gyorgy/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "debreczeni-robert",
+    "name": "Dr. Debreczeni Róbert",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-debreczeni-robert/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-debreczeni-robert/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-debreczeni-robert/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "farkas-zsuzsanna",
+    "name": "Dr. Farkas Zsuzsanna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-farkas-zsuzsanna-phd/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-farkas-zsuzsanna-phd/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-farkas-zsuzsanna-phd/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gulyas-szilvia",
+    "name": "Dr. Gulyás Szilvia",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-gulyas-szilvia-phd/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-gulyas-szilvia-phd/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-gulyas-szilvia-phd/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gunda-bence",
+    "name": "Dr. Gunda Bence",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-gunda-bence/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-gunda-bence/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-gunda-bence/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kovacs-tibor",
+    "name": "Dr. Kovács Tibor",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-kovacs-tibor/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-kovacs-tibor/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-kovacs-tibor/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "simo-magdolna",
+    "name": "Dr. Simó Magdolna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-simo-magdolna-phd/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-simo-magdolna-phd/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-simo-magdolna-phd/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "sipos-ildiko",
+    "name": "Dr. Sipos Ildikó",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-sipos-ildiko-phd/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-sipos-ildiko-phd/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-sipos-ildiko-phd/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "takats-annamaria",
+    "name": "Dr. Takáts Annamária",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-takats-annamaria/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-takats-annamaria/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-takats-annamaria/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "tamas-gertrud",
+    "name": "Dr. Tamás Gertrúd",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-tamas-gertrud-phd/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-tamas-gertrud-phd/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-tamas-gertrud-phd/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "vastagh-ildiko",
+    "name": "Dr. Vastagh Ildikó",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-vastagh-ildiko-phd/",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/dr-vastagh-ildiko-phd/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/dr-vastagh-ildiko-phd/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kamondi-anita",
+    "name": "Dr. Kamondi Anita",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "csillik-anita",
+    "name": "Dr. Csillik Anita",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "iljicsov-anna",
+    "name": "Dr. Iljicsov Anna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "mezei-zsolt",
+    "name": "Dr. Mezei Zsolt",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "farsang-marianna",
+    "name": "Dr. Farsang Marianna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "hornyak-csilla",
+    "name": "Dr. Hornyák Csilla",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kelemen-andrea",
+    "name": "Dr. Kelemen Andrea",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szatmari-szabolcs",
+    "name": "Dr. Szatmári Szabolcs",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szoke-kristof",
+    "name": "Dr. Szőke Kristóf",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "toth-adrian",
+    "name": "Dr. Tóth Adrián",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "soos-krisztina",
+    "name": "Dr. Soós Krisztina",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "tegze-narcis-klaudia",
+    "name": "Dr. Tegze Nárcis Klaudia",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "dabasi-lorand-endre",
+    "name": "Dr. Dabasi Loránd Endre",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "demeter-ildiko",
+    "name": "Dr. Demeter Ildikó",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "dobronyi-levente",
+    "name": "Dr. Dobronyi Levente",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "ilniczky-sandor",
+    "name": "Dr. Ilniczky Sándor",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kollai-sarolta",
+    "name": "Dr. Kollai Sarolta",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "milanovich-daniel",
+    "name": "Dr. Milanovich Dániel",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "palotai-marcell-laszlo",
+    "name": "Dr. Palotai Marcell László",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "sisak-dominika",
+    "name": "Dr. Sisak Dominika",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Neurológiai klinikai szakorvos / oktató a klinika munkatársi névsora szerint.",
+    "website_url": "",
+    "source_url": "https://semmelweis.hu/neurologia/munkatarsak/",
+    "source_name": "Semmelweis Egyetem Neurológiai Klinika",
+    "categories": [
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/munkatarsak/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "csoka-janos",
+    "name": "Dr. Csóka János",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-csoka-janos",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-csoka-janos",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-csoka-janos"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "holpert-valeria",
+    "name": "Dr. Holpert Valéria",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-holpert-valeria",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-holpert-valeria",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-holpert-valeria"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "fulop-gyorgyi",
+    "name": "Dr. Fülöp Györgyi",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-fulop-gyorgyi",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-fulop-gyorgyi",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-fulop-gyorgyi"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "augusztinovicz-monika",
+    "name": "Dr. Augusztinovicz Monika",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-augusztinovicz-monika",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-augusztinovicz-monika",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-augusztinovicz-monika"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "balogh-katalin",
+    "name": "Dr. Balogh Katalin",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-balogh-katalin",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-balogh-katalin",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/dr-balogh-katalin"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "moric-krisztina",
+    "name": "Dr. Moric Krisztina",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus/dr-moric-krisztina",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus/dr-moric-krisztina",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus/dr-moric-krisztina"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "lukacs-anita",
+    "name": "Dr. Lukács Anita",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus-es-klinikai-immunologus/dr-lukacs-anita",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus-es-klinikai-immunologus/dr-lukacs-anita",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus-es-klinikai-immunologus/dr-lukacs-anita"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "viszoki-monika",
+    "name": "Dr. Viszoki Mónika",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "Fül-orr-gégész szakorvos a rendelő bemutatkozása szerint.",
+    "website_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus-es-klinikai-immunologus/dr-viszoki-monika",
+    "source_url": "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus-es-klinikai-immunologus/dr-viszoki-monika",
+    "source_name": "Fül-orr-gége Központ",
+    "categories": [
+      "ful-orr-gegeszek"
+    ],
+    "sources": [
+      "https://www.fulorrgegekozpont.hu/munkatarsaink/ful-orr-gegesz-allergologus-es-klinikai-immunologus/dr-viszoki-monika"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját intézményi munkatársi névsorában szerepel; az egyéni betegfogadás és beutalás feltételei külön ellenőrizendők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
     "slug": "beszterci-felicia",
     "name": "Beszterci Felícia",
     "kind": "provider",
@@ -30816,28 +35059,6 @@
     "email_source_url": ""
   },
   {
-    "slug": "gaal-zsuzsanna",
-    "name": "Dr. Gaál Zsuzsanna",
-    "kind": "provider",
-    "city": "",
-    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
-    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna",
-    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna",
-    "source_name": "Budai Szemészeti Központ",
-    "categories": [
-      "szemeszek"
-    ],
-    "sources": [
-      "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna"
-    ],
-    "existing_slug": null,
-    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
-    "retrieved_at": "2026-11-06",
-    "verified": false,
-    "email": "",
-    "email_source_url": ""
-  },
-  {
     "slug": "jaros-katarina",
     "name": "Dr. Jaros Katarina",
     "kind": "provider",
@@ -30961,28 +35182,6 @@
     ],
     "sources": [
       "https://www.budaiszemeszet.hu/orvosok/dr-nagy-eva"
-    ],
-    "existing_slug": null,
-    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
-    "retrieved_at": "2026-11-06",
-    "verified": false,
-    "email": "",
-    "email_source_url": ""
-  },
-  {
-    "slug": "palya-fanni",
-    "name": "Dr. Pálya Fanni",
-    "kind": "provider",
-    "city": "",
-    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
-    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni",
-    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni",
-    "source_name": "Budai Szemészeti Központ",
-    "categories": [
-      "szemeszek"
-    ],
-    "sources": [
-      "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni"
     ],
     "existing_slug": null,
     "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",

@@ -1,0 +1,324 @@
+{
+  "ok": true,
+  "health": {
+    "ok": true,
+    "database": true,
+    "migrations": true,
+    "categories": 31,
+    "listings": 2142
+  },
+  "cats": [
+    {
+      "id": "1",
+      "slug": "pszichologusok",
+      "name": "Pszichológusok",
+      "group_name": "Szakmai segítség",
+      "description": "Pszichológiai tanácsadással és támogatással foglalkozó szakemberek.",
+      "icon": "Ψ",
+      "verification_level": "professional",
+      "listing_count": 235
+    },
+    {
+      "id": "2",
+      "slug": "pszichiaterek",
+      "name": "Pszichiáterek",
+      "group_name": "Szakmai segítség",
+      "description": "Orvosi végzettségű pszichiáter szakorvosok és rendelők.",
+      "icon": "✚",
+      "verification_level": "healthcare",
+      "listing_count": 48
+    },
+    {
+      "id": "3",
+      "slug": "pszichoterapeutak",
+      "name": "Pszichoterapeuták",
+      "group_name": "Szakmai segítség",
+      "description": "Pszichoterápiás tevékenységet végző, megfelelő képesítéssel rendelkező szakemberek.",
+      "icon": "◉",
+      "verification_level": "healthcare",
+      "listing_count": 119
+    },
+    {
+      "id": "24",
+      "slug": "hipnoterapeutak",
+      "name": "Hipnoterapeuták",
+      "group_name": "Szakmai segítség",
+      "description": "Hipnoterápiás képzettséget feltüntető szakemberek. Az egészségügyi alapvégzettség, a módszerspecifikus képesítés és az esetleges szupervízió az adatlapon és a forrásoldalon ellenőrizhető.",
+      "icon": "◉",
+      "verification_level": "healthcare",
+      "listing_count": 23
+    },
+    {
+      "id": "4",
+      "slug": "mentalhigienes-szakemberek",
+      "name": "Mentálhigiénés szakemberek",
+      "group_name": "Szakmai segítség",
+      "description": "Mentálhigiénés támogatást és prevenciót nyújtó szakemberek.",
+      "icon": "○",
+      "verification_level": "professional",
+      "listing_count": 45
+    },
+    {
+      "id": "5",
+      "slug": "par-es-csaladterapeutak",
+      "name": "Pár- és családterapeuták",
+      "group_name": "Szakmai segítség",
+      "description": "Párkapcsolati és családi folyamatokkal dolgozó szakemberek.",
+      "icon": "⌁",
+      "verification_level": "professional",
+      "listing_count": 893
+    },
+    {
+      "id": "6",
+      "slug": "coachok",
+      "name": "Coachok",
+      "group_name": "Fejlődés és életvezetés",
+      "description": "Life, business, health és egyéb coaching szolgáltatások.",
+      "icon": "↗",
+      "verification_level": "professional",
+      "listing_count": 224
+    },
+    {
+      "id": "7",
+      "slug": "mediatorok",
+      "name": "Mediátorok",
+      "group_name": "Fejlődés és életvezetés",
+      "description": "Konfliktuskezelés és közvetítés.",
+      "icon": "⇄",
+      "verification_level": "professional",
+      "listing_count": 52
+    },
+    {
+      "id": "8",
+      "slug": "karrier-tanacsadok",
+      "name": "Karrier-tanácsadók",
+      "group_name": "Fejlődés és életvezetés",
+      "description": "Pályaorientáció, karrierváltás és munkahelyi fejlődés.",
+      "icon": "◇",
+      "verification_level": "professional",
+      "listing_count": 22
+    },
+    {
+      "id": "9",
+      "slug": "dietetikusok",
+      "name": "Dietetikusok",
+      "group_name": "Test és jóllét",
+      "description": "Táplálkozással és életmóddal foglalkozó szakemberek.",
+      "icon": "◒",
+      "verification_level": "healthcare",
+      "listing_count": 25
+    },
+    {
+      "id": "10",
+      "slug": "masszorok",
+      "name": "Masszőrök",
+      "group_name": "Test és jóllét",
+      "description": "Masszázs és relaxációs szolgáltatások.",
+      "icon": "≈",
+      "verification_level": "wellness",
+      "listing_count": 94
+    },
+    {
+      "id": "11",
+      "slug": "fogaszatok",
+      "name": "Fogászatok",
+      "group_name": "Test és jóllét",
+      "description": "Fogászati szolgáltatók és rendelők.",
+      "icon": "◌",
+      "verification_level": "healthcare",
+      "listing_count": 77
+    },
+    {
+      "id": "12",
+      "slug": "joga-es-mozgas",
+      "name": "Jóga és mozgás",
+      "group_name": "Test és jóllét",
+      "description": "Jóga, testtudat, mozgás és kapcsolódó programok.",
+      "icon": "△",
+      "verification_level": "wellness",
+      "listing_count": 21
+    },
+    {
+      "id": "13",
+      "slug": "alvas-es-relaxacio",
+      "name": "Alvás és relaxáció",
+      "group_name": "Test és jóllét",
+      "description": "Alváshoz, relaxációhoz és stresszkezeléshez kapcsolódó szolgáltatások.",
+      "icon": "☾",
+      "verification_level": "wellness",
+      "listing_count": 38
+    },
+    {
+      "id": "14",
+      "slug": "kineziologusok",
+      "name": "Kineziológusok",
+      "group_name": "Alternatív és spirituális",
+      "description": "Kineziológiai szolgáltatások. A kategória nem jelent egészségügyi minősítést.",
+      "icon": "∞",
+      "verification_level": "alternative",
+      "listing_count": 27
+    },
+    {
+      "id": "15",
+      "slug": "asztrologusok",
+      "name": "Asztrológusok",
+      "group_name": "Alternatív és spirituális",
+      "description": "Asztrológiai szolgáltatások. A kategória nem egészségügyi szolgáltatás.",
+      "icon": "✦",
+      "verification_level": "alternative",
+      "listing_count": 23
+    },
+    {
+      "id": "16",
+      "slug": "termeszetgyogyaszat",
+      "name": "Természetgyógyászat",
+      "group_name": "Alternatív és spirituális",
+      "description": "Természetgyógyászati és komplementer szolgáltatások.",
+      "icon": "❧",
+      "verification_level": "alternative",
+      "listing_count": 23
+    },
+    {
+      "id": "22",
+      "slug": "csaladallitas",
+      "name": "Családállítás",
+      "group_name": "Alternatív és spirituális",
+      "description": "Családállítással és rendszerállítással foglalkozó szolgáltatók. Nem egészségügyi vagy pszichoterápiás ellátás; nem helyettesíti az orvosi vagy pszichológiai kivizsgálást és kezelést.",
+      "icon": "◎",
+      "verification_level": "alternative",
+      "listing_count": 26
+    },
+    {
+      "id": "29",
+      "slug": "agykontroll",
+      "name": "Agykontroll",
+      "group_name": "Alternatív és spirituális",
+      "description": "Agykontroll-oktatók és önfejlesztő tanfolyamok. Nem egészségügyi diagnosztikai vagy kezelési szolgáltatás, és nem helyettesíti az orvosi vagy pszichológiai ellátást.",
+      "icon": "◇",
+      "verification_level": "alternative",
+      "listing_count": 34
+    },
+    {
+      "id": "17",
+      "slug": "kepzesek",
+      "name": "Képzések",
+      "group_name": "Programok és tudás",
+      "description": "Szakmai, önismereti és jólléti képzések.",
+      "icon": "▤",
+      "verification_level": "education",
+      "listing_count": 37
+    },
+    {
+      "id": "18",
+      "slug": "konferenciak-es-esemenyek",
+      "name": "Konferenciák és események",
+      "group_name": "Programok és tudás",
+      "description": "Konferenciák, workshopok, csoportok és rendezvények.",
+      "icon": "◫",
+      "verification_level": "education",
+      "listing_count": 23
+    },
+    {
+      "id": "19",
+      "slug": "magazinok-es-portalok",
+      "name": "Magazinok és portálok",
+      "group_name": "Programok és tudás",
+      "description": "Mentális egészséggel és jólléttel foglalkozó kiadványok és oldalak.",
+      "icon": "▧",
+      "verification_level": "media",
+      "listing_count": 28
+    },
+    {
+      "id": "20",
+      "slug": "podcastok-es-konyvek",
+      "name": "Podcastok és könyvek",
+      "group_name": "Programok és tudás",
+      "description": "Podcastok, könyvek és egyéb tudásforrások.",
+      "icon": "◍",
+      "verification_level": "media",
+      "listing_count": 22
+    },
+    {
+      "id": "21",
+      "slug": "kozossegek-es-csoportok",
+      "name": "Közösségek és csoportok",
+      "group_name": "Programok és tudás",
+      "description": "Önismereti, támogató és közösségi csoportok.",
+      "icon": "◎",
+      "verification_level": "general",
+      "listing_count": 23
+    },
+    {
+      "id": "23",
+      "slug": "neurologia",
+      "name": "Neurológia",
+      "group_name": "Szakorvosi ellátás",
+      "description": "Neurológiai szakrendelések és ideggyógyász szakorvosok. Az aktuális rendelésről, területi ellátásról és beutalási feltételekről a szolgáltatónál érdeklődj.",
+      "icon": "Ψ",
+      "verification_level": "healthcare",
+      "listing_count": 58
+    },
+    {
+      "id": "26",
+      "slug": "ful-orr-gegeszek",
+      "name": "Fül-orr-gégészek",
+      "group_name": "Szakorvosi ellátás",
+      "description": "Fül-orr-gégész szakorvosok és szakrendelések. A megjelenés nem szakmai minősítés; az elérhetőséget és az ellátási feltételeket a szolgáltatónál ellenőrizd.",
+      "icon": "✚",
+      "verification_level": "healthcare",
+      "listing_count": 22
+    },
+    {
+      "id": "27",
+      "slug": "szemeszek",
+      "name": "Szemészek",
+      "group_name": "Szakorvosi ellátás",
+      "description": "Szemész szakorvosok és szemészeti szakrendelések. A vizsgálatok és a gyermekellátás pontos köre szolgáltatónként eltérhet.",
+      "icon": "◉",
+      "verification_level": "healthcare",
+      "listing_count": 37
+    },
+    {
+      "id": "25",
+      "slug": "tesztek",
+      "name": "Tesztek és szűrőkérdőívek",
+      "group_name": "Vizsgálatok és diagnosztika",
+      "description": "ADHD- és más pszichológiai szűrőkérdőívek, szakmai mérőeszközök és tesztforrások. Nem mind önkitöltős vagy magyar nyelvű. Egy szűrőeredmény önmagában nem diagnózis; az eszközök felhasználási feltételeit a forrásnál ellenőrizd.",
+      "icon": "▤",
+      "verification_level": "education",
+      "listing_count": 24
+    },
+    {
+      "id": "28",
+      "slug": "koponya-ct-mr",
+      "name": "Koponya CT és MR",
+      "group_name": "Vizsgálatok és diagnosztika",
+      "description": "Koponya-CT- vagy MR-vizsgálatot nyújtó diagnosztikai helyek. Az adatlap nem orvosi vizsgálati javaslat. A megfelelő vizsgálatról, beutalóról és ellenjavallatokról orvossal és a vizsgálóhellyel egyeztess.",
+      "icon": "◎",
+      "verification_level": "healthcare",
+      "listing_count": 22
+    },
+    {
+      "id": "30",
+      "slug": "gyermekkori-diagnosztika",
+      "name": "Gyermekkori diagnosztikák",
+      "group_name": "Vizsgálatok és diagnosztika",
+      "description": "Gyermekpszichiátriai, fejlődési, pszichológiai és gyógypedagógiai vizsgálatokat nyújtó intézmények. A vizsgálati kör, életkori határ, területi ellátás és a beutaló szükségessége a szolgáltatónál ellenőrizendő.",
+      "icon": "✚",
+      "verification_level": "healthcare",
+      "listing_count": 21
+    },
+    {
+      "id": "31",
+      "slug": "demencia",
+      "name": "Demencia",
+      "group_name": "Szakorvosi ellátás",
+      "description": "Memóriazavarok és demencia kivizsgálásával, gondozásával, illetve hozzátartozói támogatással foglalkozó ellátóhelyek. A támogatói szolgáltatásokat megkülönböztetjük az orvosi diagnosztikától.",
+      "icon": "Ψ",
+      "verification_level": "healthcare",
+      "listing_count": 22
+    }
+  ],
+  "contactTests": true,
+  "realEmailsSent": 0
+}

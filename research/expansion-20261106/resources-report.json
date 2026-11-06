@@ -1,0 +1,20 @@
+{
+  "records": 118,
+  "by_category": {
+    "kepzesek": 25,
+    "tesztek": 24,
+    "magazinok-es-portalok": 24,
+    "konferenciak-es-esemenyek": 23,
+    "podcastok-es-konyvek": 22
+  },
+  "sources": [
+    {
+      "source": "https://www.ptsd.va.gov/professional/assessment/list_measures.asp",
+      "selected": 24
+    },
+    {
+      "source": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+      "schools": 25
+    }
+  ]
+}

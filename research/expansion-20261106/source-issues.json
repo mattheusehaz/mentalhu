@@ -1,0 +1,140 @@
+[
+  {
+    "url": "https://bmkk.eu/szakrendeles/demencia-ambulancia-neurologiai-labor/",
+    "status": 403,
+    "final_url": "https://bmkk.eu/szakrendeles/demencia-ambulancia-neurologiai-labor/",
+    "title": "",
+    "records": [
+      "Békés Vármegyei Központi Kórház – Demencia Ambulancia"
+    ]
+  },
+  {
+    "url": "https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelki-egeszseg.html",
+    "status": 403,
+    "final_url": "https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelki-egeszseg.html",
+    "title": "",
+    "records": [
+      "Egészségvonal – lelki egészség"
+    ]
+  },
+  {
+    "url": "https://karriershop.hu/rolam/",
+    "status": null,
+    "error": "ReadTimeout",
+    "records": [
+      "Kránitz Éva"
+    ]
+  },
+  {
+    "url": "https://ogk.hu/tevekenyseg/radiologia/ct-vizsgalat/koponya-ct",
+    "status": 403,
+    "final_url": "https://ogk.hu/tevekenyseg/radiologia/ct-vizsgalat/koponya-ct",
+    "title": "",
+    "records": [
+      "Országos Gerincgyógyászati Központ – koponya-CT"
+    ]
+  },
+  {
+    "url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/ess",
+    "status": 403,
+    "final_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/ess",
+    "title": "",
+    "records": [
+      "Epworth Álmossági Skála – ESS"
+    ]
+  },
+  {
+    "url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/isi",
+    "status": 403,
+    "final_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/isi",
+    "title": "",
+    "records": [
+      "ISI – Insomnia Severity Index"
+    ]
+  },
+  {
+    "url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/stop-bang",
+    "status": 403,
+    "final_url": "https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/stop-bang",
+    "title": "",
+    "records": [
+      "STOP-Bang – alvási apnoe kockázatának szűrése"
+    ]
+  },
+  {
+    "url": "https://szilasztro.hu/",
+    "status": null,
+    "error": "ConnectionError",
+    "records": [
+      "SzilAsztro"
+    ]
+  },
+  {
+    "url": "https://www.gamblersanonymous.hu/",
+    "status": null,
+    "error": "SSLError",
+    "records": [
+      "GA – Névtelen Szerencsejátékosok"
+    ]
+  },
+  {
+    "url": "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php",
+    "status": 503,
+    "final_url": "https://www.hcp.med.harvard.edu/ncs/asrs_2025.php",
+    "title": "",
+    "records": [
+      "ASRS – felnőtt ADHD önbeszámolós skálák"
+    ]
+  },
+  {
+    "url": "https://www.hcp.med.harvard.edu/ncs/k6_scales.php",
+    "status": 503,
+    "final_url": "https://www.hcp.med.harvard.edu/ncs/k6_scales.php",
+    "title": "",
+    "records": [
+      "K6 és K10 – pszichés distressz skálák"
+    ]
+  },
+  {
+    "url": "https://www.javorszky.hu/wordpress/?page_id=171",
+    "status": null,
+    "error": "SSLError",
+    "records": [
+      "Váci Jávorszky Ödön Kórház – Memóriazavarok és Demencia Ambulancia"
+    ]
+  },
+  {
+    "url": "https://www.mind.org.uk/information-support/",
+    "status": 403,
+    "final_url": "https://www.mind.org.uk/information-support/",
+    "title": "",
+    "records": [
+      "Mind – Information and Support"
+    ]
+  },
+  {
+    "url": "https://www.mptpszichiatria.hu/",
+    "status": null,
+    "error": "SSLError",
+    "records": [
+      "Magyar Pszichiátriai Társaság – szakmai rendezvények"
+    ]
+  },
+  {
+    "url": "https://www.posfainatasa.com/",
+    "status": 404,
+    "final_url": "https://www.posfainatasa.com/",
+    "title": "",
+    "records": [
+      "Pósfai Natasa"
+    ]
+  },
+  {
+    "url": "https://www.tudatoskarrier.hu/szolgaltatasok/",
+    "status": null,
+    "error": "ReadTimeout",
+    "records": [
+      "TudatosKarrier"
+    ]
+  }
+]
