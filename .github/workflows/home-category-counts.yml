@@ -1,0 +1,54 @@
+name: Homepage category count checks
+on:
+  push:
+    branches: [main, fix/home-category-counts-20261106]
+    paths:
+      - lib/public-catalog.cjs
+      - directory.js
+      - scripts/test-home-category-counts.cjs
+      - .github/workflows/home-category-counts.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  category-counts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ci
+          POSTGRES_PASSWORD: ci-local-database-only
+          POSTGRES_DB: mentalhu_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U ci -d mentalhu_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://ci:ci-local-database-only@127.0.0.1:5432/mentalhu_test
+      PGSSLMODE: disable
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Existing directory regression tests
+        run: |
+          node --check lib/public-catalog.cjs
+          node --check directory.js
+          node scripts/test-directory-db.cjs
+          node scripts/test-catalog-pagination.cjs
+      - name: Install isolated browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/browser-tools" --no-package-lock --no-audit --no-fund playwright@1.56.1
+          "$RUNNER_TEMP/browser-tools/node_modules/.bin/playwright" install --with-deps chromium
+          echo "BROWSER_TOOLS=$RUNNER_TEMP/browser-tools/node_modules/playwright" >> "$GITHUB_ENV"
+      - name: Verify counts, edits, zeros and browser refreshes against real PostgreSQL
+        run: node scripts/test-home-category-counts.cjs
+      - name: Read-only check of the public site
+        env:
+          EXPECT_ROLLOUT: ${{ github.ref == 'refs/heads/main' && '1' || '0' }}
+        run: node scripts/test-home-category-counts.cjs --live

@@ -1,4 +1,4 @@
-/* Progressive enhancement: navigation and all 21 categories work without JS. */
+/* Progressive enhancement: navigation and all category counts are server rendered. */
 (() => {
   'use strict';
   const byId = id => document.getElementById(id);
@@ -8,28 +8,30 @@
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 8000);
     try {
-      const response = await fetch(url, {credentials:'same-origin', ...options, headers:{Accept:'application/json', ...(options.headers || {})}, signal:controller.signal});
+      const response = await fetch(url, {credentials:'same-origin', cache:'no-store', ...options, headers:{Accept:'application/json', ...(options.headers || {})}, signal:controller.signal});
       if (!(response.headers.get('content-type') || '').includes('application/json')) throw new Error('A szolgáltatás jelenleg nem érhető el. Kérjük, próbáld újra később.');
       const data = await response.json();
       if (!response.ok) throw new Error(response.status >= 500 ? 'A szolgáltatás átmenetileg nem érhető el. Kérjük, próbáld újra később.' : (data.error || 'A kérés nem sikerült.'));
       return data;
     } finally { clearTimeout(timer); }
   }
+  let countsLoading = false;
   async function loadCounts() {
+    if (countsLoading) return;
+    countsLoading = true;
     try {
       const data = await request('/api/public/categories');
-      if (!Array.isArray(data)) return;
-      // The legacy API returns all-zero defaults on database failure: do not display
-      // those as measured counts. Preserve the complete static navigation instead.
-      if (!data.some(c => Number(c.listing_count) > 0)) return;
-      const map = new Map(data.map(c => [String(c.slug), Number(c.listing_count)]));
+      if (!Array.isArray(data)) throw new Error('Invalid category response');
+      const map = new Map(data.filter(c => c && typeof c.slug === 'string' && c.listing_count !== null && c.listing_count !== '' && Number.isSafeInteger(Number(c.listing_count)) && Number(c.listing_count) >= 0).map(c => [c.slug, Number(c.listing_count)]));
       document.querySelectorAll('[data-count]').forEach(node => {
         const count = map.get(node.dataset.count);
-        if (!Number.isInteger(count) || count < 0) return;
+        if (count === undefined) return;
         node.textContent = '(' + count + ')';
         node.hidden = false;
+        node.dataset.countSource = 'database';
       });
-    } catch { /* The complete HTML category menu remains available. */ }
+    } catch { /* Preserve measured server-rendered counts during a failed refresh. */ }
+    finally { countsLoading = false; }
   }
   function providerCard(item) {
     const name = String(item.name || 'Szolgáltató');
@@ -67,8 +69,7 @@
     const end = box.scrollLeft + box.clientWidth >= box.scrollWidth - 8;
     box.scrollTo({left:end?0:box.scrollLeft+box.clientWidth*.9, behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
   });
-  // Native GET search deliberately has no submit interceptor: filters also work
-  // without JavaScript and the online checkbox is included by the browser.
+  // Native GET search also works without JavaScript.
   const form = byId('submitForm');
   form?.addEventListener('submit', async event => {
     event.preventDefault();
@@ -88,5 +89,9 @@
     } finally { if (button) button.disabled = false; }
   });
   document.querySelectorAll('.mobile-menu a').forEach(link => link.addEventListener('click', () => {const menu=link.closest('details');if(menu)menu.open=false;}));
+  window.addEventListener('pageshow', loadCounts);
+  window.addEventListener('online', loadCounts);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') loadCounts(); });
+  window.setInterval(() => { if (document.visibilityState !== 'hidden') loadCounts(); }, 60000);
   loadCounts(); loadProviders();
 })();
