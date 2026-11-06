@@ -1,0 +1,54 @@
+name: Directory and contact regression checks
+on:
+  push:
+    branches: [main, 'release/expanded-31-*']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  integration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ci
+          POSTGRES_PASSWORD: ci-local-only
+          POSTGRES_DB: mentalhu_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U ci -d mentalhu_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
+      PGSSLMODE: disable
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '20', cache: npm}
+      - run: npm ci
+      - name: Validate runtime syntax
+        run: |
+          node --check server.js
+          node --check lib/contact-inquiries.cjs
+          node --check lib/public-catalog.cjs
+          node --check contact.js
+          node --check admin/contact-admin.js
+      - name: Verify every public page and private inquiry lifecycle
+        run: node scripts/test-expanded-catalog.cjs
+      - name: Install isolated browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/browser-tools" --no-package-lock --no-audit --no-fund playwright@1.56.1
+          "$RUNNER_TEMP/browser-tools/node_modules/.bin/playwright" install --with-deps chromium
+          echo "BROWSER_TOOLS=$RUNNER_TEMP/browser-tools/node_modules/playwright" >> "$GITHUB_ENV"
+      - name: Verify real browser submission and administrative handling
+        run: node scripts/test-contact-browser.cjs
+      - name: Store test summaries
+        uses: actions/upload-artifact@v4
+        with:
+          name: directory-contact-test-results
+          path: |
+            release-test-report.json
+            browser-test-report.json
+          retention-days: 14
