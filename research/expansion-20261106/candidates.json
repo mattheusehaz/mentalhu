@@ -25951,6 +25951,904 @@
     "verified": false
   },
   {
+    "slug": "affidea-koponya-mr-diagnosztika",
+    "name": "Affidea – koponya MR-diagnosztika",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://diagnosztika.affidea.hu/szakrendelesek/koponya-mr/",
+    "source_url": "https://diagnosztika.affidea.hu/szakrendelesek/koponya-mr/",
+    "source_name": "diagnosztika.affidea.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://diagnosztika.affidea.hu/szakrendelesek/koponya-mr/"
+    ],
+    "existing_slug": null,
+    "evidence": "diagnosztika.affidea.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Koponya-MR-vizsgálatot bemutató szolgáltatói oldal. A vizsgálati helyet, beutalót és feltételeket a szolgáltatóval kell egyeztetni."
+  },
+  {
+    "slug": "smart-diagnosztika",
+    "name": "Smart Diagnosztika",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://smartdiagnosztika.hu/koponya-mr-vizsgalat-maganrendelesen/",
+    "source_url": "https://smartdiagnosztika.hu/koponya-mr-vizsgalat-maganrendelesen/",
+    "source_name": "smartdiagnosztika.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://smartdiagnosztika.hu/koponya-mr-vizsgalat-maganrendelesen/"
+    ],
+    "existing_slug": null,
+    "evidence": "smartdiagnosztika.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@smartdiagnosztika.hu",
+    "email_source_url": "https://smartdiagnosztika.hu/koponya-mr-vizsgalat-maganrendelesen/"
+  },
+  {
+    "slug": "medicare-diagnosztikai-kozpont",
+    "name": "Medicare Diagnosztikai Központ",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://medicarediagnosztika.hu/vizsgalatok/mr-vizsgalatok/koponya-mr/",
+    "source_url": "https://medicarediagnosztika.hu/vizsgalatok/mr-vizsgalatok/koponya-mr/",
+    "source_name": "medicarediagnosztika.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://medicarediagnosztika.hu/vizsgalatok/mr-vizsgalatok/koponya-mr/"
+    ],
+    "existing_slug": null,
+    "evidence": "medicarediagnosztika.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "diagnosztika@medicare-group.hu",
+    "email_source_url": "https://medicarediagnosztika.hu/vizsgalatok/mr-vizsgalatok/koponya-mr/"
+  },
+  {
+    "slug": "margit-medical-center",
+    "name": "Margit Medical Center",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://margitmedical.hu/diagnosztika/mr-vizsgalat/koponya-mr/",
+    "source_url": "https://margitmedical.hu/diagnosztika/mr-vizsgalat/koponya-mr/",
+    "source_name": "margitmedical.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://margitmedical.hu/diagnosztika/mr-vizsgalat/koponya-mr/"
+    ],
+    "existing_slug": null,
+    "evidence": "margitmedical.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@margitmedical.hu",
+    "email_source_url": "https://margitmedical.hu/diagnosztika/mr-vizsgalat/koponya-mr/"
+  },
+  {
+    "slug": "waberer-medical-center-mr-diagnosztika",
+    "name": "Wáberer Medical Center – MR-diagnosztika",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://wmc.hu/diagnosztika/mr-vizsgalat/koponya-mr-vizsgalat/",
+    "source_url": "https://wmc.hu/diagnosztika/mr-vizsgalat/koponya-mr-vizsgalat/",
+    "source_name": "wmc.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://wmc.hu/diagnosztika/mr-vizsgalat/koponya-mr-vizsgalat/"
+    ],
+    "existing_slug": null,
+    "evidence": "wmc.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "budai-egeszsegkozpont-radiologia",
+    "name": "Budai Egészségközpont – radiológia",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://bhc.hu/szolgaltatasaink/radiologia/mri-vizsgalatok/koponya-mr-vizsgalat",
+    "source_url": "https://bhc.hu/szolgaltatasaink/radiologia/mri-vizsgalatok/koponya-mr-vizsgalat",
+    "source_name": "bhc.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://bhc.hu/szolgaltatasaink/radiologia/mri-vizsgalatok/koponya-mr-vizsgalat"
+    ],
+    "existing_slug": null,
+    "evidence": "bhc.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "pozitron-medical-diagnosztikai-kozpont",
+    "name": "Pozitron Medical Diagnosztikai Központ",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://pet.hu/araink/",
+    "source_url": "https://pet.hu/araink/",
+    "source_name": "pet.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://pet.hu/araink/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató árlistája koponya-MR-vizsgálatot sorol fel. Az árakat nem másoljuk; az aktuális feltételek a forrásoldalon.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@pet.hu",
+    "email_source_url": "https://pet.hu/araink/"
+  },
+  {
+    "slug": "visi-med-diagnosztika",
+    "name": "VISI-MED Diagnosztika",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://visi-med.hu/szolgaltatasaink/mr-vizsgalat/",
+    "source_url": "https://visi-med.hu/szolgaltatasaink/mr-vizsgalat/",
+    "source_name": "visi-med.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://visi-med.hu/szolgaltatasaink/mr-vizsgalat/"
+    ],
+    "existing_slug": null,
+    "evidence": "visi-med.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "diagnosztika@visi-med.hu",
+    "email_source_url": "https://visi-med.hu/szolgaltatasaink/mr-vizsgalat/"
+  },
+  {
+    "slug": "medicopus-mr-diagnosztika",
+    "name": "Medicopus – MR-diagnosztika",
+    "kind": "organization",
+    "city": "Kaposvár",
+    "qualifications": "",
+    "website_url": "https://medicopus.hu/hu/mr_pricelist.html",
+    "source_url": "https://medicopus.hu/hu/mr_pricelist.html",
+    "source_name": "medicopus.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://medicopus.hu/hu/mr_pricelist.html"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató vizsgálati árlistája koponya-MR-vizsgálatot is tartalmaz.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "medicopus.diagnosztika@sic.medicopus.hu",
+    "email_source_url": "https://medicopus.hu/hu/mr_private_important.html"
+  },
+  {
+    "slug": "ikva-medical-center",
+    "name": "Ikva Medical Center",
+    "kind": "organization",
+    "city": "Sopron",
+    "qualifications": "",
+    "website_url": "https://imedical.hu/szolgaltatasaink/mr-diagnosztika/",
+    "source_url": "https://imedical.hu/szolgaltatasaink/mr-diagnosztika/",
+    "source_name": "imedical.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://imedical.hu/szolgaltatasaink/mr-diagnosztika/"
+    ],
+    "existing_slug": null,
+    "evidence": "imedical.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szent-margit-korhaz-mri-diagnosztika",
+    "name": "Szent Margit Kórház – MRI-diagnosztika",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.szentmargitkorhaz.hu/betegellatas/diagnosztika/mri-diagnosztika/",
+    "source_url": "https://www.szentmargitkorhaz.hu/betegellatas/diagnosztika/mri-diagnosztika/",
+    "source_name": "www.szentmargitkorhaz.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://www.szentmargitkorhaz.hu/betegellatas/diagnosztika/mri-diagnosztika/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.szentmargitkorhaz.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "mrelojegyzes@sztmargit.hu",
+    "email_source_url": "https://www.szentmargitkorhaz.hu/betegellatas/diagnosztika/mri-diagnosztika/"
+  },
+  {
+    "slug": "flor-ferenc-korhaz-kozponti-kepalkoto-diagnosztikai-osztaly",
+    "name": "Flór Ferenc Kórház – Központi Képalkotó Diagnosztikai Osztály",
+    "kind": "organization",
+    "city": "Kistarcsa",
+    "qualifications": "",
+    "website_url": "https://www.florhosp.hu/jarobeteg/kozponti-kepalkoto-diagnosztikai-osztaly/",
+    "source_url": "https://www.florhosp.hu/jarobeteg/kozponti-kepalkoto-diagnosztikai-osztaly/",
+    "source_name": "www.florhosp.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://www.florhosp.hu/jarobeteg/kozponti-kepalkoto-diagnosztikai-osztaly/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.florhosp.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szent-imre-korhaz-kepalkoto-diagnosztika",
+    "name": "Szent Imre Kórház – képalkotó diagnosztika",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.szentimrekorhaz.hu/index.php/diagnosztikaiosztalyok/",
+    "source_url": "https://www.szentimrekorhaz.hu/index.php/diagnosztikaiosztalyok/",
+    "source_name": "www.szentimrekorhaz.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://www.szentimrekorhaz.hu/index.php/diagnosztikaiosztalyok/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.szentimrekorhaz.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "semmelweis-premium-mr-diagnosztika",
+    "name": "Semmelweis Premium – MR-diagnosztika",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://semmelweispremium.hu/index.php/araink/mr-diagnosztika",
+    "source_url": "https://semmelweispremium.hu/index.php/araink/mr-diagnosztika",
+    "source_name": "semmelweispremium.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://semmelweispremium.hu/index.php/araink/mr-diagnosztika"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweispremium.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "pecsi-diagnosztikai-kozpont",
+    "name": "Pécsi Diagnosztikai Központ",
+    "kind": "organization",
+    "city": "Pécs",
+    "qualifications": "",
+    "website_url": "https://www.neuroct.hu/mr.html",
+    "source_url": "https://www.neuroct.hu/mr.html",
+    "source_name": "www.neuroct.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://www.neuroct.hu/mr.html"
+    ],
+    "existing_slug": null,
+    "evidence": "www.neuroct.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "dunalife-nyitott-mr-budapest",
+    "name": "DunaLife – Nyitott MR Budapest",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://nyitottmrbudapest.hu/koponya-mr/",
+    "source_url": "https://nyitottmrbudapest.hu/koponya-mr/",
+    "source_name": "nyitottmrbudapest.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://nyitottmrbudapest.hu/koponya-mr/"
+    ],
+    "existing_slug": null,
+    "evidence": "nyitottmrbudapest.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@nyitottmrbudapest.hu",
+    "email_source_url": "https://nyitottmrbudapest.hu/koponya-mr/"
+  },
+  {
+    "slug": "clinexpert-mr-heves",
+    "name": "Clinexpert MR Heves",
+    "kind": "organization",
+    "city": "Heves",
+    "qualifications": "",
+    "website_url": "https://clinexpertmr.hu/",
+    "source_url": "https://clinexpertmr.hu/",
+    "source_name": "clinexpertmr.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://clinexpertmr.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "A saját szolgáltatási felsorolás koponya- és hypophysis-MR-vizsgálatot is tartalmaz.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kisto27-diagnosztikai-centrum",
+    "name": "Kistó27 Diagnosztikai Centrum",
+    "kind": "organization",
+    "city": "Veszprém",
+    "qualifications": "",
+    "website_url": "https://kisto27.hu/",
+    "source_url": "https://kisto27.hu/",
+    "source_name": "kisto27.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://kisto27.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "kisto27.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "diagnosztika@kisto27.hu",
+    "email_source_url": "https://kisto27.hu/"
+  },
+  {
+    "slug": "duna-medical-center-demenciaszures-es-koponya-mr",
+    "name": "Duna Medical Center – demenciaszűrés és koponya-MR",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://dunamedicalcenter.org/szolgaltatasok/szurocsomagok/demencia-szures",
+    "source_url": "https://dunamedicalcenter.org/szolgaltatasok/szurocsomagok/demencia-szures",
+    "source_name": "dunamedicalcenter.org",
+    "categories": [
+      "demencia",
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://dunamedicalcenter.org/szolgaltatasok/szurocsomagok/demencia-szures"
+    ],
+    "existing_slug": null,
+    "evidence": "dunamedicalcenter.org",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "A szolgáltató demenciaszűrési programjának tájékoztatója; a program koponya-MR-vizsgálatot is felsorol. A szükséges vizsgálatokról szakorvossal kell egyeztetni."
+  },
+  {
+    "slug": "komplexlabor-szeged-koponya-mri-es-mra",
+    "name": "KomplexLabor Szeged – koponya-MRI és MRA",
+    "kind": "organization",
+    "city": "Szeged",
+    "qualifications": "",
+    "website_url": "https://szeged.komplexlabor.hu/szolgaltatasok/koponya-mri-es-mra-vizsgalat/",
+    "source_url": "https://szeged.komplexlabor.hu/szolgaltatasok/koponya-mri-es-mra-vizsgalat/",
+    "source_name": "szeged.komplexlabor.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://szeged.komplexlabor.hu/szolgaltatasok/koponya-mri-es-mra-vizsgalat/"
+    ],
+    "existing_slug": null,
+    "evidence": "szeged.komplexlabor.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "semmelweis-egyetem-orvosi-kepalkoto-klinika-mr-laboratorium",
+    "name": "Semmelweis Egyetem Orvosi Képalkotó Klinika – MR-laboratórium",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/kepalkotas/betegeknek/reszlegek/mr-laboratorium/",
+    "source_url": "https://semmelweis.hu/kepalkotas/betegeknek/reszlegek/mr-laboratorium/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://semmelweis.hu/kepalkotas/betegeknek/reszlegek/mr-laboratorium/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Egyetemi klinikai MR-laboratórium. A beutalási és előjegyzési feltételek a klinika tájékoztatójában találhatók."
+  },
+  {
+    "slug": "orszagos-gerincgyogyaszati-kozpont-koponya-ct",
+    "name": "Országos Gerincgyógyászati Központ – koponya-CT",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://ogk.hu/tevekenyseg/radiologia/ct-vizsgalat/koponya-ct",
+    "source_url": "https://ogk.hu/tevekenyseg/radiologia/ct-vizsgalat/koponya-ct",
+    "source_name": "ogk.hu",
+    "categories": [
+      "koponya-ct-mr"
+    ],
+    "sources": [
+      "https://ogk.hu/tevekenyseg/radiologia/ct-vizsgalat/koponya-ct"
+    ],
+    "existing_slug": null,
+    "evidence": "ogk.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "semmelweis-neurologiai-klinika-dementia-ambulancia",
+    "name": "Semmelweis Neurológiai Klinika – Dementia Ambulancia",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/neurologia/betegellatas/jarobeteg-ellatas/dementia-ambulancia/",
+    "source_url": "https://semmelweis.hu/neurologia/betegellatas/jarobeteg-ellatas/dementia-ambulancia/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/neurologia/betegellatas/jarobeteg-ellatas/dementia-ambulancia/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "semmelweis-pszichiatriai-es-pszichoterapias-klinika-memoria-szakambulancia",
+    "name": "Semmelweis Pszichiátriai és Pszichoterápiás Klinika – Memória szakambulancia",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/pszichiatria/betegellatas/memoria-szakambulancia/",
+    "source_url": "https://semmelweis.hu/pszichiatria/betegellatas/memoria-szakambulancia/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://semmelweis.hu/pszichiatria/betegellatas/memoria-szakambulancia/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Memóriapanaszokkal foglalkozó klinikai szakambulancia. A vizsgálati és beutalási feltételek, valamint a hozzátartozói csoport külön információi a klinika oldalán."
+  },
+  {
+    "slug": "jahn-ferenc-del-pesti-korhaz-demencia-szakrendeles",
+    "name": "Jahn Ferenc Dél-pesti Kórház – Demencia szakrendelés",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://delpestikorhaz.hu/jarobeteg-ellatas/ambulanciak/demencia/",
+    "source_url": "https://delpestikorhaz.hu/jarobeteg-ellatas/ambulanciak/demencia/",
+    "source_name": "delpestikorhaz.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://delpestikorhaz.hu/jarobeteg-ellatas/ambulanciak/demencia/"
+    ],
+    "existing_slug": null,
+    "evidence": "delpestikorhaz.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "eszak-pesti-centrumkorhaz-memoria-szakambulancia",
+    "name": "Észak-Pesti Centrumkórház – Memória szakambulancia",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurologia-es-stroke-ellatas",
+    "source_url": "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurolologia-es-stroke-ellatas",
+    "source_name": "epc.euintezmeny.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://epc.euintezmeny.hu/tartalmak/ellatas/fekvobetegellatas/ideggyogyaszati-osztaly-altalanos-neurolologia-es-stroke-ellatas"
+    ],
+    "existing_slug": null,
+    "evidence": "epc.euintezmeny.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "bekes-varmegyei-kozponti-korhaz-demencia-ambulancia",
+    "name": "Békés Vármegyei Központi Kórház – Demencia Ambulancia",
+    "kind": "organization",
+    "city": "Gyula",
+    "qualifications": "",
+    "website_url": "https://bmkk.eu/szakrendeles/demencia-ambulancia-neurologiai-labor/",
+    "source_url": "https://bmkk.eu/szakrendeles/demencia-ambulancia-neurologiai-labor/",
+    "source_name": "bmkk.eu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://bmkk.eu/szakrendeles/demencia-ambulancia-neurologiai-labor/"
+    ],
+    "existing_slug": null,
+    "evidence": "bmkk.eu",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "idopontfoglalas@bmkk.eu",
+    "email_source_url": "https://bmkk.eu/szakrendeles/demencia-ambulancia-neurologiai-labor/"
+  },
+  {
+    "slug": "uzsoki-utcai-korhaz-demencia-ambulancia",
+    "name": "Uzsoki Utcai Kórház – Demencia ambulancia",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.uzsoki.hu/demencia-ambulancia",
+    "source_url": "https://www.uzsoki.hu/demencia-ambulancia",
+    "source_name": "www.uzsoki.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://www.uzsoki.hu/demencia-ambulancia"
+    ],
+    "existing_slug": null,
+    "evidence": "www.uzsoki.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szent-janos-centrumkorhaz-neurologiai-es-demenciaellatas",
+    "name": "Szent János Centrumkórház – neurológiai és demenciaellátás",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.janoskorhaz.hu/jarobeteg-ellatas/neurologiai-szakrendeles/",
+    "source_url": "https://www.janoskorhaz.hu/jarobeteg-ellatas/neurologiai-szakrendeles/",
+    "source_name": "www.janoskorhaz.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.janoskorhaz.hu/jarobeteg-ellatas/neurologiai-szakrendeles/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.janoskorhaz.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "geomedical-neurologia",
+    "name": "Geomedical – neurológia",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://geomedical.hu/szolgaltatasok/neurologia/",
+    "source_url": "https://geomedical.hu/szolgaltatasok/neurologia/",
+    "source_name": "geomedical.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://geomedical.hu/szolgaltatasok/neurologia/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szakrendelés bemutatkozása a demencia kivizsgálását és gondozását is felsorolja.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "debreceni-egyetem-klinikai-kozpont-demencia-szakrendeles-bartok-bela-ut",
+    "name": "Debreceni Egyetem Klinikai Központ – Demencia szakrendelés, Bartók Béla út",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/6360486",
+    "source_url": "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/6360486",
+    "source_name": "klinikaikozpont.unideb.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/6360486"
+    ],
+    "existing_slug": null,
+    "evidence": "klinikaikozpont.unideb.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "debreceni-egyetem-klinikai-kozpont-demencia-szakrendeles-bethlen-utca",
+    "name": "Debreceni Egyetem Klinikai Központ – Demencia szakrendelés, Bethlen utca",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/2990117",
+    "source_url": "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/2990117",
+    "source_name": "klinikaikozpont.unideb.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/2990117"
+    ],
+    "existing_slug": null,
+    "evidence": "klinikaikozpont.unideb.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szte-pszichiatriai-klinika-memoriaambulancia",
+    "name": "SZTE Pszichiátriai Klinika – memóriaambulancia",
+    "kind": "organization",
+    "city": "Szeged",
+    "qualifications": "",
+    "website_url": "https://u-szeged.hu/szakk/psych/rendeles",
+    "source_url": "https://u-szeged.hu/szakk/psych/rendeles",
+    "source_name": "u-szeged.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://u-szeged.hu/szakk/psych/rendeles"
+    ],
+    "existing_slug": null,
+    "evidence": "u-szeged.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "praxis-zeno-pecs-neurologia",
+    "name": "Praxis Dr. Zénó Pécs – neurológia",
+    "kind": "organization",
+    "city": "Pécs",
+    "qualifications": "",
+    "website_url": "https://pecs.drzeno.hu/szakterulet/neurologia/",
+    "source_url": "https://pecs.drzeno.hu/szakterulet/neurologia/",
+    "source_name": "pecs.drzeno.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://pecs.drzeno.hu/szakterulet/neurologia/"
+    ],
+    "existing_slug": null,
+    "evidence": "pecs.drzeno.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "lovadi-emese",
+    "name": "Dr. Lovádi Emese",
+    "kind": "provider",
+    "city": "Pécs",
+    "qualifications": "",
+    "website_url": "https://pecs.drzeno.hu/orvos/dr-lovadi-emese/",
+    "source_url": "https://pecs.drzeno.hu/orvos/dr-lovadi-emese/",
+    "source_name": "pecs.drzeno.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://pecs.drzeno.hu/orvos/dr-lovadi-emese/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szakorvos bemutatkozásában neurológia és demenciaellátás szerepel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "petz-aladar-egyetemi-oktato-korhaz-pszichiatriai-es-demenciaellatas",
+    "name": "Petz Aladár Egyetemi Oktató Kórház – pszichiátriai és demenciaellátás",
+    "kind": "organization",
+    "city": "Győr",
+    "qualifications": "",
+    "website_url": "https://petz.gyor.hu/betegellatas/fekvobeteg-ellatas/pszichiatriai-mentalhigienes-es-addiktologiai-osztaly",
+    "source_url": "https://petz.gyor.hu/betegellatas/fekvobeteg-ellatas/pszichiatriai-mentalhigienes-es-addiktologiai-osztaly",
+    "source_name": "petz.gyor.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://petz.gyor.hu/betegellatas/fekvobeteg-ellatas/pszichiatriai-mentalhigienes-es-addiktologiai-osztaly"
+    ],
+    "existing_slug": null,
+    "evidence": "petz.gyor.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kelemen-peter-f-medical",
+    "name": "Dr. Kelemen Péter – F Medical",
+    "kind": "provider",
+    "city": "Nyíregyháza",
+    "qualifications": "",
+    "website_url": "https://fmedical.hu/dr-kelemen-peter",
+    "source_url": "https://fmedical.hu/dr-kelemen-peter",
+    "source_name": "fmedical.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://fmedical.hu/dr-kelemen-peter"
+    ],
+    "existing_slug": null,
+    "evidence": "fmedical.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "dunaujvarosi-egyesitett-szocialis-intezmeny-demens-betegek-nappali-ellatasa",
+    "name": "Dunaújvárosi Egyesített Szociális Intézmény – demens betegek nappali ellátása",
+    "kind": "organization",
+    "city": "Dunaújváros",
+    "qualifications": "",
+    "website_url": "https://idosellatas.com/index.php/szolgaltatasaink/demens-betegek-nappali-ellatasa",
+    "source_url": "https://idosellatas.com/index.php/szolgaltatasaink/demens-betegek-nappali-ellatasa",
+    "source_name": "idosellatas.com",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://idosellatas.com/index.php/szolgaltatasaink/demens-betegek-nappali-ellatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "idosellatas.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "description": "Szociális nappali ellátás demenciával élőknek; nem orvosi diagnosztikai szakrendelés. A felvételi és területi feltételeket az intézménynél kell ellenőrizni."
+  },
+  {
+    "slug": "praxis-maganrendelo-memoriaambulancia",
+    "name": "Praxis Magánrendelő – memóriaambulancia",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://ultrahang.com/",
+    "source_url": "https://ultrahang.com/",
+    "source_name": "ultrahang.com",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://ultrahang.com/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját oldalán memóriaambulanciát és neurológiai ellátást hirdet.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "vaci-javorszky-odon-korhaz-memoriazavarok-es-demencia-ambulancia",
+    "name": "Váci Jávorszky Ödön Kórház – Memóriazavarok és Demencia Ambulancia",
+    "kind": "organization",
+    "city": "Vác",
+    "qualifications": "",
+    "website_url": "https://www.javorszky.hu/wordpress/?page_id=171",
+    "source_url": "https://www.javorszky.hu/wordpress/?page_id=171",
+    "source_name": "www.javorszky.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.javorszky.hu/wordpress/?page_id=171"
+    ],
+    "existing_slug": null,
+    "evidence": "www.javorszky.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "neurologiai-kozpont-demencia-es-memoriazavarok",
+    "name": "Neurológiai Központ – demencia és memóriazavarok",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.neurologiaikozpont.hu/demencia",
+    "source_url": "https://www.neurologiaikozpont.hu/demencia",
+    "source_name": "www.neurologiaikozpont.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.neurologiaikozpont.hu/demencia"
+    ],
+    "existing_slug": null,
+    "evidence": "www.neurologiaikozpont.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "fuzessery-judit",
+    "name": "Dr. Füzesséry Judit",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit-1",
+    "source_url": "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit-1",
+    "source_name": "www.neurologiaikozpont.hu",
+    "categories": [
+      "demencia",
+      "neurologia"
+    ],
+    "sources": [
+      "https://www.neurologiaikozpont.hu/munkatarsak/neurologia/dr-fuzessery-judit-1"
+    ],
+    "existing_slug": null,
+    "evidence": "A neurológus szakorvos bemutatkozásában demencia és Alzheimer-kór szerepel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szinapszis-pecs-demenciaval-kapcsolatos-segitseg",
+    "name": "Szinapszis Pécs – demenciával kapcsolatos segítség",
+    "kind": "organization",
+    "city": "Pécs",
+    "qualifications": "",
+    "website_url": "https://szinapszispecs.hu/demencia/",
+    "source_url": "https://szinapszispecs.hu/demencia/",
+    "source_name": "szinapszispecs.hu",
+    "categories": [
+      "demencia"
+    ],
+    "sources": [
+      "https://szinapszispecs.hu/demencia/"
+    ],
+    "existing_slug": null,
+    "evidence": "szinapszispecs.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
     "slug": "maitri-jogastudio",
     "name": "Maitri Jógastúdió",
     "kind": "organization",

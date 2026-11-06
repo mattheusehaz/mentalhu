@@ -1,8 +1,8 @@
 {
   "existing": 399,
-  "candidate_entities": 1523,
-  "new_entities": 1509,
-  "projected_unique_total": 1908,
+  "candidate_entities": 1566,
+  "new_entities": 1552,
+  "projected_unique_total": 1951,
   "categories": {
     "pszichologusok": 235,
     "pszichiaterek": 48,
@@ -26,26 +26,24 @@
     "podcastok-es-konyvek": 0,
     "kozossegek-es-csoportok": 23,
     "csaladallitas": 26,
-    "neurologia": 2,
+    "neurologia": 14,
     "hipnoterapeutak": 23,
     "tesztek": 0,
     "ful-orr-gegeszek": 0,
     "szemeszek": 27,
-    "koponya-ct-mr": 0,
+    "koponya-ct-mr": 22,
     "agykontroll": 34,
     "gyermekkori-diagnosztika": 21,
-    "demencia": 0
+    "demencia": 22
   },
   "below_minimum": {
     "kepzesek": 12,
     "konferenciak-es-esemenyek": 0,
     "magazinok-es-portalok": 5,
     "podcastok-es-konyvek": 0,
-    "neurologia": 2,
+    "neurologia": 14,
     "tesztek": 0,
-    "ful-orr-gegeszek": 0,
-    "koponya-ct-mr": 0,
-    "demencia": 0
+    "ful-orr-gegeszek": 0
   },
   "sources": [
     {
