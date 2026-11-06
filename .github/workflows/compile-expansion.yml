@@ -2,7 +2,7 @@ name: Compile sourced catalog expansion
 on:
   push:
     branches: [data/expansion-1000-20261106]
-    paths: [scripts/collect-directory-data.py, scripts/discover-directory-extras.py, scripts/research-sparse-sources.py, research/expansion-20261106/curated.json, .github/workflows/compile-expansion.yml]
+    paths: [scripts/collect-directory-data.py, scripts/research-medical-expansion.py, 'research/expansion-20261106/curated*.json', research/expansion-20261106/new-categories.json, .github/workflows/compile-expansion.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,20 +19,25 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Discover sparse-category primary profiles
+      - name: Inspect additional requested medical sources
         run: |
-          if [ ! -f research/expansion-20261106/extra-report.json ]; then
-            python scripts/discover-directory-extras.py
+          if [ ! -f research/expansion-20261106/medical-audit.json ]; then
+            python scripts/research-medical-expansion.py
           fi
-          if [ ! -f research/expansion-20261106/books-list.json ]; then
-            python scripts/research-sparse-sources.py
-          fi
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/collect-directory-data.py')
+          s=p.read_text().replace("+['csaladallitas']", "+[x['slug'] for x in json.loads((P/'new-categories.json').read_text())]")
+          s=s.replace("'source_verified_via','languages'", "'source_verified_via','languages','email','email_source_url'")
+          s=s.replace("'online_available','languages']", "'online_available','languages','email','email_source_url']")
+          p.write_text(s)
+          PY
       - run: python scripts/collect-directory-data.py
       - name: Commit research results only
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add research/expansion-20261106
-          git diff --cached --quiet || git commit -m 'Compile deduplicated public source candidates and minimum-category report'
+          git add research/expansion-20261106 scripts/collect-directory-data.py
+          git diff --cached --quiet || git commit -m 'Update source-backed expansion and category coverage'
           git pull --rebase origin data/expansion-1000-20261106
           git push origin HEAD:data/expansion-1000-20261106
