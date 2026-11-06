@@ -1,0 +1,52 @@
+name: Verify expanded production directory
+on:
+  push:
+    branches: [check/expanded-live-20261106]
+    paths: [.github/workflows/verify-expanded-production.yml]
+permissions:
+  contents: write
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check public production responses without creating inquiries or sending mail
+        run: |
+          node <<'NODE'
+          const assert=require('node:assert/strict'),fs=require('node:fs');
+          const manifest=JSON.parse(fs.readFileSync('catalog-release.json','utf8'));
+          const base='https://mental.hu',wait=ms=>new Promise(r=>setTimeout(r,ms));
+          async function read(p){const r=await fetch(base+p,{cache:'no-store',headers:{'Cache-Control':'no-cache'},signal:AbortSignal.timeout(20000)});return {status:r.status,release:r.headers.get('x-mental-release'),body:await r.text()};}
+          async function json(p){const r=await read(p);assert.equal(r.status,200,p);return JSON.parse(r.body);}
+          (async()=>{
+            let home;
+            for(let i=0;i<30;i++){try{home=await read('/');console.log('ROLLOUT',i,home.status,home.release);if(home.status===200&&home.release===manifest.version)break;}catch(e){console.log('ROLLOUT',i,e.cause?.code||e.name);}await wait(10000);}
+            assert.equal(home?.release,manifest.version,'New release is not confirmed live');
+            const health=await json('/health/ready');assert(health.database&&health.migrations);assert.equal(health.categories,31);assert.equal(health.listings,manifest.projected_total);
+            const cats=await json('/api/public/categories');assert.equal(cats.length,31);assert(cats.every(c=>c.listing_count>=20));
+            const first=await json('/api/public/listings?paginated=true&limit=100');let all=[...first.items];
+            for(let page=2;page<=first.pages;page++)all.push(...(await json('/api/public/listings?paginated=true&limit=100&page='+page)).items);
+            assert.equal(all.length,health.listings);assert.equal(new Set(all.map(x=>x.id)).size,health.listings);assert(all.every(x=>x.categories?.length));
+            const badges=[...home.body.matchAll(/<small\b([^>]*\bdata-count="([^"]+)"[^>]*)>([\s\S]*?)<\/small>/g)];assert.equal(badges.length,39);
+            const map=new Map(cats.map(c=>[c.slug,c.listing_count]));for(const b of badges){assert(!/\bhidden\b/.test(b[1]));assert.equal(b[3],'('+map.get(b[2])+')');}
+            const profileChecks=[];
+            for(const cat of cats){const counted=all.filter(x=>x.categories.some(c=>c.slug===cat.slug)).length;assert.equal(counted,cat.listing_count);const page=await read('/kategoria/'+cat.slug);assert.equal(page.status,200);assert(page.body.includes('data-catalog-total="'+counted+'"'));const sample=all.find(x=>x.categories.some(c=>c.slug===cat.slug));const profile=await read(sample.url);assert.equal(profile.status,200);assert(profile.body.includes('contactInquiryForm'));assert(profile.body.includes('data-contact-slug="'+sample.slug+'"'));profileChecks.push(sample.slug);}
+            const pages=Math.ceil(health.listings/24),visible=new Set();
+            for(let p=1;p<=pages;p++){const page=await read('/kereses?page='+p);assert.equal(page.status,200);for(const m of page.body.matchAll(/class="listing-card[^\"]*" href="\/szolgaltato\/([^\"]+)"/g))visible.add(m[1]);}
+            assert.equal(visible.size,health.listings);
+            const contact=await json('/api/contact/form/'+all[0].slug);
+            assert.equal((await read('/api/admin/contact/inquiries')).status,401);
+            assert.equal((await read('/api/admin/contact/settings')).status,401);
+            for(const p of ['/server.js','/lib/contact-inquiries.cjs','/migrations/007_sourced_catalog_expansion.sql','/research/expansion-20261106/candidates.json','/%6cib/contact-inquiries.cjs'])assert([400,403,404].includes((await read(p)).status),p+' must not expose internal data');
+            const report={ok:true,checked_at:new Date().toISOString(),domain:base,release:home.release,records:health.listings,categories:cats.length,minimum_category_count:Math.min(...cats.map(c=>c.listing_count)),distinct_api_records:all.length,distinct_visible_profiles:visible.size,html_pages:pages,homepage_badges:badges.length,category_pages_checked:cats.length,profile_forms_checked:profileChecks.length,admin_unauthenticated_access_blocked:true,internal_files_blocked:true,contact_collection_enabled:contact.enabled,mail_configuration_present:contact.mail_ready,inquiries_created_by_this_check:0,emails_sent_by_this_check:0,counts:cats.map(c=>({name:c.name,slug:c.slug,count:c.listing_count}))};
+            fs.writeFileSync('expanded-production-report.json',JSON.stringify(report,null,2));console.log('LIVE_VERIFIED',JSON.stringify(report));
+          })().catch(e=>{console.error('LIVE_CHECK_FAILED',e.stack);process.exitCode=1;});
+          NODE
+      - name: Save read-only verification report on audit branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add expanded-production-report.json
+          git commit -m 'Record verified live production totals and contact readiness without sending any inquiries'
+          git push origin HEAD:check/expanded-live-20261106
