@@ -1,0 +1,66 @@
+name: Build expanded directory release
+on:
+  push:
+    branches: [data/expansion-1000-20261106]
+    paths: [scripts/prepare-expanded-release.py, scripts/test-expanded-catalog.cjs, scripts/finalize-source-audit.py, scripts/collect-hospital-specialists.py, scripts/complete-resource-categories.py, lib/contact-inquiries.cjs, contact.js, admin/contact-admin.js, .github/workflows/build-expanded-release.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: catalog-expansion-research
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ci
+          POSTGRES_PASSWORD: ci-local-only
+          POSTGRES_DB: mentalhu_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U ci -d mentalhu_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
+      PGSSLMODE: disable
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '20', cache: npm}
+      - run: pip install requests beautifulsoup4
+      - name: Finish source-backed small categories
+        run: |
+          if [ ! -f research/expansion-20261106/hospital-report.json ]; then python scripts/collect-hospital-specialists.py; fi
+          if [ ! -f research/expansion-20261106/resources-report.json ]; then python scripts/complete-resource-categories.py; fi
+          python scripts/collect-directory-data.py
+          python scripts/finalize-source-audit.py
+          python scripts/collect-directory-data.py
+      - name: Prepare additive data migrations and contact wiring
+        run: python scripts/prepare-expanded-release.py
+      - name: Install pinned SMTP library and validate application syntax
+        run: |
+          npm install --save-exact nodemailer
+          node --check server.js
+          node --check lib/contact-inquiries.cjs
+          node --check lib/public-catalog.cjs
+          node --check contact.js
+          node --check admin/contact-admin.js
+          node --check scripts/test-expanded-catalog.cjs
+      - name: Verify all categories, every public page and inquiry lifecycle
+        run: node scripts/test-expanded-catalog.cjs
+      - name: Save generated files and audit on the research branch only
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/expansion-20261106 migrations server.js index.html lib/public-catalog.cjs lib/contact-inquiries.cjs admin/index.html admin/kapcsolatfelvetelek.html package.json package-lock.json
+          for f in catalog-release.json release-test-report.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          git diff --cached --quiet || git commit -m 'Build source-backed expanded catalog and private inquiry release for review'
+          git pull --rebase origin data/expansion-1000-20261106
+          git push origin HEAD:data/expansion-1000-20261106
