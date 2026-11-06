@@ -1,0 +1,24 @@
+name: Audit imported category associations
+on:
+  push:
+    branches: [fix/home-category-counts-20261106]
+    paths: [.github/workflows/audit-category-links.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect source and public classification coverage
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs'),zlib=require('node:zlib');
+          const b64=[0,1,2,3].map(i=>fs.readFileSync('migrations/004_directory_expansion.sql.gz.b64.part'+i,'utf8').trim()).join('');
+          const sql=zlib.gunzipSync(Buffer.from(b64,'base64')).toString('utf8');
+          console.log('SEED_HEAD',sql.slice(0,1300));
+          console.log('SEED_TAIL',sql.slice(-5000));
+          (async()=>{const all=[];for(let p=1;p<=4;p++){const r=await fetch('https://mental.hu/api/public/listings?paginated=true&limit=100&page='+p,{signal:AbortSignal.timeout(10000),cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();all.push(...d.items);}
+          const missing=all.filter(x=>!x.categories||!x.categories.length);console.log('LIVE_CATEGORY_COVERAGE',JSON.stringify({total:all.length,missing:missing.length,sample:missing.slice(0,6).map(x=>({slug:x.slug,name:x.name,kind:x.kind}))}));})().catch(e=>{console.error(e);process.exitCode=1;});
+          NODE
