@@ -190,7 +190,7 @@ app.post('/api/admin/login', authLimiter, async (req, res) => {
 
   const token = jwt.sign({ email, role: 'admin' }, JWT_SECRET, { expiresIn: '12h' });
   res.cookie('mental_cms', token, {
-    httpOnly: true, secure: process.env.NODE_ENV === 'production', sameSite: 'strict', maxAge: 12 * 60 * 60 * 1000
+    httpOnly: true, secure: process.env.NODE_ENV === 'production' || req.secure, sameSite: 'strict', maxAge: 12 * 60 * 60 * 1000
   });
   audit('login', 'admin', email, email);
   res.json({ ok: true, email });
@@ -497,7 +497,7 @@ function directoryShell(title, body) {
 
 function listingCards(rows) {
   if (!rows.length) return '<div class="listing-card"><h3>Nincs találat</h3><p>Próbálj másik kategóriát, várost vagy keresőkifejezést.</p></div>';
-  return rows.map(x => `<a class="listing-card ${x.featured?'featured':''}" href="/szolgaltato/${encodeURIComponent(x.slug)}"><div class="listing-head">${x.profile_image_id?'<img class="listing-avatar" src="/media/'+x.profile_image_id+'" alt="">':'<div class="listing-avatar">'+escapeHtml(x.name.charAt(0))+'</div>'}<div><h3>${escapeHtml(x.name)}</h3>${x.verified?'<div class="verified">✓ Ellenőrzött adatok</div>':''}</div></div><p>${escapeHtml(x.short_description||'Részletes szolgáltatói profil és elérhetőségek.')}</p><div class="chips">${(x.categories||[]).slice(0,3).map(c=>'<span class="chip">'+escapeHtml(c.name)+'</span>').join('')}${x.online_available?'<span class="chip">Online</span>':''}</div><div class="listing-foot"><span>${escapeHtml(x.city||'Magyarország')}</span><span>Profil →</span></div></a>`).join('');
+  return rows.map(x => `<a class="listing-card ${x.featured?'featured':''}" href="/szolgaltato/${encodeURIComponent(x.slug)}"><div class="listing-head">${x.profile_image_id?'<img class="listing-avatar" src="/media/'+x.profile_image_id+'" alt="">':'<div class="listing-avatar">'+escapeHtml(x.name.charAt(0))+'</div>'}<div><h3>${escapeHtml(x.name)}</h3>${x.verified?'<div class="verified">✓ Ellenőrzött adatok</div>':''}</div></div><p>${escapeHtml(x.short_description||'Részletes szolgáltatói profil és elérhetőségek.')}</p><div class="chips">${(x.categories||[]).slice(0,3).map(c=>'<span class="chip">'+escapeHtml(c.name)+'</span>').join('')}${x.online_available?'<span class="chip">Online</span>':''}</div><div class="listing-foot"><span>${escapeHtml(x.city||'Magyarország')}</span><span>Adatlap és kapcsolat →</span></div></a>`).join('');
 }
 
 app.get('/szolgaltato/:slug', async(req,res,next)=>{
@@ -516,7 +516,7 @@ function escapeHtml(s='') {
 }
 
 // Do not expose application code, migrations or research snapshots as static pages.
-app.use((req,res,next)=>{const p=req.path.toLowerCase();if(/^\/(?:research|scripts|lib|migrations|node_modules|\.git|\.github|test|tests)(?:\/|$)/.test(p)||/^\/(?:server\.js|package(?:-lock)?\.json|procfile|dockerfile|readme(?:\.md)?|\.env.*)$/.test(p))return res.status(404).end();next();});
+app.use((req,res,next)=>{let p;try{p=path.posix.normalize(decodeURIComponent(req.path)).toLowerCase();}catch{return res.status(404).end();}if(/^\/(?:research|scripts|lib|migrations|node_modules|\.git|\.github|test|tests)(?:\/|$)/.test(p)||/^\/(?:server\.js|package(?:-lock)?\.json|procfile|dockerfile|readme(?:\.md)?|\.env.*)$/.test(p))return res.status(404).end();next();});
 app.use('/admin', express.static(path.join(ROOT, 'admin'), { index: 'index.html' }));
 app.use(express.static(ROOT, { extensions: ['html'], index: 'index.html' }));
 

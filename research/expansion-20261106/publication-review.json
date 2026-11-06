@@ -1,0 +1,22 @@
+{
+  "excluded": [
+    {
+      "name": "SzilAsztro",
+      "reason": "Source page returned 404 or could not be resolved; not published in this batch."
+    },
+    {
+      "name": "Pósfai Natasa",
+      "reason": "Source page returned 404 or could not be resolved; not published in this batch."
+    }
+  ],
+  "canonical_aliases": [
+    {
+      "old_candidate_slug": "mindennapi-pszichologia",
+      "existing_slug": "mindennapi-pszichologia-mipszi",
+      "name": "Mindennapi Pszichológia",
+      "existing_name": "Mindennapi Pszichológia – MiPszi",
+      "website": "https://mipszi.hu/"
+    }
+  ],
+  "email_policy": "Only the published contact channel of the same source/provider; no guessed addresses."
+}

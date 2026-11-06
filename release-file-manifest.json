@@ -1,0 +1,146 @@
+{
+  "elements": [
+    {
+      "path": "server.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddef40a12490f221e3c8f50ab647d33362dd7814"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "868036fca760e7e34d65574d3854b0404e93f173"
+    },
+    {
+      "path": "lib/public-catalog.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e51fa4782ed59523061ada28ba64792cef577a52"
+    },
+    {
+      "path": "lib/contact-inquiries.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fbd27d35a6c062e2ca6a68daf56d4fc73c0bd5a"
+    },
+    {
+      "path": "contact.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cbb97b3afe066f4597ab3a1454ae9158077c0fd"
+    },
+    {
+      "path": "contact.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "142d67b800d5f502f8d83e53cc74996a41f13380"
+    },
+    {
+      "path": "admin/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc13700aef91e3fe0e5951a6597436fd0f36dbb0"
+    },
+    {
+      "path": "admin/kapcsolatfelvetelek.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcdeb2f007f7f1bd0adb1d05e8fa0b04f59f2fa1"
+    },
+    {
+      "path": "admin/contact-admin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "416615b5ffeb1d95b4fe16c92e06a6e6fca7af1c"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47aac2290215360a258b0405ef7e4584bf16fd55"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f57e4a742200eec4a2a275525ce61b9961e3c490"
+    },
+    {
+      "path": "migrations/006_extended_categories.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff0508ba496ee6a5c709b180e7ac584b70444d0"
+    },
+    {
+      "path": "migrations/007_sourced_catalog_expansion.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0923b48ff49a37d31a8ce9ce173bddf2fe859bb8"
+    },
+    {
+      "path": "migrations/008_contact_inquiries.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b7d98dadf3c25b925d925e7f642abaf42d16a3"
+    },
+    {
+      "path": "catalog-release.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "775f8b9b3a4d38b8dd5408d2620de4db8661c11b"
+    },
+    {
+      "path": "docs/contact-setup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e77842335942f80cd6b995268d41f341e9d7fb"
+    },
+    {
+      "path": "scripts/test-expanded-catalog.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10959352efb30409e3c934d47e6f8b205cb5325c"
+    },
+    {
+      "path": "scripts/test-contact-browser.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63ac83fd5486a2c26dae734e746eb891c95d9e45"
+    },
+    {
+      "path": ".github/workflows/expanded-directory-ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c3ae7aa96d0eb6449881a9169dbc694d2ab845"
+    },
+    {
+      "path": ".github/workflows/database-smoke.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": ".github/workflows/catalog-pagination.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": ".github/workflows/home-category-counts.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": ".github/workflows/database-tls.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    }
+  ],
+  "excludes_raw_research": true,
+  "integration_tests": true,
+  "browser_tests": true,
+  "real_emails_sent": 0
+}

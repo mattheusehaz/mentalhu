@@ -24,9 +24,10 @@ async function catalogTests(){
  const htmlPages=Math.ceil(health.listings/24);
  for(let p=1;p<=htmlPages;p++){const html=await(await read('/kereses?page='+p)).text();const pageLinks=[...html.matchAll(/class="listing-card[^\"]*" href="\/szolgaltato\/([^\"]+)"/g)].map(m=>m[1]);assert.equal(pageLinks.length,p===htmlPages?(health.listings-24*(htmlPages-1)):24);links.push(...pageLinks);}
  assert.equal(new Set(links).size,health.listings);
- const privatePaths=['/server.js','/lib/contact-inquiries.cjs','/migrations/008_contact_inquiries.sql','/research/expansion-20261106/candidates.json','/scripts/test-expanded-catalog.cjs','/node_modules/pg/package.json'];
+ const privatePaths=['/server.js','/%6cib/contact-inquiries.cjs','/lib%2fcontact-inquiries.cjs','/lib/contact-inquiries.cjs','/migrations/008_contact_inquiries.sql','/research/expansion-20261106/candidates.json','/scripts/test-expanded-catalog.cjs','/node_modules/pg/package.json'];
  for(const p of privatePaths)assert.equal((await req(p)).status,404,p);
  assert.equal((await req('/api/admin/contact/inquiries')).status,401);
+ const login=await req('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:'admin@example.test',password:adminPassword})});assert.equal(login.status,200);const session=login.headers.getSetCookie().map(c=>c.split(';')[0]).join('; ');assert.equal((await req('/api/admin/contact/settings',{headers:{Cookie:session}})).status,200);assert.equal((await req('/api/admin/directory/listings',{headers:{Cookie:session}})).status,200);
  const profile=first.items[0],publicApi=await(await read('/api/public/listings/'+profile.slug)).json();assert(!('admin_notes'in publicApi));assert(!('email_source_url'in publicApi));
  const sample=(await db.query('SELECT id,name FROM directory_listings ORDER BY id LIMIT 1')).rows[0];
  await db.query('UPDATE directory_listings SET name=$1 WHERE id=$2',[sample.name+' CI-EDIT',sample.id]);await stop();const restarted=await start();assert.equal(restarted.listings,health.listings);assert.equal((await db.query('SELECT name FROM directory_listings WHERE id=$1',[sample.id])).rows[0].name,sample.name+' CI-EDIT');await db.query('UPDATE directory_listings SET name=$1 WHERE id=$2',[sample.name,sample.id]);

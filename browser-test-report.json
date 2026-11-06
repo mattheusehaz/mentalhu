@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "categoryBadges": 39,
+  "categoryNavigation": true,
+  "privacyGate": true,
+  "realAdminLogin": true,
+  "settingsSave": true,
+  "browserSubmission": true,
+  "encryptedDatabase": true,
+  "adminInbox": true,
+  "adminErasure": true,
+  "unauthenticatedAccessBlocked": true,
+  "realEmailsSent": 0,
+  "browserErrors": []
+}

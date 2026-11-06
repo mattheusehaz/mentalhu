@@ -5,7 +5,7 @@
     "database": true,
     "migrations": true,
     "categories": 31,
-    "listings": 2142
+    "listings": 2139
   },
   "cats": [
     {
@@ -16,7 +16,7 @@
       "description": "Pszichológiai tanácsadással és támogatással foglalkozó szakemberek.",
       "icon": "Ψ",
       "verification_level": "professional",
-      "listing_count": 235
+      "listing_count": 234
     },
     {
       "id": "2",
@@ -76,7 +76,7 @@
       "description": "Life, business, health és egyéb coaching szolgáltatások.",
       "icon": "↗",
       "verification_level": "professional",
-      "listing_count": 224
+      "listing_count": 223
     },
     {
       "id": "7",
@@ -96,7 +96,7 @@
       "description": "Pályaorientáció, karrierváltás és munkahelyi fejlődés.",
       "icon": "◇",
       "verification_level": "professional",
-      "listing_count": 22
+      "listing_count": 21
     },
     {
       "id": "9",
@@ -166,7 +166,7 @@
       "description": "Asztrológiai szolgáltatások. A kategória nem egészségügyi szolgáltatás.",
       "icon": "✦",
       "verification_level": "alternative",
-      "listing_count": 23
+      "listing_count": 22
     },
     {
       "id": "16",
@@ -226,7 +226,7 @@
       "description": "Mentális egészséggel és jólléttel foglalkozó kiadványok és oldalak.",
       "icon": "▧",
       "verification_level": "media",
-      "listing_count": 28
+      "listing_count": 27
     },
     {
       "id": "20",
