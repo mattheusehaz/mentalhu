@@ -1,0 +1,50 @@
+name: Verify live category counts
+on:
+  push:
+    branches: [check/category-counts-live-20261106]
+    paths: [.github/workflows/verify-live-category-counts.yml]
+permissions:
+  contents: read
+jobs:
+  live-category-counts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Match every real public profile to category counters and homepage badges
+        run: |
+          node <<'NODE'
+          const assert=require('node:assert/strict');
+          const base='https://mental.hu';
+          const read=async p=>{const r=await fetch(base+p,{cache:'no-store',signal:AbortSignal.timeout(12000)});return {status:r.status,release:r.headers.get('x-mental-release'),body:await r.text()};};
+          (async()=>{
+            let home;
+            for(let i=0;i<12;i++){
+              home=await read('/');console.log('RELEASE_CHECK',JSON.stringify({attempt:i,status:home.status,release:home.release}));
+              if(home.status===200&&home.release==='catalog-counts-1')break;
+              await new Promise(r=>setTimeout(r,10000));
+            }
+            assert.equal(home.release,'catalog-counts-1','New release is not live yet');
+            const json=async p=>{const r=await read(p);assert.equal(r.status,200,p);return JSON.parse(r.body);};
+            const categories=await json('/api/public/categories');
+            const first=await json('/api/public/listings?paginated=true&limit=100');
+            const all=[...first.items];
+            for(let page=2;page<=first.pages;page++)all.push(...(await json('/api/public/listings?paginated=true&limit=100&page='+page)).items);
+            assert.equal(all.length,first.total);assert.equal(new Set(all.map(x=>x.id)).size,first.total);
+            const missing=all.filter(x=>!x.categories?.length);
+            assert.equal(missing.length,0,'No imported published record may remain uncategorized');
+            const expected=new Map(categories.map(c=>[c.slug,c.listing_count]));
+            for(const c of categories){
+              const actual=all.filter(x=>x.categories.some(k=>k.slug===c.slug)).length;
+              assert.equal(actual,c.listing_count,c.slug);
+              const listing=await read('/kategoria/'+encodeURIComponent(c.slug));
+              assert.equal(listing.status,200,c.slug);
+              assert(listing.body.includes('data-catalog-total="'+c.listing_count+'"'),c.slug+' category page total');
+            }
+            const badges=[...home.body.matchAll(/<small\b([^>]*\bdata-count="([^"]+)"[^>]*)>([\s\S]*?)<\/small>/g)];
+            assert.equal(badges.length,29);
+            for(const b of badges){assert(!/\bhidden\b/.test(b[1]),b[2]);assert.equal(b[3],'('+expected.get(b[2])+')',b[2]);}
+            const result={domain:base,release:home.release,records:all.length,categorized:all.length-missing.length,uncategorized:missing.length,homepageBadges:badges.length,categoryPages:categories.length,counts:categories.map(c=>({name:c.name,slug:c.slug,count:c.listing_count}))};
+            console.log('LIVE_CATEGORY_COUNTS_VERIFIED',JSON.stringify(result));
+            require('node:fs').appendFileSync(process.env.GITHUB_STEP_SUMMARY,'Verified live public site: '+JSON.stringify(result,null,2)+'\n');
+          })().catch(e=>{console.error(e);process.exitCode=1;});
+          NODE
