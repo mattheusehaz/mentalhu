@@ -2,7 +2,7 @@ name: Compile sourced catalog expansion
 on:
   push:
     branches: [data/expansion-1000-20261106]
-    paths: [scripts/collect-directory-data.py, scripts/discover-directory-extras.py, research/expansion-20261106/curated.json, .github/workflows/compile-expansion.yml]
+    paths: [scripts/collect-directory-data.py, scripts/discover-directory-extras.py, scripts/research-sparse-sources.py, research/expansion-20261106/curated.json, .github/workflows/compile-expansion.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,6 +23,9 @@ jobs:
         run: |
           if [ ! -f research/expansion-20261106/extra-report.json ]; then
             python scripts/discover-directory-extras.py
+          fi
+          if [ ! -f research/expansion-20261106/books-list.json ]; then
+            python scripts/research-sparse-sources.py
           fi
       - run: python scripts/collect-directory-data.py
       - name: Commit research results only
