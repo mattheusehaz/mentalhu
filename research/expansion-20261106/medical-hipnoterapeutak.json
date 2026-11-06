@@ -1,0 +1,530 @@
+{
+  "key": "hipnoterapeutak",
+  "url": "https://hipnozis-mhe.hu/terapeutaink/",
+  "status": 200,
+  "title": "Terapeutáink – MHE",
+  "headings": [
+    {
+      "name": "Terapeutáink",
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "post-title",
+          "entry-title"
+        ]
+      },
+      "parent_class": [
+        "entry",
+        "clearfix"
+      ],
+      "links": [
+        {
+          "text": "Keresés",
+          "url": "https://hipnozis-mhe.hu/terapeutaink/"
+        },
+        {
+          "text": "Visszaállítás",
+          "url": "https://hipnozis-mhe.hu/terapeutaink/"
+        },
+        {
+          "text": "Balogh Ágnes Emese",
+          "url": "https://hipnozis-mhe.hu/userprofile/dbae/"
+        },
+        {
+          "text": "dbae@freemail.hu",
+          "url": "mailto:dbae@freemail.hu"
+        },
+        {
+          "text": "",
+          "url": "https://hipnozis-mhe.hu/terapeutaink/"
+        },
+        {
+          "text": "Barta Gyöngyi",
+          "url": "https://hipnozis-mhe.hu/userprofile/gyongyi0403/"
+        }
+      ],
+      "html": "<div class=\"entry clearfix\">\n<h1 class=\"post-title entry-title\">\n<span class=\"hpt_headertitle\">Terapeutáink</span> </h1>\n<div class=\"entry-content clearfix\">\n<div class=\"elementor elementor-17 elementor-bc-flex-widget\" data-elementor-id=\"17\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-48c29bf elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"48c29bf\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d603da0\" data-element_type=\"column\" data-id=\"d603da0\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-456447b elementor-alert-success elementor-widget elementor-widget-alert\" data-element_type=\"widget\" data-id=\"456447b\" data-widget_type=\"alert.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-alert\" role=\"alert\">\n<span class=\"elementor-alert-title\">Hipnoterápiás tevékenységre vonatkozó jogszabály 60/2003. (X. 20.) ESzCsM rendeletből:</span>\n<span class=\"elementor-alert-description\">\n<i>\"A klinikai és mentálhigiéniai szakpszichológus a pszichoterápiás szakmai irányelv által definiált pszichoterápiát végezheti (életvezetési tanácsadást, krízisintervenciót, autogén tréninget, támogató, azaz szupportív terápiát, pszichoterápiás konzultációt). Egyébként pszichoterápia végzése ráépített pszichoterapeuta szakvégzettséget igényel, szakpszichoterápia pedig módszerspecifikus végzettség megszerzését is szükségessé teszi.\n\nAmennyiben a klinikai és mentálhigiéniai szakpszichológus már képesítést szerzett valamely pszichoterápiás mó"
+    },
+    {
+      "name": "Terapeutáink",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "elementor-heading-title",
+          "elementor-size-xl"
+        ]
+      },
+      "parent_class": [
+        "elementor-widget-container"
+      ],
+      "links": [],
+      "html": "<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-xl\">Terapeutáink</h2> </div>"
+    },
+    {
+      "name": "Kedves Látogatók és Tagok!",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "widget_text",
+        "sidebar-wrap",
+        "widget_custom_html"
+      ],
+      "links": [
+        {
+          "text": "Tagfelvételi kérelem",
+          "url": "https://hipnozis-mhe.hu/wp-content/uploads/2021/03/MHE_belepesinyilatkozat_mod.doc"
+        }
+      ],
+      "html": "<div class=\"widget_text sidebar-wrap widget_custom_html\" id=\"custom_html-8\"><h2 class=\"widget-title\">Kedves Látogatók és Tagok!</h2><div class=\"textwidget custom-html-widget\"><p>Képzési és tagsági ügyekkel kapcsolatban az alábbi elérhetőségen kaphattok további tájékoztatást, segítséget:</p>\n<p style=\"padding-left: 40px;\"><strong><span style=\"color: #333333;\">Kasos Enikő</span></strong><br/><em><span style=\"color: #333333;\">mheasszisztens@gmail.com</span></em></p>\n<p style=\"padding-left: 40px;\"><strong><a class=\"button_custom_actual_list\" href=\"https://hipnozis-mhe.hu/wp-content/uploads/2021/03/MHE_belepesinyilatkozat_mod.doc\">Tagfelvételi kérelem</a></strong></p></div></div>"
+    },
+    {
+      "name": "Bejelentkezés",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "sidebar-wrap",
+        "widget_wp_sidebarlogin"
+      ],
+      "links": [
+        {
+          "text": "Regisztráció",
+          "url": "https://hipnozis-mhe.hu/tagsagi-informaciok/"
+        },
+        {
+          "text": "Elfelejtett jelszó?",
+          "url": "https://hipnozis-mhe.hu/password-reset/"
+        }
+      ],
+      "html": "<div class=\"sidebar-wrap widget_wp_sidebarlogin\" id=\"wp_sidebarlogin-2\"><h2 class=\"widget-title\">Bejelentkezés</h2><div class=\"sidebar-login-form\"><form action=\"https://hipnozis-mhe.hu/wp-login.php\" id=\"loginform\" method=\"post\" name=\"loginform\"><p class=\"login-username\">\n<label for=\"user_login\">Felhasználónév vagy Email cím</label>\n<input autocomplete=\"username\" class=\"input\" id=\"user_login\" name=\"log\" size=\"20\" type=\"text\" value=\"\"/>\n</p><p class=\"login-password\">\n<label for=\"user_pass\">Jelszó</label>\n<input autocomplete=\"current-password\" class=\"input\" id=\"user_pass\" name=\"pwd\" size=\"20\" spellcheck=\"false\" type=\"password\" value=\"\"/>\n</p><p class=\"login-remember\"><label><input checked=\"checked\" id=\"rememberme\" name=\"rememberme\" type=\"checkbox\" value=\"forever\"/> Emlékezz rám</label></p><p class=\"login-submit\">\n<input class=\"button button-primary\" id=\"wp-submit\" name=\"wp-submit\" type=\"submit\" value=\"Bejelentkezés\"/>\n<input name=\"redirect_to\" type=\"hidden\" value=\"/sugo\"/>\n</p></form><ul class=\"sidebar-login-links pagenav sidebar_login_links\"><li class=\"regisztracio-link\"><a href=\"https://hipnozis-mhe.hu/tagsagi-informaciok/\">Regisztráció</a></li><li class=\"elfelejtett-jelszo-link\"><a href=\"https://hipnozis-mhe.hu/password-reset/\">Elfelejtett jelszó?</a></li></ul></div></div>"
+    },
+    {
+      "name": "Keresés a honlapon",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "sidebar-wrap",
+        "widget_search"
+      ],
+      "links": [],
+      "html": "<div class=\"sidebar-wrap widget_search\" id=\"search-2\"><h2 class=\"widget-title\">Keresés a honlapon</h2><form action=\"https://hipnozis-mhe.hu\" class=\"searchform\" method=\"get\">\n<div class=\"input-group\">\n<input class=\"form-control\" name=\"s\" placeholder=\"Keresés\" type=\"text\"/>\n<span class=\"input-group-btn\">\n<button class=\"btn btn-default\" type=\"submit\"><i class=\"fa fa-search\"></i></button>\n</span>\n</div>\n</form></div>"
+    },
+    {
+      "name": "Legközelebbi eseményeink",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "sidebar-wrap",
+        "widget_em_widget"
+      ],
+      "links": [
+        {
+          "text": "Magyar Hipnózis Egyesület 37. Konferencia - Találkozó",
+          "url": "https://hipnozis-mhe.hu/esemenyek/magyar-hipnozis-egyesulet-37-konferencia-talalkozo/"
+        },
+        {
+          "text": "Workshop: Külső terek – belső terek, Interaktív műhely Békési Beával",
+          "url": "https://hipnozis-mhe.hu/esemenyek/workshop-kulso-terek-belso-terek-interaktiv-muhely-bekesi-beaval/"
+        },
+        {
+          "text": "további események",
+          "url": "https://hipnozis-mhe.hu/rendezvenyek/esemenynaptar/"
+        }
+      ],
+      "html": "<div class=\"sidebar-wrap widget_em_widget\" id=\"em_widget-2\"><h2 class=\"widget-title\">Legközelebbi eseményeink</h2><div class=\"em em-list-widget em-events-widget\"><ul><li><a href=\"https://hipnozis-mhe.hu/esemenyek/magyar-hipnozis-egyesulet-37-konferencia-talalkozo/\">Magyar Hipnózis Egyesület 37. Konferencia - Találkozó</a></li><li><a href=\"https://hipnozis-mhe.hu/esemenyek/workshop-kulso-terek-belso-terek-interaktiv-muhely-bekesi-beaval/\">Workshop: Külső terek – belső terek, Interaktív műhely Békési Beával</a></li><li class=\"all-events-link\"><a href=\"https://hipnozis-mhe.hu/rendezvenyek/esemenynaptar/\" title=\"további események\">további események</a></li></ul></div></div>"
+    },
+    {
+      "name": "Legutóbbi fórumok",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "sidebar-wrap",
+        "widget_display_topics"
+      ],
+      "links": [
+        {
+          "text": "e-mail cím változtatása a profilban",
+          "url": "https://hipnozis-mhe.hu/forum/tema/e-mail-cim-valtoztatasa-a-profilban/"
+        },
+        {
+          "text": "Kitüntetés",
+          "url": "https://hipnozis-mhe.hu/forum/tema/kituntetes/"
+        },
+        {
+          "text": "Bokor Judit: Hipnózis és időperspektívák",
+          "url": "https://hipnozis-mhe.hu/forum/tema/bokor-judit-hipnozis-es-idoperspektivak/"
+        },
+        {
+          "text": "Dr. Sümeg Szilvia: Transz és modalitásai a traumafeldolgozás vonatkozásában",
+          "url": "https://hipnozis-mhe.hu/forum/tema/dr-sumeg-szilvia-transz-es-modalitasai-a-traumafeldolgozas-vonatkozasaban/"
+        },
+        {
+          "text": "Dr. Benczúr Lilla: Mese és hipnózis",
+          "url": "https://hipnozis-mhe.hu/forum/tema/dr-benczur-lilla-mese-es-hipnozis/"
+        }
+      ],
+      "html": "<div class=\"sidebar-wrap widget_display_topics\" id=\"bbp_topics_widget-2\"><h2 class=\"widget-title\">Legutóbbi fórumok</h2>\n<ul class=\"bbp-topics-widget newness\">\n<li>\n<a class=\"bbp-forum-title\" href=\"https://hipnozis-mhe.hu/forum/tema/e-mail-cim-valtoztatasa-a-profilban/\">e-mail cím változtatása a profilban</a>\n<div>2024-11-12 |  20:51</div>\n</li>\n<li>\n<a class=\"bbp-forum-title\" href=\"https://hipnozis-mhe.hu/forum/tema/kituntetes/\">Kitüntetés</a>\n<div>2018-10-16 |  05:30</div>\n</li>\n<li>\n<a class=\"bbp-forum-title\" href=\"https://hipnozis-mhe.hu/forum/tema/bokor-judit-hipnozis-es-idoperspektivak/\">Bokor Judit: Hipnózis és időperspektívák</a>\n<div>2018-05-11 |  10:22</div>\n</li>\n<li>\n<a class=\"bbp-forum-title\" href=\"https://hipnozis-mhe.hu/forum/tema/dr-sumeg-szilvia-transz-es-modalitasai-a-traumafeldolgozas-vonatkozasaban/\">Dr. Sümeg Szilvia: Transz és modalitásai a traumafeldolgozás vonatkozásában</a>\n<div>2018-05-11 |  10:21</div>\n</li>\n<li>\n<a class=\"bbp-forum-title\" href=\"https://hipnozis-mhe.hu/forum/tema/dr-benczur-lilla-mese-es-hipnozis/\">Dr. Benczúr Lilla: Mese és hipnózis</a>\n<div>2018-05-11 |  10:20</div>\n</li>\n</ul>\n</div>"
+    },
+    {
+      "name": "Szakmai partnereink",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "widget_text",
+        "sidebar-wrap",
+        "widget_custom_html"
+      ],
+      "links": [
+        {
+          "text": "Austrian Society for Medical Anthropology",
+          "url": "http://www.medicalanthropology.at/"
+        },
+        {
+          "text": "der Österreichischen Gesellschaft für Medical Anthropology",
+          "url": "http://www.medicalanthropology.at/english/home/"
+        }
+      ],
+      "html": "<div class=\"widget_text sidebar-wrap widget_custom_html\" id=\"custom_html-4\"><h2 class=\"widget-title\">Szakmai partnereink</h2><div class=\"textwidget custom-html-widget\"><p></p>\n<p><strong><a href=\"http://www.medicalanthropology.at/\" target=\"_blank\" title=\"Austrian Society for Medical Anthropology\">Austrian Society for Medical Anthropology</a></strong></p>\n<p><strong><a href=\"http://www.medicalanthropology.at/english/home/\" target=\"_blank\" title=\"der Österreichischen Gesellschaft für Medical Anthropology\">der Österreichischen Gesellschaft für Medical Anthropology</a></strong></p></div></div>"
+    },
+    {
+      "name": "Támogatóink",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "widget_text",
+        "sidebar-wrap",
+        "widget_custom_html"
+      ],
+      "links": [
+        {
+          "text": "",
+          "url": "http://www.mipszi.hu/"
+        },
+        {
+          "text": "eisberg Hungary Kft.",
+          "url": "http://www.eisberg.hu/"
+        }
+      ],
+      "html": "<div class=\"widget_text sidebar-wrap widget_custom_html\" id=\"custom_html-5\"><h2 class=\"widget-title\">Támogatóink</h2><div class=\"textwidget custom-html-widget\"><p></p>\n<p><a href=\"http://www.mipszi.hu/\" target=\"_blank\" title=\"Mindennapi Pszichológia\"><img alt=\"Mindennapi Pszichológia\" border=\"0\" src=\"https://hipnozis-mhe.hu/wp-content/uploads/2017/12/mipszilogo-300x82.png\" title=\"Mindennapi Pszichológia\" width=\"150\"/></a></p>\n<p><a href=\"http://www.eisberg.hu/\" target=\"_blank\" title=\"eisberg Hungary Kft. \">eisberg Hungary Kft.</a></p></div></div>"
+    },
+    {
+      "name": "Akkreditáció",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "widget_text",
+        "sidebar-wrap",
+        "widget_custom_html"
+      ],
+      "links": [
+        {
+          "text": "",
+          "url": "https://hipnozis-mhe.hu/akkreditacio/"
+        }
+      ],
+      "html": "<div class=\"widget_text sidebar-wrap widget_custom_html\" id=\"custom_html-3\"><h2 class=\"widget-title\">Akkreditáció</h2><div class=\"textwidget custom-html-widget\"><center>Akkreditált Európai Pszichoterápiás Kiképzőhely<br/>\n<a href=\"/akkreditacio/\"><img alt=\"EAPTI\" src=\"https://hipnozis-mhe.hu/wp-content/uploads/2019/04/EAPTI_Logo_rgb_300.png\"/></a></center></div></div>"
+    },
+    {
+      "name": "ESH",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "widget_text",
+        "sidebar-wrap",
+        "widget_custom_html"
+      ],
+      "links": [
+        {
+          "text": "",
+          "url": "http://esh-hypnosis.eu/"
+        }
+      ],
+      "html": "<div class=\"widget_text sidebar-wrap widget_custom_html\" id=\"custom_html-6\"><h2 class=\"widget-title\">ESH</h2><div class=\"textwidget custom-html-widget\"><center><p><a href=\"http://esh-hypnosis.eu/\" target=\"_blank\" title=\"European Society of Hypnosis\"><img alt=\"European Society of Hypnosis\" border=\"0\" height=\"113\" src=\"https://hipnozis-mhe.hu/wp-content/uploads/2017/12/logo_esh_2013-300x212.jpg\" title=\"European Society of Hypnosis\" width=\"160\"/></a></p>\n</center></div></div>"
+    },
+    {
+      "name": "ELTE",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "widget_text",
+        "sidebar-wrap",
+        "widget_custom_html"
+      ],
+      "links": [
+        {
+          "text": "",
+          "url": "http://www.elte.hu/"
+        }
+      ],
+      "html": "<div class=\"widget_text sidebar-wrap widget_custom_html\" id=\"custom_html-7\"><h2 class=\"widget-title\">ELTE</h2><div class=\"textwidget custom-html-widget\"><center><p><a href=\"http://www.elte.hu/\" target=\"_blank\" title=\"ELTE - Eötvös Loránd Tudományegyetem\"><img alt=\"Eötvös Loránd Tudományegyetem\" border=\"0\" height=\"160\" src=\"https://hipnozis-mhe.hu/wp-content/uploads/2017/12/logo_elte_2013-300x300.jpg\" title=\"Eötvös Loránd Tudományegyetem\" width=\"160\"/></a></p>\n</center></div></div>"
+    },
+    {
+      "name": "Archívum",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "widget-title"
+        ]
+      },
+      "parent_class": [
+        "sidebar-wrap",
+        "widget_archive"
+      ],
+      "links": [],
+      "html": "<div class=\"sidebar-wrap widget_archive\" id=\"archives-2\"><h2 class=\"widget-title\">Archívum</h2> <label class=\"screen-reader-text\" for=\"archives-dropdown-2\">Archívum</label>\n<select id=\"archives-dropdown-2\" name=\"archive-dropdown\">\n<option value=\"\">Hónap kijelölése</option>\n<option value=\"https://hipnozis-mhe.hu/2026/10/\"> 2026. október  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2026/09/\"> 2026. szeptember  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2026/05/\"> 2026. május  (1)</option>\n<option value=\"https://hipnozis-mhe.hu/2026/04/\"> 2026. április  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2026/02/\"> 2026. február  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2026/01/\"> 2026. január  (1)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/12/\"> 2025. december  (3)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/11/\"> 2025. november  (1)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/09/\"> 2025. szeptember  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/05/\"> 2025. május  (1)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/04/\"> 2025. április  (1)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/03/\"> 2025. március  (1)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/02/\"> 2025. február  (1)</option>\n<option value=\"https://hipnozis-mhe.hu/2025/01/\"> 2025. január  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2024/12/\"> 2024. december  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2024/11/\"> 2024. november  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2024/10/\"> 2024. október  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2024/09/\"> 2024. szeptember  (2)</option>\n<option value=\"https://hipnozis-mhe.hu/2024/06/\"> 2024. június  (1)</option>\n<option value=\"https://hipnozis-mhe.hu"
+    }
+  ],
+  "tables": [],
+  "members": [
+    {
+      "name": "Balogh Ágnes Emese",
+      "url": "https://hipnozis-mhe.hu/userprofile/dbae/",
+      "text": "Approved Balogh Ágnes Emese Végzettség: fogorvos Hipnoterápiás képzettség: hipnodonta Szakirányú képzettség: fogszakorvos Munkahely: Dentissa Kft Munkahelyi cím: 1113 Bp. Bartók Béla út 70 Munkahelyi telefonszám: 061 3614340 Telefonszám: 06 30 3823330 Email cím: dbae@freemail.hu Honlap / Online elérhetőség: dentissa.hu"
+    },
+    {
+      "name": "Barta Gyöngyi",
+      "url": "https://hipnozis-mhe.hu/userprofile/gyongyi0403/",
+      "text": "Approved Barta Gyöngyi Végzettség: pszichológus Szakirányú képzettség: klinikai szakpszichológus, pszichoterapeuta Munkahely: Pszicho-Szolg Bt. Munkahelyi cím: 3529 Miskolc, Perczel Mór 22 Munkahelyi telefonszám: +302431693 Telefonszám: +302431693 Email cím: g.barta@chello.hu Honlap / Online elérhetőség: miskolcipszichologus.hu Működési engedély: 613"
+    },
+    {
+      "name": "Beszterci Felícia",
+      "url": "https://hipnozis-mhe.hu/userprofile/besztercif/",
+      "text": "Approved Beszterci Felícia Végzettség: orvos, pszichiáter, pszichoterapeuta Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: pszichoterapeuta (hipnoterápia, kognitív-magatartás terápia) Munkahely: magánrendelő Munkahelyi cím: 4400 Nyíregyháza, Hősök tere 8. I./2. Munkahelyi telefonszám: +36309154055 Telefonszám: +36309154055 Email cím: besztercif@gmail.com Honlap / Online elérhetőség: pszichoterapia-nyiregyhaza.hu Működési engedély: pecsétszám: 41122 Egyéb információ: +magánrendelő Bp.-n is: 1075 Budapest, Károly krt. 3./A. félemelet 13."
+    },
+    {
+      "name": "Biró Gyula",
+      "url": "https://hipnozis-mhe.hu/userprofile/biro/",
+      "text": "Approved Biró Gyula Végzettség: ELTE BTK Pszichológus diploma, 1978. Hipnoterápiás képzettség: 1978-tól lifelong learning (MHE, MEG, Erickson Foundation) Szakirányú képzettség: Orvostovábbképző Egyetem Klinikai szakpszichológus, 1983. Munkahelyi cím: Budapest, I. ker. Vérmező út 8. Munkahelyi telefonszám: +3620 9615 226 Telefonszám: +3620 9615 226 Email cím: drgybiro@t-online.hu Honlap / Online elérhetőség: nlphungaria.hu Működési engedély: M / 159"
+    },
+    {
+      "name": "Boros Imre",
+      "url": "https://hipnozis-mhe.hu/userprofile/borosi/",
+      "text": "Approved Boros Imre Végzettség: pszichológus Telefonszám: +36302703131 Email cím: imre_boros@yahoo.com Működési engedély: M-918"
+    },
+    {
+      "name": "Borzsák Enikő",
+      "url": "https://hipnozis-mhe.hu/userprofile/borzsak.eniko/",
+      "text": "Approved Borzsák Enikő Végzettség: pszichoterapeuta, hipnoterapeuta, belgyógyász, foglalkozás-egészségügyi szakorvos Munkahely: magánpraxis (Üröm) Munkahelyi telefonszám: +36309751065 Email cím: eniko357@gmail.com Működési engedély: 143502 Egyéb információ: Pecsétszám: 56244"
+    },
+    {
+      "name": "Császár Zsuzsanna",
+      "url": "https://hipnozis-mhe.hu/userprofile/zsuzsu/",
+      "text": "Approved Császár Zsuzsanna Végzettség: Pszichológus Hipnoterápiás képzettség: Hipnoterapeuta Szakirányú képzettség: Klinikai és mentálhygiéniés szakpszichológus /gyermek/felnőtt Munkahely: Magánpraxis Munkahelyi cím: 1134 Raoul Wallenberg utca 12 Telefonszám: +36204290834 Email cím: lehellet@icloud.com Működési engedély: 442"
+    },
+    {
+      "name": "Császár-Nagy Noémi",
+      "url": "https://hipnozis-mhe.hu/userprofile/ncsaszar/",
+      "text": "Approved Császár-Nagy Noémi Végzettség: pszichológus Hipnoterápiás képzettség: kiképző hipnoterapeuta Szakirányú képzettség: klinikai szakpszichológus, alkalmazott egészségszakpszichológus, kiképző, európai pszichoterapeuta (ECP) Munkahely: Pszichoszomatkus Ambulancia Munkahelyi cím: 1037. Budapest. Montevideo utca 5. Munkahelyi telefonszám: +36307548427 Telefonszám: +36209218020 Email cím: noemi.csaszar@areus.hu Honlap / Online elérhetőség: www.pszichoszamoca.hu Működési engedély: M/277"
+    },
+    {
+      "name": "Cserhalmi Gábor",
+      "url": "https://hipnozis-mhe.hu/userprofile/drcserhalmi/",
+      "text": "Approved Cserhalmi Gábor Végzettség: orvos Szakirányú képzettség: szül.-nőgyógy, háziorvoatab, pszihoterápia Munkahely: Dr Cserhalmi Bt Munkahelyi cím: 7400 Kaposvár Hunyadi u 4 Telefonszám: 06309361627 Email cím: drcserhalmi@kabelnet.hu Működési engedély: 34297"
+    },
+    {
+      "name": "Csiby Ágnes",
+      "url": "https://hipnozis-mhe.hu/userprofile/csiby/",
+      "text": "Approved Csiby Ágnes Végzettség: pszichológus Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: szexuálpszichológiai szakpszichológus, klinikai szakpszichológus jelölt Munkahely: Nap-Kör Mentálhigiénés Alapítvány Munkahelyi cím: 1136 Budapest, Pannónia u. 13. fsz. 2. Telefonszám: +36305997361 Email cím: csiby@gyogyitobeszelgetesek.hu Honlap / Online elérhetőség: www.gyogyitobeszelgetesek.hu"
+    },
+    {
+      "name": "Dávid Tamás",
+      "url": "https://hipnozis-mhe.hu/userprofile/davidtamas/",
+      "text": "Approved Dávid Tamás Végzettség: pszichológus Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: klinikai, mentálhigiénés és addiktológiai szakpszichológus, pszichoterapeuta Munkahely: magánpraxis Telefonszám: +36309132942 Email cím: davidtam.25@gmail.com Működési engedély: M / 327"
+    },
+    {
+      "name": "Dr. med. Menyhárt Marianna",
+      "url": "https://hipnozis-mhe.hu/userprofile/memarianna/",
+      "text": "Approved Dr. med. Menyhárt Marianna Végzettség: szakorvos Hipnoterápiás képzettség: Hipnoterapeuta Szakirányú képzettség: csecsemö- és gyermekgyógyász szakorvos, ayurveda orvos Munkahely: AyurMed Praxis, Györ Munkahelyi cím: Bástya utca 33, 3. emelet, Györ 9022 Munkahelyi telefonszám: +36203375184 Email cím: orvosihipnozis@gmail.com Működési engedély: 75192"
+    },
+    {
+      "name": "Fa Ágnes",
+      "url": "https://hipnozis-mhe.hu/userprofile/faagi/",
+      "text": "Approved Fa Ágnes Végzettség: pszichológus Hipnoterápiás képzettség: módszerspecifikus hipnoterapeuta Szakirányú képzettség: klinikai gyermekszakpszichológus, szakpszichoterapeuta, ECP. Munkahely: magánpraxis Munkahelyi telefonszám: +36302163944 Telefonszám: +3670/9458476 Email cím: faagnes@t-online.hu Működési engedély: 403 Egyéb információ: Zala és Veszprém megye területén vagyok elérhető ( Keszthely, Hévíz, Tapolca) faagnes@t-online.hu"
+    },
+    {
+      "name": "Fadgyas Ildikó",
+      "url": "https://hipnozis-mhe.hu/userprofile/fadgyas/",
+      "text": "Approved Fadgyas Ildikó Végzettség: 1978. Pécsi Orvostudományi Egyetem Általános Orvosi Kar Hipnoterápiás képzettség: 1990 Hipnoterapeuta 1993-tól kiképző hipnoterapeuta 1993 kiképző Integratív hipnoterapeuta Szakirányú képzettség: 1994.Pszichoterapeuta 1983. Pszichiátria szakvizsga Munkahely: Újbudai Szent Kristóf Pszichiátria Munkahelyi cím: 1221 Bp, Városház tér 01 Munkahelyi telefonszám: 2268797 Email cím: drfadgyasildiko@gmail.com Honlap / Online elérhetőség: drfadgyasildiko@gmail.com Működési engedély: O33696"
+    },
+    {
+      "name": "Fekete Olivia",
+      "url": "https://hipnozis-mhe.hu/userprofile/fekete.olivia/",
+      "text": "Approved Fekete Olivia Végzettség: klinikai szakpszichológus, PhD Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: személyközpontú terapeuta, EMDR practicioner, autogén tréner Munkahely: SE ÁOK klinikai szakképzés oktató Munkahelyi cím: Budapest II. kerület / online Email cím: drfeketeolivia@gmail.com Egyéb információ: english, french"
+    },
+    {
+      "name": "Gáti Ágnes",
+      "url": "https://hipnozis-mhe.hu/userprofile/gatnes/",
+      "text": "Approved Gáti Ágnes Végzettség: orvostudományi egyetem Hipnoterápiás képzettség: kiképző hipnoterapeuta Szakirányú képzettség: neurológia, pszichiátria, pszichoterápia szakvizsga Munkahely: Bizalom Magán Pszichoterápiás Központ Munkahelyi cím: 7624Pécs, Ferencesek u. 8. Munkahelyi telefonszám: +36209259095 Telefonszám: +36209259095 Email cím: gatiagi@gmail.com Honlap / Online elérhetőség: www.bizalom.net Működési engedély: O/039546/18 pecsét 35083 Egyéb információ: Phd. ECP"
+    },
+    {
+      "name": "Jakubovits Edit",
+      "url": "https://hipnozis-mhe.hu/userprofile/jakedit/",
+      "text": "Approved Jakubovits Edit Végzettség: orvos, Hipnoterápiás képzettség: igen Szakirányú képzettség: aneszteziológus, pszichoterapeuta Munkahely: Károli Gáspár Református Egyetem Email cím: jakedit62@gmail.com Működési engedély: 44272"
+    },
+    {
+      "name": "Jancsovics Sándor",
+      "url": "https://hipnozis-mhe.hu/userprofile/sjancsovics/",
+      "text": "Approved Jancsovics Sándor Email cím: sjancsovics@icloud.com"
+    },
+    {
+      "name": "Kákonyi Zoltán",
+      "url": "https://hipnozis-mhe.hu/userprofile/drkakonyizoltan/",
+      "text": "Approved Kákonyi Zoltán Végzettség: Orvos Hipnoterápiás képzettség: Képzés alatt Szakirányú képzettség: Pszichiáter, pszichoterapeuta, sürgősségi orvostan Munkahely: Kerekegyháza I. sz. háziorvosi praxis Munkahelyi cím: Kerekegyháza, Szentistván tér 14. Munkahelyi telefonszám: 703694644 Telefonszám: +36703694644 Email cím: zoltan.kakonyi@gmail.com Működési engedély: 53583"
+    },
+    {
+      "name": "Kelemen-Szilágyi Adrienn",
+      "url": "https://hipnozis-mhe.hu/userprofile/kszilagyi/",
+      "text": "Approved Kelemen-Szilágyi Adrienn Végzettség: Pszichológus Hipnoterápiás képzettség: Módszerspecifikus hipnoterapeuta Szakirányú képzettség: Pszichoterapeuta Munkahelyi telefonszám: 204760242 Email cím: Szilidri@yahoo.com Működési engedély: 889"
+    },
+    {
+      "name": "Kemény Katalin",
+      "url": "https://hipnozis-mhe.hu/userprofile/kemenykatalin/",
+      "text": "Approved Kemény Katalin Végzettség: Pszichológus Hipnoterápiás képzettség: Hipnoterapeuta, pszichoterapeuta, kiképző terapeuta Szakirányú képzettség: Klinikai szakpszichológus, szakpszichoterapeuta Munkahely: Gellért Rendelő Munkahelyi cím: 1111 Budapest Bartók Béla 18.1/7. Munkahelyi telefonszám: 06-70-450-7510 Email cím: kemenykatalinpsy@gmail.com Honlap / Online elérhetőség: www.kemenykatalin.hu Működési engedély: 0271 Egyéb információ: Sok éves klinikai munkám során a legkülönfélébb betegségekkel találkoztam. Magánrendelés keretében is gyógyítom a különféle betegségekkel küzdőket, emellett az egészséges, de problémáikban megoldást kereső, önmagukat személyiségében fejleszteni akaró páciensekkel dolgozom együtt. Széleskörű tapasztalatot szereztem a pszichiátriai és testi betegségek, panaszok, krízisek, elakadások segítésében. Segítségemet tudom ajánlani felnőtt vagy felnőttkor határán lévőknek."
+    },
+    {
+      "name": "Koltai Éva",
+      "url": "https://hipnozis-mhe.hu/userprofile/koltaieva/",
+      "text": "Approved Koltai Éva Végzettség: orvos Hipnoterápiás képzettség: 2 éves alaptanfolyam Szakirányú képzettség: tüdőgyógyász, belgyógyász Munkahely: nincs Munkahelyi cím: – Munkahelyi telefonszám: – Telefonszám: +36307214027, 1- 3332474 Email cím: koltai@koranyi.hu Honlap / Online elérhetőség: e mail Működési engedély: –"
+    },
+    {
+      "name": "Koplányi Katalin",
+      "url": "https://hipnozis-mhe.hu/userprofile/honey/",
+      "text": "Approved Koplányi Katalin Végzettség: Pszichiáter,pszichoterapeuta szakorvos Hipnoterápiás képzettség: módszerspecifikus hipnoterapeuta Munkahely: Magánpraxis Munkahelyi cím: Balassagyarmat,Rákóczi út 49. , Salgótarján Úttörők útja 29. Munkahelyi telefonszám: +36302052763 Telefonszám: \"36302052763 Email cím: kopikat8@gmail.com Működési engedély: 44508"
+    },
+    {
+      "name": "Kovács Zoltán Ambrus",
+      "url": "https://hipnozis-mhe.hu/userprofile/k.zoltanambrus/",
+      "text": "Approved Kovács Zoltán Ambrus Végzettség: orvos Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: pszichiáter, neurológus, rehabilitációs szakorvos Munkahely: SZTE Pszichiátriai Klinika Munkahelyi cím: 6725 Szeged, Kálvária sgt. 57. Munkahelyi telefonszám: – Telefonszám: +36302294768 Email cím: k.zoltanambrus@gmail.com Egyéb információ: ideg- és elmegyógyász szakorvos rehabilitációs szakorvos hipnoterapeuta"
+    },
+    {
+      "name": "Lovász Zsuzsanna",
+      "url": "https://hipnozis-mhe.hu/userprofile/lovasz.zsuzsanna/",
+      "text": "Approved Lovász Zsuzsanna Email cím: lzshomeoffice@gmail.com"
+    },
+    {
+      "name": "Lukács Rita",
+      "url": "https://hipnozis-mhe.hu/userprofile/lurita/",
+      "text": "Approved Lukács Rita Végzettség: Pszichológus Hipnoterápiás képzettség: Hipnoterapeuta Szakirányú képzettség: Klinikai szakpszichológus jelölt Email cím: lukacs.rita59@gmail.com"
+    },
+    {
+      "name": "Molnár Judit Eszter",
+      "url": "https://hipnozis-mhe.hu/userprofile/mje/",
+      "text": "Approved Molnár Judit Eszter Végzettség: Pszichológus, Magyar-Irodalom tanár, Kundalini yoga instruktor Hipnoterápiás képzettség: kiképző Hipnoterapeuta Szakirányú képzettség: klinika szakpszichológus, Pszichoterapeuta, Jungi analitikus pszichoterapeuta, relaxációs és szimbólum terapeuta, Hellinger féle családállító. Munkahely: Vadaskert, Magán Telefonszám: 06303112994 Email cím: juditeszter.molnar@gmail.com Működési engedély: M263"
+    },
+    {
+      "name": "Pálinkás Imre",
+      "url": "https://hipnozis-mhe.hu/userprofile/dpi/",
+      "text": "Approved Pálinkás Imre Végzettség: reumatológus, szakközgazda, gyógyszerkutató (clinical scientist) Hipnoterápiás képzettség: MHE hipnoterapeuta Szakirányú képzettség: orvos, hipnoterapeuta Munkahely: Meotis Medinfo Bt. Munkahelyi telefonszám: +36205575171 Telefonszám: +36205575171 Email cím: sceptrum8@gmail.com Működési engedély: MHE 186/2017 orvosi diploma: 237 / 1995"
+    },
+    {
+      "name": "Papp Zoltán",
+      "url": "https://hipnozis-mhe.hu/userprofile/pappz/",
+      "text": "Approved Papp Zoltán Végzettség: orvos Hipnoterápiás képzettség: hipnoterapeuta (1995.) Szakirányú képzettség: pszichiáter, neurológus Munkahely: magánrendelő Munkahelyi cím: egyezik a lakáscímmel Munkahelyi telefonszám: +36205586869 Telefonszám: 20 5586869 Email cím: pappzoltan48@gmail.com Működési engedély: 29988"
+    },
+    {
+      "name": "Seres Gabriella",
+      "url": "https://hipnozis-mhe.hu/userprofile/sergabriella/",
+      "text": "Approved Seres Gabriella Végzettség: pszichológus Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: klinikai szakpszichológus Munkahely: Humánpont Munkahelyi cím: 1162 Budapest Kossuth L. u. 84. Munkahelyi telefonszám: 06705020287 Telefonszám: +36705020287 Email cím: sergabriella@gmail.com Működési engedély: 1106"
+    },
+    {
+      "name": "Somogyi Erika",
+      "url": "https://hipnozis-mhe.hu/userprofile/viztigris/",
+      "text": "Approved Somogyi Erika Végzettség: orvos Hipnoterápiás képzettség: hipnózis módszerspecifikus pszichoterapeuta Szakirányú képzettség: pszichoterapeuta Email cím: viztigris@gmail.com Működési engedély: 44474"
+    },
+    {
+      "name": "Sőti Csaba",
+      "url": "https://hipnozis-mhe.hu/userprofile/soticsaba/",
+      "text": "Approved Sőti Csaba Végzettség: orvos Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: pszichodráma vezető, GTT holotrop légzés facilitátor Munkahely: Semmelweis Egyetem, magánpraxis Munkahelyi cím: Budapest, XI. Telefonszám: +36 20 248 3058 Email cím: soticsaba@gmail.com"
+    },
+    {
+      "name": "Sümeg Szilvia",
+      "url": "https://hipnozis-mhe.hu/userprofile/sumszi/",
+      "text": "Approved Sümeg Szilvia Végzettség: Általános orvos Hipnoterápiás képzettség: Hipnoterápia 2015 Szakirányú képzettség: Pszichiátria 2005, Pszichoterápia 2010 Munkahely: Életút Pszichoterápiás Magánrendelés Munkahelyi cím: 7623 Pécs, Madách Imre u. 10. Munkahelyi telefonszám: +36303574701 Telefonszám: +36303574701 Email cím: sumegszilvia@gmail.com Honlap / Online elérhetőség: <a href=\"http://www.eletutpszichoterapia.hu\">www.eletutpszichoterapia.hu</a> Működési engedély: 58487"
+    },
+    {
+      "name": "Szabó Gábor",
+      "url": "https://hipnozis-mhe.hu/userprofile/gabris/",
+      "text": "Approved Szabó Gábor Végzettség: Pszichológia Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: Klinikai szakpszichológus, pszichoterapeuta Munkahely: Multiguide Kft Munkahelyi cím: 1024 Bp. Petrezselyem u. 10/B Munkahelyi telefonszám: +36203553076 Telefonszám: +36203553076 Email cím: multiguide1@gmail.com Működési engedély: 122 Egyéb információ: új e-mail cím: multiguide1@gmail.com"
+    },
+    {
+      "name": "Szajcz Ágnes",
+      "url": "https://hipnozis-mhe.hu/userprofile/szajczagnes/",
+      "text": "Approved Szajcz Ágnes Végzettség: pszichológus Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: klin. és mentálhigieniai szakpszichológus, pszichoterapeuta Munkahely: magánrendelés Munkahelyi cím: 1114 Budapest Szabolcska M. utca Munkahelyi telefonszám: +36204218422 Telefonszám: +36204218422 Email cím: agnesszajcz@hotmail.com Működési engedély: M 715"
+    },
+    {
+      "name": "Szentmiklóssy Margit",
+      "url": "https://hipnozis-mhe.hu/userprofile/margit.bp.1942./",
+      "text": "Approved Szentmiklóssy Margit Végzettség: klinikai szakpszichológus, neuropszichhológus, szakpszichoterapeuta, gyógypedagógus, logopédus Hipnoterápiás képzettség: Hipnoterapeuta ( ELTE, Integratív, Ericksoni ) Szakirányú képzettség: relaxációs-szimbólum terapeuta, hipnoterapeuta, integratívterapeuta, kognitív-viselkedés:magatartás terapeuta, NLP Mester, Simonton f. terapeuta, Párterapeuta Munkahelyi cím: magán , -Bp. II. kerület. Telefonszám: +3613163009 Email cím: dr.szentmiklossy.margit@t-online.hu Honlap / Online elérhetőség: szakpszichologusbudapest.hu Működési engedély: M/172 Egyéb információ: Barátsággal, szeretettel Köszöntöm! Minden testi, lelki panasz gyógyításával személyéhez, panaszához illően , nagy odafigyeléssel, foglalkozom. Minden korosztálynak szívesen segítek! Több évtizedes gyakorlatom van.- ÉLETVEZETÉS, -Beszédhibák, nehézségek, -alvás, -dadogás, -depresszió, -szorongás, -félelmek, -függőségek,-fóbiák, -krízis, -trauma,- kapcsolati ,-kommunikációs nehézségek,- párkapcsolati problémák,-családi nehézségek, -transzgenerációs hatások,- válás, -pszichés meddőség,- gyermekvállalás, nevelés, -pszichoszomatikus panaszok, – evészavarok, -személyiségbeli problémák, – tanulási nehézségek stb. – Továbbiakban részletesebben tájékozódhat honlapomra kattintva: www.szakpszichologusbudapest.hu www.pszichologus-pszichoterapeuta.hu"
+    },
+    {
+      "name": "Túry Ferenc",
+      "url": "https://hipnozis-mhe.hu/userprofile/tury/",
+      "text": "Approved Túry Ferenc Végzettség: orvos, pszichológus Hipnoterápiás képzettség: kiképző terapeuta Szakirányú képzettség: pszichiáter, pszichoterapeuta Munkahely: Semmelweis Egyetem Munkahelyi cím: 1089 Budapest, Nagyvárad tér 4. 20. em. Munkahelyi telefonszám: +36309638140 Telefonszám: +36309638140 Email cím: turyferenc@gmail.com"
+    },
+    {
+      "name": "Varga S. Katalin",
+      "url": "https://hipnozis-mhe.hu/userprofile/vargaskatalin/",
+      "text": "Approved Varga S. Katalin Végzettség: Pszichológus, közgazdász Hipnoterápiás képzettség: Kiképző hipno-pszichoterapeuta Szakirányú képzettség: Felnőtt klinikai és mentálhigiéniai szakpszichológus, pszichoterapeuta Munkahely: Magánpraxis Munkahelyi cím: Budapest, II. Munkahelyi telefonszám: +36209864064 Telefonszám: +36209864064 Email cím: vargaskatalin@gmail.com Működési engedély: M 2092 Egyéb információ: Budapesten rendelek, többnyire szorongásos tünetekkel, pszichoszomatikus betegségekkel, önértékelési kérdésekkel, kapcsolati nehézségekkel, gyász és veszteségek témájával keresnek meg páciensek. Működési engedély: M/2092"
+    },
+    {
+      "name": "Vas József Pál",
+      "url": "https://hipnozis-mhe.hu/userprofile/vasjozsefpal/",
+      "text": "Approved Vas József Pál Végzettség: orvosi egyetem Hipnoterápiás képzettség: kiképző szupervizor hipnoteraputa Szakirányú képzettség: pszichiátria, neurológia, pszichoterápia Munkahely: ONYI Munkahelyi cím: – Munkahelyi telefonszám: – Telefonszám: +36 30 687 2993 Email cím: vasjozsefpal@gmail.com"
+    },
+    {
+      "name": "Vogl Krisztina",
+      "url": "https://hipnozis-mhe.hu/userprofile/voglkri/",
+      "text": "Approved Vogl Krisztina Végzettség: általános orvos Hipnoterápiás képzettség: hipnoterapeuta Szakirányú képzettség: aneszteziológus és intenzívterápiás szakorvos Munkahelyi telefonszám: +36303822738 Telefonszám: +36303822738 Email cím: voglkri@gmail.com"
+    },
+    {
+      "name": "Ziss Mariann",
+      "url": "https://hipnozis-mhe.hu/userprofile/zissmariann/",
+      "text": "Approved Ziss Mariann Végzettség: pszichológus Hipnoterápiás képzettség: hipnoterapeuta, sas Szakirányú képzettség: kilnikai szakpszichológus Munkahely: privat Telefonszám: 0036705348441 Email cím: mariann.ziss@gmail.com Honlap / Online elérhetőség: www.mariannziss.com Működési engedély: A/00900"
+    },
+    {
+      "name": "Zseni Annamária",
+      "url": "https://hipnozis-mhe.hu/userprofile/annaliget/",
+      "text": "Approved Zseni Annamária Végzettség: orvos Hipnoterápiás képzettség: kiképző módszerspecifikus hipnoterapeuta Szakirányú képzettség: neurológia, pszichiátriai, pszichoterápia Telefonszám: +36-30-250-64-84 Email cím: annaliget47@gmail.com"
+    }
+  ],
+  "name_links": []
+}

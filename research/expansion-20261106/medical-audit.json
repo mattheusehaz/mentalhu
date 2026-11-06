@@ -1,0 +1,394 @@
+[
+  {
+    "key": "ful-orr-gegeszek",
+    "error": "429 Client Error: Too Many Requests for url: https://szakorvos.hu/szakorvos/ful-orr-gege-szakorvos/budapest"
+  },
+  {
+    "key": "neurologia",
+    "error": "429 Client Error: Too Many Requests for url: https://szakorvos.hu/szakorvos/neurologus/budapest"
+  },
+  {
+    "key": "szemeszek",
+    "error": "429 Client Error: Too Many Requests for url: https://szakorvos.hu/szakorvos/szemeszet-szakorvos/budapest"
+  },
+  {
+    "key": "hipnoterapeutak",
+    "headings": 13,
+    "tables": [],
+    "members": 42,
+    "sample": [
+      {
+        "name": "Terapeutáink",
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "post-title",
+            "entry-title"
+          ]
+        },
+        "parent_class": [
+          "entry",
+          "clearfix"
+        ],
+        "links": [
+          {
+            "text": "Keresés",
+            "url": "https://hipnozis-mhe.hu/terapeutaink/"
+          },
+          {
+            "text": "Visszaállítás",
+            "url": "https://hipnozis-mhe.hu/terapeutaink/"
+          },
+          {
+            "text": "Balogh Ágnes Emese",
+            "url": "https://hipnozis-mhe.hu/userprofile/dbae/"
+          },
+          {
+            "text": "dbae@freemail.hu",
+            "url": "mailto:dbae@freemail.hu"
+          },
+          {
+            "text": "",
+            "url": "https://hipnozis-mhe.hu/terapeutaink/"
+          },
+          {
+            "text": "Barta Gyöngyi",
+            "url": "https://hipnozis-mhe.hu/userprofile/gyongyi0403/"
+          }
+        ],
+        "html": "<div class=\"entry clearfix\">\n<h1 class=\"post-title entry-title\">\n<span class=\"hpt_headertitle\">Terapeutáink</span> </h1>\n<div class=\"entry-content clearfix\">\n<div class=\"elementor elementor-17 elementor-bc-flex-widget\" data-elementor-id=\"17\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-48c29bf elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"48c29bf\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d603da0\" data-element_type=\"column\" data-id=\"d603da0\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-456447b elementor-alert-success elementor-widget elementor-widget-alert\" data-element_type=\"widget\" data-id=\"456447b\" data-widget_type=\"alert.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-alert\" role=\"alert\">\n<span class=\"elementor-alert-title\">Hipnoterápiás tevékenységre vonatkozó jogszabály 60/2003. (X. 20.) ESzCsM rendeletből:</span>\n<span class=\"elementor-alert-description\">\n<i>\"A klinikai és mentálhigiéniai szakpszichológus a pszichoterápiás szakmai irányelv által definiált pszichoterápiát végezheti (életvezetési tanácsadást, krízisintervenciót, autogén tréninget, támogató, azaz szupportív terápiát, pszichoterápiás konzultációt). Egyébként pszichoterápia végzése ráépített pszichoterapeuta szakvégzettséget igényel, szakpszichoterápia pedig módszerspecifikus végzettség megszerzését is szükségessé teszi.\n\nAmennyiben a klinikai és mentálhigiéniai szakpszichológus már képesítést szerzett valamely pszichoterápiás mó"
+      },
+      {
+        "name": "Terapeutáink",
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "elementor-heading-title",
+            "elementor-size-xl"
+          ]
+        },
+        "parent_class": [
+          "elementor-widget-container"
+        ],
+        "links": [],
+        "html": "<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-xl\">Terapeutáink</h2> </div>"
+      },
+      {
+        "name": "Kedves Látogatók és Tagok!",
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "widget-title"
+          ]
+        },
+        "parent_class": [
+          "widget_text",
+          "sidebar-wrap",
+          "widget_custom_html"
+        ],
+        "links": [
+          {
+            "text": "Tagfelvételi kérelem",
+            "url": "https://hipnozis-mhe.hu/wp-content/uploads/2021/03/MHE_belepesinyilatkozat_mod.doc"
+          }
+        ],
+        "html": "<div class=\"widget_text sidebar-wrap widget_custom_html\" id=\"custom_html-8\"><h2 class=\"widget-title\">Kedves Látogatók és Tagok!</h2><div class=\"textwidget custom-html-widget\"><p>Képzési és tagsági ügyekkel kapcsolatban az alábbi elérhetőségen kaphattok további tájékoztatást, segítséget:</p>\n<p style=\"padding-left: 40px;\"><strong><span style=\"color: #333333;\">Kasos Enikő</span></strong><br/><em><span style=\"color: #333333;\">mheasszisztens@gmail.com</span></em></p>\n<p style=\"padding-left: 40px;\"><strong><a class=\"button_custom_actual_list\" href=\"https://hipnozis-mhe.hu/wp-content/uploads/2021/03/MHE_belepesinyilatkozat_mod.doc\">Tagfelvételi kérelem</a></strong></p></div></div>"
+      },
+      {
+        "name": "Bejelentkezés",
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "widget-title"
+          ]
+        },
+        "parent_class": [
+          "sidebar-wrap",
+          "widget_wp_sidebarlogin"
+        ],
+        "links": [
+          {
+            "text": "Regisztráció",
+            "url": "https://hipnozis-mhe.hu/tagsagi-informaciok/"
+          },
+          {
+            "text": "Elfelejtett jelszó?",
+            "url": "https://hipnozis-mhe.hu/password-reset/"
+          }
+        ],
+        "html": "<div class=\"sidebar-wrap widget_wp_sidebarlogin\" id=\"wp_sidebarlogin-2\"><h2 class=\"widget-title\">Bejelentkezés</h2><div class=\"sidebar-login-form\"><form action=\"https://hipnozis-mhe.hu/wp-login.php\" id=\"loginform\" method=\"post\" name=\"loginform\"><p class=\"login-username\">\n<label for=\"user_login\">Felhasználónév vagy Email cím</label>\n<input autocomplete=\"username\" class=\"input\" id=\"user_login\" name=\"log\" size=\"20\" type=\"text\" value=\"\"/>\n</p><p class=\"login-password\">\n<label for=\"user_pass\">Jelszó</label>\n<input autocomplete=\"current-password\" class=\"input\" id=\"user_pass\" name=\"pwd\" size=\"20\" spellcheck=\"false\" type=\"password\" value=\"\"/>\n</p><p class=\"login-remember\"><label><input checked=\"checked\" id=\"rememberme\" name=\"rememberme\" type=\"checkbox\" value=\"forever\"/> Emlékezz rám</label></p><p class=\"login-submit\">\n<input class=\"button button-primary\" id=\"wp-submit\" name=\"wp-submit\" type=\"submit\" value=\"Bejelentkezés\"/>\n<input name=\"redirect_to\" type=\"hidden\" value=\"/sugo\"/>\n</p></form><ul class=\"sidebar-login-links pagenav sidebar_login_links\"><li class=\"regisztracio-link\"><a href=\"https://hipnozis-mhe.hu/tagsagi-informaciok/\">Regisztráció</a></li><li class=\"elfelejtett-jelszo-link\"><a href=\"https://hipnozis-mhe.hu/password-reset/\">Elfelejtett jelszó?</a></li></ul></div></div>"
+      },
+      {
+        "name": "Keresés a honlapon",
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "widget-title"
+          ]
+        },
+        "parent_class": [
+          "sidebar-wrap",
+          "widget_search"
+        ],
+        "links": [],
+        "html": "<div class=\"sidebar-wrap widget_search\" id=\"search-2\"><h2 class=\"widget-title\">Keresés a honlapon</h2><form action=\"https://hipnozis-mhe.hu\" class=\"searchform\" method=\"get\">\n<div class=\"input-group\">\n<input class=\"form-control\" name=\"s\" placeholder=\"Keresés\" type=\"text\"/>\n<span class=\"input-group-btn\">\n<button class=\"btn btn-default\" type=\"submit\"><i class=\"fa fa-search\"></i></button>\n</span>\n</div>\n</form></div>"
+      }
+    ]
+  },
+  {
+    "key": "gyermekkori-diagnosztika",
+    "headings": 1,
+    "tables": [
+      12
+    ],
+    "members": 0,
+    "sample": [
+      {
+        "name": "Hogyan kaphatok szakszerű autizmus diagnózist?",
+        "tag": "h1",
+        "attrs": {},
+        "parent_class": [
+          "page-header"
+        ],
+        "links": [],
+        "html": "<div class=\"page-header\">\n<h1>\r\n    Hogyan kaphatok szakszerű autizmus diagnózist?  </h1>\n<div class=\"breadcrumbs\">\n</div>\n<div class=\"share-row\"></div>\n</div>"
+      }
+    ]
+  },
+  {
+    "key": "gyermekkori-diagnosztika-mars",
+    "headings": 27,
+    "tables": [],
+    "members": 0,
+    "sample": [
+      {
+        "name": "Diagnózisközpont- kereső",
+        "tag": "h1",
+        "attrs": {},
+        "parent_class": [
+          "sow-slider-image-wrapper"
+        ],
+        "links": [],
+        "html": "<div class=\"sow-slider-image-wrapper\">\n<h1>Diagnózisközpont-<br/>\nkereső</h1>\n<p>Az autizmust nem lehet könnyen felismerni, sokszor még a háziorvosoknak sem sikerül. Ezért szeretnénk megkönnyíteni a diagnózis felállításának folyamatát ezzel a keresővel, amivel egyszerűen megtalálhatjátok a hozzátok legközelebbi helyet, ahol biztosan tudnak segíteni.</p>\n</div>"
+      },
+      {
+        "name": "A diagnózis menete",
+        "tag": "h2",
+        "attrs": {
+          "style": "text-align: left; margin: 0;"
+        },
+        "parent_class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ],
+        "links": [],
+        "html": "<div class=\"siteorigin-widget-tinymce textwidget\">\n<h2 style=\"text-align: left; margin: 0;\"><strong>A diagnózis menete</strong></h2>\n<p>Ha észreveszed gyerekeden az autizmus jeleit (amiket lejjebb az oldalon is felsoroltunk), akkor indulj el bátran a hozzád legközelebbi diagnózis központba, amit a térképen találsz. Ezeken a helyeken szakértelemmel fordulnak az autista gyerekek felé, hiszen sok hasonló esettel találkoznak nap, mint nap. A térkép segítségével nem csak azt láthatod, hogy hol vannak a központok, de például azt is, hogy mennyibe kerül a vizsgálat és tudnak-e segíteni a későbbi fejlesztésben is.<br/>\n<strong>Az időben és kellő intenzitással elindított korai fejlesztés jelentősen befolyásolhatja, hogy milyen képességrendszerrel jelenik meg egy autista gyerek az oktatási rendszerben.</strong></p>\n</div>"
+      },
+      {
+        "name": "Csolnoky Ferenc Kórház Gyermek- és Ifjúsági Pszichiátriai Szakrendelés és Gondozó",
+        "tag": "h3",
+        "attrs": {
+          "style": "font-size:18px"
+        },
+        "parent_class": [
+          "marker",
+          "dk"
+        ],
+        "links": [
+          {
+            "text": "gyermekpszveszprem@gmail.com",
+            "url": "mailto:gyermekpszveszprem@gmail.com"
+          }
+        ],
+        "html": "<div class=\"marker dk\" data-lat=\"47.0910881\" data-lng=\"17.9247785\">\n<h3 style=\"font-size:18px\">Csolnoky Ferenc Kórház Gyermek- és Ifjúsági Pszichiátriai Szakrendelés és Gondozó</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Veszprém, Cholnoky Jenő u. 21, 8200 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\nTelefonos időpont kérés minden szerdai napon a mobil számon 8-12 óra között lehetséges<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>1. A diagnózisállítás azzal kezdődik, hogy egy vagy esetleg több alkalommal a szülővel beszélget a szakember, és szükség esetén a szülők egy diagnosztikai tesztet töltenek ki.<br/>\n2. A gyermek vizsgálata csoportos és kétszemélyes helyzetben pszichiáter, gyógypedagógus, szükség esetén pszichológus segítségével teamben történik.<br/>\n3. A diagnosztikus team megbeszélése és közös VÉLEMÉNY alkotás<br/>\n4. A diagnózis és a lehetséges terápiás lehetőségek megbeszélése a szülővel.<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\nA jelenlegi várólista 3-4 hónapos<br/>\n<strong>Mennyibe kerül?</strong><br/>\nNincs térítési díj<br/>\n<strong>Korosztály</strong><br/>\n0-18 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 88 424 690<br/>\n+36 30 911 3830<br/>\n<a href=\"mailto:gyermekpszveszprem@gmail.com\">gyermekpszveszprem@gmail.com</a></p>\n</div>\n</div>"
+      },
+      {
+        "name": "SZTE, Szent-Györgyi Albert Klinikai Központ Gyermekgyógyászati Klinika Gyermek és Ifjúságpszichiátriai szakrendelés",
+        "tag": "h3",
+        "attrs": {
+          "style": "font-size:18px"
+        },
+        "parent_class": [
+          "marker",
+          "dk"
+        ],
+        "links": [],
+        "html": "<div class=\"marker dk\" data-lat=\"46.2440272\" data-lng=\"20.16224\">\n<h3 style=\"font-size:18px\">SZTE, Szent-Györgyi Albert Klinikai Központ Gyermekgyógyászati Klinika Gyermek és Ifjúságpszichiátriai szakrendelés</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Szeged, Temesvári krt. 35, 6726 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+      },
+      {
+        "name": "Salgótarján Megyei Kórház",
+        "tag": "h3",
+        "attrs": {
+          "style": "font-size:18px"
+        },
+        "parent_class": [
+          "marker",
+          "dk"
+        ],
+        "links": [],
+        "html": "<div class=\"marker dk\" data-lat=\"48.1152189\" data-lng=\"19.8095165\">\n<h3 style=\"font-size:18px\">Salgótarján Megyei Kórház</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Salgótarján, Füleki út 54-56, 3100 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+      }
+    ]
+  },
+  {
+    "key": "agykontroll-tanfolyam",
+    "headings": 45,
+    "tables": [],
+    "members": 0,
+    "sample": [
+      {
+        "name": "A gyerekagykontroll-tanfolyam hatására a gyerek várhatóan:",
+        "tag": "h3",
+        "attrs": {},
+        "parent_class": [
+          "headline",
+          "heading-line"
+        ],
+        "links": [],
+        "html": "<div class=\"headline heading-line\" id=\"el_6aed66ae79797\"><h3><span> A gyerekagykontroll-tanfolyam hatására a gyerek várhatóan:</span></h3></div>"
+      },
+      {
+        "name": "Sikertörténetek",
+        "tag": "h3",
+        "attrs": {},
+        "parent_class": [
+          "headline",
+          "medium"
+        ],
+        "links": [],
+        "html": "<div class=\"headline medium\" id=\"el_6aed66ae7a6d8\"><h3><span>Sikertörténetek</span></h3></div>"
+      },
+      {
+        "name": "Helyszínek, időpontok, árak Agykontrolltanfolyam gyerekeknek (2 napos)",
+        "tag": "h3",
+        "attrs": {},
+        "parent_class": [
+          "headline",
+          "big",
+          "headline-align-center",
+          "subtitle-size-small"
+        ],
+        "links": [],
+        "html": "<div class=\"headline big headline-align-center subtitle-size-small\" id=\"el_6aed66ae7bbb5\"><h3><span>Helyszínek, időpontok, árak</span><span class=\"subtitle\">Agykontrolltanfolyam gyerekeknek (2 napos)</span></h3></div>"
+      },
+      {
+        "name": "A 2 napos tanfolyam ára: 42 000 Ft",
+        "tag": "h3",
+        "attrs": {},
+        "parent_class": [
+          "headline",
+          "medium"
+        ],
+        "links": [],
+        "html": "<div class=\"headline medium\" id=\"el_6aed66ae7bd74\"><h3><span>A 2 napos tanfolyam ára: 42 000 Ft</span></h3></div>"
+      },
+      {
+        "name": "Helyszínek, időpontok",
+        "tag": "h3",
+        "attrs": {},
+        "parent_class": [
+          "headline",
+          "medium"
+        ],
+        "links": [],
+        "html": "<div class=\"headline medium\" id=\"el_6aed66ae7bebb\"><h3><span>Helyszínek, időpontok</span></h3></div>"
+      }
+    ]
+  },
+  {
+    "key": "agykontroll",
+    "headings": 165,
+    "tables": [],
+    "members": 0,
+    "sample": [
+      {
+        "name": "Gyerekoktatók",
+        "tag": "h3",
+        "attrs": {},
+        "parent_class": [
+          "headline",
+          "big",
+          "headline-align-center",
+          "subtitle-size-small",
+          "svg_underline"
+        ],
+        "links": [],
+        "html": "<div class=\"headline big headline-align-center subtitle-size-small svg_underline\" id=\"el_6aed66ae703fc\"><h3><span>Gyerekoktatók</span><span class=\"svgunderline\"><svg enable-background=\"new 45.321 4.42 99.357 16.158\" height=\"16.158px\" version=\"1.1\" viewbox=\"45.321 4.42 99.357 16.158\" width=\"99.357px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\">\n<g>\n<path class=\"svg-fill\" d=\"M108.412,5.156C108.301,5,108.59,4.979,108.723,5l0.044,0.044c-0.089,0.022-0.244-0.044-0.311,0.067\n\t\tc0.311,0.089,0.756,0.267,1.022,0.044l-0.067-0.044c0.067-0.067,0.556-0.111,0.756,0.044c-0.066,0-0.133-0.022-0.156,0.045v0.066\n\t\tc0.135,0.067,0.379,0.067,0.534,0V5.156c0.311,0.2,0.822,0.312,1.267,0.111c0.111,0.311,0.533,0.067,0.756,0.2\n\t\tc0.066-0.044,0.066-0.222,0.199-0.156c-0.178,0.156,0.155,0.333,0.111,0.533c0.311,0.134,0.488-0.178,0.645-0.311\n\t\tc0.445,0.089,1.156-0.222,1.334,0.267l-0.045,0.044c0.022,0.134,0.288,0.245,0.355,0.067l-0.044-0.067\n\t\tc0.199-0.066,0.6-0.022,0.844,0.111c-0.11,0.089,0,0.267,0.111,0.267c0.667-0.022,1.4,0.267,2.089,0.156l-0.489-0.2\n\t\tc0.178-0.134,0.578,0.044,0.756-0.178c-0.111-0.2-0.4-0.022-0.533-0.156l1.645,0.222l-0.044,0.044\n\t\tc0.132,0.422,0.576,0.355,0.91,0.422l0.045-0.044c-0.245-0.311-0.444-0.267-0.756-0.422c1.045,0.089,2.089,0.4,3.045,0.645\n\t\tc0.044,0.089-0.044,0.156-0.111,0.2c0.111,0.111,0.355,0.044,0.444,0.066l-0.111-0.177h0.423l-0.044,0.222\n\t\tc0.533,0.044,0.577,0.555,1.11,0.578c-0.156-0.333,0.244-0.245,0.489-0.267l0.044-0.044l-0.11-0.111\n\t\tc0.289,0-0.111-0.244,0.222-0.155c0.022,0.044-0.022,0.066-0.066,0.111c0.4,0.178,0.733,0.044,1.066,0.311\n\t\tc0.267-0.111,0.534,0.245,0.8,0.111L126.812,7.4c0.089,0.022,0.156,0.066,0.268,0.044c0.089,0.4,0.821,0.333,1.222,0.489\n\t\tc0.4,0.178,1.066,0.089,1.445,0.156c0.089,0.2,"
+      },
+      {
+        "name": "Bakos Kornél",
+        "tag": "h3",
+        "attrs": {},
+        "parent_class": [
+          "headline",
+          "heading-line"
+        ],
+        "links": [],
+        "html": "<div class=\"headline heading-line\" id=\"el_6aed66ae70b67\"><h3><span>Bakos Kornél</span></h3></div>"
+      },
+      {
+        "name": "Hogy mutatnád be magadat egy ismeretlennek?",
+        "tag": "h3",
+        "attrs": {
+          "class": [
+            "wpb_accordion_header",
+            "ui-accordion-header"
+          ]
+        },
+        "parent_class": [
+          "wpb_accordion_section",
+          "group"
+        ],
+        "links": [
+          {
+            "text": "Hogy mutatnád be magadat egy ismeretlennek?",
+            "url": "https://agykontroll.hu/gyerekoktatok/#hogy-mutatnad-be-magadat-egy-ismeretlennek"
+          }
+        ],
+        "html": "<div class=\"wpb_accordion_section group\">\n<h3 class=\"wpb_accordion_header ui-accordion-header\"><a href=\"#hogy-mutatnad-be-magadat-egy-ismeretlennek\"><i class=\"tabicon Default-user iconbefore\"></i>Hogy mutatnád be magadat egy ismeretlennek?</a></h3>\n<div class=\"wpb_accordion_content ui-accordion-content vc_clearfix\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p class=\"p1\"><span class=\"s1\">Amióta az eszemet tudom, neveltem és tanítottam. Ez az életem. Mi mást tehetnék?</span></p>\n</div>\n</div>\n</div>\n</div>"
+      },
+      {
+        "name": "Miért tanítod az Agykontrollt?",
+        "tag": "h3",
+        "attrs": {
+          "class": [
+            "wpb_accordion_header",
+            "ui-accordion-header"
+          ]
+        },
+        "parent_class": [
+          "wpb_accordion_section",
+          "group"
+        ],
+        "links": [
+          {
+            "text": "Miért tanítod az Agykontrollt?",
+            "url": "https://agykontroll.hu/gyerekoktatok/#miert-tanitod-az-agykontrollt"
+          }
+        ],
+        "html": "<div class=\"wpb_accordion_section group\">\n<h3 class=\"wpb_accordion_header ui-accordion-header\"><a href=\"#miert-tanitod-az-agykontrollt\"><i class=\"tabicon Default-thumbs-up iconbefore\"></i>Miért tanítod az Agykontrollt?</a></h3>\n<div class=\"wpb_accordion_content ui-accordion-content vc_clearfix\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div>Számtalanszor tapasztalom, hogy milyen fontos, és nagy segítség egy nehéz élethelyzetben, ha van rá pozitív példa a fejünkben:</div>\n<div> – Láttam, hallottam arról, hogy valaki hogyan küzdött meg a hasonló nehézséggel sikeresen!</div>\n<div>Vagy van egy jó eszköz, amivel meg lehet megoldani azt a nehéz életfeladatot. Ha üres az eszköztár , nincs mit elővenni. Az Agykontroll- technikákkal komoly eszköz, és példatár kerül a gyerekek kezébe, amit magukkal visznek a tanfolyam után.</div>\n<div>Egy konkrét eset: Egy okos, ügyes kamasz lányka, aki  aktív volt a tanfolyam során, vidám, társasági lény a szünetekben, egyszer csak az egyik szünetben magányosan üldögélve merengett maga elé.</div>\n<div>Odamentem hozzá, mert tudni szerettem volna, minden rendben van-e, és meg is kérdeztem tőle, jól van, minden oké?</div>\n<div>– A válasza az volt, hogy igen, persze, csak mélyen elgondolkodtatta néhány történetem, hogy tényleg ennyi mindenre képesek vagyunk, tényleg ilyen fantasztikus dolgokat tudunk megcsinálni az elménkkel?</div>\n<div>Ő, ebből már tudtam, hogy teli tarsollyal tér majd haza, és lesz mit „elővennie”, ha szüksége van rá ! 🙂</div>\n</div>\n</div>\n</div>\n</div>"
+      },
+      {
+        "name": "Mi volt az eddigi legmeglepőbb vagy legjobb élményed az agykontroll oktatása kapcsán?",
+        "tag": "h3",
+        "attrs": {
+          "class": [
+            "wpb_accordion_header",
+            "ui-accordion-header"
+          ]
+        },
+        "parent_class": [
+          "wpb_accordion_section",
+          "group"
+        ],
+        "links": [
+          {
+            "text": "Mi volt az eddigi legmeglepőbb vagy legjobb élményed az agykontroll oktatása kapcsán?",
+            "url": "https://agykontroll.hu/gyerekoktatok/#mi-volt-az-eddigi-legmeglepobb-vagy-legjobb-elmenyed-az-agykontroll-oktatasa-kapcsan"
+          }
+        ],
+        "html": "<div class=\"wpb_accordion_section group\">\n<h3 class=\"wpb_accordion_header ui-accordion-header\"><a href=\"#mi-volt-az-eddigi-legmeglepobb-vagy-legjobb-elmenyed-az-agykontroll-oktatasa-kapcsan\"><i class=\"tabicon Default-rocket iconbefore\"></i>Mi volt az eddigi legmeglepőbb vagy legjobb élményed az agykontroll oktatása kapcsán?</a></h3>\n<div class=\"wpb_accordion_content ui-accordion-content vc_clearfix\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div>Talán leginkább az, amikor olyan erővel „megy át” egy-egy üzenet, gyakorlat, hogy már a tanfolyami szünetben elkezdenek gyakorolni a gyerekek. És persze a visszajelzések, jobb jegyekről, oldódó szorongásokról, megvalósult vágyakról, ügyes fájdalomcsillapításról.</div>\n</div>\n</div>\n</div>\n</div>"
+      }
+    ]
+  }
+]

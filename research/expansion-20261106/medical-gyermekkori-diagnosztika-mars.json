@@ -1,0 +1,469 @@
+{
+  "key": "gyermekkori-diagnosztika-mars",
+  "url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+  "status": 200,
+  "title": "Diagnózisközpont kereső - MARS Alapítvány",
+  "headings": [
+    {
+      "name": "Diagnózisközpont- kereső",
+      "tag": "h1",
+      "attrs": {},
+      "parent_class": [
+        "sow-slider-image-wrapper"
+      ],
+      "links": [],
+      "html": "<div class=\"sow-slider-image-wrapper\">\n<h1>Diagnózisközpont-<br/>\nkereső</h1>\n<p>Az autizmust nem lehet könnyen felismerni, sokszor még a háziorvosoknak sem sikerül. Ezért szeretnénk megkönnyíteni a diagnózis felállításának folyamatát ezzel a keresővel, amivel egyszerűen megtalálhatjátok a hozzátok legközelebbi helyet, ahol biztosan tudnak segíteni.</p>\n</div>"
+    },
+    {
+      "name": "A diagnózis menete",
+      "tag": "h2",
+      "attrs": {
+        "style": "text-align: left; margin: 0;"
+      },
+      "parent_class": [
+        "siteorigin-widget-tinymce",
+        "textwidget"
+      ],
+      "links": [],
+      "html": "<div class=\"siteorigin-widget-tinymce textwidget\">\n<h2 style=\"text-align: left; margin: 0;\"><strong>A diagnózis menete</strong></h2>\n<p>Ha észreveszed gyerekeden az autizmus jeleit (amiket lejjebb az oldalon is felsoroltunk), akkor indulj el bátran a hozzád legközelebbi diagnózis központba, amit a térképen találsz. Ezeken a helyeken szakértelemmel fordulnak az autista gyerekek felé, hiszen sok hasonló esettel találkoznak nap, mint nap. A térkép segítségével nem csak azt láthatod, hogy hol vannak a központok, de például azt is, hogy mennyibe kerül a vizsgálat és tudnak-e segíteni a későbbi fejlesztésben is.<br/>\n<strong>Az időben és kellő intenzitással elindított korai fejlesztés jelentősen befolyásolhatja, hogy milyen képességrendszerrel jelenik meg egy autista gyerek az oktatási rendszerben.</strong></p>\n</div>"
+    },
+    {
+      "name": "Csolnoky Ferenc Kórház Gyermek- és Ifjúsági Pszichiátriai Szakrendelés és Gondozó",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "gyermekpszveszprem@gmail.com",
+          "url": "mailto:gyermekpszveszprem@gmail.com"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.0910881\" data-lng=\"17.9247785\">\n<h3 style=\"font-size:18px\">Csolnoky Ferenc Kórház Gyermek- és Ifjúsági Pszichiátriai Szakrendelés és Gondozó</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Veszprém, Cholnoky Jenő u. 21, 8200 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\nTelefonos időpont kérés minden szerdai napon a mobil számon 8-12 óra között lehetséges<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>1. A diagnózisállítás azzal kezdődik, hogy egy vagy esetleg több alkalommal a szülővel beszélget a szakember, és szükség esetén a szülők egy diagnosztikai tesztet töltenek ki.<br/>\n2. A gyermek vizsgálata csoportos és kétszemélyes helyzetben pszichiáter, gyógypedagógus, szükség esetén pszichológus segítségével teamben történik.<br/>\n3. A diagnosztikus team megbeszélése és közös VÉLEMÉNY alkotás<br/>\n4. A diagnózis és a lehetséges terápiás lehetőségek megbeszélése a szülővel.<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\nA jelenlegi várólista 3-4 hónapos<br/>\n<strong>Mennyibe kerül?</strong><br/>\nNincs térítési díj<br/>\n<strong>Korosztály</strong><br/>\n0-18 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 88 424 690<br/>\n+36 30 911 3830<br/>\n<a href=\"mailto:gyermekpszveszprem@gmail.com\">gyermekpszveszprem@gmail.com</a></p>\n</div>\n</div>"
+    },
+    {
+      "name": "SZTE, Szent-Györgyi Albert Klinikai Központ Gyermekgyógyászati Klinika Gyermek és Ifjúságpszichiátriai szakrendelés",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"46.2440272\" data-lng=\"20.16224\">\n<h3 style=\"font-size:18px\">SZTE, Szent-Györgyi Albert Klinikai Központ Gyermekgyógyászati Klinika Gyermek és Ifjúságpszichiátriai szakrendelés</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Szeged, Temesvári krt. 35, 6726 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Salgótarján Megyei Kórház",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"48.1152189\" data-lng=\"19.8095165\">\n<h3 style=\"font-size:18px\">Salgótarján Megyei Kórház</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Salgótarján, Füleki út 54-56, 3100 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Pécs-Egyesített Egészségügyi Intézmények-Gyermekpszichiátria",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"46.064131\" data-lng=\"18.200136\">\n<h3 style=\"font-size:18px\">Pécs-Egyesített Egészségügyi Intézmények-Gyermekpszichiátria</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Pécs, Veress Endre u. 2, 7633 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Pécs Klinikai Központ Gyermekgyógyászati Klinika",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"46.0706057\" data-lng=\"18.2225083\">\n<h3 style=\"font-size:18px\">Pécs Klinikai Központ Gyermekgyógyászati Klinika</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Pécs, József Attila utca 7, 7623 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Tóparti Pedagógiai Szakszolgálat és Szakambulancia",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"47.1954668\" data-lng=\"18.5970582\">\n<h3 style=\"font-size:18px\">Tóparti Pedagógiai Szakszolgálat és Szakambulancia</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Gárdony, Tópart u. 17, 2484 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Kenézy Gyula Kórház Rendelőintézet Gyermek és Ifjúságpszichiátriai Osztály Gyermekpszichiátriai szakrendelés",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"47.5339052\" data-lng=\"21.6063024\">\n<h3 style=\"font-size:18px\">Kenézy Gyula Kórház Rendelőintézet Gyermek és Ifjúságpszichiátriai Osztály Gyermekpszichiátriai szakrendelés</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Debrecen, Bartók Béla út 2-26, 4031 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Kenézy Gyula Kórház Rendelőintézet Gyermek és Ifjúságpszichiátriai Osztály Gyermekpszichiátriai szakrendelés",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"47.5326676\" data-lng=\"21.6207169\">\n<h3 style=\"font-size:18px\">Kenézy Gyula Kórház Rendelőintézet Gyermek és Ifjúságpszichiátriai Osztály Gyermekpszichiátriai szakrendelés</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Debrecen, Bethlen u. 11-17, 4026 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Szabolcs-Szatmár-Bereg megyei Kórházak és Egyetemi Oktatókórház Jósa András Oktatókórház Gyermekosztály Gyermek-pszichiátriai szakambulancia",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "dr.dicso.ferenc@szszbmk.hu",
+          "url": "mailto:dr.dicso.ferenc@szszbmk.hu"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.9502779\" data-lng=\"21.7297625\">\n<h3 style=\"font-size:18px\">Szabolcs-Szatmár-Bereg megyei Kórházak és Egyetemi Oktatókórház Jósa András Oktatókórház Gyermekosztály Gyermek-pszichiátriai szakambulancia</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Nyíregyháza, Szent István u. 68, 4400 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\nTelefonon keresztül<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>A diagnózis állítást egy szakorvos-szakpszichológus-gyógypedagógus team végzi.<br/>\n3 alkalommal szükséges vizsgálatra érkezni.<br/>\nÉvente kontroll.<br/>\nAmint lesz fekvő osztály, 3 napos megfigyelés szülő jelenlétében.<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\n6 hét<br/>\n<strong>Mennyibe kerül?</strong><br/>\nNincs térítési díj<br/>\n<strong>Korosztály</strong><br/>\n2-18 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 42 599 700 / 1548-as mellék<br/>\n<a href=\"mailto:dr.dicso.ferenc@szszbmk.hu\">dr.dicso.ferenc@szszbmk.hu</a></p>\n</div>\n</div>"
+    },
+    {
+      "name": "Jász-Nagykun-Szolnok Megyei Hetényi Géza Kórház-Rendelőintézet Gyermek Pszichiátriai Szakrendelés",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "gyermekideggondozo@hetenyikorhaz.hu",
+          "url": "mailto:gyermekideggondozo@hetenyikorhaz.hu"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.1574694\" data-lng=\"20.1721567\">\n<h3 style=\"font-size:18px\">\tJász-Nagykun-Szolnok Megyei Hetényi Géza Kórház-Rendelőintézet Gyermek Pszichiátriai Szakrendelés</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Szolnok, Tószegi út 21, 5000 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\nTelefonon keresztül<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>A diagnózis állítást egy szakorvos-szakpszichológus-gyógypedagógus team végzi.<br/>\n3 alkalommal szükséges vizsgálatra érkezni.<br/>\nÉvente kontroll.<br/>\nAmint lesz fekvő osztály, 3 napos megfigyelés szülő jelenlétében.<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\n1-2 hónap<br/>\n<strong>Mennyibe kerül?</strong><br/>\nNincs térítési díj<br/>\n<strong>Korosztály</strong><br/>\n18 hó felett, felnőttek is</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 56 372 573<br/>\n<a href=\"mailto:gyermekideggondozo@hetenyikorhaz.hu\">gyermekideggondozo@hetenyikorhaz.hu</a></p>\n</div>\n</div>"
+    },
+    {
+      "name": "Első Lépések Kora Gyermekkori Intervenciós Alapítvány",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"47.6509025\" data-lng=\"19.1240762\">\n<h3 style=\"font-size:18px\">Első Lépések Kora Gyermekkori Intervenciós Alapítvány</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Dunakeszi, Liget utca 16, 2120 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Duráczky EGYMI Kaposvár",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"46.3602622\" data-lng=\"17.7889193\">\n<h3 style=\"font-size:18px\">Duráczky EGYMI Kaposvár</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Kaposvár, Somssich Pál u. 8, 7400 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "BAZ Megyei Kórház és Egyetemi Oktató Kórház Velkey László Gyermekegészségügyi Központ Gyermek ideggyógyászat",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"48.1196231\" data-lng=\"20.7907332\">\n<h3 style=\"font-size:18px\">\tBAZ Megyei Kórház és Egyetemi Oktató Kórház Velkey László Gyermekegészségügyi Központ Gyermek ideggyógyászat</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Miskolc, Szentpéteri kapu 72-76, 3526 Magyarország</em></p>\n<div class=\"dk-desc\"><p>A BAZ Megyei Központi Kórház Velkey László Gyermekegészségügyi központjában (GYEK) működő gyermek pszichiátriai szakrendelés nem autizmus központ.</p>\n<p>A szakrendelésen szűrő jellegű pszichiátriai vizsgálat, illetve szülői interjú történik. Amennyiben a vizsgálat eredménye alapján felmerül az autizmus lehetősége, innen irányítják a gyermekeket az Autizmus kutató csoporthoz Budapestre.</p>\n<p>A régióban Debrecenben a Megyei Ideggondozóban működik Autizmus ambulancia (Bethlen utca), ahol csak nagyon ritka esetekben fogadnak Hajdú-Bihar megyén kívülieket.</p>\n<p>Az Intézetben egyetlen gyermek pszichiáter dolgozik,aki egész Borsod megyében ellátja a 0-18 éves korosztályt. Ő ADI-R (Autizmus diagnosztikus obszervációs séma ) képzésen vett részt, de csak szűrő jellegű vizsgálatot végez.</p>\n<p><strong>Elérhetőség:</strong><br/>\n+36 46 515 200</p>\n</div>\n</div>"
+    },
+    {
+      "name": "Bajai Kórház Gyermek- és Mentálhygiénés Gondozó",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"46.1856216\" data-lng=\"18.9563948\">\n<h3 style=\"font-size:18px\">Bajai Kórház Gyermek- és Mentálhygiénés Gondozó</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Baja, Arad u. 6, 6500 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "SE I. sz. Gyermekgyógyászati Klinika, Gyermek- és Ifjúságpszichiátria",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"47.4839031\" data-lng=\"19.0780012\">\n<h3 style=\"font-size:18px\">\tSE I. sz. Gyermekgyógyászati Klinika, Gyermek- és Ifjúságpszichiátria</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Bókay János utca 53, 1083 Magyarország</em></p>\n<div class=\"dk-desc\"><p>Bókay u. 53., III. em.<br/>\nBókay u. 54., földszint</p>\n</div>\n</div>"
+    },
+    {
+      "name": "Forrásház Gondozási Központ",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"47.4578725\" data-lng=\"19.1389332\">\n<h3 style=\"font-size:18px\">Forrásház Gondozási Központ</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Dobó Katica u. 18, 1191 Magyarország</em></p>\n<div class=\"dk-desc\"></div>\n</div>"
+    },
+    {
+      "name": "Budapesti Korai Fejlesztő Központ",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "titkarsag@koraifejleszto.hu",
+          "url": "mailto:titkarsag@koraifejleszto.hu"
+        },
+        {
+          "text": "www.koraifejleszto.hu",
+          "url": "http://www.koraifejleszto.hu/"
+        },
+        {
+          "text": "titkarsag@koraifejleszto.hu",
+          "url": "mailto:titkarsag@koraifejleszto.hu"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.5163\" data-lng=\"19.1054739\">\n<h3 style=\"font-size:18px\">Budapesti Korai Fejlesztő Központ</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Csantavér köz 9-11, 1146 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\nJelentkezés elsősorban telefonon (H-P: 8-16 között), de emailben is lehet (<a href=\"mailto:titkarsag@koraifejleszto.hu\">titkarsag@koraifejleszto.hu</a>).<br/>\n1. Telefonban a koordnátor felveszi az alapadatokat – Hány éves, hol laknak (csak infó, nincsen területi illetékesség), tünetek, stb. – Ezeket érdemes e-mailben is elküldeni.<br/>\n2. A Koordinátor e-mailben elküldi az intézményi tájékoztatót és a kitöltendő dokumentumokat, illetve bekéri a beutalót. (gyermek fejlődésére és szülő igényeire vonatkozó kérdőívet, szempontrendszer a pedagógiai szakvéleményhez – ha szükséges)<br/>\n3. Kérdőívet minél előbb kitöltve visszaküldeni (korábbi szakvéleményekkel együtt, ha van), a koordinátor ezután telefonon egyeztet időpontot (kb. 2 héten belül) a szülővel.<br/>\n4. 1 héttel a vizsgálati időpont előtt a szülő e-mailben megkapja a szükséges információkat (időpont, helyszín, stb), illetve, hogy mit kell vinni magával a vizsgálatra (beutaló, 11. kerületi lakostól lakcím kártya, új szakvélemények)<br/>\n5. Vizsgálatot megelőző munkanapon telefonos egyeztetés a szülővel, hogy mennek-e a vizsgálatra.<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>A kérdőív alapján a vezető szakember meghatározza a diagnosztikai csapat összetételét.<br/>\nA diagnózist végző szakemberek az első találkozást követően megbeszélik a szülővel, hogy milyen további/kiegészítő vizsgálatokra van még szükség. Összesen kb. 2-3 vizsgálati alkalomra lehet számítani.<br/>\nA szülő(k) – lehetőleg mind"
+    },
+    {
+      "name": "Budapesti Korai Fejlesztő Központ",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "titkarsag@koraifejleszto.hu",
+          "url": "mailto:titkarsag@koraifejleszto.hu"
+        },
+        {
+          "text": "www.koraifejleszto.hu",
+          "url": "http://www.koraifejleszto.hu/"
+        },
+        {
+          "text": "titkarsag@koraifejleszto.hu",
+          "url": "mailto:titkarsag@koraifejleszto.hu"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.4679634\" data-lng=\"19.0365263\">\n<h3 style=\"font-size:18px\">Budapesti Korai Fejlesztő Központ</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Bártfai u. 34, 1115 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\nJelentkezés elsősorban telefonon (H-P: 8-16 között), de emailben is lehet (<a href=\"mailto:titkarsag@koraifejleszto.hu\">titkarsag@koraifejleszto.hu</a>).<br/>\n1. Telefonban a koordnátor felveszi az alapadatokat – Hány éves, hol laknak (csak infó, nincsen területi illetékesség), tünetek, stb. – Ezeket érdemes e-mailben is elküldeni.<br/>\n2. A Koordinátor e-mailben elküldi az intézményi tájékoztatót és a kitöltendő dokumentumokat, illetve bekéri a beutalót. (gyermek fejlődésére és szülő igényeire vonatkozó kérdőívet, szempontrendszer a pedagógiai szakvéleményhez – ha szükséges)<br/>\n3. Kérdőívet minél előbb kitöltve visszaküldeni (korábbi szakvéleményekkel együtt, ha van), a koordinátor ezután telefonon egyeztet időpontot (kb. 2 héten belül) a szülővel.<br/>\n4. 1 héttel a vizsgálati időpont előtt a szülő e-mailben megkapja a szükséges információkat (időpont, helyszín, stb), illetve, hogy mit kell vinni magával a vizsgálatra (beutaló, 11. kerületi lakostól lakcím kártya, új szakvélemények)<br/>\n5. Vizsgálatot megelőző munkanapon telefonos egyeztetés a szülővel, hogy mennek-e a vizsgálatra.<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>A kérdőív alapján a vezető szakember meghatározza a diagnosztikai csapat összetételét.<br/>\nA diagnózist végző szakemberek az első találkozást követően megbeszélik a szülővel, hogy milyen további/kiegészítő vizsgálatokra van még szükség. Összesen kb. 2-3 vizsgálati alkalomra lehet számítani.<br/>\nA szülő(k) – lehetőleg mindke"
+    },
+    {
+      "name": "Aranykapu Gyermekház",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "info@aranykapugyermekhaz.hu",
+          "url": "mailto:info@aranykapugyermekhaz.hu"
+        },
+        {
+          "text": "www.aranykapugyermekhaz.hu",
+          "url": "http://www.aranykapugyermekhaz.hu/"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"46.9021843\" data-lng=\"19.6799643\">\n<h3 style=\"font-size:18px\">Aranykapu Gyermekház</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Kecskemét, Serfőző u. 21, 6000 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\n1. Jelentkezés telefonon<br/>\n2. Koordinátor e-mailben elküldi a 3-4 oldalas kitöltendő kérdőívet.<br/>\n3. Kérdőívet szakember átnézi, és kiosztja kollégának.<br/>\n4. Ezt követően, 5 napon belül a szakember vizsgálati időpontot egyeztet a szülővel.<br/>\n5. Koordinátor a megegyezett időpontról visszaigazolást küld e-mailben.<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>A szakember a kérdőív alapján ajánl és egyezteti a szülővel a szerinte a diagnózis állításhoz szükséges vizsgálatokat.<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\n2-3 hét hónap<br/>\n<strong>Mennyibe kerül?</strong><br/>\n7.000 Ft/óra/szakember<br/>\n<strong>Korosztály</strong><br/>\n0-12 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 76 325 678<br/>\n<a href=\"mailto:info@aranykapugyermekhaz.hu\">info@aranykapugyermekhaz.hu</a><br/>\n<a href=\"http://www.aranykapugyermekhaz.hu/\" rel=\"noopener\" target=\"_blank\">www.aranykapugyermekhaz.hu</a></p>\n</div>\n</div>"
+    },
+    {
+      "name": "Vadaskert Alapítvány",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "KATTINTSON IDE",
+          "url": "http://84.206.43.26:7080/ellatas/xtek/;jsessionid=75b4eb86a17f9291ad9c8295d0be?0"
+        },
+        {
+          "text": "bejelentkezni",
+          "url": "http://vadaskert.hu/uj-betegek/"
+        },
+        {
+          "text": "info@vadasnet.hu",
+          "url": "mailto:info@vadasnet.hu"
+        },
+        {
+          "text": "vadaskert.info@gmail.com",
+          "url": "mailto:vadaskert.info@gmail.com"
+        },
+        {
+          "text": "www.vadaskert.hu",
+          "url": "http://www.vadaskert.hu/"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.5299399\" data-lng=\"18.9755067\">\n<h3 style=\"font-size:18px\">Vadaskert Alapítvány</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Lipótmezei út 5, 1021 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\n1. Területi illetékesség ellenőrzése:<br/>\n<a href=\"http://84.206.43.26:7080/ellatas/xtek/;jsessionid=75b4eb86a17f9291ad9c8295d0be?0\" rel=\"noopener\" target=\"_blank\"><strong>KATTINTSON IDE</strong></a><br/>\nVidék esetén, ha a Vadaskert az illetékes diagnózis hely, akkor helyi járóbetegellátás pszichitária-n kell beutalót kérni.)<br/>\n2. Honlapon kell időpontra <a href=\"http://vadaskert.hu/uj-betegek/\" rel=\"noopener\" target=\"_blank\"><strong>bejelentkezni</strong></a><br/>\n3. Koordinátor 1-1,5 héten belül e-mailben elküldi az időpontot és a szükséges tudnivalókat.<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>ambuláns vizsgálat – előre nem kell semmit kitölteni, de ha van iskolai/óvodai véleményt, korábbi szakvéleménya, azt kell vinni.<br/>\nAz ambuláns vizsgálaton megbeszélik a szülővel, hogy van-e szükség további (bentfekvéses) vizsgálatra.<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\n2 hónap<br/>\n<strong>Mennyibe kerül?</strong><br/>\ningyenes<br/>\n<strong>Korosztály</strong><br/>\n2/3-18 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 1 392 1400<br/>\n<a href=\"mailto:info@vadasnet.hu\">info@vadasnet.hu</a><br/>\n<a href=\"mailto:vadaskert.info@gmail.com\">vadaskert.info@gmail.com</a><br/>\n<a href=\"http://www.vadaskert.hu/\" rel=\"noopener\" target=\"_blank\">www.vadaskert.hu</a></p>\n</div>\n</div>"
+    },
+    {
+      "name": "BETHESDA KIDSz",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "bethesdakidsz@bethesda.hu",
+          "url": "mailto:bethesdakidsz@bethesda.hu"
+        },
+        {
+          "text": "https://www.bethesda.hu/osztaly/korai-fejlesztes-es-diagnosztika",
+          "url": "https://www.bethesda.hu/osztaly/korai-fejlesztes-es-diagnosztika"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.5174406\" data-lng=\"19.0897876\">\n<h3 style=\"font-size:18px\">BETHESDA KIDSz</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Hungária krt. 200-b 1146, Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\n1. Telefonon vagy e-mailben lehet időpontot kérni (10-12 között érdemes próbálkozni)<br/>\n2. Koordinátor e-mailben elküldi a szükséges tudnivalókat és a kitöltendő dokumentumokat (diagnosztikai kérdőív – több oldalas, de nem nagyon hosszú)<br/>\n<strong>Mi a diagnózis állítás folyamata?<br/>\n</strong>Minden hónapban 1-szer van egy 4 napos vizsgálati hét (4 nap – H-Cs), amire 8 gyermeket tudnak beosztani.<br/>\nAz első 3 nap délelőttjén a gyerekek zeneterapeutával játszanak csoportban, és közben 3-4 szakember figyeli a gyerekeket beosztás szerint. A nap folyamán a gyerekek 2-4 egyéni vizsgálaton is részt vesznek.<br/>\nA 4. napon van a szülővel a diagnózis megbeszélés.<br/>\n0-2 év között csecsemővizsgálat van.<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\n4-6 hónap<br/>\n<strong>Mennyibe kerül?</strong><br/>\ningyenes<br/>\n<strong>Korosztály</strong><br/>\n0-4 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 30 901 9286<br/>\n<a href=\"mailto:bethesdakidsz@bethesda.hu\">bethesdakidsz@bethesda.hu</a><br/>\n<a href=\"https://www.bethesda.hu/osztaly/korai-fejlesztes-es-diagnosztika\" rel=\"noopener\" target=\"_blank\">https://www.bethesda.hu/osztaly/korai-fejlesztes-es-diagnosztika</a></p>\n</div>\n</div>"
+    },
+    {
+      "name": "Nemzetközi Cseperedő Alapítvány",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "info.cseperedo@gmail.com",
+          "url": "mailto:info.cseperedo@gmail.com"
+        },
+        {
+          "text": "info.cseperedo@gmail.com",
+          "url": "mailto:ambulancia@autizmus.hu"
+        },
+        {
+          "text": "www.cseperedo.hu",
+          "url": "http://www.cseperedo.hu/"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.5658429\" data-lng=\"19.0790935\">\n<h3 style=\"font-size:18px\">Nemzetközi Cseperedő Alapítvány</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Váci út 28, 1044 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\n<strong>1.</strong> E-mailben lehet jelentkezni a vizsgálatra: <a href=\"mailto:info.cseperedo@gmail.com\">info.cseperedo@gmail.com</a><br/>\n<strong>2.</strong> Koordinátor e-mail-en elküldi a szükséges tudnivalókat (tájékoztató anyagot) és a kitöltendő dokumentumokat (diagnosztikus kérdőív, szempontrendszer a pedagógiai szakvéleményhez)<br/>\n<strong>3.</strong> A kitöltött kérdőív visszaküldését követően tud a koordinátor vizsgálati időpontot adni.<br/>\n<strong>4.</strong> A vizsgálati időpont egyeztetését követően kell megküldeni a pedagógiai véleményt, illetve a gyermekről készült videófelvételeket. Eközben a Koordinátor – ha a gyermek óvodába/iskolába jár – adatokat egyeztet a szülővel a vizsgálat részét képező közösségi megfigyeléshez.<br/>\n<strong>5.</strong> 2 héttel a vizsgálati időpontot megelőzően, koordinátor ellenőrzi, hogy minden szükséges dokumentum beérkezett-e, megtörtént-e a közösségi megfigyelés.<br/>\n<strong>6.</strong> A vizsgálat előtt 1 héttel a Koordinátor részletes leírást és képes tájékoztatót küld a vizsgálat menetéről.<br/>\n<strong>Mi a diagnózis állítás folyamata?</strong><br/>\n3 alkalmas találkozó a családdal:<br/>\n<strong> - 1.</strong> alkalommal gyermekpszichiáter beszélget a két szülővel, a gyermeket klinikai szakpszichológus vizsgálja (életkortól függően ez egy térben is történhet)<br/>\n<strong>– 2.</strong> alkalommal ADOS teszt felvétele a gyermekkel<br/>\n<strong>– 3.</strong> alkalommal csak a szülővel diagnózis megbeszélés<br/>\n<strong>M"
+    },
+    {
+      "name": "Heim Pál Gyermekkórház - Faludi utcai telephely Mentálhigiéniai Központ",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [],
+      "html": "<div class=\"marker dk\" data-lat=\"47.550331\" data-lng=\"19.0754288\">\n<h3 style=\"font-size:18px\">Heim Pál Gyermekkórház - Faludi utcai telephely Mentálhigiéniai Központ</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Faludi u. 5, 1138 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\n<strong>telefonon:</strong><br/>\n<em>H-CS</em><br/>\n<em>11-12 óra között</em><br/>\n1. területi illetékességet néznek: Budapest 9.,17.,18.,20.,23+ Pest megye<br/>\n(vidékiről jelentkezés esetén keresnek megoldást a közelben)<br/>\n2. szülőt átkapcsolják közvetlenül pszichológus kollégához, aki felveszi az adatokat (név, TAJ szám, tünetek, stb)<br/>\n3. esetelosztást követően, a kolléga, aki vállalja a vizsgálatot, időpontot egyeztet a szülővel<br/>\n<strong>Mi a diagnózis állítás folyamata?</strong><br/>\nambuláns vizsgálat – előre nem kell semmit kitölteni, de ha van iskolai/óvodai véleményt, korábbi véleményeket kell vinni<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\n2-3 hónap<br/>\n<strong>Mennyibe kerül?</strong><br/>\ningyenes<br/>\nalapítványt lehet támogatni<br/>\n<strong>Korosztály</strong><br/>\n4-18 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 1 349 1514<br/>\n+36 1 329 1836</p>\n</div>\n</div>"
+    },
+    {
+      "name": "Autizmus Alapítvány",
+      "tag": "h3",
+      "attrs": {
+        "style": "font-size:18px"
+      },
+      "parent_class": [
+        "marker",
+        "dk"
+      ],
+      "links": [
+        {
+          "text": "letölteni honlapról",
+          "url": "https://www.autizmus.hu/vizsgalatdokumentumok"
+        },
+        {
+          "text": "ambulancia@autizmus.hu",
+          "url": "mailto:ambulancia@autizmus.hu"
+        },
+        {
+          "text": "autizmus@autizmus.hu",
+          "url": "mailto:autizmus@autizmus.hu"
+        },
+        {
+          "text": "www.autizmus.hu",
+          "url": "http://www.autizmus.hu/"
+        }
+      ],
+      "html": "<div class=\"marker dk\" data-lat=\"47.480998\" data-lng=\"19.0955355\">\n<h3 style=\"font-size:18px\">Autizmus Alapítvány</h3>\n<p style=\"line-height:1.1;font-size:15px\"><em>Budapest, Delej u. 21, 1089 Magyarország</em></p>\n<div class=\"dk-desc\"><p><strong>Hogyan lehet időpontot kérni?</strong><br/>\n1. dokumentumokat <strong><a href=\"https://www.autizmus.hu/vizsgalatdokumentumok\" rel=\"noopener\" target=\"_blank\">letölteni honlapról</a></strong> és kitölteni, postán visszaküldeni (Autizmus Alapítvány Ambulancia, 1426 Budapest, Pf. 68) vagy személyesen beadni: <em>hétfőn és szerdán 14-16 óra</em> között Ambulancia titkárságán<br/>\n– Gyermekek diagnosztikus kérdőíve<br/>\n– Pedagógiai vélemény elkészítésének szempontsora<br/>\n– Jelentkezéshez kitöltendő válaszlevél<br/>\n– Vizsgálatkérő levél<br/>\n2. Ambulancia kézhezvételtől számított 10 napon belül válaszlevelet küld a hozzávetőleges diagnózis időponttal<br/>\n3. pontos időpont egyeztetésre a levélben megadott időpont előtt keresik a szülőt<br/>\n<strong>Mi a diagnózis állítás folyamata?</strong><br/>\n3 alkalom<br/>\n– 1. és 2. alkalommal a gyermek és a szülő együtt van, 1 pszichológus és 1 gyógypedagógus – játék, teszt, beszélgetés<br/>\n– 3. alkalommal csak a szülővel diagnózis megbeszélés<br/>\n<strong>Mennyit kell várni az időpontra?</strong><br/>\nmax. 1 év<br/>\namennyiben szülő tudja vállalni a diagnózis állítás teljes költségét: 2-3 hónap<br/>\n<strong>Mennyibe kerül?</strong><br/>\nteljes vizsgálati díj: 126.000 Ft<br/>\ntérítési díj: 37.800 Ft<br/>\nlehet támogatást kérni a díjak részleges van teljes finanszírozására<br/>\n<strong>Korosztály</strong><br/>\n1,5-99 év</p>\n<p><strong>Elérhetőségek:<br/>\n</strong>+36 1 334 1123<br/>\n<a href=\"mailto:ambulancia@autizmus.hu\">ambulancia@autizmus.hu</a><br/>\n<a href=\"mailto:autizmus@autizmus.hu\">"
+    },
+    {
+      "name": "Az autizmus jelei",
+      "tag": "h2",
+      "attrs": {
+        "style": "text-align: center; margin: 0;"
+      },
+      "parent_class": [
+        "siteorigin-widget-tinymce",
+        "textwidget"
+      ],
+      "links": [],
+      "html": "<div class=\"siteorigin-widget-tinymce textwidget\">\n<h2 style=\"text-align: center; margin: 0;\">Az autizmus jelei</h2>\n<p style=\"text-align: center;\">Az autizmusnak nincs egy kiemelt tünete (olyan, amivel tökéletesen diagnosztizálható az autizmust) és nincs kizáró tünete (például: „ha a szemembe néz, akkor biztos nem autista”). Fontos, hogy ezeket a tüneteket kb. 18 hónapos kor után lehet felfedezni a gyerekeken, és általánosságban 2-3 éves kor feletti gyerekre vonatkozhatnak. A klasszikus tünetcsoportok később is megfigyelhetők, csak akkor már másképp jelenhetnek meg.</p>\n</div>"
+    }
+  ],
+  "tables": [],
+  "members": [],
+  "name_links": []
+}

@@ -3,7 +3,7 @@
 import json,re,pathlib,unicodedata
 from urllib.parse import urlparse
 P=pathlib.Path('research/expansion-20261106')
-CATS=[x['slug'] for x in json.loads((P/'categories.json').read_text())]+['csaladallitas']
+CATS=[x['slug'] for x in json.loads((P/'categories.json').read_text())]+[x['slug'] for x in json.loads((P/'new-categories.json').read_text())]
 existing=json.loads((P/'existing.json').read_text()); records={}; audit=[]
 def clean(t):return re.sub(r'\s+',' ',t or '').strip()
 def norm(t):
@@ -66,13 +66,13 @@ for manual in sorted(P.glob('curated*.json')):
  for row in json.loads(manual.read_text()):
   r=add(row['name'],row['categories'],row['url'],row.get('source_name',urlparse(row['url']).hostname),row.get('city',''),row.get('qualifications',''),row.get('website_url',row['url']),row.get('kind','organization'),row.get('evidence',''))
   if r:
-   for field in ['description','event_start','event_end','online_available','source_verified_via','languages']:
+   for field in ['description','event_start','event_end','online_available','source_verified_via','languages','email','email_source_url']:
     if field in row:r[field]=row[field]
 for extra in sorted(P.glob('extra-candidates*.json')):
  for row in json.loads(extra.read_text()):
   r=add(row['name'],row['categories'],row['source_url'],row['source_name'],row.get('city',''),row.get('qualifications',''),row.get('website_url',''),row.get('kind','provider'),row.get('evidence',''))
   if r:
-   for field in ['description','event_start','event_end','online_available','languages']:
+   for field in ['description','event_start','event_end','online_available','languages','email','email_source_url']:
     if field in row:r[field]=row[field]
 merged={x['slug']:{c['slug'] for c in x['categories']} for x in existing}
 for r in records.values():merged.setdefault(r['slug'],set()).update(r['categories'])

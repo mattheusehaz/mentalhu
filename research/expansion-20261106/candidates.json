@@ -25938,6 +25938,891 @@
     "verified": false
   },
   {
+    "slug": "maitri-jogastudio",
+    "name": "Maitri Jógastúdió",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://maitrijoga.hu/",
+    "source_url": "https://maitrijoga.hu/",
+    "source_name": "maitrijoga.hu",
+    "categories": [
+      "joga-es-mozgas"
+    ],
+    "sources": [
+      "https://maitrijoga.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját honlapon közölt jógastúdió és órarend.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "metta-mandala",
+    "name": "Metta Mandala",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://mettamandala.hu/",
+    "source_url": "https://mettamandala.hu/",
+    "source_name": "mettamandala.hu",
+    "categories": [
+      "joga-es-mozgas"
+    ],
+    "sources": [
+      "https://mettamandala.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját honlapján jóga- és meditációs gyakorlóhelyként mutatkozik be.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "mandala-online",
+    "name": "Mandala Online",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://mandalaonline.hu/",
+    "source_url": "https://mandalaonline.hu/",
+    "source_name": "mandalaonline.hu",
+    "categories": [
+      "joga-es-mozgas"
+    ],
+    "sources": [
+      "https://mandalaonline.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Online jógaórák és otthoni gyakorlófelület.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "online_available": true
+  },
+  {
+    "slug": "farkas-boross-zita",
+    "name": "Farkas-Boross Zita",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "A saját bemutatkozása szerint természetgyógyász, fitoterapeuta és életmód-tanácsadó.",
+    "website_url": "https://termeszetgyogyaszod.hu/",
+    "source_url": "https://termeszetgyogyaszod.hu/",
+    "source_name": "termeszetgyogyaszod.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://termeszetgyogyaszod.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "A saját bemutatkozása szerint természetgyógyász, fitoterapeuta és életmód-tanácsadó.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "heizer-antalne-gizike",
+    "name": "Heizer Antalné Gizike",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://termeszetgyogyasz.gestatio-heizer.hu/bemutatkozas/",
+    "source_url": "https://termeszetgyogyasz.gestatio-heizer.hu/bemutatkozas/",
+    "source_name": "termeszetgyogyasz.gestatio-heizer.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://termeszetgyogyasz.gestatio-heizer.hu/bemutatkozas/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját bemutatkozásában természetgyógyászati és fülakupunktúrás tevékenységet nevez meg.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "cesko-izabella",
+    "name": "Dr. Cesko Izabella",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://drcesko.hu/bemutatkozas/",
+    "source_url": "https://drcesko.hu/bemutatkozas/",
+    "source_name": "drcesko.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://drcesko.hu/bemutatkozas/"
+    ],
+    "existing_slug": null,
+    "evidence": "A gyermekgyógyászati bemutatkozás természetgyógyász-fitoterapeuta képesítést is felsorol.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "petrillak-maria",
+    "name": "Petrillák Mária",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.visegradi40.hu/orvosaink/petrillak-maria",
+    "source_url": "https://www.visegradi40.hu/orvosaink/petrillak-maria",
+    "source_name": "www.visegradi40.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://www.visegradi40.hu/orvosaink/petrillak-maria"
+    ],
+    "existing_slug": null,
+    "evidence": "A rendelő szakemberprofilja természetgyógyász, alternatív mozgás- és masszázsterapeuta szerepkört közöl.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kovacs-gizella-medical-healing-point",
+    "name": "Kovács Gizella – Medical Healing Point",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://hmedical.hu/munkatarsaink/kovacs-gizella/",
+    "source_url": "https://hmedical.hu/munkatarsaink/kovacs-gizella/",
+    "source_name": "hmedical.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://hmedical.hu/munkatarsaink/kovacs-gizella/"
+    ],
+    "existing_slug": null,
+    "evidence": "A rendelő munkatársi oldala természetgyógyász és reflexológus tevékenységet sorol fel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "premus-viktoria",
+    "name": "Prémus Viktória",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://6pekk.hu/premus-viktoria/",
+    "source_url": "https://6pekk.hu/premus-viktoria/",
+    "source_name": "6pekk.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://6pekk.hu/premus-viktoria/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját szakemberprofilján természetgyógyász, fitoterapeuta megjelölés található.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "koronczi-novak-eszter",
+    "name": "Dr. Koronczi-Novák Eszter",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://estherapy.hu/hitvallasom/",
+    "source_url": "https://estherapy.hu/hitvallasom/",
+    "source_name": "estherapy.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://estherapy.hu/hitvallasom/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját bemutatkozásában orvos és fitoterapeuta természetgyógyász szerepkört nevez meg.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "bartalne-gonczi-erika",
+    "name": "Bartalné Gönczi Erika",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://lilymed.hu/szakembereink/16-bartalne-gonczi-erika",
+    "source_url": "https://lilymed.hu/szakembereink/16-bartalne-gonczi-erika",
+    "source_name": "lilymed.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://lilymed.hu/szakembereink/16-bartalne-gonczi-erika"
+    ],
+    "existing_slug": null,
+    "evidence": "A rendelő szakemberprofilja reflexológus, fitoterapeuta, természetgyógyász tevékenységet közöl.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "hock-laszlo",
+    "name": "Hock László",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://termeszetgyogyasz.eu/",
+    "source_url": "https://termeszetgyogyasz.eu/",
+    "source_name": "termeszetgyogyasz.eu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://termeszetgyogyasz.eu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Természetgyógyászati magánpraxis saját honlapja.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "bolvari-zoltan-eletpalca",
+    "name": "Bolvári Zoltán – Életpálca",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://eletpalca.hu/",
+    "source_url": "https://eletpalca.hu/",
+    "source_name": "eletpalca.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://eletpalca.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját bemutatkozásában természetgyógyász és reflexológus megjelölés szerepel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "nagy-ilona-termeszetgyogyaszat",
+    "name": "Nagy Ilona – természetgyógyászat",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://nagyilona.com/",
+    "source_url": "https://nagyilona.com/",
+    "source_name": "nagyilona.com",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://nagyilona.com/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját honlapon közölt természetgyógyászati és reflexológiai szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "olah-gyongyi-tunderrozsa-maganrendeles",
+    "name": "Dr. Oláh Gyöngyi – Tündérrózsa Magánrendelés",
+    "kind": "provider",
+    "city": "Túrkeve",
+    "qualifications": "",
+    "website_url": "https://tunderrozsa.hu/bemutatkozas/",
+    "source_url": "https://tunderrozsa.hu/bemutatkozas/",
+    "source_name": "tunderrozsa.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://tunderrozsa.hu/bemutatkozas/"
+    ],
+    "existing_slug": null,
+    "evidence": "A praxis saját bemutatkozása orvos-természetgyógyász és fitoterapeuta szerepkört közöl.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "z-kadar-patrik-patrik-termeszetgyogyasz",
+    "name": "Z. Kádár Patrik – Patrik Természetgyógyász",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://patriktermeszetgyogyasz.hu/",
+    "source_url": "https://patriktermeszetgyogyasz.hu/",
+    "source_name": "patriktermeszetgyogyasz.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://patriktermeszetgyogyasz.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Saját honlapon közölt fitoterápiás és életmód-szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szarvas-niki-herbclinic",
+    "name": "Szarvas Niki – HerbClinic",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://herbclinic.hu/",
+    "source_url": "https://herbclinic.hu/",
+    "source_name": "herbclinic.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://herbclinic.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "A honlap alapítója egészségügyi biomérnök, fitoterapeuta megjelöléssel szerepel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szell-judit-viktoria",
+    "name": "Széll Judit Viktória",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://joszaki.hu/szakember/szell-judit-viktoria",
+    "source_name": "joszaki.hu",
+    "categories": [
+      "coachok",
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://joszaki.hu/szakember/szell-judit-viktoria"
+    ],
+    "existing_slug": null,
+    "evidence": "Önmaga által közzétett szakemberbemutatkozás: természetgyógyász-fitoterapeuta és life/business coach.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "nadasi-beatrix",
+    "name": "Nádasi Beatrix",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://joszaki.hu/szakember/nadasi-beatrix",
+    "source_name": "joszaki.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://joszaki.hu/szakember/nadasi-beatrix"
+    ],
+    "existing_slug": null,
+    "evidence": "Szakemberprofilján akupresszúra és fülakupunktúra tevékenységet nevez meg.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "molnar-cecilia-kovmol",
+    "name": "Molnár Cecília – KOVMOL",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://joszaki.hu/szakember/kovmol-kft",
+    "source_name": "joszaki.hu",
+    "categories": [
+      "asztrologusok",
+      "kineziologusok",
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://joszaki.hu/szakember/kovmol-kft"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltató saját bemutatkozása természetgyógyászatot, kineziológiát és asztrológiát sorol fel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szekely-timea-termeszetgyogyaszat",
+    "name": "Székely Tímea – természetgyógyászat",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://joszaki.hu/szakember/szekely-timea",
+    "source_name": "joszaki.hu",
+    "categories": [
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://joszaki.hu/szakember/szekely-timea"
+    ],
+    "existing_slug": null,
+    "evidence": "A szolgáltatói bemutatkozás természetgyógyász-fitoterapeuta tevékenységet nevez meg; nem pszichológusként került besorolásra.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "aa-anonim-alkoholistak-magyarorszag",
+    "name": "AA – Anonim Alkoholisták Magyarország",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.anonimalkoholistak.hu/",
+    "source_url": "https://www.anonimalkoholistak.hu/",
+    "source_name": "www.anonimalkoholistak.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.anonimalkoholistak.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Anonim, sorstársi önsegítő közösség. Gyűlések és bekapcsolódási lehetőségek a közösség saját oldalán.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "al-anon-csaladi-csoportok-magyarorszag",
+    "name": "Al-Anon Családi Csoportok Magyarország",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.al-anon.hu/",
+    "source_url": "https://www.al-anon.hu/",
+    "source_name": "www.al-anon.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.al-anon.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Alkoholproblémával érintett családok és hozzátartozók önsegítő közössége.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "aca-alkoholistak-es-rendellenesen-mukodo-csaladok-felnott-gyermekei",
+    "name": "ACA – Alkoholisták és Rendellenesen Működő Családok Felnőtt Gyermekei",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.aca.hu/",
+    "source_url": "https://www.aca.hu/",
+    "source_name": "www.aca.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.aca.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Sorstársi önsegítő közösség; aktuális csoportok a szervezet saját oldalán.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "ga-nevtelen-szerencsejatekosok",
+    "name": "GA – Névtelen Szerencsejátékosok",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.gamblersanonymous.hu/",
+    "source_url": "https://www.gamblersanonymous.hu/",
+    "source_name": "www.gamblersanonymous.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.gamblersanonymous.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Szerencsejáték-problémával élők anonim önsegítő közössége.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "coda-nevtelen-tars-es-kapcsolati-fuggok",
+    "name": "CoDA – Névtelen Társ- és Kapcsolati Függők",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.tarsfuggok.hu/",
+    "source_url": "https://www.tarsfuggok.hu/",
+    "source_name": "www.tarsfuggok.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.tarsfuggok.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Társ- és kapcsolati függőséggel foglalkozó önsegítő közösség.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "oa-anonim-tulevok-magyarorszag",
+    "name": "OA – Anonim Túlevők Magyarország",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.magyaroa.hu/",
+    "source_url": "https://www.magyaroa.hu/",
+    "source_name": "www.magyaroa.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.magyaroa.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Sorstársi önsegítő közösség az evéssel kapcsolatos nehézségekhez.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "wa-nevtelen-munkaholistak",
+    "name": "WA – Névtelen Munkaholisták",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.munkaholistak.hu/",
+    "source_url": "https://www.munkaholistak.hu/",
+    "source_name": "www.munkaholistak.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.munkaholistak.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Munkafüggőséggel foglalkozó sorstársi önsegítő közösség.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kiut-alapitvany-szermentes-sziget",
+    "name": "Kiút Alapítvány – Szermentes Sziget",
+    "kind": "organization",
+    "city": "Szeged",
+    "qualifications": "",
+    "website_url": "https://www.kiutalapitvany.hu/szolgaltatasok/",
+    "source_url": "https://www.kiutalapitvany.hu/szolgaltatasok/",
+    "source_name": "www.kiutalapitvany.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.kiutalapitvany.hu/szolgaltatasok/"
+    ],
+    "existing_slug": null,
+    "evidence": "Csoportos konzultáció és önsegítő közösségek számára biztosított hely. A 12 lépéses csoportok az alapítványtól függetlenek.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "emberbarat-alapitvany-tamogato-es-hozzatartozoi-csoportok",
+    "name": "Emberbarát Alapítvány – támogató és hozzátartozói csoportok",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.emberbarat.hu/index.php?content=assisting",
+    "source_url": "https://www.emberbarat.hu/index.php?content=assisting",
+    "source_name": "www.emberbarat.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.emberbarat.hu/index.php?content=assisting"
+    ],
+    "existing_slug": null,
+    "evidence": "Az alapítvány saját szolgáltatási oldala támogató és hozzátartozói önsegítő csoportokat hirdet. A csatlakozásról egyeztetés szükséges.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "strokeinfo-alapitvany-online-onsegito-kozosseg",
+    "name": "Strokeinfó Alapítvány – online önsegítő közösség",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.strokeinfo.hu/onsegito-csoport/",
+    "source_url": "https://www.strokeinfo.hu/onsegito-csoport/",
+    "source_name": "www.strokeinfo.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.strokeinfo.hu/onsegito-csoport/"
+    ],
+    "existing_slug": null,
+    "evidence": "Stroke-érintettek és hozzátartozók számára létrehozott, az alapítvány által bemutatott sorstársi közösség.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "online_available": true
+  },
+  {
+    "slug": "ebredesek-alapitvany-nyitnikek-onsegito-csoportok",
+    "name": "Ébredések Alapítvány – Nyitnikék önsegítő csoportok",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.nyitnikek.hu/onsegito-modszerek/",
+    "source_url": "https://www.nyitnikek.hu/onsegito-modszerek/",
+    "source_name": "www.nyitnikek.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://www.nyitnikek.hu/onsegito-modszerek/"
+    ],
+    "existing_slug": null,
+    "evidence": "Hanghalló, bipoláris, traumafeldolgozó és hozzátartozói csoportok tájékoztató oldala. Az aktuális indulás és időpont egyeztetést igényel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "aa-delibab-csoport-debrecen",
+    "name": "AA Délibáb csoport – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "Debreceni Alapellátási és Egészségfejlesztési Intézet",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi egészségfejlesztési intézet önsegítő csoportjegyzékében szerepel. Csatlakozás és aktuális helyszín a forrásoldalon.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "aa-fonix-csoport-debrecen",
+    "name": "AA Főnix csoport – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi egészségfejlesztési intézet önsegítő csoportjegyzékében szerepel. A heti két alkalom egy csoportként szerepel a katalógusban.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "al-anon-csaladi-csoport-debrecen",
+    "name": "Al-Anon Családi Csoport – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi intézet által felsorolt hozzátartozói csoport; aktuális részletek a forrásoldalon.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "oa-anonim-tulevok-csoportja-debrecen",
+    "name": "OA Anonim Túlevők Csoportja – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi intézet által felsorolt sorstársi csoport; aktuális csatlakozási lehetőségről egyeztetés szükséges.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "aca-onsegito-csoport-debrecen",
+    "name": "ACA önsegítő csoport – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "Alkoholisták felnőtt gyermekeinek helyi csoportja a nyilvános intézményi jegyzékben.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "portage-felepulo-szenvedelybetegek-csoportja-debrecen",
+    "name": "PORTAGE felépülő szenvedélybetegek csoportja – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A Forrás Mentálhigiénés Központnál megjelölt csoport az intézményi jegyzékben.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "ga-szerencsejatekosok-csoportja-debrecen",
+    "name": "GA Szerencsejátékosok Csoportja – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi egészségfejlesztési intézet önsegítő csoportjegyzékében szerepel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "na-nevtelen-drogfuggok-kozossege-debrecen",
+    "name": "NA Névtelen Drogfüggők közössége – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi egészségfejlesztési intézet önsegítő csoportjegyzékében szerepel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gamma-gt-onsegito-csoport-debrecen",
+    "name": "GAMMA-GT önsegítő csoport – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A Forrás Közösségi Klubnál megjelölt csoport az intézményi jegyzékben.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kek-kereszt-reformatus-iszakosmento-misszio-debreceni-csoportja",
+    "name": "Kék Kereszt – Református Iszákosmentő Misszió debreceni csoportja",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi egészségfejlesztési intézet által felsorolt, vallási hátterű felépülési közösség.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "ttre-kozossegi-ellatasok-szenvedelybetegek-csoportja",
+    "name": "TTRE Közösségi Ellátások – szenvedélybetegek csoportja",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi egészségfejlesztési intézet által felsorolt közösségi ellátási csoport.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "keskeny-uton-jozanul-debrecen",
+    "name": "Keskeny úton józanul – Debrecen",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa",
+    "source_name": "daefi.unideb.hu",
+    "categories": [
+      "kozossegek-es-csoportok"
+    ],
+    "sources": [
+      "https://daefi.unideb.hu/onsegito-csoportok-tamogatasa"
+    ],
+    "existing_slug": null,
+    "evidence": "A helyi intézet jegyzékében felsorolt felépülési csoport a Megtestesülés-plébánián.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
     "slug": "gal-attila",
     "name": "Gál Attila",
     "kind": "provider",

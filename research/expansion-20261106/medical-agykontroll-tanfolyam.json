@@ -1,0 +1,874 @@
+{
+  "key": "agykontroll-tanfolyam",
+  "url": "https://agykontroll.hu/tanfolyamok-gyerekeknek-3/",
+  "status": 200,
+  "title": "Gyerekagykontroll-tanfolyam – Agykontroll",
+  "headings": [
+    {
+      "name": "A gyerekagykontroll-tanfolyam hatására a gyerek várhatóan:",
+      "tag": "h3",
+      "attrs": {},
+      "parent_class": [
+        "headline",
+        "heading-line"
+      ],
+      "links": [],
+      "html": "<div class=\"headline heading-line\" id=\"el_6aed66ae79797\"><h3><span> A gyerekagykontroll-tanfolyam hatására a gyerek várhatóan:</span></h3></div>"
+    },
+    {
+      "name": "Sikertörténetek",
+      "tag": "h3",
+      "attrs": {},
+      "parent_class": [
+        "headline",
+        "medium"
+      ],
+      "links": [],
+      "html": "<div class=\"headline medium\" id=\"el_6aed66ae7a6d8\"><h3><span>Sikertörténetek</span></h3></div>"
+    },
+    {
+      "name": "Helyszínek, időpontok, árak Agykontrolltanfolyam gyerekeknek (2 napos)",
+      "tag": "h3",
+      "attrs": {},
+      "parent_class": [
+        "headline",
+        "big",
+        "headline-align-center",
+        "subtitle-size-small"
+      ],
+      "links": [],
+      "html": "<div class=\"headline big headline-align-center subtitle-size-small\" id=\"el_6aed66ae7bbb5\"><h3><span>Helyszínek, időpontok, árak</span><span class=\"subtitle\">Agykontrolltanfolyam gyerekeknek (2 napos)</span></h3></div>"
+    },
+    {
+      "name": "A 2 napos tanfolyam ára: 42 000 Ft",
+      "tag": "h3",
+      "attrs": {},
+      "parent_class": [
+        "headline",
+        "medium"
+      ],
+      "links": [],
+      "html": "<div class=\"headline medium\" id=\"el_6aed66ae7bd74\"><h3><span>A 2 napos tanfolyam ára: 42 000 Ft</span></h3></div>"
+    },
+    {
+      "name": "Helyszínek, időpontok",
+      "tag": "h3",
+      "attrs": {},
+      "parent_class": [
+        "headline",
+        "medium"
+      ],
+      "links": [],
+      "html": "<div class=\"headline medium\" id=\"el_6aed66ae7bebb\"><h3><span>Helyszínek, időpontok</span></h3></div>"
+    },
+    {
+      "name": "Agykontrolltanfolyam általános iskolásoknak",
+      "tag": "h3",
+      "attrs": {},
+      "parent_class": [
+        "headline",
+        "heading-line"
+      ],
+      "links": [],
+      "html": "<div class=\"headline heading-line\" id=\"el_6aed66ae7c54b\"><style scoped=\"\">#el_6aed66ae7c54b h3:after {background-color:#3465aa!important;}</style><h3><span>Agykontrolltanfolyam általános iskolásoknak</span></h3></div>"
+    },
+    {
+      "name": "Budaörs",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "varga dia@gmail.com",
+          "url": "mailto:vargadia@gmail.com"
+        },
+        {
+          "text": "www. gyerekagykontroll.com",
+          "url": "http://www.gyerekagykontroll.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budaörs</h3><p><b>2026.</b> <strong>december 12-13.</strong> (felsősöknek)<br/>\n<b>Oktató</b>: Varga Diána<br/>\n<b>Kapcsolat: </b>+3620 260 6208, <a href=\"mailto:vargadia@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">varga<wbr/>dia@gmail.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=http://www.gyerekagykontroll.com/&amp;source=gmail&amp;ust=1749284574269000&amp;usg=AOvVaw0X_vrAmGjKBiovkjxzg4QY\" href=\"http://www.gyerekagykontroll.com/\" rel=\"noopener noreferrer\" target=\"_blank\">www.<wbr/>gyerekagykontroll.com</a></p>\n</div>"
+    },
+    {
+      "name": "Budaörs - Kamaraerdő",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "info@kovacserika.com",
+          "url": "mailto:info@kovacserika.com"
+        },
+        {
+          "text": "ww w.kovacserika.com",
+          "url": "http://www.kovacserika.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budaörs - Kamaraerdő</h3><p><b>2026. </b><br/>\n<b>Oktató</b>: Kovács Erika<br/>\n<b>Kapcsolat: </b>+3620 211 3527, <a href=\"mailto:info@kovacserika.com\" rel=\"noopener\" target=\"_blank\">info@kovacserika.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=http://www.kovacserika.com/&amp;source=gmail&amp;ust=1763114894308000&amp;usg=AOvVaw0qmBej6UQuw_NxxwejA-sk\" href=\"http://www.kovacserika.com/\" rel=\"noopener\" target=\"_blank\">ww<wbr/>w.kovacserika.com</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest III. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "magdakati13@gmail.com",
+          "url": "mailto:magdakati13@gmail.com"
+        },
+        {
+          "text": "tanulaskontroll.hu",
+          "url": "http://tanulaskontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest III. ker.</h3><p><b>2026.</b> <strong>november 14-15.</strong><br/>\n<b>Oktató</b>: Magda Katalin<br/>\n<b>Kapcsolat: <a href=\"mailto:magdakati13@gmail.com\">magdakati13@gmail.com</a>, <a href=\"http://tanulaskontroll.hu\" rel=\"noopener\" target=\"_blank\">tanulaskontroll.hu</a></b></p>\n</div>"
+    },
+    {
+      "name": "Budapest V. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "korbacska.judit@gmail.com,",
+          "url": "mailto:korbacska.judit@gmail.com"
+        },
+        {
+          "text": "www.agykontrollgyerekeknek.com",
+          "url": "https://www.agykontrollgyerekeknek.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest V. ker.</h3><p><strong>2026. </strong><strong>november 14-15., 2027. január 9-10,. február 6-7., március 6-7., április 10-11., május 8-9.<br/>\n</strong><strong>Oktató</strong>: Korbacskáné Varga Judit<br/>\n<strong>Kapcsolat</strong>: +3670 585 4757, <a href=\"mailto:korbacska.judit@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">korbacska.judit@gmail.com, </a><a href=\"https://www.agykontrollgyerekeknek.com/\" rel=\"noopener\" target=\"_blank\">www.agykontrollgyerekeknek.com</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest VI. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "hello@gyermekagykontroll.hu",
+          "url": "mailto:hello@gyermekagykontroll.hu"
+        },
+        {
+          "text": "www.gyermekagykontroll.hu",
+          "url": "http://www.gyermekagykontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest VI. ker.</h3><p><strong>2026. december 12-13.<br/>\n</strong><strong>Oktató</strong>: Tihanyi Rita<br/>\n<strong>Kapcsolat</strong>: +3630 620 7373, <a href=\"mailto:hello@gyermekagykontroll.hu\">hello@gyermekagykontroll.hu</a>, <a href=\"http://www.gyermekagykontroll.hu\" rel=\"noopener\" target=\"_blank\">www.gyermekagykontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest VIII. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "www.alfahullam.hu",
+          "url": "https://www.alfahullam.hu/"
+        },
+        {
+          "text": "info@alfahullam.hu,",
+          "url": "mailto:info@alfahullam.hu"
+        },
+        {
+          "text": "Pétercsák MAXIM oktatói oldala",
+          "url": "https://www.facebook.com/profile.php?id=61582293514074"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest VIII. ker.</h3><p><strong>2026.</strong> <strong>december 12-13.</strong> <span style=\"font-weight: normal;\">(kísérő szülő ingyenes részvételével)<br/>\n</span><strong>Oktató</strong>: Pétercsák Maxim<br/>\nKapcsolat: +3620 551 3079; <a data-saferedirecturl=\"https://www.google.com/url?q=https://www.alfahullam.hu&amp;source=gmail&amp;ust=1671207771925000&amp;usg=AOvVaw193tU6nBQwO7Mn3NPzUkbb\" href=\"https://www.alfahullam.hu/\">www.alfahullam.hu</a>; <a href=\"mailto:info@alfahullam.hu\">info@alfahullam.hu, </a>Fb: <a href=\"https://www.facebook.com/profile.php?id=61582293514074\" rel=\"noopener\" target=\"_blank\">Pétercsák MAXIM oktatói oldala</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest XI. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "+3620 260 6208",
+          "url": "tel:+36%2020%20260%206208"
+        },
+        {
+          "text": "vargadia@gmail.com",
+          "url": "mailto:vargadia@gmail.com"
+        },
+        {
+          "text": "www. gyerekagykontroll.com",
+          "url": "http://www.gyerekagykontroll.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest XI. ker.</h3><p><strong>2026.</strong><strong> november 21-22.</strong> (felsősöknek)<strong><br/>\n</strong><strong>Oktató</strong>: Varga Diána<br/>\n<strong>Kapcsolat</strong>:  <a href=\"tel:+36%2020%20260%206208\" rel=\"noopener\" target=\"_blank\">+3620 260 6208</a>, <a href=\"mailto:vargadia@gmail.com\" rel=\"noopener\" target=\"_blank\">vargadia@gmail.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=http://www.gyerekagykontroll.com/&amp;source=gmail&amp;ust=1793782260010000&amp;usg=AOvVaw2s3DknWfO2PEJc_foCtCpb\" href=\"http://www.gyerekagykontroll.com/\" rel=\"noopener\" target=\"_blank\">www.<wbr/>gyerekagykontroll.com</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest XII. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "vargadia@gmail.com",
+          "url": "mailto:vargadia@gmail.com"
+        },
+        {
+          "text": "www.gyerekagykontroll.hu",
+          "url": "http://www.gyerekagykontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest XII. ker.</h3><p><strong>2026.</strong><strong> december 5-6.</strong> (felsősöknek)<strong><br/>\n</strong><strong>Oktató</strong>: Varga Diána<br/>\nKapcsolat: +3620 260 6208, <a href=\"mailto:vargadia@gmail.com\">vargadia@gmail.com</a>, <a href=\"http://www.gyerekagykontroll.hu\" rel=\"noopener\" target=\"_blank\">www.gyerekagykontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest XIII. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "agykontroll58@gmail.com",
+          "url": "mailto:agykotroll58@gmail.com"
+        },
+        {
+          "text": "www.gyermekagykontroll.com",
+          "url": "http://www.gyermekagykontroll.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest XIII. ker.</h3><p><strong>2026. november 28-29. </strong>(kísérő szülő ingyenes részvételével)<strong><br/>\n</strong><strong>Oktató</strong>: Mgr. Jelenka Éva<br/>\nKapcsolat: +3630 773 8137, <a href=\"mailto:agykotroll58@gmail.com\">agykontroll58@gmail.com</a>, <a href=\"http://www.gyermekagykontroll.com\" rel=\"noopener\" target=\"_blank\">www.gyermekagykontroll.com</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest XVI. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "topaildiko.topaildiko@gmail.com",
+          "url": "mailto:topaildiko.topaildiko@gmail.com"
+        },
+        {
+          "text": "www. gyerekagykontrolltanfolyam.hu",
+          "url": "https://www.gyerekagykontrolltanfolyam.hu/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest XVI. ker.</h3><p><strong>2026.</strong> <strong>november 14-15.</strong> (felsősök), <strong>december 27-28.</strong> (alsósok), <strong>december 29-30.</strong> (felsősök), (kísérő szülő jelen lehet)<strong><br/>\n</strong><strong>Oktató</strong>: Topáné Illés Ildikó<br/>\n<strong>Kapcsolat: </strong>+3630 598 6468, <a href=\"mailto:topaildiko.topaildiko@gmail.com\">topaildiko.topaildiko@gmail.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=https://www.gyerekagykontrolltanfolyam.hu&amp;source=gmail&amp;ust=1619509825876000&amp;usg=AFQjCNHzC2t6RCoGQPNhtVTm17wNYAzDew\" href=\"https://www.gyerekagykontrolltanfolyam.hu/\" rel=\"noopener noreferrer\" target=\"_blank\">www.<wbr/>gyerekagykontrolltanfolyam.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest XVIII. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "hetti.csengodi@ gmail.com",
+          "url": "mailto:hetti.csengodi@gmail.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest XVIII. ker.</h3><p><strong>2026. </strong><strong><br/>\n</strong><strong>Oktató</strong>: Csengődiné Harsányi Henriette<br/>\n<strong>Kapcsolat: </strong>+36 20 447 1920, <a href=\"mailto:hetti.csengodi@gmail.com\" rel=\"noopener\" target=\"_blank\">hetti.csengodi@<wbr/>gmail.com</a></p>\n</div>"
+    },
+    {
+      "name": "Budapest XIX. ker.",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "info@kovacserika.com",
+          "url": "mailto:info@kovacserika.com"
+        },
+        {
+          "text": "ww w.kovacserika.com",
+          "url": "http://www.kovacserika.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Budapest XIX. ker.</h3><p><strong>2026. november 14-15.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Kovács Erika<br/>\n<strong>Kapcsolat: </strong>+3620 211 3527, <a href=\"mailto:info@kovacserika.com\" rel=\"noopener\" target=\"_blank\">info@kovacserika.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=http://www.kovacserika.com/&amp;source=gmail&amp;ust=1763114894308000&amp;usg=AOvVaw0qmBej6UQuw_NxxwejA-sk\" href=\"http://www.kovacserika.com/\" rel=\"noopener\" target=\"_blank\">ww<wbr/>w.kovacserika.com</a></p>\n</div>"
+    },
+    {
+      "name": "Debrecen",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "magdakati13@gmail.com",
+          "url": "mailto:magdakati13@gmail.com"
+        },
+        {
+          "text": "tanulaskontroll.hu",
+          "url": "http://www.tanulaskontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Debrecen</h3><p><strong>2026. november 14-15.<br/>\n</strong><strong>Oktató</strong>: Magda Katalin<br/>\n<strong>Kapcsolat: </strong><a href=\"mailto:magdakati13@gmail.com\">magdakati13@gmail.com</a>, <a href=\"http://www.tanulaskontroll.hu\" rel=\"noopener\" target=\"_blank\">tanulaskontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Debrecen",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61551788248880"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Debrecen</h3><p><strong>2026. </strong><strong><br/>\n</strong><strong>Oktató</strong>: Kertészné Magyar Judit<br/>\n<strong>Kapcsolat: </strong>+3620 287 8140,<a href=\"https://www.facebook.com/profile.php?id=61551788248880\" rel=\"noopener\" target=\"_blank\"> Facebook</a></p>\n</div>"
+    },
+    {
+      "name": "Dunaharaszti",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "zsu.makra@gmail.com",
+          "url": "mailto:zsu.makra@gmail.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Dunaharaszti</h3><p><strong>2026. november 14-15.<br/>\n</strong><strong>Oktató</strong>: Makra Zsuzsanna<br/>\n<strong>Kapcsolat: </strong>+3630 748 6914, <a href=\"mailto:zsu.makra@gmail.com\">zsu.makra@gmail.com</a></p>\n</div>"
+    },
+    {
+      "name": "Eger",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "magdakati13@gmail.com",
+          "url": "mailto:magdakati13@gmail.com"
+        },
+        {
+          "text": "tanulaskontroll.hu",
+          "url": "http://www.tanulaskontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Eger</h3><p><strong>2026. </strong><strong><br/>\n</strong><strong>Oktató</strong>: Magda Katalin<br/>\n<strong>Kapcsolat: </strong><a href=\"mailto:magdakati13@gmail.com\">magdakati13@gmail.com</a>, <a href=\"http://www.tanulaskontroll.hu\" rel=\"noopener\" target=\"_blank\">tanulaskontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Eger",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "topaildiko.topaildiko@gmail.com",
+          "url": "mailto:topaildiko.topaildiko@gmail.com"
+        },
+        {
+          "text": "www. gyerekagykontrolltanfolyam.hu",
+          "url": "https://www.gyerekagykontrolltanfolyam.hu/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Eger</h3><p><strong>2026.</strong> <strong>november 7-8.</strong> (felsősök) (kísérő szülő ott lehet)<strong><br/>\n</strong><strong>Oktató</strong>: Topáné Illés Ildikó<br/>\n<strong>Kapcsolat:</strong> +3630 598 6468, <a href=\"mailto:topaildiko.topaildiko@gmail.com\">topaildiko.topaildiko@gmail.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=https://www.gyerekagykontrolltanfolyam.hu&amp;source=gmail&amp;ust=1619509825876000&amp;usg=AFQjCNHzC2t6RCoGQPNhtVTm17wNYAzDew\" href=\"https://www.gyerekagykontrolltanfolyam.hu/\" rel=\"noopener noreferrer\" target=\"_blank\">www.<wbr/>gyerekagykontrolltanfolyam.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Győr",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "info@kovacserika.com",
+          "url": "mailto:info@kovacserika.com"
+        },
+        {
+          "text": "www.kovacserika.com",
+          "url": "http://www.kovacserika.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Győr</h3><p><strong>2026.</strong> <strong><br/>\n</strong><strong>Oktató </strong>Kovács Erika<br/>\n<strong>Kapcsolat: </strong>+3620 211 3527, <a href=\"mailto:info@kovacserika.com\">info@kovacserika.com</a>, <a href=\"http://www.kovacserika.com\" rel=\"noopener\" target=\"_blank\">www.kovacserika.com</a></p>\n</div>"
+    },
+    {
+      "name": "Kecskemét",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "zsu.makra@gmail.com",
+          "url": "mailto:zsu.makra@gmail.com"
+        },
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/agykontroll.gyerek.makrazsu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Kecskemét</h3><p><strong>2026.</strong><strong><br/>\n</strong>Oktató: Makra Zsuzsanna<br/>\nKapcsolat: +36 30 748 6914, <a href=\"mailto:zsu.makra@gmail.com\">zsu.makra@gmail.com</a>, <a href=\"https://www.facebook.com/agykontroll.gyerek.makrazsu\" rel=\"noopener\" target=\"_blank\">Facebook</a></p>\n</div>"
+    },
+    {
+      "name": "Keszthely",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "hello@gyermekagykontroll.hu",
+          "url": "mailto:hello@gyermekagykontroll.hu"
+        },
+        {
+          "text": "www.gyermekagykontroll.hu",
+          "url": "http://www.gyermekagykontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Keszthely</h3><p><strong>2026. november 7-8.</strong><strong><br/>\n</strong><strong>Oktató: </strong>Tihanyi Rita<br/>\n<strong>Kapcsolat: </strong>+3630 620 7373, <a href=\"mailto:hello@gyermekagykontroll.hu\">hello@gyermekagykontroll.hu</a>, <a href=\"http://www.gyermekagykontroll.hu\" rel=\"noopener\" target=\"_blank\">www.gyermekagykontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Kisvárda",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "csillag@ csillagtanoda.hu",
+          "url": "mailto:csillagtanoda.info@gmail.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Kisvárda</h3><p><strong>2026. november 28-29. </strong>(felsősöknek)<strong>, </strong>(kísérő szülő részvétele ingyenes)<br/>\n<strong>Oktató: </strong>Sándor Csilla Judit<br/>\n<strong>Kapcsolat: </strong> +36 30 447 4333, <a href=\"mailto:csillagtanoda.info@gmail.com\" rel=\"noopener\" target=\"_blank\">csillag@<wbr/>csillagtanoda.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Miskolc",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "topaildiko.topaildiko@gmail.com",
+          "url": "mailto:topaildiko.topaildiko@gmail.com"
+        },
+        {
+          "text": "www. gyerekagykontrolltanfolyam.hu",
+          "url": "https://www.gyerekagykontrolltanfolyam.hu/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Miskolc</h3><p><strong>2026. </strong><strong>november 28-29.</strong> (felsősök), <strong>december 5-6.</strong> (alsósok), (kísérő szülő ott lehet)<strong><br/>\n</strong><strong>Oktató</strong>: Topáné Illés Ildikó<br/>\n<strong>Kapcsolat: </strong>+3630 598 6468, <a href=\"mailto:topaildiko.topaildiko@gmail.com\">topaildiko.topaildiko@gmail.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=https://www.gyerekagykontrolltanfolyam.hu&amp;source=gmail&amp;ust=1619509825876000&amp;usg=AFQjCNHzC2t6RCoGQPNhtVTm17wNYAzDew\" href=\"https://www.gyerekagykontrolltanfolyam.hu/\" rel=\"noopener noreferrer\" target=\"_blank\">www.<wbr/>gyerekagykontrolltanfolyam.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Monor",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "korbacska.judit@gmail.com,",
+          "url": "mailto:korbacska.judit@gmail.com"
+        },
+        {
+          "text": "www.agykontrollgyerekeknek.com",
+          "url": "https://www.agykontrollgyerekeknek.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Monor</h3><p><strong>2026.</strong><strong> november 28-29., 2027. január 30-31., február 27-28., március 20-21., április 17-18., május 29-30.<br/>\n</strong><strong>Oktató</strong>: Korbacskáné Varga Judit<br/>\n<strong>Kapcsolat</strong>: +3670 585 4757, <a href=\"mailto:korbacska.judit@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">korbacska.judit@gmail.com, </a><a href=\"https://www.agykontrollgyerekeknek.com/\" rel=\"noopener\" target=\"_blank\">www.agykontrollgyerekeknek.com</a></p>\n</div>"
+    },
+    {
+      "name": "Mór",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "hoffer.eva@hotmail.com,",
+          "url": "mailto:hoffer.eva@hotmail.com"
+        },
+        {
+          "text": "www.hoffereva.hu",
+          "url": "https://www.hoffereva.hu/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Mór</h3><p><strong>2026. november 14-15.</strong> (szülők részvétele díjtalan)<strong><br/>\n</strong><strong>Oktató</strong>: Hoffer Éva<br/>\n<strong>Kapcsolat</strong>: +36 20 410 0709, <a href=\"mailto:hoffer.eva@hotmail.com\">hoffer.eva@hotmail.com, </a><a href=\"https://www.hoffereva.hu/\" rel=\"noopener noreferrer\" target=\"_blank\">www.hoffereva.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Nyíregyháza",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "",
+          "url": "mailto:info@kovacserika.com"
+        },
+        {
+          "text": "csillagtanoda.info@ gmail.com",
+          "url": "mailto:csillagtanoda.info@gmail.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Nyíregyháza</h3><p><strong>2026. november 7-8. </strong>(alsósoknak)<strong>,</strong><strong> november 14-15.</strong> (5-6. osztályosoknak)<strong>, november 21-22. </strong>(7-8. osztályosoknak)<strong>, </strong>(szülők részvételével)<strong><br/>\n</strong><strong>Oktató</strong>: Sándor Csilla Judit<br/>\n<strong>Kapcsolat</strong>: +36 30 447-4333,<a href=\"mailto:info@kovacserika.com\" rel=\"noopener\" target=\"_blank\"> </a><a href=\"mailto:csillagtanoda.info@gmail.com\" rel=\"noopener\" target=\"_blank\">csillagtanoda.info@<wbr/>gmail.com</a></p>\n</div>"
+    },
+    {
+      "name": "Pécs",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "hscsilla@gmail.com",
+          "url": "mailto:hscsilla@gmail.com"
+        },
+        {
+          "text": "hscsilla.hu",
+          "url": "http://www.hscsilla.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Pécs</h3><p><strong>2026. </strong><strong>november 21-22. </strong>(felsősök)<strong>, december 29-30. </strong>(téli szünet, alsósok)<strong><br/>\n</strong><strong>Oktató</strong>: Hoffbauerné Sinkó Csilla<br/>\n<strong>Kapcsolat</strong>: +3630 217 7529, <a href=\"mailto:hscsilla@gmail.com\">hscsilla@gmail.com</a>, <a href=\"http://www.hscsilla.hu\" rel=\"noopener\" target=\"_blank\">hscsilla.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Siófok",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "gyermekagykontrollsiofok@ gmail.com,",
+          "url": "mailto:gyermekagykontrollsiofok@gmail.com"
+        },
+        {
+          "text": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61550027292808"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Siófok</h3><p><strong>2026. </strong><strong><br/>\n</strong><strong>Oktató</strong>: Wittmann-Nagy Renáta<br/>\n<strong>Kapcsolat: </strong>+3630 240 0179, <a href=\"mailto:gyermekagykontrollsiofok@gmail.com\" rel=\"noopener\" target=\"_blank\">gyermekagykontrollsiofok@<wbr/>gmail.com, </a><a href=\"https://www.facebook.com/profile.php?id=61550027292808\" rel=\"noopener\" target=\"_blank\">Facebook</a></p>\n</div>"
+    },
+    {
+      "name": "Sopron",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "info@kovacserika.com",
+          "url": "mailto:info@kovacserika.com"
+        },
+        {
+          "text": "www.kovacserika.com",
+          "url": "http://www.kovacserika.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Sopron</h3><p><strong>2026. november 7-8.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Kovács Erika<br/>\n<strong>Kapcsolat:</strong> +3620 211 3527, <a href=\"mailto:info@kovacserika.com\" rel=\"noopener\" target=\"_blank\">info@kovacserika.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=http://www.kovacserika.com&amp;source=gmail&amp;ust=1777722927583000&amp;usg=AOvVaw2-QTJp4oiyy5vnxkPAap66\" href=\"http://www.kovacserika.com/\" rel=\"noopener\" target=\"_blank\">www.kovacserika.com</a></p>\n</div>"
+    },
+    {
+      "name": "Szeged",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "magdakati13@gmail.com",
+          "url": "mailto:magdakati13@gmail.com"
+        },
+        {
+          "text": "tanulaskontroll.hu",
+          "url": "http://www.tanulaskontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Szeged</h3><p><strong>2026. november 28-29.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Magda Katalin<br/>\n<strong>Kapcsolat: </strong><a href=\"mailto:magdakati13@gmail.com\">magdakati13@gmail.com</a>, <a href=\"http://www.tanulaskontroll.hu\" rel=\"noopener\" target=\"_blank\">tanulaskontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Szeged",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "lehetszjobb@gmail.com",
+          "url": "mailto:lehetszjobb@gmail.com"
+        },
+        {
+          "text": "www.lehetszjobb.hu",
+          "url": "http://www.lehetszjobb.hu/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Szeged</h3><p><strong>2026. december 19-20. </strong>(alsósok),<strong> december 21-22. </strong>(felsősök) (téli szünet)<br/>\n<strong>Oktató</strong>: Harnóczi Erzsébet<br/>\n<strong>Kapcsolat: </strong><a href=\"mailto:lehetszjobb@gmail.com\">lehetszjobb@gmail.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=http://www.lehetszjobb.hu&amp;source=gmail&amp;ust=1759738133318000&amp;usg=AOvVaw1mmhK3lJlHkTCDcjxRIHor\" href=\"http://www.lehetszjobb.hu/\" rel=\"noopener\" target=\"_blank\">www.lehetszjobb.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Székesfehérvár",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "gyerekakfehervar@gmail.com",
+          "url": "mailto:gyerekakfehervar@gmail.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Székesfehérvár</h3><p><strong>2026. december 19-20.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Gábor Ágota<br/>\n<strong>Kapcsolat:</strong> +3670 335 1932, <a href=\"mailto:gyerekakfehervar@gmail.com\">gyerekakfehervar@gmail.com</a></p>\n</div>"
+    },
+    {
+      "name": "Szentendre",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "magdakati13@gmail.com",
+          "url": "mailto:magdakati13@gmail.com"
+        },
+        {
+          "text": "tanulaskontroll.hu",
+          "url": "http://www.tanulaskontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Szentendre</h3><p><strong>2026.</strong><strong> november 21-22.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Magda Katalin<br/>\n<strong>Kapcsolat:</strong> <a href=\"mailto:magdakati13@gmail.com\">magdakati13@gmail.com</a>, <a href=\"http://www.tanulaskontroll.hu\" rel=\"noopener\" target=\"_blank\">tanulaskontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Szigetszentmiklós",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "info@kovacserika.com",
+          "url": "mailto:info@kovacserika.com"
+        },
+        {
+          "text": "www. kovacserika.com",
+          "url": "http://www.kovacserika.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Szigetszentmiklós</h3><p><strong>2026.</strong><strong> november 21-22.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Kovács Erika<br/>\n<strong>Kapcsolat: </strong>+3620 211 3527, <a href=\"mailto:info@kovacserika.com\" rel=\"noopener\" target=\"_blank\">info@kovacserika.com</a>, <a data-saferedirecturl=\"https://www.google.com/url?q=http://www.kovacserika.com&amp;source=gmail&amp;ust=1785357999646000&amp;usg=AOvVaw1y4HaT-8Hl_g83PSiCuV9M\" href=\"http://www.kovacserika.com/\" rel=\"noopener\" target=\"_blank\">www.<wbr/>kovacserika.com</a><br/>\nHaszon Gyuláné szervező: 06 30 347 5570</p>\n</div>"
+    },
+    {
+      "name": "Szolnok",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "magdakati13@gmail.com",
+          "url": "mailto:magdakati13@gmail.com"
+        },
+        {
+          "text": "tanulaskontroll.hu",
+          "url": "http://www.tanulaskontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Szolnok</h3><p><strong>2026. </strong><strong>december 12-13.<br/>\n</strong><strong>Oktató</strong>: Magda Katalin<br/>\n<strong>Kapcsolat:</strong> <a href=\"mailto:magdakati13@gmail.com\">magdakati13@gmail.com</a>, <a href=\"http://www.tanulaskontroll.hu\" rel=\"noopener\" target=\"_blank\">tanulaskontroll.hu</a></p>\n</div>"
+    },
+    {
+      "name": "Szombathely",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "matrozcsoki1@gmail.com",
+          "url": "mailto:matrozcsoki1@gmail.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Szombathely</h3><p><strong>2026.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Szakos Ibolya<br/>\n<strong>Kapcsolat: </strong>+36 30 263 2515, <a href=\"mailto:matrozcsoki1@gmail.com\">matrozcsoki1@gmail.com</a></p>\n</div>"
+    },
+    {
+      "name": "Tatabánya",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "www.gyerekagyk.freewb.hu",
+          "url": "http://www.gyerekagyk.freewb.hu/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Tatabánya</h3><p><strong>2026. </strong><strong>december 28-29.<br/>\n</strong><strong>Oktató</strong>: Gábor Ágota<br/>\n<strong>Kapcsolat: </strong>+3670 335 1932, <span style=\"font-family: trebuchet ms, sans-serif; font-size: large;\"><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.gyerekagyk.freewb.hu&amp;source=gmail&amp;ust=1792503361391000&amp;usg=AOvVaw2xfDyrpDr33G8KxaO8OUZ6\" href=\"http://www.gyerekagyk.freewb.hu/\" rel=\"noopener\" target=\"_blank\">www.gyerekagyk.freewb.hu</a></span></p>\n</div>"
+    },
+    {
+      "name": "Tiszafüred",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "magdakati13@gmail.com",
+          "url": "mailto:magdakati13@gmail.com"
+        },
+        {
+          "text": "tanulaskontroll.hu",
+          "url": "http://tanulaskontroll.hu"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Tiszafüred</h3><p><strong>2026. december 5-6.</strong><strong><br/>\n</strong><strong>Oktató</strong>: Magda Katalin<br/>\n<strong>Kapcsolat:</strong> <a href=\"mailto:magdakati13@gmail.com\">magdakati13@gmail.com</a>, <a href=\"http://tanulaskontroll.hu\" rel=\"noopener\" target=\"_blank\">tanulaskontroll.hu</a><u></u></p>\n</div>"
+    },
+    {
+      "name": "Vác",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "www.gyerekagykontroll.com",
+          "url": "http://www.gyerekagykontroll.com"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Vác</h3><p><strong>2026. </strong><strong>november 14-15. </strong>(felsősöknek)<strong><br/>\n</strong><strong>Oktató</strong>: Varga Diána<br/>\nJelentkezés: Bucsek Emőke, +3620 519 2742<br/>\n<strong>Kapcsolat:</strong> +3620 260 6208, <a href=\"http://www.gyerekagykontroll.com\" rel=\"noopener\" target=\"_blank\">www.gyerekagykontroll.com</a><u></u></p>\n</div>"
+    },
+    {
+      "name": "Veszprém",
+      "tag": "h3",
+      "attrs": {
+        "style": "color:"
+      },
+      "parent_class": [
+        "featured-desc-left"
+      ],
+      "links": [
+        {
+          "text": "horvathbrigi.veszprem@gmail. com,",
+          "url": "mailto:horvathbrigi.veszprem@gmail.com"
+        },
+        {
+          "text": "www.horvathbrigi.com",
+          "url": "http://www.horvathbrigi.com/"
+        }
+      ],
+      "html": "<div class=\"featured-desc-left\" style=\"color:\"><h3 style=\"color:\">Veszprém</h3><p><strong>2026. </strong><strong><br/>\n</strong><strong>Oktató</strong>: Horváth Brigi<br/>\n<strong>Kapcsolat: </strong>+3630 251 0176, <a href=\"mailto:horvathbrigi.veszprem@gmail.com\" rel=\"noopener\" target=\"_blank\">horvathbrigi.veszprem@gmail.<wbr/>com, </a><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.horvathbrigi.com/&amp;source=gmail&amp;ust=1743670462104000&amp;usg=AOvVaw17q6JGkph5ZhTcbpWvMHXe\" href=\"http://www.horvathbrigi.com/\" rel=\"noopener\" target=\"_blank\">www.horvathbrigi.com</a></p>\n</div>"
+    }
+  ],
+  "tables": [],
+  "members": [],
+  "name_links": []
+}
