@@ -97,7 +97,7 @@ async function main() {
   console.log('PASS admin login and catalog access');
 
   const migrationCount = await db.query('SELECT count(*)::int AS count FROM cms_schema_migrations');
-  assert.equal(migrationCount.rows[0].count, 4);
+  assert.equal(migrationCount.rows[0].count, 5);
   const original = await db.query("SELECT name FROM directory_listings WHERE slug='levitania-pszichologiai-kozpont'");
   await db.query("UPDATE directory_listings SET name=$1 WHERE slug='levitania-pszichologiai-kozpont'", ['CI editorial change']);
   await stop(); start();
