@@ -17993,26 +17993,6 @@
     "verified": false
   },
   {
-    "slug": "andriska-eszter",
-    "name": "Andriska Eszter",
-    "kind": "provider",
-    "city": "Budapest",
-    "qualifications": "klinikai szakpszichológus jelölt",
-    "website_url": "",
-    "source_url": "https://integrativ.hu/integrativ-terapeutak",
-    "source_name": "Integratív Pszichoterápiás Egyesület",
-    "categories": [
-      "pszichologusok"
-    ],
-    "sources": [
-      "https://integrativ.hu/integrativ-terapeutak"
-    ],
-    "existing_slug": null,
-    "evidence": "klinikai szakpszichológus jelölt",
-    "retrieved_at": "2026-11-06",
-    "verified": false
-  },
-  {
     "slug": "babolnai-peter",
     "name": "Bábolnai Péter",
     "kind": "provider",
@@ -18586,26 +18566,6 @@
     "verified": false
   },
   {
-    "slug": "irha-edina",
-    "name": "Irha Edina",
-    "kind": "provider",
-    "city": "Debrecen",
-    "qualifications": "klinikai szakpszichológus jelölt, pszichológus",
-    "website_url": "",
-    "source_url": "https://integrativ.hu/integrativ-terapeutak",
-    "source_name": "Integratív Pszichoterápiás Egyesület",
-    "categories": [
-      "pszichologusok"
-    ],
-    "sources": [
-      "https://integrativ.hu/integrativ-terapeutak"
-    ],
-    "existing_slug": null,
-    "evidence": "klinikai szakpszichológus jelölt, pszichológus",
-    "retrieved_at": "2026-11-06",
-    "verified": false
-  },
-  {
     "slug": "kardosne-varga-krisztina",
     "name": "Kardosné Varga Krisztina",
     "kind": "provider",
@@ -18743,26 +18703,6 @@
     ],
     "existing_slug": null,
     "evidence": "pszichológus",
-    "retrieved_at": "2026-11-06",
-    "verified": false
-  },
-  {
-    "slug": "kovacs-petra",
-    "name": "Kovács Petra",
-    "kind": "provider",
-    "city": "Budapest, 11. kerület",
-    "qualifications": "sportszakpszichológiai szakpszichológus, képzésben lévő alkalmazott egészségpszichológiai szakpszichológus",
-    "website_url": "",
-    "source_url": "https://integrativ.hu/integrativ-terapeutak",
-    "source_name": "Integratív Pszichoterápiás Egyesület",
-    "categories": [
-      "pszichologusok"
-    ],
-    "sources": [
-      "https://integrativ.hu/integrativ-terapeutak"
-    ],
-    "existing_slug": null,
-    "evidence": "sportszakpszichológiai szakpszichológus, képzésben lévő alkalmazott egészségpszichológiai szakpszichológus",
     "retrieved_at": "2026-11-06",
     "verified": false
   },

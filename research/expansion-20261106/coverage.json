@@ -1,10 +1,10 @@
 {
   "existing": 399,
-  "candidate_entities": 1380,
-  "new_entities": 1366,
-  "projected_unique_total": 1765,
+  "candidate_entities": 1377,
+  "new_entities": 1363,
+  "projected_unique_total": 1762,
   "categories": {
-    "pszichologusok": 228,
+    "pszichologusok": 225,
     "pszichiaterek": 44,
     "pszichoterapeutak": 119,
     "mentalhigienes-szakemberek": 45,
@@ -47,7 +47,7 @@
     },
     {
       "source": "integrativ",
-      "new_candidates": 84
+      "new_candidates": 81
     },
     {
       "source": "metamese",
