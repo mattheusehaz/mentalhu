@@ -1,0 +1,60 @@
+name: Confirm live catalog rollout
+on:
+  push:
+    branches: [check/catalog-live-20261106]
+    paths: [.github/workflows/confirm-live-catalog.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check the real public website, not a test database
+        run: |
+          node <<'NODE'
+          const assert=require('node:assert/strict');
+          const fs=require('node:fs');
+          const base='https://mental.hu';
+          const read=async path=>{const r=await fetch(base+path,{signal:AbortSignal.timeout(12000),headers:{'Cache-Control':'no-cache'}});return {status:r.status,release:r.headers.get('x-mental-release'),body:await r.text()};};
+          (async()=>{
+            const health=await read('/health/ready');
+            console.log('PUBLIC_DATABASE',health.status,health.body);
+            let ready;
+            for(let attempt=0;attempt<3;attempt++){
+              const r=await read('/api/public/directory-summary');
+              console.log('PUBLIC_RELEASE',JSON.stringify({attempt,status:r.status,release:r.release}));
+              if(r.status===200&&r.release==='catalog-pagination-1'){ready=JSON.parse(r.body);break;}
+              if(attempt<2)await new Promise(resolve=>setTimeout(resolve,12000));
+            }
+            if(!ready){
+              const current=await read('/kereses');
+              console.log('ROLLOUT_NOT_CONFIRMED',JSON.stringify({status:current.status,release:current.release,visibleCards:(current.body.match(/class="listing-card/g)||[]).length,hasPagination:current.body.includes('catalog-pagination')}));
+              fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'The production database responds, but the pagination release is not yet confirmed on the public domain. No production settings were changed.\n');
+              return;
+            }
+            console.log('PUBLIC_SUMMARY',JSON.stringify(ready));
+            const homepage=await read('/');
+            assert(homepage.body.includes('data-total="'+ready.total+'"'));
+            const first=await read('/api/public/listings?paginated=true&limit=100');
+            assert.equal(first.status,200);
+            const meta=JSON.parse(first.body);const ids=[];
+            for(let page=1;page<=meta.pages;page++){
+              const result=await read('/api/public/listings?paginated=true&limit=100&page='+page);
+              assert.equal(result.status,200);const d=JSON.parse(result.body);ids.push(...d.items.map(x=>String(x.id)));
+            }
+            assert.equal(ids.length,ready.total);assert.equal(new Set(ids).size,ready.total);
+            const slugs=[];const pages=Math.ceil(ready.total/24);
+            for(let page=1;page<=pages;page++){
+              const r=await read('/kereses?page='+page);assert.equal(r.status,200);
+              assert(r.body.includes('data-catalog-total="'+ready.total+'"'));
+              slugs.push(...[...r.body.matchAll(/class="listing-card[^\"]*" href="\/szolgaltato\/([^\"]+)"/g)].map(x=>x[1]));
+            }
+            assert.equal(new Set(slugs).size,ready.total);
+            const all=await read('/szolgaltatok');assert.equal(all.status,200);
+            const category=await read('/kategoria/pszichologusok');assert.equal(category.status,200);
+            console.log('LIVE_VERIFIED',JSON.stringify({domain:base,release:'catalog-pagination-1',total:ready.total,categories:ready.categories,htmlPages:pages,distinctApiIds:new Set(ids).size,distinctVisibleProfiles:new Set(slugs).size,homepageTotal:true,allListingsStatus:all.status,categoryStatus:category.status}));
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'Verified live: '+ready.total+' distinct records across '+pages+' public HTML pages, plus homepage total and category page.\n');
+          })().catch(e=>{console.error('PUBLIC_CHECK_ERROR',e.cause?.code||e.message);process.exitCode=1;});
+          NODE
