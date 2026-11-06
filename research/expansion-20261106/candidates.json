@@ -20340,7 +20340,8 @@
     "source_url": "https://coachingfederation.hu/tagjaink/273/",
     "source_name": "ICF Magyar Tagozat",
     "categories": [
-      "coachok"
+      "coachok",
+      "karrier-tanacsadok"
     ],
     "sources": [
       "https://coachingfederation.hu/tagjaink/273/"
@@ -20900,7 +20901,8 @@
     "source_url": "https://coachingfederation.hu/tagjaink/409/",
     "source_name": "ICF Magyar Tagozat",
     "categories": [
-      "coachok"
+      "coachok",
+      "karrier-tanacsadok"
     ],
     "sources": [
       "https://coachingfederation.hu/tagjaink/409/"
@@ -21920,7 +21922,8 @@
     "source_url": "https://coachingfederation.hu/tagjaink/354/",
     "source_name": "ICF Magyar Tagozat",
     "categories": [
-      "coachok"
+      "coachok",
+      "karrier-tanacsadok"
     ],
     "sources": [
       "https://coachingfederation.hu/tagjaink/354/"
@@ -22100,7 +22103,8 @@
     "source_url": "https://coachingfederation.hu/tagjaink/380/",
     "source_name": "ICF Magyar Tagozat",
     "categories": [
-      "coachok"
+      "coachok",
+      "karrier-tanacsadok"
     ],
     "sources": [
       "https://coachingfederation.hu/tagjaink/380/"
@@ -22280,7 +22284,8 @@
     "source_url": "https://coachingfederation.hu/tagjaink/151/",
     "source_name": "ICF Magyar Tagozat",
     "categories": [
-      "coachok"
+      "coachok",
+      "karrier-tanacsadok"
     ],
     "sources": [
       "https://coachingfederation.hu/tagjaink/151/"
@@ -25989,6 +25994,1159 @@
     ],
     "existing_slug": null,
     "evidence": "Asztrológusok Magyarországi Egyesülete",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gal-attila",
+    "name": "Gál Attila",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/gal-attila/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/gal-attila/"
+    ],
+    "existing_slug": null,
+    "evidence": "A kineziológuskereső nyilvános szakemberprofilja.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szantone-borbely-angela-eva",
+    "name": "Szántóné Borbély Angéla Éva",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/szantone-borbely-angela-eva/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/szantone-borbely-angela-eva/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "koves-zsuzsanna",
+    "name": "Köves Zsuzsanna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/koves-zsuzsanna/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/koves-zsuzsanna/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "facsko-agnes",
+    "name": "Facskó Ágnes",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/facsko-agnes-2/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/facsko-agnes-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szeplaki-viktoria",
+    "name": "Széplaki Viktória",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/szeplaki-viktoria-2/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/szeplaki-viktoria-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "koller-bagdi-brigitta",
+    "name": "Koller-Bagdi Brigitta",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/koller-bagdi-brigitta-2/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/koller-bagdi-brigitta-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "garbacz-ildiko",
+    "name": "Garbacz Ildikó",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/garbacz-ildiko/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/garbacz-ildiko/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "adorjan-krisztina",
+    "name": "Adorján Krisztina",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/adorjan-krisztina/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/adorjan-krisztina/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "asztalos-edit",
+    "name": "Asztalos Edit",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://neuro-energetikai-kineziologia.hu/",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/asztalos-edit/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "csaladallitas",
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/asztalos-edit/"
+    ],
+    "existing_slug": null,
+    "evidence": "A profil kineziológiát és egyéni családállítást is megnevez.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "remete-angela",
+    "name": "Remete Angéla",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.remeteangela.hu/",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/remete-angela-2/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok",
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/remete-angela-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "A profil kineziológus, életmódterapeuta, bioenergetikus és fülakupunktúrás addiktológus tevékenységet sorol fel.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kulcsar-zsuzsa",
+    "name": "Kulcsár Zsuzsa",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/kulcsar-zsuzsa/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/kulcsar-zsuzsa/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kovacs-orsolya",
+    "name": "Kovács Orsolya",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/kovacs-orsolya/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/kovacs-orsolya/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "zambo-farkas-ildiko",
+    "name": "Zámbó-Farkas Ildikó",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/zambo-farkas-ildiko/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/zambo-farkas-ildiko/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "juhasz-edina",
+    "name": "Juhász Edina",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/juhasz-edina/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/juhasz-edina/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "wagner-viktoria",
+    "name": "Wagner Viktória",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/wagner-viktoria/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "coachok",
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/wagner-viktoria/"
+    ],
+    "existing_slug": null,
+    "evidence": "Kineziológus és coach szerepkör a nyilvános bemutatkozásban; pszichológushallgató, ezért nem pszichológusként besorolva.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szendrei-molnar-andrea",
+    "name": "Szendrei-Molnár Andrea",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/szendrei-molnar-andrea-2/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/szendrei-molnar-andrea-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "karai-csaba",
+    "name": "Karai Csaba",
+    "kind": "provider",
+    "city": "Dorog",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/karai-csaba-2/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok",
+      "termeszetgyogyaszat"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/karai-csaba-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "Természetgyógyász, Touch for Health kineziológus és akupresszőr megjelölés a saját profilján.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "rangasz-edit",
+    "name": "Rangasz Edit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/rangasz-edit-2/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/rangasz-edit-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "knauz-ramona",
+    "name": "Knauz Ramóna",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/knauz-ramona/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/knauz-ramona/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "strorigel-nagy-diana",
+    "name": "Strorigel-Nagy Diána",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/strorigel-nagy-diana/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/strorigel-nagy-diana/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "bognar-hedvig-tunde",
+    "name": "Bognár Hedvig Tünde",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://www.kineziologuskereso.hu/kineziologusok/bognar-hedvig-tunde/",
+    "source_name": "www.kineziologuskereso.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.kineziologuskereso.hu/kineziologusok/bognar-hedvig-tunde/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.kineziologuskereso.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "pistak-dora",
+    "name": "Pisták Dóra",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.touch4health.hu/rolam/",
+    "source_url": "https://www.touch4health.hu/rolam/",
+    "source_name": "www.touch4health.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.touch4health.hu/rolam/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.touch4health.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "tancsik-kohazi-ildiko",
+    "name": "Tancsik Kőházi Ildikó",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.budapestkineziologia.hu/bemutatkozas/",
+    "source_url": "https://www.budapestkineziologia.hu/bemutatkozas/",
+    "source_name": "www.budapestkineziologia.hu",
+    "categories": [
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://www.budapestkineziologia.hu/bemutatkozas/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.budapestkineziologia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "balla-adrien",
+    "name": "Balla Adrien",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://kineziologus-budapest.hu/",
+    "source_url": "https://kineziologus-budapest.hu/",
+    "source_name": "kineziologus-budapest.hu",
+    "categories": [
+      "asztrologusok",
+      "kineziologusok"
+    ],
+    "sources": [
+      "https://kineziologus-budapest.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "kineziologus-budapest.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "asztrocoaching",
+    "name": "AsztroCoaching",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://asztrocoaching.hu/asztrologiai-tanacsadas/",
+    "source_url": "https://asztrocoaching.hu/asztrologiai-tanacsadas/",
+    "source_name": "asztrocoaching.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://asztrocoaching.hu/asztrologiai-tanacsadas/"
+    ],
+    "existing_slug": null,
+    "evidence": "asztrocoaching.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "polgar-andi-aquarius-astrology",
+    "name": "Polgár Andi – Aquarius Astrology",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.aquariusastrology.hu/tanacsadas/",
+    "source_url": "https://www.aquariusastrology.hu/tanacsadas/",
+    "source_name": "www.aquariusastrology.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://www.aquariusastrology.hu/tanacsadas/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.aquariusastrology.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "molnar-ildiko-integral-asztro",
+    "name": "Molnár Ildikó – Integrál Asztro",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://integralasztro.hu/asztrologia/",
+    "source_url": "https://integralasztro.hu/asztrologia/",
+    "source_name": "integralasztro.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://integralasztro.hu/asztrologia/"
+    ],
+    "existing_slug": null,
+    "evidence": "integralasztro.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szalma-zsuzsanna-asztrologus",
+    "name": "Szalma Zsuzsanna",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.szalmazsuzsanna.hu/",
+    "source_url": "https://www.szalmazsuzsanna.hu/",
+    "source_name": "www.szalmazsuzsanna.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://www.szalmazsuzsanna.hu/"
+    ],
+    "existing_slug": "szalma-zsuzsanna-asztrologus",
+    "evidence": "www.szalmazsuzsanna.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "toth-sandor-asztrologiai-elemzes",
+    "name": "Tóth Sándor – Asztrológiai elemzés",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://asztrologiaelemzes.hu/",
+    "source_url": "https://asztrologiaelemzes.hu/",
+    "source_name": "asztrologiaelemzes.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://asztrologiaelemzes.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "asztrologiaelemzes.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "nagy-robert-asztrologus-tanacsado",
+    "name": "Nagy Róbert – Asztrológus tanácsadó",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://asztrologus-tanacsado.hu/",
+    "source_url": "https://asztrologus-tanacsado.hu/",
+    "source_name": "asztrologus-tanacsado.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://asztrologus-tanacsado.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "asztrologus-tanacsado.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gulyas-kristof-sors-asztrologia",
+    "name": "Gulyás Kristóf – Sors Asztrológia",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://sors-asztrologia.hu/",
+    "source_url": "https://sors-asztrologia.hu/",
+    "source_name": "sors-asztrologia.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://sors-asztrologia.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "sors-asztrologia.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szilasztro",
+    "name": "SzilAsztro",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://szilasztro.hu/",
+    "source_url": "https://szilasztro.hu/",
+    "source_name": "szilasztro.hu",
+    "categories": [
+      "asztrologusok"
+    ],
+    "sources": [
+      "https://szilasztro.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "szilasztro.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "birkas-agnes",
+    "name": "Birkás Ágnes",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://karrierkonzultacio.hu/",
+    "source_url": "https://karrierkonzultacio.hu/",
+    "source_name": "karrierkonzultacio.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://karrierkonzultacio.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "karrierkonzultacio.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "posfai-natasa",
+    "name": "Pósfai Natasa",
+    "kind": "provider",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.posfainatasa.com/",
+    "source_url": "https://www.posfainatasa.com/",
+    "source_name": "www.posfainatasa.com",
+    "categories": [
+      "coachok",
+      "karrier-tanacsadok",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://www.posfainatasa.com/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.posfainatasa.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gaalne-tolgyesi-livia",
+    "name": "Gaálné Tölgyesi Lívia",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://gaiaoktatasikozpont.hu/karrierelemzes-es-tanacsadas/",
+    "source_url": "https://gaiaoktatasikozpont.hu/karrierelemzes-es-tanacsadas/",
+    "source_name": "gaiaoktatasikozpont.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://gaiaoktatasikozpont.hu/karrierelemzes-es-tanacsadas/"
+    ],
+    "existing_slug": null,
+    "evidence": "gaiaoktatasikozpont.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "racz-timea",
+    "name": "Rácz Tímea",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://tanacsadopszichologus.hu/karrier-tanacsadas-es-coaching/",
+    "source_url": "https://tanacsadopszichologus.hu/karrier-tanacsadas-es-coaching/",
+    "source_name": "tanacsadopszichologus.hu",
+    "categories": [
+      "karrier-tanacsadok",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://tanacsadopszichologus.hu/karrier-tanacsadas-es-coaching/"
+    ],
+    "existing_slug": null,
+    "evidence": "tanacsadopszichologus.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "sarkozy-virag",
+    "name": "Sárközy Virág",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.sarkozyvirag.hu/",
+    "source_url": "https://www.sarkozyvirag.hu/",
+    "source_name": "www.sarkozyvirag.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://www.sarkozyvirag.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.sarkozyvirag.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "tudatoskarrier",
+    "name": "TudatosKarrier",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.tudatoskarrier.hu/szolgaltatasok/",
+    "source_url": "https://www.tudatoskarrier.hu/szolgaltatasok/",
+    "source_name": "www.tudatoskarrier.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://www.tudatoskarrier.hu/szolgaltatasok/"
+    ],
+    "existing_slug": null,
+    "evidence": "www.tudatoskarrier.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kurtan-klara",
+    "name": "Kurtán Klára",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://karrier.kurtanklara.hu/",
+    "source_url": "https://karrier.kurtanklara.hu/",
+    "source_name": "karrier.kurtanklara.hu",
+    "categories": [
+      "coachok",
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://karrier.kurtanklara.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "karrier.kurtanklara.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "szatmari-judit",
+    "name": "Szatmári Judit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://szatmarijudit.hu/",
+    "source_url": "https://szatmarijudit.hu/",
+    "source_name": "szatmarijudit.hu",
+    "categories": [
+      "coachok",
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://szatmarijudit.hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "szatmarijudit.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "coachlab-karrier-coaching",
+    "name": "CoachLab – karrier coaching",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://coachlab.hu/karrier-coaching/",
+    "source_url": "https://coachlab.hu/karrier-coaching/",
+    "source_name": "coachlab.hu",
+    "categories": [
+      "coachok",
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://coachlab.hu/karrier-coaching/"
+    ],
+    "existing_slug": null,
+    "evidence": "coachlab.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "tomori-nora",
+    "name": "Tomori Nóra",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://karrier-boldogsag.hu/palyavalasztas-2/",
+    "source_url": "https://karrier-boldogsag.hu/palyavalasztas-2/",
+    "source_name": "karrier-boldogsag.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://karrier-boldogsag.hu/palyavalasztas-2/"
+    ],
+    "existing_slug": null,
+    "evidence": "karrier-boldogsag.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "kranitz-eva",
+    "name": "Kránitz Éva",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://karriershop.hu/rolam/",
+    "source_url": "https://karriershop.hu/rolam/",
+    "source_name": "karriershop.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://karriershop.hu/rolam/"
+    ],
+    "existing_slug": null,
+    "evidence": "karriershop.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "porvayne-buzas-inez",
+    "name": "Porvayné Buzás Inez",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://karrierrajt.hu/egyeni-karrier-tanacsadas/",
+    "source_url": "https://karrierrajt.hu/egyeni-karrier-tanacsadas/",
+    "source_name": "karrierrajt.hu",
+    "categories": [
+      "coachok",
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://karrierrajt.hu/egyeni-karrier-tanacsadas/"
+    ],
+    "existing_slug": null,
+    "evidence": "karrierrajt.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "eperjesi-eva",
+    "name": "Eperjesi Éva",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://eperjesieva.hu/ismerj-meg/",
+    "source_url": "https://eperjesieva.hu/ismerj-meg/",
+    "source_name": "eperjesieva.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://eperjesieva.hu/ismerj-meg/"
+    ],
+    "existing_slug": null,
+    "evidence": "eperjesieva.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "corvinus-navigator-karriertanacsadas",
+    "name": "Corvinus Navigator – karriertanácsadás",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.uni-corvinus.hu/post/landing-page/navigator-hu/",
+    "source_url": "https://www.uni-corvinus.hu/post/landing-page/navigator-hu/",
+    "source_name": "www.uni-corvinus.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://www.uni-corvinus.hu/post/landing-page/navigator-hu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Egyetemi karriertámogató szolgáltatás; a részvételi feltételek az egyetem oldalán.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "elte-karrierkozpont-karriertanacsadas",
+    "name": "ELTE Karrierközpont – karriertanácsadás",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://elte.hu/karriertanacsadas",
+    "source_url": "https://elte.hu/karriertanacsadas",
+    "source_name": "elte.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://elte.hu/karriertanacsadas"
+    ],
+    "existing_slug": null,
+    "evidence": "Hallgatók számára meghirdetett egyetemi karriertanácsadás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "nagy-dorina-talent-spirit",
+    "name": "Nagy Dorina – Talent Spirit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://huszaknagydorina.wixsite.com/talentspirit",
+    "source_url": "https://huszaknagydorina.wixsite.com/talentspirit",
+    "source_name": "huszaknagydorina.wixsite.com",
+    "categories": [
+      "coachok",
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://huszaknagydorina.wixsite.com/talentspirit"
+    ],
+    "existing_slug": null,
+    "evidence": "huszaknagydorina.wixsite.com",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "hr-advisor-karrier-coach-es-karriertanacsadas",
+    "name": "HR Advisor – karrier coach és karriertanácsadás",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://hradvisor.hu/karrier-coach-vagy-karrier-tanacsado/",
+    "source_url": "https://hradvisor.hu/karrier-coach-vagy-karrier-tanacsado/",
+    "source_name": "hradvisor.hu",
+    "categories": [
+      "karrier-tanacsadok"
+    ],
+    "sources": [
+      "https://hradvisor.hu/karrier-coach-vagy-karrier-tanacsado/"
+    ],
+    "existing_slug": null,
+    "evidence": "hradvisor.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "semmelweis-egyetem-mentalhigiene-szakiranyu-tovabbkepzes",
+    "name": "Semmelweis Egyetem – Mentálhigiéné szakirányú továbbképzés",
+    "kind": "training",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/mental/szakiranyu-kepzesek/mentalhigiene-tovabbkepzes/kepzes-bemutatasa/",
+    "source_url": "https://semmelweis.hu/mental/szakiranyu-kepzesek/mentalhigiene-tovabbkepzes/kepzes-bemutatasa/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://semmelweis.hu/mental/szakiranyu-kepzesek/mentalhigiene-tovabbkepzes/kepzes-bemutatasa/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "budapesti-gazdasagtudomanyi-egyetem-munkahelyi-mentalhigiene",
+    "name": "Budapesti Gazdaságtudományi Egyetem – Munkahelyi mentálhigiéné",
+    "kind": "training",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://uni-bge.hu/hu/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes",
+    "source_url": "https://uni-bge.hu/hu/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes",
+    "source_name": "uni-bge.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://uni-bge.hu/hu/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes"
+    ],
+    "existing_slug": null,
+    "evidence": "uni-bge.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "pannon-egyetem-munkahelyi-mentalhigiene",
+    "name": "Pannon Egyetem – Munkahelyi mentálhigiéné",
+    "kind": "training",
+    "city": "Veszprém",
+    "qualifications": "",
+    "website_url": "https://htk.uni-pannon.hu/felvi/szakiranyu-tovabbkepzesek/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes",
+    "source_url": "https://htk.uni-pannon.hu/felvi/szakiranyu-tovabbkepzesek/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes",
+    "source_name": "htk.uni-pannon.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://htk.uni-pannon.hu/felvi/szakiranyu-tovabbkepzesek/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes"
+    ],
+    "existing_slug": null,
+    "evidence": "htk.uni-pannon.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "semmelweis-egyetem-aktiv-idosodes-szakiranyu-tovabbkepzes",
+    "name": "Semmelweis Egyetem – Aktív idősödés szakirányú továbbképzés",
+    "kind": "training",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/mental/szakiranyu-kepzesek/aktiv-idosodes-szakiranyu-tovabbkepzesi-szak/felvetel-a-kepzesre/",
+    "source_url": "https://semmelweis.hu/mental/szakiranyu-kepzesek/aktiv-idosodes-szakiranyu-tovabbkepzesi-szak/felvetel-a-kepzesre/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://semmelweis.hu/mental/szakiranyu-kepzesek/aktiv-idosodes-szakiranyu-tovabbkepzesi-szak/felvetel-a-kepzesre/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "debreceni-egyetem-mentalhigienes-szakiranyu-kepzes",
+    "name": "Debreceni Egyetem – Mentálhigiénés szakirányú képzés",
+    "kind": "training",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "https://pszichologia.unideb.hu/mentalhigienes-szakiranyu-kepzes",
+    "source_url": "https://pszichologia.unideb.hu/mentalhigienes-szakiranyu-kepzes",
+    "source_name": "pszichologia.unideb.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://pszichologia.unideb.hu/mentalhigienes-szakiranyu-kepzes"
+    ],
+    "existing_slug": null,
+    "evidence": "pszichologia.unideb.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "gal-ferenc-egyetem-egeszsegfejleszto-mentalhigiene",
+    "name": "Gál Ferenc Egyetem – Egészségfejlesztő mentálhigiéné",
+    "kind": "training",
+    "city": "Gyula",
+    "qualifications": "",
+    "website_url": "https://gfe.hu/felvetelizoknek/kepzeseink/egeszsegfejleszto-mentalhigiene-szakiranyu-tovabbkepzes/",
+    "source_url": "https://gfe.hu/felvetelizoknek/kepzeseink/egeszsegfejleszto-mentalhigiene-szakiranyu-tovabbkepzes/",
+    "source_name": "gfe.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://gfe.hu/felvetelizoknek/kepzeseink/egeszsegfejleszto-mentalhigiene-szakiranyu-tovabbkepzes/"
+    ],
+    "existing_slug": null,
+    "evidence": "gfe.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "semmelweis-egyetem-munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes",
+    "name": "Semmelweis Egyetem – Munkahelyi mentálhigiéné szakirányú továbbképzés",
+    "kind": "training",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://semmelweis.hu/mental/szakiranyu-kepzesek/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes/kepzes-bemutatasa/",
+    "source_url": "https://semmelweis.hu/mental/szakiranyu-kepzesek/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes/kepzes-bemutatasa/",
+    "source_name": "semmelweis.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://semmelweis.hu/mental/szakiranyu-kepzesek/munkahelyi-mentalhigiene-szakiranyu-tovabbkepzes/kepzes-bemutatasa/"
+    ],
+    "existing_slug": null,
+    "evidence": "semmelweis.hu",
+    "retrieved_at": "2026-11-06",
+    "verified": false
+  },
+  {
+    "slug": "magyar-termeszetgyogyaszok-szovetsege-termeszetgyogyasz-akademia",
+    "name": "Magyar Természetgyógyászok Szövetsége – Természetgyógyász Akadémia",
+    "kind": "training",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.termeszetgyogy.hu/akademia/akademia",
+    "source_url": "https://www.termeszetgyogy.hu/akademia/akademia",
+    "source_name": "www.termeszetgyogy.hu",
+    "categories": [
+      "kepzesek"
+    ],
+    "sources": [
+      "https://www.termeszetgyogy.hu/akademia/akademia"
+    ],
+    "existing_slug": null,
+    "evidence": "Komplementer módszereket oktató képzőhely; nem egészségügyi ellátási ajánlás.",
     "retrieved_at": "2026-11-06",
     "verified": false
   },
