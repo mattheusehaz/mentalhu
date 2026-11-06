@@ -1,0 +1,4223 @@
+{
+  "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz",
+  "title": "Természetgyógyász szakemberek a közeledben | JóSzaki",
+  "links": [
+    {
+      "text": "JÓ SZAKI",
+      "url": "https://joszaki.hu/",
+      "attrs": {
+        "href": "/",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary"
+        ]
+      }
+    },
+    {
+      "text": "Összes szakma",
+      "url": "https://joszaki.hu/szakma",
+      "attrs": {
+        "href": "/szakma",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Villanyszerelő",
+      "url": "https://joszaki.hu/szakemberek/villanyszerelo",
+      "attrs": {
+        "href": "/szakemberek/villanyszerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Tetőfedő",
+      "url": "https://joszaki.hu/szakemberek/tetofedo",
+      "attrs": {
+        "href": "/szakemberek/tetofedo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Bádogos",
+      "url": "https://joszaki.hu/szakemberek/badogos",
+      "attrs": {
+        "href": "/szakemberek/badogos",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Ács",
+      "url": "https://joszaki.hu/szakemberek/acs",
+      "attrs": {
+        "href": "/szakemberek/acs",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Szobafestő, tapétázó",
+      "url": "https://joszaki.hu/szakemberek/szobafesto-tapetazo",
+      "attrs": {
+        "href": "/szakemberek/szobafesto-tapetazo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Gázkészülék javítás",
+      "url": "https://joszaki.hu/szakemberek/gazkeszulek-javitas",
+      "attrs": {
+        "href": "/szakemberek/gazkeszulek-javitas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Gázvezeték szerelő",
+      "url": "https://joszaki.hu/szakemberek/gazvezetek-szerelo",
+      "attrs": {
+        "href": "/szakemberek/gazvezetek-szerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Radiátorszerelés",
+      "url": "https://joszaki.hu/szakemberek/radiatorszerelo",
+      "attrs": {
+        "href": "/szakemberek/radiatorszerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Fűtésszerelés",
+      "url": "https://joszaki.hu/szakemberek/futesszereles",
+      "attrs": {
+        "href": "/szakemberek/futesszereles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Vízszerelő",
+      "url": "https://joszaki.hu/szakemberek/vizszerelo",
+      "attrs": {
+        "href": "/szakemberek/vizszerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Kőműves",
+      "url": "https://joszaki.hu/szakemberek/komuves",
+      "attrs": {
+        "href": "/szakemberek/komuves",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Burkoló",
+      "url": "https://joszaki.hu/szakemberek/burkolo",
+      "attrs": {
+        "href": "/szakemberek/burkolo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Földmunka",
+      "url": "https://joszaki.hu/szakemberek/foldmunka",
+      "attrs": {
+        "href": "/szakemberek/foldmunka",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Térkövezés",
+      "url": "https://joszaki.hu/szakemberek/terkovezes",
+      "attrs": {
+        "href": "/szakemberek/terkovezes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Összes ár",
+      "url": "https://joszaki.hu/arak",
+      "attrs": {
+        "href": "/arak",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Glettelés",
+      "url": "https://joszaki.hu/arak/gletteles",
+      "attrs": {
+        "href": "/arak/gletteles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Vakolás",
+      "url": "https://joszaki.hu/arak/vakolas",
+      "attrs": {
+        "href": "/arak/vakolas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Laminált padló lerakás",
+      "url": "https://joszaki.hu/arak/laminalt-padlo-lerakas",
+      "attrs": {
+        "href": "/arak/laminalt-padlo-lerakas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Burkolás",
+      "url": "https://joszaki.hu/arak/burkolas",
+      "attrs": {
+        "href": "/arak/burkolas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Szobafestés",
+      "url": "https://joszaki.hu/arak/szobafestes",
+      "attrs": {
+        "href": "/arak/szobafestes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Térkövezés",
+      "url": "https://joszaki.hu/arak/terkovezes",
+      "attrs": {
+        "href": "/arak/terkovezes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Tisztasági festés",
+      "url": "https://joszaki.hu/arak/tisztasagi-festes",
+      "attrs": {
+        "href": "/arak/tisztasagi-festes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Aljzatkiegyenlítés",
+      "url": "https://joszaki.hu/arak/padlokiegyenlites",
+      "attrs": {
+        "href": "/arak/padlokiegyenlites",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Homlokzati hőszigetelés",
+      "url": "https://joszaki.hu/arak/homlokzati-hoszigeteles",
+      "attrs": {
+        "href": "/arak/homlokzati-hoszigeteles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Villanyszerelés",
+      "url": "https://joszaki.hu/arak/villanyszereles",
+      "attrs": {
+        "href": "/arak/villanyszereles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "SzakiVálasz",
+      "url": "https://joszaki.hu/szakivalaszol",
+      "attrs": {
+        "href": "/szakivalaszol",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "JÓ SZAKI",
+      "url": "https://joszaki.hu/",
+      "attrs": {
+        "href": "/",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary"
+        ]
+      }
+    },
+    {
+      "text": "Összes szakma",
+      "url": "https://joszaki.hu/szakma",
+      "attrs": {
+        "href": "/szakma",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Villanyszerelő",
+      "url": "https://joszaki.hu/szakemberek/villanyszerelo",
+      "attrs": {
+        "href": "/szakemberek/villanyszerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Tetőfedő",
+      "url": "https://joszaki.hu/szakemberek/tetofedo",
+      "attrs": {
+        "href": "/szakemberek/tetofedo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Bádogos",
+      "url": "https://joszaki.hu/szakemberek/badogos",
+      "attrs": {
+        "href": "/szakemberek/badogos",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Ács",
+      "url": "https://joszaki.hu/szakemberek/acs",
+      "attrs": {
+        "href": "/szakemberek/acs",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Szobafestő, tapétázó",
+      "url": "https://joszaki.hu/szakemberek/szobafesto-tapetazo",
+      "attrs": {
+        "href": "/szakemberek/szobafesto-tapetazo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Gázkészülék javítás",
+      "url": "https://joszaki.hu/szakemberek/gazkeszulek-javitas",
+      "attrs": {
+        "href": "/szakemberek/gazkeszulek-javitas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Gázvezeték szerelő",
+      "url": "https://joszaki.hu/szakemberek/gazvezetek-szerelo",
+      "attrs": {
+        "href": "/szakemberek/gazvezetek-szerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Radiátorszerelés",
+      "url": "https://joszaki.hu/szakemberek/radiatorszerelo",
+      "attrs": {
+        "href": "/szakemberek/radiatorszerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Fűtésszerelés",
+      "url": "https://joszaki.hu/szakemberek/futesszereles",
+      "attrs": {
+        "href": "/szakemberek/futesszereles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Vízszerelő",
+      "url": "https://joszaki.hu/szakemberek/vizszerelo",
+      "attrs": {
+        "href": "/szakemberek/vizszerelo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Kőműves",
+      "url": "https://joszaki.hu/szakemberek/komuves",
+      "attrs": {
+        "href": "/szakemberek/komuves",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Burkoló",
+      "url": "https://joszaki.hu/szakemberek/burkolo",
+      "attrs": {
+        "href": "/szakemberek/burkolo",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Földmunka",
+      "url": "https://joszaki.hu/szakemberek/foldmunka",
+      "attrs": {
+        "href": "/szakemberek/foldmunka",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Térkövezés",
+      "url": "https://joszaki.hu/szakemberek/terkovezes",
+      "attrs": {
+        "href": "/szakemberek/terkovezes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Összes ár",
+      "url": "https://joszaki.hu/arak",
+      "attrs": {
+        "href": "/arak",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Glettelés",
+      "url": "https://joszaki.hu/arak/gletteles",
+      "attrs": {
+        "href": "/arak/gletteles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Vakolás",
+      "url": "https://joszaki.hu/arak/vakolas",
+      "attrs": {
+        "href": "/arak/vakolas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Laminált padló lerakás",
+      "url": "https://joszaki.hu/arak/laminalt-padlo-lerakas",
+      "attrs": {
+        "href": "/arak/laminalt-padlo-lerakas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Burkolás",
+      "url": "https://joszaki.hu/arak/burkolas",
+      "attrs": {
+        "href": "/arak/burkolas",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Szobafestés",
+      "url": "https://joszaki.hu/arak/szobafestes",
+      "attrs": {
+        "href": "/arak/szobafestes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Térkövezés",
+      "url": "https://joszaki.hu/arak/terkovezes",
+      "attrs": {
+        "href": "/arak/terkovezes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Tisztasági festés",
+      "url": "https://joszaki.hu/arak/tisztasagi-festes",
+      "attrs": {
+        "href": "/arak/tisztasagi-festes",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Aljzatkiegyenlítés",
+      "url": "https://joszaki.hu/arak/padlokiegyenlites",
+      "attrs": {
+        "href": "/arak/padlokiegyenlites",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Homlokzati hőszigetelés",
+      "url": "https://joszaki.hu/arak/homlokzati-hoszigeteles",
+      "attrs": {
+        "href": "/arak/homlokzati-hoszigeteles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "Villanyszerelés",
+      "url": "https://joszaki.hu/arak/villanyszereles",
+      "attrs": {
+        "href": "/arak/villanyszereles",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "SzakiVálasz",
+      "url": "https://joszaki.hu/szakivalaszol",
+      "attrs": {
+        "href": "/szakivalaszol",
+        "class": [
+          "flex",
+          "flex-row",
+          "gap-2",
+          "items-center",
+          "h-full",
+          "cursor-pointer",
+          "transition-colors",
+          "text-typo-primary",
+          "hover:text-primary",
+          "py-2",
+          "max-lg:px-2"
+        ]
+      }
+    },
+    {
+      "text": "",
+      "url": "https://joszaki.hu/",
+      "attrs": {
+        "href": "/",
+        "class": [
+          "nuxt-link-active"
+        ]
+      }
+    },
+    {
+      "text": "Egészség",
+      "url": "https://joszaki.hu/szakma#egeszseg",
+      "attrs": {
+        "href": "/szakma#egeszseg",
+        "class": [
+          "whitespace-nowrap",
+          "text-typo-secondary",
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "Széll Judit Viktória",
+      "url": "https://joszaki.hu/szakember/szell-judit-viktoria#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/szell-judit-viktoria#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "font-bold",
+          "text-primary"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Bővebben",
+      "url": "https://joszaki.hu/szakember/szell-judit-viktoria#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/szell-judit-viktoria#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "bg-info",
+          "hover:bg-info-darker",
+          "rounded-md",
+          "p-1",
+          "text-xs",
+          "font-bold",
+          "!text-white"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Nádasi Beatrix",
+      "url": "https://joszaki.hu/szakember/nadasi-beatrix#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/nadasi-beatrix#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "font-bold",
+          "text-primary"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Bővebben",
+      "url": "https://joszaki.hu/szakember/nadasi-beatrix#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/nadasi-beatrix#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "bg-info",
+          "hover:bg-info-darker",
+          "rounded-md",
+          "p-1",
+          "text-xs",
+          "font-bold",
+          "!text-white"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Zuppán Brigitta",
+      "url": "https://joszaki.hu/szakember/zuppan-brigitta#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/zuppan-brigitta#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "font-bold",
+          "text-primary"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Bővebben",
+      "url": "https://joszaki.hu/szakember/zuppan-brigitta#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/zuppan-brigitta#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "bg-info",
+          "hover:bg-info-darker",
+          "rounded-md",
+          "p-1",
+          "text-xs",
+          "font-bold",
+          "!text-white"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Dr. Ádám Csaba",
+      "url": "https://joszaki.hu/szakember/dr-adam-csaba#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/dr-adam-csaba#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "font-bold",
+          "text-primary"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Bővebben",
+      "url": "https://joszaki.hu/szakember/dr-adam-csaba#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/dr-adam-csaba#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "bg-info",
+          "hover:bg-info-darker",
+          "rounded-md",
+          "p-1",
+          "text-xs",
+          "font-bold",
+          "!text-white"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Nagy Zsanett Viktória",
+      "url": "https://joszaki.hu/szakember/nagy-zsanett-viktoria#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/nagy-zsanett-viktoria#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "font-bold",
+          "text-primary"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Bővebben",
+      "url": "https://joszaki.hu/szakember/nagy-zsanett-viktoria#city=budapest&profession=termeszetgyogyasz",
+      "attrs": {
+        "href": "/szakember/nagy-zsanett-viktoria#city=budapest&profession=termeszetgyogyasz",
+        "target": "_blank",
+        "rel": [],
+        "class": [
+          "bg-info",
+          "hover:bg-info-darker",
+          "rounded-md",
+          "p-1",
+          "text-xs",
+          "font-bold",
+          "!text-white"
+        ],
+        "data-v-a161db40": ""
+      }
+    },
+    {
+      "text": "Mutasd az összes budapesti természetgyógyászt",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/budapest",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/budapest",
+        "class": [
+          "inline-block",
+          "w-full",
+          "md:w-auto",
+          "p-2",
+          "rounded-[4px]",
+          "border-transparent",
+          "text-white",
+          "hover:text-white",
+          "bg-primary",
+          "hover:bg-primary-dark",
+          "mt-2",
+          "whitespace-normal"
+        ],
+        "data-v-d1c352dc": ""
+      }
+    },
+    {
+      "text": "Budapest",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/budapest",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/budapest",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XI. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ujbuda-xi-kerulet-11",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ujbuda-xi-kerulet-11",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - III. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/obuda-iii-kerulet-3",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/obuda-iii-kerulet-3",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XIV. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/zuglo-xiv-kerulet-14",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/zuglo-xiv-kerulet-14",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XIII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/angyalfold-xiii-kerulet-13",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/angyalfold-xiii-kerulet-13",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - IV. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ujpest-iv-kerulet-4",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ujpest-iv-kerulet-4",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XVIII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/xviii-kerulet-18",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/xviii-kerulet-18",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - II. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ii-kerulet-2",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ii-kerulet-2",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XVII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/rakosmente-xvii-kerulet-17",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/rakosmente-xvii-kerulet-17",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XV. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/xv-kerulet-15",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/xv-kerulet-15",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - VIII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/jozsefvaros-viii-kerulet-8",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/jozsefvaros-viii-kerulet-8",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - X. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kobanya-x-kerulet-10",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kobanya-x-kerulet-10",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XXI. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/csepel-xxi-kerulet-21",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/csepel-xxi-kerulet-21",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XVI. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/xvi-kerulet-16",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/xvi-kerulet-16",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XX. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pesterzsebet-xx-kerulet-20",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pesterzsebet-xx-kerulet-20",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XIX. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kispest-xix-kerulet-19",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kispest-xix-kerulet-19",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - IX. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ferencvaros-ix-kerulet-9",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ferencvaros-ix-kerulet-9",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - VII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/erzsebetvaros-vii-kerulet-7",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/erzsebetvaros-vii-kerulet-7",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hegyvidek-xii-kerulet-12",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hegyvidek-xii-kerulet-12",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XXII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/budafok-teteny-xxii-kerulet-22",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/budafok-teteny-xxii-kerulet-22",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - VI. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/terezvaros-vi-kerulet-6",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/terezvaros-vi-kerulet-6",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - V. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/belvaros-v-kerulet-5",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/belvaros-v-kerulet-5",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - I. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/varkerulet-i-kerulet-1",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/varkerulet-i-kerulet-1",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budapest - XXIII. kerület",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/soroksar-xxiii-kerulet-23",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/soroksar-xxiii-kerulet-23",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Debrecen",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/debrecen",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/debrecen",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Nyíregyháza",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nyiregyhaza",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nyiregyhaza",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szolnok",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szolnok",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szolnok",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Hajdúböszörmény",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hajduboszormeny",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hajduboszormeny",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Jászberény",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/jaszbereny",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/jaszbereny",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Hajdúszoboszló",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hajduszoboszlo",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hajduszoboszlo",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Karcag",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/karcag",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/karcag",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Törökszentmiklós",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/torokszentmiklos",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/torokszentmiklos",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Mátészalka",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mateszalka",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mateszalka",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Mezőtúr",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mezotur",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mezotur",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Balmazújváros",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/balmazujvaros",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/balmazujvaros",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Hajdúnánás",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hajdunanas",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hajdunanas",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kisvárda",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kisvarda",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kisvarda",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Berettyóújfalu",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/berettyoujfalu",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/berettyoujfalu",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Püspökladány",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/puspokladany",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/puspokladany",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tiszavasvári",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tiszavasvari",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tiszavasvari",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Újfehértó",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ujfeherto",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ujfeherto",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Hajdúhadház",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hajduhadhaz",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hajduhadhaz",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kisújszállás",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kisujszallas",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kisujszallas",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Nyírbátor",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nyirbator",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nyirbator",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tiszaföldvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tiszafoldvar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tiszafoldvar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tiszafüred",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tiszafured",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tiszafured",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Hajdúsámson",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hajdusamson",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hajdusamson",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Nagykálló",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nagykallo",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nagykallo",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Miskolc",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/miskolc",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/miskolc",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Eger",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/eger",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/eger",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Ózd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ozd",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ozd",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Gyöngyös",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyongyos",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyongyos",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kazincbarcika",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kazincbarcika",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kazincbarcika",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Hatvan",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hatvan",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hatvan",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Mezőkövesd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mezokovesd",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mezokovesd",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Sátoraljaújhely",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/satoraljaujhely",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/satoraljaujhely",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tiszaújváros",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tiszaujvaros",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tiszaujvaros",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Sárospatak",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/sarospatak",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/sarospatak",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Sajószentpéter",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/sajoszentpeter",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/sajoszentpeter",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Heves",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/heves",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/heves",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Edelény",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/edeleny",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/edeleny",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szeged",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szeged",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szeged",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kecskemét",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kecskemet",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kecskemet",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Békéscsaba",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/bekescsaba",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/bekescsaba",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Hódmezővásárhely",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hodmezovasarhely",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hodmezovasarhely",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Baja",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/baja",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/baja",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Gyula",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyula",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyula",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kiskunfélegyháza",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kiskunfelegyhaza",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kiskunfelegyhaza",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Orosháza",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/oroshaza",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/oroshaza",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szentes",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szentes",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szentes",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kiskunhalas",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kiskunhalas",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kiskunhalas",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Makó",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mako",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mako",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Békés",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/bekes",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/bekes",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Csongrád",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/csongrad",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/csongrad",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szarvas",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szarvas",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szarvas",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kalocsa",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kalocsa",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kalocsa",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Gyomaendrőd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyomaendrod",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyomaendrod",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kiskőrös",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kiskoros",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kiskoros",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kiskunmajsa",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kiskunmajsa",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kiskunmajsa",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Mezőberény",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mezobereny",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mezobereny",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tiszakécske",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tiszakecske",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tiszakecske",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Lajosmizse",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/lajosmizse",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/lajosmizse",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Sarkad",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/sarkad",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/sarkad",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Pécs",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pecs",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pecs",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kaposvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kaposvar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kaposvar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szekszárd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szekszard",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szekszard",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Komló",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/komlo",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/komlo",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Balatonkiliti",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/balatonkiliti",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/balatonkiliti",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Siófok",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/siofok",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/siofok",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Dombóvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/dombovar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/dombovar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Paks",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/paks",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/paks",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Mohács",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mohacs",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mohacs",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Újmohács",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ujmohacs",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ujmohacs",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Bonyhád",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/bonyhad",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/bonyhad",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Marcali",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/marcali",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/marcali",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Barcs",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/barcs",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/barcs",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Nagyatád",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nagyatad",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nagyatad",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tolna",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tolna",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tolna",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szigetvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szigetvar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szigetvar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Győr",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyor",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyor",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Székesfehérvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szekesfehervar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szekesfehervar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tatabánya",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tatabanya",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tatabanya",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Veszprém",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/veszprem",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/veszprem",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Sopron",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/sopron",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/sopron",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Dunaújváros",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/dunaujvaros",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/dunaujvaros",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Salgótarján",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/salgotarjan",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/salgotarjan",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Pápa",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/papa",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/papa",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Ajka",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/ajka",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/ajka",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Mosonmagyaróvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mosonmagyarovar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mosonmagyarovar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Esztergom",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/esztergom",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/esztergom",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tata",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tata",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tata",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Várpalota",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/varpalota",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/varpalota",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Komárom",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/komarom",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/komarom",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Oroszlány",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/oroszlany",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/oroszlany",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Balassagyarmat",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/balassagyarmat",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/balassagyarmat",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Tapolca",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tapolca",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tapolca",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Bátonyterenye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/batonyterenye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/batonyterenye",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Mór",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/mor",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/mor",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Balatonfüred",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/balatonfured",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/balatonfured",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Dorog",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/dorog",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/dorog",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Sárbogárd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/sarbogard",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/sarbogard",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Bicske",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/bicske",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/bicske",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Csorna",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/csorna",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/csorna",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kapuvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kapuvar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kapuvar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szombathely",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szombathely",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szombathely",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Zalaegerszeg",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/zalaegerszeg",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/zalaegerszeg",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Nagykanizsa",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nagykanizsa",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nagykanizsa",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Keszthely",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/keszthely",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/keszthely",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Sárvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/sarvar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/sarvar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Körmend",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kormend",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kormend",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Celldömölk",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/celldomolk",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/celldomolk",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Kőszeg",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/koszeg",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/koszeg",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Érd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/erd",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/erd",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Cegléd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/cegled",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/cegled",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Vác",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/vac",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/vac",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Gödöllő",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/godollo",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/godollo",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Dunakeszi",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/dunakeszi",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/dunakeszi",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Nagykőrös",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nagykoros",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nagykoros",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budaörs",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/budaors",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/budaors",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szigetszentmiklós",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szigetszentmiklos",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szigetszentmiklos",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szentendre",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szentendre",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szentendre",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Gyál",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyal",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyal",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Monor",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/monor",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/monor",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Vecsés",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/vecses",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/vecses",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Százhalombatta",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szazhalombatta",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szazhalombatta",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Abony",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/abony",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/abony",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Dabas",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/dabas",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/dabas",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Dunaharaszti",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/dunaharaszti",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/dunaharaszti",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Fót",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/fot",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/fot",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Göd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/god",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/god",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Gyömrő",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyomro",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyomro",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Pomáz",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pomaz",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pomaz",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Budakeszi",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/budakeszi",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/budakeszi",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Nagykáta",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nagykata",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nagykata",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Pécel",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pecel",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pecel",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Pilisvörösvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pilisvorosvar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pilisvorosvar",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Szigethalom",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szigethalom",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szigethalom",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Albertirsa",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/albertirsa",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/albertirsa",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Pilis",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pilis",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pilis",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Törökbálint",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/torokbalint",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/torokbalint",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Veresegyház",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/veresegyhaz",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/veresegyhaz",
+        "data-v-12f3e013": ""
+      }
+    },
+    {
+      "text": "Néhány BEMER-terápia ár a rendszerünkből",
+      "url": "https://joszaki.hu/arak/bemer-terapia",
+      "attrs": {
+        "href": "/arak/bemer-terapia",
+        "class": [
+          "text-inherit"
+        ],
+        "data-v-277d3bfc": ""
+      }
+    },
+    {
+      "text": "0 Ft ár Zuppán Brigitta Mezőtúr ONLINE ÖNISMERETI ÉS STRESSZKEZELÉSI KONZULTÁCIÓ – ORSZÁGOSAN Amikor már nem önmagadat választod, hanem folyamatosan mások elvárásaihoz alkalmazkodsz. Nehezen mondasz nemet? Gyakran elhallgatod a véleményedet? Háttérbe szorítod a saját igényeidet, mert attól tartasz, hogy elveszíted mások szeretetét, figyelmét vagy elfogadását? Lehet, hogy kívülről határozottnak és önállónak tűnsz, mégis a kapcsolataidban folyamatosan figyeled, mit várnak tőled mások. Alkalmazkodsz. Engedsz. Megértesz. Soksz",
+      "url": "https://joszaki.hu/szakember/zuppan-brigitta",
+      "attrs": {
+        "href": "/szakember/zuppan-brigitta",
+        "class": [
+          "min-w-[250px]",
+          "max-w-[350px]",
+          "bg-white",
+          "p-4",
+          "rounded-lg",
+          "flex-grow",
+          "relative",
+          "text-typo-primary"
+        ],
+        "data-v-277d3bfc": ""
+      }
+    },
+    {
+      "text": "0 Ft ár Nádasi Beatrix Kistarcsa Szeretettel Üdvözöllek! Akupresszúra és fülakupunktúra vizsgával rendelkezem. Tevékenységeim közé tartozik a biorezonanciás kezelés, fülakupunktúra, fülakupresszúra, köpölyözés, kínai masszázs, Schüssler sók alkalmazása.Minden kezelés célja hogy aktiválja a szervezet öngyógyító mechanizmusát, hogy visszaállítsa a szervezetet az optimális egészségi és egyensúlyi állapotába. Új módszert alkalmazok kezeléseim során, a Bowen terápiát.",
+      "url": "https://joszaki.hu/szakember/nadasi-beatrix",
+      "attrs": {
+        "href": "/szakember/nadasi-beatrix",
+        "class": [
+          "min-w-[250px]",
+          "max-w-[350px]",
+          "bg-white",
+          "p-4",
+          "rounded-lg",
+          "flex-grow",
+          "relative",
+          "text-typo-primary"
+        ],
+        "data-v-277d3bfc": ""
+      }
+    },
+    {
+      "text": "0 Ft ár Széll Judit Viktória Érd Széll Jutka vagyok, életvezetési tanácsadással, állapotfelméréssel foglalkozom. Természetgyógyász fitoterapeuta, coach (life és business), valamint párkapcsolati tanácsadó vagyok. „Az a misszióm, hogy segítsek az embereknek, hogy megismerjék önmagukat, megtalálják lelki békéjüket, hogy BOLDOG és legfőképpen EGÉSZ-SÉGES, teljes életet élhessenek harmóniában önmagukkal és a körülöttük lévő világgal.” Technikák széles tárházával igyekszem segíteni elakadásodban, gyógyulásodban, önismereti és/vagy p",
+      "url": "https://joszaki.hu/szakember/szell-judit-viktoria",
+      "attrs": {
+        "href": "/szakember/szell-judit-viktoria",
+        "class": [
+          "min-w-[250px]",
+          "max-w-[350px]",
+          "bg-white",
+          "p-4",
+          "rounded-lg",
+          "flex-grow",
+          "relative",
+          "text-typo-primary"
+        ],
+        "data-v-277d3bfc": ""
+      }
+    },
+    {
+      "text": "0 Ft ár Dr. Ádám Csaba Budapest - III. kerület Dr. Ádám Csaba vagyok, biológus és energetikai kezelő, spirituális kezelésekkel és lelki blokkok oldásával foglalkozom. Az elméleti orvostudományok területén szerzett doktori fokozatom megszerzése után egyre erősebben foglalkoztatott az a kérdés, hogy az emberi problémák jelentős része nem pusztán testi, hanem lelki és energetikai eredetű, gyakran tudattalan érzelmi blokkokhoz kapcsolódik. Masszázsterápiával kezdtem emberekkel dolgozni, majd a Pránanadi és a sámáni hagyományok tanulása során me",
+      "url": "https://joszaki.hu/szakember/dr-adam-csaba",
+      "attrs": {
+        "href": "/szakember/dr-adam-csaba",
+        "class": [
+          "min-w-[250px]",
+          "max-w-[350px]",
+          "bg-white",
+          "p-4",
+          "rounded-lg",
+          "flex-grow",
+          "relative",
+          "text-typo-primary"
+        ],
+        "data-v-277d3bfc": ""
+      }
+    },
+    {
+      "text": "0 Ft ár Nagy Zsanett Viktória Pécs Nagy Zsanett Viktória vagyok, holisztikus segítő, pszichotronikus és családállító. Az életünk során sok olyan helyzettel találkozhatunk, amikor úgy érezzük, hogy újra és újra ugyanazokba az akadályokba ütközünk. Lehet szó visszatérő kapcsolati problémákról, elhúzódó élethelyzeti elakadásokról, belső feszültségről, önbizalomhiányról vagy megmagyarázhatatlannak tűnő nehézségekről. Munkám során holisztikus szemlélettel dolgozom, ahol a test, a lélek és az érzelmi folyamatok egységét veszem figyele",
+      "url": "https://joszaki.hu/szakember/nagy-zsanett-viktoria",
+      "attrs": {
+        "href": "/szakember/nagy-zsanett-viktoria",
+        "class": [
+          "min-w-[250px]",
+          "max-w-[350px]",
+          "bg-white",
+          "p-4",
+          "rounded-lg",
+          "flex-grow",
+          "relative",
+          "text-typo-primary"
+        ],
+        "data-v-277d3bfc": ""
+      }
+    },
+    {
+      "text": "Mutasd az összes BEMER-terápia árat",
+      "url": "https://joszaki.hu/arak/bemer-terapia",
+      "attrs": {
+        "href": "/arak/bemer-terapia",
+        "type": "button",
+        "class": [
+          "relative",
+          "flex",
+          "items-center",
+          "justify-center",
+          "gap-2",
+          "cursor-pointer",
+          "rounded-[4px]",
+          "font-[Nunito]",
+          "transition-colors",
+          "bg-info",
+          "hover:bg-info-darker",
+          "text-white",
+          "hover:text-white-darker",
+          "border-info",
+          "hover:border-info-darker",
+          "py-[0.5rem]",
+          "px-[0.75rem]"
+        ],
+        "data-v-277d3bfc": ""
+      }
+    },
+    {
+      "text": "BEMER-terápia",
+      "url": "https://joszaki.hu/arak/bemer-terapia",
+      "attrs": {
+        "href": "/arak/bemer-terapia",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "akupunktúra",
+      "url": "https://joszaki.hu/arak/akupunktura",
+      "attrs": {
+        "href": "/arak/akupunktura",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "Bach virágterápia",
+      "url": "https://joszaki.hu/arak/bach-viragterapia",
+      "attrs": {
+        "href": "/arak/bach-viragterapia",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "Theta healing tanfolyam",
+      "url": "https://joszaki.hu/arak/theta-healing-tanfolyam",
+      "attrs": {
+        "href": "/arak/theta-healing-tanfolyam",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "fülakupunktúra",
+      "url": "https://joszaki.hu/arak/fulakupunktura",
+      "attrs": {
+        "href": "/arak/fulakupunktura",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "Kineziológiai oldás",
+      "url": "https://joszaki.hu/arak/kineziologiai-oldas",
+      "attrs": {
+        "href": "/arak/kineziologiai-oldas",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "biorezonanciás vizsgálat",
+      "url": "https://joszaki.hu/arak/biorezonancias-vizsgalat",
+      "attrs": {
+        "href": "/arak/biorezonancias-vizsgalat",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "theta healing konzultáció",
+      "url": "https://joszaki.hu/arak/theta-healing-konzultacio",
+      "attrs": {
+        "href": "/arak/theta-healing-konzultacio",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "energetikai kezelés",
+      "url": "https://joszaki.hu/arak/energetikai-kezeles",
+      "attrs": {
+        "href": "/arak/energetikai-kezeles",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "energia kezelés",
+      "url": "https://joszaki.hu/arak/energia-kezeles",
+      "attrs": {
+        "href": "/arak/energia-kezeles",
+        "class": [
+          "capitalize"
+        ]
+      }
+    },
+    {
+      "text": "Mikor érdemes természetgyógyászhoz fordulni?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#mikor-erdemes-termeszetgyogyaszhoz-fordulni",
+      "attrs": {
+        "href": "#mikor-erdemes-termeszetgyogyaszhoz-fordulni"
+      }
+    },
+    {
+      "text": "Helyettesítheti-e a természetgyógyászat az orvosi kezelést?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#helyettesitheti-e-a-termeszetgyogyaszat-az-orvosi-kezelest",
+      "attrs": {
+        "href": "#helyettesitheti-e-a-termeszetgyogyaszat-az-orvosi-kezelest"
+      }
+    },
+    {
+      "text": "Milyen konkrét módszereket kínálnak a természetgyógyászok?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#milyen-konkret-modszereket-kinalnak-a-termeszetgyogyaszok",
+      "attrs": {
+        "href": "#milyen-konkret-modszereket-kinalnak-a-termeszetgyogyaszok"
+      }
+    },
+    {
+      "text": "Ki végezhet természetgyógyászati tevékenységet Magyarországon?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#ki-vegezhet-termeszetgyogyaszati-tevekenyseget-magyarorszagon",
+      "attrs": {
+        "href": "#ki-vegezhet-termeszetgyogyaszati-tevekenyseget-magyarorszagon"
+      }
+    },
+    {
+      "text": "Mennyibe kerül egy természetgyógyász?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#mennyibe-kerul-egy-termeszetgyogyasz",
+      "attrs": {
+        "href": "#mennyibe-kerul-egy-termeszetgyogyasz"
+      }
+    },
+    {
+      "text": "Milyen helyzetekkel keresik meg a természetgyógyászt? Valós esetek a kérésekből",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#milyen-helyzetekkel-keresik-meg-a-termeszetgyogyaszt-valos-esetek-a-keresekbol",
+      "attrs": {
+        "href": "#milyen-helyzetekkel-keresik-meg-a-termeszetgyogyaszt-valos-esetek-a-keresekbol"
+      }
+    },
+    {
+      "text": "Hogyan válassz megbízható természetgyógyászt?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#hogyan-valassz-megbizhato-termeszetgyogyaszt",
+      "attrs": {
+        "href": "#hogyan-valassz-megbizhato-termeszetgyogyaszt"
+      }
+    },
+    {
+      "text": "Mit mondanak a JóSzakin az ügyfelek?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#mit-mondanak-a-joszakin-az-ugyfelek",
+      "attrs": {
+        "href": "#mit-mondanak-a-joszakin-az-ugyfelek"
+      }
+    },
+    {
+      "text": "Gyakori kérdések",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#gyakori-kerdesek",
+      "attrs": {
+        "href": "#gyakori-kerdesek"
+      }
+    },
+    {
+      "text": "Mikor érdemes természetgyógyászhoz fordulni?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#mikor-erdemes-termeszetgyogyaszhoz-fordulni",
+      "attrs": {
+        "href": "#mikor-erdemes-termeszetgyogyaszhoz-fordulni"
+      }
+    },
+    {
+      "text": "Helyettesítheti-e a természetgyógyászat az orvosi kezelést?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#helyettesitheti-e-a-termeszetgyogyaszat-az-orvosi-kezelest",
+      "attrs": {
+        "href": "#helyettesitheti-e-a-termeszetgyogyaszat-az-orvosi-kezelest"
+      }
+    },
+    {
+      "text": "Milyen konkrét módszereket kínálnak a természetgyógyászok?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#milyen-konkret-modszereket-kinalnak-a-termeszetgyogyaszok",
+      "attrs": {
+        "href": "#milyen-konkret-modszereket-kinalnak-a-termeszetgyogyaszok"
+      }
+    },
+    {
+      "text": "Ki végezhet természetgyógyászati tevékenységet Magyarországon?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#ki-vegezhet-termeszetgyogyaszati-tevekenyseget-magyarorszagon",
+      "attrs": {
+        "href": "#ki-vegezhet-termeszetgyogyaszati-tevekenyseget-magyarorszagon"
+      }
+    },
+    {
+      "text": "Mennyibe kerül egy természetgyógyász?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#mennyibe-kerul-egy-termeszetgyogyasz",
+      "attrs": {
+        "href": "#mennyibe-kerul-egy-termeszetgyogyasz"
+      }
+    },
+    {
+      "text": "Milyen helyzetekkel keresik meg a természetgyógyászt? Valós esetek a kérésekből",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#milyen-helyzetekkel-keresik-meg-a-termeszetgyogyaszt-valos-esetek-a-keresekbol",
+      "attrs": {
+        "href": "#milyen-helyzetekkel-keresik-meg-a-termeszetgyogyaszt-valos-esetek-a-keresekbol"
+      }
+    },
+    {
+      "text": "Hogyan válassz megbízható természetgyógyászt?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#hogyan-valassz-megbizhato-termeszetgyogyaszt",
+      "attrs": {
+        "href": "#hogyan-valassz-megbizhato-termeszetgyogyaszt"
+      }
+    },
+    {
+      "text": "Mit mondanak a JóSzakin az ügyfelek?",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#mit-mondanak-a-joszakin-az-ugyfelek",
+      "attrs": {
+        "href": "#mit-mondanak-a-joszakin-az-ugyfelek"
+      }
+    },
+    {
+      "text": "Gyakori kérdések",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz#gyakori-kerdesek",
+      "attrs": {
+        "href": "#gyakori-kerdesek"
+      }
+    },
+    {
+      "text": "r/askhungary-szál",
+      "url": "javascript:void(0)",
+      "attrs": {
+        "href": "javascript:void(0)",
+        "onclick": "window.open('https://www.reddit.com/r/askhungary/comments/1nvct7x/','_blank','noopener,noreferrer')",
+        "rel": [
+          "nofollow",
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "energetikai kezelés",
+      "url": "https://joszaki.hu/arak/energetikai-kezeles",
+      "attrs": {
+        "href": "/arak/energetikai-kezeles"
+      }
+    },
+    {
+      "text": "biorezonancia vizsgálat",
+      "url": "https://joszaki.hu/arak/biorezonancias-vizsgalat",
+      "attrs": {
+        "href": "/arak/biorezonancias-vizsgalat"
+      }
+    },
+    {
+      "text": "theta healing kezelés ára",
+      "url": "https://joszaki.hu/arak/theta-healing-konzultacio",
+      "attrs": {
+        "href": "/arak/theta-healing-konzultacio"
+      }
+    },
+    {
+      "text": "kineziológus",
+      "url": "https://joszaki.hu/szakemberek/kineziologus",
+      "attrs": {
+        "href": "/szakemberek/kineziologus"
+      }
+    },
+    {
+      "text": "Állatok",
+      "url": "https://joszaki.hu/szakma#allatok",
+      "attrs": {
+        "href": "/szakma#allatok",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Autó, motor",
+      "url": "https://joszaki.hu/szakma#auto-motor",
+      "attrs": {
+        "href": "/szakma#auto-motor",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Egészség",
+      "url": "https://joszaki.hu/szakma#egeszseg",
+      "attrs": {
+        "href": "/szakma#egeszseg",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Egyéb",
+      "url": "https://joszaki.hu/szakma#egyeb",
+      "attrs": {
+        "href": "/szakma#egyeb",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Gyerekek, tanulás",
+      "url": "https://joszaki.hu/szakma#gyerekek-tanulas",
+      "attrs": {
+        "href": "/szakma#gyerekek-tanulas",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Ház, kert",
+      "url": "https://joszaki.hu/szakma#haz-kert",
+      "attrs": {
+        "href": "/szakma#haz-kert",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Informatika",
+      "url": "https://joszaki.hu/szakma#informatika",
+      "attrs": {
+        "href": "/szakma#informatika",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Kereskedelem",
+      "url": "https://joszaki.hu/szakma#kereskedelem",
+      "attrs": {
+        "href": "/szakma#kereskedelem",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Művészet",
+      "url": "https://joszaki.hu/szakma#muveszet",
+      "attrs": {
+        "href": "/szakma#muveszet",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Pénzügyek",
+      "url": "https://joszaki.hu/szakma#penzugyek",
+      "attrs": {
+        "href": "/szakma#penzugyek",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Szállítás",
+      "url": "https://joszaki.hu/szakma#szallitas",
+      "attrs": {
+        "href": "/szakma#szallitas",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Szépségápolás",
+      "url": "https://joszaki.hu/szakma#szepsegapolas",
+      "attrs": {
+        "href": "/szakma#szepsegapolas",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Üzlet, iroda",
+      "url": "https://joszaki.hu/szakma#uzlet-iroda",
+      "attrs": {
+        "href": "/szakma#uzlet-iroda",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Vendéglátás",
+      "url": "https://joszaki.hu/szakma#vendeglatas",
+      "attrs": {
+        "href": "/szakma#vendeglatas",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto"
+        ]
+      }
+    },
+    {
+      "text": "Villanyszerelő",
+      "url": "https://joszaki.hu/szakemberek/villanyszerelo",
+      "attrs": {
+        "href": "/szakemberek/villanyszerelo",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Tetőfedő",
+      "url": "https://joszaki.hu/szakemberek/tetofedo",
+      "attrs": {
+        "href": "/szakemberek/tetofedo",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Bádogos",
+      "url": "https://joszaki.hu/szakemberek/badogos",
+      "attrs": {
+        "href": "/szakemberek/badogos",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Ács",
+      "url": "https://joszaki.hu/szakemberek/acs",
+      "attrs": {
+        "href": "/szakemberek/acs",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Szobafestő, tapétázó",
+      "url": "https://joszaki.hu/szakemberek/szobafesto-tapetazo",
+      "attrs": {
+        "href": "/szakemberek/szobafesto-tapetazo",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Gázkészülék javítás",
+      "url": "https://joszaki.hu/szakemberek/gazkeszulek-javitas",
+      "attrs": {
+        "href": "/szakemberek/gazkeszulek-javitas",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Gázvezeték szerelő",
+      "url": "https://joszaki.hu/szakemberek/gazvezetek-szerelo",
+      "attrs": {
+        "href": "/szakemberek/gazvezetek-szerelo",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Radiátorszerelés",
+      "url": "https://joszaki.hu/szakemberek/radiatorszerelo",
+      "attrs": {
+        "href": "/szakemberek/radiatorszerelo",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Fűtésszerelés",
+      "url": "https://joszaki.hu/szakemberek/futesszereles",
+      "attrs": {
+        "href": "/szakemberek/futesszereles",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Vízszerelő",
+      "url": "https://joszaki.hu/szakemberek/vizszerelo",
+      "attrs": {
+        "href": "/szakemberek/vizszerelo",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Kőműves",
+      "url": "https://joszaki.hu/szakemberek/komuves",
+      "attrs": {
+        "href": "/szakemberek/komuves",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Burkoló",
+      "url": "https://joszaki.hu/szakemberek/burkolo",
+      "attrs": {
+        "href": "/szakemberek/burkolo",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Földmunka",
+      "url": "https://joszaki.hu/szakemberek/foldmunka",
+      "attrs": {
+        "href": "/szakemberek/foldmunka",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Térkövezés",
+      "url": "https://joszaki.hu/szakemberek/terkovezes",
+      "attrs": {
+        "href": "/szakemberek/terkovezes",
+        "class": [
+          "text-white",
+          "hover:text-primary-lighter",
+          "mr-auto",
+          "first-letter:capitalize",
+          "whitespace-nowrap"
+        ]
+      }
+    },
+    {
+      "text": "Bács-Kiskun megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/bacs-kiskun-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/bacs-kiskun-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Kecskemét",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kecskemet",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kecskemet",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Baranya megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/baranya-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/baranya-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Pécs",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pecs",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pecs",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Békés megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/bekes-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/bekes-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Békéscsaba",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/bekescsaba",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/bekescsaba",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Borsod-Abaúj-Zemplén megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/borsod-abauj-zemplen-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/borsod-abauj-zemplen-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Miskolc",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/miskolc",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/miskolc",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Budapest",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/budapest",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/budapest",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Csongrád megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/csongrad-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/csongrad-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Szeged",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szeged",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szeged",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Fejér megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/fejer-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/fejer-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Székesfehérvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szekesfehervar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szekesfehervar",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Győr-Moson-Sopron",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyor-moson-sopron-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyor-moson-sopron-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Győr",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/gyor",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/gyor",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Hajdú-Bihar megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/hajdu-bihar-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/hajdu-bihar-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Debrecen",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/debrecen",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/debrecen",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Heves megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/heves-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/heves-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Eger",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/eger",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/eger",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Jász-Nagykun-Szolnok megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/jasz-nagykun-szolnok-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/jasz-nagykun-szolnok-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Szolnok",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szolnok",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szolnok",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Komárom-Esztergom megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/komarom-esztergom-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/komarom-esztergom-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Tatabánya",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tatabanya",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tatabanya",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Nógrád megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nograd-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nograd-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Salgótarján",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/salgotarjan",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/salgotarjan",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Pest megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/pest-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/pest-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Érd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/erd",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/erd",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Somogy megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/somogy-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/somogy-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Kaposvár",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/kaposvar",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/kaposvar",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Szabolcs-Szatmár-Bereg megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szabolcs-szatmar-bereg-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szabolcs-szatmar-bereg-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Nyíregyháza",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/nyiregyhaza",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/nyiregyhaza",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Tolna megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/tolna-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/tolna-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Szekszárd",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szekszard",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szekszard",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Vas megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/vas-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/vas-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Szombathely",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/szombathely",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/szombathely",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Veszprém megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/veszprem-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/veszprem-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Veszprém",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/veszprem",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/veszprem",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Zala megye",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/zala-megye",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/zala-megye",
+        "class": [
+          "text-2xl",
+          "text-primary-lightest",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "Zalaegerszeg",
+      "url": "https://joszaki.hu/szakemberek/termeszetgyogyasz/zalaegerszeg",
+      "attrs": {
+        "href": "/szakemberek/termeszetgyogyasz/zalaegerszeg",
+        "class": [
+          "text-xl",
+          "text-white",
+          "hover:text-primary-lighter",
+          "focus:text-primary-lighter",
+          "active:text-primary-lighter",
+          "text-center"
+        ]
+      }
+    },
+    {
+      "text": "",
+      "url": "http://simplepartner.hu/PaymentService/Fizetesi_tajekoztato.pdf",
+      "attrs": {
+        "href": "http://simplepartner.hu/PaymentService/Fizetesi_tajekoztato.pdf",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ],
+        "class": [
+          "rounded",
+          "bg-white",
+          "p-2"
+        ]
+      }
+    },
+    {
+      "text": "Rólunk",
+      "url": "https://joszaki.hu/static/rolunk#impressum",
+      "attrs": {
+        "href": "/static/rolunk#impressum",
+        "class": [
+          "text-white"
+        ]
+      }
+    },
+    {
+      "text": "SuperProfik.cz",
+      "url": "https://superprofik.cz",
+      "attrs": {
+        "href": "https://superprofik.cz",
+        "target": "_blank",
+        "class": [
+          "text-white"
+        ]
+      }
+    },
+    {
+      "text": "BerufExperten.de",
+      "url": "https://berufexperten.de",
+      "attrs": {
+        "href": "https://berufexperten.de",
+        "target": "_blank",
+        "class": [
+          "text-white"
+        ]
+      }
+    },
+    {
+      "text": "Árkalauz",
+      "url": "https://joszaki.hu/arak",
+      "attrs": {
+        "href": "/arak",
+        "class": [
+          "text-white"
+        ]
+      }
+    },
+    {
+      "text": "Szakmák",
+      "url": "https://joszaki.hu/szakma",
+      "attrs": {
+        "href": "/szakma",
+        "class": [
+          "text-white"
+        ]
+      }
+    },
+    {
+      "text": "Települések",
+      "url": "https://joszaki.hu/telepules",
+      "attrs": {
+        "href": "/telepules",
+        "class": [
+          "text-white"
+        ]
+      }
+    }
+  ],
+  "headings": [
+    {
+      "text": "Természetgyógyász szakemberek a közeledben",
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "JoszakiHeading",
+          "text-2xl",
+          "lg:text-4xl",
+          "pt-2",
+          "pb-1",
+          "font-bold",
+          "text-primary"
+        ]
+      },
+      "parent": "<div><h1 class=\"JoszakiHeading text-2xl lg:text-4xl pt-2 pb-1 font-bold text-primary\"> Természetgyógyász szakemberek a közeledben </h1><h2 class=\"JoszakiHeading text-xl lg:text-3xl pt-2 pb-1 font-bold text-primary\"> Ingyenes árajánlatkérés természetgyógyász szakemberektől </h2><p class=\"font-semibold text-blog-primary\"> Válaszd ki a városod és találd meg a számodra legmegfelelőbb természetgyógyászt! </p></div>"
+    },
+    {
+      "text": "Ingyenes árajánlatkérés természetgyógyász szakemberektől",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "JoszakiHeading",
+          "text-xl",
+          "lg:text-3xl",
+          "pt-2",
+          "pb-1",
+          "font-bold",
+          "text-primary"
+        ]
+      },
+      "parent": "<div><h1 class=\"JoszakiHeading text-2xl lg:text-4xl pt-2 pb-1 font-bold text-primary\"> Természetgyógyász szakemberek a közeledben </h1><h2 class=\"JoszakiHeading text-xl lg:text-3xl pt-2 pb-1 font-bold text-primary\"> Ingyenes árajánlatkérés természetgyógyász szakemberektől </h2><p class=\"font-semibold text-blog-primary\"> Válaszd ki a városod és találd meg a számodra legmegfelelőbb természetgyógyászt! </p></div>"
+    },
+    {
+      "text": "Nagyobb települések természetgyógyász szakemberei",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "JoszakiHeading",
+          "text-xl",
+          "lg:text-3xl",
+          "pt-2",
+          "pb-1",
+          "font-bold",
+          "text-primary"
+        ]
+      },
+      "parent": "<div><h2 class=\"JoszakiHeading text-xl lg:text-3xl pt-2 pb-1 font-bold text-primary\"> Nagyobb települések természetgyógyász szakemberei </h2><!-- --><!-- --></div>"
+    },
+    {
+      "text": "Legnépszerűbb feladatok és árak",
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "JoszakiHeading",
+          "text-xl",
+          "lg:text-3xl",
+          "pt-2",
+          "pb-1",
+          "font-bold",
+          "text-primary"
+        ]
+      },
+      "parent": "<div data-v-277d3bfc=\"\"><h2 class=\"JoszakiHeading text-xl lg:text-3xl pt-2 pb-1 font-bold text-primary\"> Legnépszerűbb feladatok és árak </h2><!-- --><p class=\"font-semibold text-blog-primary\"> Válaszd ki, milyen feladathoz keresel segítséget, böngéssz azon szakemberek között, akik vállaljàk és tájékozódj az árakról! </p></div>"
+    },
+    {
+      "text": "Néhány BEMER-terápia ár a rendszerünkből",
+      "tag": "h3",
+      "attrs": {
+        "class": [
+          "JoszakiHeading",
+          "text-lg",
+          "lg:text-2xl",
+          "pt-2",
+          "pb-1",
+          "font-bold",
+          "text-primary"
+        ],
+        "data-v-277d3bfc": ""
+      },
+      "parent": "<div class=\"contentBody\" data-v-277d3bfc=\"\"><h3 class=\"JoszakiHeading text-lg lg:text-2xl pt-2 pb-1 font-bold text-primary\" data-v-277d3bfc=\"\"><a class=\"text-inherit\" data-v-277d3bfc=\"\" href=\"/arak/bemer-terapia\"> Néhány BEMER-terápia ár a rendszerünkből </a></h3><!-- --><div class=\"swiper-holder [&amp;::-webkit-scrollbar-thumb]:bg-primary [&amp;::-webkit-scrollbar-thumb]:rounded-md person-swiper\" data-v-0492622a=\"\" data-v-277d3bfc=\"\"><div class=\"swiper-main items-stretch\" data-v-0492622a=\"\"><a class=\"min-w-[250px] max-w-[350px] bg-white p-4 rounded-lg flex-grow relative text-typo-primary\" data-v-277d3bfc=\"\" href=\"/szakember/zuppan-brigitta\"><div class=\"flex\"><picture class=\"rounded absolute top-[-0.5rem] overflow-hidden\" title=\"Zuppán Brigitta\"><source data-srcset=\"https://storage.googleapis.com/joszaki-profile-photos-v2/519836_448.webp\" fetchpriority=\"auto\" media=\"(min-width: 900px)\" type=\"image/webp\"/><source data-srcset=\"https://storage.googleapis.com/joszaki-profile-photos-v2/519836_336.webp\" fetchpriority=\"auto\" media=\"(min-width: 400px)\" type=\"image/webp\"/><source data-srcset=\"https://storage.googleapis.com/joszaki-profile-photos-v2/519836_256.webp\" fetchpriority=\"auto\" media=\"(min-width: 300px)\" type=\"image/webp\"/><source data-srcset=\"https://storage.googleapis.com/joszaki-profile-photos-v2/519836_192.webp\" fetchpriority=\"auto\" media=\"\" type=\"image/webp\"/><img alt=\"Zuppán Brigitta\" class=\"block object-cover\" data-src=\"https://storage.googleapis.com/joszaki-profile-photos-v2/519836_256.jpg\" height=\"70\" src=\"https://storage.googleapis.com/joszaki-profile-photos-v2/519836_256.jpg\" width=\"70\"/></picture><div class=\"mb-2 text-right grow invisible\"><div class=\"text-xl font-extrabold text-teal-400\"> 0 Ft </div><div class=\"text-xs text-blog-primary\">  ár </div></div></div><div class=\"text-base font-bold\"> Zuppán Brigitta </div><div class=\"mb-2 text-xs font-extrabold opacity-50\"> Mezőtúr </div><div class=\"overflow-hidden text-sm font-semibold line-clamp-2\"> ONLINE ÖNISMERETI ÉS STRESSZKEZELÉSI KONZULTÁCIÓ – ORSZÁGOSAN\n\nAmikor már nem önmagadat választod, hanem folyamatosan mások elvárásaihoz alkalmazkodsz.\n\nNehezen mondasz nemet? Gyakran elhallgatod a véleményede"
+    },
+    {
+      "text": "Mikor érdemes természetgyógyászhoz fordulni?",
+      "tag": "h2",
+      "attrs": {
+        "id": "mikor-erdemes-termeszetgyogyaszhoz-fordulni"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Helyettesítheti-e a természetgyógyászat az orvosi kezelést?",
+      "tag": "h2",
+      "attrs": {
+        "id": "helyettesitheti-e-a-termeszetgyogyaszat-az-orvosi-kezelest"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Milyen konkrét módszereket kínálnak a természetgyógyászok?",
+      "tag": "h2",
+      "attrs": {
+        "id": "milyen-konkret-modszereket-kinalnak-a-termeszetgyogyaszok"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Energetikai kezelés",
+      "tag": "h3",
+      "attrs": {},
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Biorezonanciás vizsgálat",
+      "tag": "h3",
+      "attrs": {},
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Akupresszúra és talpmasszázs",
+      "tag": "h3",
+      "attrs": {},
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Theta healing",
+      "tag": "h3",
+      "attrs": {},
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Ki végezhet természetgyógyászati tevékenységet Magyarországon?",
+      "tag": "h2",
+      "attrs": {
+        "id": "ki-vegezhet-termeszetgyogyaszati-tevekenyseget-magyarorszagon"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Mennyibe kerül egy természetgyógyász?",
+      "tag": "h2",
+      "attrs": {
+        "id": "mennyibe-kerul-egy-termeszetgyogyasz"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Milyen helyzetekkel keresik meg a természetgyógyászt? Valós esetek a kérésekből",
+      "tag": "h2",
+      "attrs": {
+        "id": "milyen-helyzetekkel-keresik-meg-a-termeszetgyogyaszt-valos-esetek-a-keresekbol"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Hogyan válassz megbízható természetgyógyászt?",
+      "tag": "h2",
+      "attrs": {
+        "id": "hogyan-valassz-megbizhato-termeszetgyogyaszt"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Mit mondanak a JóSzakin az ügyfelek?",
+      "tag": "h2",
+      "attrs": {
+        "id": "mit-mondanak-a-joszakin-az-ugyfelek"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    },
+    {
+      "text": "Gyakori kérdések",
+      "tag": "h2",
+      "attrs": {
+        "id": "gyakori-kerdesek"
+      },
+      "parent": "<section class=\"JoszakiHtmlTextBlock\" data-v-a868d1a2=\"\"><p><strong>Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres.</strong> A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni.</p>\n<h2 id=\"mikor-erdemes-termeszetgyogyaszhoz-fordulni\">Mikor érdemes természetgyógyászhoz fordulni?</h2>\n<p><strong>A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek.</strong> A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók.</p>\n<table>\n<thead><tr><th>Miért fordulnak természetgyógyászhoz</th><th>A kérések hány százaléka</th></tr></thead>\n<tbody>\n<tr><td>Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz)</td><td>10,0%</td></tr>\n<tr><td>Mozgásszervi fájdalom (derék, hát, gerinc, ízület)</td><td>8,5%</td></tr>\n<tr><td>Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés</td><td>7,6%</td></tr>\n<tr><td>Hormonális/nőgyógyászati témák</td><td>5,3%</td></tr>\n<tr><td>Bőrprobléma, allergia</td><td>5,1%</td></tr>\n<tr><td>Gyermekkel kapcsolatos kérés</td><td>4,9%</td></tr>\n<tr><td>Fogyás, táplálkozás</td><td>3,8%</td></tr>\n<tr><td>Energetikai kezelés vagy általános állapotfelmérés</td><td>3,3%</td></tr>\n</tbody>\n</table>\n<p>A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzi"
+    }
+  ],
+  "cards": [],
+  "text": "Természetgyógyász szakemberek a közeledben | JóSzaki JÓ SZAKI Adj meg legalább 3 karaktert! Ajánlatkérés Szakmák Összes szakma Villanyszerelő Tetőfedő Bádogos Ács Szobafestő, tapétázó Gázkészülék javítás Gázvezeték szerelő Radiátorszerelés Fűtésszerelés Vízszerelő Kőműves Burkoló Földmunka Térkövezés Árkalauz Összes ár Glettelés Vakolás Laminált padló lerakás Burkolás Szobafestés Térkövezés Tisztasági festés Aljzatkiegyenlítés Homlokzati hőszigetelés Villanyszerelés SzakiVálasz Szakemberként regisztrálok Belépés JÓ SZAKI Adj meg legalább 3 karaktert! Ajánlatkérés Ajánlatkérés Szakmák Összes szakma Villanyszerelő Tetőfedő Bádogos Ács Szobafestő, tapétázó Gázkészülék javítás Gázvezeték szerelő Radiátorszerelés Fűtésszerelés Vízszerelő Kőműves Burkoló Földmunka Térkövezés Árkalauz Összes ár Glettelés Vakolás Laminált padló lerakás Burkolás Szobafestés Térkövezés Tisztasági festés Aljzatkiegyenlítés Homlokzati hőszigetelés Villanyszerelés SzakiVálasz Szakemberként regisztrálok Belépés Egészség Természetgyógyász Hozzáadás a kedvencekhez Természetgyógyász szakemberek a közeledben Ingyenes árajánlatkérés természetgyógyász szakemberektől Válaszd ki a városod és találd meg a számodra legmegfelelőbb természetgyógyászt! Budapest Debrecen Miskolc Szeged Pécs Budapest - XI. kerület Budapest - III. kerület Széll Judit Viktória Természetgyógyász · Coach Széll Jutka vagyok, életvezetési tanácsadással, állapotfelméréssel foglalkozom. Természetgyógyász fitoterapeuta, coach (life és business), valamint párkapcsolati tanácsadó vagyok. „Az a misszióm, hogy segítsek az embereknek, hogy megismerjék önmagukat, megtalálják lelki békéjüket, hogy BOLDOG és legfőképpen EGÉSZ-SÉGES, teljes életet élhessenek harmóniában önmagukkal és a körülöttük lévő világgal.” Technikák széles tárházával igyekszem segíteni elakadásodban, gyógyulásodban, önismereti és/vagy p Bővebben Kiszállok Budapest teljes területén Hozzáadás a kedvencekhez Jószaki 6 megbízás 3 vélemény +36 1 443 3777 / 27151 Ajánlatot kérek tőle Nádasi Beatrix Természetgyógyász Szeretettel Üdvözöllek! Akupresszúra és fülakupunktúra vizsgával rendelkezem. Tevékenységeim közé tartozik a biorezonanciás kezelés, fülakupunktúra, fülakupresszúra, köpölyözés, kínai masszázs, Schüssler sók alkalmazása.Minden kezelés célja hogy aktiválja a szervezet öngyógyító mechanizmusát, hogy visszaállítsa a szervezetet az optimális egészségi és egyensúlyi állapotába. Új módszert alkalmazok kezeléseim során, a Bowen terápiát. Bővebben Kiszállok Budapest teljes területén Hozzáadás a kedvencekhez 5 megbízás 1 vélemény +36 1 443 3777 / 52165 Ajánlatot kérek tőle Zuppán Brigitta Természetgyógyász · Coach · Kineziológus ONLINE ÖNISMERETI ÉS STRESSZKEZELÉSI KONZULTÁCIÓ – ORSZÁGOSAN Amikor már nem önmagadat választod, hanem folyamatosan mások elvárásaihoz alkalmazkodsz. Nehezen mondasz nemet? Gyakran elhallgatod a véleményedet? Háttérbe szorítod a saját igényeidet, mert attól tartasz, hogy elveszíted mások szeretetét, figyelmét vagy elfogadását? Lehet, hogy kívülről határozottnak és önállónak tűnsz, mégis a kapcsolataidban folyamatosan figyeled, mit várnak tőled mások. Alkalmazkodsz. Engedsz. Megértesz. Soksz Bővebben Kiszállok Budapest teljes területén Hozzáadás a kedvencekhez 23 megbízás 4 vélemény 1 válasz 3 fotó +36 1 443 3777 / 62907 Ajánlatot kérek tőle Dr. Ádám Csaba Természetgyógyász Dr. Ádám Csaba vagyok, biológus és energetikai kezelő, spirituális kezelésekkel és lelki blokkok oldásával foglalkozom. Az elméleti orvostudományok területén szerzett doktori fokozatom megszerzése után egyre erősebben foglalkoztatott az a kérdés, hogy az emberi problémák jelentős része nem pusztán testi, hanem lelki és energetikai eredetű, gyakran tudattalan érzelmi blokkokhoz kapcsolódik. Masszázsterápiával kezdtem emberekkel dolgozni, majd a Pránanadi és a sámáni hagyományok tanulása során me Bővebben Kiszállok Budapest teljes területén Hozzáadás a kedvencekhez Ajánlatot kérek tőle Nagy Zsanett Viktória Természetgyógyász Nagy Zsanett Viktória vagyok, holisztikus segítő, pszichotronikus és családállító. Az életünk során sok olyan helyzettel találkozhatunk, amikor úgy érezzük, hogy újra és újra ugyanazokba az akadályokba ütközünk. Lehet szó visszatérő kapcsolati problémákról, elhúzódó élethelyzeti elakadásokról, belső feszültségről, önbizalomhiányról vagy megmagyarázhatatlannak tűnő nehézségekről. Munkám során holisztikus szemlélettel dolgozom, ahol a test, a lélek és az érzelmi folyamatok egységét veszem figyele Bővebben Kiszállok Budapest teljes területén Hozzáadás a kedvencekhez Ajánlatot kérek tőle Mutasd az összes budapesti természetgyógyászt Nagyobb települések természetgyógyász szakemberei Budapest Észak-Alföld Észak-Magyarország Dél-Alföld Dél-Dunántúl Kelet-Dunántúl Nyugat-Dunántúl Közép-Magyarország Budapest Budapest - XI. kerület Budapest - III. kerület Budapest - XIV. kerület Budapest - XIII. kerület Budapest - IV. kerület Budapest - XVIII. kerület Budapest - II. kerület Budapest - XVII. kerület Budapest - XV. kerület Budapest - VIII. kerület Budapest - X. kerület Budapest - XXI. kerület Budapest - XVI. kerület Budapest - XX. kerület Budapest - XIX. kerület Budapest - IX. kerület Budapest - VII. kerület Budapest - XII. kerület Budapest - XXII. kerület Budapest - VI. kerület Budapest - V. kerület Budapest - I. kerület Budapest - XXIII. kerület Debrecen Nyíregyháza Szolnok Hajdúböszörmény Jászberény Hajdúszoboszló Karcag Törökszentmiklós Mátészalka Mezőtúr Balmazújváros Hajdúnánás Kisvárda Berettyóújfalu Püspökladány Tiszavasvári Újfehértó Hajdúhadház Kisújszállás Nyírbátor Tiszaföldvár Tiszafüred Hajdúsámson Nagykálló Miskolc Eger Ózd Gyöngyös Kazincbarcika Hatvan Mezőkövesd Sátoraljaújhely Tiszaújváros Sárospatak Sajószentpéter Heves Edelény Szeged Kecskemét Békéscsaba Hódmezővásárhely Baja Gyula Kiskunfélegyháza Orosháza Szentes Kiskunhalas Makó Békés Csongrád Szarvas Kalocsa Gyomaendrőd Kiskőrös Kiskunmajsa Mezőberény Tiszakécske Lajosmizse Sarkad Pécs Kaposvár Szekszárd Komló Balatonkiliti Siófok Dombóvár Paks Mohács Újmohács Bonyhád Marcali Barcs Nagyatád Tolna Szigetvár Győr Székesfehérvár Tatabánya Veszprém Sopron Dunaújváros Salgótarján Pápa Ajka Mosonmagyaróvár Esztergom Tata Várpalota Komárom Oroszlány Balassagyarmat Tapolca Bátonyterenye Mór Balatonfüred Dorog Sárbogárd Bicske Csorna Kapuvár Szombathely Zalaegerszeg Nagykanizsa Keszthely Sárvár Körmend Celldömölk Kőszeg Érd Cegléd Vác Gödöllő Dunakeszi Nagykőrös Budaörs Szigetszentmiklós Szentendre Gyál Monor Vecsés Százhalombatta Abony Dabas Dunaharaszti Fót Göd Gyömrő Pomáz Budakeszi Nagykáta Pécel Pilisvörösvár Szigethalom Albertirsa Pilis Törökbálint Veresegyház Legnépszerűbb feladatok és árak Válaszd ki, milyen feladathoz keresel segítséget, böngéssz azon szakemberek között, akik vállaljàk és tájékozódj az árakról! BEMER-terápia akupunktúra Bach virágterápia Theta healing tanfolyam fülakupunktúra Néhány BEMER-terápia ár a rendszerünkből 0 Ft ár Zuppán Brigitta Mezőtúr ONLINE ÖNISMERETI ÉS STRESSZKEZELÉSI KONZULTÁCIÓ – ORSZÁGOSAN Amikor már nem önmagadat választod, hanem folyamatosan mások elvárásaihoz alkalmazkodsz. Nehezen mondasz nemet? Gyakran elhallgatod a véleményedet? Háttérbe szorítod a saját igényeidet, mert attól tartasz, hogy elveszíted mások szeretetét, figyelmét vagy elfogadását? Lehet, hogy kívülről határozottnak és önállónak tűnsz, mégis a kapcsolataidban folyamatosan figyeled, mit várnak tőled mások. Alkalmazkodsz. Engedsz. Megértesz. Soksz 0 Ft ár Nádasi Beatrix Kistarcsa Szeretettel Üdvözöllek! Akupresszúra és fülakupunktúra vizsgával rendelkezem. Tevékenységeim közé tartozik a biorezonanciás kezelés, fülakupunktúra, fülakupresszúra, köpölyözés, kínai masszázs, Schüssler sók alkalmazása.Minden kezelés célja hogy aktiválja a szervezet öngyógyító mechanizmusát, hogy visszaállítsa a szervezetet az optimális egészségi és egyensúlyi állapotába. Új módszert alkalmazok kezeléseim során, a Bowen terápiát. 0 Ft ár Széll Judit Viktória Érd Széll Jutka vagyok, életvezetési tanácsadással, állapotfelméréssel foglalkozom. Természetgyógyász fitoterapeuta, coach (life és business), valamint párkapcsolati tanácsadó vagyok. „Az a misszióm, hogy segítsek az embereknek, hogy megismerjék önmagukat, megtalálják lelki békéjüket, hogy BOLDOG és legfőképpen EGÉSZ-SÉGES, teljes életet élhessenek harmóniában önmagukkal és a körülöttük lévő világgal.” Technikák széles tárházával igyekszem segíteni elakadásodban, gyógyulásodban, önismereti és/vagy p 0 Ft ár Dr. Ádám Csaba Budapest - III. kerület Dr. Ádám Csaba vagyok, biológus és energetikai kezelő, spirituális kezelésekkel és lelki blokkok oldásával foglalkozom. Az elméleti orvostudományok területén szerzett doktori fokozatom megszerzése után egyre erősebben foglalkoztatott az a kérdés, hogy az emberi problémák jelentős része nem pusztán testi, hanem lelki és energetikai eredetű, gyakran tudattalan érzelmi blokkokhoz kapcsolódik. Masszázsterápiával kezdtem emberekkel dolgozni, majd a Pránanadi és a sámáni hagyományok tanulása során me 0 Ft ár Nagy Zsanett Viktória Pécs Nagy Zsanett Viktória vagyok, holisztikus segítő, pszichotronikus és családállító. Az életünk során sok olyan helyzettel találkozhatunk, amikor úgy érezzük, hogy újra és újra ugyanazokba az akadályokba ütközünk. Lehet szó visszatérő kapcsolati problémákról, elhúzódó élethelyzeti elakadásokról, belső feszültségről, önbizalomhiányról vagy megmagyarázhatatlannak tűnő nehézségekről. Munkám során holisztikus szemlélettel dolgozom, ahol a test, a lélek és az érzelmi folyamatok egységét veszem figyele Mutasd az összes BEMER-terápia árat Természetgyógyász árkategóriák BEMER-terápia 50 Ft / alkalom akupunktúra Bach virágterápia 15 000 Ft / alkalom Theta healing tanfolyam fülakupunktúra 4 000 Ft / óra Kineziológiai oldás 11 500 Ft / alkalom biorezonanciás vizsgálat 5 000 Ft / alkalom theta healing konzultáció 10 000 Ft / alkalom energetikai kezelés 10 000 Ft / alkalom energia kezelés 8 500 Ft / óra A szakijaink megadott árait a fenti eloszlásban láthatod. Ha valaki olcsóbb, nem feltétlenül jelenti azt, hogy nem végez olyan jó munkát, mint mások! Tartalomjegyzék Mikor érdemes természetgyógyászhoz fordulni? Helyettesítheti-e a természetgyógyászat az orvosi kezelést? Milyen konkrét módszereket kínálnak a természetgyógyászok? Ki végezhet természetgyógyászati tevékenységet Magyarországon? Mennyibe kerül egy természetgyógyász? Milyen helyzetekkel keresik meg a természetgyógyászt? Valós esetek a kérésekből Hogyan válassz megbízható természetgyógyászt? Mit mondanak a JóSzakin az ügyfelek? Gyakori kérdések Nincs időd böngészni? Ha nem akarsz telefonálgatni, adj fel egy hirdetést, és hagyd hogy szakembereink találjanak meg Téged! Írd le a feladatot válassz a jelentkező szakemberek közül Hirdetésfeladás Tartalomjegyzék Mikor érdemes természetgyógyászhoz fordulni? Helyettesítheti-e a természetgyógyászat az orvosi kezelést? Milyen konkrét módszereket kínálnak a természetgyógyászok? Ki végezhet természetgyógyászati tevékenységet Magyarországon? Mennyibe kerül egy természetgyógyász? Milyen helyzetekkel keresik meg a természetgyógyászt? Valós esetek a kérésekből Hogyan válassz megbízható természetgyógyászt? Mit mondanak a JóSzakin az ügyfelek? Gyakori kérdések Természetgyógyászhoz akkor fordulnak az emberek, ha a hagyományos orvosi ellátás mellett vagy után szeretnének segítséget kapni egy tünetre, egy régóta tartó panaszra, vagy egyszerűen a testi-lelki egyensúlyukra. A JóSzakira beérkezett 693 valós ajánlatkérés alapján ez a leggyakoribb ok, amiért valaki természetgyógyászt keres. A nem orvos természetgyógyász azt a látszatot sem keltheti, hogy az orvosi kezelést helyettesíti, ezt a jogszabály kifejezetten kimondja. A szerepe az, hogy a meglévő orvosi kezelés mellett, azzal egyeztetve kínáljon kiegészítő segítséget, gyakran olyan panaszra, amire a megrendelő már több helyen próbált megoldást találni. Mikor érdemes természetgyógyászhoz fordulni? A JóSzakira érkező kérések leggyakrabban idegrendszeri/lelki panaszok, mozgásszervi fájdalmak és régóta tartó, korábban már orvosilag kezelt állapotok miatt érkeznek. A 693 dedupolt kérés között a leggyakoribb, azonosítható témák az alábbi táblázatban láthatók. Miért fordulnak természetgyógyászhoz A kérések hány százaléka Idegrendszeri/lelki panasz (szorongás, alvászavar, migrén, stressz) 10,0% Mozgásszervi fájdalom (derék, hát, gerinc, ízület) 8,5% Krónikus vagy súlyos, orvosilag már kezelt állapot melletti kiegészítés 7,6% Hormonális/nőgyógyászati témák 5,3% Bőrprobléma, allergia 5,1% Gyermekkel kapcsolatos kérés 4,9% Fogyás, táplálkozás 3,8% Energetikai kezelés vagy általános állapotfelmérés 3,3% A kérések nagy része nem egyetlen tünetről szól. A megrendelők sokszor azt írják, hogy évek óta küzdenek egy problémával, voltak már orvosnál, a leleteik rendben vannak, és sajnos semmi nem segített igazán. Gyakori a pajzsmirigy, a gyomor- és bélpanasz, a puffadás, az ekcéma, a pattanás, a hajhullás, a fejfájás és a szédülés. Sokan úgy érzik, hogy a panasz mögött lelki ok, stressz vagy egy nehéz élethelyzet állhat, és ennek az okát szeretnék megtalálni. Visszatérő minta, hogy valaki hónapok vagy akár évek óta állandó panasszal él, többször volt kivizsgáláson, az eredménye negatív lett, és azóta keres egy másik, természetes gyógymódot. Gyakori téma a pánik, a depresszió, a magas vérnyomás, a térd- és derékfájás is, és sokan kifejezetten gyógynövény alapú megoldást keresnek. A kérések egy részét nem az érintett írja, hanem egy hozzátartozó: a párom, édesanyám vagy a lányom nevében kérnek segítséget. A legtöbben egyszerűen azt szeretnék, hogy jobban érezzék magukat a mindennapokban. Ha gyerekről van szó, a szülő sokszor így kezdi: „Kisfiam 1 éves és ekcémás. Súlyos bőrkiütései vannak. Nem használ semmilyen krém neki.” Gyereknél mindig a gyermekorvos vagy a bőrgyógyász az első lépés, és a természetgyógyászati módszer csak az ő kezelése mellett jöhet szóba. Néhány valódi, szó szerinti kérés, amit a megrendelők maguk fogalmaztak meg: „Gerincferdülésem van egy kicsi és a derekam szokott fájni. Lehet hogy lelki sérelmeim is kihatnak erre vagy nem tudom” „Mostanában elég sok stressz helyzet ért szeretnék tudatosabban élni táplálkozni létezni...” „Energetikai feltöltést kérek, mert egy gyógyító is elfáradhat.” „Szorongok, szédülök, görcsbe van a hátam” A kérések egy jelentős része (7,6%) olyan krónikus vagy komolyabb, gyakran orvos által már megállapított állapotra érkezik, ahol a megrendelő kiegészítő segítséget keres a meglévő kezelése mellé. Ezt a csoportot szándékosan nem illusztráljuk szó szerinti idézettel. A következő szakasz leírja, miért fontos, hogy ezekben az esetekben a természetgyógyászati kezelés mindig az orvosi kezeléssel párhuzamosan, nem helyette történjen. Helyettesítheti-e a természetgyógyászat az orvosi kezelést? Nem orvos végzettségű természetgyógyásznál nem: a 11/1997. (V. 28.) NM rendelet szerint ő a természetgyógyászati módszert csak kiegészítő tevékenységként, előzetes orvosi vizsgálat, illetve szakellátás után vagy azzal párhuzamosan, a beteg rendszeres orvosi ellenőrzése mellett végezheti. Ugyanez a rendelet kimondja, hogy a betegség megállapítása és a kezelési terv elkészítése orvosi feladat. A 40/1997. (III. 5.) Korm. rendelet ennél tágabban fogalmaz: a természetgyógyászati eljárás a konvencionális, azaz orvosi gyógyítási módszereket kiegészíti, meghatározott esetekben helyettesíti. A helyettesítő alkalmazás azonban a 11/1997. NM rendelet szerint a szakorvos döntése, a saját szakterületén belül. A nem orvos természetgyógyász a tevékenysége során, a reklámozást is ideértve, nem keltheti azt a látszatot, hogy a módszere a konvencionális gyógyítási tevékenységet helyettesíti. A rendelet a nem orvos természetgyógyászra négy konkrét tilalmat is kimond: Nem állapíthatja meg a betegséget , szakmai néven nem állíthat fel diagnózist. Nem módosíthatja az orvos által előírt kezelést, például a felírt gyógyszert. Nem kezelheti a beteget előzetes orvosi vizsgálat nélkül , és ha orvosi kezelés alatt állsz, köteles konzultálni a kezelőorvosoddal. Nem rendelhet és nem végezhet szervekbe, szövetekbe hatoló beavatkozást és akupunktúrát . Kivétel az egészségügyi törvény szerinti akupunktúra-engedéllyel rendelkező személy, illetve a szenvedélybetegek leszoktatására alkalmazott fülakupunktúra. A gyakorlatban ezért négy dolgot érdemes betartani: Új, ismeretlen eredetű vagy hirtelen kialakuló tünetnél — ami például egy hete kezdődött — előbb orvoshoz fordulj, ne természetgyógyászhoz. Ha sürgős segítség kell, hívd a 112-t. Ha már van orvosi diagnózisod és kezelésed, a természetgyógyászati kezelést ezzel párhuzamosan, nem helyette érdemes igénybe venni, és szólj mindkét szakembernek a másikról. Egy komoly állapot (pl. daganatos betegség, autoimmun kór) esetén a természetgyógyász munkája legfeljebb kiegészítő lehet az orvosi kezelés mellett, nem annak alternatívája. Ha az orvos műtétet vagy gyógyszeres kezelést javasolt, és ezt el szeretnéd kerülni, a döntés előtt inkább kérj egy második orvosi véleményt — a természetgyógyász az orvosi kezelést nem módosíthatja. A szabály a másik irányban is véd: ha a beteg a saját kezelésébe természetgyógyászt kíván bevonni, a rendelet szerint a kezelőorvos ezt nem akadályozhatja meg. Érdemes tudni azt is, hogy a témát a magyar közbeszéd megosztottan kezeli. Egy 2025 őszi, 91 hozzászólásos r/askhungary-szál kifejezetten szkeptikusan viszonyul a spirituális/természetgyógyászati körökhöz — ez is amellett szól, hogy körültekintően, ajánlások és értékelések alapján válassz szakembert. Milyen konkrét módszereket kínálnak a természetgyógyászok? A JóSzakin a természetgyógyászok sokféle, egymástól eltérő módszert kínálnak — a kérések alapján leggyakrabban energetikai kezelésről, biorezonanciás vizsgálatról, valamint akupresszúráról vagy talpmasszázsról esik szó. Az alábbi leírások azt mutatják be, mit mond magáról az adott módszer, nem azt, hogy mire hatásos. Energetikai kezelés Ide tartozik például a reiki, a bioenergetika és a pránanadi, ahol a szakember kézrátétellel vagy energiamunkával dolgozik. Ez a leggyakrabban keresett önálló módszer, a szakemberek listaárait az energetikai kezelés oldalon találod. Biorezonanciás vizsgálat A megrendelők gyakran teljes állapotfelmérést kérnek, de kiegészítő támogatásra is keresik, és a módszerhez eszközt használnak. A jogszabály szerint természetgyógyászati tevékenységnél csak a Nemzeti Népegészségügyi és Gyógyszerészeti Központ (NNGYK) érvényes engedélyével rendelkező eszköz használható, és ha nem orvos végzi, a vizsgálat eredménye nem a betegség megállapítása, ami orvosi feladat. A részleteket a biorezonancia vizsgálat árlistája foglalja össze. Akupresszúra és talpmasszázs Ezek a hivatalosan is nevesített, szakképesítéshez kötött eljárások közé tartoznak: az ujjnyomásos akupresszúra és a talp pontjain végzett masszázs, szakmai néven reflexzóna-terápia. A talpmasszázst sokan a lazító masszázzsal keverik, ezért kérdezz rá, melyikre gondol a szakember. A képesítési szinteket a következő szakasz táblázata mutatja. Theta healing Újabb keletű, energetikai-spirituális módszer, amit egyre gyakrabban keresnek. Név szerint nem szerepel a hivatalos, 1997-es jogszabályi listán, a konzultációk árát a theta healing kezelés ára oldal mutatja. Ki végezhet természetgyógyászati tevékenységet Magyarországon? A 11/1997. (V. 28.) NM rendelet 1. számú melléklete a természetgyógyászati eljárásokat aszerint sorolja be, hogy csak orvos végezheti-e őket, vagy orvosi végzettség nélkül, szakképesítéssel, illetve vizsgával záruló továbbképzéssel is. Szint Ki végezheti Eljárások a rendelet listájából Csak orvos Orvos (illetve hagyományos kínai gyógyászatban a külön engedéllyel rendelkező személy) Manuálterápiás eljárások, hagyományos kínai orvoslás, neurálterápiás módszerek (a manuálterápiás eljárásokat gyógytornász is végezheti, a gerincmanipulációs műfogások kivételével) Szakképesítés után Orvosi vagy felsőszintű egészségügyi végzettség nélkül, szakképesítés megszerzése után Akupresszúra, alternatív mozgás- és masszázsterápiák, életmód-tanácsadás és terápia, reflexzóna-terápia (talpmasszázs) Vizsgával záruló továbbképzés után Orvosi vagy felsőszintű egészségügyi végzettség nélkül, továbbképzéssel szerzett képesítés után Alternatív fizioterápiás módszerek, bioenergiát alkalmazó módszerek, gyógynövényekkel dolgozó fitoterápia, fülakupunktúrás addiktológiai eljárások, kineziológiai módszerek, szemtréning A 40/1997. (III. 5.) Korm. rendelet szerint az egészségügyi szakképesítéssel nem rendelkező, érettségizett személy akkor végezheti a tevékenységet, ha egészségügyi alapismereteket oktató és az adott tevékenységre jogosító tanfolyamot végez, majd eredményes vizsgát tesz. A vizsgát a 11/1997. NM rendelet szerint az Országos Kórházi Főigazgatóság (OKFŐ) folytatja le, a sikeres vizsgáról bizonyítványt állít ki, és a vizsgát tett személyekről nyilvántartást vezet. A tevékenységet végzők működését a kormányhivatal népegészségügyi feladatkörben eljáró járási hivatala rendszeresen ellenőrzi. A kineziológiai módszerek a fenti lista harmadik szintjén állnak. Ha kifejezetten ilyen szakembert keresel, a JóSzakin külön oldalon találod a kineziológus szakembereket. Mennyibe kerül egy természetgyógyász? A JóSzakin árat megadó szakemberek listaára szerint egy energetikai kezelés 7 500–40 000 Ft/alkalom (18 szakemberből 8 pontosan 15 000 Ft-ot kér), egy biorezonanciás vizsgálat 5 000–25 000 Ft/alkalom (7 szakember, medián 15 000 Ft). Ezek a szakemberek saját profiljukban megadott listaárai, nem kifizetett végösszegek. Kifizetett összegről egyelőre nincs elemezhető adatunk: a 7 konszentes vélemény egyikében sincs kitöltve a végösszeg, és a beérkezett 5 árajánlat egyike sem tartalmaz árazott tételt. Szolgáltatás Hány szakember adott meg árat Legalacsonyabb–legmagasabb listaár Leggyakoribb ár Energetikai kezelés 18 7 500–40 000 Ft/alkalom 15 000 Ft (18-ból 8) Energia kezelés 13 7 500–25 500 Ft/óra 10 000 Ft (13-ból 5) Theta healing konzultáció 12 9 900–28 000 Ft/alkalom 20 000 Ft (12-ből 4) Biorezonanciás vizsgálat 7 5 000–25 000 Ft/alkalom medián 15 000 Ft (7 érték) BEMER-terápia 5 3 500–12 500 Ft/alkalom 5 000 Ft (5-ből 3) A táblázat a JóSzaki szakemberi listaárait mutatja (a BEMER-sorból egy 50 Ft-os, nyilvánvalóan hibás értéket kiszűrtünk). Az árat megadók nem mind természetgyógyászok: egy részük más szakmában is dolgozik, és ugyanazt a szolgáltatást kínálja. Az ár attól függ, mennyi ideig tart egy alkalom, kell-e hozzá eszköz, és első állapotfelmérésről vagy rendszeres kezelésről van-e szó. Egy kezelés ritkán egyetlen alkalom, ezért időpont-egyeztetéskor kérdezz rá, hányszor és milyen hosszú folyamattal számol a szakember. A megrendelők is gyakran ezzel kezdik, ahogy ez a kérés is mutatja: „Érdekelne, h. hol rendel és mennyibe kerülne egy alkalom?” Milyen helyzetekkel keresik meg a természetgyógyászt? Valós esetek a kérésekből Az alábbi öt valós eset a JóSzakira érkezett, nyilvános felhasználásra engedélyezett kérésekből való, és mindegyiknél leírjuk, mit érdemes tisztázni, mielőtt természetgyógyászhoz fordulsz. Az idézetek szó szerintiek, név és elérhetőség nélkül. Egyik eset sem bizonyítja, hogy egy módszer hatásos — azt mutatják meg, milyen kérdésekkel érkeznek az emberek. Az első valós eset egy régóta tartó alvászavarról szól: „Közel 10 éve alvászavarral élek, ami nagyon kimerítő és időnként elkeserítő méreteket ölt. Szeretném az okokat kideríteni és változtatni ezen.” Ilyenkor az okok feltárása orvosi kivizsgálással kezdődik, a háziorvos szükség esetén szakrendelésre küld. A természetgyógyász ezután, azzal párhuzamosan dolgozhat, például életmód-tanácsadással, ami a rendelet listáján is szerepel. A második esetben a megrendelő egy orvos által javasolt kezelést hagyott abba: „2 éve a kézfejemen ekcéma van, amit Elocommal kentem, de novemberben elhagytam, mert nem szeretném folyamatosan azzal kenni.” A rendelet szerint a nem orvos természetgyógyász az orvos által felállított kezelést nem módosíthatja. Ha egy krémet vagy gyógyszert nem szeretnél tovább használni, azt a bőrgyógyásszal beszéld meg, a természetgyógyász legfeljebb mellette segíthet. A harmadik eset egy idős szülőről szól, nemrég kórházi ellátás után: „Kórházból nemrég adták ki, semmit nem javult az állapota nagyon szédül és ezért menni is nehéz.” A megrendelő biorezonanciás állapotfelmérést kért 85 éves édesanyjának. Ha egy kórházi kezelés után sem javul az állapot, vagy erős szédülés jelentkezik, előbb a háziorvost érdemes felkeresni. A biorezonanciás felmérés eredménye nem a betegség megállapítása, és a rendelet szerint a természetgyógyász előzetes orvosi vizsgálat nélkül nem kezelhet. A negyedik esetben az orvosi kezelés mellett keresett valaki további segítséget: „Egy idő óta hasi-bél panaszaim vannak, orvosoknál voltam, de az adott gyógyszerek nem nagyon használnak, nagyon stresszes vagyok, elég rosszul alszom” Ez a párhuzamos helyzet tipikus példája. Ha orvosi kezelés alatt állsz, a természetgyógyász a rendelet szerint köteles konzultálni a kezelőorvosoddal, ezért érdemes magaddal vinni a leleteidet és a gyógyszereid listáját. Az ötödik eset egy fogászati kezelés melletti állapotfelmérés: „Állapot felmérést, biorezonanciális vizsgálatot szeretnék végeztetni!” A megrendelő azt is leírta, hogy éppen fogászati implantátumot készíttet, és bizonytalan abban, hogyan reagál rá a szervezete. Ez a kérdés a fogorvosra tartozik: ő tudja megmondani, mire figyelj a beültetés után. Egy természetgyógyászati felmérés ezt nem válthatja ki. Hogyan válassz megbízható természetgyógyászt? A legfontosabb szempont, hogy a szakember konkrétan elmagyarázza, mit csinál és miért, és sose ígérjen gyógyulást olyan állapotra, amit nem is látott vagy vizsgált. Öt kérdést érdemes feltenni, mielőtt döntesz. Mondd el pontosan, mi a panaszod, és kérdezz rá, hogy a szakember már foglalkozott-e hasonló esettel. Ha van orvosi diagnózisod, oszd meg vele — egy felelős szakember rá fog kérdezni erre magától is, és megkérdezi, ki a kezelőorvosod. Kérdezd meg, milyen képesítése van az adott módszerre, és kérd el az ezt igazoló bizonyítványt — egészségügyi végzettség nélküli szakembernél ezt az OKFŐ állítja ki. Ha valaki kizárólagos gyógyulást vagy gyors eredményt ígér egy súlyos állapotra, vagy azt javasolja, hogy hagyd el az orvosi kezelésedet, az intő jel. Nézd meg a korábbi ügyfelek értékeléseit, és kérj be több ajánlatot, mielőtt döntesz. Érdemes arra is rákérdezni, hol rendel a szakember. A rendelet szerint a természetgyógyászati rendelőnek legalább 12 m² alapterületű rendelőhelyiséggel, várószobával, illetve WC-vel és kézmosási lehetőséggel kell rendelkeznie. Mit mondanak a JóSzakin az ügyfelek? A 7 konszentes vélemény átlaga 9,71 a 10-ből — a visszajelzésekben leggyakrabban a szakember kedvessége, szakmai tájékozottsága és a beszélgetés hangulata kerül elő. „Nagyon segítőkész, munkájában tájékozott, kedves Hölgy. Mindenkinek ajánlom 10*” „Nagyon kedves, szimpatikus hölgy. Ajánlom mindenkinek.” „Remek hangulatú beszélgetésben volt részem.” A vélemények a megrendelők saját, szubjektív tapasztalatai — nem a JóSzaki vagy a szakember hatékonysági állításai. Gyakori kérdések Diagnosztizálhat betegséget egy természetgyógyász? Nem. A 11/1997. (V. 28.) NM rendelet szerint a nem orvos természetgyógyász a betegséget nem állapíthatja meg: a betegség megállapítása és a kezelési terv elkészítése orvosi feladat. Elhagyhatom az orvosi kezelésemet, ha természetgyógyászhoz járok? Nem érdemes. A nem orvos természetgyógyász az orvos által felállított kezelést nem módosíthatja, és orvosi kezelés alatt álló betegnél köteles konzultálni a kezelőorvossal. A természetgyógyászati módszer nála csak kiegészítő tevékenység lehet. Megakadályozhatja-e az orvosom, hogy természetgyógyászhoz járjak? Nem. A rendelet szerint ha a beteg a saját gyógykezelésébe természetgyógyászt kíván bevonni, azt a kezelőorvos nem akadályozhatja meg. Érdemes viszont szólni neki, hogy a két kezelés összehangolható legyen. Végezhet-e akupunktúrát egy természetgyógyász? Nem orvos természetgyógyász nem: a rendelet szerint nem rendelhet és nem végezhet szervekbe, szövetekbe hatoló beavatkozást és akupunktúrát. Kivétel az egészségügyi törvény szerinti akupunktúra-engedéllyel rendelkező személy, illetve a szenvedélybetegek leszoktatására alkalmazott fülakupunktúra. Az akupresszúra nem azonos az akupunktúrával: a rendelet leírása szerint ujjnyomással vagy más mechanikai hatással dolgozik. Mennyibe kerül egy alkalom természetgyógyásznál? A JóSzakin árat megadó szakemberek listaára szerint egy energetikai kezelés 7 500–40 000 Ft/alkalom (18 szakemberből 8 pontosan 15 000 Ft-ot kér), egy biorezonanciás vizsgálat 5 000–25 000 Ft/alkalom (7 szakember). Ezek listaárak, nem kifizetett végösszegek. Mi a különbség a biorezonancia és az energetikai kezelés között? A biorezonancia állapotfelmérésre és kiegészítő támogatásra használt módszer, amihez eszközt használnak; az energetikai kezelés (pl. reiki, bioenergetika) kézrátétellel vagy energiamunkával dolgozik. A két szolgáltatás a JóSzakin is külön árlistával szerepel. Kell-e külön képesítés a természetgyógyászati tevékenységhez? Igen. A 11/1997. (V. 28.) NM rendelet szerint egyes eljárásokat (pl. manuálterápia) csak orvos végezhet, másokat (pl. akupresszúra) orvosi végzettség nélkül szakképesítéssel, a gyógynövényekkel dolgozó módszereket vagy a kineziológiai módszereket pedig vizsgával záruló továbbképzés után lehet gyakorolni. A vizsgát az OKFŐ folytatja le, és a vizsgát tett személyekről nyilvántartást vezet. Nincs időd böngészni? Díjmentes ajánlatkérés értékelt szakemberektől 2 perc alatt! Ajánlatot kérek Szakmák Szakma csoportok Állatok Autó, motor Egészség Egyéb Gyerekek, tanulás Ház, kert Informatika Kereskedelem Művészet Pénzügyek Szállítás Szépségápolás Üzlet, iroda Vendéglátás Legnépszerűbb szakmák Villanyszerelő Tetőfedő Bádogos Ács Szobafestő, tapétázó Gázkészülék javítás Gázvezeték szerelő Radiátorszerelés Fűtésszerelés Vízszerelő Kőműves Burkoló Földmunka Térkövezés Települések Bács-Kiskun megye Kecskemét Baranya megye Pécs Békés megye Békéscsaba Borsod-Abaúj-Zemplén megye Miskolc Budapest Csongrád megye Szeged Fejér megye Székesfehérvár Győr-Moson-Sopron Győr Hajdú-Bihar megye Debrecen Heves megye Eger Jász-Nagykun-Szolnok megye Szolnok Komárom-Esztergom megye Tatabánya Nógrád megye Salgótarján Pest megye Érd Somogy megye Kaposvár Szabolcs-Szatmár-Bereg megye Nyíregyháza Tolna megye Szekszárd Vas megye Szombathely Veszprém megye Veszprém Zala megye Zalaegerszeg JÓ SZAKI A közösség ajánlásával JÓ SZAKI A JóSzakiról Rólunk Karrier Blog SzakiVálasz SuperProfik.cz BerufExperten.de Inspirációk Tartalom Ajánlatkérés Árkalauz Szakmák Települések Új szakik Hasznos Általános szerződési feltételek Felhasználási feltételek Adatvédelmi tájékoztató Süti tájékoztató Süti beállítások GYIK Impresszum Kapcsolatfelvétel Szakiknak Regisztrálj most! Megszerezhető munkák JóSzaki 2010 - 2026"
+}
