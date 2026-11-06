@@ -23,14 +23,8 @@ const ADMIN_PASSWORD = process.env.CMS_ADMIN_PASSWORD || '';
 if (!DATABASE_URL) console.warn('DATABASE_URL is not set: CMS database features will fail.');
 if (!process.env.CMS_JWT_SECRET) console.warn('CMS_JWT_SECRET is not set: using an ephemeral secret. Set it in production.');
 
-const pool = new Pool({
-  connectionString: DATABASE_URL,
-  connectionTimeoutMillis: 7000,
-  idleTimeoutMillis: 30000,
-  query_timeout: 15000,
-  statement_timeout: 15000,
-  ssl: process.env.PGSSLMODE === 'disable' ? false : { rejectUnauthorized: false }
-});
+const { buildDatabaseConfig } = require('./lib/database-config.cjs');
+const pool = new Pool(buildDatabaseConfig());
 
 // Database readiness repair v1
 const dbState = { phase: 'initializing', ready: false, error: null };
