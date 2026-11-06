@@ -1,0 +1,35 @@
+name: Compile sourced catalog expansion
+on:
+  push:
+    branches: [data/expansion-1000-20261106]
+    paths: [scripts/collect-directory-data.py, scripts/discover-directory-extras.py, research/expansion-20261106/curated.json, .github/workflows/compile-expansion.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: catalog-expansion-research
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Discover sparse-category primary profiles
+        run: |
+          if [ ! -f research/expansion-20261106/extra-report.json ]; then
+            python scripts/discover-directory-extras.py
+          fi
+      - run: python scripts/collect-directory-data.py
+      - name: Commit research results only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/expansion-20261106
+          git diff --cached --quiet || git commit -m 'Compile deduplicated public source candidates and minimum-category report'
+          git pull --rebase origin data/expansion-1000-20261106
+          git push origin HEAD:data/expansion-1000-20261106
