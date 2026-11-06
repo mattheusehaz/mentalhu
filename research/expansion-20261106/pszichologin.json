@@ -1,0 +1,4535 @@
+{
+  "url": "https://www.pszichologin.hu/pszichologusok",
+  "final_url": "https://www.pszichologin.hu/pszichologusok",
+  "status": 200,
+  "sha256": "75fbe35bcc014385f4f5c4854a625e25a24a910f9ff0a5d9aa9b2d4215aa316f",
+  "title": "Pszichológuskereső - árak és időpontok | Pszichologin",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "text-4xl",
+          "text-left",
+          "leading-tight",
+          "sm:text-5xl",
+          "md:text-5xl",
+          "font-medium"
+        ]
+      },
+      "text": "Pszichológuskereső",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "flex",
+          "flex-col",
+          "gap-4"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "id": "_R_hbsnpfipftb_",
+        "class": [
+          "text-sm",
+          "font-medium"
+        ]
+      },
+      "text": "Szűrők",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "mb-3",
+          "flex",
+          "h-9",
+          "items-center",
+          "justify-between",
+          "gap-3"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Szabó Zsanett",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/szabo-zsanett"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Muskovits Krisztina",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/muskovits-krisztina"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Kosina Zsolt",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/kosina-zsolt"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Schulze Blanka",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/schulze-blanka"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Bodrogi Bálint",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/bodrogi-balint"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Kapuvári Éva",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/kapuvari-eva"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Félegyházy Anna",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/felegyhazy-anna"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Gergely Rita Viktória",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/gergely-rita-viktoria"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Varga Kristof",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/varga-kristof"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Mojzes Kinga",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/mojzes-kinga"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Birtók Orsolya",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/birtok-orsolya"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Bánffy Júlia",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/banffy-julia"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Hajzer Klaudia",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/hajzer-klaudia"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Huszár Boglárka",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/huszar-boglarka"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Dr. Bálint Adriána",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/dr-balint-adriana"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Pál László",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/pal-laszlo"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Vágási Nikola Krisztina",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/vagasi-nikola"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Babtan Krisztina",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/babtan-krisztina"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Vékony Adriána",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/vekony-adriana"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Roboz Gabriella",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/roboz-gabriella"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Schliesshahn Anna",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/schliesshahn-anna"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Bozó Anikó",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/bozo-aniko"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Boros Dóra Barbara",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/boros-dora-barbara"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Zolczer Melánia",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/zolczer-melania"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Farkasné Kovács Réka",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/farkasne-kovacs-reka"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Sárkány Kinga",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/sarkany-kinga"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Csapi Flóra",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/csapi-flora"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Régeni Ákos",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/regeni-akos"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Hegedüs Judit",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/hegedus-judit"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Sarkadi Réka",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/sarkadi-reka"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Dr Végh Miklós",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/dr-vegh-miklos"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Votisky Petra Zita",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/votisky-petra"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Bozakov Barbara",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/bozakov-barbi"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Pap Ildikó",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/pap-ildiko"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Morvai Petra",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/mo-petra"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Ficzere Márton",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/ficzere-marton"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Szekeres Mária Ágnes",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/szekeres-maria-agnes"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Váradi Borbála",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/varadiborbala"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Eszik Barbara",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/eszik-barbara"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Joó Dalma",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/joo-dalma"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Szabó-Műhelyi Viktória",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/szabo-muhelyi-viktoria"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Czirinkó Rebeka",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/czirinko-rebeka"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Dr. Czabán László",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/laszlo-dr-czaban"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Sánta Virág",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/santa-virag"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Dr. Tanyi Zsuzsanna",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/dr-tanyi-zsuzsanna"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Babonits-Farkas Kinga",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/babonits-farkas-kinga"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Sneé Gergely",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/snee-gergely"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Smelkó Rita",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/smelko-rita"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Csurgai Anna",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/csurgai-anna"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "text-2xl",
+          "font-semibold",
+          "tracking-tight",
+          "hover:underline"
+        ]
+      },
+      "text": "Juhász Flóra",
+      "parent": "a",
+      "parent_attrs": {
+        "href": "/p/juhasz-flora?service=5b936cf3-fd59-4122-9dbe-fa61bd82d680"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "id": "keresesek",
+        "class": [
+          "text-xl",
+          "font-medium",
+          "text-balance",
+          "md:text-2xl"
+        ]
+      },
+      "text": "Böngéssz a pszichológusok között",
+      "parent": "section",
+      "parent_attrs": {
+        "aria-labelledby": "keresesek",
+        "class": [
+          "flex",
+          "flex-col",
+          "gap-4"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Szabó Zsanett",
+      "url": "https://www.pszichologin.hu/p/szabo-zsanett",
+      "attrs": {
+        "href": "/p/szabo-zsanett"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/szabo-zsanett",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/szabo-zsanett"
+      }
+    },
+    {
+      "text": "Muskovits Krisztina",
+      "url": "https://www.pszichologin.hu/p/muskovits-krisztina",
+      "attrs": {
+        "href": "/p/muskovits-krisztina"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/muskovits-krisztina",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/muskovits-krisztina"
+      }
+    },
+    {
+      "text": "Kosina Zsolt",
+      "url": "https://www.pszichologin.hu/p/kosina-zsolt",
+      "attrs": {
+        "href": "/p/kosina-zsolt"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/kosina-zsolt",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/kosina-zsolt"
+      }
+    },
+    {
+      "text": "Schulze Blanka",
+      "url": "https://www.pszichologin.hu/p/schulze-blanka",
+      "attrs": {
+        "href": "/p/schulze-blanka"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/schulze-blanka",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/schulze-blanka"
+      }
+    },
+    {
+      "text": "Bodrogi Bálint",
+      "url": "https://www.pszichologin.hu/p/bodrogi-balint",
+      "attrs": {
+        "href": "/p/bodrogi-balint"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/bodrogi-balint",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/bodrogi-balint"
+      }
+    },
+    {
+      "text": "Kapuvári Éva",
+      "url": "https://www.pszichologin.hu/p/kapuvari-eva",
+      "attrs": {
+        "href": "/p/kapuvari-eva"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/kapuvari-eva",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/kapuvari-eva"
+      }
+    },
+    {
+      "text": "Félegyházy Anna",
+      "url": "https://www.pszichologin.hu/p/felegyhazy-anna",
+      "attrs": {
+        "href": "/p/felegyhazy-anna"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/felegyhazy-anna",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/felegyhazy-anna"
+      }
+    },
+    {
+      "text": "Gergely Rita Viktória",
+      "url": "https://www.pszichologin.hu/p/gergely-rita-viktoria",
+      "attrs": {
+        "href": "/p/gergely-rita-viktoria"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/gergely-rita-viktoria",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/gergely-rita-viktoria"
+      }
+    },
+    {
+      "text": "Varga Kristof",
+      "url": "https://www.pszichologin.hu/p/varga-kristof",
+      "attrs": {
+        "href": "/p/varga-kristof"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/varga-kristof",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/varga-kristof"
+      }
+    },
+    {
+      "text": "Mojzes Kinga",
+      "url": "https://www.pszichologin.hu/p/mojzes-kinga",
+      "attrs": {
+        "href": "/p/mojzes-kinga"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/mojzes-kinga",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/mojzes-kinga"
+      }
+    },
+    {
+      "text": "Birtók Orsolya",
+      "url": "https://www.pszichologin.hu/p/birtok-orsolya",
+      "attrs": {
+        "href": "/p/birtok-orsolya"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/birtok-orsolya",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/birtok-orsolya"
+      }
+    },
+    {
+      "text": "Bánffy Júlia",
+      "url": "https://www.pszichologin.hu/p/banffy-julia",
+      "attrs": {
+        "href": "/p/banffy-julia"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/banffy-julia",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/banffy-julia"
+      }
+    },
+    {
+      "text": "Hajzer Klaudia",
+      "url": "https://www.pszichologin.hu/p/hajzer-klaudia",
+      "attrs": {
+        "href": "/p/hajzer-klaudia"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/hajzer-klaudia",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/hajzer-klaudia"
+      }
+    },
+    {
+      "text": "Huszár Boglárka",
+      "url": "https://www.pszichologin.hu/p/huszar-boglarka",
+      "attrs": {
+        "href": "/p/huszar-boglarka"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/huszar-boglarka",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/huszar-boglarka"
+      }
+    },
+    {
+      "text": "Dr. Bálint Adriána",
+      "url": "https://www.pszichologin.hu/p/dr-balint-adriana",
+      "attrs": {
+        "href": "/p/dr-balint-adriana"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/dr-balint-adriana",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/dr-balint-adriana"
+      }
+    },
+    {
+      "text": "Pál László",
+      "url": "https://www.pszichologin.hu/p/pal-laszlo",
+      "attrs": {
+        "href": "/p/pal-laszlo"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/pal-laszlo",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/pal-laszlo"
+      }
+    },
+    {
+      "text": "Vágási Nikola Krisztina",
+      "url": "https://www.pszichologin.hu/p/vagasi-nikola",
+      "attrs": {
+        "href": "/p/vagasi-nikola"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/vagasi-nikola",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/vagasi-nikola"
+      }
+    },
+    {
+      "text": "Babtan Krisztina",
+      "url": "https://www.pszichologin.hu/p/babtan-krisztina",
+      "attrs": {
+        "href": "/p/babtan-krisztina"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/babtan-krisztina",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/babtan-krisztina"
+      }
+    },
+    {
+      "text": "Vékony Adriána",
+      "url": "https://www.pszichologin.hu/p/vekony-adriana",
+      "attrs": {
+        "href": "/p/vekony-adriana"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/vekony-adriana",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/vekony-adriana"
+      }
+    },
+    {
+      "text": "Roboz Gabriella",
+      "url": "https://www.pszichologin.hu/p/roboz-gabriella",
+      "attrs": {
+        "href": "/p/roboz-gabriella"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/roboz-gabriella",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/roboz-gabriella"
+      }
+    },
+    {
+      "text": "Schliesshahn Anna",
+      "url": "https://www.pszichologin.hu/p/schliesshahn-anna",
+      "attrs": {
+        "href": "/p/schliesshahn-anna"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/schliesshahn-anna",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/schliesshahn-anna"
+      }
+    },
+    {
+      "text": "Bozó Anikó",
+      "url": "https://www.pszichologin.hu/p/bozo-aniko",
+      "attrs": {
+        "href": "/p/bozo-aniko"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/bozo-aniko",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/bozo-aniko"
+      }
+    },
+    {
+      "text": "Boros Dóra Barbara",
+      "url": "https://www.pszichologin.hu/p/boros-dora-barbara",
+      "attrs": {
+        "href": "/p/boros-dora-barbara"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/boros-dora-barbara",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/boros-dora-barbara"
+      }
+    },
+    {
+      "text": "Zolczer Melánia",
+      "url": "https://www.pszichologin.hu/p/zolczer-melania",
+      "attrs": {
+        "href": "/p/zolczer-melania"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/zolczer-melania",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/zolczer-melania"
+      }
+    },
+    {
+      "text": "Farkasné Kovács Réka",
+      "url": "https://www.pszichologin.hu/p/farkasne-kovacs-reka",
+      "attrs": {
+        "href": "/p/farkasne-kovacs-reka"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/farkasne-kovacs-reka",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/farkasne-kovacs-reka"
+      }
+    },
+    {
+      "text": "Sárkány Kinga",
+      "url": "https://www.pszichologin.hu/p/sarkany-kinga",
+      "attrs": {
+        "href": "/p/sarkany-kinga"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/sarkany-kinga",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/sarkany-kinga"
+      }
+    },
+    {
+      "text": "Csapi Flóra",
+      "url": "https://www.pszichologin.hu/p/csapi-flora",
+      "attrs": {
+        "href": "/p/csapi-flora"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/csapi-flora",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/csapi-flora"
+      }
+    },
+    {
+      "text": "Régeni Ákos",
+      "url": "https://www.pszichologin.hu/p/regeni-akos",
+      "attrs": {
+        "href": "/p/regeni-akos"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/regeni-akos",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/regeni-akos"
+      }
+    },
+    {
+      "text": "Hegedüs Judit",
+      "url": "https://www.pszichologin.hu/p/hegedus-judit",
+      "attrs": {
+        "href": "/p/hegedus-judit"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/hegedus-judit",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/hegedus-judit"
+      }
+    },
+    {
+      "text": "Sarkadi Réka",
+      "url": "https://www.pszichologin.hu/p/sarkadi-reka",
+      "attrs": {
+        "href": "/p/sarkadi-reka"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/sarkadi-reka",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/sarkadi-reka"
+      }
+    },
+    {
+      "text": "Dr Végh Miklós",
+      "url": "https://www.pszichologin.hu/p/dr-vegh-miklos",
+      "attrs": {
+        "href": "/p/dr-vegh-miklos"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/dr-vegh-miklos",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/dr-vegh-miklos"
+      }
+    },
+    {
+      "text": "Votisky Petra Zita",
+      "url": "https://www.pszichologin.hu/p/votisky-petra",
+      "attrs": {
+        "href": "/p/votisky-petra"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/votisky-petra",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/votisky-petra"
+      }
+    },
+    {
+      "text": "Bozakov Barbara",
+      "url": "https://www.pszichologin.hu/p/bozakov-barbi",
+      "attrs": {
+        "href": "/p/bozakov-barbi"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/bozakov-barbi",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/bozakov-barbi"
+      }
+    },
+    {
+      "text": "Pap Ildikó",
+      "url": "https://www.pszichologin.hu/p/pap-ildiko",
+      "attrs": {
+        "href": "/p/pap-ildiko"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/pap-ildiko",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/pap-ildiko"
+      }
+    },
+    {
+      "text": "Morvai Petra",
+      "url": "https://www.pszichologin.hu/p/mo-petra",
+      "attrs": {
+        "href": "/p/mo-petra"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/mo-petra",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/mo-petra"
+      }
+    },
+    {
+      "text": "Ficzere Márton",
+      "url": "https://www.pszichologin.hu/p/ficzere-marton",
+      "attrs": {
+        "href": "/p/ficzere-marton"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/ficzere-marton",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/ficzere-marton"
+      }
+    },
+    {
+      "text": "Szekeres Mária Ágnes",
+      "url": "https://www.pszichologin.hu/p/szekeres-maria-agnes",
+      "attrs": {
+        "href": "/p/szekeres-maria-agnes"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/szekeres-maria-agnes",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/szekeres-maria-agnes"
+      }
+    },
+    {
+      "text": "Váradi Borbála",
+      "url": "https://www.pszichologin.hu/p/varadiborbala",
+      "attrs": {
+        "href": "/p/varadiborbala"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/varadiborbala",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/varadiborbala"
+      }
+    },
+    {
+      "text": "Eszik Barbara",
+      "url": "https://www.pszichologin.hu/p/eszik-barbara",
+      "attrs": {
+        "href": "/p/eszik-barbara"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/eszik-barbara",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/eszik-barbara"
+      }
+    },
+    {
+      "text": "Joó Dalma",
+      "url": "https://www.pszichologin.hu/p/joo-dalma",
+      "attrs": {
+        "href": "/p/joo-dalma"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/joo-dalma",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/joo-dalma"
+      }
+    },
+    {
+      "text": "Szabó-Műhelyi Viktória",
+      "url": "https://www.pszichologin.hu/p/szabo-muhelyi-viktoria",
+      "attrs": {
+        "href": "/p/szabo-muhelyi-viktoria"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/szabo-muhelyi-viktoria",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/szabo-muhelyi-viktoria"
+      }
+    },
+    {
+      "text": "Czirinkó Rebeka",
+      "url": "https://www.pszichologin.hu/p/czirinko-rebeka",
+      "attrs": {
+        "href": "/p/czirinko-rebeka"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/czirinko-rebeka",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/czirinko-rebeka"
+      }
+    },
+    {
+      "text": "Dr. Czabán László",
+      "url": "https://www.pszichologin.hu/p/laszlo-dr-czaban",
+      "attrs": {
+        "href": "/p/laszlo-dr-czaban"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/laszlo-dr-czaban",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/laszlo-dr-czaban"
+      }
+    },
+    {
+      "text": "Sánta Virág",
+      "url": "https://www.pszichologin.hu/p/santa-virag",
+      "attrs": {
+        "href": "/p/santa-virag"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/santa-virag",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/santa-virag"
+      }
+    },
+    {
+      "text": "Dr. Tanyi Zsuzsanna",
+      "url": "https://www.pszichologin.hu/p/dr-tanyi-zsuzsanna",
+      "attrs": {
+        "href": "/p/dr-tanyi-zsuzsanna"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/dr-tanyi-zsuzsanna",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/dr-tanyi-zsuzsanna"
+      }
+    },
+    {
+      "text": "Babonits-Farkas Kinga",
+      "url": "https://www.pszichologin.hu/p/babonits-farkas-kinga",
+      "attrs": {
+        "href": "/p/babonits-farkas-kinga"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/babonits-farkas-kinga",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/babonits-farkas-kinga"
+      }
+    },
+    {
+      "text": "Sneé Gergely",
+      "url": "https://www.pszichologin.hu/p/snee-gergely",
+      "attrs": {
+        "href": "/p/snee-gergely"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/snee-gergely",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/snee-gergely"
+      }
+    },
+    {
+      "text": "Smelkó Rita",
+      "url": "https://www.pszichologin.hu/p/smelko-rita",
+      "attrs": {
+        "href": "/p/smelko-rita"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/smelko-rita",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/smelko-rita"
+      }
+    },
+    {
+      "text": "Csurgai Anna",
+      "url": "https://www.pszichologin.hu/p/csurgai-anna",
+      "attrs": {
+        "href": "/p/csurgai-anna"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/csurgai-anna",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/csurgai-anna"
+      }
+    },
+    {
+      "text": "Juhász Flóra",
+      "url": "https://www.pszichologin.hu/p/juhasz-flora?service=5b936cf3-fd59-4122-9dbe-fa61bd82d680",
+      "attrs": {
+        "href": "/p/juhasz-flora?service=5b936cf3-fd59-4122-9dbe-fa61bd82d680"
+      }
+    },
+    {
+      "text": "Foglalj időpontot",
+      "url": "https://www.pszichologin.hu/p/juhasz-flora?service=5b936cf3-fd59-4122-9dbe-fa61bd82d680",
+      "attrs": {
+        "class": [
+          "group/button",
+          "inline-flex",
+          "shrink-0",
+          "items-center",
+          "justify-center",
+          "cursor-pointer",
+          "rounded-full",
+          "bg-clip-padding",
+          "text-sm",
+          "font-medium",
+          "whitespace-nowrap",
+          "transition-all",
+          "outline-none",
+          "select-none",
+          "focus-visible:border-ring",
+          "focus-visible:ring-3",
+          "focus-visible:ring-ring/50",
+          "active:not-aria-[haspopup]:translate-y-px",
+          "disabled:pointer-events-none",
+          "disabled:opacity-50",
+          "aria-invalid:border-destructive",
+          "aria-invalid:ring-3",
+          "aria-invalid:ring-destructive/20",
+          "dark:aria-invalid:border-destructive/50",
+          "dark:aria-invalid:ring-destructive/40",
+          "[&_svg]:pointer-events-none",
+          "[&_svg]:shrink-0",
+          "[&_svg:not([class*='size-'])]:size-4",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/80",
+          "shadow-md",
+          "border",
+          "border-primary/60",
+          "h-10",
+          "gap-1.5",
+          "has-data-[icon=inline-end]:pr-2",
+          "has-data-[icon=inline-start]:pl-2",
+          "w-full",
+          "px-6",
+          "@xl:ml-auto",
+          "@xl:w-auto"
+        ],
+        "href": "/p/juhasz-flora?service=5b936cf3-fd59-4122-9dbe-fa61bd82d680"
+      }
+    },
+    {
+      "text": "Online 32 pszichológus érhető el",
+      "url": "https://www.pszichologin.hu/pszichologusok/online",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/online"
+      }
+    },
+    {
+      "text": "Budapest 25 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest"
+      }
+    },
+    {
+      "text": "Egyéni terápia 36 pszichológus országszerte",
+      "url": "https://www.pszichologin.hu/pszichologusok/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Párterápia 5 pszichológus országszerte",
+      "url": "https://www.pszichologin.hu/pszichologusok/parterapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/parterapia"
+      }
+    },
+    {
+      "text": "Balassagyarmat 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/balassagyarmat",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/balassagyarmat"
+      }
+    },
+    {
+      "text": "Budakeszi 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/budakeszi",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budakeszi"
+      }
+    },
+    {
+      "text": "Budapest 25 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest"
+      }
+    },
+    {
+      "text": "Eger 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/eger",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/eger"
+      }
+    },
+    {
+      "text": "Fót 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/fot",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/fot"
+      }
+    },
+    {
+      "text": "I. kerület 3 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-i-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-i-kerulet"
+      }
+    },
+    {
+      "text": "II. kerület 4 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-ii-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-ii-kerulet"
+      }
+    },
+    {
+      "text": "III. kerület 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-iii-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-iii-kerulet"
+      }
+    },
+    {
+      "text": "V. kerület 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-v-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-v-kerulet"
+      }
+    },
+    {
+      "text": "VI. kerület 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-vi-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-vi-kerulet"
+      }
+    },
+    {
+      "text": "VII. kerület 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-vii-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-vii-kerulet"
+      }
+    },
+    {
+      "text": "IX. kerület 3 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-ix-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-ix-kerulet"
+      }
+    },
+    {
+      "text": "XI. kerület 6 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xi-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xi-kerulet"
+      }
+    },
+    {
+      "text": "XIII. kerület 3 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xiii-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xiii-kerulet"
+      }
+    },
+    {
+      "text": "XIV. kerület 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xiv-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xiv-kerulet"
+      }
+    },
+    {
+      "text": "XVI. kerület 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xvi-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xvi-kerulet"
+      }
+    },
+    {
+      "text": "XVII. kerület 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xvii-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xvii-kerulet"
+      }
+    },
+    {
+      "text": "XIX. kerület 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xix-kerulet",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xix-kerulet"
+      }
+    },
+    {
+      "text": "Egyéni terápia 36 pszichológus országszerte",
+      "url": "https://www.pszichologin.hu/pszichologusok/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Online egyéni terápia 23 pszichológus érhető el",
+      "url": "https://www.pszichologin.hu/pszichologusok/online/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/online/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Balassagyarmat egyéni terápia 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/balassagyarmat/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/balassagyarmat/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budakeszi egyéni terápia 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/budakeszi/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budakeszi/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest egyéni terápia 18 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest I. kerület egyéni terápia 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-i-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-i-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest II. kerület egyéni terápia 3 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-ii-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-ii-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest V. kerület egyéni terápia 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-v-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-v-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest VI. kerület egyéni terápia 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-vi-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-vi-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest VII. kerület egyéni terápia 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-vii-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-vii-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest IX. kerület egyéni terápia 2 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-ix-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-ix-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest XI. kerület egyéni terápia 5 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xi-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xi-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest XIII. kerület egyéni terápia 3 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xiii-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xiii-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Budapest XVII. kerület egyéni terápia 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xvii-kerulet/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xvii-kerulet/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Eger egyéni terápia 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/eger/egyeni-terapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/eger/egyeni-terapia"
+      }
+    },
+    {
+      "text": "Párterápia 5 pszichológus országszerte",
+      "url": "https://www.pszichologin.hu/pszichologusok/parterapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/parterapia"
+      }
+    },
+    {
+      "text": "Online párterápia 1 pszichológus érhető el",
+      "url": "https://www.pszichologin.hu/pszichologusok/online/parterapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/online/parterapia"
+      }
+    },
+    {
+      "text": "Budakeszi párterápia 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/budakeszi/parterapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budakeszi/parterapia"
+      }
+    },
+    {
+      "text": "Budapest párterápia 1 pszichológus a városban",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest/parterapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest/parterapia"
+      }
+    },
+    {
+      "text": "Budapest IX. kerület párterápia 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-ix-kerulet/parterapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-ix-kerulet/parterapia"
+      }
+    },
+    {
+      "text": "Budapest XVII. kerület párterápia 1 pszichológus a kerületben",
+      "url": "https://www.pszichologin.hu/pszichologusok/budapest-xvii-kerulet/parterapia",
+      "attrs": {
+        "class": [
+          "group",
+          "block",
+          "rounded-sm",
+          "focus-visible:outline-hidden",
+          "focus-visible:ring-[3px]",
+          "focus-visible:ring-ring/50"
+        ],
+        "href": "/pszichologusok/budapest-xvii-kerulet/parterapia"
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/b0b2420a2f73477e.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/64560b2a48647b5b.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/f3bd74bae5452be4.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/c745aa58e43956e4.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/turbopack-f2e9424fde8aa314.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/5affeec91e7037e6.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/e3d7c5e4c9e45091.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/37a87a316046ed5c.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/cb9c049aec4ab35f.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/601ffe21c72f7e38.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/99d2f79d3c74cc06.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/1b42b9b34ccc5e25.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/eb6fdc83272e5329.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/b0b098924ebcdecc.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/6edd574f94bd73fd.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/1aaf4dbc1b7bb9c4.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/c460674ab6b18d74.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/f6c54f38f214f9e7.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/5d77f02fe58dd71a.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/be38dc01ed47871e.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/a6dad97d9634a72d.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/_next/static/chunks/0814cccc98760b83.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.pszichologin.hu/pszichologusok",
+      "hint": "self.__next_f.push([1,\"30:[[\\\"$\\\",\\\"script\\\",null,{\\\"type\\\":\\\"application/ld+json\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"$4a\\\"}}],\\\"$L4b\\\",false,\\\"$L4c\\\",\\\"$L4d\\\"]\\n\"])"
+    },
+    {
+      "src": "https://www.pszichologin.hu/pszichologusok",
+      "hint": "self.__next_f.push([1,\"4c:[\\\"$\\\",\\\"$L4f\\\",null,{\\\"results\\\":[{\\\"key\\\":\\\"szabo-zsanett\\\",\\\"card\\\":[\\\"$\\\",\\\"article\\\",null,{\\\"className\\\":\\\"@container group relative overflow-hidden rounded-3xl border bg-card flex flex-col h-full\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-1.5 right-1.5 top-1.5 overflow-clip \\\",\\\"children\\\":[\\\"$\\\",\\\"$L50\\\",null,{\\\"src\\\":\\\"https://media.pszichologin.hu/cdn-cgi/image/width=512,height=512,fit=co"
+    },
+    {
+      "src": "https://www.pszichologin.hu/pszichologusok",
+      "hint": "self.__next_f.push([1,\"74:[\\\"$\\\",\\\"article\\\",null,{\\\"className\\\":\\\"@container group relative overflow-hidden rounded-3xl border bg-card flex flex-col h-full\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-1.5 right-1.5 top-1.5 overflow-clip \\\",\\\"children\\\":[\\\"$\\\",\\\"$L50\\\",null,{\\\"src\\\":\\\"https://media.pszichologin.hu/cdn-cgi/image/width=512,height=512,fit=cover,gravity=face,format=auto,quality=85,metadata=none,blur=200/https://"
+    }
+  ],
+  "iframes": [
+    {
+      "title": "Google Tag Manager",
+      "src": "https://www.googletagmanager.com/ns.html?id=GTM-NSJGK6LJ",
+      "height": "0",
+      "width": "0",
+      "style": "display:none;visibility:hidden"
+    }
+  ],
+  "text": "Pszichológuskereső - árak és időpontok | Pszichologin Pszichológuskereső Ellenőrzött pszichológusok Átlátható árak Online és személyesen Hol? Mindegy Hol? Milyen terápiát keresel? Mindegy Keresés Szűrők Ár alkalmanként Ingyenes 1 5000 Ft alatt 1 5000 – 15 000 Ft 2 15 000 – 20 000 Ft 26 20 000 – 25 000 Ft 5 25 000 Ft felett 2 Szakterületek Életátmenetek 36 Önértékelés és önbizalom 36 Munkahelyi nehézségek 35 Családi kapcsolatok 34 Önismeret és identitás 34 További 25 mutatása Végzettségek Okleveles pszichológus 45 Tanácsadó szakpszichológus 9 Felnőtt klinikai és mentálhigiéniai szakpszichológus 3 Gyásztanácsadás 3 Gyermek- és ifjúsági klinikai és mentálhigiéniai szakpszichológus 3 További 18 mutatása Módszerek Autogén tréning (AT) 9 Pár- és családterápia 9 Kognitív viselkedésterápia (CBT) 5 Rogers-féle személyközpontú pszichoterápia 4 Sématerápia (ST) 4 További 9 mutatása 50 pszichológus Szűrők Ajánlott Szabó Zsanett Okleveles pszichológus, ACT szemlélet, Sportpszichológus 4 év tapasztalat Kapunyitási pánik Rehabilitáció pszichés támogatása Életátmenetek + 27 1015 Budapest, Toldy Ferenc utc 44/A Online videóhívás Alkalmanként 21 000 Ft-tól Legközelebbi időpont nov. 11., 08:00 Foglalj időpontot Muskovits Krisztina Felnőtt - és gyermekpszichológus 14 év tapasztalat Életvezetési problémák Önértékelés és önbizalom Iskolai beilleszkedés + 27 1112 Budapest, Nevegy köz 2. Online videóhívás Alkalmanként 18 000 Ft-tól Legközelebbi időpont nov. 10., 09:00 Foglalj időpontot Kosina Zsolt Pszichológus, Sorsanalitikus tanácsadó 2 év tapasztalat Szülő-gyermek kapcsolat Válás feldolgozása Életátmenetek + 19 1114 Budapest, Bartók Béla út 51. Online videóhívás Alkalmanként 16 000 Ft-tól Legközelebbi időpont nov. 9., 17:00 Foglalj időpontot Schulze Blanka Tanácsadó szakpszichológus 6 év tapasztalat Családi kapcsolatok Életátmenetek Életmódváltás + 16 1024 Budapest, Nyúl utca 13/b Online videóhívás Alkalmanként 20 000 Ft-tól Legközelebbi időpont nov. 10., 10:00 Foglalj időpontot Bodrogi Bálint Pszichológus, Személyközpontú tanácsadó 2 év tapasztalat Önismeret és identitás Figyelemzavarok Családi kapcsolatok + 24 1054 Budapest, Bajcsy- Zsilinszky út 21 Online videóhívás Alkalmanként 1400 Ft-tól Legközelebbi időpont nov. 9., 16:00 Foglalj időpontot Kapuvári Éva Pszichológus, zeneterapeuta 5 év tapasztalat Stresszkezelés Szorongás Önértékelés és önbizalom + 22 1077 Budapest, Almássy tér 17 Alkalmanként 18 000 Ft-tól Legközelebbi időpont nov. 9., 18:30 Foglalj időpontot Félegyházy Anna pszichológus 11 év tapasztalat Önismeret mélyítése Önértékelés és önbizalom Szorongás + 18 2092 Budakeszi, Szőlőskert utca 21 Online videóhívás Alkalmanként 18 000 Ft-tól Legközelebbi időpont nov. 9., 08:30 Foglalj időpontot Gergely Rita Viktória Okleveles pszichológus, Komplex integratív terapeuta jelölt 4 év tapasztalat Dohányzásról való leszokás Időmenedzsment és szervezési nehézségek Elalvási nehézségek + 27 2151 Fót, Szent Benedek park 69. Online videóhívás Alkalmanként 19 000 Ft-tól Legközelebbi időpont nov. 9., 19:00 Foglalj időpontot Varga Kristof pszichológus 37 év tapasztalat Életátmenetek Családi konfliktuskezelés Családi határok + 27 1024 Budapest, Nyúl utca 13/b Alkalmanként 30 000 Ft-tól Legközelebbi időpont nov. 10., 08:00 Foglalj időpontot Mojzes Kinga Krízisintervenciós szakpszichológus 5 év tapasztalat Krízisintervenció Önértékelés és önbizalom Túlzott alkalmazkodás + 27 1024 Budapest, Nyúl utca 13/b Alkalmanként 20 000 Ft-tól Legközelebbi időpont nov. 20., 11:00 Foglalj időpontot Birtók Orsolya Pszichológus, integratív terapeuta jelölt 8 év tapasztalat ADHD Autizmus és neurodivergencia Neurodivergencia nehézségei + 24 Online videóhívás Alkalmanként 16 000 Ft-tól Legközelebbi időpont nov. 11., 16:00 Foglalj időpontot Bánffy Júlia Okleveles pszichológus 2 év tapasztalat Családi kapcsolatok Válás feldolgozása Életátmenetek + 23 1073 Budapest, Barcsay utca 9. Alkalmanként 18 000 Ft-tól Legközelebbi időpont nov. 9., 13:00 Foglalj időpontot Hajzer Klaudia Pszichológus 2026 óta praktizál Gyermekkori traumák feldolgozása Fizikai bántalmazás Érzelmi abúzus + 27 Online videóhívás Alkalmanként 20 000 Ft-tól Legközelebbi időpont nov. 9., 09:00 Foglalj időpontot Huszár Boglárka Okleveles pszichológus 4 év tapasztalat Alvással kapcsolatos szorongás Családi kapcsolatok Életcélok újragondolása + 12 1061 Budapest, Vasvári Pál utca 9. 1118 Budapest, Ménesi út 10. 1/2, 2-es kapucsengő Online videóhívás Alkalmanként 20 000 Ft-tól Legközelebbi időpont nov. 10., 14:00 Foglalj időpontot Dr. Bálint Adriána Pszichoterapeuta-jelölt Személyes fejlődés Önismeret mélyítése Kapcsolati határok kialakítása + 21 1092 Budapest, Ráday u. 15. 1114 Budapest, Bartók Béla út 9. Online videóhívás Alkalmanként 24 000 Ft-tól Legközelebbi időpont nov. 9., 15:00 Foglalj időpontot Pál László Személyközpontú pszichológus 4 év tapasztalat Életvezetési problémák Stresszkezelés Szorongás + 27 1139 Budapest, Hajdú utca 27 Alkalmanként 18 000 Ft-tól Legközelebbi időpont nov. 9., 13:00 Foglalj időpontot Vágási Nikola Krisztina Tanácsadó szakpszichológus 7 év tapasztalat Családi változások Szülő-gyermek kapcsolat Családi határok + 20 3300 Eger, Deák F. u. 51. Online videóhívás Alkalmanként 17 000 Ft-tól Legközelebbi időpont nov. 10., 08:30 Foglalj időpontot Babtan Krisztina Okleveles Pszichológus és autogén tréning gyakorlatvezető 5 év tapasztalat Gyász és veszteség Veszteségfeldolgozás Életvégi veszteségek feldolgozása + 27 Online videóhívás Alkalmanként 18 000 Ft-tól Legközelebbi időpont nov. 16., 09:00 Foglalj időpontot Vékony Adriána Okleveles pszichológus 3 év tapasztalat Időmenedzsment és szervezési nehézségek Alvás és regeneráció Alvásminőség javítása + 27 Online videóhívás Alkalmanként 15 500 Ft-tól Legközelebbi időpont nov. 11., 17:00 Foglalj időpontot Roboz Gabriella Tanácsadó szakpszichológus 25 év tapasztalat Felnőttkori ADHD Családi kapcsolatok Mozaikcsaládi nehézségek + 27 1092 Budapest, Erkel u. 6. 1174 Budapest, Vörösmarty u. 30. Alkalmanként 20 000 Ft-tól Legközelebbi időpont nov. 9., 15:00 Foglalj időpontot Schliesshahn Anna okleveles pszichológus, komplex integratív terapeuta jelölt 5 év tapasztalat Családi kapcsolatok Szülő-gyermek kapcsolat Válás feldolgozása + 18 1115 Budapest, Bártfai u. 48. Online videóhívás Alkalmanként 17 000 Ft-tól Legközelebbi időpont nov. 9., 16:00 Foglalj időpontot Bozó Anikó okleveles pszichológus 23 év tapasztalat Alvás és regeneráció Álmatlanság Alvásminőség javítása + 15 1065 Budapest, Bajcsy-Zsilinszky út 37. Online videóhívás Alkalmanként 17 000 Ft-tól Legközelebbi időpont nov. 9., 14:00 Foglalj időpontot Boros Dóra Barbara Szakpszichológus 10 év tapasztalat Önértékelés és önbizalom 1174 Budapest, Ady Endre utca 15 Online videóhívás Alkalmanként 12 000 Ft-tól Legközelebbi időpont nov. 9., 16:00 Foglalj időpontot Zolczer Melánia Gyermek-és ifjúsági klinikai szakpszichológus jelölt 4 év tapasztalat ADHD Időmenedzsment és szervezési nehézségek Szenzoros érzékenység + 10 2660 Balassagyarmat, 10. Online videóhívás Alkalmanként 16 000 Ft-tól Legközelebbi időpont nov. 12., 09:00 Foglalj időpontot Farkasné Kovács Réka Pszichológus 9 év tapasztalat Önértékelés és önbizalom Alacsony önértékelés Munkahelyi nehézségek + 12 Online videóhívás Alkalmanként 18 000 Ft-tól Legközelebbi időpont nov. 9., 09:00 Foglalj időpontot Sárkány Kinga Tanácsadó Szakpszichológus 15 év tapasztalat Életvezetési problémák Stresszkezelés Érzelemszabályzási nehézségek + 24 1133 Budapest, Véső u 6 Online videóhívás Alkalmanként 17 000 Ft-tól Legközelebbi időpont nov. 9., 17:00 Foglalj időpontot Csapi Flóra Alkalmazott egészségpszichológiai szakpszichológus 11 év tapasztalat Családi kapcsolatok Mozaikcsaládi nehézségek Családi konfliktuskezelés + 19 1133 Budapest, Véső u. 6. Online videóhívás Alkalmanként 22 000 Ft-tól Legközelebbi időpont nov. 10., 09:00 Foglalj időpontot Régeni Ákos Tanácsadó szakpszichológus 12 év tapasztalat Szorongás Depresszió Hangulatzavarok + 27 1011 Budapest, Markovits Iván u. 4., Böszörményi út 6. Alkalmanként 25 000 Ft-tól Legközelebbi időpont nov. 11., 13:00 Foglalj időpontot Hegedüs Judit Okleveles pszichológus, szakpszichológus, fókusz tréner 22 év tapasztalat Családi kapcsolatok Életcélok újragondolása Kapunyitási pánik + 4 Online videóhívás Alkalmanként 20 000 Ft-tól Legközelebbi időpont nov. 12., 09:00 Foglalj időpontot Sarkadi Réka Pszichológus 5 év tapasztalat Teljesítménykényszer Munka-magánélet egyensúly Önértékelés és önbizalom + 9 Online videóhívás Foglalj időpontot Dr Végh Miklós pszichoterapeuta-orvos 20 év tapasztalat Önértékelés és önbizalom Életmódváltás Párkapcsolati nehézségek Foglalj időpontot Votisky Petra Zita Klinikai szakpszichológus, megoldás-központú coach 27 év tapasztalat Egészségpszichológia Krónikus betegség feldolgozása Életátmenetek + 27 1036 Budapest, Árpád fejedelem útja 58. Alkalmanként 19 000 Ft-tól Foglalj időpontot Bozakov Barbara Pszichológus - klinika-és egészségpszichológia szakirány 7 év tapasztalat Családi kapcsolatok Családi változások Szülő-gyermek kapcsolat + 27 Online videóhívás Foglalj időpontot Pap Ildikó Okleveles Pszichológus 16 év tapasztalat Munkafüggőség Időmenedzsment és szervezési nehézségek Munka-magánélet egyensúly + 5 Online videóhívás Alkalmanként 24 000 Ft-tól Foglalj időpontot Morvai Petra Tanácsadó szakpszichológus 15 év tapasztalat Alvással kapcsolatos szorongás Családi konfliktuskezelés Mozaikcsaládi nehézségek + 27 1092 Budapest, Ráday utca 1145 Budapest, 8 Online videóhívás Foglalj időpontot Ficzere Márton Rezidens klinikai szakpszichológus 2 év tapasztalat Alvás és regeneráció Családi kapcsolatok Családi konfliktuskezelés + 16 1024 Budapest, Nyúl utca 13/b Alkalmanként 18 000 Ft-tól Foglalj időpontot Szekeres Mária Ágnes klinikai szakpszichológus, szakpszichoterapeuta 29 év tapasztalat Online videóhívás Foglalj időpontot Váradi Borbála Pszichológus 5 év tapasztalat Figyelemzavarok Autizmus és neurodivergencia Szülő-gyermek kapcsolat + 19 Foglalj időpontot Eszik Barbara Pszichológus, CBT terapeuta, Pár- és Családterapeuta jelölt 5 év tapasztalat Munkafüggőség Alváshigiéné kialakítása Alvás és regeneráció + 27 Online videóhívás Foglalj időpontot Joó Dalma Tanácsadó szakpszichológus 4 év tapasztalat Családi kapcsolatok Életátmenetek Életcélok újragondolása + 24 1145 Budapest, Varsó utca 8. 1163 Budapest, Albán utca 28/b Alkalmanként 14 000 Ft-tól Foglalj időpontot Szabó-Műhelyi Viktória Klinikai szakpszichológus 6 év tapasztalat Perfekcionizmus Túlzott aggodalmaskodás Szociális szorongás + 27 Online videóhívás Foglalj időpontot Czirinkó Rebeka Okleveles pszichológus 6 év tapasztalat Időmenedzsment és szervezési nehézségek Feladatkezdési nehézségek Családi kapcsolatok + 26 Foglalj időpontot Dr. Czabán László Pszichoterápia szakorvosa 2 év tapasztalat Felnőttkori ADHD Depresszió Egészségpszichológia + 21 Foglalj időpontot Sánta Virág Pszichológus 2 év tapasztalat Viselkedési függőségek Időmenedzsment és szervezési nehézségek Alvásminőség javítása + 27 Foglalj időpontot Dr. Tanyi Zsuzsanna klinikai szakpszichológus, PhD 17 év tapasztalat Alvászavarok Családi kapcsolatok Családi határok + 13 Alkalmanként 19 000 Ft-tól Foglalj időpontot Babonits-Farkas Kinga Személyközpontú pszichológus 9 év tapasztalat Onkológiai betegek támogatása Gyász és veszteség Gyásztanácsadás + 16 Foglalj időpontot Sneé Gergely Tanácsadó szakpszichológus 9 év tapasztalat Online videóhívás Foglalj időpontot Smelkó Rita Okleveles pszichológus 2 év tapasztalat ADHD Felnőttkori ADHD Alvásminőség javítása + 27 Online videóhívás Foglalj időpontot Csurgai Anna Pszichológus 8 év tapasztalat Családi kapcsolatok Családi határok Családi konfliktuskezelés + 27 1016 Budapest, Mészáros u. 2 1192 Budapest, Kós Károly tér 9-2 emelet 19. ajtó Alkalmanként 18 000 Ft-tól Foglalj időpontot Juhász Flóra Pszichológus 9 év tapasztalat Önismeret és identitás Önértékelés és önbizalom Vezetőfejlesztés + 12 1111 Budapest, Lágymányosi utca 13. Online videóhívás Alkalmanként 32 000 Ft-tól Foglalj időpontot Böngéssz a pszichológusok között Kiemelt Városok Budapesti kerületek Egyéni terápia Párterápia Online 32 pszichológus érhető el Budapest 25 pszichológus a városban Egyéni terápia 36 pszichológus országszerte Párterápia 5 pszichológus országszerte Balassagyarmat 1 pszichológus a városban Budakeszi 1 pszichológus a városban Budapest 25 pszichológus a városban Eger 1 pszichológus a városban Fót 1 pszichológus a városban I. kerület 3 pszichológus a kerületben II. kerület 4 pszichológus a kerületben III. kerület 1 pszichológus a kerületben V. kerület 1 pszichológus a kerületben VI. kerület 2 pszichológus a kerületben VII. kerület 2 pszichológus a kerületben IX. kerület 3 pszichológus a kerületben XI. kerület 6 pszichológus a kerületben XIII. kerület 3 pszichológus a kerületben XIV. kerület 2 pszichológus a kerületben XVI. kerület 1 pszichológus a kerületben XVII. kerület 2 pszichológus a kerületben XIX. kerület 1 pszichológus a kerületben Továbbiak Egyéni terápia 36 pszichológus országszerte Online egyéni terápia 23 pszichológus érhető el Balassagyarmat egyéni terápia 1 pszichológus a városban Budakeszi egyéni terápia 1 pszichológus a városban Budapest egyéni terápia 18 pszichológus a városban Budapest I. kerület egyéni terápia 2 pszichológus a kerületben Budapest II. kerület egyéni terápia 3 pszichológus a kerületben Budapest V. kerület egyéni terápia 1 pszichológus a kerületben Budapest VI. kerület egyéni terápia 2 pszichológus a kerületben Budapest VII. kerület egyéni terápia 2 pszichológus a kerületben Budapest IX. kerület egyéni terápia 2 pszichológus a kerületben Budapest XI. kerület egyéni terápia 5 pszichológus a kerületben Budapest XIII. kerület egyéni terápia 3 pszichológus a kerületben Budapest XVII. kerület egyéni terápia 1 pszichológus a kerületben Eger egyéni terápia 1 pszichológus a városban Továbbiak Párterápia 5 pszichológus országszerte Online párterápia 1 pszichológus érhető el Budakeszi párterápia 1 pszichológus a városban Budapest párterápia 1 pszichológus a városban Budapest IX. kerület párterápia 1 pszichológus a kerületben Budapest XVII. kerület párterápia 1 pszichológus a kerületben"
+}

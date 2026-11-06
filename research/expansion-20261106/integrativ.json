@@ -1,0 +1,1664 @@
+{
+  "url": "https://integrativ.hu/integrativ-terapeutak",
+  "final_url": "https://integrativ.hu/integrativ-terapeutak",
+  "status": 200,
+  "sha256": "099e8ae2389529d777248d384446ac8894ff1c01ff709b68331cb40989657e8e",
+  "title": "Az Integratív Pszichoterápiás Egyesület kiképzett terapeutái",
+  "tables": [
+    {
+      "attrs": {
+        "class": [
+          "table"
+        ]
+      },
+      "rows": [
+        {
+          "cells": [
+            "Ábrahám-Ujpál Zsófia",
+            "klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.lelek-harmonia.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Andriska Eszter",
+            "klinikai szakpszichológus jelölt",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Antal Ildikó",
+            "pszichológus",
+            "Brüsszel",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.ildikoantalpsy.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Bábolnai Péter",
+            "klinikai szakpszichológus",
+            "Nyíregyháza",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://www.nytm.hu/babolnai-peter"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Balajthy Ramóna",
+            "klinikai szakpszichológus",
+            "online",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.onlinepszichologus.eu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Balikó Eszter, Dr.",
+            "mentálhigiénés szakember",
+            "Pécs",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.pszichoterapiapecs.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Bányász Réka",
+            "klinikai szakpszichológus",
+            "online",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.banyaszreka.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Bánfai Károly",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.banfaikaroly.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Bellér Katalin",
+            "tanácsadó szakpszichológus",
+            "Békéscsaba",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://bellerkata.hu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Boytha Zsófia",
+            "klinikai szakpszichológus",
+            "Budapest, 11./13.",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Brieger Katalin",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Csábi Orsolya",
+            "pszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.csabiorsolya.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Csorbák Tamás, Dr.",
+            "háziorvos",
+            "Nyíregyháza",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.gojolly.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Csurgai Dorottya",
+            "tanácsadó szakpszichológus",
+            "Budapest, 13. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.csurgaidorottya.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Darvasi Zsuzsanna",
+            "klinikai szakpszichológus",
+            "Pécs",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Daubner Béla, Dr.",
+            "pszichoterapeuta, pszichiáter szakorvos",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Daubner Eszter",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Veszprém",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Erki-Kovács Zsuzsanna",
+            "klinikai szakpszichológus",
+            "Dunakeszi",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.erki-kovacs.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Eitler Szilvia",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Engwau Linda",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Békéscsaba",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Fábiánné Kiss Monika, Dr.",
+            "pszichológus",
+            "Nyíregyháza",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Fadgyas Ildikó, Dr.",
+            "pszichoterapeuta, pszichiáter, addiktológus szakorvos",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Fehér Gabriella, Dr.",
+            "pszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.maganpszichologus.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Fekete Zita, dr.",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Debrecen",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "F. Nádasi Zsuzsanna",
+            "pszichológus",
+            "Budapest, Biatorbágy",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.lelekpontrendelo.hu/feher-nadasi-zsuzsanna/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Hang András",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.hangandras.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Galambos Attila",
+            "sport szakpszichológus",
+            "Budapest, 1.,2. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://galambosattilapszi.hu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Gáti Ágnes, Dr.",
+            "pszichoterapeuta, pszichiáter szakorvos",
+            "Pécs",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Goldmann-né Fehér Hajnalka",
+            "klinikai szakpszichológus",
+            "Pécs",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.feherhajnalkapszichologus.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Guba Zsófia",
+            "klinikai szakpszichológus",
+            "Budapest, 3. kerület",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Hajdu Éva",
+            "tanácsadó szakpszichológus",
+            "Budapest, 2., 13. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.hajdueva-pszichologus.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Harkácsi Judit (Fábiánné)",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.harkacsijudit.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Hertel Judit",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest, 3., 13. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.pszinergia.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Horváth Ferencné",
+            "pszichológus",
+            "Szekszárd",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.kivulbelul.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Horváth Rita",
+            "pszichológus",
+            "Budapest 9. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.ujfoldtanacsado.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Illés Enikő (Kovácsné)",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Pécs",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Imre Mária Magdolna",
+            "pszichológus",
+            "Budapest 1., Siófok",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://talaldmegonmagad.com/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Irha Edina",
+            "klinikai szakpszichológus jelölt, pszichológus",
+            "Debrecen",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kardosné Varga Krisztina",
+            "tanácsadó szakpszichológus",
+            "Budapest, 15. kerület",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kasza Zsuzsanna",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest, 1. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://budaipszichologus.hu/pszichologusaink-munkatarsaink/kasza-zsuzsanna/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Keczeli Danica, Dr.",
+            "klinikai szakpszichológus",
+            "Debrecen",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://keczelidanica.hu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Keresztfalvi László",
+            "pszichológus",
+            "Budapest, 11.,12. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://mentalmax.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Keszeg Andrea",
+            "tanácsadó szakpszichológus",
+            "Budapest, 14. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.keszegandrea.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Király Csaba",
+            "pszichológus",
+            "Budapest, 9.,11. kerület",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Knauz Kata",
+            "pszichológus",
+            "online",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://www.knauz-kata-pszichologus.hu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Kovács Petra",
+            "sportszakpszichológiai szakpszichológus, képzésben lévő alkalmazott egészségpszichológiai szakpszichológus",
+            "Budapest, 11. kerület",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kőtörő Emese",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kunsági Andrea, Dr.",
+            "klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.kunsagi.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Kuritárné Dr. Szabó Ildikó",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Debrecen, Nyíregyháza",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "L. Stipkovits Erika",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Győr, Szombathely",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Lányi-Wolf Andrea",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Lázár Gergely",
+            "klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.gery.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Lugosiné Pál Ildikó",
+            "klinikai szakpszichológus",
+            "Békéscsaba",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Lukács Márton, dr.",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Debrecen",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.lelked-rajta.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Magony Dóra",
+            "tanácsadó szakpszichológus",
+            "Budapest, 11., 13. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.magonydora.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Mátyás Edit, Dr.",
+            "pszichoterapeuta szakorvos",
+            "Kecskemét",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Mekler Judit",
+            "klinikai szakpszichológus",
+            "Szolnok",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Mezőfi-Horváth Antónia",
+            "klinikai szakpszichológus",
+            "Kiskőrös",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.antoniapszichologus.hu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Moldvay Tímea",
+            "klinikai szakpszichológus",
+            "Pécs",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Molnár Judit, Dr.",
+            "klinikai szakpszichológus",
+            "Debrecen",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Molnár Tímea, Dr.",
+            "orvos",
+            "Budapest, 3. kerület",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Nagy Rita, dr.",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Németh Adrienn, Dr.",
+            "gyermek és ifjúságpszichiáter, pszichoterapeuta",
+            "Budapest, Győr",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "N. Tóth Klára",
+            "tanácsadó szakpszichológus",
+            "Győr",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Német Borbála",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest, 6. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.nemetborbala.com"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Néveriné Czakó Magdolna",
+            "klinikai szakpszichológus",
+            "Békéscsaba",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Novotny Gabriella",
+            "pszichoterapeuta, pszichiáter, orvosi rehabilitáció szakorvos",
+            "Sopron",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.novomedic.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Nyeste-Jakab Krisztina",
+            "tanácsadó szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Ozvald Gabriella",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Nyíregyháza, Debrecen",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://-"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Papp Gabriella Adrienn",
+            "klinikai szakpszichológus",
+            "Debrecen",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.pappgabriella.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Perger Mónika, Dr.",
+            "tanácsadó szakpszichológus",
+            "Budapest, 9., 18. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://pergermonika.hu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Pintér Dóra Katinka",
+            "klinikai szakpszichológus",
+            "Kecskemét",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Polonyik Éva Tünde, Dr.",
+            "pszichológus",
+            "Debrecen",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.tundepolonyi.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Priol Ágnes",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest, 12. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.lelekvasalo.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Prókainé Vizi Ildikó",
+            "pszichoterapeuta",
+            "Békéscsaba",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Rapcsányi Éva, Dr.",
+            "pszichoterapeuta, pszichiáter szakorvos",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Ritzl Andrea",
+            "klinikai szakpszichológus, pszichoterapeuta",
+            "Budapest, 13.",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.kapcsolatbanbontakozo.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Solymos Tamás",
+            "pszichológus",
+            "Budapest 4. kerület, Zebegény",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.solymost.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Soponyai-Nagy Krisztina",
+            "pszichológus",
+            "Budapest, 11.ker",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.pszicho-logosz.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Stocker Andrea",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Szentlőrinc, Szigetvár",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Szabó Gábor",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Szabó Gergely Sándor, Dr.",
+            "alkalmazott egészségpszichológiai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.animamundi.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Szántó Eszter Judit",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Székács Zsófia",
+            "tanácsadó szakpszichológus",
+            "Budapest, 11. kerület",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.szekacszsofia.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Szentmiklóssy Margit, Dr.",
+            "pszichoterapeuta, klinikai szakpszichológus, neuropszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.pszichologus-pszichoterapeuta.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Szöőr Andrea",
+            "klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.szoorandi.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Szujóné Lévai Zsuzsanna",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest, Budaörs",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Takács- Daubner Ivett",
+            "klinikai szakpszichológus",
+            "Pécs",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Tessely Karolina, Dr.",
+            "pszichoterapeuta szakorvos",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Tóth Mariann",
+            "tanácsadó szakpszichológus",
+            "Szombathely",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Tóth Tünde, dr.",
+            "pszichológus",
+            "Békéscsaba, Mezőberény",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://csondeszug.hu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Tölgyesi Zsuzsanna",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Budapest",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://tolgyesizsuzsanna.hu"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Török Krisztina, Dr.",
+            "pszichoterapeuta szakorvos, fogorvos",
+            "Budapest, 3. kerület",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Varga Krisztina, Dr.",
+            "pszichoterapeuta szakorvos, fogorvos",
+            "Szentendre",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "https://www.sonodent.eu/"
+            }
+          ]
+        },
+        {
+          "cells": [
+            "Vékássy Timea",
+            "pszichológus",
+            "Budapest",
+            "Email",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Völcsey Mónika",
+            "pszichoterapeuta, klinikai szakpszichológus",
+            "Szombathely",
+            "Email",
+            "Honlap"
+          ],
+          "links": [
+            {
+              "text": "Honlap",
+              "url": "http://www.pszichologus-szombathely.hu"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "headings": [],
+  "links": [
+    {
+      "text": "Honlap",
+      "url": "http://www.lelek-harmonia.hu",
+      "attrs": {
+        "href": "http://www.lelek-harmonia.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.ildikoantalpsy.com",
+      "attrs": {
+        "href": "http://www.ildikoantalpsy.com",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://www.nytm.hu/babolnai-peter",
+      "attrs": {
+        "href": "https://www.nytm.hu/babolnai-peter",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.onlinepszichologus.eu",
+      "attrs": {
+        "href": "http://www.onlinepszichologus.eu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.pszichoterapiapecs.com",
+      "attrs": {
+        "href": "http://www.pszichoterapiapecs.com",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.banyaszreka.hu",
+      "attrs": {
+        "href": "http://www.banyaszreka.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.banfaikaroly.hu",
+      "attrs": {
+        "href": "http://www.banfaikaroly.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://bellerkata.hu/",
+      "attrs": {
+        "href": "https://bellerkata.hu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.csabiorsolya.hu",
+      "attrs": {
+        "href": "http://www.csabiorsolya.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.gojolly.hu",
+      "attrs": {
+        "href": "http://www.gojolly.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.csurgaidorottya.com",
+      "attrs": {
+        "href": "http://www.csurgaidorottya.com",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.erki-kovacs.hu",
+      "attrs": {
+        "href": "http://www.erki-kovacs.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.maganpszichologus.hu",
+      "attrs": {
+        "href": "http://www.maganpszichologus.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.lelekpontrendelo.hu/feher-nadasi-zsuzsanna/",
+      "attrs": {
+        "href": "http://www.lelekpontrendelo.hu/feher-nadasi-zsuzsanna/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.hangandras.hu",
+      "attrs": {
+        "href": "http://www.hangandras.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://galambosattilapszi.hu/",
+      "attrs": {
+        "href": "https://galambosattilapszi.hu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.feherhajnalkapszichologus.hu",
+      "attrs": {
+        "href": "http://www.feherhajnalkapszichologus.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.hajdueva-pszichologus.hu",
+      "attrs": {
+        "href": "http://www.hajdueva-pszichologus.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.harkacsijudit.hu",
+      "attrs": {
+        "href": "http://www.harkacsijudit.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.pszinergia.hu",
+      "attrs": {
+        "href": "http://www.pszinergia.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.kivulbelul.hu",
+      "attrs": {
+        "href": "http://www.kivulbelul.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.ujfoldtanacsado.hu",
+      "attrs": {
+        "href": "http://www.ujfoldtanacsado.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://talaldmegonmagad.com/",
+      "attrs": {
+        "href": "http://talaldmegonmagad.com/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://budaipszichologus.hu/pszichologusaink-munkatarsaink/kasza-zsuzsanna/",
+      "attrs": {
+        "href": "https://budaipszichologus.hu/pszichologusaink-munkatarsaink/kasza-zsuzsanna/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://keczelidanica.hu/",
+      "attrs": {
+        "href": "https://keczelidanica.hu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://mentalmax.hu",
+      "attrs": {
+        "href": "https://mentalmax.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.keszegandrea.hu",
+      "attrs": {
+        "href": "http://www.keszegandrea.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://www.knauz-kata-pszichologus.hu/",
+      "attrs": {
+        "href": "https://www.knauz-kata-pszichologus.hu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.kunsagi.com",
+      "attrs": {
+        "href": "http://www.kunsagi.com",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.gery.hu",
+      "attrs": {
+        "href": "http://www.gery.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.lelked-rajta.hu",
+      "attrs": {
+        "href": "http://www.lelked-rajta.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.magonydora.hu",
+      "attrs": {
+        "href": "http://www.magonydora.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.antoniapszichologus.hu/",
+      "attrs": {
+        "href": "http://www.antoniapszichologus.hu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.nemetborbala.com",
+      "attrs": {
+        "href": "http://www.nemetborbala.com",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.novomedic.hu",
+      "attrs": {
+        "href": "http://www.novomedic.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://-",
+      "attrs": {
+        "href": "http://-",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.pappgabriella.hu",
+      "attrs": {
+        "href": "http://www.pappgabriella.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://pergermonika.hu/",
+      "attrs": {
+        "href": "https://pergermonika.hu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.tundepolonyi.hu",
+      "attrs": {
+        "href": "http://www.tundepolonyi.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.lelekvasalo.hu",
+      "attrs": {
+        "href": "http://www.lelekvasalo.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.kapcsolatbanbontakozo.hu",
+      "attrs": {
+        "href": "http://www.kapcsolatbanbontakozo.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.solymost.hu",
+      "attrs": {
+        "href": "http://www.solymost.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.pszicho-logosz.hu",
+      "attrs": {
+        "href": "http://www.pszicho-logosz.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.animamundi.hu",
+      "attrs": {
+        "href": "http://www.animamundi.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.szekacszsofia.hu",
+      "attrs": {
+        "href": "http://www.szekacszsofia.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.pszichologus-pszichoterapeuta.hu",
+      "attrs": {
+        "href": "http://www.pszichologus-pszichoterapeuta.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.szoorandi.hu",
+      "attrs": {
+        "href": "http://www.szoorandi.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://csondeszug.hu/",
+      "attrs": {
+        "href": "https://csondeszug.hu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://tolgyesizsuzsanna.hu",
+      "attrs": {
+        "href": "https://tolgyesizsuzsanna.hu",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://www.sonodent.eu/",
+      "attrs": {
+        "href": "https://www.sonodent.eu/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "http://www.pszichologus-szombathely.hu",
+      "attrs": {
+        "href": "http://www.pszichologus-szombathely.hu",
+        "target": "_blank"
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://integrativ.hu/makeup/js/jquery-3.6.0.min.js",
+      "hint": ""
+    },
+    {
+      "src": "https://integrativ.hu/makeup/js/script.js?v=20220215",
+      "hint": ""
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-4T42J8F2ZD",
+      "hint": ""
+    },
+    {
+      "src": "https://www.google.com/recaptcha/api.js",
+      "hint": ""
+    }
+  ],
+  "iframes": [],
+  "text": "Az Integratív Pszichoterápiás Egyesület kiképzett terapeutái INTEGRATÍV TERAPEUTÁK Ábrahám-Ujpál Zsófia klinikai szakpszichológus Budapest Email Honlap Andriska Eszter klinikai szakpszichológus jelölt Budapest Email Antal Ildikó pszichológus Brüsszel Email Honlap Bábolnai Péter klinikai szakpszichológus Nyíregyháza Email Honlap Balajthy Ramóna klinikai szakpszichológus online Email Honlap Balikó Eszter, Dr. mentálhigiénés szakember Pécs Email Honlap Bányász Réka klinikai szakpszichológus online Email Honlap Bánfai Károly pszichoterapeuta, klinikai szakpszichológus Budapest Email Honlap Bellér Katalin tanácsadó szakpszichológus Békéscsaba Email Honlap Boytha Zsófia klinikai szakpszichológus Budapest, 11./13. Email Brieger Katalin pszichoterapeuta, klinikai szakpszichológus Budapest Email Csábi Orsolya pszichológus Budapest Email Honlap Csorbák Tamás, Dr. háziorvos Nyíregyháza Email Honlap Csurgai Dorottya tanácsadó szakpszichológus Budapest, 13. kerület Email Honlap Darvasi Zsuzsanna klinikai szakpszichológus Pécs Email Daubner Béla, Dr. pszichoterapeuta, pszichiáter szakorvos Budapest Email Daubner Eszter pszichoterapeuta, klinikai szakpszichológus Veszprém Email Erki-Kovács Zsuzsanna klinikai szakpszichológus Dunakeszi Email Honlap Eitler Szilvia pszichoterapeuta, klinikai szakpszichológus Budapest Email Engwau Linda pszichoterapeuta, klinikai szakpszichológus Békéscsaba Email Fábiánné Kiss Monika, Dr. pszichológus Nyíregyháza Email Fadgyas Ildikó, Dr. pszichoterapeuta, pszichiáter, addiktológus szakorvos Budapest Email Fehér Gabriella, Dr. pszichológus Budapest Email Honlap Fekete Zita, dr. pszichoterapeuta, klinikai szakpszichológus Debrecen Email F. Nádasi Zsuzsanna pszichológus Budapest, Biatorbágy Email Honlap Hang András pszichoterapeuta, klinikai szakpszichológus Budapest Email Honlap Galambos Attila sport szakpszichológus Budapest, 1.,2. kerület Email Honlap Gáti Ágnes, Dr. pszichoterapeuta, pszichiáter szakorvos Pécs Email Goldmann-né Fehér Hajnalka klinikai szakpszichológus Pécs Email Honlap Guba Zsófia klinikai szakpszichológus Budapest, 3. kerület Email Hajdu Éva tanácsadó szakpszichológus Budapest, 2., 13. kerület Email Honlap Harkácsi Judit (Fábiánné) pszichoterapeuta, klinikai szakpszichológus Budapest Email Honlap Hertel Judit pszichoterapeuta, klinikai szakpszichológus Budapest, 3., 13. kerület Email Honlap Horváth Ferencné pszichológus Szekszárd Email Honlap Horváth Rita pszichológus Budapest 9. kerület Email Honlap Illés Enikő (Kovácsné) pszichoterapeuta, klinikai szakpszichológus Pécs Email Imre Mária Magdolna pszichológus Budapest 1., Siófok Email Honlap Irha Edina klinikai szakpszichológus jelölt, pszichológus Debrecen Email Kardosné Varga Krisztina tanácsadó szakpszichológus Budapest, 15. kerület Email Kasza Zsuzsanna pszichoterapeuta, klinikai szakpszichológus Budapest, 1. kerület Email Honlap Keczeli Danica, Dr. klinikai szakpszichológus Debrecen Email Honlap Keresztfalvi László pszichológus Budapest, 11.,12. kerület Email Honlap Keszeg Andrea tanácsadó szakpszichológus Budapest, 14. kerület Email Honlap Király Csaba pszichológus Budapest, 9.,11. kerület Email Knauz Kata pszichológus online Email Honlap Kovács Petra sportszakpszichológiai szakpszichológus, képzésben lévő alkalmazott egészségpszichológiai szakpszichológus Budapest, 11. kerület Email Kőtörő Emese pszichoterapeuta, klinikai szakpszichológus Budapest Email Kunsági Andrea, Dr. klinikai szakpszichológus Budapest Email Honlap Kuritárné Dr. Szabó Ildikó pszichoterapeuta, klinikai szakpszichológus Debrecen, Nyíregyháza Email L. Stipkovits Erika pszichoterapeuta, klinikai szakpszichológus Győr, Szombathely Email Lányi-Wolf Andrea pszichoterapeuta, klinikai szakpszichológus Budapest Email Lázár Gergely klinikai szakpszichológus Budapest Email Honlap Lugosiné Pál Ildikó klinikai szakpszichológus Békéscsaba Email Lukács Márton, dr. pszichoterapeuta, klinikai szakpszichológus Debrecen Email Honlap Magony Dóra tanácsadó szakpszichológus Budapest, 11., 13. kerület Email Honlap Mátyás Edit, Dr. pszichoterapeuta szakorvos Kecskemét Email Mekler Judit klinikai szakpszichológus Szolnok Email Mezőfi-Horváth Antónia klinikai szakpszichológus Kiskőrös Email Honlap Moldvay Tímea klinikai szakpszichológus Pécs Email Molnár Judit, Dr. klinikai szakpszichológus Debrecen Email Molnár Tímea, Dr. orvos Budapest, 3. kerület Email Nagy Rita, dr. pszichoterapeuta, klinikai szakpszichológus Budapest Email Németh Adrienn, Dr. gyermek és ifjúságpszichiáter, pszichoterapeuta Budapest, Győr Email N. Tóth Klára tanácsadó szakpszichológus Győr Email Német Borbála pszichoterapeuta, klinikai szakpszichológus Budapest, 6. kerület Email Honlap Néveriné Czakó Magdolna klinikai szakpszichológus Békéscsaba Email Novotny Gabriella pszichoterapeuta, pszichiáter, orvosi rehabilitáció szakorvos Sopron Email Honlap Nyeste-Jakab Krisztina tanácsadó szakpszichológus Budapest Email Ozvald Gabriella pszichoterapeuta, klinikai szakpszichológus Nyíregyháza, Debrecen Email Honlap Papp Gabriella Adrienn klinikai szakpszichológus Debrecen Email Honlap Perger Mónika, Dr. tanácsadó szakpszichológus Budapest, 9., 18. kerület Email Honlap Pintér Dóra Katinka klinikai szakpszichológus Kecskemét Email Polonyik Éva Tünde, Dr. pszichológus Debrecen Email Honlap Priol Ágnes pszichoterapeuta, klinikai szakpszichológus Budapest, 12. kerület Email Honlap Prókainé Vizi Ildikó pszichoterapeuta Békéscsaba Email Rapcsányi Éva, Dr. pszichoterapeuta, pszichiáter szakorvos Budapest Email Ritzl Andrea klinikai szakpszichológus, pszichoterapeuta Budapest, 13. Email Honlap Solymos Tamás pszichológus Budapest 4. kerület, Zebegény Email Honlap Soponyai-Nagy Krisztina pszichológus Budapest, 11.ker Email Honlap Stocker Andrea pszichoterapeuta, klinikai szakpszichológus Szentlőrinc, Szigetvár Email Szabó Gábor pszichoterapeuta, klinikai szakpszichológus Budapest Email Szabó Gergely Sándor, Dr. alkalmazott egészségpszichológiai szakpszichológus Budapest Email Honlap Szántó Eszter Judit pszichoterapeuta, klinikai szakpszichológus Budapest Email Székács Zsófia tanácsadó szakpszichológus Budapest, 11. kerület Email Honlap Szentmiklóssy Margit, Dr. pszichoterapeuta, klinikai szakpszichológus, neuropszichológus Budapest Email Honlap Szöőr Andrea klinikai szakpszichológus Budapest Email Honlap Szujóné Lévai Zsuzsanna pszichoterapeuta, klinikai szakpszichológus Budapest, Budaörs Email Takács- Daubner Ivett klinikai szakpszichológus Pécs Email Tessely Karolina, Dr. pszichoterapeuta szakorvos Budapest Email Tóth Mariann tanácsadó szakpszichológus Szombathely Email Tóth Tünde, dr. pszichológus Békéscsaba, Mezőberény Email Honlap Tölgyesi Zsuzsanna pszichoterapeuta, klinikai szakpszichológus Budapest Email Honlap Török Krisztina, Dr. pszichoterapeuta szakorvos, fogorvos Budapest, 3. kerület Email Varga Krisztina, Dr. pszichoterapeuta szakorvos, fogorvos Szentendre Email Honlap Vékássy Timea pszichológus Budapest Email Völcsey Mónika pszichoterapeuta, klinikai szakpszichológus Szombathely Email Honlap"
+}

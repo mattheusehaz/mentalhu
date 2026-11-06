@@ -1,0 +1,2798 @@
+{
+  "url": "https://coachingfederation.hu/tagjaink/",
+  "final_url": "https://coachingfederation.hu/tagjaink/",
+  "status": 200,
+  "sha256": "6009504c407493b9187846784208ef83dcc2c51522698accd42289058f2f521f",
+  "title": "ICF coachok - ICF Hungary",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "section-head__title"
+        ]
+      },
+      "text": "ICF coachok",
+      "parent": "header",
+      "parent_attrs": {
+        "class": [
+          "section-head"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "site-footer__col-title"
+        ]
+      },
+      "text": "A szervezet",
+      "parent": "nav",
+      "parent_attrs": {
+        "class": [
+          "site-footer__col"
+        ],
+        "aria-label": "A szervezet"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "site-footer__col-title"
+        ]
+      },
+      "text": "Tagság",
+      "parent": "nav",
+      "parent_attrs": {
+        "class": [
+          "site-footer__col"
+        ],
+        "aria-label": "Tagság"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "site-footer__col-title"
+        ]
+      },
+      "text": "Kapcsolat",
+      "parent": "nav",
+      "parent_attrs": {
+        "class": [
+          "site-footer__col"
+        ],
+        "aria-label": "Kapcsolat"
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Bővebben →",
+      "url": "https://coachingfederation.hu/termek/tagsagi-dij/",
+      "attrs": {
+        "class": [
+          "topbar__link"
+        ],
+        "href": "https://coachingfederation.hu/termek/tagsagi-dij/"
+      }
+    },
+    {
+      "text": "ICF MAP — 2026. november 11. — Generál Péter MCC",
+      "url": "https://coachingfederation.hu/esemenyek/icf-map-general-peter-mcc-transzformativ-pillanatok-a-coachingban/",
+      "attrs": {
+        "class": [
+          "topbar__link"
+        ],
+        "href": "https://coachingfederation.hu/esemenyek/icf-map-general-peter-mcc-transzformativ-pillanatok-a-coachingban/"
+      }
+    },
+    {
+      "text": "ICF Magyar Tagozat",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/"
+      }
+    },
+    {
+      "text": "A szervezet",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/"
+      }
+    },
+    {
+      "text": "Elnökség és szakmai csapatok",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/elnokseg-es-szakmai-csapatok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/elnokseg-es-szakmai-csapatok/"
+      }
+    },
+    {
+      "text": "Jegyzőkönyvek, beszámolók",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/jegyzokonyvek-beszamolok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/jegyzokonyvek-beszamolok/"
+      }
+    },
+    {
+      "text": "Az Év ICF Coacha és Teamcoacha",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/ev-icf-coacha-palyazat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/ev-icf-coacha-palyazat/"
+      }
+    },
+    {
+      "text": "Díjak és eredmények",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/dijak-es-eredmenyek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/dijak-es-eredmenyek/"
+      }
+    },
+    {
+      "text": "Belépés",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/"
+      }
+    },
+    {
+      "text": "Belépési dokumentum és tudnivalók",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/belepesi-dokumentum-es-tudnivalok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/belepesi-dokumentum-es-tudnivalok/"
+      }
+    },
+    {
+      "text": "Global tagság",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/global-tagsag/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/global-tagsag/"
+      }
+    },
+    {
+      "text": "Magyar tagság",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/magyar-tagsag/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/magyar-tagsag/"
+      }
+    },
+    {
+      "text": "Események",
+      "url": "https://coachingfederation.hu/esemenyek",
+      "attrs": {
+        "href": "https://coachingfederation.hu/esemenyek"
+      }
+    },
+    {
+      "text": "ICF coachok",
+      "url": "https://coachingfederation.hu/tagjaink/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/tagjaink/",
+        "aria-current": "page"
+      }
+    },
+    {
+      "text": "Minősítések",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/"
+      }
+    },
+    {
+      "text": "ICF-coaching",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/"
+      }
+    },
+    {
+      "text": "Etikai Kódex",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/etikai-kodex-gyik/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/etikai-kodex-gyik/"
+      }
+    },
+    {
+      "text": "Coaching kompetenciák",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/coaching-kompetenciak/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/coaching-kompetenciak/"
+      }
+    },
+    {
+      "text": "Team coaching kompetenciák",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/team-coaching-kompetenciak/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/team-coaching-kompetenciak/"
+      }
+    },
+    {
+      "text": "Kompetenciahatárok",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/kompetenciahatarok-2/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/kompetenciahatarok-2/"
+      }
+    },
+    {
+      "text": "Minősítések",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/"
+      }
+    },
+    {
+      "text": "Coach minősítés",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/"
+      }
+    },
+    {
+      "text": "ACC",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/egyeni-minosites/acc/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/egyeni-minosites/acc/"
+      }
+    },
+    {
+      "text": "PCC",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/egyeni-minosites/pcc/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/egyeni-minosites/pcc/"
+      }
+    },
+    {
+      "text": "MCC",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/egyeni-minosites/mcc/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/coach-minosites/egyeni-minosites/mcc/"
+      }
+    },
+    {
+      "text": "Team coaching minősítés",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/team-coaching-minosites/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/minositesek/team-coaching-minosites/"
+      }
+    },
+    {
+      "text": "Képzések, továbbképzések",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/"
+      }
+    },
+    {
+      "text": "Mentorcoaching és szupervízió",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/mentorcoaching-es-szupervizio/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/mentorcoaching-es-szupervizio/"
+      }
+    },
+    {
+      "text": "MAP sorozat",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/map-sorozat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/map-sorozat/"
+      }
+    },
+    {
+      "text": "Visible Coach programsorozat",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/visible-coach/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/visible-coach/"
+      }
+    },
+    {
+      "text": "CCEU-t érő programok",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/cceu-t-ero-programok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/cceu-t-ero-programok/"
+      }
+    },
+    {
+      "text": "Akkreditált képzők",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/akkreditalt-kepzok/"
+      }
+    },
+    {
+      "text": "Képzés minősítési folyamat",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/kepzes-minositesi-folyamat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/kepzes-minositesi-folyamat/"
+      }
+    },
+    {
+      "text": "Kedvezményes programok",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/kedvezmenyes-programok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/kepzesek-tovabbkepzesek/kedvezmenyes-programok/"
+      }
+    },
+    {
+      "text": "Jószolgálat",
+      "url": "https://coachingfederation.hu/joszolgalat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/joszolgalat/"
+      }
+    },
+    {
+      "text": "Partnerek",
+      "url": "https://coachingfederation.hu/joszolgalat/partnerek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/joszolgalat/partnerek/"
+      }
+    },
+    {
+      "text": "Programok",
+      "url": "https://coachingfederation.hu/joszolgalat/programok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/joszolgalat/programok/"
+      }
+    },
+    {
+      "text": "Civil szervezeteknek",
+      "url": "https://coachingfederation.hu/joszolgalat/civil-szervezeteknek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/joszolgalat/civil-szervezeteknek/"
+      }
+    },
+    {
+      "text": "Tagjainknak",
+      "url": "https://coachingfederation.hu/joszolgalat/tagjainknak/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/joszolgalat/tagjainknak/"
+      }
+    },
+    {
+      "text": "Ügyfeleknek",
+      "url": "https://coachingfederation.hu/ugyfeleknek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/ugyfeleknek/"
+      }
+    },
+    {
+      "text": "Mi a coaching?",
+      "url": "https://coachingfederation.hu/ugyfeleknek/mi-a-coaching/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/ugyfeleknek/mi-a-coaching/"
+      }
+    },
+    {
+      "text": "Prism Award 2026",
+      "url": "https://coachingfederation.hu/ugyfeleknek/prism-award/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/ugyfeleknek/prism-award/"
+      }
+    },
+    {
+      "text": "Kutatások",
+      "url": "https://coachingfederation.hu/ugyfeleknek/kutatasok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/ugyfeleknek/kutatasok/"
+      }
+    },
+    {
+      "text": "Hírek",
+      "url": "https://coachingfederation.hu/category/hirek/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/category/hirek/"
+      }
+    },
+    {
+      "text": "Kapcsolat",
+      "url": "https://coachingfederation.hu/kapcsolat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/"
+      }
+    },
+    {
+      "text": "Elnökség elérhetőségei",
+      "url": "https://coachingfederation.hu/kapcsolat/elnokseg-elerhetosegei/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/elnokseg-elerhetosegei/"
+      }
+    },
+    {
+      "text": "Alapszabály",
+      "url": "https://coachingfederation.hu/kapcsolat/alapszabaly/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/alapszabaly/"
+      }
+    },
+    {
+      "text": "Adatkezelési Tájékoztató",
+      "url": "https://coachingfederation.hu/kapcsolat/adatkezelesi-tajekoztato/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/adatkezelesi-tajekoztato/"
+      }
+    },
+    {
+      "text": "Belépési nyilatkozat",
+      "url": "https://coachingfederation.hu/kapcsolat/belepesi-nyilatkozat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/belepesi-nyilatkozat/"
+      }
+    },
+    {
+      "text": "Belépés",
+      "url": "https://coachingfederation.hu/bejelentkezes/",
+      "attrs": {
+        "class": [
+          "btn",
+          "btn--outline-invert",
+          "btn--sm"
+        ],
+        "href": "https://coachingfederation.hu/bejelentkezes/"
+      }
+    },
+    {
+      "text": "Csatlakozz",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/",
+      "attrs": {
+        "class": [
+          "btn",
+          "btn--sm"
+        ],
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/"
+      }
+    },
+    {
+      "text": "Belépés",
+      "url": "https://coachingfederation.hu/bejelentkezes/",
+      "attrs": {
+        "class": [
+          "btn",
+          "btn--outline-invert",
+          "btn--sm"
+        ],
+        "href": "https://coachingfederation.hu/bejelentkezes/"
+      }
+    },
+    {
+      "text": "Csatlakozz",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/",
+      "attrs": {
+        "class": [
+          "btn",
+          "btn--sm"
+        ],
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/"
+      }
+    },
+    {
+      "text": "A. Nagy Erika PCC",
+      "url": "https://coachingfederation.hu/tagjaink/171/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/171/"
+      }
+    },
+    {
+      "text": "Ábrahám Rita ACC",
+      "url": "https://coachingfederation.hu/tagjaink/365/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/365/"
+      }
+    },
+    {
+      "text": "Ádám Barbara",
+      "url": "https://coachingfederation.hu/tagjaink/351/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/351/"
+      }
+    },
+    {
+      "text": "Albert Dorottya",
+      "url": "https://coachingfederation.hu/tagjaink/273/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/273/"
+      }
+    },
+    {
+      "text": "Almási Anikó PCC",
+      "url": "https://coachingfederation.hu/tagjaink/163/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/163/"
+      }
+    },
+    {
+      "text": "Ambrus András ACC",
+      "url": "https://coachingfederation.hu/tagjaink/280/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/280/"
+      }
+    },
+    {
+      "text": "András Sebők PCC",
+      "url": "https://coachingfederation.hu/tagjaink/168/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/168/"
+      }
+    },
+    {
+      "text": "Angyal Vera ACC",
+      "url": "https://coachingfederation.hu/tagjaink/407/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/407/"
+      }
+    },
+    {
+      "text": "Baksa Henriett PCC",
+      "url": "https://coachingfederation.hu/tagjaink/284/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/284/"
+      }
+    },
+    {
+      "text": "Balajthy Bernadett PCC",
+      "url": "https://coachingfederation.hu/tagjaink/331/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/331/"
+      }
+    },
+    {
+      "text": "Bálint Anita ACC",
+      "url": "https://coachingfederation.hu/tagjaink/307/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/307/"
+      }
+    },
+    {
+      "text": "Barkóczi Beáta MCC",
+      "url": "https://coachingfederation.hu/tagjaink/230/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/230/"
+      }
+    },
+    {
+      "text": "Barnóczki Annamária MCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/295/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/295/"
+      }
+    },
+    {
+      "text": "Barta Bea",
+      "url": "https://coachingfederation.hu/tagjaink/385/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/385/"
+      }
+    },
+    {
+      "text": "B Batiz Zita",
+      "url": "https://coachingfederation.hu/tagjaink/418/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/418/"
+      }
+    },
+    {
+      "text": "Bellon Attila",
+      "url": "https://coachingfederation.hu/tagjaink/276/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/276/"
+      }
+    },
+    {
+      "text": "Benedek Noémi",
+      "url": "https://coachingfederation.hu/tagjaink/362/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/362/"
+      }
+    },
+    {
+      "text": "Berkecz Mariann",
+      "url": "https://coachingfederation.hu/tagjaink/222/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/222/"
+      }
+    },
+    {
+      "text": "Bezerédy-Herald Balázs PCC",
+      "url": "https://coachingfederation.hu/tagjaink/84/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/84/"
+      }
+    },
+    {
+      "text": "Biró Szilvia",
+      "url": "https://coachingfederation.hu/tagjaink/406/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/406/"
+      }
+    },
+    {
+      "text": "Bite Barbara MCC",
+      "url": "https://coachingfederation.hu/tagjaink/82/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/82/"
+      }
+    },
+    {
+      "text": "Bodnár Barbara PCC",
+      "url": "https://coachingfederation.hu/tagjaink/85/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/85/"
+      }
+    },
+    {
+      "text": "Bodó Zsuzsanna",
+      "url": "https://coachingfederation.hu/tagjaink/213/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/213/"
+      }
+    },
+    {
+      "text": "Bokor Marianna",
+      "url": "https://coachingfederation.hu/tagjaink/144/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/144/"
+      }
+    },
+    {
+      "text": "Boros Zsófia ACC ACC",
+      "url": "https://coachingfederation.hu/tagjaink/415/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/415/"
+      }
+    },
+    {
+      "text": "Bőtös Balázs PCC",
+      "url": "https://coachingfederation.hu/tagjaink/86/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/86/"
+      }
+    },
+    {
+      "text": "Chrenóczy-Nagy Judit PCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/87/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/87/"
+      }
+    },
+    {
+      "text": "Csabai-Paska Erzsébet PCC",
+      "url": "https://coachingfederation.hu/tagjaink/188/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/188/"
+      }
+    },
+    {
+      "text": "Csanádi Péter PCC",
+      "url": "https://coachingfederation.hu/tagjaink/88/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/88/"
+      }
+    },
+    {
+      "text": "Csepcsányi Adrienn",
+      "url": "https://coachingfederation.hu/tagjaink/274/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/274/"
+      }
+    },
+    {
+      "text": "Csetneki Csaba PCC, ACTC, MCS, CSS PCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/90/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/90/"
+      }
+    },
+    {
+      "text": "Csima Brigitta",
+      "url": "https://coachingfederation.hu/tagjaink/409/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/409/"
+      }
+    },
+    {
+      "text": "Csóka Anett",
+      "url": "https://coachingfederation.hu/tagjaink/408/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/408/"
+      }
+    },
+    {
+      "text": "Csordás Izabella PCC",
+      "url": "https://coachingfederation.hu/tagjaink/139/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/139/"
+      }
+    },
+    {
+      "text": "Dankó Adrienn ACC",
+      "url": "https://coachingfederation.hu/tagjaink/92/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/92/"
+      }
+    },
+    {
+      "text": "Dobókői Ágnes ACC",
+      "url": "https://coachingfederation.hu/tagjaink/318/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/318/"
+      }
+    },
+    {
+      "text": "Dömény Erika PCC",
+      "url": "https://coachingfederation.hu/tagjaink/93/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/93/"
+      }
+    },
+    {
+      "text": "Domján Enikő Mária",
+      "url": "https://coachingfederation.hu/tagjaink/357/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/357/"
+      }
+    },
+    {
+      "text": "Dr. Pilinszki Attila",
+      "url": "https://coachingfederation.hu/tagjaink/370/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/370/"
+      }
+    },
+    {
+      "text": "Dr. Sápi Szilvia PCC",
+      "url": "https://coachingfederation.hu/tagjaink/353/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/353/"
+      }
+    },
+    {
+      "text": "Draskóczi Katalin PCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/100/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/100/"
+      }
+    },
+    {
+      "text": "Elek Anett",
+      "url": "https://coachingfederation.hu/tagjaink/382/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/382/"
+      }
+    },
+    {
+      "text": "Éliás Nóra",
+      "url": "https://coachingfederation.hu/tagjaink/102/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/102/"
+      }
+    },
+    {
+      "text": "Emmanuel Saincaize MCC",
+      "url": "https://coachingfederation.hu/tagjaink/103/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/103/"
+      }
+    },
+    {
+      "text": "Énekes Tímea ACC",
+      "url": "https://coachingfederation.hu/tagjaink/397/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/397/"
+      }
+    },
+    {
+      "text": "Eperjesi Amina PCC",
+      "url": "https://coachingfederation.hu/tagjaink/104/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/104/"
+      }
+    },
+    {
+      "text": "Eperjesy Dóra ACC",
+      "url": "https://coachingfederation.hu/tagjaink/209/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/209/"
+      }
+    },
+    {
+      "text": "Farkas Kira Zoé ACC",
+      "url": "https://coachingfederation.hu/tagjaink/345/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/345/"
+      }
+    },
+    {
+      "text": "Farkas Péter ACC",
+      "url": "https://coachingfederation.hu/tagjaink/336/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/336/"
+      }
+    },
+    {
+      "text": "Farkas-Dienes Franciska ACC",
+      "url": "https://coachingfederation.hu/tagjaink/347/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/347/"
+      }
+    },
+    {
+      "text": "Fejes János ACC PCC",
+      "url": "https://coachingfederation.hu/tagjaink/162/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/162/"
+      }
+    },
+    {
+      "text": "Fekete Klaudia ACC",
+      "url": "https://coachingfederation.hu/tagjaink/233/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/233/"
+      }
+    },
+    {
+      "text": "Feller Diána",
+      "url": "https://coachingfederation.hu/tagjaink/374/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/374/"
+      }
+    },
+    {
+      "text": "Ferencsák Tímea ACC",
+      "url": "https://coachingfederation.hu/tagjaink/95/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/95/"
+      }
+    },
+    {
+      "text": "Fiáth Miklós ACC",
+      "url": "https://coachingfederation.hu/tagjaink/264/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/264/"
+      }
+    },
+    {
+      "text": "Fodor Erika",
+      "url": "https://coachingfederation.hu/tagjaink/414/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/414/"
+      }
+    },
+    {
+      "text": "Földi Flóra ACC",
+      "url": "https://coachingfederation.hu/tagjaink/376/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/376/"
+      }
+    },
+    {
+      "text": "Fornvald Andrea",
+      "url": "https://coachingfederation.hu/tagjaink/377/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/377/"
+      }
+    },
+    {
+      "text": "Forrás Lajos ACC",
+      "url": "https://coachingfederation.hu/tagjaink/379/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/379/"
+      }
+    },
+    {
+      "text": "Friedewald Zita MCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/105/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/105/"
+      }
+    },
+    {
+      "text": "Gerencsér Bernadett",
+      "url": "https://coachingfederation.hu/tagjaink/367/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/367/"
+      }
+    },
+    {
+      "text": "Gogolák Zoltán ACC",
+      "url": "https://coachingfederation.hu/tagjaink/96/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/96/"
+      }
+    },
+    {
+      "text": "Göntér Mónika PCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/106/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/106/"
+      }
+    },
+    {
+      "text": "Görözdi-Nagy Eszter PCC",
+      "url": "https://coachingfederation.hu/tagjaink/97/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/97/"
+      }
+    },
+    {
+      "text": "Gosztonyi László PCC",
+      "url": "https://coachingfederation.hu/tagjaink/107/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/107/"
+      }
+    },
+    {
+      "text": "Grozdits Adrienn",
+      "url": "https://coachingfederation.hu/tagjaink/287/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/287/"
+      }
+    },
+    {
+      "text": "Guseo Rita PCC",
+      "url": "https://coachingfederation.hu/tagjaink/395/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/395/"
+      }
+    },
+    {
+      "text": "Győrffy-Hegedűs Annamária ACC",
+      "url": "https://coachingfederation.hu/tagjaink/342/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/342/"
+      }
+    },
+    {
+      "text": "Gyurik Ágnes",
+      "url": "https://coachingfederation.hu/tagjaink/383/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/383/"
+      }
+    },
+    {
+      "text": "Hajdu Roland",
+      "url": "https://coachingfederation.hu/tagjaink/266/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/266/"
+      }
+    },
+    {
+      "text": "H Hámorszky Rita",
+      "url": "https://coachingfederation.hu/tagjaink/400/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/400/"
+      }
+    },
+    {
+      "text": "Hankovszky Katalin PCC",
+      "url": "https://coachingfederation.hu/tagjaink/300/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/300/"
+      }
+    },
+    {
+      "text": "Hanuska Marianna",
+      "url": "https://coachingfederation.hu/tagjaink/348/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/348/"
+      }
+    },
+    {
+      "text": "Hargitai Judit ACC",
+      "url": "https://coachingfederation.hu/tagjaink/234/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/234/"
+      }
+    },
+    {
+      "text": "Harmat Péter ACC",
+      "url": "https://coachingfederation.hu/tagjaink/218/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/218/"
+      }
+    },
+    {
+      "text": "Heffler Andrea PCC MCC",
+      "url": "https://coachingfederation.hu/tagjaink/211/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/211/"
+      }
+    },
+    {
+      "text": "Hegedűs Dóra MCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/166/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/166/"
+      }
+    },
+    {
+      "text": "Hegedüs Erika ACC",
+      "url": "https://coachingfederation.hu/tagjaink/372/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/372/"
+      }
+    },
+    {
+      "text": "Hidvégi Szilvia ACC",
+      "url": "https://coachingfederation.hu/tagjaink/256/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/256/"
+      }
+    },
+    {
+      "text": "Holló Katalin PCC",
+      "url": "https://coachingfederation.hu/tagjaink/110/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/110/"
+      }
+    },
+    {
+      "text": "Hornyák Mariann",
+      "url": "https://coachingfederation.hu/tagjaink/387/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/387/"
+      }
+    },
+    {
+      "text": "Horváth Enikő PCC",
+      "url": "https://coachingfederation.hu/tagjaink/111/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/111/"
+      }
+    },
+    {
+      "text": "Hudacsek Csilla",
+      "url": "https://coachingfederation.hu/tagjaink/354/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/354/"
+      }
+    },
+    {
+      "text": "Huszák Éva ACC",
+      "url": "https://coachingfederation.hu/tagjaink/355/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/355/"
+      }
+    },
+    {
+      "text": "Huszák Nikolett ACC",
+      "url": "https://coachingfederation.hu/tagjaink/358/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/358/"
+      }
+    },
+    {
+      "text": "Izsák Hajnalka ACC",
+      "url": "https://coachingfederation.hu/tagjaink/308/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/308/"
+      }
+    },
+    {
+      "text": "Izsák Norbert MCC",
+      "url": "https://coachingfederation.hu/tagjaink/113/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/113/"
+      }
+    },
+    {
+      "text": "Izsó-Malaczkó Judit",
+      "url": "https://coachingfederation.hu/tagjaink/371/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/371/"
+      }
+    },
+    {
+      "text": "J Jakab Judit",
+      "url": "https://coachingfederation.hu/tagjaink/293/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/293/"
+      }
+    },
+    {
+      "text": "J Jaskó Éva",
+      "url": "https://coachingfederation.hu/tagjaink/170/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/170/"
+      }
+    },
+    {
+      "text": "Jeckel Eszter PCC",
+      "url": "https://coachingfederation.hu/tagjaink/160/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/160/"
+      }
+    },
+    {
+      "text": "Jeney Laura ACC",
+      "url": "https://coachingfederation.hu/tagjaink/380/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/380/"
+      }
+    },
+    {
+      "text": "Juhász Erika PCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/190/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/190/"
+      }
+    },
+    {
+      "text": "Kádár Szilvia Éva ACC",
+      "url": "https://coachingfederation.hu/tagjaink/281/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/281/"
+      }
+    },
+    {
+      "text": "Kákonyi Anett MCC",
+      "url": "https://coachingfederation.hu/tagjaink/114/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/114/"
+      }
+    },
+    {
+      "text": "Kalmár-Bartos Angelika ACC",
+      "url": "https://coachingfederation.hu/tagjaink/253/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/253/"
+      }
+    },
+    {
+      "text": "Kapalyag Kitti",
+      "url": "https://coachingfederation.hu/tagjaink/306/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/306/"
+      }
+    },
+    {
+      "text": "K Karmos Zoltán",
+      "url": "https://coachingfederation.hu/tagjaink/250/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/250/"
+      }
+    },
+    {
+      "text": "Kazi Péter",
+      "url": "https://coachingfederation.hu/tagjaink/419/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/419/"
+      }
+    },
+    {
+      "text": "Kecsmár Szilvia",
+      "url": "https://coachingfederation.hu/tagjaink/378/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/378/"
+      }
+    },
+    {
+      "text": "Kelemen Annamaria ACC",
+      "url": "https://coachingfederation.hu/tagjaink/151/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/151/"
+      }
+    },
+    {
+      "text": "Keszthelyi Marianna ACC",
+      "url": "https://coachingfederation.hu/tagjaink/321/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/321/"
+      }
+    },
+    {
+      "text": "Király Zsolt ACC",
+      "url": "https://coachingfederation.hu/tagjaink/98/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/98/"
+      }
+    },
+    {
+      "text": "Kiss Aranka ACC",
+      "url": "https://coachingfederation.hu/tagjaink/155/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/155/"
+      }
+    },
+    {
+      "text": "Kiss-Beck Veronika ACC",
+      "url": "https://coachingfederation.hu/tagjaink/404/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/404/"
+      }
+    },
+    {
+      "text": "Kocsis Vera",
+      "url": "https://coachingfederation.hu/tagjaink/196/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/196/"
+      }
+    },
+    {
+      "text": "Kocsmár Kornél",
+      "url": "https://coachingfederation.hu/tagjaink/257/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/257/"
+      }
+    },
+    {
+      "text": "Kökény Gyöngyi PCC",
+      "url": "https://coachingfederation.hu/tagjaink/146/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/146/"
+      }
+    },
+    {
+      "text": "K Komár Kornélia",
+      "url": "https://coachingfederation.hu/tagjaink/386/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/386/"
+      }
+    },
+    {
+      "text": "Komócsin Laura MCC",
+      "url": "https://coachingfederation.hu/tagjaink/117/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/117/"
+      }
+    },
+    {
+      "text": "Kosztolánczy Gábor PCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/142/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/142/"
+      }
+    },
+    {
+      "text": "Kovács Ágnes Lilla ACC",
+      "url": "https://coachingfederation.hu/tagjaink/204/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/204/"
+      }
+    },
+    {
+      "text": "Kovács Judit",
+      "url": "https://coachingfederation.hu/tagjaink/390/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/390/"
+      }
+    },
+    {
+      "text": "Kovács Péter",
+      "url": "https://coachingfederation.hu/tagjaink/311/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/311/"
+      }
+    },
+    {
+      "text": "Kövesdi Eszter PCC",
+      "url": "https://coachingfederation.hu/tagjaink/317/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/317/"
+      }
+    },
+    {
+      "text": "Krasznai Attila",
+      "url": "https://coachingfederation.hu/tagjaink/396/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/396/"
+      }
+    },
+    {
+      "text": "Kuncsik Kata",
+      "url": "https://coachingfederation.hu/tagjaink/161/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/161/"
+      }
+    },
+    {
+      "text": "Lázár Kornél",
+      "url": "https://coachingfederation.hu/tagjaink/403/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/403/"
+      }
+    },
+    {
+      "text": "Lőrincz-Kovács Fruzsina ACC",
+      "url": "https://coachingfederation.hu/tagjaink/326/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/326/"
+      }
+    },
+    {
+      "text": "Lorz-Gulner Veronika ACC",
+      "url": "https://coachingfederation.hu/tagjaink/193/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/193/"
+      }
+    },
+    {
+      "text": "L Lovig Tímea ACC",
+      "url": "https://coachingfederation.hu/tagjaink/158/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/158/"
+      }
+    },
+    {
+      "text": "Ludvig Ágnes",
+      "url": "https://coachingfederation.hu/tagjaink/290/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/290/"
+      }
+    },
+    {
+      "text": "Ludwig-Jánosy Judit",
+      "url": "https://coachingfederation.hu/tagjaink/375/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/375/"
+      }
+    },
+    {
+      "text": "Makai Melinda ACC",
+      "url": "https://coachingfederation.hu/tagjaink/359/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/359/"
+      }
+    },
+    {
+      "text": "Marosvölgyi-Varga Zsófia",
+      "url": "https://coachingfederation.hu/tagjaink/277/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/277/"
+      }
+    },
+    {
+      "text": "Marsó-Farkas Katalin",
+      "url": "https://coachingfederation.hu/tagjaink/412/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/412/"
+      }
+    },
+    {
+      "text": "Martin Hajdu György PCC",
+      "url": "https://coachingfederation.hu/tagjaink/99/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/99/"
+      }
+    },
+    {
+      "text": "Marton Erika ACC",
+      "url": "https://coachingfederation.hu/tagjaink/121/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/121/"
+      }
+    },
+    {
+      "text": "Márton Mónika MCC",
+      "url": "https://coachingfederation.hu/tagjaink/340/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/340/"
+      }
+    },
+    {
+      "text": "Medgyesi Krisztina PCC",
+      "url": "https://coachingfederation.hu/tagjaink/122/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/122/"
+      }
+    },
+    {
+      "text": "Mérei Balázs",
+      "url": "https://coachingfederation.hu/tagjaink/330/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/330/"
+      }
+    },
+    {
+      "text": "Mezei László PCC",
+      "url": "https://coachingfederation.hu/tagjaink/172/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/172/"
+      }
+    },
+    {
+      "text": "Mihalek Dávid",
+      "url": "https://coachingfederation.hu/tagjaink/393/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/393/"
+      }
+    },
+    {
+      "text": "Mikovics Krisztina ACC",
+      "url": "https://coachingfederation.hu/tagjaink/323/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/323/"
+      }
+    },
+    {
+      "text": "Mógor Krisztina PCC",
+      "url": "https://coachingfederation.hu/tagjaink/123/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/123/"
+      }
+    },
+    {
+      "text": "M Moldován Rita",
+      "url": "https://coachingfederation.hu/tagjaink/392/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/392/"
+      }
+    },
+    {
+      "text": "M Molnár Eszter",
+      "url": "https://coachingfederation.hu/tagjaink/384/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/384/"
+      }
+    },
+    {
+      "text": "Nagy István ACC",
+      "url": "https://coachingfederation.hu/tagjaink/283/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/283/"
+      }
+    },
+    {
+      "text": "Nagy Judit PCC",
+      "url": "https://coachingfederation.hu/tagjaink/267/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/267/"
+      }
+    },
+    {
+      "text": "Nagy Sándor, ICF ACC ACC",
+      "url": "https://coachingfederation.hu/tagjaink/388/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/388/"
+      }
+    },
+    {
+      "text": "Nagy Tivadar",
+      "url": "https://coachingfederation.hu/tagjaink/313/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/313/"
+      }
+    },
+    {
+      "text": "Németh Zita MCC",
+      "url": "https://coachingfederation.hu/tagjaink/124/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/124/"
+      }
+    },
+    {
+      "text": "Némethi Krisztina",
+      "url": "https://coachingfederation.hu/tagjaink/261/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/261/"
+      }
+    },
+    {
+      "text": "Novák Éva",
+      "url": "https://coachingfederation.hu/tagjaink/319/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/319/"
+      }
+    },
+    {
+      "text": "O Orlóci Zsuzsanna",
+      "url": "https://coachingfederation.hu/tagjaink/401/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/401/"
+      }
+    },
+    {
+      "text": "Örlősy Dóra PCC",
+      "url": "https://coachingfederation.hu/tagjaink/125/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/125/"
+      }
+    },
+    {
+      "text": "O Orosz-Fekete Mariann",
+      "url": "https://coachingfederation.hu/tagjaink/413/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/413/"
+      }
+    },
+    {
+      "text": "Parák András ACC",
+      "url": "https://coachingfederation.hu/tagjaink/262/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/262/"
+      }
+    },
+    {
+      "text": "Pesti Andrea",
+      "url": "https://coachingfederation.hu/tagjaink/309/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/309/"
+      }
+    },
+    {
+      "text": "Petes Beáta",
+      "url": "https://coachingfederation.hu/tagjaink/310/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/310/"
+      }
+    },
+    {
+      "text": "Pethő Anita ACC",
+      "url": "https://coachingfederation.hu/tagjaink/373/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/373/"
+      }
+    },
+    {
+      "text": "Pető Dalma ACC",
+      "url": "https://coachingfederation.hu/tagjaink/360/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/360/"
+      }
+    },
+    {
+      "text": "P Pintér Nóra",
+      "url": "https://coachingfederation.hu/tagjaink/405/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/405/"
+      }
+    },
+    {
+      "text": "Popovics Tibor ACC",
+      "url": "https://coachingfederation.hu/tagjaink/368/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/368/"
+      }
+    },
+    {
+      "text": "Puchinger Mónika",
+      "url": "https://coachingfederation.hu/tagjaink/154/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/154/"
+      }
+    },
+    {
+      "text": "Rab Róbert ACC",
+      "url": "https://coachingfederation.hu/tagjaink/167/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/167/"
+      }
+    },
+    {
+      "text": "Romsics Szilvia PCC",
+      "url": "https://coachingfederation.hu/tagjaink/289/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/289/"
+      }
+    },
+    {
+      "text": "Segal Hajnalka MCC",
+      "url": "https://coachingfederation.hu/tagjaink/302/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/302/"
+      }
+    },
+    {
+      "text": "Séra Attila MCC",
+      "url": "https://coachingfederation.hu/tagjaink/129/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/129/"
+      }
+    },
+    {
+      "text": "Seregély Edit",
+      "url": "https://coachingfederation.hu/tagjaink/324/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/324/"
+      }
+    },
+    {
+      "text": "Solymosi Nikoletta",
+      "url": "https://coachingfederation.hu/tagjaink/369/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/369/"
+      }
+    },
+    {
+      "text": "Somossy Eszter ACC",
+      "url": "https://coachingfederation.hu/tagjaink/341/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/341/"
+      }
+    },
+    {
+      "text": "S Stelkovics Katalin",
+      "url": "https://coachingfederation.hu/tagjaink/402/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/402/"
+      }
+    },
+    {
+      "text": "Svéda Dóra PCC",
+      "url": "https://coachingfederation.hu/tagjaink/225/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/225/"
+      }
+    },
+    {
+      "text": "Szabó Anita",
+      "url": "https://coachingfederation.hu/tagjaink/224/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/224/"
+      }
+    },
+    {
+      "text": "Szabó Gabi MCC",
+      "url": "https://coachingfederation.hu/tagjaink/130/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/130/"
+      }
+    },
+    {
+      "text": "Szabó Henrik",
+      "url": "https://coachingfederation.hu/tagjaink/176/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/176/"
+      }
+    },
+    {
+      "text": "Szabó Judit ACC",
+      "url": "https://coachingfederation.hu/tagjaink/200/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/200/"
+      }
+    },
+    {
+      "text": "Szabó Marcell MCC",
+      "url": "https://coachingfederation.hu/tagjaink/198/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/198/"
+      }
+    },
+    {
+      "text": "Szabó Tamara MCC",
+      "url": "https://coachingfederation.hu/tagjaink/197/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/197/"
+      }
+    },
+    {
+      "text": "Szabó Zsófia PCC",
+      "url": "https://coachingfederation.hu/tagjaink/131/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/131/"
+      }
+    },
+    {
+      "text": "Szecskó Tímea ACC",
+      "url": "https://coachingfederation.hu/tagjaink/254/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/254/"
+      }
+    },
+    {
+      "text": "Szegedi Gabriella PCC",
+      "url": "https://coachingfederation.hu/tagjaink/141/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/141/"
+      }
+    },
+    {
+      "text": "Szeli-Bognár Nóra ACC",
+      "url": "https://coachingfederation.hu/tagjaink/169/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/169/"
+      }
+    },
+    {
+      "text": "Szeri Krisztina",
+      "url": "https://coachingfederation.hu/tagjaink/153/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/153/"
+      }
+    },
+    {
+      "text": "Szilvási Gabriella MCC ACTC",
+      "url": "https://coachingfederation.hu/tagjaink/132/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/132/"
+      }
+    },
+    {
+      "text": "Szirtesi-Nagy Réka ACC",
+      "url": "https://coachingfederation.hu/tagjaink/145/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/145/"
+      }
+    },
+    {
+      "text": "T Talabos Anikó",
+      "url": "https://coachingfederation.hu/tagjaink/381/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/381/"
+      }
+    },
+    {
+      "text": "Tankó Beáta",
+      "url": "https://coachingfederation.hu/tagjaink/350/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/350/"
+      }
+    },
+    {
+      "text": "Tegyi Enikő MCC",
+      "url": "https://coachingfederation.hu/tagjaink/133/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/133/"
+      }
+    },
+    {
+      "text": "T Tislér Violetta",
+      "url": "https://coachingfederation.hu/tagjaink/399/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/399/"
+      }
+    },
+    {
+      "text": "Tőkés Tünde ACC",
+      "url": "https://coachingfederation.hu/tagjaink/149/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/149/"
+      }
+    },
+    {
+      "text": "T Tóth Diána Evelin",
+      "url": "https://coachingfederation.hu/tagjaink/398/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/398/"
+      }
+    },
+    {
+      "text": "Tóth Kinga ACC",
+      "url": "https://coachingfederation.hu/tagjaink/236/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/236/"
+      }
+    },
+    {
+      "text": "Tóthné Pap Edina ACC",
+      "url": "https://coachingfederation.hu/tagjaink/239/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/239/"
+      }
+    },
+    {
+      "text": "Tukacs Zsófia ACC",
+      "url": "https://coachingfederation.hu/tagjaink/327/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/327/"
+      }
+    },
+    {
+      "text": "Turbók András",
+      "url": "https://coachingfederation.hu/tagjaink/292/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/292/"
+      }
+    },
+    {
+      "text": "Tüske Zsófia",
+      "url": "https://coachingfederation.hu/tagjaink/394/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/394/"
+      }
+    },
+    {
+      "text": "Uj Anikó ACC",
+      "url": "https://coachingfederation.hu/tagjaink/183/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/183/"
+      }
+    },
+    {
+      "text": "Vachlerné Szilágyi Valéria",
+      "url": "https://coachingfederation.hu/tagjaink/349/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/349/"
+      }
+    },
+    {
+      "text": "Vad Ágnes",
+      "url": "https://coachingfederation.hu/tagjaink/134/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/134/"
+      }
+    },
+    {
+      "text": "van der Meer Gabriella MCC",
+      "url": "https://coachingfederation.hu/tagjaink/135/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/135/"
+      }
+    },
+    {
+      "text": "Varga Ágnes",
+      "url": "https://coachingfederation.hu/tagjaink/245/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/245/"
+      }
+    },
+    {
+      "text": "Varga Csilla",
+      "url": "https://coachingfederation.hu/tagjaink/356/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/356/"
+      }
+    },
+    {
+      "text": "Vass Andi PCC",
+      "url": "https://coachingfederation.hu/tagjaink/337/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/337/"
+      }
+    },
+    {
+      "text": "Veres János ACC",
+      "url": "https://coachingfederation.hu/tagjaink/391/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/391/"
+      }
+    },
+    {
+      "text": "Vető Zsuzsanna PCC",
+      "url": "https://coachingfederation.hu/tagjaink/343/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/343/"
+      }
+    },
+    {
+      "text": "Vida Gábor ACC",
+      "url": "https://coachingfederation.hu/tagjaink/361/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/361/"
+      }
+    },
+    {
+      "text": "Vida-Móricz Krisztina",
+      "url": "https://coachingfederation.hu/tagjaink/279/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/279/"
+      }
+    },
+    {
+      "text": "Vincze Viktória PCC",
+      "url": "https://coachingfederation.hu/tagjaink/389/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/389/"
+      }
+    },
+    {
+      "text": "Vízi Beáta PCC",
+      "url": "https://coachingfederation.hu/tagjaink/136/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/136/"
+      }
+    },
+    {
+      "text": "Zalai Szilvia ACC",
+      "url": "https://coachingfederation.hu/tagjaink/174/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/174/"
+      }
+    },
+    {
+      "text": "Zilahi Angéla PCC",
+      "url": "https://coachingfederation.hu/tagjaink/143/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/143/"
+      }
+    },
+    {
+      "text": "Zoles Ágnes PCC",
+      "url": "https://coachingfederation.hu/tagjaink/138/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/138/"
+      }
+    },
+    {
+      "text": "Z Zombori Péter",
+      "url": "https://coachingfederation.hu/tagjaink/363/",
+      "attrs": {
+        "class": [
+          "coach-card"
+        ],
+        "href": "https://coachingfederation.hu/tagjaink/363/"
+      }
+    },
+    {
+      "text": "Facebook",
+      "url": "https://www.facebook.com/ICFMagyarTagozat",
+      "attrs": {
+        "href": "https://www.facebook.com/ICFMagyarTagozat",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Linkedin",
+      "url": "https://www.linkedin.com/company/icf-hungarian-chartered-chapter/",
+      "attrs": {
+        "href": "https://www.linkedin.com/company/icf-hungarian-chartered-chapter/",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Youtube",
+      "url": "https://www.youtube.com/@icfmagyartagozata1816",
+      "attrs": {
+        "href": "https://www.youtube.com/@icfmagyartagozata1816",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Etikai Kódex",
+      "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/etikai-kodex-gyik/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/icf-coaching/etikai-kodex-gyik/"
+      }
+    },
+    {
+      "text": "Alapító okirat",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/alapito-okirat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/alapito-okirat/"
+      }
+    },
+    {
+      "text": "Jegyzőkönyvek, beszámolók",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/jegyzokonyvek-beszamolok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/jegyzokonyvek-beszamolok/"
+      }
+    },
+    {
+      "text": "ICF coachok",
+      "url": "https://coachingfederation.hu/tagjaink/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/tagjaink/",
+        "aria-current": "page"
+      }
+    },
+    {
+      "text": "Új tagjainknak",
+      "url": "https://coachingfederation.hu/wp-content/uploads/2025/04/ICF-Welcome-anyag-2025.pdf",
+      "attrs": {
+        "href": "https://coachingfederation.hu/wp-content/uploads/2025/04/ICF-Welcome-anyag-2025.pdf"
+      }
+    },
+    {
+      "text": "Csatlakozz",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/"
+      }
+    },
+    {
+      "text": "Global tagság",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/global-tagsag/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/global-tagsag/"
+      }
+    },
+    {
+      "text": "Magyar tagság",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/magyar-tagsag/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/magyar-tagsag/"
+      }
+    },
+    {
+      "text": "Belépési dokumentum és tudnivalók",
+      "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/belepesi-dokumentum-es-tudnivalok/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/belepesi-dokumentum-es-tudnivalok/"
+      }
+    },
+    {
+      "text": "Welcome Page",
+      "url": "https://coachingfederation.hu/welcome-page/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/welcome-page/"
+      }
+    },
+    {
+      "text": "Kapcsolat",
+      "url": "https://coachingfederation.hu/kapcsolat/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/"
+      }
+    },
+    {
+      "text": "Impresszum",
+      "url": "https://coachingfederation.hu/impresszum/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/impresszum/"
+      }
+    },
+    {
+      "text": "Adatkezelési Tájékoztató",
+      "url": "https://coachingfederation.hu/kapcsolat/adatkezelesi-tajekoztato/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/adatkezelesi-tajekoztato/"
+      }
+    },
+    {
+      "text": "Adatkezelési tájékoztató",
+      "url": "https://coachingfederation.hu/kapcsolat/adatkezelesi-tajekoztato/",
+      "attrs": {
+        "href": "https://coachingfederation.hu/kapcsolat/adatkezelesi-tajekoztato/"
+      }
+    },
+    {
+      "text": "Made by The PALM Creative Agency",
+      "url": "https://www.thepalmgroup.eu",
+      "attrs": {
+        "href": "https://www.thepalmgroup.eu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Read more about these purposes",
+      "url": "https://cookiedatabase.org/tcf/purposes/",
+      "attrs": {
+        "class": [
+          "cmplz-link",
+          "cmplz-external",
+          "cmplz-read-more-purposes",
+          "tcf"
+        ],
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer",
+          "nofollow"
+        ],
+        "href": "https://cookiedatabase.org/tcf/purposes/",
+        "aria-label": "Read more about TCF purposes on Cookie Database"
+      }
+    },
+    {
+      "text": "Vissza",
+      "url": "https://coachingfederation.hu/uzlet/",
+      "attrs": {
+        "class": [
+          "xoo-wsc-btn"
+        ],
+        "href": "https://coachingfederation.hu/uzlet/"
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://coachingfederation.hu/tagjaink/",
+      "hint": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/coachingfederation.hu\\/tagjaink\\/\",\"url\":\"https:\\/\\/coachingfederation.hu\\/tagjaink\\/\",\"name\":\"ICF coachok - ICF Hungary\",\"isPartOf\":{\"@id\":\"https:\\/\\/coachingfederation.hu\\/#website\"},\"datePublished\":\"2023-11-01T08:03:34+00:00\",\"dateModified\":\"2026-10-06T20:24:02+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/coachingfederation.hu\\/tagjaink\\/#breadcrumb\"},\"inLanguage\":\"hu\",\""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.2.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/tagjaink/",
+      "hint": "var wc_add_to_cart_params = {\"ajax_url\":\"/wp-admin/admin-ajax.php\",\"wc_ajax_url\":\"/?wc-ajax=%%endpoint%%\",\"i18n_view_cart\":\"Kos\\u00e1r\",\"cart_url\":\"https://coachingfederation.hu/kosar/\",\"is_cart\":\"\",\"cart_redirect_after_add\":\"no\"}; //# sourceURL=wc-add-to-cart-js-extra"
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.2.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.2.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/tagjaink/",
+      "hint": "var woocommerce_params = {\"ajax_url\":\"/wp-admin/admin-ajax.php\",\"wc_ajax_url\":\"/?wc-ajax=%%endpoint%%\",\"i18n_password_show\":\"Jelsz\\u00f3 megjelen\\u00edt\\u00e9se\",\"i18n_password_hide\":\"Jelsz\\u00f3 elrejt\\u00e9se\"}; //# sourceURL=woocommerce-js-extra"
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.2.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-collapse.min.js?ver=1791316819",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-persist.min.js?ver=1791316819",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-focus.min.js?ver=1791316819",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-intersect.min.js?ver=1791316819",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/main.js?ver=1791316819",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine.min.js?ver=1791316819",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.2.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/tagjaink/",
+      "hint": "var wc_order_attribution = {\"params\":{\"lifetime\":1.0e-5,\"session\":30,\"base64\":false,\"ajaxurl\":\"https://coachingfederation.hu/wp-admin/admin-ajax.php\",\"prefix\":\"wc_order_attribution_\",\"allowTracking\":true},\"fields\":{\"source_type\":\"current.typ\",\"referrer\":\"current_add.rf\",\"utm_campaign\":\"current.cmp\",\"utm_source\":\"current.src\",\"utm_medium\":\"current.mdm\",\"utm_content\":\"current.cnt\",\"utm_id\":\"current.id\",\"utm_term\":\"current.trm\",\"utm_source_platform\""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.2.1",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-includes/js/jquery/ui/effect.min.js?ver=1.14.2",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/tagjaink/",
+      "hint": "var xoo_wsc_params = {\"adminurl\":\"https://coachingfederation.hu/wp-admin/admin-ajax.php\",\"wc_ajax_url\":\"/?wc-ajax=%%endpoint%%\",\"qtyUpdateDelay\":\"500\",\"notificationTime\":\"5000\",\"html\":{\"successNotice\":\"\\u003Cul class=\\\"xoo-wsc-notices\\\"\\u003E\\u003Cli class=\\\"xoo-wsc-notice-success\\\"\\u003E\\u003Cspan class=\\\"xoo-wsc-icon-check_circle\\\"\\u003E\\u003C/span\\u003E%s%\\u003C/li\\u003E\\u003C/ul\\u003E\",\"errorNotice\":\"\\u003Cul class=\\\"xoo-wsc-notices\\\"\\u003E\\u"
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce-side-cart-premium/assets/js/xoo-wsc-main.js?ver=4.1.3",
+      "hint": ""
+    },
+    {
+      "src": "https://coachingfederation.hu/tagjaink/",
+      "hint": "var complianz = {\"prefix\":\"cmplz_\",\"debug\":\"\",\"user_banner_id\":\"1\",\"set_cookies\":[],\"block_ajax_content\":\"\",\"banner_version\":\"22\",\"version\":\"7.5.6\",\"store_consent\":\"\",\"do_not_track_enabled\":\"\",\"consenttype\":\"optin\",\"region\":\"eu\",\"geoip\":\"\",\"dismiss_timeout\":\"\",\"disable_cookiebanner\":\"\",\"soft_cookiewall\":\"\",\"dismiss_on_scroll\":\"\",\"cookie_expiry\":\"365\",\"url\":\"https://coachingfederation.hu/wp-json/complianz/v1/\",\"locale\":\"lang=hu&locale=hu_HU\",\"set_"
+    },
+    {
+      "src": "https://coachingfederation.hu/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1792285747",
+      "hint": ""
+    }
+  ],
+  "iframes": [],
+  "text": "ICF coachok - ICF Hungary Ugrás a tartalomhoz Egyesületi tagdíj befizetés 2026 Bővebben → Következő esemény: ICF MAP — 2026. november 11. — Generál Péter MCC Keresés név szerint Minősítés Minősítés ACC PCC MCC ACTC Régió Régió Budapest Bács-Kiskun Baranya Békés Borsod-Abaúj-Zemplén Csongrád-Csanád Fejér Győr-Moson-Sopron Hajdú-Bihar Heves Jász-Nagykun-Szolnok Komárom-Esztergom Nógrád Pest Somogy Szabolcs-Szatmár-Bereg Tolna Vas Veszprém Zala Online Külföld Nyelv Nyelv Magyar Angol Bolgár Francia Holland Dán Német Olasz Orosz Román Spanyol Szűrők törlése coach A. Nagy Erika PCC Ábrahám Rita ACC Ádám Barbara Albert Dorottya Almási Anikó PCC Ambrus András ACC András Sebők PCC Angyal Vera ACC Baksa Henriett PCC Balajthy Bernadett PCC Bálint Anita ACC Barkóczi Beáta MCC Barnóczki Annamária MCC ACTC Barta Bea B Batiz Zita Bellon Attila Benedek Noémi Berkecz Mariann Bezerédy-Herald Balázs PCC Biró Szilvia Bite Barbara MCC Bodnár Barbara PCC Bodó Zsuzsanna Bokor Marianna Boros Zsófia ACC ACC Bőtös Balázs PCC Chrenóczy-Nagy Judit PCC ACTC Csabai-Paska Erzsébet PCC Csanádi Péter PCC Csepcsányi Adrienn Csetneki Csaba PCC, ACTC, MCS, CSS PCC ACTC Csima Brigitta Csóka Anett Csordás Izabella PCC Dankó Adrienn ACC Dobókői Ágnes ACC Dömény Erika PCC Domján Enikő Mária Dr. Pilinszki Attila Dr. Sápi Szilvia PCC Draskóczi Katalin PCC ACTC Elek Anett Éliás Nóra Emmanuel Saincaize MCC Énekes Tímea ACC Eperjesi Amina PCC Eperjesy Dóra ACC Farkas Kira Zoé ACC Farkas Péter ACC Farkas-Dienes Franciska ACC Fejes János ACC PCC Fekete Klaudia ACC Feller Diána Ferencsák Tímea ACC Fiáth Miklós ACC Fodor Erika Földi Flóra ACC Fornvald Andrea Forrás Lajos ACC Friedewald Zita MCC ACTC Gerencsér Bernadett Gogolák Zoltán ACC Göntér Mónika PCC ACTC Görözdi-Nagy Eszter PCC Gosztonyi László PCC Grozdits Adrienn Guseo Rita PCC Győrffy-Hegedűs Annamária ACC Gyurik Ágnes Hajdu Roland H Hámorszky Rita Hankovszky Katalin PCC Hanuska Marianna Hargitai Judit ACC Harmat Péter ACC Heffler Andrea PCC MCC Hegedűs Dóra MCC ACTC Hegedüs Erika ACC Hidvégi Szilvia ACC Holló Katalin PCC Hornyák Mariann Horváth Enikő PCC Hudacsek Csilla Huszák Éva ACC Huszák Nikolett ACC Izsák Hajnalka ACC Izsák Norbert MCC Izsó-Malaczkó Judit J Jakab Judit J Jaskó Éva Jeckel Eszter PCC Jeney Laura ACC Juhász Erika PCC ACTC Kádár Szilvia Éva ACC Kákonyi Anett MCC Kalmár-Bartos Angelika ACC Kapalyag Kitti K Karmos Zoltán Kazi Péter Kecsmár Szilvia Kelemen Annamaria ACC Keszthelyi Marianna ACC Király Zsolt ACC Kiss Aranka ACC Kiss-Beck Veronika ACC Kocsis Vera Kocsmár Kornél Kökény Gyöngyi PCC K Komár Kornélia Komócsin Laura MCC Kosztolánczy Gábor PCC ACTC Kovács Ágnes Lilla ACC Kovács Judit Kovács Péter Kövesdi Eszter PCC Krasznai Attila Kuncsik Kata Lázár Kornél Lőrincz-Kovács Fruzsina ACC Lorz-Gulner Veronika ACC L Lovig Tímea ACC Ludvig Ágnes Ludwig-Jánosy Judit Makai Melinda ACC Marosvölgyi-Varga Zsófia Marsó-Farkas Katalin Martin Hajdu György PCC Marton Erika ACC Márton Mónika MCC Medgyesi Krisztina PCC Mérei Balázs Mezei László PCC Mihalek Dávid Mikovics Krisztina ACC Mógor Krisztina PCC M Moldován Rita M Molnár Eszter Nagy István ACC Nagy Judit PCC Nagy Sándor, ICF ACC ACC Nagy Tivadar Németh Zita MCC Némethi Krisztina Novák Éva O Orlóci Zsuzsanna Örlősy Dóra PCC O Orosz-Fekete Mariann Parák András ACC Pesti Andrea Petes Beáta Pethő Anita ACC Pető Dalma ACC P Pintér Nóra Popovics Tibor ACC Puchinger Mónika Rab Róbert ACC Romsics Szilvia PCC Segal Hajnalka MCC Séra Attila MCC Seregély Edit Solymosi Nikoletta Somossy Eszter ACC S Stelkovics Katalin Svéda Dóra PCC Szabó Anita Szabó Gabi MCC Szabó Henrik Szabó Judit ACC Szabó Marcell MCC Szabó Tamara MCC Szabó Zsófia PCC Szecskó Tímea ACC Szegedi Gabriella PCC Szeli-Bognár Nóra ACC Szeri Krisztina Szilvási Gabriella MCC ACTC Szirtesi-Nagy Réka ACC T Talabos Anikó Tankó Beáta Tegyi Enikő MCC T Tislér Violetta Tőkés Tünde ACC T Tóth Diána Evelin Tóth Kinga ACC Tóthné Pap Edina ACC Tukacs Zsófia ACC Turbók András Tüske Zsófia Uj Anikó ACC Vachlerné Szilágyi Valéria Vad Ágnes van der Meer Gabriella MCC Varga Ágnes Varga Csilla Vass Andi PCC Veres János ACC Vető Zsuzsanna PCC Vida Gábor ACC Vida-Móricz Krisztina Vincze Viktória PCC Vízi Beáta PCC Zalai Szilvia ACC Zilahi Angéla PCC Zoles Ágnes PCC Z Zombori Péter Nincs a szűrésnek megfelelő coach. Próbálj tágabb feltételeket. Manage Consent To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions. Functional Functional Always active The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network. Preferences Preferences The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user. Statistics Statistics The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you. Marketing Marketing The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes. Manage options Manage services Manage {vendor_count} vendors Read more about these purposes Accept Deny View preferences Save preferences View preferences {title} {title} {title} Manage consent 0 0 Kosarad Üres a kosarad Vissza Vásárlás folytatása Apply Coupon"
+}

@@ -1,0 +1,1919 @@
+{
+  "url": "https://pszichologuskereso.hu/pszichologus-kereso",
+  "final_url": "https://pszichologuskereso.hu/pszichologus-kereso",
+  "status": 200,
+  "sha256": "c1ba3025a9947fae0aab6c996efe00698aaf62cbc7a32431c661d6fcced88f61",
+  "title": "Pszichológus kereső | PszichológusKereső™",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "title"
+        ]
+      },
+      "text": "Pszichológus kereső",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "block-inner"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Erdei-Csukás Csaba Vendel",
+      "url": "https://pszichologuskereso.hu/erdei-csukas-csaba-vendel",
+      "attrs": {
+        "href": "/erdei-csukas-csaba-vendel",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Munka- és szervezetpszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3815",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3815"
+      }
+    },
+    {
+      "text": "Nemi identitás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/259",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/259"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Mediáció, konfliktuskezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/255",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/255"
+      }
+    },
+    {
+      "text": "Krízisintervenció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/253",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/253"
+      }
+    },
+    {
+      "text": "Alvászavar kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/196",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/196"
+      }
+    },
+    {
+      "text": "Pszichoszomatikus betegségek",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/289",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/289"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Fóbiák",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/222",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/222"
+      }
+    },
+    {
+      "text": "Pánikbetegség kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/275",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/275"
+      }
+    },
+    {
+      "text": "Depresszió kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/204",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/204"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "Autogén tréning, relaxáció, imagináció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/201"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Állásinterjúra, vizsgára való felkészítés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/195",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/195"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Karrier-tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3859",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3859"
+      }
+    },
+    {
+      "text": "Kommunikációs tréning / fejlesztés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/252",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/252"
+      }
+    },
+    {
+      "text": "Indulatkezelési zavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/239",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/239"
+      }
+    },
+    {
+      "text": "Életközepi válság",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/210",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/210"
+      }
+    },
+    {
+      "text": "Gyász feldolgozása",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/227",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/227"
+      }
+    },
+    {
+      "text": "Váradi J. Csilla",
+      "url": "https://pszichologuskereso.hu/varadi-j-csilla",
+      "attrs": {
+        "href": "/varadi-j-csilla",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Autogén tréning, relaxáció, imagináció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/201"
+      }
+    },
+    {
+      "text": "Életközepi válság",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/210",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/210"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Munka- és szervezetpszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3815",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3815"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Mediáció, konfliktuskezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/255",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/255"
+      }
+    },
+    {
+      "text": "Krízisintervenció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/253",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/253"
+      }
+    },
+    {
+      "text": "Állásinterjúra, vizsgára való felkészítés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/195",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/195"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Alvászavar kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/196",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/196"
+      }
+    },
+    {
+      "text": "Karrier-tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3859",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3859"
+      }
+    },
+    {
+      "text": "Kommunikációs tréning / fejlesztés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/252",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/252"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "Kamasz és serdülő tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/243",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/243"
+      }
+    },
+    {
+      "text": "Perinatális tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3877",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3877"
+      }
+    },
+    {
+      "text": "Gyász feldolgozása",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/227",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/227"
+      }
+    },
+    {
+      "text": "Hipnózis",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/235",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/235"
+      }
+    },
+    {
+      "text": "Szülés utáni depresszió",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3536",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3536"
+      }
+    },
+    {
+      "text": "Hipnoterapeuta",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3551",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3551"
+      }
+    },
+    {
+      "text": "Hipnoterápia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3552",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3552"
+      }
+    },
+    {
+      "text": "Burnout",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3560",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3560"
+      }
+    },
+    {
+      "text": "Krízis",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3561",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3561"
+      }
+    },
+    {
+      "text": "Válás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3562",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3562"
+      }
+    },
+    {
+      "text": "Öbizalomhiány",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3565",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3565"
+      }
+    },
+    {
+      "text": "Önbizalom",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3566",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3566"
+      }
+    },
+    {
+      "text": "Önértékelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3567",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3567"
+      }
+    },
+    {
+      "text": "Önértékelési zavar",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3568",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3568"
+      }
+    },
+    {
+      "text": "Önismeret",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3569",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3569"
+      }
+    },
+    {
+      "text": "Pánikbetegség kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/275",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/275"
+      }
+    },
+    {
+      "text": "Pszichoszomatikus betegségek",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/289",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/289"
+      }
+    },
+    {
+      "text": "Meddőség",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3580",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3580"
+      }
+    },
+    {
+      "text": "Vérnyomás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3583",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3583"
+      }
+    },
+    {
+      "text": "Migrén",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3581",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3581"
+      }
+    },
+    {
+      "text": "Generalizált szorongás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3592",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3592"
+      }
+    },
+    {
+      "text": "Igaz-Noszály Piroska",
+      "url": "https://pszichologuskereso.hu/igaz-noszaly-piroska",
+      "attrs": {
+        "href": "/igaz-noszaly-piroska",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Indulatkezelési zavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/239",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/239"
+      }
+    },
+    {
+      "text": "Életközepi válság",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/210",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/210"
+      }
+    },
+    {
+      "text": "Gyász feldolgozása",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/227",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/227"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Párkapcsolati tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3577",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3577"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Mediáció, konfliktuskezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/255",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/255"
+      }
+    },
+    {
+      "text": "Pár- és családterápia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3830",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3830"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Karrier-tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3859",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3859"
+      }
+    },
+    {
+      "text": "Kommunikációs tréning / fejlesztés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/252",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/252"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "GYES szindróma",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/234",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/234"
+      }
+    },
+    {
+      "text": "Asperger-szindróma",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3864",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3864"
+      }
+    },
+    {
+      "text": "Családterápia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3574",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3574"
+      }
+    },
+    {
+      "text": "Neurolingvisztikus programozás - NLP",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3839",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3839"
+      }
+    },
+    {
+      "text": "Párterapia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3578",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3578"
+      }
+    },
+    {
+      "text": "Párkapcsolat",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3576",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3576"
+      }
+    },
+    {
+      "text": "ADHD",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/193",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/193"
+      }
+    },
+    {
+      "text": "Autizmus",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/198",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/198"
+      }
+    },
+    {
+      "text": "Autogén tréning, relaxáció, imagináció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/201"
+      }
+    },
+    {
+      "text": "Válás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3562",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3562"
+      }
+    },
+    {
+      "text": "Öbizalomhiány",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3565",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3565"
+      }
+    },
+    {
+      "text": "Önbizalom",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3566",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3566"
+      }
+    },
+    {
+      "text": "Önértékelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3567",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3567"
+      }
+    },
+    {
+      "text": "Kiss-Tóth Petra",
+      "url": "https://pszichologuskereso.hu/kiss-toth-petra",
+      "attrs": {
+        "href": "/kiss-toth-petra",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Állásinterjúra, vizsgára való felkészítés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/195",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/195"
+      }
+    },
+    {
+      "text": "Alvászavar kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/196",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/196"
+      }
+    },
+    {
+      "text": "Autizmus",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/198",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/198"
+      }
+    },
+    {
+      "text": "Családon belüli erőszak",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/203",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/203"
+      }
+    },
+    {
+      "text": "Életközepi válság",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/210",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/210"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Gyász feldolgozása",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/227",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/227"
+      }
+    },
+    {
+      "text": "GYES szindróma",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/234",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/234"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Kommunikációs tréning / fejlesztés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/252",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/252"
+      }
+    },
+    {
+      "text": "Krízisintervenció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/253",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/253"
+      }
+    },
+    {
+      "text": "Mediáció, konfliktuskezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/255",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/255"
+      }
+    },
+    {
+      "text": "Nevelési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/262",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/262"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Rehabilitációs pszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/294",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/294"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Autista",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3532",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3532"
+      }
+    },
+    {
+      "text": "Autisztikus zavar",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3533",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3533"
+      }
+    },
+    {
+      "text": "Halál",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3547",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3547"
+      }
+    },
+    {
+      "text": "Halálozás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3548",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3548"
+      }
+    },
+    {
+      "text": "Hiszti",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3549",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3549"
+      }
+    },
+    {
+      "text": "Testvérféltékenység",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3550",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3550"
+      }
+    },
+    {
+      "text": "Düh",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3554",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3554"
+      }
+    },
+    {
+      "text": "Indulat",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3555",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3555"
+      }
+    },
+    {
+      "text": "Indulatkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3556",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3556"
+      }
+    },
+    {
+      "text": "Burnout",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3560",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3560"
+      }
+    },
+    {
+      "text": "Krízis",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3561",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3561"
+      }
+    },
+    {
+      "text": "Válás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3562",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3562"
+      }
+    },
+    {
+      "text": "Öbizalomhiány",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3565",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3565"
+      }
+    },
+    {
+      "text": "Önbizalom",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3566",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3566"
+      }
+    },
+    {
+      "text": "Önértékelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3567",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3567"
+      }
+    },
+    {
+      "text": "Önértékelési zavar",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3568",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3568"
+      }
+    },
+    {
+      "text": "Önismeret",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3569",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3569"
+      }
+    },
+    {
+      "text": "Család",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3573",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3573"
+      }
+    },
+    {
+      "text": "Családterápia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3574",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3574"
+      }
+    },
+    {
+      "text": "Házassági problémák",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3575",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3575"
+      }
+    },
+    {
+      "text": "Párkapcsolat",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3576",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3576"
+      }
+    },
+    {
+      "text": "Párkapcsolati tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3577",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3577"
+      }
+    },
+    {
+      "text": "Párterapia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3578",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3578"
+      }
+    },
+    {
+      "text": "Meddőség",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3580",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3580"
+      }
+    },
+    {
+      "text": "Munka- és szervezetpszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3815",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3815"
+      }
+    },
+    {
+      "text": "Pár- és családterápia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3830",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3830"
+      }
+    },
+    {
+      "text": "Karrier-tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3859",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3859"
+      }
+    },
+    {
+      "text": "Asperger-szindróma",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3864",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3864"
+      }
+    },
+    {
+      "text": "Szülő-csecsemő konzultáció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3872",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3872"
+      }
+    },
+    {
+      "text": "Örökbefogadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3876",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3876"
+      }
+    },
+    {
+      "text": "Gubacsi Barbara",
+      "url": "https://pszichologuskereso.hu/gubacsi-barbara",
+      "attrs": {
+        "href": "/gubacsi-barbara",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Krízisintervenció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/253",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/253"
+      }
+    },
+    {
+      "text": "Poszttraumatikus stressz szindróma",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/285",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/285"
+      }
+    },
+    {
+      "text": "Onkopszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/271",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/271"
+      }
+    },
+    {
+      "text": "Alvászavar kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/196",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/196"
+      }
+    },
+    {
+      "text": "Pszichoszomatikus betegségek",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/289",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/289"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Pánikbetegség kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/275",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/275"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "GYES szindróma",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/234",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/234"
+      }
+    },
+    {
+      "text": "Autogén tréning, relaxáció, imagináció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/201"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Indulatkezelési zavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/239",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/239"
+      }
+    },
+    {
+      "text": "Életközepi válság",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/210",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/210"
+      }
+    },
+    {
+      "text": "Gyász feldolgozása",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/227",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/227"
+      }
+    },
+    {
+      "text": "Meddőség",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3580",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3580"
+      }
+    },
+    {
+      "text": "Dengyel Kinga",
+      "url": "https://pszichologuskereso.hu/dengyel-kinga",
+      "attrs": {
+        "href": "/dengyel-kinga",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Alvászavar kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/196",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/196"
+      }
+    },
+    {
+      "text": "Autogén tréning, relaxáció, imagináció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/201"
+      }
+    },
+    {
+      "text": "Depresszió kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/204",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/204"
+      }
+    },
+    {
+      "text": "Életközepi válság",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/210",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/210"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Fóbiák",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/222",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/222"
+      }
+    },
+    {
+      "text": "Gyász feldolgozása",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/227",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/227"
+      }
+    },
+    {
+      "text": "Gyermekpszichiátria",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/230",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/230"
+      }
+    },
+    {
+      "text": "Gyermekpszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/231",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/231"
+      }
+    },
+    {
+      "text": "GYES szindróma",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/234",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/234"
+      }
+    },
+    {
+      "text": "Indulatkezelési zavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/239",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/239"
+      }
+    },
+    {
+      "text": "Kamasz és serdülő tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/243",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/243"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Kommunikációs tréning / fejlesztés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/252",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/252"
+      }
+    },
+    {
+      "text": "Nevelési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/262",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/262"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Pánikbetegség kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/275",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/275"
+      }
+    },
+    {
+      "text": "Pszichoszomatikus betegségek",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/289",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/289"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "Személyiségzavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/297",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/297"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Szülés utáni depresszió",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3536",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3536"
+      }
+    },
+    {
+      "text": "Szociális fóbia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3546",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3546"
+      }
+    },
+    {
+      "text": "Halál",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3547",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3547"
+      }
+    },
+    {
+      "text": "Hiszti",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3549",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3549"
+      }
+    },
+    {
+      "text": "Testvérféltékenység",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3550",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3550"
+      }
+    },
+    {
+      "text": "Meddőség",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3580",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3580"
+      }
+    },
+    {
+      "text": "Szülő-csecsemő konzultáció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3872",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3872"
+      }
+    },
+    {
+      "text": "Örökbefogadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3876",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3876"
+      }
+    },
+    {
+      "text": "Perinatális tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3877",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3877"
+      }
+    },
+    {
+      "text": "COVID-19 Támogatás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3878",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3878"
+      }
+    },
+    {
+      "text": "Magyary Ágnes",
+      "url": "https://pszichologuskereso.hu/magyary-agnes",
+      "attrs": {
+        "href": "/magyary-agnes",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Karrier-tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3859",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3859"
+      }
+    },
+    {
+      "text": "Depresszió kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/204",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/204"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Indulatkezelési zavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/239",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/239"
+      }
+    },
+    {
+      "text": "Düh",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3554",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3554"
+      }
+    },
+    {
+      "text": "Indulat",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3555",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3555"
+      }
+    },
+    {
+      "text": "Indulatkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3556",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3556"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Burnout",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3560",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3560"
+      }
+    },
+    {
+      "text": "Kommunikációs tréning / fejlesztés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/252",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/252"
+      }
+    },
+    {
+      "text": "Öbizalomhiány",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3565",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3565"
+      }
+    },
+    {
+      "text": "Önbizalom",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3566",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3566"
+      }
+    },
+    {
+      "text": "Önértékelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3567",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3567"
+      }
+    },
+    {
+      "text": "Önértékelési zavar",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3568",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3568"
+      }
+    },
+    {
+      "text": "Önismeret",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3569",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3569"
+      }
+    },
+    {
+      "text": "Generalizált szorongás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3592",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3592"
+      }
+    },
+    {
+      "text": "Párkapcsolat",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3576",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3576"
+      }
+    },
+    {
+      "text": "Mediáció, konfliktuskezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/255",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/255"
+      }
+    },
+    {
+      "text": "Szalkai Réka",
+      "url": "https://pszichologuskereso.hu/szalkai-reka",
+      "attrs": {
+        "href": "/szalkai-reka",
+        "hreflang": "und"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Generalizált szorongás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3592",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3592"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Önbizalom",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3566",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3566"
+      }
+    },
+    {
+      "text": "Önismeret",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3569",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3569"
+      }
+    },
+    {
+      "text": "Önértékelési zavar",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3568",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3568"
+      }
+    },
+    {
+      "text": "Öbizalomhiány",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3565",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3565"
+      }
+    },
+    {
+      "text": "Nemi identitás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/259",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/259"
+      }
+    },
+    {
+      "text": "Párkapcsolat",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3576",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3576"
+      }
+    },
+    {
+      "text": "Párkapcsolati tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3577",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3577"
+      }
+    },
+    {
+      "text": "Kommunikációs tréning / fejlesztés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/252",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/252"
+      }
+    },
+    {
+      "text": "Indulatkezelési zavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/239",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/239"
+      }
+    },
+    {
+      "text": "Indulatkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3556",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3556"
+      }
+    },
+    {
+      "text": "Szex",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3589",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3589"
+      }
+    },
+    {
+      "text": "Szexualitás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3591",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3591"
+      }
+    },
+    {
+      "text": "Alacsony nemi vágy",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3585",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3585"
+      }
+    },
+    {
+      "text": "Kamasz és serdülő tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/243",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/243"
+      }
+    },
+    {
+      "text": "Válás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3562",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3562"
+      }
+    },
+    {
+      "text": "Autogén tréning, relaxáció, imagináció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/201"
+      }
+    },
+    {
+      "text": "Pánikbetegség kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/275",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/275"
+      }
+    },
+    {
+      "text": "Pánikbeteg",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3571",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3571"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Reményik Ildikó",
+      "url": "https://pszichologuskereso.hu/remenyik-ildiko",
+      "attrs": {
+        "href": "/remenyik-ildiko",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Étkezési zavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/213",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/213"
+      }
+    },
+    {
+      "text": "Krízisintervenció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/253",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/253"
+      }
+    },
+    {
+      "text": "Mediáció, konfliktuskezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/255",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/255"
+      }
+    },
+    {
+      "text": "Nemi identitás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/259",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/259"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Párkapcsolati tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3577",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3577"
+      }
+    },
+    {
+      "text": "Pszichoszomatikus betegségek",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/289",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/289"
+      }
+    },
+    {
+      "text": "Személyiségzavarok",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/297",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/297"
+      }
+    },
+    {
+      "text": "Kun Orsolya",
+      "url": "https://pszichologuskereso.hu/kun-orsolya",
+      "attrs": {
+        "href": "/kun-orsolya",
+        "hreflang": "hu"
+      }
+    },
+    {
+      "text": "Gyermekpszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/231",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/231"
+      }
+    },
+    {
+      "text": "Kiégés, burnout kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/250"
+      }
+    },
+    {
+      "text": "Önismeret, önértékelés zavarai",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/265"
+      }
+    },
+    {
+      "text": "Szorongás kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/307"
+      }
+    },
+    {
+      "text": "Fóbiák",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/222",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/222"
+      }
+    },
+    {
+      "text": "Depresszió kezelése",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/204",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/204"
+      }
+    },
+    {
+      "text": "Neurolingvisztikus programozás - NLP",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3839",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/3839"
+      }
+    },
+    {
+      "text": "Stressz és stresszkezelés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/296"
+      }
+    },
+    {
+      "text": "Kamasz és serdülő tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/243",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/243"
+      }
+    },
+    {
+      "text": "Sportpszichológia",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/295",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/295"
+      }
+    },
+    {
+      "text": "Autogén tréning, relaxáció, imagináció",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/201"
+      }
+    },
+    {
+      "text": "Nevelési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/262",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/262"
+      }
+    },
+    {
+      "text": "Online tanácsadás / Skype tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/273",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/273"
+      }
+    },
+    {
+      "text": "Állásinterjúra, vizsgára való felkészítés",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/195",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/195"
+      }
+    },
+    {
+      "text": "Életvezetési tanácsadás",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/211",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/211"
+      }
+    },
+    {
+      "text": "Életközepi válság",
+      "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/210",
+      "attrs": {
+        "href": "/tudastar-lexikon/leiras/210"
+      }
+    },
+    {
+      "text": "Továbbiak betöltése",
+      "url": "https://pszichologuskereso.hu/pszichologus-kereso?pk_mag=1877140742&page=1",
+      "attrs": {
+        "class": [
+          "button"
+        ],
+        "href": "?pk_mag=1877140742&page=1",
+        "title": "Load more items",
+        "rel": [
+          "next"
+        ]
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://pszichologuskereso.hu/pszichologus-kereso",
+      "hint": "{\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"\",\"currentPath\":\"search-listing\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"hu\",\"currentQuery\":{\"pk_mag\":\"1877140742\"}},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"ajaxPageState\":{\"libraries\":\"eJx1koGOrCAMRX8Ih08iBavDWKlpO7OjX__qqpnNbl5isD2FAvcCfW8MbY1wBrdBuFkAVbRU2wOLscSieluc6wbz79rDS1MylAmXNKOghQzFCfu3xB9xqoXbf4sPDRnN-yR8L6zYp6GSpxpHbChAIddN8FXxK47EGahTW6m28UdhRhPuMrFDZlM"
+    },
+    {
+      "src": "https://pszichologuskereso.hu/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+      "hint": ""
+    },
+    {
+      "src": "https://pszichologuskereso.hu/sites/default/files/js/js_8Faalv_1-fRNDTNfsc0LsRiCo2bQX8YpWrU2ds1EBIY.js?scope=footer&delta=1&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+      "hint": ""
+    },
+    {
+      "src": "https://static.addtoany.com/menu/page.js",
+      "hint": ""
+    },
+    {
+      "src": "https://pszichologuskereso.hu/sites/default/files/js/js_lhKzo1slX0DRknCHyvNY8lFmU1PIXU4Uh1GvKAi92W4.js?scope=footer&delta=3&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+      "hint": ""
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js",
+      "hint": ""
+    },
+    {
+      "src": "https://pszichologuskereso.hu/sites/default/files/js/js_gGTaAA4HDVRJ2bGPryjqMZkrJYMjDvdw5K5fuaF1tHE.js?scope=footer&delta=5&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+      "hint": ""
+    },
+    {
+      "src": "https://pszichologuskereso.hu/modules/custom/pk_forgalom/js/pk_forgalom.js?v=1",
+      "hint": ""
+    },
+    {
+      "src": "https://pszichologuskereso.hu/sites/default/files/js/js_3oWXRBgQn0zUCjmOO4ly3z2Mb9w2G5xWOg-p8MaIFKU.js?scope=footer&delta=7&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+      "hint": ""
+    },
+    {
+      "src": "https://pszichologuskereso.hu/libraries/klaro/dist/klaro-no-translations-no-css.js?v=0.7.21",
+      "hint": ""
+    },
+    {
+      "src": "https://pszichologuskereso.hu/sites/default/files/js/js_KHN9-TbdwwETw5kss0IBoS8BxJM0eRqkCb8ak0TdgiM.js?scope=footer&delta=9&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+      "hint": ""
+    }
+  ],
+  "iframes": [],
+  "text": "Pszichológus kereső | PszichológusKereső™ Ugrás a tartalomra Belépés | Regisztráció Search a listing Online konzultáció Problémakör Asperger-szindróma Ayres szenzoros-integrációs terápia COVID-19 Támogatás Igazságügyi pszichológia Karrier-tanácsadás Munka- és szervezetpszichológia Neurolingvisztikus programozás - NLP Örökbefogadás Pár- és családterápia Perinatális tanácsadás Szülő-csecsemő konzultáció Abúzus, nemi erőszak áldozatok Addiktológa (függőségek: alkohol, drog) Alkoholizmus Szenvedélybetegség ADHD Figyelemhiány Állásinterjúra, vizsgára való felkészítés Alvászavar kezelése Autizmus Autista Autisztikus zavar Autogén tréning, relaxáció, imagináció Családon belüli erőszak Depresszió kezelése Bipoláris Szuicid hajlamok Szülés utáni depresszió Dohányzásleszokás segítség Életközepi válság Életvezetési tanácsadás EMDR terápia Étkezési zavarok Anorexia Bulimia Bulimia nervosa Evészavar Evészavarok Falás Falásroham Fóbiák Fóbia Monophobia Szociális fóbia Gyász feldolgozása Halál Halálozás Gyermekpszichiátria Gyermekpszichológia Hiszti Testvérféltékenység GYES szindróma Hipnózis Hipnoterapeuta Hipnoterápia Hipochondria Indulatkezelési zavarok Düh Indulat Indulatkezelés Kamasz és serdülő tanácsadás Kamasz Serdülő Kényszerbetegségek kezelése OCD Képességvizsgálat, iskolaérettségi vizsgálat Kiégés, burnout kezelése Burnout Kommunikációs tréning / fejlesztés Krízisintervenció Krízis Mediáció, konfliktuskezelés Válás Művészetterápia Nemi identitás Homofóbia Neuropszichológia Nevelési tanácsadás Öngyilkosság, öngyilkossági kísérlet Öngyilkosság Önismeret, önértékelés zavarai Öbizalomhiány Önbizalom Önértékelés Önértékelési zavar Önismeret Onkopszichológia Daganat Online tanácsadás / Skype tanácsadás Önsebzés, autoagresszió Pánikbetegség kezelése Pánikbeteg Pánikbetegség Család Családterápia Házassági problémák Párkapcsolat Párkapcsolati tanácsadás Párterapia Poszttraumatikus stressz szindróma Pszichiátria Pszichoanalízis Pszichodráma Pszichoszomatikus betegségek Betegség Meddőség Migrén Túlsúly Vérnyomás Rehabilitációs pszichológia Sportpszichológia Stressz és stresszkezelés Személyiségzavarok Borderline személyiségzavar Szexuálpszichológia Alacsony nemi vágy Frigiditás Pornófüggőség Potencia Szex Szexfüggőség Szexualitás Szkizofrénia Szorongás kezelése Generalizált szorongás Tanulási zavarok Település Ács Ajka Atkár Badacsonytomaj Baja Balassagyarmat Balatonalmádi Balatonfüred Balatonfűzfő Baracska Barcelona Békéscsaba Berettyóújfalu Berlin Bonn Bucsa Budajenő Budakeszi Budaörs Budapest Budapest I. kerület Budapest II. kerület Budapest III. kerület Budapest IV. kerület Budapest IX. kerület Budapest V. kerület Budapest VI. kerület Budapest VII. kerület Budapest VIII. kerület Budapest X. kerület Budapest XI. kerület Budapest XII. kerület Budapest XIII. kerület Budapest XIV. kerület Budapest XIX. kerület Budapest XV. kerület Budapest XVI. kerület Budapest XVII. kerület Budapest XVIII. kerület Budapest XX. kerület Budapest XXI. kerület Budapest XXII. kerület Budapest XXIII. kerület Cegléd Csíkszereda Csongrád Csorna Dabas Debrecen Diósd Dombóvár Dömsöd Dorog Dunaharaszti Dunakeszi Dunaújváros Dunavarsány Eger Encs Érd Esztergom Fót Gárdony Göd Gödöllő Gönc Gyál Gyömrő Gyöngyös Gyöngyöshalász Győr Gyula Hajdúböszörmény Hajdúnánás Hajdúszoboszló Halásztelek Harta Hatvan Herceghalom Hódmezővásárhely Inárcs Jászberény Kápolnásnyék Kaposvár Káptalantóti Kazincbarcika Kecskéd Kecskemét Kerepes Keszthely Kétsoprony Kington Kisbodak Kiskőrös Kiskunfélegyháza Kismaros Kistarcsa Kisvárda Kolozsvár Komárom Komló Kőszeg Külföld Kunszentmárton Leányfalu Luxembourg Madrid Makó Marcali Marosvásárhely Marseille Mátészalka Mezőkövesd Miskolc Mogyoród Mohács Mórahalom Mosonmagyaróvár Nagyhegyes Nagykanizsa Nagykáta Nagykovácsi Nagymaros Nagyoroszi Nagyszénás Nagyvárad Nyíregyháza Ócsa Orosháza Pápa Pásztó Páty Pécel Pécs Pilisborosjenő Piliscsaba Pilisszántó Pomáz Sajószentpéter Salgótarján Sárkeresztes Sárospatak Siófok Soltvadkert Sopron Sóskút Stoke-on-Trent Strasbourg Szabolcs Szakáld Szakmár Százhalombatta Szécsény Szederkény Szeged Székesfehérvár Szekszárd Szentendre Szentes Szentgotthárd Szigetszentmiklós Szolnok Szombathely Tahitótfalu Tamási Tapolca Tata Tatabánya Tiszaújváros Tiszavasvári Tokaj Törökbálint Törökszentmiklós Újkígyós Üröm Vác Várpalota Vecsés Velence Veresegyház Verőce Vértesszőlős Veszprém Zalaegerszeg Problémakörök Önismeret, önértékelés zavarai (1577) Stressz és stresszkezelés (1389) Életvezetési tanácsadás (1334) Szorongás kezelése (1169) Kiégés, burnout kezelése (1028) Párkapcsolati tanácsadás (1022) Online tanácsadás / Skype tanácsadás (946) Életközepi válság (800) Gyász feldolgozása (696) Kamasz és serdülő tanácsadás (693) Kommunikációs tréning / fejlesztés (659) Krízisintervenció (641) Karrier-tanácsadás (636) Állásinterjúra, vizsgára való felkészítés (614) Autogén tréning, relaxáció, imagináció (598) Nevelési tanácsadás (548) Mediáció, konfliktuskezelés (544) Pszichoszomatikus betegségek (475) Indulatkezelési zavarok (447) Depresszió kezelése (421) Pánikbetegség kezelése (420) Gyermekpszichológia (409) Nemi identitás (401) Munka- és szervezetpszichológia (356) Pár- és családterápia (355) Alvászavar kezelése (346) Fóbiák (346) Tanulási zavarok (306) GYES szindróma (284) Szociális fóbia (261) Étkezési zavarok (250) Poszttraumatikus stressz szindróma (243) Szexuálpszichológia (188) Személyiségzavarok (185) ADHD (175) Meddőség (173) Dohányzásleszokás segítség (159) Családon belüli erőszak (151) Önsebzés, autoagresszió (151) COVID-19 Támogatás (148) Kényszerbetegségek kezelése (142) Művészetterápia (142) Képességvizsgálat, iskolaérettségi vizsgálat (138) Abúzus, nemi erőszak áldozatok (125) Hipochondria (113) Neurolingvisztikus programozás - NLP (112) Sportpszichológia (105) Addiktológa (függőségek: alkohol, drog) (97) Szülő-csecsemő konzultáció (97) Onkopszichológia (94) Hipnózis (93) Rehabilitációs pszichológia (84) Öngyilkosság, öngyilkossági kísérlet (81) Asperger-szindróma (80) Perinatális tanácsadás (78) Pszichodráma (77) Örökbefogadás (74) Alkoholizmus (71) Autizmus (71) Borderline személyiségzavar (67) Önismeret (58) Öbizalomhiány (56) Önértékelés (55) Önbizalom (50) Párkapcsolat (40) Önértékelési zavar (37) Burnout (32) Szkizofrénia (29) Pszichiátria (27) Neuropszichológia (26) Válás (26) Házassági problémák (25) EMDR terápia (23) Generalizált szorongás (22) Pszichoanalízis (22) Krízis (21) Indulatkezelés (20) Düh (16) Szexualitás (16) Indulat (14) Pánikbetegség (14) Család (13) Párterapia (12) Szex (12) Halál (11) Pornófüggőség (11) Pánikbeteg (10) Túlsúly (10) Gyermekpszichiátria (9) Halálozás (9) Szülés utáni depresszió (9) Betegség (8) Családterápia (8) Szexfüggőség (8) Alacsony nemi vágy (7) Migrén (7) Figyelemhiány (6) Frigiditás (6) Kamasz (6) OCD (6) Serdülő (6) Ayres szenzoros-integrációs terápia (5) Daganat (5) Fóbia (5) Potencia (5) Testvérféltékenység (5) Autisztikus zavar (4) Bipoláris (4) Hipnoterápia (4) Hiszti (4) Homofóbia (4) Vérnyomás (4) Autista (3) Falás (3) Falásroham (3) Evészavarok (2) Hipnoterapeuta (2) Szuicid hajlamok (2) Anorexia (1) Bulimia (1) Bulimia nervosa (1) Evészavar (1) Monophobia (1) Öngyilkosság (1) Szenvedélybetegség (1) Helyszín Budapest (1413) Budapest XIII. kerület (200) Budapest XI. kerület (196) Budapest II. kerület (128) Budapest I. kerület (99) Budapest XII. kerület (86) Budapest VIII. kerület (85) Budapest VI. kerület (82) Debrecen (73) Budapest V. kerület (71) Budapest III. kerület (68) Budapest IX. kerület (68) Budapest VII. kerület (67) Szeged (59) Budapest XIV. kerület (57) Pécs (25) Székesfehérvár (24) Miskolc (21) Nyíregyháza (21) Budapest XVIII. kerület (19) Kecskemét (19) Budapest XVI. kerület (15) Érd (14) Budapest IV. kerület (13) Budapest XVII. kerület (13) Veszprém (12) Dunaújváros (11) Kaposvár (11) Szentendre (11) Vác (11) Budaörs (9) Eger (9) Győr (9) Szombathely (9) Tatabánya (9) Budapest XV. kerület (8) Gyöngyös (8) Szolnok (8) Budapest X. kerület (7) Budapest XIX. kerület (7) Budapest XX. kerület (7) Békéscsaba (6) Budapest XXI. kerület (6) Gödöllő (6) Kisvárda (6) Sopron (6) Szentes (6) Tata (6) Budapest XXII. kerület (5) Gyula (5) Orosháza (5) Barcelona (4) Cegléd (4) Dunakeszi (4) Pécel (4) Pomáz (4) Zalaegerszeg (4) Dorog (3) Hódmezővásárhely (3) Kerepes (3) Mosonmagyaróvár (3) Nagykanizsa (3) Páty (3) Siófok (3) Százhalombatta (3) Törökbálint (3) Baja (2) Balatonfüred (2) Csíkszereda (2) Esztergom (2) Gyömrő (2) Hajdúböszörmény (2) Hajdúszoboszló (2) Keszthely (2) Kiskunfélegyháza (2) Kolozsvár (2) Sárospatak (2) Szekszárd (2) Üröm (2) Vecsés (2) Velence (2) Ács (1) Ajka (1) Atkár (1) Badacsonytomaj (1) Balassagyarmat (1) Balatonalmádi (1) Balatonfűzfő (1) Baracska (1) Berettyóújfalu (1) Berlin (1) Bonn (1) Bucsa (1) Budajenő (1) Budakeszi (1) Budapest XXIII. kerület (1) Csongrád (1) Csorna (1) Dabas (1) Diósd (1) Dombóvár (1) Dömsöd (1) Dunaharaszti (1) Dunavarsány (1) Encs (1) Fót (1) Gárdony (1) Göd (1) Gönc (1) Gyál (1) Gyöngyöshalász (1) Hajdúnánás (1) Halásztelek (1) Harta (1) Hatvan (1) Herceghalom (1) Inárcs (1) Jászberény (1) Kápolnásnyék (1) Káptalantóti (1) Kazincbarcika (1) Kecskéd (1) Kétsoprony (1) Kington (1) Kisbodak (1) Kiskőrös (1) Kismaros (1) Kistarcsa (1) Komárom (1) Komló (1) Kőszeg (1) Külföld (1) Kunszentmárton (1) Leányfalu (1) Luxembourg (1) Madrid (1) Makó (1) Marcali (1) Marosvásárhely (1) Marseille (1) Mátészalka (1) Mezőkövesd (1) Mogyoród (1) Mohács (1) Mórahalom (1) Nagyhegyes (1) Nagykáta (1) Nagykovácsi (1) Nagymaros (1) Nagyoroszi (1) Nagyszénás (1) Nagyvárad (1) Ócsa (1) Pápa (1) Pásztó (1) Pilisborosjenő (1) Piliscsaba (1) Pilisszántó (1) Sajószentpéter (1) Salgótarján (1) Sárkeresztes (1) Soltvadkert (1) Sóskút (1) Stoke-on-Trent (1) Strasbourg (1) Szabolcs (1) Szakáld (1) Szakmár (1) Szécsény (1) Szederkény (1) Szentgotthárd (1) Szigetszentmiklós (1) Tahitótfalu (1) Tamási (1) Tapolca (1) Tiszaújváros (1) Tiszavasvári (1) Tokaj (1) Törökszentmiklós (1) Újkígyós (1) Várpalota (1) Veresegyház (1) Verőce (1) Vértesszőlős (1) Végzettség Pszichológus (1888) Tanácsadó szakpszichológus (153) Klinikai szakpszichológus (115) Pszichoterapeuta (29) Szexuálpszichológiai szakpszichológus (22) Pedagógiai szakpszichológus (20) Alkalmazott egészségpszichológiai szakpszichológus (16) Viselkedéselemző (BA) (16) Művészetterapeuta (14) Sport szakpszichológus (12) Szervezet és vezetőfejlesztő és munkapszichológia szakpszichológus (10) Coaching szakpszichológus (8) Egészségfejlesztő szakpszichológus (8) Egészségpszichológus (8) Addiktív viselkedések tanácsadó szakpszichológus (7) Sportpszichológiai szakpszichológus (5) Mentálhigiénés szakember (4) Ember környezet tranzakció szakpszichológus (3) Környezetvédelmi szakpszichológus (2) Általános neuropszichológus (1) Pszichiáter (1) Szolgáltatások Online konzultáció Időpontfoglalás szükséges Parkolás Bankkártyás fizetés Állatbarát rendelő Akadálymentesített rendelő Pszichológus kereső Erdei-Csukás Csaba Vendel Kiemelt szakember 5 ( 27 ) Értékelt szakember Tanácsadó szakpszichológus 1054 Budapest, Alkotmány u. 4. Munka- és szervezetpszichológia , Nemi identitás , Kiégés, burnout kezelése , Önismeret, önértékelés zavarai , Mediáció, konfliktuskezelés , Krízisintervenció , Alvászavar kezelése , Pszichoszomatikus betegségek , Szorongás kezelése , Fóbiák , Pánikbetegség kezelése , Depresszió kezelése , Stressz és stresszkezelés , Autogén tréning, relaxáció, imagináció , Online tanácsadás / Skype tanácsadás , Állásinterjúra, vizsgára való felkészítés , Életvezetési tanácsadás , Karrier-tanácsadás , Kommunikációs tréning / fejlesztés , Indulatkezelési zavarok , Életközepi válság , Gyász feldolgozása Váradi J. Csilla Kiemelt szakember 5 ( 29 ) Értékelt szakember Pszichológus 1133 Budapest, Váci út 88./B, 2600 Vác, Jókai Mór utca 1., 2132 Göd, Pesti út 131. Autogén tréning, relaxáció, imagináció , Életközepi válság , Online tanácsadás / Skype tanácsadás , Munka- és szervezetpszichológia , Kiégés, burnout kezelése , Önismeret, önértékelés zavarai , Mediáció, konfliktuskezelés , Krízisintervenció , Állásinterjúra, vizsgára való felkészítés , Életvezetési tanácsadás , Alvászavar kezelése , Karrier-tanácsadás , Kommunikációs tréning / fejlesztés , Szorongás kezelése , Stressz és stresszkezelés , Kamasz és serdülő tanácsadás , Perinatális tanácsadás , Gyász feldolgozása , Hipnózis , Szülés utáni depresszió , Hipnoterapeuta , Hipnoterápia , Burnout , Krízis , Válás , Öbizalomhiány , Önbizalom , Önértékelés , Önértékelési zavar , Önismeret , Pánikbetegség kezelése , Pszichoszomatikus betegségek , Meddőség , Vérnyomás , Migrén , Generalizált szorongás Igaz-Noszály Piroska Kiemelt szakember 5 ( 7 ) Értékelt szakember Pszichológus 1132 Budapest, Csanády utca 25/B Indulatkezelési zavarok , Életközepi válság , Gyász feldolgozása , Online tanácsadás / Skype tanácsadás , Párkapcsolati tanácsadás , Kiégés, burnout kezelése , Önismeret, önértékelés zavarai , Mediáció, konfliktuskezelés , Pár- és családterápia , Életvezetési tanácsadás , Karrier-tanácsadás , Kommunikációs tréning / fejlesztés , Stressz és stresszkezelés , GYES szindróma , Asperger-szindróma , Családterápia , Neurolingvisztikus programozás - NLP , Párterapia , Párkapcsolat , ADHD , Autizmus , Autogén tréning, relaxáció, imagináció , Válás , Öbizalomhiány , Önbizalom , Önértékelés Kiss-Tóth Petra Kiemelt szakember Nem értékelt szakember Pszichológus, Szervezet és vezetőfejlesztő és munkapszichológia szakpszichológus 2013 Pomáz, Mátyás király utca 4., 1134 Budapest, Róbert Károly körút 38., fsz.7. Állásinterjúra, vizsgára való felkészítés , Alvászavar kezelése , Autizmus , Családon belüli erőszak , Életközepi válság , Életvezetési tanácsadás , Gyász feldolgozása , GYES szindróma , Kiégés, burnout kezelése , Kommunikációs tréning / fejlesztés , Krízisintervenció , Mediáció, konfliktuskezelés , Nevelési tanácsadás , Önismeret, önértékelés zavarai , Online tanácsadás / Skype tanácsadás , Rehabilitációs pszichológia , Stressz és stresszkezelés , Szorongás kezelése , Autista , Autisztikus zavar , Halál , Halálozás , Hiszti , Testvérféltékenység , Düh , Indulat , Indulatkezelés , Burnout , Krízis , Válás , Öbizalomhiány , Önbizalom , Önértékelés , Önértékelési zavar , Önismeret , Család , Családterápia , Házassági problémák , Párkapcsolat , Párkapcsolati tanácsadás , Párterapia , Meddőség , Munka- és szervezetpszichológia , Pár- és családterápia , Karrier-tanácsadás , Asperger-szindróma , Szülő-csecsemő konzultáció , Örökbefogadás Gubacsi Barbara Kiemelt szakember 5 ( 2 ) Értékelt szakember Klinikai szakpszichológus Da Vinci Magánklinika: 7635 Pécs, Málics Ottó u. 1., Életkör Pszichológiai Műhely: 7624 Pécs, Őz u. 5. Kiégés, burnout kezelése , Önismeret, önértékelés zavarai , Krízisintervenció , Poszttraumatikus stressz szindróma , Onkopszichológia , Alvászavar kezelése , Pszichoszomatikus betegségek , Szorongás kezelése , Pánikbetegség kezelése , Stressz és stresszkezelés , GYES szindróma , Autogén tréning, relaxáció, imagináció , Online tanácsadás / Skype tanácsadás , Életvezetési tanácsadás , Indulatkezelési zavarok , Életközepi válság , Gyász feldolgozása , Meddőség Dengyel Kinga Kiemelt szakember 5 ( 2 ) Értékelt szakember Klinikai szakpszichológus, Környezetvédelmi szakpszichológus Alvászavar kezelése , Autogén tréning, relaxáció, imagináció , Depresszió kezelése , Életközepi válság , Életvezetési tanácsadás , Fóbiák , Gyász feldolgozása , Gyermekpszichiátria , Gyermekpszichológia , GYES szindróma , Indulatkezelési zavarok , Kamasz és serdülő tanácsadás , Kiégés, burnout kezelése , Kommunikációs tréning / fejlesztés , Nevelési tanácsadás , Önismeret, önértékelés zavarai , Online tanácsadás / Skype tanácsadás , Pánikbetegség kezelése , Pszichoszomatikus betegségek , Stressz és stresszkezelés , Személyiségzavarok , Szorongás kezelése , Szülés utáni depresszió , Szociális fóbia , Halál , Hiszti , Testvérféltékenység , Meddőség , Szülő-csecsemő konzultáció , Örökbefogadás , Perinatális tanácsadás , COVID-19 Támogatás Magyary Ágnes Kiemelt szakember 5 ( 9 ) Értékelt szakember Pszichológus 1085 Budapest, József krt. Önismeret, önértékelés zavarai , Szorongás kezelése , Stressz és stresszkezelés , Online tanácsadás / Skype tanácsadás , Karrier-tanácsadás , Depresszió kezelése , Életvezetési tanácsadás , Indulatkezelési zavarok , Düh , Indulat , Indulatkezelés , Kiégés, burnout kezelése , Burnout , Kommunikációs tréning / fejlesztés , Öbizalomhiány , Önbizalom , Önértékelés , Önértékelési zavar , Önismeret , Generalizált szorongás , Párkapcsolat , Mediáció, konfliktuskezelés Szalkai Réka Kiemelt szakember Nem értékelt szakember Pszichológus 1114 Budapest, Eszék utca 8/A, 2. emelet, 6. ajtó Szorongás kezelése , Generalizált szorongás , Önismeret, önértékelés zavarai , Önbizalom , Önismeret , Önértékelési zavar , Öbizalomhiány , Nemi identitás , Párkapcsolat , Párkapcsolati tanácsadás , Kommunikációs tréning / fejlesztés , Indulatkezelési zavarok , Indulatkezelés , Szex , Szexualitás , Alacsony nemi vágy , Kamasz és serdülő tanácsadás , Válás , Autogén tréning, relaxáció, imagináció , Pánikbetegség kezelése , Pánikbeteg , Életvezetési tanácsadás Reményik Ildikó Kiemelt szakember 5 ( 6 ) Értékelt szakember Pszichológus 1016 Budapest, Krisztina tér 2. Étkezési zavarok , Krízisintervenció , Mediáció, konfliktuskezelés , Nemi identitás , Önismeret, önértékelés zavarai , Párkapcsolati tanácsadás , Pszichoszomatikus betegségek , Személyiségzavarok Kun Orsolya Kiemelt szakember Nem értékelt szakember Pszichológus, Sport szakpszichológus 1095 Budapest, Mester utca 1., földszint Gyermekpszichológia , Kiégés, burnout kezelése , Önismeret, önértékelés zavarai , Szorongás kezelése , Fóbiák , Depresszió kezelése , Neurolingvisztikus programozás - NLP , Stressz és stresszkezelés , Kamasz és serdülő tanácsadás , Sportpszichológia , Autogén tréning, relaxáció, imagináció , Nevelési tanácsadás , Online tanácsadás / Skype tanácsadás , Állásinterjúra, vizsgára való felkészítés , Életvezetési tanácsadás , Életközepi válság Továbbiak betöltése Térkép – engedélyezést igényel A térkép megjelenítéséhez a csempéket külső szolgáltatóról kellene letölteni. A megjelenítéshez a böngésződ kapcsolatba lépne ezzel a szolgáltatással: OpenStreetMap Foundation, a keresőoldalak térképénél Google Ireland Ltd.. Ilyenkor az IP-címed és a böngésződ adatai odakerülnek. Megjelenítés engedélyezése Adatvédelmi beállítások"
+}

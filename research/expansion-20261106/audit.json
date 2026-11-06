@@ -1,0 +1,4835 @@
+[
+  {
+    "key": "integrativ",
+    "status": 200,
+    "url": "https://integrativ.hu/integrativ-terapeutak",
+    "tables": [
+      [
+        96,
+        [
+          [
+            "Ábrahám-Ujpál Zsófia",
+            "klinikai szakpszichológus",
+            "Budapest"
+          ],
+          [
+            "Andriska Eszter",
+            "klinikai szakpszichológus jelölt",
+            "Budapest"
+          ],
+          [
+            "Antal Ildikó",
+            "pszichológus",
+            "Brüsszel"
+          ]
+        ]
+      ]
+    ],
+    "heading_samples": [],
+    "links_sample": [
+      {
+        "text": "Honlap",
+        "url": "http://www.lelek-harmonia.hu",
+        "attrs": {
+          "href": "http://www.lelek-harmonia.hu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.ildikoantalpsy.com",
+        "attrs": {
+          "href": "http://www.ildikoantalpsy.com",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "https://www.nytm.hu/babolnai-peter",
+        "attrs": {
+          "href": "https://www.nytm.hu/babolnai-peter",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.onlinepszichologus.eu",
+        "attrs": {
+          "href": "http://www.onlinepszichologus.eu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.pszichoterapiapecs.com",
+        "attrs": {
+          "href": "http://www.pszichoterapiapecs.com",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.banyaszreka.hu",
+        "attrs": {
+          "href": "http://www.banyaszreka.hu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.banfaikaroly.hu",
+        "attrs": {
+          "href": "http://www.banfaikaroly.hu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "https://bellerkata.hu/",
+        "attrs": {
+          "href": "https://bellerkata.hu/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.csabiorsolya.hu",
+        "attrs": {
+          "href": "http://www.csabiorsolya.hu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.gojolly.hu",
+        "attrs": {
+          "href": "http://www.gojolly.hu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.csurgaidorottya.com",
+        "attrs": {
+          "href": "http://www.csurgaidorottya.com",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.erki-kovacs.hu",
+        "attrs": {
+          "href": "http://www.erki-kovacs.hu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.maganpszichologus.hu",
+        "attrs": {
+          "href": "http://www.maganpszichologus.hu",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.lelekpontrendelo.hu/feher-nadasi-zsuzsanna/",
+        "attrs": {
+          "href": "http://www.lelekpontrendelo.hu/feher-nadasi-zsuzsanna/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "http://www.hangandras.hu",
+        "attrs": {
+          "href": "http://www.hangandras.hu",
+          "target": "_blank"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://integrativ.hu/makeup/js/jquery-3.6.0.min.js",
+        "hint": ""
+      },
+      {
+        "src": "https://integrativ.hu/makeup/js/script.js?v=20220215",
+        "hint": ""
+      },
+      {
+        "src": "https://www.googletagmanager.com/gtag/js?id=G-4T42J8F2ZD",
+        "hint": ""
+      },
+      {
+        "src": "https://www.google.com/recaptcha/api.js",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "emdr",
+    "error": "HTTPSConnectionPool(host='emdr.hu', port=443): Read timed out. (read timeout=35)"
+  },
+  {
+    "key": "csalad",
+    "status": 200,
+    "url": "https://csaladterapia.hu/csaladterapeutat-keres",
+    "tables": [
+      [
+        866,
+        [
+          [
+            "Név",
+            "Város",
+            "Végzettség"
+          ],
+          [
+            "Abdulwahid Leila",
+            "Budapest",
+            "családkonzulens (Wesley)"
+          ],
+          [
+            "Ábrahám Ildikó dr.",
+            "Budapest",
+            "kiképző család-pszichoterapeuta"
+          ]
+        ]
+      ]
+    ],
+    "heading_samples": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Oktatás",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Kiadványok",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Dokumentumok",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Navigáció",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Belépés",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Keresés",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Linkek",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "art-PostHeader"
+          ]
+        },
+        "text": "Családterapeutát keres?",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-Post-inner"
+          ]
+        }
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "text": "Kiképző család- pszichoterapeuták",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-article"
+          ]
+        }
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "text": "Család-pszichoterapeuták",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-article"
+          ]
+        }
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "text": "Családterapeuták",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-article"
+          ]
+        }
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "text": "Családi tanácsadók",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-article"
+          ]
+        }
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "text": "Családkonzulensek (Wesley)",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-article"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "A mentálhigiénés családtudományi szakemberek listája ezen az oldalon találhatóak meg.",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-article"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "szaknevsor"
+          ]
+        },
+        "text": "Szakembereink névsora:",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-article"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Címlap",
+        "url": "https://csaladterapia.hu/",
+        "attrs": {
+          "href": "/",
+          "title": ""
+        }
+      },
+      {
+        "text": "Egyesületről",
+        "url": "https://csaladterapia.hu/bemutatkozas",
+        "attrs": {
+          "href": "/bemutatkozas",
+          "title": " "
+        }
+      },
+      {
+        "text": "Családterápiáról",
+        "url": "https://csaladterapia.hu/csaladterapia",
+        "attrs": {
+          "href": "/csaladterapia",
+          "title": ""
+        }
+      },
+      {
+        "text": "Családterapeutát keres?",
+        "url": "https://csaladterapia.hu/csaladterapeutat-keres",
+        "attrs": {
+          "href": "/csaladterapeutat-keres",
+          "title": "",
+          "class": [
+            "active",
+            "active"
+          ]
+        }
+      },
+      {
+        "text": "Rendezvények",
+        "url": "https://csaladterapia.hu/rendezvenyek",
+        "attrs": {
+          "href": "/rendezvenyek",
+          "title": ""
+        }
+      },
+      {
+        "text": "Tanfolyamok",
+        "url": "https://csaladterapia.hu/tanfolyamok",
+        "attrs": {
+          "href": "/tanfolyamok",
+          "title": ""
+        }
+      },
+      {
+        "text": "Elérhetőségek, információk",
+        "url": "https://csaladterapia.hu/elerhetosegek",
+        "attrs": {
+          "href": "/elerhetosegek",
+          "title": ""
+        }
+      },
+      {
+        "text": "Rendezvények",
+        "url": "https://csaladterapia.hu/rendezvenyek",
+        "attrs": {
+          "href": "/rendezvenyek",
+          "title": ""
+        }
+      },
+      {
+        "text": "Tanfolyamok",
+        "url": "https://csaladterapia.hu/tanfolyamok",
+        "attrs": {
+          "href": "/tanfolyamok",
+          "title": ""
+        }
+      },
+      {
+        "text": "Családterápiás vizsga",
+        "url": "https://csaladterapia.hu/vizsgaleiras",
+        "attrs": {
+          "href": "/vizsgaleiras",
+          "title": ""
+        }
+      },
+      {
+        "text": "Képzési rend",
+        "url": "https://csaladterapia.hu/csaladterapeuta_kepzesi_rend",
+        "attrs": {
+          "href": "/csaladterapeuta_kepzesi_rend",
+          "title": ""
+        }
+      },
+      {
+        "text": "Tanulmányi Bizottság hírei",
+        "url": "https://csaladterapia.hu/tanulmanyi-bizottsag-hirei",
+        "attrs": {
+          "href": "/tanulmanyi-bizottsag-hirei",
+          "title": ""
+        }
+      },
+      {
+        "text": "Hírmondók",
+        "url": "https://csaladterapia.hu/hirmondok",
+        "attrs": {
+          "href": "/hirmondok",
+          "title": ""
+        }
+      },
+      {
+        "text": "Paradigma",
+        "url": "https://csaladterapia.hu/paradigma",
+        "attrs": {
+          "href": "/paradigma",
+          "title": ""
+        }
+      },
+      {
+        "text": "Fényképek",
+        "url": "https://csaladterapia.hu/galeriak",
+        "attrs": {
+          "href": "/galeriak",
+          "title": ""
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://csaladterapia.hu/modules/jquery_update/replace/jquery.min.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/misc/drupal.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/sites/default/files/languages/hu_dd4568d9523ddbb1fb19c5d55379a98c.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/fivestar/js/fivestar.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/panels/js/panels.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/thickbox/thickbox.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/ubercart/uc_file/uc_file.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/ubercart/uc_roles/uc_roles.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/google_analytics/googleanalytics.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/themes/csalad02/script.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/csaladterapeutat-keres",
+        "hint": "<!--//--><![CDATA[//><!-- jQuery.extend(Drupal.settings, { \"basePath\": \"/\", \"fivestar\": { \"titleUser\": \"Your rating: \", \"titleAverage\": \"Átlag: \", \"feedbackSavingVote\": \"Saving your vote...\", \"feedbackVoteSaved\": \"Your vote has been saved.\", \"feedbackDeletingVote\": \"Deleting your vote...\", \"feedbackVoteDeleted\": \"Your vote has been deleted.\" }, \"thickbox\": { \"close\": \"Bezár\", \"next\": \"Következő \\x3e\", \"prev\": \"\\x3c Előző\", \"esc_key\": \"vagy ESC\", "
+      }
+    ]
+  },
+  {
+    "key": "csaladmental",
+    "status": 200,
+    "url": "https://csaladterapia.hu/content/okleveles-mentalhigienes-csaladtudomanyi-es-csaladterapias-szakemberek-nevsora-semmelweis",
+    "tables": [
+      [
+        35,
+        [
+          [
+            "NÉV",
+            "Város",
+            "Végzettség"
+          ],
+          [
+            "Dr. Rosta Andrea",
+            "Zalaegerszeg",
+            "mentálhigiénés családtudományi és családterápiás szakember (Semmelweis)"
+          ],
+          [
+            "Erőss Gyuláné",
+            "Budapest",
+            "mentálhigiénés családtudományi és családterápiás szakember (Semmelweis)"
+          ]
+        ]
+      ]
+    ],
+    "heading_samples": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Oktatás",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Kiadványok",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Dokumentumok",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Navigáció",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Belépés",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Keresés",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "subject"
+          ]
+        },
+        "text": "Linkek",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "t"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "art-PostHeader"
+          ]
+        },
+        "text": "Okleveles mentálhigiénés családtudományi és családterápiás szakemberek névsora (Semmelweis)",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "art-Post-inner"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Címlap",
+        "url": "https://csaladterapia.hu/",
+        "attrs": {
+          "href": "/",
+          "title": ""
+        }
+      },
+      {
+        "text": "Egyesületről",
+        "url": "https://csaladterapia.hu/bemutatkozas",
+        "attrs": {
+          "href": "/bemutatkozas",
+          "title": " "
+        }
+      },
+      {
+        "text": "Családterápiáról",
+        "url": "https://csaladterapia.hu/csaladterapia",
+        "attrs": {
+          "href": "/csaladterapia",
+          "title": ""
+        }
+      },
+      {
+        "text": "Családterapeutát keres?",
+        "url": "https://csaladterapia.hu/csaladterapeutat-keres",
+        "attrs": {
+          "href": "/csaladterapeutat-keres",
+          "title": ""
+        }
+      },
+      {
+        "text": "Rendezvények",
+        "url": "https://csaladterapia.hu/rendezvenyek",
+        "attrs": {
+          "href": "/rendezvenyek",
+          "title": ""
+        }
+      },
+      {
+        "text": "Tanfolyamok",
+        "url": "https://csaladterapia.hu/tanfolyamok",
+        "attrs": {
+          "href": "/tanfolyamok",
+          "title": ""
+        }
+      },
+      {
+        "text": "Elérhetőségek, információk",
+        "url": "https://csaladterapia.hu/elerhetosegek",
+        "attrs": {
+          "href": "/elerhetosegek",
+          "title": ""
+        }
+      },
+      {
+        "text": "Rendezvények",
+        "url": "https://csaladterapia.hu/rendezvenyek",
+        "attrs": {
+          "href": "/rendezvenyek",
+          "title": ""
+        }
+      },
+      {
+        "text": "Tanfolyamok",
+        "url": "https://csaladterapia.hu/tanfolyamok",
+        "attrs": {
+          "href": "/tanfolyamok",
+          "title": ""
+        }
+      },
+      {
+        "text": "Családterápiás vizsga",
+        "url": "https://csaladterapia.hu/vizsgaleiras",
+        "attrs": {
+          "href": "/vizsgaleiras",
+          "title": ""
+        }
+      },
+      {
+        "text": "Képzési rend",
+        "url": "https://csaladterapia.hu/csaladterapeuta_kepzesi_rend",
+        "attrs": {
+          "href": "/csaladterapeuta_kepzesi_rend",
+          "title": ""
+        }
+      },
+      {
+        "text": "Tanulmányi Bizottság hírei",
+        "url": "https://csaladterapia.hu/tanulmanyi-bizottsag-hirei",
+        "attrs": {
+          "href": "/tanulmanyi-bizottsag-hirei",
+          "title": ""
+        }
+      },
+      {
+        "text": "Hírmondók",
+        "url": "https://csaladterapia.hu/hirmondok",
+        "attrs": {
+          "href": "/hirmondok",
+          "title": ""
+        }
+      },
+      {
+        "text": "Paradigma",
+        "url": "https://csaladterapia.hu/paradigma",
+        "attrs": {
+          "href": "/paradigma",
+          "title": ""
+        }
+      },
+      {
+        "text": "Fényképek",
+        "url": "https://csaladterapia.hu/galeriak",
+        "attrs": {
+          "href": "/galeriak",
+          "title": ""
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://csaladterapia.hu/modules/jquery_update/replace/jquery.min.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/misc/drupal.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/sites/default/files/languages/hu_dd4568d9523ddbb1fb19c5d55379a98c.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/fivestar/js/fivestar.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/panels/js/panels.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/thickbox/thickbox.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/ubercart/uc_file/uc_file.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/ubercart/uc_roles/uc_roles.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/modules/google_analytics/googleanalytics.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/themes/csalad02/script.js?H",
+        "hint": ""
+      },
+      {
+        "src": "https://csaladterapia.hu/content/okleveles-mentalhigienes-csaladtudomanyi-es-csaladterapias-szakemberek-nevsora-semmelweis",
+        "hint": "<!--//--><![CDATA[//><!-- jQuery.extend(Drupal.settings, { \"basePath\": \"/\", \"fivestar\": { \"titleUser\": \"Your rating: \", \"titleAverage\": \"Átlag: \", \"feedbackSavingVote\": \"Saving your vote...\", \"feedbackVoteSaved\": \"Your vote has been saved.\", \"feedbackDeletingVote\": \"Deleting your vote...\", \"feedbackVoteDeleted\": \"Your vote has been deleted.\" }, \"thickbox\": { \"close\": \"Bezár\", \"next\": \"Következő \\x3e\", \"prev\": \"\\x3c Előző\", \"esc_key\": \"vagy ESC\", "
+      }
+    ]
+  },
+  {
+    "key": "metamese",
+    "status": 200,
+    "url": "https://metamese.hu/szaknevsor/szaknevsor.php",
+    "tables": [
+      [
+        88,
+        [
+          [
+            "Név",
+            "Szakirány / végzettség",
+            "Település / terület"
+          ],
+          [
+            "Akácsos-Bazsa Terézia",
+            "bölcsész, angoltanár",
+            "Budapesten, és tervezem erdélyi angol táborokban is"
+          ],
+          [
+            "Balla Tünde",
+            "tanító, mentálhigiéniai prevenció specialista",
+            "Somogy megye, Budapest"
+          ]
+        ]
+      ]
+    ],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {},
+        "text": "Szaknévsor kereső",
+        "parent": "body",
+        "parent_attrs": {}
+      }
+    ],
+    "links_sample": [],
+    "scripts": [
+      {
+        "src": "https://metamese.hu/szaknevsor/szaknevsor.php",
+        "hint": "// munkamenetben megnyitott nevek jelölése document.addEventListener('DOMContentLoaded', function() { const key = 'szaknevsor_visited_ids'; let visited = []; try { visited = JSON.parse(sessionStorage.getItem(key)) || []; } catch (e) { visited = []; } document.querySelectorAll('.name-link').forEach(function(a) { const id = a.dataset.id; if (visited.includes(id)) { a.classList.add('visited-name'); } a.addEventListener('click', function() { if (!vis"
+      }
+    ]
+  },
+  {
+    "key": "mentalport",
+    "status": 200,
+    "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h2",
+        "attrs": {},
+        "text": "A pszichoterápiás módszereken alapuló gyakorlat szakmai folyóirata",
+        "parent": "div",
+        "parent_attrs": {}
+      },
+      {
+        "tag": "h1",
+        "attrs": {},
+        "text": "Szaknévsor",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "large-offset-3",
+            "large-9",
+            "subpage-title"
+          ]
+        }
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "text": "Szaknévsor",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "large-9",
+            "subpage-content-right"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Legfrissebb tartalmak",
+        "url": "https://www.mentalport.hu/a-folyoirat/legfrissebb-tartalmak",
+        "attrs": {
+          "href": "https://www.mentalport.hu/a-folyoirat/legfrissebb-tartalmak",
+          "class": [
+            "btn-pszichoterapia"
+          ],
+          "title": "Legfrissebb tartalmak"
+        }
+      },
+      {
+        "text": "Előfizetés",
+        "url": "https://www.mentalport.hu/a-folyoirat/elofizetes",
+        "attrs": {
+          "href": "https://www.mentalport.hu/a-folyoirat/elofizetes",
+          "class": [
+            "btn-pszichoterapia"
+          ],
+          "title": "Előfizetés"
+        }
+      },
+      {
+        "text": "Ha pszichológiai- pszichoterápiás segítséget keres",
+        "url": "https://www.pszichoterapia.hu/",
+        "attrs": {
+          "href": "https://www.pszichoterapia.hu/",
+          "target": "_blank",
+          "class": [
+            "btn-pszichoterapia"
+          ],
+          "title": "Ha pszichológiai-pszichoterápiás segítséget keres"
+        }
+      },
+      {
+        "text": "Elérhetőségünk",
+        "url": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/"
+        }
+      },
+      {
+        "text": "Pszichoterápia folyóirat szerkesztősége",
+        "url": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/"
+        }
+      },
+      {
+        "text": "MentalPort kft.",
+        "url": "https://www.mentalport.hu/elerhetosegeink/mentalport-kft/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/elerhetosegeink/mentalport-kft/"
+        }
+      },
+      {
+        "text": "Magunkról",
+        "url": "https://www.mentalport.hu/magunkrol/szerkesztok/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/magunkrol/szerkesztok/"
+        }
+      },
+      {
+        "text": "Szerkesztők",
+        "url": "https://www.mentalport.hu/magunkrol/szerkesztok/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/magunkrol/szerkesztok/"
+        }
+      },
+      {
+        "text": "Történeti adatok",
+        "url": "https://www.mentalport.hu/magunkrol/torteneti-adatok/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/magunkrol/torteneti-adatok/"
+        }
+      },
+      {
+        "text": "Küldetés",
+        "url": "https://www.mentalport.hu/magunkrol/kuldetes/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/magunkrol/kuldetes/"
+        }
+      },
+      {
+        "text": "Szerkesztőbizottság",
+        "url": "https://www.mentalport.hu/magunkrol/szerkesztobizottsag/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/magunkrol/szerkesztobizottsag/"
+        }
+      },
+      {
+        "text": "Folyóirat és konferenciája",
+        "url": "https://www.mentalport.hu/magunkrol/folyoirat-es-konferenciaja/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/magunkrol/folyoirat-es-konferenciaja/"
+        }
+      },
+      {
+        "text": "Kiadó",
+        "url": "http://www.pszichoterapia.hu/elerhetosegunk/mentalport-kft/",
+        "attrs": {
+          "href": "http://www.pszichoterapia.hu/elerhetosegunk/mentalport-kft/"
+        }
+      },
+      {
+        "text": "Adatkezelési szabályzat",
+        "url": "https://www.mentalport.hu/magunkrol/adatkezelesi-szabalyzat/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/magunkrol/adatkezelesi-szabalyzat/"
+        }
+      },
+      {
+        "text": "Pszichoterápia szakfolyóirat",
+        "url": "https://www.mentalport.hu/a-folyoirat/elofizetes/",
+        "attrs": {
+          "href": "https://www.mentalport.hu/a-folyoirat/elofizetes/"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/jquery.min.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/foundation.min.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/jquery.smartmenus.min.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/script.js?v=4",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+        "hint": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/\",\"url\":\"https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/\",\"name\":\"Szaknévsor - Pszichoterápia\",\"isPartOf\":{\"@id\":\"https://www.mentalport.hu/#website\"},\"datePublished\":\"2024-03-20T11:49:34+00:00\",\"dateModified\":\"2024-03-20T16:17:06+00:"
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "hint": ""
+      },
+      {
+        "src": "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js?ver=6.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/szaknevsor_app.js?ver=6.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js?ver=6.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+        "hint": "jQuery(function($) { function filterResults() { var acfField1Value = $('#munkavegzes_helye').val(); var acfField2Value = $('#modszerspecifikus_kepzettseg').val(); $.ajax({ url: 'https://www.mentalport.hu/wp-admin/admin-ajax.php', type: 'POST', data: { action: 'filter_posts', acf_field1_value: acfField1Value, acf_field2_value: acfField2Value }, success: function(response) { $('#filtered-results').html(response); } }); } filterResults(); $('#filter"
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+        "hint": "/* <![CDATA[ */ var wpcf7 = { \"api\": { \"root\": \"https:\\/\\/www.mentalport.hu\\/wp-json\\/\", \"namespace\": \"contact-form-7\\/v1\" } }; /* ]]> */"
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+        "hint": "/* <![CDATA[ */ var pum_vars = {\"version\":\"1.23.0\",\"pm_dir_url\":\"https:\\/\\/www.mentalport.hu\\/wp-content\\/plugins\\/popup-maker\\/\",\"ajaxurl\":\"https:\\/\\/www.mentalport.hu\\/wp-admin\\/admin-ajax.php\",\"restapi\":\"https:\\/\\/www.mentalport.hu\\/wp-json\\/pum\\/v1\",\"rest_nonce\":null,\"default_theme\":\"7919\",\"debug_mode\":\"\",\"disable_tracking\":\"\",\"disable_url_params\":\"\",\"home_url\":\"\\/\",\"message_position\":\"top\",\"core_sub_forms_enabled\":\"1\",\"popups\":[],\"cookie_dom"
+      },
+      {
+        "src": "https://www.mentalport.hu/wp-content/uploads/pum/pum-site-scripts.js?defer&generated=1789132512&ver=1.23.0",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "icf",
+    "status": 200,
+    "url": "https://coachingfederation.hu/tagjaink/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "section-head__title"
+          ]
+        },
+        "text": "ICF coachok",
+        "parent": "header",
+        "parent_attrs": {
+          "class": [
+            "section-head"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "site-footer__col-title"
+          ]
+        },
+        "text": "A szervezet",
+        "parent": "nav",
+        "parent_attrs": {
+          "class": [
+            "site-footer__col"
+          ],
+          "aria-label": "A szervezet"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "site-footer__col-title"
+          ]
+        },
+        "text": "Tagság",
+        "parent": "nav",
+        "parent_attrs": {
+          "class": [
+            "site-footer__col"
+          ],
+          "aria-label": "Tagság"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "site-footer__col-title"
+          ]
+        },
+        "text": "Kapcsolat",
+        "parent": "nav",
+        "parent_attrs": {
+          "class": [
+            "site-footer__col"
+          ],
+          "aria-label": "Kapcsolat"
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Bővebben →",
+        "url": "https://coachingfederation.hu/termek/tagsagi-dij/",
+        "attrs": {
+          "class": [
+            "topbar__link"
+          ],
+          "href": "https://coachingfederation.hu/termek/tagsagi-dij/"
+        }
+      },
+      {
+        "text": "ICF MAP — 2026. november 11. — Generál Péter MCC",
+        "url": "https://coachingfederation.hu/esemenyek/icf-map-general-peter-mcc-transzformativ-pillanatok-a-coachingban/",
+        "attrs": {
+          "class": [
+            "topbar__link"
+          ],
+          "href": "https://coachingfederation.hu/esemenyek/icf-map-general-peter-mcc-transzformativ-pillanatok-a-coachingban/"
+        }
+      },
+      {
+        "text": "ICF Magyar Tagozat",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/"
+        }
+      },
+      {
+        "text": "A szervezet",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/"
+        }
+      },
+      {
+        "text": "Elnökség és szakmai csapatok",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/elnokseg-es-szakmai-csapatok/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/elnokseg-es-szakmai-csapatok/"
+        }
+      },
+      {
+        "text": "Jegyzőkönyvek, beszámolók",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/jegyzokonyvek-beszamolok/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/jegyzokonyvek-beszamolok/"
+        }
+      },
+      {
+        "text": "Az Év ICF Coacha és Teamcoacha",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/ev-icf-coacha-palyazat/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/ev-icf-coacha-palyazat/"
+        }
+      },
+      {
+        "text": "Díjak és eredmények",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/dijak-es-eredmenyek/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/a-szervezet/dijak-es-eredmenyek/"
+        }
+      },
+      {
+        "text": "Belépés",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/"
+        }
+      },
+      {
+        "text": "Belépési dokumentum és tudnivalók",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/belepesi-dokumentum-es-tudnivalok/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/belepesi-dokumentum-es-tudnivalok/"
+        }
+      },
+      {
+        "text": "Global tagság",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/global-tagsag/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/global-tagsag/"
+        }
+      },
+      {
+        "text": "Magyar tagság",
+        "url": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/magyar-tagsag/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/icf-magyar-tagozat/belepes/magyar-tagsag/"
+        }
+      },
+      {
+        "text": "Események",
+        "url": "https://coachingfederation.hu/esemenyek",
+        "attrs": {
+          "href": "https://coachingfederation.hu/esemenyek"
+        }
+      },
+      {
+        "text": "ICF coachok",
+        "url": "https://coachingfederation.hu/tagjaink/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/tagjaink/",
+          "aria-current": "page"
+        }
+      },
+      {
+        "text": "Minősítések",
+        "url": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/",
+        "attrs": {
+          "href": "https://coachingfederation.hu/coaching-kompetenciak-minositesek-kepzesek/"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://coachingfederation.hu/tagjaink/",
+        "hint": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/coachingfederation.hu\\/tagjaink\\/\",\"url\":\"https:\\/\\/coachingfederation.hu\\/tagjaink\\/\",\"name\":\"ICF coachok - ICF Hungary\",\"isPartOf\":{\"@id\":\"https:\\/\\/coachingfederation.hu\\/#website\"},\"datePublished\":\"2023-11-01T08:03:34+00:00\",\"dateModified\":\"2026-10-06T20:24:02+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/coachingfederation.hu\\/tagjaink\\/#breadcrumb\"},\"inLanguage\":\"hu\",\""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.2.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/tagjaink/",
+        "hint": "var wc_add_to_cart_params = {\"ajax_url\":\"/wp-admin/admin-ajax.php\",\"wc_ajax_url\":\"/?wc-ajax=%%endpoint%%\",\"i18n_view_cart\":\"Kos\\u00e1r\",\"cart_url\":\"https://coachingfederation.hu/kosar/\",\"is_cart\":\"\",\"cart_redirect_after_add\":\"no\"}; //# sourceURL=wc-add-to-cart-js-extra"
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.2.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.2.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/tagjaink/",
+        "hint": "var woocommerce_params = {\"ajax_url\":\"/wp-admin/admin-ajax.php\",\"wc_ajax_url\":\"/?wc-ajax=%%endpoint%%\",\"i18n_password_show\":\"Jelsz\\u00f3 megjelen\\u00edt\\u00e9se\",\"i18n_password_hide\":\"Jelsz\\u00f3 elrejt\\u00e9se\"}; //# sourceURL=woocommerce-js-extra"
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.2.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-collapse.min.js?ver=1791316819",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-persist.min.js?ver=1791316819",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-focus.min.js?ver=1791316819",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine-intersect.min.js?ver=1791316819",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/main.js?ver=1791316819",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/themes/icf-2026/assets/js/alpine.min.js?ver=1791316819",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.2.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/tagjaink/",
+        "hint": "var wc_order_attribution = {\"params\":{\"lifetime\":1.0e-5,\"session\":30,\"base64\":false,\"ajaxurl\":\"https://coachingfederation.hu/wp-admin/admin-ajax.php\",\"prefix\":\"wc_order_attribution_\",\"allowTracking\":true},\"fields\":{\"source_type\":\"current.typ\",\"referrer\":\"current_add.rf\",\"utm_campaign\":\"current.cmp\",\"utm_source\":\"current.src\",\"utm_medium\":\"current.mdm\",\"utm_content\":\"current.cnt\",\"utm_id\":\"current.id\",\"utm_term\":\"current.trm\",\"utm_source_platform\""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.2.1",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-includes/js/jquery/ui/effect.min.js?ver=1.14.2",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/tagjaink/",
+        "hint": "var xoo_wsc_params = {\"adminurl\":\"https://coachingfederation.hu/wp-admin/admin-ajax.php\",\"wc_ajax_url\":\"/?wc-ajax=%%endpoint%%\",\"qtyUpdateDelay\":\"500\",\"notificationTime\":\"5000\",\"html\":{\"successNotice\":\"\\u003Cul class=\\\"xoo-wsc-notices\\\"\\u003E\\u003Cli class=\\\"xoo-wsc-notice-success\\\"\\u003E\\u003Cspan class=\\\"xoo-wsc-icon-check_circle\\\"\\u003E\\u003C/span\\u003E%s%\\u003C/li\\u003E\\u003C/ul\\u003E\",\"errorNotice\":\"\\u003Cul class=\\\"xoo-wsc-notices\\\"\\u003E\\u"
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/woocommerce-side-cart-premium/assets/js/xoo-wsc-main.js?ver=4.1.3",
+        "hint": ""
+      },
+      {
+        "src": "https://coachingfederation.hu/tagjaink/",
+        "hint": "var complianz = {\"prefix\":\"cmplz_\",\"debug\":\"\",\"user_banner_id\":\"1\",\"set_cookies\":[],\"block_ajax_content\":\"\",\"banner_version\":\"22\",\"version\":\"7.5.6\",\"store_consent\":\"\",\"do_not_track_enabled\":\"\",\"consenttype\":\"optin\",\"region\":\"eu\",\"geoip\":\"\",\"dismiss_timeout\":\"\",\"disable_cookiebanner\":\"\",\"soft_cookiewall\":\"\",\"dismiss_on_scroll\":\"\",\"cookie_expiry\":\"365\",\"url\":\"https://coachingfederation.hu/wp-json/complianz/v1/\",\"locale\":\"lang=hu&locale=hu_HU\",\"set_"
+      },
+      {
+        "src": "https://coachingfederation.hu/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1792285747",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "coachalap",
+    "error": "404 Client Error: Not Found for url: https://alapvonal.coachszovetseg.hu/szaknevsor"
+  },
+  {
+    "key": "icon",
+    "status": 200,
+    "url": "https://integralcsaladallitas.com/allitoink/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "kt-adv-heading619_0c2356-3a",
+            "wp-block-kadence-advancedheading",
+            "has-background-color",
+            "has-text-color"
+          ],
+          "data-kb-block": "kb-adv-heading619_0c2356-3a"
+        },
+        "text": "ICON INTEGRÁL CSALÁDÁLLÍTÓ SZAKEMBEREK",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "kt-inside-inner-col"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Samodai Kati",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-72a43d70"
+          ],
+          "id": "samodaikati"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Szabóné Hasenfracz Orsolya",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-3d7def9a"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Lévai Brunó",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-29600888"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Bereczki-Budai Zsuzsi",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-8d39fea8"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Czövek Zsuzsanna",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-ee787b2f"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Dura Mirjam",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-1bd91487"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Farkas Dóra",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-4e51dafd"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Hajdu-Natkai Ágnes",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-21b1803d"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Magyar Dániel",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-1dc94e7c"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Pállya Balázs",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-27836931"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Dr. Tyihák Kriszta",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-ccd6d9d0"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Riba Orsolya",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-70f9ac6b"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Varga Dóri",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-198b0cad"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Fábián Petra",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-0d42bf1d"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Gerstmayer Bea",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-5318a959"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Szenczi Éva",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-ed4b5942"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "uagb-heading-text"
+          ]
+        },
+        "text": "Teszár Balázs",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "wp-block-uagb-advanced-heading",
+            "uagb-block-99e3a9fb"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "ICON",
+        "url": "https://integralcsaladallitas.com/icon/",
+        "attrs": {
+          "class": [
+            "kb-nav-link-content"
+          ],
+          "href": "https://integralcsaladallitas.com/icon/"
+        }
+      },
+      {
+        "text": "ÁLLÍTÓINK",
+        "url": "https://integralcsaladallitas.com/allitoink",
+        "attrs": {
+          "class": [
+            "kb-nav-link-content"
+          ],
+          "href": "https://integralcsaladallitas.com/allitoink"
+        }
+      },
+      {
+        "text": "ETIKA",
+        "url": "https://integralcsaladallitas.com/Etika",
+        "attrs": {
+          "class": [
+            "kb-nav-link-content"
+          ],
+          "href": "https://integralcsaladallitas.com/Etika"
+        }
+      },
+      {
+        "text": "JELENTKEZEM ÁLLÍTÁSRA",
+        "url": "https://szeretetero.hu/csoport-idopontok/",
+        "attrs": {
+          "class": [
+            "stk-link",
+            "stk-button",
+            "stk--hover-effect-darken"
+          ],
+          "href": "https://szeretetero.hu/csoport-idopontok/",
+          "target": "_blank",
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "JELENTKEZEM ÁLLÍTÁSRA",
+        "url": "https://www.kemenypeter.hu/esemenyek",
+        "attrs": {
+          "class": [
+            "stk-link",
+            "stk-button",
+            "stk--hover-effect-darken"
+          ],
+          "href": "https://www.kemenypeter.hu/esemenyek",
+          "target": "_blank",
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "https://www.budaizsuzsi.hu",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://www.budaizsuzsi.hu",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "https://www.vargadori.hu/",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://www.vargadori.hu/",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "KözösÉgiTér",
+        "url": "https://www.kozosegiter.hu",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://www.kozosegiter.hu",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Férfi Szövetség",
+        "url": "https://www.ferfiszovetseg.hu",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://www.ferfiszovetseg.hu",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Céges állítások",
+        "url": "https://www.cegesallitas.hu",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://www.cegesallitas.hu",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "https://www.tiktok.com/@dr.szoljarkincso?_r=1&_t=ZN-9AF8j45U97W",
+        "url": "https://www.tiktok.com/@dr.szoljarkincso?_r=1&_t=ZN-9AF8j45U97W",
+        "attrs": {
+          "href": "https://www.tiktok.com/@dr.szoljarkincso?_r=1&_t=ZN-9AF8j45U97W",
+          "rel": [
+            "nofollow"
+          ]
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "https://www.drszoljarkincso.hu",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://www.drszoljarkincso.hu",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Honlap",
+        "url": "https://onmagunklenni.hu/",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://onmagunklenni.hu/",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "weboldal",
+        "url": "https://karolymolnar.com/",
+        "attrs": {
+          "class": [
+            "wp-block-button__link",
+            "has-background",
+            "wp-element-button"
+          ],
+          "href": "https://karolymolnar.com/",
+          "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://integralcsaladallitas.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-includes/js/jquery/jquery-migrate.min.js?m=1686289764",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/dist/modules/form/view.js?ver=16.4",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/field-phone/view.js?ver=16.40dfbc930064fa61e4cf2",
+        "hint": ""
+      },
+      {
+        "src": "https://s0.wp.com/wp-content/js/bilmur.min.js?m=202645",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/modules/block-library/navigation/view.min.js?ver=5381c0a3642be76565c7",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/allitoink/",
+        "hint": "{\"config\":{\"jetpack/form\":{\"error_types\":{\"invalid_email\":\"Please enter a valid email address\",\"invalid_phone\":\"Please enter a valid phone number\",\"is_required\":\"This field is required.\",\"invalid_form_empty\":\"The form you are trying to submit is empty.\",\"invalid_form\":\"Please fill out the form correctly.\",\"network_error\":\"Connection issue while submitting the form. Check that you are connected to the Internet and try again.\"},\"admin_ajax_url\":\"ht"
+      },
+      {
+        "src": "https://integralcsaladallitas.com/allitoink/",
+        "hint": "var jetpackSwiperLibraryPath = {\"url\":\"https://integralcsaladallitas.com/wp-content/plugins/jetpack/_inc/blocks/swiper.js\"}; var jetpackCarouselStrings = {\"widths\":[370,700,1000,1200,1400,2000],\"is_logged_in\":\"\",\"lang\":\"hu\",\"ajaxurl\":\"https://integralcsaladallitas.com/wp-admin/admin-ajax.php\",\"nonce\":\"8713a1b3f8\",\"display_exif\":\"1\",\"display_comments\":\"1\",\"single_image_gallery\":\"1\",\"single_image_gallery_media_file\":\"\",\"background_color\":\"black\",\"c"
+      },
+      {
+        "src": "https://integralcsaladallitas.com/_static/??-eJytzkEOgjAQheELWUutQFgYj2Km7QCFMiWdAteXRNm6ULfz/nyZbRY2UkbKcg5L54nlCA7JojAh2pGlJxsWhyyBGTPLYS+M6HGv0qs5T57OA5+2L63YtsICrcAiJ991mH4VCVbfQfaR/vMh93ETU0z4ARowz2BH+dgJaRYfnLSQ4sIYjk0chzdzn26qbnRVVs2lFhrQaKcKfQVVa1W5olRP4/OZHg==",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/scripts/hooks/index.min.js?ver=f0f188028580e8dc1255",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/scripts/i18n/index.min.js?ver=1dfe7db3940c23ea9216",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/dist/blocks/view.js?minify=false&ver=807945612566f31ac62b",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/mu-plugins/wpcomsh/jetpack_vendor/automattic/jetpack-assets/build/i18n-loader.js?minify=true&ver=f04e415567eda21fe93b",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?m=1784059681",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/scripts/url/index.min.js?ver=3c0d9743cc6cd9591281",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/allitoink/",
+        "hint": "var JetpackInstantSearchOptions={\"overlayOptions\":{\"colorTheme\":\"light\",\"enableInfScroll\":true,\"enableFilteringOpensOverlay\":true,\"enablePostDate\":true,\"enableProductPrice\":true,\"enableSort\":true,\"highlightColor\":\"#FFC\",\"overlayTrigger\":\"submit\",\"resultFormat\":\"minimal\",\"showPoweredBy\":true,\"defaultSort\":\"relevance\",\"excludedPostTypes\":[],\"fallbackImageUrl\":\"\",\"enableFallbackImage\":false},\"homeUrl\":\"https://integralcsaladallitas.com\",\"locale\":\"hu"
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.js?minify=false&ver=27571e87d0bcc8dadeff",
+        "hint": ""
+      },
+      {
+        "src": "https://stats.wp.com/w.js?ver=202645",
+        "hint": ""
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?ver=10.0.0",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/angie-snippets/prod/snippet-201/script.js?m=1781381609",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/wp-content/uploads/uag-plugin/assets/1000/uag-js-619.js?m=1793540102",
+        "hint": ""
+      },
+      {
+        "src": "https://stats.wp.com/e-202645.js",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/_static/??wp-includes/js/hoverIntent.min.js,wp-content/plugins/megamenu/js/maxmegamenu.min.js?m=1793742273-a7a0b8d18753ac825c5b",
+        "hint": ""
+      },
+      {
+        "src": "https://integralcsaladallitas.com/allitoink/",
+        "hint": "/*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,"
+      }
+    ]
+  },
+  {
+    "key": "kineziologus",
+    "status": 200,
+    "url": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "entry-title"
+          ]
+        },
+        "text": "Kineziológus kereső",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "page-header"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/gal-attila/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/gal-attila/"
+        }
+      },
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/szantone-borbely-angela-eva/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/szantone-borbely-angela-eva/"
+        }
+      },
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/koves-zsuzsanna/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/koves-zsuzsanna/"
+        }
+      },
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/facsko-agnes-2/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/facsko-agnes-2/"
+        }
+      },
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/szeplaki-viktoria-2/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/szeplaki-viktoria-2/"
+        }
+      },
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/koller-bagdi-brigitta-2/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/koller-bagdi-brigitta-2/"
+        }
+      },
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/garbacz-ildiko/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/garbacz-ildiko/"
+        }
+      },
+      {
+        "text": "Bővebben",
+        "url": "https://www.kineziologuskereso.hu/kineziologusok/adorjan-krisztina/",
+        "attrs": {
+          "class": [
+            "elementor-button",
+            "elementor-button-link",
+            "elementor-size-sm"
+          ],
+          "href": "https://www.kineziologuskereso.hu/kineziologusok/adorjan-krisztina/"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.5.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.5",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.5",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "var elementorFrontendConfig = {\"environmentMode\":{\"edit\":false,\"wpPreview\":false,\"isScriptDebug\":false},\"i18n\":{\"shareOnFacebook\":\"Oszd meg Facebookon\",\"shareOnX\":\"Share on X\",\"pinIt\":\"T\\u0171zd ki\",\"download\":\"Let\\u00f6lt\\u00e9s\",\"downloadImage\":\"K\\u00e9p let\\u00f6lt\\u00e9se\",\"fullscreen\":\"Teljes k\\u00e9perny\\u0151\",\"zoom\":\"Nagy\\u00edt\\u00e1s\",\"share\":\"Megoszt\\u00e1s\",\"playVideo\":\"Vide\\u00f3 lej\\u00e1tsz\\u00e1sa\",\"previous\":\"El\\u0151z\\u0151\",\"ne"
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=4.3.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "var WP_Statistics_Tracker_Object = {\"requestUrl\":\"https://www.kineziologuskereso.hu/wp-json/wp-statistics/v2\",\"ajaxUrl\":\"https://www.kineziologuskereso.hu/wp-admin/admin-ajax.php\",\"hitParams\":{\"wp_statistics_hit\":1,\"source_type\":\"page\",\"source_id\":45,\"search_query\":\"\",\"signature\":\"1d7042e5537b094e61b2b941d08b054a\",\"endpoint\":\"hit\"},\"option\":{\"dntEnabled\":\"1\",\"bypassAdBlockers\":\"\",\"consentIntegration\":{\"name\":null,\"status\":[]},\"isPreview\":false,\"u"
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/wp-statistics/assets/js/tracker.js?ver=14.16.17",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/jet-engine/assets/lib/jet-plugins/jet-plugins.js?ver=1.1.0",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/jet-engine/assets/js/frontend/modules/jet-smart-filters.js?ver=3.9.0",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "var JetEngineSettings = {\"ajaxurl\":\"https://www.kineziologuskereso.hu/wp-admin/admin-ajax.php\",\"ajaxlisting\":\"https://www.kineziologuskereso.hu/kineziologus-kereso/?nocache=1\",\"restNonce\":\"08a0db5dd7\",\"hoverActionTimeout\":\"400\",\"post_id\":\"45\",\"sliderLibrary\":\"swiper\",\"query_builder\":{\"custom_ids\":[]},\"addedPostCSS\":[\"37\"],\"maps_api_disabled\":\"\",\"queried_object_id\":\"45\",\"queried_object_class\":\"WP_Post\"}; //# sourceURL=jet-engine-frontend-js-extra"
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/jet-engine/assets/js/frontend/frontend.js?ver=3.9.0",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "var ElementorProFrontendConfig = {\"ajaxurl\":\"https:\\/\\/www.kineziologuskereso.hu\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"f728ae02db\",\"urls\":{\"assets\":\"https:\\/\\/www.kineziologuskereso.hu\\/wp-content\\/plugins\\/elementor-pro\\/assets\\/\",\"rest\":\"https:\\/\\/www.kineziologuskereso.hu\\/wp-json\\/\"},\"settings\":{\"lazy_load_background_images\":true},\"popup\":{\"hasPopUps\":false},\"shareButtonsNetworks\":{\"facebook\":{\"title\":\"Facebook\",\"has_counter\":true},\"twitter\":{\""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.3.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "var JetMapListingGeolocationFilterData = {\"initEvent\":\"jet-smart-filters/before-init\"}; //# sourceURL=jet-maps-listings-user-geolocation-js-extra"
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/jet-engine/includes/modules/maps-listings/assets/js/public/user-geolocation.js?ver=3.9.0",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "var JetMapListingLocationDistanceFilterData = {\"apiAutocomplete\":\"https://www.kineziologuskereso.hu/wp-json/jet-engine/v2/get-map-autocomplete-data/\"}; //# sourceURL=jet-maps-listings-location-distance-js-extra"
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/jet-engine/includes/modules/maps-listings/assets/js/public/location-distance.js?ver=3.9.0",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/jet-engine/includes/modules/maps-listings/assets/js/public/map-sync.js?ver=3.9.0",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "var JetSmartFilterSettings = {\"ajaxurl\":\"https://www.kineziologuskereso.hu/wp-admin/admin-ajax.php\",\"siteurl\":\"https://www.kineziologuskereso.hu\",\"sitepath\":\"\",\"baseurl\":\"/kineziologus-kereso/\",\"selectors\":{\"epro-archive-products\":{\"selector\":\".elementor-widget-wc-archive-products .elementor-widget-container\",\"action\":\"replace\",\"inDepth\":false,\"idPrefix\":\"#\",\"list\":\".products\",\"item\":\".product\"},\"epro-archive\":{\"selector\":\".elementor-widget-archi"
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/wp-content/plugins/jet-smart-filters/assets/js/public.js?ver=3.8.6.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.kineziologuskereso.hu/kineziologus-kereso/",
+        "hint": "/*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,"
+      }
+    ]
+  },
+  {
+    "key": "astrologus",
+    "status": 200,
+    "url": "https://asztrologusok.hu/asztrologusok/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h3",
+        "attrs": {
+          "class": [
+            "overlay-h-title"
+          ]
+        },
+        "text": "Asztrológusok",
+        "parent": "header",
+        "parent_attrs": {
+          "class": [
+            "overlay-page-title",
+            "overlay-pagetitle-default"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Körmöczi Júlia",
+        "url": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Molnárné Gyürki Erika",
+        "url": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Pernyei Gábor",
+        "url": "https://asztrologusok.hu/2018/12/pernyei-gabor/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2018/12/pernyei-gabor/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Liszkay Judit",
+        "url": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Szabó Zsuzsanna",
+        "url": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Gál Judit",
+        "url": "https://asztrologusok.hu/2018/12/gal-judit/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2018/12/gal-judit/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Juhász Nóra",
+        "url": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+        "attrs": {
+          "href": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+          "target": "_blank",
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Zentai Anna",
+        "url": "https://asztrologusok.hu/2018/12/zentai-anna/",
+        "attrs": {
+          "href": "https://asztrologusok.hu/2018/12/zentai-anna/"
+        }
+      },
+      {
+        "text": "Sóvári Melinda",
+        "url": "https://asztrologusok.hu/2023/05/sovari-melinda/",
+        "attrs": {
+          "href": "https://asztrologusok.hu/2023/05/sovari-melinda/"
+        }
+      },
+      {
+        "text": "Körmöczi Júlia",
+        "url": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/",
+        "attrs": {
+          "href": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/"
+        }
+      },
+      {
+        "text": "Juhász Nóra",
+        "url": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Szabó Zsuzsanna",
+        "url": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/",
+        "attrs": {
+          "href": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/"
+        }
+      },
+      {
+        "text": "Molnárné Gyürki Erika",
+        "url": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/",
+        "attrs": {
+          "href": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/"
+        }
+      },
+      {
+        "text": "Liszkay Judit",
+        "url": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+        "attrs": {
+          "rel": [
+            "noreferrer",
+            "noopener"
+          ],
+          "href": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+          "target": "_blank"
+        }
+      },
+      {
+        "text": "Pernyei Gábor",
+        "url": "https://asztrologusok.hu/2018/12/pernyei-gabor/",
+        "attrs": {
+          "href": "https://asztrologusok.hu/2018/12/pernyei-gabor/"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://asztrologusok.hu/asztrologusok/",
+        "hint": "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/14.0.0\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/14.0.0\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/asztrologusok.hu\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.3.14\"}}; /*! This file is auto-generated */ !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setIt"
+      },
+      {
+        "src": "https://asztrologusok.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.0",
+        "hint": ""
+      },
+      {
+        "src": "https://asztrologusok.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "hint": ""
+      },
+      {
+        "src": "https://asztrologusok.hu/wp-content/themes/overlay/js/custom.js?ver=2.0.11",
+        "hint": ""
+      },
+      {
+        "src": "https://asztrologusok.hu/asztrologusok/",
+        "hint": "/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);"
+      }
+    ]
+  },
+  {
+    "key": "mediator",
+    "status": 200,
+    "url": "https://www.mediacio.hu/budapesti-mediatorok/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "entry-title"
+          ]
+        },
+        "text": "Budapesti mediátorok",
+        "parent": "header",
+        "parent_attrs": {
+          "class": [
+            "entry-header"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "www.mediare.hu",
+        "url": "http://www.mediare.hu",
+        "attrs": {
+          "href": "http://www.mediare.hu",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "www.mediator-studio.hu",
+        "url": "http://www.mediator-studio.hu",
+        "attrs": {
+          "href": "http://www.mediator-studio.hu",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "www.mediacio.eu",
+        "url": "http://www.mediacio.eu/",
+        "attrs": {
+          "href": "http://www.mediacio.eu/",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "www.valas.eu",
+        "url": "http://www.valas.eu/",
+        "attrs": {
+          "href": "http://www.valas.eu/",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "www.bekelteto.hu",
+        "url": "http://www.bekelteto.hu",
+        "attrs": {
+          "href": "http://www.bekelteto.hu",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "www.pirochkata.com",
+        "url": "http://www.pirochkata.com",
+        "attrs": {
+          "href": "http://www.pirochkata.com",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "www.uzletimediacio.eu",
+        "url": "http://www.uzletimediacio.eu",
+        "attrs": {
+          "href": "http://www.uzletimediacio.eu",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://www.mediacio.hu/budapesti-mediatorok/",
+        "hint": "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/16.0.1\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/16.0.1\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/www.mediacio.hu\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.8.12\"}}; /*! This file is auto-generated */ !function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setIte"
+      },
+      {
+        "src": "https://www.mediacio.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mediacio.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mediacio.hu/budapesti-mediatorok/",
+        "hint": "/* <![CDATA[ */var tribe_l10n_datatables = {\"aria\":{\"sort_ascending\":\": activate to sort column ascending\",\"sort_descending\":\": activate to sort column descending\"},\"length_menu\":\"Show _MENU_ entries\",\"empty_table\":\"No data available in table\",\"info\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"info_empty\":\"Showing 0 to 0 of 0 entries\",\"info_filtered\":\"(filtered from _MAX_ total entries)\",\"zero_records\":\"No matching records found\",\"search\":\"Sea"
+      },
+      {
+        "src": "https://www.mediacio.hu/budapesti-mediatorok/",
+        "hint": "var cnArgs = {\"ajaxUrl\":\"https:\\/\\/www.mediacio.hu\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"7ba34c7367\",\"hideEffect\":\"fade\",\"position\":\"bottom\",\"onScroll\":\"1\",\"onScrollOffset\":\"100\",\"onClick\":\"0\",\"cookieName\":\"cookie_notice_accepted\",\"cookieTime\":\"2592000\",\"cookieTimeRejected\":\"2592000\",\"cookiePath\":\"\\/\",\"cookieDomain\":\"\",\"redirection\":\"0\",\"cache\":\"0\",\"refuse\":\"0\",\"revokeCookies\":\"0\",\"revokeCookiesOpt\":\"automatic\",\"secure\":\"1\",\"coronabarActive\":\"0\"};"
+      },
+      {
+        "src": "https://www.mediacio.hu/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.3.2",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mediacio.hu/wp-content/themes/simple-life/js/navigation.min.js?ver=3.0.0",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mediacio.hu/wp-content/themes/simple-life/third-party/meanmenu/jquery.meanmenu.min.js?ver=2.0.8",
+        "hint": ""
+      },
+      {
+        "src": "https://www.mediacio.hu/wp-content/themes/simple-life/js/custom.min.js?ver=3.0.0",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "winwin",
+    "status": 200,
+    "url": "https://win-win-mediacio.hu/tagok/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "entry-title",
+            "page-title"
+          ]
+        },
+        "text": "Tagok",
+        "parent": "header",
+        "parent_attrs": {
+          "class": [
+            "entry-header"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Elnökségi tagok",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Dr. Stöckert Dávid",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Rédei-Ács Klára",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Nagy Orsolya",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Tagok",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Dubravecz Gyöngyvér",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Kós Mariann",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Dr. Kiss Andrea",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Hackl Mónika",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Oláh Gyöngyi",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Pető Gabriella",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Peszeki Kata",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Tűri Béla",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Dr. Bozzay Gyöngyi",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Németh-Teke Eszter",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Bennó Zsuzsa",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {
+          "style": "text-align: center;"
+        },
+        "text": "Dr. Kerekes Edit",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "siteorigin-widget-tinymce",
+            "textwidget"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Dr. Stöckert Dávid",
+        "url": "https://win-win-mediacio.hu/stockert-david/",
+        "attrs": {
+          "href": "https://win-win-mediacio.hu/stockert-david/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Rédei-Ács Klára",
+        "url": "http://win-win-mediacio.hu/redei-acs-klara/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/redei-acs-klara/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "www.acsklara.com",
+        "url": "http://www.acsklara.com",
+        "attrs": {
+          "href": "http://www.acsklara.com",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "orsolyamediacio.hu",
+        "url": "https://orsolyamediacio.hu/",
+        "attrs": {
+          "href": "https://orsolyamediacio.hu/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Dubravecz Gyöngyvér",
+        "url": "http://win-win-mediacio.hu/dubravecz-gyongyver/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/dubravecz-gyongyver/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "www.mediatoriroda.com",
+        "url": "http://www.mediatoriroda.com",
+        "attrs": {
+          "href": "http://www.mediatoriroda.com",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Kós Mariann",
+        "url": "http://win-win-mediacio.hu/kos-mariann/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/kos-mariann/",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "www.mediatormiskolc.hu",
+        "url": "http://www.mediatormiskolc.hu",
+        "attrs": {
+          "href": "http://www.mediatormiskolc.hu",
+          "target": "_blank",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      },
+      {
+        "text": "Dr. Kiss Andrea",
+        "url": "http://win-win-mediacio.hu/dr-kiss-andrea/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/dr-kiss-andrea/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Hackl Mónika",
+        "url": "http://win-win-mediacio.hu/hackl-monika/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/hackl-monika/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "thetakert.hu",
+        "url": "http://thetakert.hu",
+        "attrs": {
+          "href": "http://thetakert.hu",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Oláh Gyöngyi",
+        "url": "http://win-win-mediacio.hu/olah-gyongyi/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/olah-gyongyi/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Pető Gabriella",
+        "url": "http://win-win-mediacio.hu/peto-gabriella/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/peto-gabriella/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "Peszeki Kata",
+        "url": "http://win-win-mediacio.hu/peszeki-kata/",
+        "attrs": {
+          "href": "http://win-win-mediacio.hu/peszeki-kata/",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      },
+      {
+        "text": "www.hatszemkozt.hu",
+        "url": "http://www.hatszemkozt.hu",
+        "attrs": {
+          "href": "http://www.hatszemkozt.hu",
+          "target": "_blank",
+          "rel": [
+            "noopener"
+          ]
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://win-win-mediacio.hu/wp-includes/js/jquery/jquery.min.js?ver=3.6.0",
+        "hint": ""
+      },
+      {
+        "src": "https://win-win-mediacio.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+        "hint": ""
+      },
+      {
+        "src": "https://win-win-mediacio.hu/wp-content/themes/mh-magazine-lite/js/scripts.js?ver=2.8.6",
+        "hint": ""
+      },
+      {
+        "src": "https://win-win-mediacio.hu/tagok/",
+        "hint": "/* <![CDATA[ */ var cnArgs = {\"ajaxUrl\":\"https:\\/\\/win-win-mediacio.hu\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"36dd269399\",\"hideEffect\":\"fade\",\"position\":\"bottom\",\"onScroll\":\"0\",\"onScrollOffset\":\"100\",\"onClick\":\"0\",\"cookieName\":\"cookie_notice_accepted\",\"cookieTime\":\"2592000\",\"cookieTimeRejected\":\"2592000\",\"cookiePath\":\"\\/\",\"cookieDomain\":\"\",\"redirection\":\"0\",\"cache\":\"0\",\"refuse\":\"1\",\"revokeCookies\":\"0\",\"revokeCookiesOpt\":\"automatic\",\"secure\":\"1\"}; /*"
+      },
+      {
+        "src": "https://win-win-mediacio.hu/wp-content/plugins/cookie-notice/includes/../js/front.min.js?ver=2.0.3",
+        "hint": ""
+      },
+      {
+        "src": "https://win-win-mediacio.hu/tagok/",
+        "hint": "/* <![CDATA[ */ var wpcf7 = {\"apiSettings\":{\"root\":\"https:\\/\\/win-win-mediacio.hu\\/wp-json\\/contact-form-7\\/v1\",\"namespace\":\"contact-form-7\\/v1\"}}; /* ]]> */"
+      },
+      {
+        "src": "https://win-win-mediacio.hu/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.9",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "pszichologuskereso",
+    "status": 200,
+    "url": "https://pszichologuskereso.hu/pszichologus-kereso",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "title"
+          ]
+        },
+        "text": "Pszichológus kereső",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "block-inner"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Erdei-Csukás Csaba Vendel",
+        "url": "https://pszichologuskereso.hu/erdei-csukas-csaba-vendel",
+        "attrs": {
+          "href": "/erdei-csukas-csaba-vendel",
+          "hreflang": "hu"
+        }
+      },
+      {
+        "text": "Munka- és szervezetpszichológia",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/3815",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/3815"
+        }
+      },
+      {
+        "text": "Nemi identitás",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/259",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/259"
+        }
+      },
+      {
+        "text": "Kiégés, burnout kezelése",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/250",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/250"
+        }
+      },
+      {
+        "text": "Önismeret, önértékelés zavarai",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/265",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/265"
+        }
+      },
+      {
+        "text": "Mediáció, konfliktuskezelés",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/255",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/255"
+        }
+      },
+      {
+        "text": "Krízisintervenció",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/253",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/253"
+        }
+      },
+      {
+        "text": "Alvászavar kezelése",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/196",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/196"
+        }
+      },
+      {
+        "text": "Pszichoszomatikus betegségek",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/289",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/289"
+        }
+      },
+      {
+        "text": "Szorongás kezelése",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/307",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/307"
+        }
+      },
+      {
+        "text": "Fóbiák",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/222",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/222"
+        }
+      },
+      {
+        "text": "Pánikbetegség kezelése",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/275",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/275"
+        }
+      },
+      {
+        "text": "Depresszió kezelése",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/204",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/204"
+        }
+      },
+      {
+        "text": "Stressz és stresszkezelés",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/296",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/296"
+        }
+      },
+      {
+        "text": "Autogén tréning, relaxáció, imagináció",
+        "url": "https://pszichologuskereso.hu/tudastar-lexikon/leiras/201",
+        "attrs": {
+          "href": "/tudastar-lexikon/leiras/201"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://pszichologuskereso.hu/pszichologus-kereso",
+        "hint": "{\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"\",\"currentPath\":\"search-listing\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"hu\",\"currentQuery\":{\"pk_mag\":\"1877140742\"}},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"ajaxPageState\":{\"libraries\":\"eJx1koGOrCAMRX8Ih08iBavDWKlpO7OjX__qqpnNbl5isD2FAvcCfW8MbY1wBrdBuFkAVbRU2wOLscSieluc6wbz79rDS1MylAmXNKOghQzFCfu3xB9xqoXbf4sPDRnN-yR8L6zYp6GSpxpHbChAIddN8FXxK47EGahTW6m28UdhRhPuMrFDZlM"
+      },
+      {
+        "src": "https://pszichologuskereso.hu/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+        "hint": ""
+      },
+      {
+        "src": "https://pszichologuskereso.hu/sites/default/files/js/js_8Faalv_1-fRNDTNfsc0LsRiCo2bQX8YpWrU2ds1EBIY.js?scope=footer&delta=1&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+        "hint": ""
+      },
+      {
+        "src": "https://static.addtoany.com/menu/page.js",
+        "hint": ""
+      },
+      {
+        "src": "https://pszichologuskereso.hu/sites/default/files/js/js_lhKzo1slX0DRknCHyvNY8lFmU1PIXU4Uh1GvKAi92W4.js?scope=footer&delta=3&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+        "hint": ""
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js",
+        "hint": ""
+      },
+      {
+        "src": "https://pszichologuskereso.hu/sites/default/files/js/js_gGTaAA4HDVRJ2bGPryjqMZkrJYMjDvdw5K5fuaF1tHE.js?scope=footer&delta=5&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+        "hint": ""
+      },
+      {
+        "src": "https://pszichologuskereso.hu/modules/custom/pk_forgalom/js/pk_forgalom.js?v=1",
+        "hint": ""
+      },
+      {
+        "src": "https://pszichologuskereso.hu/sites/default/files/js/js_3oWXRBgQn0zUCjmOO4ly3z2Mb9w2G5xWOg-p8MaIFKU.js?scope=footer&delta=7&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+        "hint": ""
+      },
+      {
+        "src": "https://pszichologuskereso.hu/libraries/klaro/dist/klaro-no-translations-no-css.js?v=0.7.21",
+        "hint": ""
+      },
+      {
+        "src": "https://pszichologuskereso.hu/sites/default/files/js/js_KHN9-TbdwwETw5kss0IBoS8BxJM0eRqkCb8ak0TdgiM.js?scope=footer&delta=9&language=hu&theme=bizreview&include=eJxlkQGO4zAIRS_k1EeysE2yNMREQDvTnH7ppNVUu5Ilfx4Gm2_o3QXGI8NLXGaV4QnM0AuNKzYXzVe77Gtx1BX3sqGipwotiMTa84cuV0sVPY4W_N7FsJeZOELLCw5U4FTpULwTfuWFpQJP5g-msXwkNnSVqbIEFHFzhb1UUCXJv6D18X_6n57tT7xh5K63HfhyRgmZcYge4l7sgBW3ihpT9AXTDC0mN-oYDfNrP6m925xRdMO2VvmevigqPc10R_OoeotLBcO0hl8mhQX6Jor5LVJYCgP44dTCHYflSWbRBVi2_LTZnmRXCQvLJpU42yF3XMJp7chn3m5OeWVQSa-jcbeTHU4r5IrQZKTdDorpw9GbldeL4qotnzo9bbf48JkGORZrKsz5h05vOp30L-jc3zM",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "pszichologin",
+    "status": 200,
+    "url": "https://www.pszichologin.hu/pszichologusok",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "text-4xl",
+            "text-left",
+            "leading-tight",
+            "sm:text-5xl",
+            "md:text-5xl",
+            "font-medium"
+          ]
+        },
+        "text": "Pszichológuskereső",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "flex",
+            "flex-col",
+            "gap-4"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "id": "_R_hbsnpfipftb_",
+          "class": [
+            "text-sm",
+            "font-medium"
+          ]
+        },
+        "text": "Szűrők",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "mb-3",
+            "flex",
+            "h-9",
+            "items-center",
+            "justify-between",
+            "gap-3"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Szabó Zsanett",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/szabo-zsanett"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Muskovits Krisztina",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/muskovits-krisztina"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Kosina Zsolt",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/kosina-zsolt"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Schulze Blanka",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/schulze-blanka"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Bodrogi Bálint",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/bodrogi-balint"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Kapuvári Éva",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/kapuvari-eva"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Félegyházy Anna",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/felegyhazy-anna"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Gergely Rita Viktória",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/gergely-rita-viktoria"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Varga Kristof",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/varga-kristof"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Mojzes Kinga",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/mojzes-kinga"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Birtók Orsolya",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/birtok-orsolya"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Bánffy Júlia",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/banffy-julia"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Hajzer Klaudia",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/hajzer-klaudia"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Huszár Boglárka",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/huszar-boglarka"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Dr. Bálint Adriána",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/dr-balint-adriana"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "text-2xl",
+            "font-semibold",
+            "tracking-tight",
+            "hover:underline"
+          ]
+        },
+        "text": "Pál László",
+        "parent": "a",
+        "parent_attrs": {
+          "href": "/p/pal-laszlo"
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Szabó Zsanett",
+        "url": "https://www.pszichologin.hu/p/szabo-zsanett",
+        "attrs": {
+          "href": "/p/szabo-zsanett"
+        }
+      },
+      {
+        "text": "Foglalj időpontot",
+        "url": "https://www.pszichologin.hu/p/szabo-zsanett",
+        "attrs": {
+          "class": [
+            "group/button",
+            "inline-flex",
+            "shrink-0",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "rounded-full",
+            "bg-clip-padding",
+            "text-sm",
+            "font-medium",
+            "whitespace-nowrap",
+            "transition-all",
+            "outline-none",
+            "select-none",
+            "focus-visible:border-ring",
+            "focus-visible:ring-3",
+            "focus-visible:ring-ring/50",
+            "active:not-aria-[haspopup]:translate-y-px",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "aria-invalid:border-destructive",
+            "aria-invalid:ring-3",
+            "aria-invalid:ring-destructive/20",
+            "dark:aria-invalid:border-destructive/50",
+            "dark:aria-invalid:ring-destructive/40",
+            "[&_svg]:pointer-events-none",
+            "[&_svg]:shrink-0",
+            "[&_svg:not([class*='size-'])]:size-4",
+            "bg-primary",
+            "text-primary-foreground",
+            "hover:bg-primary/80",
+            "shadow-md",
+            "border",
+            "border-primary/60",
+            "h-10",
+            "gap-1.5",
+            "has-data-[icon=inline-end]:pr-2",
+            "has-data-[icon=inline-start]:pl-2",
+            "w-full",
+            "px-6",
+            "@xl:ml-auto",
+            "@xl:w-auto"
+          ],
+          "href": "/p/szabo-zsanett"
+        }
+      },
+      {
+        "text": "Muskovits Krisztina",
+        "url": "https://www.pszichologin.hu/p/muskovits-krisztina",
+        "attrs": {
+          "href": "/p/muskovits-krisztina"
+        }
+      },
+      {
+        "text": "Foglalj időpontot",
+        "url": "https://www.pszichologin.hu/p/muskovits-krisztina",
+        "attrs": {
+          "class": [
+            "group/button",
+            "inline-flex",
+            "shrink-0",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "rounded-full",
+            "bg-clip-padding",
+            "text-sm",
+            "font-medium",
+            "whitespace-nowrap",
+            "transition-all",
+            "outline-none",
+            "select-none",
+            "focus-visible:border-ring",
+            "focus-visible:ring-3",
+            "focus-visible:ring-ring/50",
+            "active:not-aria-[haspopup]:translate-y-px",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "aria-invalid:border-destructive",
+            "aria-invalid:ring-3",
+            "aria-invalid:ring-destructive/20",
+            "dark:aria-invalid:border-destructive/50",
+            "dark:aria-invalid:ring-destructive/40",
+            "[&_svg]:pointer-events-none",
+            "[&_svg]:shrink-0",
+            "[&_svg:not([class*='size-'])]:size-4",
+            "bg-primary",
+            "text-primary-foreground",
+            "hover:bg-primary/80",
+            "shadow-md",
+            "border",
+            "border-primary/60",
+            "h-10",
+            "gap-1.5",
+            "has-data-[icon=inline-end]:pr-2",
+            "has-data-[icon=inline-start]:pl-2",
+            "w-full",
+            "px-6",
+            "@xl:ml-auto",
+            "@xl:w-auto"
+          ],
+          "href": "/p/muskovits-krisztina"
+        }
+      },
+      {
+        "text": "Kosina Zsolt",
+        "url": "https://www.pszichologin.hu/p/kosina-zsolt",
+        "attrs": {
+          "href": "/p/kosina-zsolt"
+        }
+      },
+      {
+        "text": "Foglalj időpontot",
+        "url": "https://www.pszichologin.hu/p/kosina-zsolt",
+        "attrs": {
+          "class": [
+            "group/button",
+            "inline-flex",
+            "shrink-0",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "rounded-full",
+            "bg-clip-padding",
+            "text-sm",
+            "font-medium",
+            "whitespace-nowrap",
+            "transition-all",
+            "outline-none",
+            "select-none",
+            "focus-visible:border-ring",
+            "focus-visible:ring-3",
+            "focus-visible:ring-ring/50",
+            "active:not-aria-[haspopup]:translate-y-px",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "aria-invalid:border-destructive",
+            "aria-invalid:ring-3",
+            "aria-invalid:ring-destructive/20",
+            "dark:aria-invalid:border-destructive/50",
+            "dark:aria-invalid:ring-destructive/40",
+            "[&_svg]:pointer-events-none",
+            "[&_svg]:shrink-0",
+            "[&_svg:not([class*='size-'])]:size-4",
+            "bg-primary",
+            "text-primary-foreground",
+            "hover:bg-primary/80",
+            "shadow-md",
+            "border",
+            "border-primary/60",
+            "h-10",
+            "gap-1.5",
+            "has-data-[icon=inline-end]:pr-2",
+            "has-data-[icon=inline-start]:pl-2",
+            "w-full",
+            "px-6",
+            "@xl:ml-auto",
+            "@xl:w-auto"
+          ],
+          "href": "/p/kosina-zsolt"
+        }
+      },
+      {
+        "text": "Schulze Blanka",
+        "url": "https://www.pszichologin.hu/p/schulze-blanka",
+        "attrs": {
+          "href": "/p/schulze-blanka"
+        }
+      },
+      {
+        "text": "Foglalj időpontot",
+        "url": "https://www.pszichologin.hu/p/schulze-blanka",
+        "attrs": {
+          "class": [
+            "group/button",
+            "inline-flex",
+            "shrink-0",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "rounded-full",
+            "bg-clip-padding",
+            "text-sm",
+            "font-medium",
+            "whitespace-nowrap",
+            "transition-all",
+            "outline-none",
+            "select-none",
+            "focus-visible:border-ring",
+            "focus-visible:ring-3",
+            "focus-visible:ring-ring/50",
+            "active:not-aria-[haspopup]:translate-y-px",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "aria-invalid:border-destructive",
+            "aria-invalid:ring-3",
+            "aria-invalid:ring-destructive/20",
+            "dark:aria-invalid:border-destructive/50",
+            "dark:aria-invalid:ring-destructive/40",
+            "[&_svg]:pointer-events-none",
+            "[&_svg]:shrink-0",
+            "[&_svg:not([class*='size-'])]:size-4",
+            "bg-primary",
+            "text-primary-foreground",
+            "hover:bg-primary/80",
+            "shadow-md",
+            "border",
+            "border-primary/60",
+            "h-10",
+            "gap-1.5",
+            "has-data-[icon=inline-end]:pr-2",
+            "has-data-[icon=inline-start]:pl-2",
+            "w-full",
+            "px-6",
+            "@xl:ml-auto",
+            "@xl:w-auto"
+          ],
+          "href": "/p/schulze-blanka"
+        }
+      },
+      {
+        "text": "Bodrogi Bálint",
+        "url": "https://www.pszichologin.hu/p/bodrogi-balint",
+        "attrs": {
+          "href": "/p/bodrogi-balint"
+        }
+      },
+      {
+        "text": "Foglalj időpontot",
+        "url": "https://www.pszichologin.hu/p/bodrogi-balint",
+        "attrs": {
+          "class": [
+            "group/button",
+            "inline-flex",
+            "shrink-0",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "rounded-full",
+            "bg-clip-padding",
+            "text-sm",
+            "font-medium",
+            "whitespace-nowrap",
+            "transition-all",
+            "outline-none",
+            "select-none",
+            "focus-visible:border-ring",
+            "focus-visible:ring-3",
+            "focus-visible:ring-ring/50",
+            "active:not-aria-[haspopup]:translate-y-px",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "aria-invalid:border-destructive",
+            "aria-invalid:ring-3",
+            "aria-invalid:ring-destructive/20",
+            "dark:aria-invalid:border-destructive/50",
+            "dark:aria-invalid:ring-destructive/40",
+            "[&_svg]:pointer-events-none",
+            "[&_svg]:shrink-0",
+            "[&_svg:not([class*='size-'])]:size-4",
+            "bg-primary",
+            "text-primary-foreground",
+            "hover:bg-primary/80",
+            "shadow-md",
+            "border",
+            "border-primary/60",
+            "h-10",
+            "gap-1.5",
+            "has-data-[icon=inline-end]:pr-2",
+            "has-data-[icon=inline-start]:pl-2",
+            "w-full",
+            "px-6",
+            "@xl:ml-auto",
+            "@xl:w-auto"
+          ],
+          "href": "/p/bodrogi-balint"
+        }
+      },
+      {
+        "text": "Kapuvári Éva",
+        "url": "https://www.pszichologin.hu/p/kapuvari-eva",
+        "attrs": {
+          "href": "/p/kapuvari-eva"
+        }
+      },
+      {
+        "text": "Foglalj időpontot",
+        "url": "https://www.pszichologin.hu/p/kapuvari-eva",
+        "attrs": {
+          "class": [
+            "group/button",
+            "inline-flex",
+            "shrink-0",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "rounded-full",
+            "bg-clip-padding",
+            "text-sm",
+            "font-medium",
+            "whitespace-nowrap",
+            "transition-all",
+            "outline-none",
+            "select-none",
+            "focus-visible:border-ring",
+            "focus-visible:ring-3",
+            "focus-visible:ring-ring/50",
+            "active:not-aria-[haspopup]:translate-y-px",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "aria-invalid:border-destructive",
+            "aria-invalid:ring-3",
+            "aria-invalid:ring-destructive/20",
+            "dark:aria-invalid:border-destructive/50",
+            "dark:aria-invalid:ring-destructive/40",
+            "[&_svg]:pointer-events-none",
+            "[&_svg]:shrink-0",
+            "[&_svg:not([class*='size-'])]:size-4",
+            "bg-primary",
+            "text-primary-foreground",
+            "hover:bg-primary/80",
+            "shadow-md",
+            "border",
+            "border-primary/60",
+            "h-10",
+            "gap-1.5",
+            "has-data-[icon=inline-end]:pr-2",
+            "has-data-[icon=inline-start]:pl-2",
+            "w-full",
+            "px-6",
+            "@xl:ml-auto",
+            "@xl:w-auto"
+          ],
+          "href": "/p/kapuvari-eva"
+        }
+      },
+      {
+        "text": "Félegyházy Anna",
+        "url": "https://www.pszichologin.hu/p/felegyhazy-anna",
+        "attrs": {
+          "href": "/p/felegyhazy-anna"
+        }
+      },
+      {
+        "text": "Foglalj időpontot",
+        "url": "https://www.pszichologin.hu/p/felegyhazy-anna",
+        "attrs": {
+          "class": [
+            "group/button",
+            "inline-flex",
+            "shrink-0",
+            "items-center",
+            "justify-center",
+            "cursor-pointer",
+            "rounded-full",
+            "bg-clip-padding",
+            "text-sm",
+            "font-medium",
+            "whitespace-nowrap",
+            "transition-all",
+            "outline-none",
+            "select-none",
+            "focus-visible:border-ring",
+            "focus-visible:ring-3",
+            "focus-visible:ring-ring/50",
+            "active:not-aria-[haspopup]:translate-y-px",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "aria-invalid:border-destructive",
+            "aria-invalid:ring-3",
+            "aria-invalid:ring-destructive/20",
+            "dark:aria-invalid:border-destructive/50",
+            "dark:aria-invalid:ring-destructive/40",
+            "[&_svg]:pointer-events-none",
+            "[&_svg]:shrink-0",
+            "[&_svg:not([class*='size-'])]:size-4",
+            "bg-primary",
+            "text-primary-foreground",
+            "hover:bg-primary/80",
+            "shadow-md",
+            "border",
+            "border-primary/60",
+            "h-10",
+            "gap-1.5",
+            "has-data-[icon=inline-end]:pr-2",
+            "has-data-[icon=inline-start]:pl-2",
+            "w-full",
+            "px-6",
+            "@xl:ml-auto",
+            "@xl:w-auto"
+          ],
+          "href": "/p/felegyhazy-anna"
+        }
+      },
+      {
+        "text": "Gergely Rita Viktória",
+        "url": "https://www.pszichologin.hu/p/gergely-rita-viktoria",
+        "attrs": {
+          "href": "/p/gergely-rita-viktoria"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/b0b2420a2f73477e.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/64560b2a48647b5b.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/f3bd74bae5452be4.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/c745aa58e43956e4.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/turbopack-f2e9424fde8aa314.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/5affeec91e7037e6.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/e3d7c5e4c9e45091.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/37a87a316046ed5c.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/cb9c049aec4ab35f.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/601ffe21c72f7e38.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/99d2f79d3c74cc06.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/1b42b9b34ccc5e25.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/eb6fdc83272e5329.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/b0b098924ebcdecc.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/6edd574f94bd73fd.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/1aaf4dbc1b7bb9c4.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/c460674ab6b18d74.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/f6c54f38f214f9e7.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/5d77f02fe58dd71a.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/be38dc01ed47871e.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/a6dad97d9634a72d.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/_next/static/chunks/0814cccc98760b83.js",
+        "hint": ""
+      },
+      {
+        "src": "https://www.pszichologin.hu/pszichologusok",
+        "hint": "self.__next_f.push([1,\"30:[[\\\"$\\\",\\\"script\\\",null,{\\\"type\\\":\\\"application/ld+json\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"$4a\\\"}}],\\\"$L4b\\\",false,\\\"$L4c\\\",\\\"$L4d\\\"]\\n\"])"
+      },
+      {
+        "src": "https://www.pszichologin.hu/pszichologusok",
+        "hint": "self.__next_f.push([1,\"4c:[\\\"$\\\",\\\"$L4f\\\",null,{\\\"results\\\":[{\\\"key\\\":\\\"szabo-zsanett\\\",\\\"card\\\":[\\\"$\\\",\\\"article\\\",null,{\\\"className\\\":\\\"@container group relative overflow-hidden rounded-3xl border bg-card flex flex-col h-full\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-1.5 right-1.5 top-1.5 overflow-clip \\\",\\\"children\\\":[\\\"$\\\",\\\"$L50\\\",null,{\\\"src\\\":\\\"https://media.pszichologin.hu/cdn-cgi/image/width=512,height=512,fit=co"
+      },
+      {
+        "src": "https://www.pszichologin.hu/pszichologusok",
+        "hint": "self.__next_f.push([1,\"74:[\\\"$\\\",\\\"article\\\",null,{\\\"className\\\":\\\"@container group relative overflow-hidden rounded-3xl border bg-card flex flex-col h-full\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-1.5 right-1.5 top-1.5 overflow-clip \\\",\\\"children\\\":[\\\"$\\\",\\\"$L50\\\",null,{\\\"src\\\":\\\"https://media.pszichologin.hu/cdn-cgi/image/width=512,height=512,fit=cover,gravity=face,format=auto,quality=85,metadata=none,blur=200/https://"
+      }
+    ]
+  },
+  {
+    "key": "komjadi",
+    "status": 200,
+    "url": "https://komjadikavics.com/szakembereink/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {},
+        "text": "Szakembereink",
+        "parent": "div",
+        "parent_attrs": {}
+      },
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": [
+            "decision-sr-only"
+          ]
+        },
+        "text": "Szakembereink",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "container"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {},
+        "text": "Mit lát ezen az oldalon?",
+        "parent": "article",
+        "parent_attrs": {
+          "class": [
+            "card",
+            "studio-card"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {},
+        "text": "Mi történik a részletes profilnál?",
+        "parent": "article",
+        "parent_attrs": {
+          "class": [
+            "card",
+            "studio-card"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {},
+        "text": "Hogyan érdemes választani?",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "container"
+          ]
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {},
+        "text": "Hogyan érdemes nézni a profilokat?",
+        "parent": "aside",
+        "parent_attrs": {
+          "class": [
+            "profile-summary-card"
+          ],
+          "aria-label": "Szakmai összefoglaló"
+        }
+      },
+      {
+        "tag": "h2",
+        "attrs": {},
+        "text": "Coaching, mentálhigiéné és kapcsolati támogatás",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "directory-heading"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Fábián Mária",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Kovács Tamás",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Oláh Csaba",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Kis-Simon Ildikó",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Székely Petra",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Tóth Zsuzsanna",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Varga Ágnes",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Galambos Attila",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Magyar Beáta",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Kaszás-Nagy Adrienn",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "text": "Markovics Annabell",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "card-body"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Fábián Mária Ultrarövid Terápia® konzulens · NLP Mester",
+        "url": "https://mentalrendelo.hu/munkatars/ultrarovid-terapia-budapest-fabian-maria/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "ultrarovid-terapia-budapest-fabian-maria",
+          "data-guidance-id": "fabian-maria",
+          "data-professions": "coach nev",
+          "data-expert-topics": "dontesi-karrier",
+          "href": "https://mentalrendelo.hu/munkatars/ultrarovid-terapia-budapest-fabian-maria/",
+          "title": "Ultrarövid Terápia® konzulens · NLP Mester · Life- és business coach · ProfileXT® minősített értékelő",
+          "id": "ultrarovid-terapia-budapest-fabian-maria"
+        }
+      },
+      {
+        "text": "Kovács Tamás Szervezeti konfliktus szakértő",
+        "url": "https://mentalrendelo.hu/munkatars/konfliktuskezeles-budapest-kovacs-tamas/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "konfliktuskezeles-budapest-kovacs-tamas",
+          "data-guidance-id": "kovacs-tamas",
+          "data-professions": "mediator nev",
+          "data-expert-topics": "munkahely-mediacio",
+          "href": "https://mentalrendelo.hu/munkatars/konfliktuskezeles-budapest-kovacs-tamas/",
+          "title": "Szervezeti konfliktus szakértő",
+          "id": "konfliktuskezeles-budapest-kovacs-tamas"
+        }
+      },
+      {
+        "text": "Oláh Csaba CBT tanácsadó · Mentálhigiénés szakember",
+        "url": "https://mentalrendelo.hu/munkatars/cbt-tanacsado-budan-olah-csaba/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "cbt-tanacsado-budan-olah-csaba",
+          "data-guidance-id": "olah-csaba",
+          "data-professions": "coach mentalhigiene nev",
+          "data-expert-topics": "szorongas-stressz onismeret dontesi-karrier mentalhigiene eletvezetes-wellbeing",
+          "href": "https://mentalrendelo.hu/munkatars/cbt-tanacsado-budan-olah-csaba/",
+          "title": "CBT tanácsadó · Mentálhigiénés szakember · Megoldásfókuszú coach",
+          "id": "cbt-tanacsado-budan-olah-csaba"
+        }
+      },
+      {
+        "text": "Kis-Simon Ildikó Life és business coach · Sport coach",
+        "url": "https://mentalrendelo.hu/munkatars/sport-coach-budapest-kis-simon-ildiko/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "sport-coach-budapest-kis-simon-ildiko",
+          "data-guidance-id": "kis-simon-ildiko",
+          "data-professions": "coach mediator mentalhigiene sport kapcsolatok nev",
+          "data-expert-topics": "dontesi-karrier mentalhigiene sportpszichologia munkahely-mediacio",
+          "href": "https://mentalrendelo.hu/munkatars/sport-coach-budapest-kis-simon-ildiko/",
+          "title": "Life és business coach · Sport coach · Mediátor · Mentálhigiénés szakember",
+          "id": "sport-coach-budapest-kis-simon-ildiko"
+        }
+      },
+      {
+        "text": "Székely Petra Pszichológus · Coach",
+        "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szekely-petra/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "pszichologus-budapest-szekely-petra",
+          "data-guidance-id": "szekely-petra",
+          "data-professions": "pszichologus coach kapcsolatok nev",
+          "data-expert-topics": "onismeret trauma-mintazatok szorongas-stressz dontesi-karrier parkapcsolat-csalad eletvezetes-wellbeing",
+          "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szekely-petra/",
+          "title": "Pszichológus · Coach · Képzésben lévő komplex integratív terapeuta",
+          "id": "pszichologus-budapest-szekely-petra"
+        }
+      },
+      {
+        "text": "Varga Ágnes Lélektérkép-vezető · Családállítás",
+        "url": "https://mentalrendelo.hu/munkatars/csaladallitas-budapest-varga-agnes/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "csaladallitas-budapest-varga-agnes",
+          "data-guidance-id": "varga-agnes",
+          "data-professions": "kapcsolatok nev",
+          "data-expert-topics": "onismeret parkapcsolat-csalad",
+          "href": "https://mentalrendelo.hu/munkatars/csaladallitas-budapest-varga-agnes/",
+          "title": "Lélektérkép-vezető · Családállítás · Önismereti konzulens · Tarot",
+          "id": "csaladallitas-budapest-varga-agnes"
+        }
+      },
+      {
+        "text": "Galambos Attila Okleveles pszichológus · Alkalmazott egészségpszichológiai szakpszichológus jelölt",
+        "url": "https://mentalrendelo.hu/munkatars/sportpszichologus-budapest-galambos-attila/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "sportpszichologus-budapest-galambos-attila",
+          "data-guidance-id": "galambos-attila",
+          "data-professions": "pszichologus sport nev",
+          "data-expert-topics": "sportpszichologia szorongas-stressz onismeret eletvezetes-wellbeing",
+          "href": "https://mentalrendelo.hu/munkatars/sportpszichologus-budapest-galambos-attila/",
+          "title": "Okleveles pszichológus · Alkalmazott egészségpszichológiai szakpszichológus jelölt · Sportpszichológiai szakpszichológus · Integratív terapeuta · Relaxációs terapeuta",
+          "id": "sportpszichologus-budapest-galambos-attila"
+        }
+      },
+      {
+        "text": "Kaszás-Nagy Adrienn Kutatópszichológus · Integratív terapeuta jelölt",
+        "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-kaszas-nagy-adrienn/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "pszichologus-budapest-kaszas-nagy-adrienn",
+          "data-guidance-id": "kaszas-nagy-adrienn",
+          "data-professions": "pszichologus nev",
+          "data-expert-topics": "szorongas-stressz onismeret",
+          "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-kaszas-nagy-adrienn/",
+          "title": "Kutatópszichológus · Integratív terapeuta jelölt · PhD doktorjelölt",
+          "id": "pszichologus-budapest-kaszas-nagy-adrienn"
+        }
+      },
+      {
+        "text": "Markovics Annabell Lifestyle specialista · Wellbeing szakértő",
+        "url": "https://mentalrendelo.hu/munkatars/eletvezetesi-tanacsadas-budapest-markovics-annabell/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "eletvezetesi-tanacsadas-budapest-markovics-annabell",
+          "data-guidance-id": "markovics-annabell",
+          "data-professions": "nev",
+          "data-expert-topics": "eletvezetes-wellbeing",
+          "href": "https://mentalrendelo.hu/munkatars/eletvezetesi-tanacsadas-budapest-markovics-annabell/",
+          "title": "Lifestyle specialista · Wellbeing szakértő",
+          "id": "eletvezetesi-tanacsadas-budapest-markovics-annabell"
+        }
+      },
+      {
+        "text": "Benedek Szilvia Munka- és szervezetpszichológus · Karriertanácsadó",
+        "url": "https://mentalrendelo.hu/munkatars/munka-es-szervezetpszichologus-budapest-benedek-szilvia/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "munka-es-szervezetpszichologus-budapest-benedek-szilvia",
+          "data-guidance-id": "benedek-szilvia",
+          "data-professions": "pszichologus nev",
+          "data-expert-topics": "dontesi-karrier munkahely-mediacio szorongas-stressz eletvezetes-wellbeing",
+          "href": "https://mentalrendelo.hu/munkatars/munka-es-szervezetpszichologus-budapest-benedek-szilvia/",
+          "title": "Munka- és szervezetpszichológus · Karriertanácsadó",
+          "id": "munka-es-szervezetpszichologus-budapest-benedek-szilvia"
+        }
+      },
+      {
+        "text": "Pető Andrea Life, business és team coach · AFIAP fotóművész",
+        "url": "https://mentalrendelo.hu/munkatars/coach-budan-peto-andrea/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "coach-budan-peto-andrea",
+          "data-guidance-id": "peto-andrea",
+          "data-professions": "coach nev",
+          "data-expert-topics": "dontesi-karrier",
+          "href": "https://mentalrendelo.hu/munkatars/coach-budan-peto-andrea/",
+          "title": "Life, business és team coach · AFIAP fotóművész · Fotográfus",
+          "id": "coach-budan-peto-andrea"
+        }
+      },
+      {
+        "text": "Mácsik Mónika Integratív segítő szakember · Mediátor",
+        "url": "https://mentalrendelo.hu/munkatars/mediator-budan-macsik-monika/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "mediacio-budan-macsik-monika",
+          "data-guidance-id": "macsik-monika",
+          "data-professions": "coach mediator kapcsolatok nev",
+          "data-expert-topics": "parkapcsolat-csalad munkahely-mediacio gyermek-serdulo eletvezetes-wellbeing",
+          "href": "https://mentalrendelo.hu/munkatars/mediator-budan-macsik-monika/",
+          "title": "Integratív segítő szakember · Mediátor · Coach",
+          "id": "mediacio-budan-macsik-monika"
+        }
+      },
+      {
+        "text": "Nagy Tímea Life coach · Képzésben lévő mentálhigiénés segítő",
+        "url": "https://mentalrendelo.hu/munkatars/coach-buda-nagy-timea/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "coach-buda-nagy-timea",
+          "data-guidance-id": "nagy-timea",
+          "data-professions": "coach nev",
+          "data-expert-topics": "dontesi-karrier eletvezetes-wellbeing",
+          "href": "https://mentalrendelo.hu/munkatars/coach-buda-nagy-timea/",
+          "title": "Life coach · Képzésben lévő mentálhigiénés segítő",
+          "id": "coach-buda-nagy-timea"
+        }
+      },
+      {
+        "text": "Takács Ibolya Családterapeuta · Mindfulness tanár",
+        "url": "https://mentalrendelo.hu/munkatars/csaladterapia-buda-takacs-ibolya/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "csaladterapia-buda-takacs-ibolya",
+          "data-guidance-id": "takacs-ibolya",
+          "data-professions": "kapcsolatok nev",
+          "data-expert-topics": "parkapcsolat-csalad gyermek-serdulo",
+          "href": "https://mentalrendelo.hu/munkatars/csaladterapia-buda-takacs-ibolya/",
+          "title": "Családterapeuta · Mindfulness tanár · Rendszerszemléletű szakember",
+          "id": "csaladterapia-buda-takacs-ibolya"
+        }
+      },
+      {
+        "text": "Molnár Adrián Mentálhigiénés szakember · Mediátor",
+        "url": "https://mentalrendelo.hu/munkatars/mentalhigienes-lelkigondozo-diadal-coach-monar-adrian/",
+        "attrs": {
+          "class": [
+            "ux-expert"
+          ],
+          "data-expert-id": "mentalhigienes-szakember-budan-molnar-adrian",
+          "data-guidance-id": "molnar-adrian",
+          "data-professions": "coach mediator mentalhigiene kapcsolatok nev",
+          "data-expert-topics": "szorongas-stressz onismeret mentalhigiene eletvezetes-wellbeing parkapcsolat-csalad dontesi-karrier munkahely-mediacio",
+          "href": "https://mentalrendelo.hu/munkatars/mentalhigienes-lelkigondozo-diadal-coach-monar-adrian/",
+          "title": "Mentálhigiénés szakember · Mediátor · DIADAL coach · Lelkigondozó",
+          "id": "mentalhigienes-szakember-budan-molnar-adrian"
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://komjadikavics.com/szakembereink/",
+        "hint": "{ \"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"name\": \"Szakembereink\", \"description\": \"Rövid eligazító profilok pszichológus, coach, mediátor, mentálhigiénés tanácsadó és kapcsolódó szakemberekről Budapesten.\", \"inLanguage\": \"hu-HU\", \"url\": \"https://komjadikavics.com/szakembereink/\" }"
+      },
+      {
+        "src": "https://komjadikavics.com/assets/script.js?v=20261002-prelaunch1",
+        "hint": ""
+      },
+      {
+        "src": "https://komjadikavics.com/assets/ux.js?v=20261002-prelaunch1",
+        "hint": ""
+      },
+      {
+        "src": "https://komjadikavics.com/assets/decision.js?v=20261002-prelaunch1",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "pontjol",
+    "status": 200,
+    "url": "https://pontjolvagyok.hu/szakertok/",
+    "tables": [],
+    "heading_samples": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": [
+            "text-extra-dark-gray",
+            "font-weight-500",
+            "no-margin-bottom",
+            "d-inline-block"
+          ]
+        },
+        "text": "Szakértők",
+        "parent": "div",
+        "parent_attrs": {
+          "class": [
+            "col-12",
+            "text-center"
+          ]
+        }
+      }
+    ],
+    "links_sample": [
+      {
+        "text": "Kezdőlap",
+        "url": "https://pontjolvagyok.hu/",
+        "attrs": {
+          "href": "/",
+          "class": [
+            "nav-link"
+          ]
+        }
+      },
+      {
+        "text": "Szakértők",
+        "url": "https://pontjolvagyok.hu/szakertok/",
+        "attrs": {
+          "href": "https://pontjolvagyok.hu/szakertok/",
+          "aria-current": "page",
+          "class": [
+            "nav-link"
+          ]
+        }
+      },
+      {
+        "text": "Match teszt",
+        "url": "https://pontjolvagyok.hu/szakertoi-match-teszt/",
+        "attrs": {
+          "href": "https://pontjolvagyok.hu/szakertoi-match-teszt/",
+          "class": [
+            "nav-link"
+          ]
+        }
+      },
+      {
+        "text": "Események",
+        "url": "https://pontjolvagyok.hu/esemeny/",
+        "attrs": {
+          "href": "/esemeny/",
+          "class": [
+            "nav-link"
+          ]
+        }
+      },
+      {
+        "text": "Tudástár",
+        "url": "https://pontjolvagyok.hu/tudastar/",
+        "attrs": {
+          "href": "https://pontjolvagyok.hu/tudastar/",
+          "class": [
+            "nav-link"
+          ]
+        }
+      },
+      {
+        "text": "Blog/Vlog",
+        "url": "https://pontjolvagyok.hu/blog/",
+        "attrs": {
+          "href": "https://pontjolvagyok.hu/blog/",
+          "class": [
+            "nav-link"
+          ]
+        }
+      },
+      {
+        "text": "Csatlakozás Szakértőként",
+        "url": "https://pontjolvagyok.hu/csatlakozz-szakertokent/",
+        "attrs": {
+          "href": "/csatlakozz-szakertokent/",
+          "class": [
+            "nav-link"
+          ]
+        }
+      },
+      {
+        "text": "Bejelentkezés",
+        "url": "https://pontjolvagyok.hu/fiokom/?akcio=bejelentkezes",
+        "attrs": {
+          "href": "/fiokom/?akcio=bejelentkezes"
+        }
+      },
+      {
+        "text": "Regisztráció",
+        "url": "https://pontjolvagyok.hu/fiokom/?akcio=regisztracio",
+        "attrs": {
+          "href": "/fiokom/?akcio=regisztracio"
+        }
+      },
+      {
+        "text": "Grúz László",
+        "url": "https://pontjolvagyok.hu/szakertok/gruz-laszlo/",
+        "attrs": {
+          "href": "/szakertok/gruz-laszlo/",
+          "class": [
+            "szakember_nev_link",
+            "text-extra-dark-gray",
+            "text-yellow-ochre-hover"
+          ]
+        }
+      },
+      {
+        "text": "Kiss Gabriella",
+        "url": "https://pontjolvagyok.hu/szakertok/kiss-gabriella/",
+        "attrs": {
+          "href": "/szakertok/kiss-gabriella/",
+          "class": [
+            "szakember_nev_link",
+            "text-extra-dark-gray",
+            "text-yellow-ochre-hover"
+          ]
+        }
+      },
+      {
+        "text": "Meszlényi Zsuzsa",
+        "url": "https://pontjolvagyok.hu/szakertok/meszlenyi-zsuzsa/",
+        "attrs": {
+          "href": "/szakertok/meszlenyi-zsuzsa/",
+          "class": [
+            "szakember_nev_link",
+            "text-extra-dark-gray",
+            "text-yellow-ochre-hover"
+          ]
+        }
+      },
+      {
+        "text": "Makó Alida",
+        "url": "https://pontjolvagyok.hu/szakertok/mako-alida/",
+        "attrs": {
+          "href": "/szakertok/mako-alida/",
+          "class": [
+            "szakember_nev_link",
+            "text-extra-dark-gray",
+            "text-yellow-ochre-hover"
+          ]
+        }
+      },
+      {
+        "text": "Mártonffy András",
+        "url": "https://pontjolvagyok.hu/szakertok/martonffy-andras/",
+        "attrs": {
+          "href": "/szakertok/martonffy-andras/",
+          "class": [
+            "szakember_nev_link",
+            "text-extra-dark-gray",
+            "text-yellow-ochre-hover"
+          ]
+        }
+      },
+      {
+        "text": "Szuromi Veronika",
+        "url": "https://pontjolvagyok.hu/szakertok/szuromi-veronika/",
+        "attrs": {
+          "href": "/szakertok/szuromi-veronika/",
+          "class": [
+            "szakember_nev_link",
+            "text-extra-dark-gray",
+            "text-yellow-ochre-hover"
+          ]
+        }
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/analytics-talk-content-tracking.js?ver=1.20.3",
+        "hint": ""
+      },
+      {
+        "src": "https://www.google.com/recaptcha/api.js?hl=hu",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/szakertok/",
+        "hint": "var myAjax = {\"ajaxurl\":\"https:\\/\\/pontjolvagyok.hu\\/content\\/wp-admin\\/admin-ajax.php\"};"
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/plugins/simplepay-for-woocommerce-premium/assets/js/frontend.js?ver=1.0",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-form-move-tracker.js?ver=1.20.3",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/themes/backbone/assets/js/theme-vendors.min.js?ver=1.0.1",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/themes/backbone/assets/js/main.js?ver=1.0.1",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/themes/backbone/scripts.js?ver=1.0.1",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.2.2",
+        "hint": ""
+      },
+      {
+        "src": "https://pontjolvagyok.hu/content/wp-content/plugins/tehetszmagadert.hu/js/tm-scripts.js?ver=20261106054824250409",
+        "hint": ""
+      }
+    ]
+  },
+  {
+    "key": "napfenyes",
+    "error": "403 Client Error: Forbidden for url: https://www.napfenyesgyogykozpont.hu/szakembereink/"
+  }
+]

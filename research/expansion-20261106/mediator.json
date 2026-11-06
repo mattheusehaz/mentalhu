@@ -1,0 +1,151 @@
+{
+  "url": "https://www.mediacio.hu/budapesti-mediatorok/",
+  "final_url": "https://www.mediacio.hu/budapesti-mediatorok/",
+  "status": 200,
+  "sha256": "bf30e67ccdf470cc8f98f6cfba877bfaa5b6dcd2c54087ce3d468956bbaabb69",
+  "title": "Budapesti mediátorok – Országos Mediációs Egyesület",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "entry-title"
+        ]
+      },
+      "text": "Budapesti mediátorok",
+      "parent": "header",
+      "parent_attrs": {
+        "class": [
+          "entry-header"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "www.mediare.hu",
+      "url": "http://www.mediare.hu",
+      "attrs": {
+        "href": "http://www.mediare.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.mediator-studio.hu",
+      "url": "http://www.mediator-studio.hu",
+      "attrs": {
+        "href": "http://www.mediator-studio.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.mediacio.eu",
+      "url": "http://www.mediacio.eu/",
+      "attrs": {
+        "href": "http://www.mediacio.eu/",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.valas.eu",
+      "url": "http://www.valas.eu/",
+      "attrs": {
+        "href": "http://www.valas.eu/",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.bekelteto.hu",
+      "url": "http://www.bekelteto.hu",
+      "attrs": {
+        "href": "http://www.bekelteto.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.pirochkata.com",
+      "url": "http://www.pirochkata.com",
+      "attrs": {
+        "href": "http://www.pirochkata.com",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.uzletimediacio.eu",
+      "url": "http://www.uzletimediacio.eu",
+      "attrs": {
+        "href": "http://www.uzletimediacio.eu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://www.mediacio.hu/budapesti-mediatorok/",
+      "hint": "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/16.0.1\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/16.0.1\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/www.mediacio.hu\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.8.12\"}}; /*! This file is auto-generated */ !function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setIte"
+    },
+    {
+      "src": "https://www.mediacio.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mediacio.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mediacio.hu/budapesti-mediatorok/",
+      "hint": "/* <![CDATA[ */var tribe_l10n_datatables = {\"aria\":{\"sort_ascending\":\": activate to sort column ascending\",\"sort_descending\":\": activate to sort column descending\"},\"length_menu\":\"Show _MENU_ entries\",\"empty_table\":\"No data available in table\",\"info\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"info_empty\":\"Showing 0 to 0 of 0 entries\",\"info_filtered\":\"(filtered from _MAX_ total entries)\",\"zero_records\":\"No matching records found\",\"search\":\"Sea"
+    },
+    {
+      "src": "https://www.mediacio.hu/budapesti-mediatorok/",
+      "hint": "var cnArgs = {\"ajaxUrl\":\"https:\\/\\/www.mediacio.hu\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"7ba34c7367\",\"hideEffect\":\"fade\",\"position\":\"bottom\",\"onScroll\":\"1\",\"onScrollOffset\":\"100\",\"onClick\":\"0\",\"cookieName\":\"cookie_notice_accepted\",\"cookieTime\":\"2592000\",\"cookieTimeRejected\":\"2592000\",\"cookiePath\":\"\\/\",\"cookieDomain\":\"\",\"redirection\":\"0\",\"cache\":\"0\",\"refuse\":\"0\",\"revokeCookies\":\"0\",\"revokeCookiesOpt\":\"automatic\",\"secure\":\"1\",\"coronabarActive\":\"0\"};"
+    },
+    {
+      "src": "https://www.mediacio.hu/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.3.2",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mediacio.hu/wp-content/themes/simple-life/js/navigation.min.js?ver=3.0.0",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mediacio.hu/wp-content/themes/simple-life/third-party/meanmenu/jquery.meanmenu.min.js?ver=2.0.8",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mediacio.hu/wp-content/themes/simple-life/js/custom.min.js?ver=3.0.0",
+      "hint": ""
+    }
+  ],
+  "iframes": [],
+  "text": "Budapesti mediátorok – Országos Mediációs Egyesület Skip to content Név: dr. Barcy Magdolna Foglalkozás: mediátor, kiképző család- és csoport pszichoterapeuta Végzettség: Egyetem Telefon: +3630-397-6704 WEB: www.mediare.hu E-MAIL: mbarcy@upcmail.hu Szakterület: család, munkahelyi, közösségi ügyek Név: dr. Barna Hedvig Foglalkozás: Egyéni ügyvéd Végzettség: Egyetem Telefon: +3630-216-7193 E-MAIL: drbarna.hedvig@gmail.com Szakterület: Büntető Név: dr. Bródy Péter Foglalkozás: Elnök Végzettség: Egyetem Telefon: +3630-949-5857 E-MAIL: jog.brody@gmail.com Szakterület: – Név: dr. Bodnárné Cser Erzsébet Foglalkozás: Vezérigazgató Végzettség: Közgazda, jogász Telefon: +3620-239-8688 E-MAIL: bcse@globalfaktor.hu Szakterület: Üzleti Név: Fazekas Márta Foglalkozás: mediátor, life és business coach Végzettség: főiskola, egyetem, ( gyógypedagógus, okleveles vállalkozó-menedzser, mediátor, coach) Telefon: +36304602760 Web: www.mediator-studio.hu e-mail: fmarta11@gmail.com Szakterület: családi, üzleti Név: dr. Fazekas Rita Foglalkozás: mediátor, jogász Végzettség: egyetem, jogász Telefon: +3620-418-7035 E-MAIL: info@fazekasrita.hu Szakterület: családi, válási, munkaügy Név: Gedeon Cecília Foglalkozás: programozó matematikus Végzettség: egyetem Telefon: +36/20-944-0056 WEB: www.mediacio.eu | www.valas.eu E-MAIL: gedeoncecilia@gmail.com Szakterület: családi Név: dr. Gulácsi Bernadett Foglalkozás: Ügyvezető igazgató Végzettség: egyetem, közgazdász Telefon: +36/30-860-4004 E-MAIL: dr.gulacsi.bernadett@gmail.com Szakterület: Üzleti, család Név: dr. Gulyás Kálmán Foglalkozás: mediátor Végzettség: egyetem Telefon: +36/30-692-4160 WEB: www.bekelteto.hu E-MAIL: mediator_gk@mediacio.hu Szakterület: a munkaügy és minden más terület is Név: Kánvási Lászlóné Foglalkozás: Ügyvezető Végzettség: mk. könyvelő Telefon: +36/70-381-7007 E-MAIL: corrmon.bt@chello.hu Szakterület: Pénzügy Név: Kiss Miklós Foglalkozás: Nyugdíjas Végzettség: Műszaki egyetem Telefon: +36/30-954-0331 E-MAIL: kissm@jumibt.hu Szakterület: gazdasági, családi Név: dr. Kovács Géza Foglalkozás: mediátor Végzettség: közgazdász Telefon: 06/30-699-2936 E-MAIL: kovacsgeza52@gmail.com Szakterület: üzleti, munkaügyi Név: dr. Krémer András Foglalkozás: mediátor Végzettség: egyetem Telefon: +36/30-960-7465 E-MAIL: kremera@kreta.hu Szakterület: Oktatás, iskolai mediáció, polgári ügyek Név: Pálfalvi Lászlóné Foglalkozás: közvetítő Végzettség: egyetem Telefon: +36/30-984-1356 E-MAIL: ildiko.palfalvi@permegelozes.com Szakterület: a Ptk. hatálya alá tartozó ügyek Név: Piroch Kata Foglalkozás: mediátor Végzettség: főiskola, kommunikációs szakember Telefon: +36/30-538-7373 WEB: www.pirochkata.com E-MAIL: kata@pirochkata.com Szakterület: időskorúak, környezetvédelem, kultúrák közti mediáció Név: S. Tóth Márta Foglalkozás: mediátor, ügyvezető Végzettség: egyetem Telefon: +36/70-394-5336 E-MAIL: office@coaching-mediation.hu Szakterület: Polgári, büntető-, egészségügyi Név: Süki-Szíjjártó Szilvia Ágnes Foglalkozás: Diszpécser Végzettség: Főiskola Telefon: +3630-382-8482 E-MAIL: suki.szilvis@gmail.com Szakterület: családi Név: dr. Szegő Krisztina Foglalkozás: mediátor Végzettség: szociológus Telefon: 06/30/2217144 web: www.uzletimediacio.eu E-MAIL: szekrisz@upcmail.hu Szakterület: gazdasági, közigazgatási Név: dr. Tallódi Tímea Foglalkozás: Tanár Végzettség: Egyetem Telefon: +3620-471-1624 E-MAIL: talloditimea@yahoo.com Szakterület: polgári, büntető Név: dr. Tatár Jeromos Foglalkozás: ügyvéd KIM Végzettség: Egyetem Telefon: +3630-250-5055 E-MAIL: jtatar@jtatar.hu Szakterület: büntető Név: dr. Törzs Edit Foglalkozás: Pártfogó felügyelő Végzettség: Egyetem Telefon: +3620-380-7580 E-MAIL: torzsedit@yahoo.co.uk Szakterület: büntető Név: Várnay Krisztina Foglalkozás: Igazságügy, Mediátor Végzettség: Egyetem Telefon: +3670-508-0582 E-MAIL: varnay2@freemail.hu Szakterület: válási és üzleti Név: dr. Végvári Györgyi Foglalkozás: egyéni ügyvéd Végzettség: Egyetem Telefon: +3630-921-1404 E-MAIL: gy.vegvari@gmail.com Szakterület: büntető Név: dr. Windischné Várszegi Réka Foglalkozás: Ügyvédjelölt Végzettség: Egyetem Telefon: +3670-381-88645 E-MAIL: varszegireka@t-online.hu Szakterület: családi, válás Név: Zalai-zempléni Zsófia Foglalkozás: diplomata, Consciousness Coach Végzettség: egyetem, közgazdász Telefon: +3620-329-2131 E-MAIL: zemplenizsofia@gmail.com Szakterület: családjog- gyerekvédelem, üzleti/vállalati Boldog, békés, áldott karácsonyi ünnepeket kívánunk Keresés Közelgő események There are no upcoming events at this time. Bejegyzések (nincs cím) május 3, 2026 Partners Hungary Konferencia március 26, 2026 FELHÍVCÁS A MEDIÁTOROKNAK március 3, 2026 Elérhetőségeink Székhely: 1068 Budapest, Benczúr u. 45. Postacím: 2040 Budaörs, Mozdony utca 10. dr. Gulyás Kálmán, elnök Keresés Go to top Kedves Látogató! Tájékoztatjuk, hogy a honlap felhasználói élmény fokozásának érdekében sütiket alkalmazunk. A honlapunk használatával ön a tájékoztatásunkat tudomásul veszi. Elfogadom"
+}

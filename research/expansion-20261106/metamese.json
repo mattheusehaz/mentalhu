@@ -1,0 +1,1000 @@
+{
+  "url": "https://metamese.hu/szaknevsor/szaknevsor.php",
+  "final_url": "https://metamese.hu/szaknevsor/szaknevsor.php",
+  "status": 200,
+  "sha256": "a0dc3c8a1cbbb9c23e3fbd3fadc1d5e1c08541fe7b2b1fc03cfed8dd601118dc",
+  "title": "Szaknévsor kereső",
+  "tables": [
+    {
+      "attrs": {},
+      "rows": [
+        {
+          "cells": [
+            "Név",
+            "Szakirány / végzettség",
+            "Település / terület",
+            "E-mail",
+            "Telefonszám",
+            "Megjegyzés"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Akácsos-Bazsa Terézia",
+            "bölcsész, angoltanár",
+            "Budapesten, és tervezem erdélyi angol táborokban is",
+            "trezsaone@gmail.com",
+            "36703709393",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Balla Tünde",
+            "tanító, mentálhigiéniai prevenció specialista",
+            "Somogy megye, Budapest",
+            "azizadance@gmail.com",
+            "36204904080",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Balogh- Losonczi Renáta",
+            "Pszichopedagogia és szomatopedagógia szakos gyógypedagógus",
+            "Veresegyház és Nyíregyháza környéke",
+            "uveghegyen@gmail.com",
+            "36204116019",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Bánosi Eszter",
+            "magyar bölcsész és tanár, újságíró, coach, meseszakpedagógus",
+            "Budapest, Göd",
+            "banosieszter@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Barta Zsuzsanna",
+            "Klinikai szakpszichológus, anya-magzat kapcsolatanalitikus, pszichodráma asszisztens, metamorphoses meseterapeuta",
+            "Budapest, online",
+            "info@pszicharmonia.hu",
+            "36-30-540-31-65",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Bata Sarolta",
+            "tanár, mentálhigiénés szakember, gyerekpszichodramatista",
+            "Vác és környéke, Budapest",
+            "vacimesekut@gmail.com, batasarolta@gmail.com",
+            "36208280728",
+            "szorongó gyerekek"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Bene Gáborné Takács Szilvia",
+            "Diplomás ápoló, Ergoterapeuta, Komplex művészeti terapeuta",
+            "Budapest, Pest megye",
+            "selfnessbeneszilvi@gmail.com",
+            "6203152668",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Bodainé Csernik Marianna",
+            "gyógypedagógus, biblioterapeuta",
+            "Tolna vármegye",
+            "csernik.marianna@gmail.com",
+            "36-30-437-5367",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Boris Ilona",
+            "Rendszerszervező",
+            "Budapest, online",
+            "iboris@t-online.hu",
+            "",
+            "Daganatos betegek és hozzátartozóik pszicho-szociális rehabilitációját segítő szolgálatnál"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Csábi Orsolya",
+            "krízis tanácsadó szakpszichológus",
+            "Budapest, online, és meghívásra bárhol",
+            "csabi.orsolya@externet.hu ; mesecsoport@gmail.com",
+            "36203972875",
+            "traumainformált és testtudati tanácsadó szakpszichológus (krízis, gyász, életfordulók, párkapcsolat, várandósság, perinatális veszteségek, egészségpszichológia, betegségek, időskori nehézségek, stb.), integratív terapeuta, pszichodráma asszisztens, bioszisztemikus pszicho-szomatoterapeuta jelölt, készségfejlesztő tréner"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Csizovszkinè Szabò Erzsébet",
+            "Òvònő, gyògypedagògus, pszichològus",
+            "Magyarország, Sopron",
+            "szcszsoka@gmail.com",
+            "36-30-640-8699",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Czentye Szilvia",
+            "Mentálhigiénés szakember",
+            "Budapesten személyesen, online vidéken és külföldön is",
+            "szilvia.czentye@gmail.com",
+            "",
+            "Pszichodráma vezető vagyok"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Daboczy Zsofia",
+            "Nemzetkozi kapcsolatok okleveles szakertoje, Konfliktuskezeles es krizismanagement, Mediáció",
+            "Budapest, Magyarország",
+            "zsofiameseterapia@gmail.com",
+            "36-30-553-7586",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Daróczi Brigitta Diána",
+            "Szociális munka, metálhigiénés szakember",
+            "Hajdú-Bihar, Szabolcs-Szatmár Bereg Megye",
+            "mentalsegitseg@gmail.com",
+            "36205151209",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Deák Orsolya",
+            "Biológus (ökológus), biológia tanár, képződő mentálhigiénés szakember",
+            "Magyarország",
+            "isrokaed@gmail.com",
+            "36-20-224-4867",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dékány Marianna Ildikó",
+            "Klinikai meseterapeuta",
+            "Szentes",
+            "marypsycho89@gmail.com",
+            "06 70/565-1523",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dóczy Noémi",
+            "Pszichológus, Óvodapedagógus",
+            "Balatonalmádi, Veszprém, Felsőörs",
+            "noemi.doczy@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "dr. Baracsi Katalin",
+            "jogász",
+            "Bárhol nagyon szívesen. :-)",
+            "katalin.baracsi@gmail.com",
+            "Köszönöm ezzel a lehetőséggel nem élnék.",
+            "internetbiztonság, digitális médiaműveltség, bűnmegelőzés, gyerekjogok"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dr. Deák-Zsótér Boglárka",
+            "pedagógus",
+            "Magyarországon bárhol",
+            "boglarka.zsoter@gmail.com",
+            "709478609",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "dr. Illés Hilda",
+            "pszichológus, tanácsadó szakpszichológus",
+            "Vác, Budapest",
+            "lelkembollelkedbe@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dr. Lassányi Gábor",
+            "Mentálhigiénés tanácsadó, szexológus tanácsadó, régész, egyiptológus",
+            "Magyarország",
+            "kapcsolat@lassanyigabor.hu",
+            "36301530679",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dr. Nagy Emőke",
+            "néprajzkutató",
+            "Budapest",
+            "emoke.nagy@gmail.com",
+            "+36 20 338 2838",
+            "tréning"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dr. Papp Melinda",
+            "kommunikáció- és médiaszakértő, nyelvtudományi PhD, természetes gyógymódok tanácsadó",
+            "Alapvetően Szegeden és környékén. (Megbeszélés szerint Magyarország más táján is.)",
+            "pappmelinda54@gmail.com",
+            "-",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dr. Rostás Rita",
+            "Biológia-kémia szakos altalános iskolai tanár, pszichológus, katasztrófa-és kríziskezelő szakpszichológus",
+            "Főként Budapest, de igény esetén másutt is",
+            "rostasrita@gmail.com",
+            "36-20-519-6854",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Dr.Ternován Szilvia Sztella",
+            "Pszichiáter,pszichoterapeuta",
+            "Pest megye,de online bárhonnan magyar nyelven",
+            "ternovan.szilvia@gmail.com",
+            "36-30-9065734",
+            "Személyiségzavarok"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Eördögh Zsófia",
+            "Közgazdász",
+            "Budapest",
+            "zsofia.eordogh@gmail.com",
+            "",
+            "Az egyéni konzultációk során a mesékkel való munkát homeopátiás és szomatodrámás szemlélettel fűszerezem"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Fabók-Tóth Erika",
+            "Konduktor",
+            "Dunakeszi és környéke",
+            "FbMesetűz / mesetuzfoglalkozas@gmail.com",
+            "fabok.toth.erika@gmail.com / +36304030385",
+            "Konduktori végzettségemmel SNI és központi idegrendszeri sérüléssel élő gyermekek számára is"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Farkas Vera",
+            "tanító, vizualis kultúra tanár, képzőművészet-terapeuta",
+            "Megbeszélés szerint.",
+            "vera.farkas21@gmail.com",
+            "-",
+            "Tapasztalatom van hátrányokkal élő gyermekekkel, felnőttekkel."
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Füleki Piroska",
+            "tanárképző főiskola (magy-angol, tánc és dráma)",
+            "Gyöngyös és környéke, online",
+            "pirjoska@gmail.com",
+            "36-70-771-5651",
+            "énerősítés, önismeret"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Gyarmati Andrea",
+            "pszichológus (kísérleti és kognitív pszichológia szakirány), alkalmazott nyelvész, angoltanár, neuroaffirmatív támogatásban képződő",
+            "online, Budapest",
+            "andrea@szazmorzsa.hu",
+            "-5308",
+            "tapasztalati ADHD támogatás"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Gyöngyösi Katalin Krisztina",
+            "okleveles pszichológus tanácsadás szakirányon, Tanácsadó szakpszichológus krízis szakirányon",
+            "Szombathely, Sopron, Ausztria - Bécs és Baden környékén",
+            "gyongyosikatalin.pszichologus@gmail.com",
+            "36-20-3726-716",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Hajdu Enikő",
+            "pedagógiai szakpszichológus",
+            "Budapest és Szentendre",
+            "hajdu.eniko.meseterapia@gmail.com",
+            "36-20-441-7916",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Hajdú Gabriella",
+            "angol és orosz szakos nyelvtanár, kulturális antropológus",
+            "Magyarország (de ha úgy adódik, bármerre :)",
+            "gabriella_hajdu@yahoo.com",
+            "",
+            "szívesen bekapcsolódom kutatásba, nemzetközi együttműködésekbe, és a mesefordítás is érdekel"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Hajdú Ildikó",
+            "Hit és pedagógia tanár, szupervízor",
+            "Sopron",
+            "hajduildihajdu@gmail.com",
+            "36309745545",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Hegymegi Ferencné",
+            "tanító, magyar szakos tanár, nyelv- és beszédfejlesztő tanár",
+            "Hajdú-Bihar vármegye",
+            "hegymegiszenes@gmail.com",
+            "36308554441",
+            "-"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Hidvéginé Csabai Erzsébet",
+            "Pedagógia szakos nevelő",
+            "Budapest",
+            "csabaie417@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Honfi Gyöngyi",
+            "Óvodapedagógus, mozgásterapeuta",
+            "Budaörs és környéke",
+            "honfi.gyongyi@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Horváth Aliz",
+            "Kommunikációs szakember",
+            "Nyugat Magyarország, online",
+            "hr@alizhorvath.hu",
+            "6317822705",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Huszár Annamária",
+            "Irodalom terapeuta, csalad és parterapeuta",
+            "Budapest",
+            "1022amy@gmail.com, annamari@feldmarintezet.hu",
+            "36-20-9419-811",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Jeli Viktória",
+            "dramaturg, mentálhigiénés segítő szakember",
+            "Magyarország",
+            "jeliviki@gmail.com",
+            "-705",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Józsáné Kovácsik Gabriella",
+            "Okleveles szociális munkás",
+            "Kecskemét, Budapest, Milton Keynes. Csoport esetén megbeszéljük.",
+            "jozsagabi69@gmail.com",
+            "36305208440",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Juhász Katalin",
+            "Magyar-német szakos tanár",
+            "Heves megye",
+            "302157590",
+            "-",
+            "-"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kalapos Judit Edina",
+            "menálthigiénés és közösségi segítő, pedagógus",
+            "Pécs és környéke",
+            "kalaposjudit@gmail.com",
+            "36302271114",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kárpáti Mária",
+            "Szociálpedagógus, gyerek-és felnőtt dramatista, művészetterápiás foglalkoztató",
+            "Budapest",
+            "karpati.maria85@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kecskes Karina",
+            "Szinesz,drámapedagógus",
+            "Mindenhol",
+            "kecskeskarina.budapest@gmail.com",
+            "06/309529624",
+            "Óvodás,alsós tagozatosoknak mese-szerep-dráma játék foglalkozás"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kiss Erzsébet Zsóka",
+            "óvodapedagóus/tanító",
+            "Budapest",
+            "mesetabor01@gmail.com",
+            "",
+            "Óvodások-kisiskolásokkal foglalkozom."
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kovács Borbála",
+            "Okleveles pszichológus",
+            "Budapest",
+            "pszichologus@kovacsbori.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Kövecsesné dr. Gősi Viktória",
+            "óvodapedagógus, tanító, pedagógia szakos bölcsész és tanár, Neveléstudomány PhD",
+            "Magyarország",
+            "gosiviki@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Magyarné Merkl Nóra",
+            "pszichológus",
+            "Budakeszi, Páty, Nagykovácsi, Remeteszőlős, II. kerület",
+            "igen; nora@merkl.hu",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Makainé Oláh Anetta",
+            "Óvodapedagógus",
+            "Budapest",
+            "anetta30@gmail.com",
+            "36304802132",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Medveczky Kata",
+            "okleveles pszichológus, tanácsadó szakpszichológus",
+            "Dunakanyar, Szentendre",
+            "kata@medveczkykata.hu",
+            "",
+            "krízis helyzetek, gyermeknevelési tanácsadás, önismeret, életvezetési tanácsadás, lelkivezetés (keresztyén szemlélettel), szorongásos és indulatkezelési problémák"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Mohácsi Andrea",
+            "Integrál szemléletű mentálhigiénés szakember",
+            "Budapest",
+            "andrea5.mohacsi@gmail.com",
+            "36-30-383-9838",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Molnárné Bognár Éva",
+            "tanító, tanár, gyógypedagógus",
+            "Mesélést vállalok az ország területén. Terápiát pest megyében és Budapesten",
+            "mocieva@]mail.com",
+            "36309866576",
+            "rajzdiagnosztikával egybekötött terápiák"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Nagy Luca",
+            "pedagógus",
+            "Magyarország",
+            "lucanagy.mese@gmail.com",
+            "36704108678",
+            "Múzeumi Mesék program"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Nagy Magdolna",
+            "Tanító, tánc és drámapedagógus, mediátor, gyermekjogi képviselő, felsőfokú gyógypedagógiai asszisztens",
+            "Magyarország",
+            "nagymagdi0108@gmail.com",
+            "36-30-4567861",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Nagyné Farkas Anita",
+            "alkotó-fejlesztő meseszakpedagógus",
+            "Heves vármegye",
+            "nagynefarkasanita@gmail.com",
+            "36-30-299-0009",
+            "speciális szakterület: alkotó-fejlesztő mesefoglalkozások"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Német Orsolya",
+            "pszichológus, német tanár",
+            "Budapest",
+            "orsolya_nemet@yahoo.de",
+            "6205952718",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Németh Mónika",
+            "magyar-német szakos középiskolai tanár",
+            "Miskolc és környéke",
+            "iktfelhasznalo@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Németh Mónika",
+            "Alkotó-fejlesztő mese-szakpedagógus",
+            "B.-A.-Z. megye",
+            "iktfelhasznalo@gmail.com",
+            "36305106532",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Novák Mária",
+            "Hit és történelem tanár",
+            "Budapest, Kiskunfélegyháza, Szeged",
+            "talentumok19@gmail.com",
+            "36-30-415-5247",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Nyárády Rita",
+            "bölcsész",
+            "Budapest, Pécs, Balatonberény és környéke",
+            "rita.nyarady@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Oroszlán Anett",
+            "pszichológus, tanácsadó és pedagógiai szakpszichológus",
+            "Hatvan és környéke, Heves megye, Budapest, Pest megye",
+            "oroszlan.anett@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Pataki Ágnes",
+            "tanító, néprajzkutató, szociális munkás",
+            "Vecsésen személyesen, online bárhol a világban",
+            "ppatakiagnes@gmail.com",
+            "5,12E-08",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Révész Renáta Liliána",
+            "pszichológus, gyásztanácscsadó, gyermekpszichodráma vezető",
+            "Magyarország és online",
+            "gyasztanacsado@gmail.com",
+            "36702115191",
+            "gyász, veszteségek, krízisek, válás, betegségek"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Sábiánné Jánosi Anna Mária",
+            "Közgazdász, life coach, mentálhigiénés szakember.",
+            "Személyesen Budapesten, online nem területfüggő, magyarul",
+            "sabian.maria@gmail.com",
+            "36-20-243-2977",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Sebestyén Mária",
+            "Német - magyar szakos tanár, egészségtan középiskolai tanár",
+            "Németország, Ausztria, Magyarország",
+            "sebestyenmarija@gmail.com",
+            "36-30-272-46-82",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Skultéti Szilvia",
+            "pedagógus, andragógus, coach, közgazdász",
+            "Alkalomszerűen bárhol, folyamatosan Budapest és Pest megye területe",
+            "nskszilvia@gmail.com",
+            "36-20-321-05-82",
+            "drámapedagógus és coach is vagyok"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Sólyom Andrea",
+            "francia-magyar, hittanár szakos középiskolai tanár",
+            "Szeged",
+            "solyoma3@gmail.com",
+            "",
+            "Perinatális szaktanácsadóként a szülés-születés körüli időkben lévőket tudom megsegíteni a mesékkel."
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Somosi Ambrus",
+            "logopédus, gyógypedagógus, mentálhigiénés szakember",
+            "Budapest és vonzáskörzete",
+            "somosiambrus@gmail.com",
+            "Nem szeretném megadni.",
+            "A meseterápiát elsősorban egyéni önismereti folyamatokban (például mentálhigiénés tanácsadással egybekötve), logopédiai - beszédtechnikai munkámban, illetve a művészeti képzések csoportos foglalkozásain alkalmazom."
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Soós Dóra",
+            "egyetemi - kommunikáció szak, gyerekpszichodramatista",
+            "Budapest",
+            "soosdora@gmail.com",
+            "36302346980",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Soós Mária",
+            "szociális munkás",
+            "Budapest",
+            "soosmarcsi@gmail.com",
+            "36-30-485-3467",
+            "hajléktalan emberek, bántalmazott nők"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Szabóné Jánossy Kinga",
+            "tervezőgrafikus, művészetterapeuta, meseterapeuta",
+            "Eger, Felsőtárkány, Budapest",
+            "szabone.j.kinga@gmail.com",
+            "-9802",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Szirtesi-Nagy Réka",
+            "Marketing alapszak (Canterbury Christchurch University), MBA - Közgazdász (BME), tréner, coach, mediátor",
+            "Magyarország, Románia, külföldön megbeszélés szerint",
+            "nagyzreka@gmail.com",
+            "36-20-338-0155",
+            "trénerekkel, coachokkal, fejlesztő szakemberekkel dolgozom"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Szluka Judit",
+            "tanító, bábszínész",
+            "Szár",
+            "szlukaj@gmail.com",
+            "36-20-9598-976",
+            "Főként alsó tagozatos gyerekekkel foglalkozom."
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Szűcsné Gyöngyösi Ildikó",
+            "Egészségfejlesztő",
+            "Kecskemét, Budapest",
+            "gyongyosiildiko6@gmail.com",
+            "6209108931",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Takács-Babicz Lilla",
+            "tanácsadó szakpszichológus",
+            "Veszprém megye",
+            "babicz.lilla@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Terényi Lívia",
+            "Közgazdász",
+            "Linz/Ausztria",
+            "liviaterenyi2@gmail.com",
+            "-",
+            "-"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Toll Tünde",
+            "Tanárképző Főiskola, művészeti, mozgásterápia",
+            "Ausztria",
+            "artist.toll@gmail.com",
+            "+36 20 4401563",
+            "művészeti"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Tószegi Judit",
+            "Szimbólum terápiában (MRSzE) képzett tanár (JGyTF)",
+            "Budapest - Magyarország",
+            "toszegi.judit@gmail.com",
+            "36306431385",
+            "\"Készíts velünk varázstárgyakat!\" - mesés kreatív alkotó foglalkozás"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Tóth Johanna",
+            "mentálhigiéné, szociológia, szociálpedagógia",
+            "Első sorban Szegeden és környékén.",
+            "mesegombolyag@gmail.com",
+            "36-30-301-1783",
+            "egyetemista korosztály - stresszkezelés és reziliencia a hétköznapokban Nagyon köszönjük a munkátokat és a lehetőséget!"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Vági Zsuzsanna",
+            "Bárczy István Gyógypedagógiai Főiskola logopédia-oligofrénpedagógia szak. Drámapedagógiai társaság 120 óra, Állami Artistaképző: artista-bohóc",
+            "Budapest",
+            "vagizsuzsa@gmail.com",
+            "+3620 33 11 237",
+            "iskolai csoport"
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Váli Zsuzsanna",
+            "Tanító",
+            "Érd, Budapest környéke",
+            "valizsuzsi@gmail.com",
+            "36-30-383-5964",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Varga Csilla Zsuzsanna",
+            "magyar nyelv és irodalom, olasz nyelv és irodalom, magya mint idegen nyelv tanár",
+            "Budapest",
+            "csillcu@gmail.com",
+            "36-70-3143-473",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Varga S. Katalin",
+            "Klinikai szakpszichológus, hipno-pszichoterapeuta",
+            "Budapest",
+            "vargaskatalin@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "VÁRNAY KRISZTINA",
+            "Főiskolai diploma, igazgatásszervező; Life coach 2019, Képzésben lévő mentálhigiénés segítő szakember /KRE folyamatban/",
+            "Magyarország, Pest megye, Gyömrő",
+            "varnaykriszti@gmail.com",
+            "",
+            ""
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Vesztergombi-Bárdos Orsolya",
+            "Okleveles gyógypedagógus, képességfejlesztő tréner",
+            "Online, Budapest, Kecskemét, határon túli magyarság (kiemelten Kárpátalja), külhoni magyarok",
+            "bardos.orsolya@gmail.com",
+            "-",
+            "Kiemelt terület a beszédindítás és óvodás korosztály, valamint egyetemista korosztály számára felnőtté válás témája, később várandósság, anyaság, apaság, családdá válás. A meseterápiás tudásomat szeretem egyszerre alkalmazni logopédiai-gyógypedagógiai és tréneri szemléletemmel."
+          ],
+          "links": []
+        },
+        {
+          "cells": [
+            "Vietorisz Szilvia",
+            "Gyógypedagógus",
+            "Magyarország",
+            "vietorisz.szilvia@gmail.com",
+            "",
+            "36209818892"
+          ],
+          "links": []
+        }
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {},
+      "text": "Szaknévsor kereső",
+      "parent": "body",
+      "parent_attrs": {}
+    }
+  ],
+  "links": [],
+  "scripts": [
+    {
+      "src": "https://metamese.hu/szaknevsor/szaknevsor.php",
+      "hint": "// munkamenetben megnyitott nevek jelölése document.addEventListener('DOMContentLoaded', function() { const key = 'szaknevsor_visited_ids'; let visited = []; try { visited = JSON.parse(sessionStorage.getItem(key)) || []; } catch (e) { visited = []; } document.querySelectorAll('.name-link').forEach(function(a) { const id = a.dataset.id; if (visited.includes(id)) { a.classList.add('visited-name'); } a.addEventListener('click', function() { if (!vis"
+    }
+  ],
+  "iframes": [],
+  "text": "Szaknévsor kereső Szaknévsor kereső Részletes adatok a névre kattintva tekinthetőek meg. Keresés Név Szakirány / végzettség Település / terület E-mail Telefonszám Megjegyzés Akácsos-Bazsa Terézia bölcsész, angoltanár Budapesten, és tervezem erdélyi angol táborokban is trezsaone@gmail.com 36703709393 Balla Tünde tanító, mentálhigiéniai prevenció specialista Somogy megye, Budapest azizadance@gmail.com 36204904080 Balogh- Losonczi Renáta Pszichopedagogia és szomatopedagógia szakos gyógypedagógus Veresegyház és Nyíregyháza környéke uveghegyen@gmail.com 36204116019 Bánosi Eszter magyar bölcsész és tanár, újságíró, coach, meseszakpedagógus Budapest, Göd banosieszter@gmail.com Barta Zsuzsanna Klinikai szakpszichológus, anya-magzat kapcsolatanalitikus, pszichodráma asszisztens, metamorphoses meseterapeuta Budapest, online info@pszicharmonia.hu 36-30-540-31-65 Bata Sarolta tanár, mentálhigiénés szakember, gyerekpszichodramatista Vác és környéke, Budapest vacimesekut@gmail.com, batasarolta@gmail.com 36208280728 szorongó gyerekek Bene Gáborné Takács Szilvia Diplomás ápoló, Ergoterapeuta, Komplex művészeti terapeuta Budapest, Pest megye selfnessbeneszilvi@gmail.com 6203152668 Bodainé Csernik Marianna gyógypedagógus, biblioterapeuta Tolna vármegye csernik.marianna@gmail.com 36-30-437-5367 Boris Ilona Rendszerszervező Budapest, online iboris@t-online.hu Daganatos betegek és hozzátartozóik pszicho-szociális rehabilitációját segítő szolgálatnál Csábi Orsolya krízis tanácsadó szakpszichológus Budapest, online, és meghívásra bárhol csabi.orsolya@externet.hu ; mesecsoport@gmail.com 36203972875 traumainformált és testtudati tanácsadó szakpszichológus (krízis, gyász, életfordulók, párkapcsolat, várandósság, perinatális veszteségek, egészségpszichológia, betegségek, időskori nehézségek, stb.), integratív terapeuta, pszichodráma asszisztens, bioszisztemikus pszicho-szomatoterapeuta jelölt, készségfejlesztő tréner Csizovszkinè Szabò Erzsébet Òvònő, gyògypedagògus, pszichològus Magyarország, Sopron szcszsoka@gmail.com 36-30-640-8699 Czentye Szilvia Mentálhigiénés szakember Budapesten személyesen, online vidéken és külföldön is szilvia.czentye@gmail.com Pszichodráma vezető vagyok Daboczy Zsofia Nemzetkozi kapcsolatok okleveles szakertoje, Konfliktuskezeles es krizismanagement, Mediáció Budapest, Magyarország zsofiameseterapia@gmail.com 36-30-553-7586 Daróczi Brigitta Diána Szociális munka, metálhigiénés szakember Hajdú-Bihar, Szabolcs-Szatmár Bereg Megye mentalsegitseg@gmail.com 36205151209 Deák Orsolya Biológus (ökológus), biológia tanár, képződő mentálhigiénés szakember Magyarország isrokaed@gmail.com 36-20-224-4867 Dékány Marianna Ildikó Klinikai meseterapeuta Szentes marypsycho89@gmail.com 06 70/565-1523 Dóczy Noémi Pszichológus, Óvodapedagógus Balatonalmádi, Veszprém, Felsőörs noemi.doczy@gmail.com dr. Baracsi Katalin jogász Bárhol nagyon szívesen. :-) katalin.baracsi@gmail.com Köszönöm ezzel a lehetőséggel nem élnék. internetbiztonság, digitális médiaműveltség, bűnmegelőzés, gyerekjogok Dr. Deák-Zsótér Boglárka pedagógus Magyarországon bárhol boglarka.zsoter@gmail.com 709478609 dr. Illés Hilda pszichológus, tanácsadó szakpszichológus Vác, Budapest lelkembollelkedbe@gmail.com Dr. Lassányi Gábor Mentálhigiénés tanácsadó, szexológus tanácsadó, régész, egyiptológus Magyarország kapcsolat@lassanyigabor.hu 36301530679 Dr. Nagy Emőke néprajzkutató Budapest emoke.nagy@gmail.com +36 20 338 2838 tréning Dr. Papp Melinda kommunikáció- és médiaszakértő, nyelvtudományi PhD, természetes gyógymódok tanácsadó Alapvetően Szegeden és környékén. (Megbeszélés szerint Magyarország más táján is.) pappmelinda54@gmail.com - Dr. Rostás Rita Biológia-kémia szakos altalános iskolai tanár, pszichológus, katasztrófa-és kríziskezelő szakpszichológus Főként Budapest, de igény esetén másutt is rostasrita@gmail.com 36-20-519-6854 Dr.Ternován Szilvia Sztella Pszichiáter,pszichoterapeuta Pest megye,de online bárhonnan magyar nyelven ternovan.szilvia@gmail.com 36-30-9065734 Személyiségzavarok Eördögh Zsófia Közgazdász Budapest zsofia.eordogh@gmail.com Az egyéni konzultációk során a mesékkel való munkát homeopátiás és szomatodrámás szemlélettel fűszerezem Fabók-Tóth Erika Konduktor Dunakeszi és környéke FbMesetűz / mesetuzfoglalkozas@gmail.com fabok.toth.erika@gmail.com / +36304030385 Konduktori végzettségemmel SNI és központi idegrendszeri sérüléssel élő gyermekek számára is Farkas Vera tanító, vizualis kultúra tanár, képzőművészet-terapeuta Megbeszélés szerint. vera.farkas21@gmail.com - Tapasztalatom van hátrányokkal élő gyermekekkel, felnőttekkel. Füleki Piroska tanárképző főiskola (magy-angol, tánc és dráma) Gyöngyös és környéke, online pirjoska@gmail.com 36-70-771-5651 énerősítés, önismeret Gyarmati Andrea pszichológus (kísérleti és kognitív pszichológia szakirány), alkalmazott nyelvész, angoltanár, neuroaffirmatív támogatásban képződő online, Budapest andrea@szazmorzsa.hu -5308 tapasztalati ADHD támogatás Gyöngyösi Katalin Krisztina okleveles pszichológus tanácsadás szakirányon, Tanácsadó szakpszichológus krízis szakirányon Szombathely, Sopron, Ausztria - Bécs és Baden környékén gyongyosikatalin.pszichologus@gmail.com 36-20-3726-716 Hajdu Enikő pedagógiai szakpszichológus Budapest és Szentendre hajdu.eniko.meseterapia@gmail.com 36-20-441-7916 Hajdú Gabriella angol és orosz szakos nyelvtanár, kulturális antropológus Magyarország (de ha úgy adódik, bármerre :) gabriella_hajdu@yahoo.com szívesen bekapcsolódom kutatásba, nemzetközi együttműködésekbe, és a mesefordítás is érdekel Hajdú Ildikó Hit és pedagógia tanár, szupervízor Sopron hajduildihajdu@gmail.com 36309745545 Hegymegi Ferencné tanító, magyar szakos tanár, nyelv- és beszédfejlesztő tanár Hajdú-Bihar vármegye hegymegiszenes@gmail.com 36308554441 - Hidvéginé Csabai Erzsébet Pedagógia szakos nevelő Budapest csabaie417@gmail.com Honfi Gyöngyi Óvodapedagógus, mozgásterapeuta Budaörs és környéke honfi.gyongyi@gmail.com Horváth Aliz Kommunikációs szakember Nyugat Magyarország, online hr@alizhorvath.hu 6317822705 Huszár Annamária Irodalom terapeuta, csalad és parterapeuta Budapest 1022amy@gmail.com, annamari@feldmarintezet.hu 36-20-9419-811 Jeli Viktória dramaturg, mentálhigiénés segítő szakember Magyarország jeliviki@gmail.com -705 Józsáné Kovácsik Gabriella Okleveles szociális munkás Kecskemét, Budapest, Milton Keynes. Csoport esetén megbeszéljük. jozsagabi69@gmail.com 36305208440 Juhász Katalin Magyar-német szakos tanár Heves megye 302157590 - - Kalapos Judit Edina menálthigiénés és közösségi segítő, pedagógus Pécs és környéke kalaposjudit@gmail.com 36302271114 Kárpáti Mária Szociálpedagógus, gyerek-és felnőtt dramatista, művészetterápiás foglalkoztató Budapest karpati.maria85@gmail.com Kecskes Karina Szinesz,drámapedagógus Mindenhol kecskeskarina.budapest@gmail.com 06/309529624 Óvodás,alsós tagozatosoknak mese-szerep-dráma játék foglalkozás Kiss Erzsébet Zsóka óvodapedagóus/tanító Budapest mesetabor01@gmail.com Óvodások-kisiskolásokkal foglalkozom. Kovács Borbála Okleveles pszichológus Budapest pszichologus@kovacsbori.com Kövecsesné dr. Gősi Viktória óvodapedagógus, tanító, pedagógia szakos bölcsész és tanár, Neveléstudomány PhD Magyarország gosiviki@gmail.com Magyarné Merkl Nóra pszichológus Budakeszi, Páty, Nagykovácsi, Remeteszőlős, II. kerület igen; nora@merkl.hu Makainé Oláh Anetta Óvodapedagógus Budapest anetta30@gmail.com 36304802132 Medveczky Kata okleveles pszichológus, tanácsadó szakpszichológus Dunakanyar, Szentendre kata@medveczkykata.hu krízis helyzetek, gyermeknevelési tanácsadás, önismeret, életvezetési tanácsadás, lelkivezetés (keresztyén szemlélettel), szorongásos és indulatkezelési problémák Mohácsi Andrea Integrál szemléletű mentálhigiénés szakember Budapest andrea5.mohacsi@gmail.com 36-30-383-9838 Molnárné Bognár Éva tanító, tanár, gyógypedagógus Mesélést vállalok az ország területén. Terápiát pest megyében és Budapesten mocieva@]mail.com 36309866576 rajzdiagnosztikával egybekötött terápiák Nagy Luca pedagógus Magyarország lucanagy.mese@gmail.com 36704108678 Múzeumi Mesék program Nagy Magdolna Tanító, tánc és drámapedagógus, mediátor, gyermekjogi képviselő, felsőfokú gyógypedagógiai asszisztens Magyarország nagymagdi0108@gmail.com 36-30-4567861 Nagyné Farkas Anita alkotó-fejlesztő meseszakpedagógus Heves vármegye nagynefarkasanita@gmail.com 36-30-299-0009 speciális szakterület: alkotó-fejlesztő mesefoglalkozások Német Orsolya pszichológus, német tanár Budapest orsolya_nemet@yahoo.de 6205952718 Németh Mónika magyar-német szakos középiskolai tanár Miskolc és környéke iktfelhasznalo@gmail.com Németh Mónika Alkotó-fejlesztő mese-szakpedagógus B.-A.-Z. megye iktfelhasznalo@gmail.com 36305106532 Novák Mária Hit és történelem tanár Budapest, Kiskunfélegyháza, Szeged talentumok19@gmail.com 36-30-415-5247 Nyárády Rita bölcsész Budapest, Pécs, Balatonberény és környéke rita.nyarady@gmail.com Oroszlán Anett pszichológus, tanácsadó és pedagógiai szakpszichológus Hatvan és környéke, Heves megye, Budapest, Pest megye oroszlan.anett@gmail.com Pataki Ágnes tanító, néprajzkutató, szociális munkás Vecsésen személyesen, online bárhol a világban ppatakiagnes@gmail.com 5,12E-08 Révész Renáta Liliána pszichológus, gyásztanácscsadó, gyermekpszichodráma vezető Magyarország és online gyasztanacsado@gmail.com 36702115191 gyász, veszteségek, krízisek, válás, betegségek Sábiánné Jánosi Anna Mária Közgazdász, life coach, mentálhigiénés szakember. Személyesen Budapesten, online nem területfüggő, magyarul sabian.maria@gmail.com 36-20-243-2977 Sebestyén Mária Német - magyar szakos tanár, egészségtan középiskolai tanár Németország, Ausztria, Magyarország sebestyenmarija@gmail.com 36-30-272-46-82 Skultéti Szilvia pedagógus, andragógus, coach, közgazdász Alkalomszerűen bárhol, folyamatosan Budapest és Pest megye területe nskszilvia@gmail.com 36-20-321-05-82 drámapedagógus és coach is vagyok Sólyom Andrea francia-magyar, hittanár szakos középiskolai tanár Szeged solyoma3@gmail.com Perinatális szaktanácsadóként a szülés-születés körüli időkben lévőket tudom megsegíteni a mesékkel. Somosi Ambrus logopédus, gyógypedagógus, mentálhigiénés szakember Budapest és vonzáskörzete somosiambrus@gmail.com Nem szeretném megadni. A meseterápiát elsősorban egyéni önismereti folyamatokban (például mentálhigiénés tanácsadással egybekötve), logopédiai - beszédtechnikai munkámban, illetve a művészeti képzések csoportos foglalkozásain alkalmazom. Soós Dóra egyetemi - kommunikáció szak, gyerekpszichodramatista Budapest soosdora@gmail.com 36302346980 Soós Mária szociális munkás Budapest soosmarcsi@gmail.com 36-30-485-3467 hajléktalan emberek, bántalmazott nők Szabóné Jánossy Kinga tervezőgrafikus, művészetterapeuta, meseterapeuta Eger, Felsőtárkány, Budapest szabone.j.kinga@gmail.com -9802 Szirtesi-Nagy Réka Marketing alapszak (Canterbury Christchurch University), MBA - Közgazdász (BME), tréner, coach, mediátor Magyarország, Románia, külföldön megbeszélés szerint nagyzreka@gmail.com 36-20-338-0155 trénerekkel, coachokkal, fejlesztő szakemberekkel dolgozom Szluka Judit tanító, bábszínész Szár szlukaj@gmail.com 36-20-9598-976 Főként alsó tagozatos gyerekekkel foglalkozom. Szűcsné Gyöngyösi Ildikó Egészségfejlesztő Kecskemét, Budapest gyongyosiildiko6@gmail.com 6209108931 Takács-Babicz Lilla tanácsadó szakpszichológus Veszprém megye babicz.lilla@gmail.com Terényi Lívia Közgazdász Linz/Ausztria liviaterenyi2@gmail.com - - Toll Tünde Tanárképző Főiskola, művészeti, mozgásterápia Ausztria artist.toll@gmail.com +36 20 4401563 művészeti Tószegi Judit Szimbólum terápiában (MRSzE) képzett tanár (JGyTF) Budapest - Magyarország toszegi.judit@gmail.com 36306431385 \"Készíts velünk varázstárgyakat!\" - mesés kreatív alkotó foglalkozás Tóth Johanna mentálhigiéné, szociológia, szociálpedagógia Első sorban Szegeden és környékén. mesegombolyag@gmail.com 36-30-301-1783 egyetemista korosztály - stresszkezelés és reziliencia a hétköznapokban Nagyon köszönjük a munkátokat és a lehetőséget! Vági Zsuzsanna Bárczy István Gyógypedagógiai Főiskola logopédia-oligofrénpedagógia szak. Drámapedagógiai társaság 120 óra, Állami Artistaképző: artista-bohóc Budapest vagizsuzsa@gmail.com +3620 33 11 237 iskolai csoport Váli Zsuzsanna Tanító Érd, Budapest környéke valizsuzsi@gmail.com 36-30-383-5964 Varga Csilla Zsuzsanna magyar nyelv és irodalom, olasz nyelv és irodalom, magya mint idegen nyelv tanár Budapest csillcu@gmail.com 36-70-3143-473 Varga S. Katalin Klinikai szakpszichológus, hipno-pszichoterapeuta Budapest vargaskatalin@gmail.com VÁRNAY KRISZTINA Főiskolai diploma, igazgatásszervező; Life coach 2019, Képzésben lévő mentálhigiénés segítő szakember /KRE folyamatban/ Magyarország, Pest megye, Gyömrő varnaykriszti@gmail.com Vesztergombi-Bárdos Orsolya Okleveles gyógypedagógus, képességfejlesztő tréner Online, Budapest, Kecskemét, határon túli magyarság (kiemelten Kárpátalja), külhoni magyarok bardos.orsolya@gmail.com - Kiemelt terület a beszédindítás és óvodás korosztály, valamint egyetemista korosztály számára felnőtté válás témája, később várandósság, anyaság, apaság, családdá válás. A meseterápiás tudásomat szeretem egyszerre alkalmazni logopédiai-gyógypedagógiai és tréneri szemléletemmel. Vietorisz Szilvia Gyógypedagógus Magyarország vietorisz.szilvia@gmail.com 36209818892"
+}

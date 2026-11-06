@@ -1,0 +1,742 @@
+{
+  "url": "https://integralcsaladallitas.com/allitoink/",
+  "final_url": "https://integralcsaladallitas.com/allitoink/",
+  "status": 200,
+  "sha256": "79e77f252bddd9d966e05d032160809468f0533c4907197323529cd3dc7dcb41",
+  "title": "ICON | Integrál család & rendszerállítás",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "kt-adv-heading619_0c2356-3a",
+          "wp-block-kadence-advancedheading",
+          "has-background-color",
+          "has-text-color"
+        ],
+        "data-kb-block": "kb-adv-heading619_0c2356-3a"
+      },
+      "text": "ICON INTEGRÁL CSALÁDÁLLÍTÓ SZAKEMBEREK",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "kt-inside-inner-col"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Samodai Kati",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-72a43d70"
+        ],
+        "id": "samodaikati"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Szabóné Hasenfracz Orsolya",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-3d7def9a"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Lévai Brunó",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-29600888"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Bereczki-Budai Zsuzsi",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-8d39fea8"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Czövek Zsuzsanna",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-ee787b2f"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Dura Mirjam",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-1bd91487"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Farkas Dóra",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-4e51dafd"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Hajdu-Natkai Ágnes",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-21b1803d"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Magyar Dániel",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-1dc94e7c"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Pállya Balázs",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-27836931"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Dr. Tyihák Kriszta",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-ccd6d9d0"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Riba Orsolya",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-70f9ac6b"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Varga Dóri",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-198b0cad"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Fábián Petra",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-0d42bf1d"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Gerstmayer Bea",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-5318a959"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Szenczi Éva",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-ed4b5942"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Teszár Balázs",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-99e3a9fb"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Bihari Liliána Ágnes",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-1d5ad1ef"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Csuri Veronika",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-1d5ad1ef"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Kovács Adrián",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-1d5ad1ef"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "dr Szoljár Kincső Zsuzsanna",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-99e3a9fb"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Pöcz Adriana",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-99e3a9fb"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Szegi Aranka",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-99e3a9fb"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Kolláth Hajnalka",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-99e3a9fb"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "uagb-heading-text"
+        ]
+      },
+      "text": "Molnár Károly",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "wp-block-uagb-advanced-heading",
+          "uagb-block-27488b0f"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "ICON",
+      "url": "https://integralcsaladallitas.com/icon/",
+      "attrs": {
+        "class": [
+          "kb-nav-link-content"
+        ],
+        "href": "https://integralcsaladallitas.com/icon/"
+      }
+    },
+    {
+      "text": "ÁLLÍTÓINK",
+      "url": "https://integralcsaladallitas.com/allitoink",
+      "attrs": {
+        "class": [
+          "kb-nav-link-content"
+        ],
+        "href": "https://integralcsaladallitas.com/allitoink"
+      }
+    },
+    {
+      "text": "ETIKA",
+      "url": "https://integralcsaladallitas.com/Etika",
+      "attrs": {
+        "class": [
+          "kb-nav-link-content"
+        ],
+        "href": "https://integralcsaladallitas.com/Etika"
+      }
+    },
+    {
+      "text": "JELENTKEZEM ÁLLÍTÁSRA",
+      "url": "https://szeretetero.hu/csoport-idopontok/",
+      "attrs": {
+        "class": [
+          "stk-link",
+          "stk-button",
+          "stk--hover-effect-darken"
+        ],
+        "href": "https://szeretetero.hu/csoport-idopontok/",
+        "target": "_blank",
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "JELENTKEZEM ÁLLÍTÁSRA",
+      "url": "https://www.kemenypeter.hu/esemenyek",
+      "attrs": {
+        "class": [
+          "stk-link",
+          "stk-button",
+          "stk--hover-effect-darken"
+        ],
+        "href": "https://www.kemenypeter.hu/esemenyek",
+        "target": "_blank",
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://www.budaizsuzsi.hu",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://www.budaizsuzsi.hu",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://www.vargadori.hu/",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://www.vargadori.hu/",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "KözösÉgiTér",
+      "url": "https://www.kozosegiter.hu",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://www.kozosegiter.hu",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Férfi Szövetség",
+      "url": "https://www.ferfiszovetseg.hu",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://www.ferfiszovetseg.hu",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Céges állítások",
+      "url": "https://www.cegesallitas.hu",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://www.cegesallitas.hu",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "https://www.tiktok.com/@dr.szoljarkincso?_r=1&_t=ZN-9AF8j45U97W",
+      "url": "https://www.tiktok.com/@dr.szoljarkincso?_r=1&_t=ZN-9AF8j45U97W",
+      "attrs": {
+        "href": "https://www.tiktok.com/@dr.szoljarkincso?_r=1&_t=ZN-9AF8j45U97W",
+        "rel": [
+          "nofollow"
+        ]
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://www.drszoljarkincso.hu",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://www.drszoljarkincso.hu",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Honlap",
+      "url": "https://onmagunklenni.hu/",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://onmagunklenni.hu/",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "weboldal",
+      "url": "https://karolymolnar.com/",
+      "attrs": {
+        "class": [
+          "wp-block-button__link",
+          "has-background",
+          "wp-element-button"
+        ],
+        "href": "https://karolymolnar.com/",
+        "style": "border-style:none;border-width:0px;border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;background-color:#818b74;padding-top:0;padding-bottom:0",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://integralcsaladallitas.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-includes/js/jquery/jquery-migrate.min.js?m=1686289764",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/dist/modules/form/view.js?ver=16.4",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/src/contact-form/../../dist/modules/field-phone/view.js?ver=16.40dfbc930064fa61e4cf2",
+      "hint": ""
+    },
+    {
+      "src": "https://s0.wp.com/wp-content/js/bilmur.min.js?m=202645",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/modules/block-library/navigation/view.min.js?ver=5381c0a3642be76565c7",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/allitoink/",
+      "hint": "{\"config\":{\"jetpack/form\":{\"error_types\":{\"invalid_email\":\"Please enter a valid email address\",\"invalid_phone\":\"Please enter a valid phone number\",\"is_required\":\"This field is required.\",\"invalid_form_empty\":\"The form you are trying to submit is empty.\",\"invalid_form\":\"Please fill out the form correctly.\",\"network_error\":\"Connection issue while submitting the form. Check that you are connected to the Internet and try again.\"},\"admin_ajax_url\":\"ht"
+    },
+    {
+      "src": "https://integralcsaladallitas.com/allitoink/",
+      "hint": "var jetpackSwiperLibraryPath = {\"url\":\"https://integralcsaladallitas.com/wp-content/plugins/jetpack/_inc/blocks/swiper.js\"}; var jetpackCarouselStrings = {\"widths\":[370,700,1000,1200,1400,2000],\"is_logged_in\":\"\",\"lang\":\"hu\",\"ajaxurl\":\"https://integralcsaladallitas.com/wp-admin/admin-ajax.php\",\"nonce\":\"8713a1b3f8\",\"display_exif\":\"1\",\"display_comments\":\"1\",\"single_image_gallery\":\"1\",\"single_image_gallery_media_file\":\"\",\"background_color\":\"black\",\"c"
+    },
+    {
+      "src": "https://integralcsaladallitas.com/_static/??-eJytzkEOgjAQheELWUutQFgYj2Km7QCFMiWdAteXRNm6ULfz/nyZbRY2UkbKcg5L54nlCA7JojAh2pGlJxsWhyyBGTPLYS+M6HGv0qs5T57OA5+2L63YtsICrcAiJ991mH4VCVbfQfaR/vMh93ETU0z4ARowz2BH+dgJaRYfnLSQ4sIYjk0chzdzn26qbnRVVs2lFhrQaKcKfQVVa1W5olRP4/OZHg==",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/scripts/hooks/index.min.js?ver=f0f188028580e8dc1255",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/scripts/i18n/index.min.js?ver=1dfe7db3940c23ea9216",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-forms/dist/blocks/view.js?minify=false&ver=807945612566f31ac62b",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/mu-plugins/wpcomsh/jetpack_vendor/automattic/jetpack-assets/build/i18n-loader.js?minify=true&ver=f04e415567eda21fe93b",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?m=1784059681",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/gutenberg/build/scripts/url/index.min.js?ver=3c0d9743cc6cd9591281",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/allitoink/",
+      "hint": "var JetpackInstantSearchOptions={\"overlayOptions\":{\"colorTheme\":\"light\",\"enableInfScroll\":true,\"enableFilteringOpensOverlay\":true,\"enablePostDate\":true,\"enableProductPrice\":true,\"enableSort\":true,\"highlightColor\":\"#FFC\",\"overlayTrigger\":\"submit\",\"resultFormat\":\"minimal\",\"showPoweredBy\":true,\"defaultSort\":\"relevance\",\"excludedPostTypes\":[],\"fallbackImageUrl\":\"\",\"enableFallbackImage\":false},\"homeUrl\":\"https://integralcsaladallitas.com\",\"locale\":\"hu"
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.js?minify=false&ver=27571e87d0bcc8dadeff",
+      "hint": ""
+    },
+    {
+      "src": "https://stats.wp.com/w.js?ver=202645",
+      "hint": ""
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?ver=10.0.0",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/angie-snippets/prod/snippet-201/script.js?m=1781381609",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/wp-content/uploads/uag-plugin/assets/1000/uag-js-619.js?m=1793540102",
+      "hint": ""
+    },
+    {
+      "src": "https://stats.wp.com/e-202645.js",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/_static/??wp-includes/js/hoverIntent.min.js,wp-content/plugins/megamenu/js/maxmegamenu.min.js?m=1793742273-a7a0b8d18753ac825c5b",
+      "hint": ""
+    },
+    {
+      "src": "https://integralcsaladallitas.com/allitoink/",
+      "hint": "/*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,"
+    }
+  ],
+  "iframes": [],
+  "text": "ICON | Integrál család & rendszerállítás Ugrás a tartalomhoz ICON INTEGRÁL CSALÁDÁLLÍTÓ SZAKEMBEREK Alapítók Bedő Nóra Az ICON Integrál Családállítás egyik alapítójaként és képzésvezetőjeként több mint két évtizede kísérek embereket önismereti és fejlődési folyamataikban. Munkám középpontjában annak megértése áll, hogy életünk nehézségei mögött milyentranszgenerációs, családi, kapcsolati és belső mintázatok húzódnak meg, és hogyan találhatjuk meg azokat az erőforrásokat, amelyek segítenek a változásban. Az Integrál Családállítás szemléletében különösen fontos számomra, hogy minden ember egyedi történettel, tapasztalattal és lehetőségekkel érkezik. Ezért nem kész válaszokat keresek, hanem azt, hogy az adott ember számára mi lehet a következő lépés a saját útján. Hiszek abban, hogy a mély önismeret és a kapcsolódás képessége nemcsak az egyéni életet alakítja át, hanem közösségeinket és kapcsolatainkat is gazdagítja. Tovább olvasom Vissza JELENTKEZEM ÁLLÍTÁSRA Kemény Péter Az integrál szemlélet nézőpontjából a teljes emberi megélés spektrummal foglalkozom. 13 év és közel 2000 egyéni folyamat áll mögöttem csoportok és családállítás terén. Küldetésemnek tartom, hogy együttérzéssel kísérve, különböző technikák és saját élmény átadásával minél több ember induljon el saját maga felfedezésére, és érezzen rá egy szabadabb, teljesebb önvalójára. JELENTKEZEM ÁLLÍTÁSRA Oklevéllel rendelkező, végzett kollégák Samodai Kati Integrál családállító, spirituális krízis tanácsadó. Megérkezni. Önmagamhoz. A testembe. Az életbe. A családomba. Fokozatosan. Lépésről – lépésre. Egy lépés is lépés. A kevesebb több. Állomások vannak. Meg kell érkezni minden állomásra. Ahová megérkezem, ott meg tudok állni, stabilan. Ahol stabilan állok, onnan tudok lépni tovább. Hosszútávon utazunk. Ebben a szellemben vezetem az állításokat, mert az a tapasztalatom, hogy ez működik. Kapcsolati nehézségeken, spirituális krízisen, karrierváltáson, módszertani képzéseken, sok-sok családállításon átívelő folyamat volt, mire eljutottam oda, ahol most vagyok. A vihar szeme talán, ahol nyugalom van, a tornádóban is. Ahová vissza lehet térni, bármikor. Az önismereti út megy tovább, azt hiszem, élethosszig. Útközben az ítélet egyre csökken, az elfogadás növekszik, az alázat mélyül bennem. Magam felé és mások felé egyaránt. Szeretettel látlak csoporton vagy egyéni állításon egyaránt ebben a szemléletben. Az aktuális csoport-időpontokat a honlapomon találod. Ha egyénileg szeretnél jönni, írj e-mailt az alábbi címre Tovább olvasom Vissza Szabóné Hasenfracz Orsolya „Nem az vagy, ami történt veled. Az vagy, amivé válni akarsz.” (C. G. Jung) Immáron 10 éve választottam ezt az idézetet a honlapom mottójául, és ma is ez a hitvallásom. Ezt az utat járom és követem és ebben kísérem egyéni és csoportos formában a hozzám fordulókat: tudatosítva a gyermekkori sérüléseinket, traumáinkat, megadva magunknak mindazt a töltődést, gyógyulást, szeretetet, amit nem kaptunk meg gyermekkorunkban nem csak egy hiteles, magabiztos és rugalmas személyiséggé válhatunk, de – integrálosan megfogalmazva – az alsó szintek megdolgozása automatikusan kaput nyit a transzcendentális minőségek felé is. A második gyermekünk születéskori elvesztése indított el az önismereti és a szellemi fejlődés útján. Hosszú keresés után találtam rá az Integrál Akadémiára, melynek elvégzése és az utána következő évek intenzív tanulási és önismereti folyamatai alapvetően átformálták a személyiségemet és a szellemiségemet. Spirituális ösvényemen – mely életem fontos része – a Krisztusi út és a napi meditációk mellett az amerikai természeti népek hagyományait követem. A 10 éve tartó belső átalakulásom és a segítői „gyarapodásom” fontos része volt a Kemény-Péter – Bedő Nóra által vezetett Integrál Családállítás képzés elvégzése, melynek első évfolyamában végeztem. Immáron 6 éve tartok családállítás csoportokat, melyek egyre mélyebb, tisztább, kifinomultabb és biztonságosabb tere ad lehetőséget az állítást kérőknek az aktuálisan feszítő témájuk transzgenerációs megdolgozására, az általuk szeretetből átvett nehéz sorsok letételére és az egyre nagyobb mértékű személyes szabadságuk elérésére. Várlak téged is szeretettel a családállítás csoportokon! Tovább olvasom Vissza Lévai Brunó Integrál Család – és Rendszerállító, Intimitás és érintés mentor. Az állítások számomra feltárják a rejtett igazságokat, eljuttatnak önmagunk legmélyebb rétegeihez. Megmutatják, hogy hol nem vagyunk még szabadok. Számomra az állítás nem csak egy technika, hanem szenvedély: Egyfajta illúzióktól mentes valóság keresése és annak megértése. 5 éve tartok végzett Integrál Családállítóként állításokat. Olyan integrált tereket tartok, ahol helye van a személyiség szintű, a transzgeneráció és a karmikus rétegeknek is, teret kap a legelesettebb és a legmagasabb részed is. Várlak Szeretettel a csoportjaimra! Tovább olvasom Vissza Bereczki-Budai Zsuzsi Integrál család- és rendszerállító, Integrál önismereti csoportvezető, Eco-oktató, coach, női jóga oktató Hiszem, hogy életünk nehézségei sokszor nem csupán rólunk szólnak. Családi történetek, kimondatlan sorsok, régi terhek és láthatatlan kötődések is hatnak ránk, gyakran anélkül, hogy tudnánk róla. Előfordulhat, hogy olyan érzéseket, mintákat vagy terheket hordozunk, amelyek nem is a sajátjaink, mégis meghatározzák döntéseinket, kapcsolatainkat és önmagunkhoz való viszonyunkat. Integrál család- és rendszerállítóként abban kísérem a hozzám fordulókat, hogy rálássanak ezekre az összefüggésekre, és közelebb kerüljenek saját történetük mélyebb megértéséhez. Az állítás során lehetőség nyílik arra, hogy láthatóvá váljanak a rendszerben működő dinamikák, valamint azok az erőforrások is, amelyekre támaszkodva új irányok és lehetőségek bontakozhatnak ki. A családállítást mélyen tisztelem mint olyan módszert, amely képes láthatóvá tenni a rejtett összefüggéseket, miközben teret ad a megértésnek, az elfogadásnak és a gyógyulásnak. Munkám során biztonságos, megtartó légkör megteremtésére törekszem, ahol minden történet helyet kaphat, és ahol lépésről lépésre megszülethet a nagyobb belső szabadság, az önazonosság és az élet áramlásába vetett bizalom. Tovább olvasom Vissza Honlap Czövek Zsuzsanna Amivel foglalkozom, és amelyek kitöltik a lelkemet is: -integrál rendszer- és családállítás -tánc- és mozgásmeditáció -homeopátiás tanácsadás -önismereti csoportok -hangfürdők -elvonulások -pódiumbeszélgetések terapeutákkal (Kerek-Perec Pódiumbeszélgetés) Mindezt főleg Egerben, de sok felkérést kapok az ország különböző területeiről is. Családállítást leginkább egyénieket tartok, csoportos formában a fúziós családállítást szeretem. Ez utóbbit gyakran 2 napos workshopok, vagy elvonulások keretén belül. Ha most megkérdeznél arról, melyek a legfonotosabb mondataim magamról, ebben a pillanatomban: Szerelmes vagyok az életbe és mindabba, amivel foglalkozom. Az erdő mellett élek, amely megadja a lehetőséget, hogy minden nap kapcsolódjak a természettel, amely segíti bennem a megértést, megérzést, elengedést, befogadást, megértést, eggyéválást, megérkezést, megpihenést, rácsodálkozást, gyönyörlödést, harmóniát,…. 24 éve vagyok holisztikus segítő, azóta járom az önsimeret útját, ami sokat segít abban, hogy puha, megtartó teret biztosítsak annak is, aki hozzám fordul.. Tovább olvasom Vissza Dura Mirjam Integrál család- és rendszerállító, képző és mediátor vagyok. Integrál családállító tanulmányaimat Bedő Nóra és Kemény Péter szakmai vezetésével végeztem 2021 és 2024 között. Segítői munkám során integrálszemléletű megközelítéssel támogatom a hozzám fordulókat. A transzgenerációs folyamatok, a családi dinamikák és a személyiség belső mozgásainak mélyebb feltárásával segítek feloldani az elakadásokat, hogy klienseim képesek legyenek egy új, stabil és működő rendszer-egyensúlyt kialakítani az életükben. Biztonságos keretek teremtésével segítem a folyamatot, amelyben a hagyományos családállítás elemeket bodywork- és pszichodráma elemekkel ötvözöm. Havonta szervezek integrál család- és rendszerállítás csoportot Budapesten (XI., illetve XVIII. kerületben). Ha a négyszemközti munkát, az egyéni állítást választod, személyesen a IX. kerületben projekciós tárgyak – például kövek, papírlapok, plüssök – segítségével, az online térben pedig vizuális eszközökkel (Google Drawings) jelenítjük meg a rendszeredet. Saját családállítói folyamat után lehetőséged van az integrációs folyamatodat támogató egyéni konzultációra jönni hozzám. Szeretettel várlak a havonkénti budapesti integrál család- és rendszerállító csoportokon és egyéni állításon! További információért látogass el honlapomra! Tovább olvasom Vissza Farkas Dóra Kineziológus, integrál családállító, szomatodráma csoportvezető. Foglalkozom egyéni kísérettel, és rendszeresen tartok családállítás illetve szomatodráma csoportokat. A családállítás számomra egy olyan keretrendszert biztosít, ami a teljes családi rendszert átöleli, befogadja, egyben biztonságos és megtartó szabályok (törvények) mentén működik. Segít visszatalálni az egyén saját erejéhez és a szeretethez, az élet áramlásához. 2011-ben jártam először családállításon és azóta több ezer órát töltöttem ebben a térben. Amellett, hogy ráláthatunk, hogyan hat ránk a családi tudattalan, a családállítás érzékenyít és segít az érzésekhez kapcsolódni. Ezért is nagyon szeretem. Az őszi csoportok júliusban kerülnek kiírásra. Várlak szeretettel! Tovább olvasom Vissza Hajdu-Natkai Ágnes Integrál Családállító, hawaii Hula tánc oktató, Integrált Lomilomi masszőr és tréner, integrál csoport vezető. A családi dinamikák feltérképezése, a testtel való kapcsolat mélyítése (érintések által) és az erőforrások kibontakoztatása (mozgás segítségével) azok a központi kérdések, amik a hivatásom középpontjában állnak. Több, mint 20 éve foglalkozom polinéz masszázsokkal, hawaii táncokkal. Önismereti utamon nagy íveket bejárva érkeztem meg Nóra és Péter képzésére. Egyéni és csoportos családállításokat is tartok; önismereti foglalkozásokat, Lomilomi képzéseket, tánc meditációs és hawaii hula tánc programokat szervezek. Tovább olvasom Vissza Magyar Dániel Integrál család- és rendszerállító, érintésterápiás segítő. Vajon miért működünk úgy, ahogyan? Miért döntünk egy adott helyen így, a másikban meg úgy? Hol nem engedhetem meg magamnak, hogy a vágyott irányba menjek? Gyerekkoromtól ezekre a kérdésekre kerestem a választ, majd megtanultam a fejemben csodálatos teóriaszőnyegeket szőni. A saját önismereti utam igazi mélysége akkor indult, amikor egy haldokló barátom utolsó évét kísértem végig, akkor még fájó eszköztelenséggel, csak megmenteni akarva. Kisebb-nagyobb kitérőkkel ez az élmény vezetett oda, hogy már nem csak érteni, hanem érezni is akartam a mögöttes okokat. Ezzel a nyitottsággal a menet közben megismert és megtanult eszköz és az élet iránti alázat megtanított arra, hogy ma már ne csak matek egyenletként lássam a világot, hanem érezni és érzékelni is tudjam annak okszerűségét, meghajolva a sors előtt – mindezt úgy, hogy közben megmarad a profán hétköznapok gyakorlatiassága is.Holisztikus szemléletben dolgozom, nem csak állítással, hanem érintéssel is, mert nem csak a transzgenerációs, nonverbális nehezeknek, hanem a személyiségnek is fontos szerepe van. Ezzel a nyitottsággal a menet közben megismert és megtanult eszköz és az élet iránti alázat megtanított arra, hogy ma már ne csak matek egyenletként lássam a világot, hanem érezni és érzékelni is tudjam annak okszerűségét, meghajolva a sors előtt – mindezt úgy, hogy közben megmarad a profán hétköznapok gyakorlatiassága is.Holisztikus szemléletben dolgozom, nem csak állítással, hanem érintéssel is, mert nem csak a transzgenerációs, nonverbális nehezeknek, hanem a személyiségnek is fontos szerepe van. Tovább olvasom Vissza Pállya Balázs Integrál Család- és Rendszerállító Személyes mottóm: „Lehet az, ami van.” Küldetésem, hogy megtartó figyelmemmel könnyítsem a sebezhetőség felvállalását, és ezzel közelebb segítsem magamat és másokat igaz valójukhoz. Életemet a kapcsolat ereje, a testi-érzelmi jelenlét és a hiteles önfelvállalás köré építem. Ezek mentén keresem a belső szabadságot, stabilitást és békét. Személyes utam egyik meghatározó tapasztalata az apahiány volt, amely hosszú ideig formálta az önértékelésemet, a pénzhez, a függőségekhez és a férfiassághoz való viszonyomat. Fiatal felnőttként eljutottam egy mélyen megrekedt, sodródó állapotba, ahol egyre erősebben éreztem: meg kell értenem, mi történik bennem. Ekkor fordultam a pszichológia és az önismeret felé. Az Integrál Akadémián nemcsak elméleti tudást kaptam, hanem testközelből tapasztaltam meg, mit jelent valóban dolgozni önmagamon. Egyéni és csoportos folyamatokban kezdtem kibogozni saját csomóimat, és közben egyre inkább éreztem: ez az út nemcsak engem gyógyít, hanem mások kísérésére is alkalmassá tesz. Megértettem, hogy segítőként csak oda tudok hitelesen elkísérni valakit, ahol már én magam is jártam. Ekkor született meg bennem a döntés: segítő leszek. Ha egy szóval kellene összefoglalnom, mi történt velem eddig, azt mondanám: gyarapodtam. Néha most is nehéz, néha most is fáj, és van, hogy félek. Régen mindezt le sem írtam volna. Ma már azt tudom mondani: mindez teljesen rendben van így. Szakmai tapasztalat: 2018 óta önismereti konzulensként egyéni folyamatokban kísérem a hozzám fordulókat. Szintén 2018 óta csoportvezetőtársammal Erőtánc csoportokat tartunk, ahol testi szinten kapcsolódhatnak a résztvevők saját érzelmeikkel, és bogozhatják ki életük nagy csomóit. Szakmai tudásomat az Integrál Akadémián, 2015-ben kezdtem el gyarapítani, és azóta folyamatosan képzem magam. 2018-ban az Integrál Akadémia befejezése után utam egyből a kolozsvári Babes-Boyai Tudományegyetem felé kanyarodott, ahol pszichológiát tanultam, de a harmadévet már nem fejeztem be. 2020 és 2021 Szeptembere között foglalkoztatóként dolgoztam a Vadaskert Gyermek- és ifjúságpszichiátriai Kórház és Szakambulancián, ahol eddig megszerzett tudásomat is használhattam, valamint rengeteg új dolgot is tanultam. 2024 szeptemberében Intergál Család- és Rendszerállító képesítést szereztem, azóta Családállításra is várom a hozzám fordulókat. Az önismereti utamon az alábbi tanítók, misztikusok, terapeuták és emberek inspirálnak, kísérnek és támogatnak (a teljesség igénye nélkül): C. G. Jung Carl R. Rogers Balogh Ottó Rutterschmid Gábor és a feleségem, Harkai Szilvia Tovább olvasom Vissza Dr. Tyihák Kriszta Integrál család- és rendszerállítóként és pszichodráma-vezetőként hiszem, hogy egy jól megtartott csoport nemcsak biztonságot ad, hanem tükröt, visszajelzést és új tapasztalatokat is – mindazt, ami az önazonosabb működéshez szükséges. Munkám során ezt a teret hozom létre és kísérem: olyan folyamatokat vezetek, ahola résztvevők közelebb kerülhetnek saját működésük megértéséhez, és új,rugalmasabb válaszokat alakíthatnak ki az életük kihívásaira. Meggyőződéseml, hogy minden ember rendelkezik egy belső iránytűvel, amely képes elvezetni őt a hiteles önmagához. Egyéni folyamatok során abban támogatom a hozzám fordulókat, hogy ezt az iránytűt újra érzékelhetővé tegyék, és biztonságos közegben kísérletezhessenek új működésmódokkal. Kiemelten fontos számomra a testtudati munka és az érzelmi folyamatok mélyebbmegértése, valamint a transzperszonális dimenziók integrálása a mindennapiműködésbe. Az önismereti munka számomra nem egy lezárt folyamat, hanem egy élő, folyamatosan alakuló kapcsolat önmagammal és a világgal. Jelenleg is rendszeresen járok szupervízióba és módszertani csoportokba, valamint részt veszek saját élményű folyamatokban. Ez biztosítja számomra azt a szakmai és személyes stabilitást, amelyre a kísérői munkám épül. A tapasztalatom az, hogy az élet ott kezd igazán széppé válni, ahol már nem kell hazudnia magáról: ahol a történet nem hibátlan, de igaz; nem csillog, mégis élhetőbb – nem tökéletes, hanem hiteles. Szakmai hátteremről a honlapomon olvashatsz többet. Tovább olvasom Vissza Riba Orsolya Integrál tanácsadó és integrál család- és rendszerállító csoportvezető vagyok, és a jóga eszközeivel kísérem a klienseimet. Az emberi működés és az önismeret iránti érdeklődés régóta jelen van az életemben. Ez vezetett 2019-ben az Integrál Akadémiára, ahol három éven keresztül tanultam integrál pszichológiát, majd integrál család- és rendszerállítást, később pedig a test fontossága miatt hatha jógaoktató lettem. Az elmúlt években folyamatosan mélyítettem szakmai tudásomat és saját önismereti munkámat. Jelenleg is képződöm Spirituális válság tanácsadóként. Számomra a segítői munka egyik legfontosabb alapja, hogy valódi figyelemmel és elfogadással forduljunk egymás felé. Azt tapasztalom, hogy a változás gyakran akkor indul el, amikor valaki biztonságban érzi magát, és megengedheti magának, hogy őszintén ránézzen arra, ami benne zajlik. A családállítás mint eszköz közel áll hozzám, mert lehetőséget ad arra, hogy ráláss azokra a mintákra, kapcsolódásokra és rejtett dinamikákra, amelyek sokszor tudattalanul befolyásolják az életedet. Amikor ezek láthatóvá válnak, új nézőpontok és új lehetőségek jelenhetnek meg. Munkám során egyéni önismereti üléseket, valamint egyéni és csoportos családállításokat vezetek. A folyamatokban fontos szerepet kap a test érzékelése, a jelenlét és az, hogy mindenki a saját tempójában kapcsolódhasson önmagához. A jóga szintén meghatározó része az életemnek és a szemléletemnek. Számomra a jóga nem csupán mozgásforma, hanem egy olyan út, amely segít kapcsolódni a testhez és a jelen pillanathoz. Hiszem, hogy mindannyiunkban ott vannak azok az erőforrások, amelyekre szükségünk van. Sokszor csak egy támogató térre van szükség ahhoz, hogy újra kapcsolatba kerüljünk velük. Tovább olvasom Vissza Varga Dóri Integrál Családállító, Integrál szemléletű segítő, Érintésterapeuta Az szeretem a családállításban, hogy láthatóvá válnak azok a generációkon átívelő kapcsolati összefonódások, amelyek tudattalanul hatnak a működésünkre. Láthatóvá válik mindaz, ami akadályoz, amit ismétlünk, ami már nem szolgál minket. Ebben a térben tehetünk egy lépést afelé, hogy a saját helyünkön álljunk, kapcsolódjunk az őseinktől érkező erőforrásokhoz, elismerjük az életet, ami rajtuk keresztül érkezett hozzánk, hogy innen továbbhaladva valóban a saját utunkat járhassuk. Várlak egyéni folyamatra, személyesen és online. Helyszín: Budapest, XI. és XII. kerület Tovább olvasom Vissza Honlap Fábián Petra 2018 óta tartok önismereti csoportokat, egyéni folyamatokat pedig 2019 óta kísérek. Nagy kincs számomra, hogy több alkalommal külföldön vehettem részt képzésen. Több hónapot töltöttem 2018-ban Findhornban, a skót ökofaluban a Transzformáció társasjáték facilitátori képzés kapcsán, illetve több hónapot Indiában (Kerala), joga és ayurvéda képzésen, 2019-ben. Lévén, hogy Angliában éltem 9 évet, így volt szerencsém Londonban és Cambridgeben is több évet karma, hatha és tanra jógát tanulni az ATMAN – The International Federation of Yoga and Meditation szervezésében, 2017 és 2019 között. Döntő jelentőségű volt számomra a Fókusz tréner képzés a Magyar Szomato Pszichoterápiás intézetnél, Vizinger Böbe és Kántor Árpád vezetésével. Ezek mellett még meghatározó élmény volt Kun Szilvinél képződni, mint Integrál szemléletű önismereti csoportvezető, karba öltve a terápiás és tiszta kommunikáció tréninggel. A 3 évig tartó képzést követően, 2026 júliusában pedig kézhez vehettem az Integrál Családállítás oklevelem. 2019 szeptemberében vállalkozóvá válásommal egy időben megnyitottam az Inner Arcanum Életmód Központot Pécsett, ahol azóta is tevékenykedem. Tovább olvasom Vissza Gerstmayer Bea Integrál tanácsadó, önismereti mentor és integrál család- és rendszerállító asszisztens. Az Integrál Akadémián szereztem mentori képzettségemet, és mélyítettem tovább szakmai tudásomat Bedő Nóra és Kemény Péter intenzív, 3 éves integrál családállító képzésén. Egyéni kliensek kísérése mellett családállító csoportokat tartok, kiképző tanáraim szupervíziós támogatása mellett Budapesten, Tatabányán és Szigetszentmiklóson. Hiszem, hogy az integrál családállítás egy olyan csoportos önismereti lehetőség, amely mély felismerésekhez, láthatatlan családi minták feloldásához és személyiségfejlődéshez segíthet hozzá. Ebben támogatom a hozzám fordulókat egyéni (személyes és online jelenléttel) és csoportos formában. Szeretettel várlak! Tovább olvasom Vissza Szenczi Éva 30 éve kísérek embereket. Eleinte Polinéz masszázsok formájában, ahol az érzelmi testben tárolt tartalmakkal dolgoztunk. 2008-ban kezdtem el egyéni és csoport terápiás módszereket tanulni. Fontos számomra az integrál szemlélet, ezért leginkább olyan mentorokat találtam, akik ebbe a szemléletbe helyezték el tanításaikat. Tanultam bodyworkot, fúziós családállítást, ezekkel a módszerekkel sok évig vezettem belső gyermek és női archetípus csoportokat, időnként születés csoportokat. 2023-ban talált meg Nóra és Péter képzése. Három éve járok hozzájuk és elképesztő transzformációt hozott az életembe. Jelenleg a vizsga előtt vagyunk, és az Integrál Családállítás már egy ideje szinte minden más tevékenységemet kiszorított. A jövőben tervezek olyan csoportokat, ahol mind a három csoportterápiás módszert szeretném alkalmazni. Tovább olvasom Vissza Teszár Balázs Önismereti csoportvezető, férfikör vezető, a Közös Égi Tér és a Férfiszövetség társalapítója. Balázst lelkesíti az önazonosság – amikor valaki a saját helyén van, csillog a szeme, az erejében áll és érzelmileg elérhető. Ezen az úton támogatja a hozzá fordulókat test- és hangorientált módszerekkel. Fontos számára az erő és az érzékenység felszabadítása és egyensúlya – választani a teljes erőkifejtést vagy egy gyengéd érintést attól függően, minek van helye. Szenvedélye az önismeret és a hang kapcsolata – énekköröket és hangfelszabadítás csoportokat is tart. Úgy tartja, hogy a hangoddal való viszony tükrözi az önmagaddal való kapcsolatot. Mottó: Megfelelési kényszerből az önazonosságba. Tovább olvasom Vissza KözösÉgiTér Férfi Szövetség Bihari Liliána Ágnes Életem egyik legfontosabb témája a REND. Ezzel a tételmondattal indultam el 20 éve az önismereti utamon, hogy „Rendet szeretnék az életemben.” Akkor még nem láttam, hogy az önismereti utam a segítővé válás útja is egyben és most célegyenesben vagyok az Integrál Családállító cím felé. Ami azért megérintő, mert ennek a módszernek az alapvetése a Szeretet Rendje, így ér össze a kezdeti szándékom a jelen megvalósulásával. A másik ilyen univerzálisan lényeges fogalom számomra a HELY, hogy meglegyen a valódi helyünk, ahol a teljes potenciálunk kibontakozhat. Az életem során tanultak támogatnak abban, hogy sokféle háttérrel kísérjem a hasonlóan a Rendre és a Potenciálokat Kibontakozni vágyókat; a nyelvtanári múltamból hozom a struktúrák tiszteletét, a soft skills tréneri eszköztáramból a kommunikáció híd szerepét, az ÉrintésTerápiás segítő tudásommal az önmagunkhoz való kapcsolódás örömét és az érzelmek megélésének a terét. Azt tanultam és tapasztalom, hogy fekete és fehér végpontok között végtelen árnyaltú lehet a nézőpontunk spektruma, így szerepelhet egyszerre a saját életnévjegykártyámon a vidéki és fővárosi, kereső és iránymutató, társaságbéli és csendesen otthonlévő, táncban kibontakozó és mozdulatlan; az arany középút nem más, mint az Önazonosságunk tengelye, ami szintén egy Hely. Mindazokat szívesen kísérem, akik keresik a Rendet és/vagy a Helyüket a közvetlen környezetükben, az életrendjükben, a kapcsolatrendszereikben, a családrendszerükben, vagyis egyszóval ebben az Életben. +36703173706 Tovább olvasom Vissza Csuri Veronika Integrál család- és rendszerállító, ECO konzulens, Integratív érintésterápia konzulens, karma asztrológus, holisztikus coach Segítek más nézőpontok megtalálásában, hogy ezáltal légy teljesebb önmagad. Hiszem, hogy életünkben sok olyan minta és kapcsolódás működik, amelynek a gyökerei mélyebbre nyúlnak annál, mint amit elsőre látunk. Az integrál család- és rendszerállítás számomra lehetőség arra, hogy ránézzünk ezekre a láthatatlan összefüggésekre, és közelebb kerüljünk ahhoz, ami valóban a sajátunk. A folyamat során fontosnak tartom a biztonságos, megtartó és ítélkezésmentes teret, ahol mindenki a saját tempójában találhat rá a felismeréseire. Szeretettel kísérlek abban, hogy tisztábban lásd, mi akadályoz, mi az, amit magaddal hozol, és merre szeretnél továbbindulni. Események: Tovább olvasom Vissza Kovács Adrián ICON integrál család- és rendszerállító, önismereti konzulens és integrál szemléletű csoportvezető . Több mint tíz éve kísérek embereket egyéni és csoportos önismereti folyamatokban. Munkámban az integrál szemlélet, a család- és rendszerállítás, valamint a testtel és érzelmekkel való munka találkozik. Engem leginkább az ember érdekel. Az, hogy milyen történetet hordoz, mi történt vele, és talán még inkább az, hogy mindazt hogyan élte meg. Számomra ez akkor is központi kérdés, ha egyéni folyamatról beszélünk, és akkor is, ha egy családra, egy csapatra vagy egy egész szervezetre nézünk rá. Számomra az önismeret egy olyan út, amely közelebb visz önmagunkhoz: ahhoz, hogy jobban értsük, elfogadjuk és egyre inkább szeretettel tudjuk látni azt, akik vagyunk. Sokszor úgy fogalmazom meg, mint mottómat, hogy ez az ego békítése a lélekkel : annak keresése, hogyan tud együtt élni bennünk az, amit megtanultunk a világról, azzal, amit mélyebben igaznak érzünk. Az egyik fontos mondatom: „Az önismeret önszeretet nélkül önbántalmazás.” (Dr Buda László) Ezért a munkámban a felismerések mellett legalább ilyen fontos számomra az elfogadás, az együttérzés és az a fajta kíváncsiság, amellyel ítélet nélkül tudunk ránézni arra, ami bennünk van. Különösen közel áll hozzám a céges- és szervezeti rendszerállítás . Ebben számomra természetesen ér össze a közel húsz évnyi multinacionális vállalati tapasztalatom és a több mint tíz év segítői munkám. Ismerem belülről a szervezeti működés, a vezetői szerepek, a döntések és a kapcsolati rendszerek világát, miközben ma már azt is keresem, milyen emberi történetek, lojalitások és láthatatlan dinamikák működnek a felszín alatt. Akár egy emberrel, akár egy családdal, akár egy szervezettel dolgozom, ugyanaz érdekel: mi az ő története, hogyan élte meg mindazt, ami vele történt, mi működteti ma – és merre nyílhat számára egy következő lépés. Következő állítói alkalmaim: Tovább olvasom Vissza Céges állítások dr Szoljár Kincső Zsuzsanna Segítő vagyok! Összekötő híd a kézzel fogható és a láthatatlan világ között. Klienseimet integrál szemlélet szerint, tisztelettel, szeretettel, hittel, alázattal, ítélkezés mentesen a legjobb tudásom szerint segítem az útjukon. Beszélgetésünk során felmérem a helyzetet és mindig azt a technikát alkalmazom, ami a Kliens gyógyulását segíti, érdekét szolgálja. Komplexen kezelem a hozzám érkezőt. Figyelembe veszem személyiségét, családi és hit rendszerét, traumáit, fizikai állapotát stb stb. Amivel dolgozom: családállítás, érintésterápia, regresszív meditáció, egyéni ülések. Karitatív alapon halál/életvégi dúlaként szolgálok. Különösen nagy tapasztalatom van abúzus, nemi erőszak, halál, anya gyermek témákban. Következő csoportos időpontjaim Gödöllőn: 2026. November 7.-e, 25.-e (esti) December 5.-e, 16.-a (esti) 2027. Január 16.-a, 30.-a Február 13.-a Március 6.-a 20-a. Április 10.-e, 28.-a (esti) Tiktok: https://www.tiktok.com/@dr.szoljarkincso?_r=1&_t=ZN-9AF8j45U97W Tovább olvasom Vissza Honlap Pöcz Adriana Integrál szemléletű önismereti mentor, egyéni családállító. Mindig is érdekelt, hogy miért csináljuk azt, amit csinálunk. Miért mondunk igent, amikor nemet szeretnénk? Miért kerülünk újra meg újra hasonló helyzetekbe? És miért olyan nehéz néha megtenni azt, amiről fejben pontosan tudjuk, hogy jót tenne nekünk? Az önismeretben azt szeretem a legjobban, amikor valami, ami addig érthetetlennek vagy megváltoztathatatlannak tűnt, egyszer csak értelmet nyer. Az egyéni állításokban azt szeretem, hogy nemcsak beszélgetünk egy problémáról, hanem lehetőségünk van más nézőpontból is ránézni: a kapcsolatainkra, a családunkban tanult működéseinkre, és arra, hogyan viszonyulunk mindehhez. Nem gondolom, hogy minden elakadás mögött egy titkos családi történet áll, és azt sem, hogy egy állítás után minden megoldódik. De azt sokszor tapasztalom, hogy amikor egy helyzetet jobban megértünk, már nem egészen ugyanúgy vagyunk benne. A munkámban fontos számomra a kíváncsiság, az őszinteség és az, hogy ne akarjunk gyorsabban változni, mint ahogyan arra készen állunk. Tovább olvasom Vissza Honlap Szegi Aranka Mentálhigiénés segítő szakember, integrál csoportvezető és integrál család- és rendszerállító Lélekrévész vagyok – veled vagyok az úton, átsegítelek a mélységeken. Szegi Ari vagyok, a Felvidéken, Komáromban élek. Mentálhigiénés segítő szakemberként, intuitív érintésterapeutaként, integrál csoportvezetőként és integrál család- és rendszerállítóként kísérem azokat, akik szeretnének közelebb kerülni önmagukhoz, megérteni elakadásaikat és szabadabban élni a saját életüket. Saját önismereti utam az anyává válásommal kezdődött. A változások és kihívások lassan elvezettek önmagam mélyebb megismeréséhez, és ahhoz a felismeréshez, hogy családi történeteink, láthatatlan kötődéseink és örökölt mintáink sokszor ma is alakítják az életünket. Az integrál család- és rendszerállításban azt a lehetőséget látom, hogy rálássunk ezekre az összefüggésekre, felismerjük a kapcsolatainkban működő mintázatokat, és közelebb kerüljünk saját helyünkhöz a rendszerünkben. Hiszem, hogy ez a tapasztalás új utakat nyit a belső szabadságod és az életed természetes áramlása felé. Kísérőként fontos számomra a biztonság, a bizalom és az ítélkezésmentes jelenlét. Olyan megtartó teret tartok, ahol megérkezhetsz önmagadhoz, ahol minden érzésednek helye van, és ahol a saját tempódban jutsz el a felismeréseid által egy igazabb, önazonosabb életbe. Hiszem, hogy nem kell mindent egyedül megoldanunk. Néha elég egy biztonságos tér, egy új nézőpont vagy egy őszinte találkozás ahhoz, hogy valami fontos megmozduljon bennünk. Szeretettel kísérlek ezen az úton. Tovább olvasom Vissza Kolláth Hajnalka Integrál Család és Rendszerállító, Eco-Konzulens, Integratív Érintésterápiás Konzulens, Coach, Metamorf-harmonizáló, leendő Integratív Csoport Vezető Amit elképzelünk, vagy gondolunk, annál sokkal mélyebb történetek, láthatatlan szálak, őseink gyógyulatlan sebei, vággyák az igazságot, láthatóságot! Minden állításon, szinte áhítattal figyelem, a tér sokrétű megnyilvánulását. A Családállítás egy nagyon jó eszköz, hogy egyre jobban értsük magunkat, a működéseinket, a nem tudottan hordozott, transzgenerációs terheink tükrében. Ugyanakkor hozzá is segít a változásokhoz! Hálás vagyok Kemény Péternek, és Bedő Nórának, hogy ezt a csodás technikát tőlük tanulhattam! A különböző eszközök, technikák segítségével, közel tíz éve, kísérem a hozzám forduló embereket. Jelen vagyok nekik, a megtartó térben, hogy maguk találjanak vissza erejükhöz, váljanak teljesebb és teljesebbé, egyre közeledve igaz önvalójukhoz. Ha én vagyok, aki megszólított, várlak szeretettel egyéni, csoportos, fúziós állításaimon, akár egyéni terápián Amitabha Központ Budapest Amitabha Központ Kecskemét Tovább olvasom Vissza Gyakorló állításokat tartó, képzés alatt lévő családállítók Molnár Károly Pszichodráma-vezető, Integrál család- és rendszerállító, coach és önismereti csoportvezető. Munkámban az emberek személyes erejének, érzékelésének, autonómiájának és kapcsolódási képességének fejlődését kísérem. Fontos számomra, hogy minél többen tudjanak a saját tengelyükben állni, miközben mélyebb, igazabb kapcsolatba kerülnek önmagukkal, családjukkal és embertársaikkal. A család- és rendszerállítás mellett a pszichodráma és a Somato Respiratory Integration szemléletére és eszközeire is támaszkodom. Kiemelten foglalkoztat a férfi-női kapcsolatok gyógyítása, az autonómia és az intimitás egyensúlya, valamint az a kérdés, hogyan tudunk szabadabban, felelősebben és kapcsolódóbban jelen lenni az életünkben. Tovább olvasom Vissza weboldal Loading Comments... Write a Comment... Email (Required) Name (Required) Website"
+}

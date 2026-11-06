@@ -1,0 +1,1160 @@
+{
+  "url": "https://komjadikavics.com/szakembereink/",
+  "final_url": "https://komjadikavics.com/szakembereink/",
+  "status": 200,
+  "sha256": "093ab5586aea36f74ef354413551c1bdfef993cb8774bf81b919a10baef10a2a",
+  "title": "Szakembereink | Komjádi és Kavics Budapest",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {},
+      "text": "Szakembereink",
+      "parent": "div",
+      "parent_attrs": {}
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "class": [
+          "decision-sr-only"
+        ]
+      },
+      "text": "Szakembereink",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "container"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "text": "Mit lát ezen az oldalon?",
+      "parent": "article",
+      "parent_attrs": {
+        "class": [
+          "card",
+          "studio-card"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "text": "Mi történik a részletes profilnál?",
+      "parent": "article",
+      "parent_attrs": {
+        "class": [
+          "card",
+          "studio-card"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "text": "Hogyan érdemes választani?",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "container"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "text": "Hogyan érdemes nézni a profilokat?",
+      "parent": "aside",
+      "parent_attrs": {
+        "class": [
+          "profile-summary-card"
+        ],
+        "aria-label": "Szakmai összefoglaló"
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "text": "Coaching, mentálhigiéné és kapcsolati támogatás",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "directory-heading"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Fábián Mária",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Kovács Tamás",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Oláh Csaba",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Kis-Simon Ildikó",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Székely Petra",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Tóth Zsuzsanna",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Varga Ágnes",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Galambos Attila",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Magyar Beáta",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Kaszás-Nagy Adrienn",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Markovics Annabell",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Benedek Szilvia",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Pető Andrea",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Mácsik Mónika",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Nagy Tímea",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Takács Ibolya",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Molnár Adrián",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Dr. Gillay Zoltán",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Györffy Éva",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "György-Farkas Zsófia",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Boldizsár Kármen",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Takáts-Rezsu Emese",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "text": "Pszichológiai és terápiás fókusz",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "directory-heading"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Dr. Petró Kata",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Bakler Írisz",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Nógrádi Eszter",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Korinek Janka",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "Szemethy Dániel",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "card-body"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Fábián Mária Ultrarövid Terápia® konzulens · NLP Mester",
+      "url": "https://mentalrendelo.hu/munkatars/ultrarovid-terapia-budapest-fabian-maria/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "ultrarovid-terapia-budapest-fabian-maria",
+        "data-guidance-id": "fabian-maria",
+        "data-professions": "coach nev",
+        "data-expert-topics": "dontesi-karrier",
+        "href": "https://mentalrendelo.hu/munkatars/ultrarovid-terapia-budapest-fabian-maria/",
+        "title": "Ultrarövid Terápia® konzulens · NLP Mester · Life- és business coach · ProfileXT® minősített értékelő",
+        "id": "ultrarovid-terapia-budapest-fabian-maria"
+      }
+    },
+    {
+      "text": "Kovács Tamás Szervezeti konfliktus szakértő",
+      "url": "https://mentalrendelo.hu/munkatars/konfliktuskezeles-budapest-kovacs-tamas/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "konfliktuskezeles-budapest-kovacs-tamas",
+        "data-guidance-id": "kovacs-tamas",
+        "data-professions": "mediator nev",
+        "data-expert-topics": "munkahely-mediacio",
+        "href": "https://mentalrendelo.hu/munkatars/konfliktuskezeles-budapest-kovacs-tamas/",
+        "title": "Szervezeti konfliktus szakértő",
+        "id": "konfliktuskezeles-budapest-kovacs-tamas"
+      }
+    },
+    {
+      "text": "Oláh Csaba CBT tanácsadó · Mentálhigiénés szakember",
+      "url": "https://mentalrendelo.hu/munkatars/cbt-tanacsado-budan-olah-csaba/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "cbt-tanacsado-budan-olah-csaba",
+        "data-guidance-id": "olah-csaba",
+        "data-professions": "coach mentalhigiene nev",
+        "data-expert-topics": "szorongas-stressz onismeret dontesi-karrier mentalhigiene eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/cbt-tanacsado-budan-olah-csaba/",
+        "title": "CBT tanácsadó · Mentálhigiénés szakember · Megoldásfókuszú coach",
+        "id": "cbt-tanacsado-budan-olah-csaba"
+      }
+    },
+    {
+      "text": "Kis-Simon Ildikó Life és business coach · Sport coach",
+      "url": "https://mentalrendelo.hu/munkatars/sport-coach-budapest-kis-simon-ildiko/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "sport-coach-budapest-kis-simon-ildiko",
+        "data-guidance-id": "kis-simon-ildiko",
+        "data-professions": "coach mediator mentalhigiene sport kapcsolatok nev",
+        "data-expert-topics": "dontesi-karrier mentalhigiene sportpszichologia munkahely-mediacio",
+        "href": "https://mentalrendelo.hu/munkatars/sport-coach-budapest-kis-simon-ildiko/",
+        "title": "Life és business coach · Sport coach · Mediátor · Mentálhigiénés szakember",
+        "id": "sport-coach-budapest-kis-simon-ildiko"
+      }
+    },
+    {
+      "text": "Székely Petra Pszichológus · Coach",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szekely-petra/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-budapest-szekely-petra",
+        "data-guidance-id": "szekely-petra",
+        "data-professions": "pszichologus coach kapcsolatok nev",
+        "data-expert-topics": "onismeret trauma-mintazatok szorongas-stressz dontesi-karrier parkapcsolat-csalad eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szekely-petra/",
+        "title": "Pszichológus · Coach · Képzésben lévő komplex integratív terapeuta",
+        "id": "pszichologus-budapest-szekely-petra"
+      }
+    },
+    {
+      "text": "Varga Ágnes Lélektérkép-vezető · Családállítás",
+      "url": "https://mentalrendelo.hu/munkatars/csaladallitas-budapest-varga-agnes/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "csaladallitas-budapest-varga-agnes",
+        "data-guidance-id": "varga-agnes",
+        "data-professions": "kapcsolatok nev",
+        "data-expert-topics": "onismeret parkapcsolat-csalad",
+        "href": "https://mentalrendelo.hu/munkatars/csaladallitas-budapest-varga-agnes/",
+        "title": "Lélektérkép-vezető · Családállítás · Önismereti konzulens · Tarot",
+        "id": "csaladallitas-budapest-varga-agnes"
+      }
+    },
+    {
+      "text": "Galambos Attila Okleveles pszichológus · Alkalmazott egészségpszichológiai szakpszichológus jelölt",
+      "url": "https://mentalrendelo.hu/munkatars/sportpszichologus-budapest-galambos-attila/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "sportpszichologus-budapest-galambos-attila",
+        "data-guidance-id": "galambos-attila",
+        "data-professions": "pszichologus sport nev",
+        "data-expert-topics": "sportpszichologia szorongas-stressz onismeret eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/sportpszichologus-budapest-galambos-attila/",
+        "title": "Okleveles pszichológus · Alkalmazott egészségpszichológiai szakpszichológus jelölt · Sportpszichológiai szakpszichológus · Integratív terapeuta · Relaxációs terapeuta",
+        "id": "sportpszichologus-budapest-galambos-attila"
+      }
+    },
+    {
+      "text": "Kaszás-Nagy Adrienn Kutatópszichológus · Integratív terapeuta jelölt",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-kaszas-nagy-adrienn/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-budapest-kaszas-nagy-adrienn",
+        "data-guidance-id": "kaszas-nagy-adrienn",
+        "data-professions": "pszichologus nev",
+        "data-expert-topics": "szorongas-stressz onismeret",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-kaszas-nagy-adrienn/",
+        "title": "Kutatópszichológus · Integratív terapeuta jelölt · PhD doktorjelölt",
+        "id": "pszichologus-budapest-kaszas-nagy-adrienn"
+      }
+    },
+    {
+      "text": "Markovics Annabell Lifestyle specialista · Wellbeing szakértő",
+      "url": "https://mentalrendelo.hu/munkatars/eletvezetesi-tanacsadas-budapest-markovics-annabell/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "eletvezetesi-tanacsadas-budapest-markovics-annabell",
+        "data-guidance-id": "markovics-annabell",
+        "data-professions": "nev",
+        "data-expert-topics": "eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/eletvezetesi-tanacsadas-budapest-markovics-annabell/",
+        "title": "Lifestyle specialista · Wellbeing szakértő",
+        "id": "eletvezetesi-tanacsadas-budapest-markovics-annabell"
+      }
+    },
+    {
+      "text": "Benedek Szilvia Munka- és szervezetpszichológus · Karriertanácsadó",
+      "url": "https://mentalrendelo.hu/munkatars/munka-es-szervezetpszichologus-budapest-benedek-szilvia/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "munka-es-szervezetpszichologus-budapest-benedek-szilvia",
+        "data-guidance-id": "benedek-szilvia",
+        "data-professions": "pszichologus nev",
+        "data-expert-topics": "dontesi-karrier munkahely-mediacio szorongas-stressz eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/munka-es-szervezetpszichologus-budapest-benedek-szilvia/",
+        "title": "Munka- és szervezetpszichológus · Karriertanácsadó",
+        "id": "munka-es-szervezetpszichologus-budapest-benedek-szilvia"
+      }
+    },
+    {
+      "text": "Pető Andrea Life, business és team coach · AFIAP fotóművész",
+      "url": "https://mentalrendelo.hu/munkatars/coach-budan-peto-andrea/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "coach-budan-peto-andrea",
+        "data-guidance-id": "peto-andrea",
+        "data-professions": "coach nev",
+        "data-expert-topics": "dontesi-karrier",
+        "href": "https://mentalrendelo.hu/munkatars/coach-budan-peto-andrea/",
+        "title": "Life, business és team coach · AFIAP fotóművész · Fotográfus",
+        "id": "coach-budan-peto-andrea"
+      }
+    },
+    {
+      "text": "Mácsik Mónika Integratív segítő szakember · Mediátor",
+      "url": "https://mentalrendelo.hu/munkatars/mediator-budan-macsik-monika/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "mediacio-budan-macsik-monika",
+        "data-guidance-id": "macsik-monika",
+        "data-professions": "coach mediator kapcsolatok nev",
+        "data-expert-topics": "parkapcsolat-csalad munkahely-mediacio gyermek-serdulo eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/mediator-budan-macsik-monika/",
+        "title": "Integratív segítő szakember · Mediátor · Coach",
+        "id": "mediacio-budan-macsik-monika"
+      }
+    },
+    {
+      "text": "Nagy Tímea Life coach · Képzésben lévő mentálhigiénés segítő",
+      "url": "https://mentalrendelo.hu/munkatars/coach-buda-nagy-timea/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "coach-buda-nagy-timea",
+        "data-guidance-id": "nagy-timea",
+        "data-professions": "coach nev",
+        "data-expert-topics": "dontesi-karrier eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/coach-buda-nagy-timea/",
+        "title": "Life coach · Képzésben lévő mentálhigiénés segítő",
+        "id": "coach-buda-nagy-timea"
+      }
+    },
+    {
+      "text": "Takács Ibolya Családterapeuta · Mindfulness tanár",
+      "url": "https://mentalrendelo.hu/munkatars/csaladterapia-buda-takacs-ibolya/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "csaladterapia-buda-takacs-ibolya",
+        "data-guidance-id": "takacs-ibolya",
+        "data-professions": "kapcsolatok nev",
+        "data-expert-topics": "parkapcsolat-csalad gyermek-serdulo",
+        "href": "https://mentalrendelo.hu/munkatars/csaladterapia-buda-takacs-ibolya/",
+        "title": "Családterapeuta · Mindfulness tanár · Rendszerszemléletű szakember",
+        "id": "csaladterapia-buda-takacs-ibolya"
+      }
+    },
+    {
+      "text": "Molnár Adrián Mentálhigiénés szakember · Mediátor",
+      "url": "https://mentalrendelo.hu/munkatars/mentalhigienes-lelkigondozo-diadal-coach-monar-adrian/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "mentalhigienes-szakember-budan-molnar-adrian",
+        "data-guidance-id": "molnar-adrian",
+        "data-professions": "coach mediator mentalhigiene kapcsolatok nev",
+        "data-expert-topics": "szorongas-stressz onismeret mentalhigiene eletvezetes-wellbeing parkapcsolat-csalad dontesi-karrier munkahely-mediacio",
+        "href": "https://mentalrendelo.hu/munkatars/mentalhigienes-lelkigondozo-diadal-coach-monar-adrian/",
+        "title": "Mentálhigiénés szakember · Mediátor · DIADAL coach · Lelkigondozó",
+        "id": "mentalhigienes-szakember-budan-molnar-adrian"
+      }
+    },
+    {
+      "text": "György-Farkas Zsófia Családi és közösségi mediátor · Pár- és családterapeuta jelölt",
+      "url": "https://mentalrendelo.hu/munkatars/mediator-gyorgy-farkas-zsofia/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "gyorgy-farkas-zsofia-mediator-csaladterapeuta-jelolt",
+        "data-guidance-id": "gyorgy-farkas-zsofia",
+        "data-professions": "mediator kapcsolatok nev",
+        "data-expert-topics": "parkapcsolat-csalad gyermek-serdulo",
+        "href": "https://mentalrendelo.hu/munkatars/mediator-gyorgy-farkas-zsofia/",
+        "title": "Családi és közösségi mediátor · Pár- és családterapeuta jelölt",
+        "id": "gyorgy-farkas-zsofia-mediator-csaladterapeuta-jelolt"
+      }
+    },
+    {
+      "text": "Dr. Petró Kata Pszichoterapeuta szakorvos · Sématerapeuta",
+      "url": "https://mentalrendelo.hu/munkatars/sematerapia-budapest-dr-petro-kata/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "sematerapia-budapest-dr-petro-kata",
+        "data-guidance-id": "petro-kata",
+        "data-professions": "pszichoterapeuta pszichologus nev",
+        "data-expert-topics": "trauma-mintazatok",
+        "href": "https://mentalrendelo.hu/munkatars/sematerapia-budapest-dr-petro-kata/",
+        "title": "Pszichoterapeuta szakorvos · Sématerapeuta · EMDR terapeuta jelölt · Háziorvos",
+        "id": "sematerapia-budapest-dr-petro-kata"
+      }
+    },
+    {
+      "text": "Bakler Írisz Pszichológus · Coach",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-bakler-irisz/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-budapest-bakler-irisz",
+        "data-guidance-id": "bakler-irisz",
+        "data-professions": "pszichologus coach sport nev",
+        "data-expert-topics": "sportpszichologia szorongas-stressz dontesi-karrier",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-bakler-irisz/",
+        "title": "Pszichológus · Coach · Sport mentáltréner",
+        "id": "pszichologus-budapest-bakler-irisz"
+      }
+    },
+    {
+      "text": "Magyar Beáta Pszichológus · Sport mentáltréner",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus_budapest_magyar_beata/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-budapest-magyar-beata",
+        "data-guidance-id": "magyar-beata",
+        "data-professions": "pszichologus coach sport nev",
+        "data-expert-topics": "dontesi-karrier sportpszichologia",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus_budapest_magyar_beata/",
+        "title": "Pszichológus · Sport mentáltréner · Business és executive coach",
+        "id": "pszichologus-budapest-magyar-beata"
+      }
+    },
+    {
+      "text": "Dr. Gillay Zoltán Mentálhigiénés szakember · képzésben lévő Párterapeuta",
+      "url": "https://mentalrendelo.hu/munkatars/mentalhigienes-szakember-dr-gillay-zoltan/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "dr-gillay-zoltan-mentalhigienes-szakember-parterapeuta",
+        "data-guidance-id": "gillay-zoltan",
+        "data-professions": "mentalhigiene kapcsolatok nev",
+        "data-expert-topics": "szorongas-stressz onismeret parkapcsolat-csalad mentalhigiene eletvezetes-wellbeing gyermek-serdulo",
+        "href": "https://mentalrendelo.hu/munkatars/mentalhigienes-szakember-dr-gillay-zoltan/",
+        "title": "Mentálhigiénés szakember · képzésben lévő Párterapeuta",
+        "id": "dr-gillay-zoltan-mentalhigienes-szakember-parterapeuta"
+      }
+    },
+    {
+      "text": "Györffy Éva Rendszerszemléletű coach · Tréner",
+      "url": "https://mentalrendelo.hu/munkatars/gyorffy-eva-rendszerszemleletu-coach-budan/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "rendszerszemleletu-coach-buda-gyorffy-eva",
+        "data-guidance-id": "gyorffy-eva",
+        "data-professions": "coach nev",
+        "data-expert-topics": "eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/gyorffy-eva-rendszerszemleletu-coach-budan/",
+        "title": "Rendszerszemléletű coach · Tréner · Testterápiás és erdőterápiás szakember · Ultrarövid terápiás konzulens",
+        "id": "rendszerszemleletu-coach-buda-gyorffy-eva"
+      }
+    },
+    {
+      "text": "Nógrádi Eszter Okleveles pszichológus · Mentálhigiénés szakember",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-nogradi-eszter/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-budapest-nogradi-eszter",
+        "data-guidance-id": "nogradi-eszter",
+        "data-professions": "pszichologus mentalhigiene kapcsolatok nev",
+        "data-expert-topics": "szorongas-stressz onismeret parkapcsolat-csalad mentalhigiene gyermek-serdulo dontesi-karrier eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-nogradi-eszter/",
+        "title": "Okleveles pszichológus · Mentálhigiénés szakember · Szupervízor",
+        "id": "pszichologus-budapest-nogradi-eszter"
+      }
+    },
+    {
+      "text": "Boldizsár Kármen Viselkedéselemző · Life coach",
+      "url": "https://mentalrendelo.hu/munkatars/parkapcsolati-coach-boldizsar-karmen/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "viselkedeselemzo-parkapcsolati-coach-boldizsar-karmen",
+        "data-guidance-id": "boldizsar-karmen",
+        "data-professions": "coach kapcsolatok nev",
+        "data-expert-topics": "dontesi-karrier parkapcsolat-csalad eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/parkapcsolati-coach-boldizsar-karmen/",
+        "title": "Viselkedéselemző · Life coach · Párkapcsolati coach · Pszichológia MA-hallgató",
+        "id": "viselkedeselemzo-parkapcsolati-coach-boldizsar-karmen"
+      }
+    },
+    {
+      "text": "Takáts-Rezsu Emese Viselkedéselemző · Sport coach",
+      "url": "https://mentalrendelo.hu/munkatars/sport-coach-takats-rezsu-emese/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "sport-coach-mentaltrener-takats-rezsu-emese",
+        "data-guidance-id": "takats-rezsu-emese",
+        "data-professions": "coach sport nev",
+        "data-expert-topics": "sportpszichologia",
+        "href": "https://mentalrendelo.hu/munkatars/sport-coach-takats-rezsu-emese/",
+        "title": "Viselkedéselemző · Sport coach · Sport mentál- és csapatépítő tréner · Pszichológia MSc-hallgató",
+        "id": "sport-coach-mentaltrener-takats-rezsu-emese"
+      }
+    },
+    {
+      "text": "Korinek Janka okleveles pszichológus, képzésben lévő kognitív viselkedésterápiás konzultáns és mindfulness-tanár",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-korinek-janka/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-budapest-korinek-janka",
+        "data-guidance-id": "korinek-janka",
+        "data-professions": "pszichologus kapcsolatok nev",
+        "data-expert-topics": "szorongas-stressz onismeret dontesi-karrier parkapcsolat-csalad eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-korinek-janka/",
+        "title": "okleveles pszichológus, képzésben lévő kognitív viselkedésterápiás konzultáns és mindfulness-tanár",
+        "id": "pszichologus-budapest-korinek-janka"
+      }
+    },
+    {
+      "text": "Szemethy Dániel Okleveles pszichológus · Autogén tréning gyakorlatvezető",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szemethy-daniel/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-budapest-szemethy-daniel",
+        "data-guidance-id": "szemethy-daniel",
+        "data-professions": "pszichologus nev",
+        "data-expert-topics": "szorongas-stressz onismeret dontesi-karrier parkapcsolat-csalad munkahely-mediacio eletvezetes-wellbeing",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szemethy-daniel/",
+        "title": "Okleveles pszichológus · Autogén tréning gyakorlatvezető · Segítő szakember",
+        "id": "pszichologus-budapest-szemethy-daniel"
+      }
+    },
+    {
+      "text": "Tóth Zsuzsanna Okleveles pszichológus · Coach",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budan-toth-zsuzsanna/",
+      "attrs": {
+        "class": [
+          "ux-expert"
+        ],
+        "data-expert-id": "pszichologus-coach-toth-zsuzsanna",
+        "data-guidance-id": "toth-zsuzsanna",
+        "data-professions": "pszichologus coach nev",
+        "data-expert-topics": "szorongas-stressz",
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budan-toth-zsuzsanna/",
+        "title": "Okleveles pszichológus · Coach · Autogén tréning gyakorlatvezető",
+        "id": "pszichologus-coach-toth-zsuzsanna"
+      }
+    },
+    {
+      "text": "mentalrendelo.hu",
+      "url": "https://mentalrendelo.hu/",
+      "attrs": {
+        "href": "https://mentalrendelo.hu/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/ultrarovid-terapia-budapest-fabian-maria/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/ultrarovid-terapia-budapest-fabian-maria/"
+      }
+    },
+    {
+      "text": "Szakértői profil",
+      "url": "https://mentalrendelo.hu/munkatars/konfliktuskezeles-budapest-kovacs-tamas/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/konfliktuskezeles-budapest-kovacs-tamas/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/cbt-tanacsado-budan-olah-csaba/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/cbt-tanacsado-budan-olah-csaba/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/sport-coach-budapest-kis-simon-ildiko/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/sport-coach-budapest-kis-simon-ildiko/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szekely-petra/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szekely-petra/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budan-toth-zsuzsanna/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budan-toth-zsuzsanna/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/csaladallitas-budapest-varga-agnes/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/csaladallitas-budapest-varga-agnes/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/sportpszichologus-budapest-galambos-attila/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/sportpszichologus-budapest-galambos-attila/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus_budapest_magyar_beata/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus_budapest_magyar_beata/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-kaszas-nagy-adrienn/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-kaszas-nagy-adrienn/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/eletvezetesi-tanacsadas-budapest-markovics-annabell/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/eletvezetesi-tanacsadas-budapest-markovics-annabell/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/munka-es-szervezetpszichologus-budapest-benedek-szilvia/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/munka-es-szervezetpszichologus-budapest-benedek-szilvia/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/coach-budan-peto-andrea/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/coach-budan-peto-andrea/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/mediator-budan-macsik-monika/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/mediator-budan-macsik-monika/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/coach-buda-nagy-timea/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/coach-buda-nagy-timea/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/csaladterapia-buda-takacs-ibolya/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/csaladterapia-buda-takacs-ibolya/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/mentalhigienes-lelkigondozo-diadal-coach-monar-adrian/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/mentalhigienes-lelkigondozo-diadal-coach-monar-adrian/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/mentalhigienes-szakember-dr-gillay-zoltan/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/mentalhigienes-szakember-dr-gillay-zoltan/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/gyorffy-eva-rendszerszemleletu-coach-budan/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/gyorffy-eva-rendszerszemleletu-coach-budan/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/mediator-gyorgy-farkas-zsofia/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/mediator-gyorgy-farkas-zsofia/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/parkapcsolati-coach-boldizsar-karmen/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/parkapcsolati-coach-boldizsar-karmen/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/sport-coach-takats-rezsu-emese/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/sport-coach-takats-rezsu-emese/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/sematerapia-budapest-dr-petro-kata/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/sematerapia-budapest-dr-petro-kata/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-bakler-irisz/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-bakler-irisz/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-nogradi-eszter/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-nogradi-eszter/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-korinek-janka/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-korinek-janka/"
+      }
+    },
+    {
+      "text": "Bemutatkozás",
+      "url": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szemethy-daniel/",
+      "attrs": {
+        "class": [
+          "button",
+          "button-secondary"
+        ],
+        "href": "https://mentalrendelo.hu/munkatars/pszichologus-budapest-szemethy-daniel/"
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://komjadikavics.com/szakembereink/",
+      "hint": "{ \"@context\": \"https://schema.org\", \"@type\": \"CollectionPage\", \"name\": \"Szakembereink\", \"description\": \"Rövid eligazító profilok pszichológus, coach, mediátor, mentálhigiénés tanácsadó és kapcsolódó szakemberekről Budapesten.\", \"inLanguage\": \"hu-HU\", \"url\": \"https://komjadikavics.com/szakembereink/\" }"
+    },
+    {
+      "src": "https://komjadikavics.com/assets/script.js?v=20261002-prelaunch1",
+      "hint": ""
+    },
+    {
+      "src": "https://komjadikavics.com/assets/ux.js?v=20261002-prelaunch1",
+      "hint": ""
+    },
+    {
+      "src": "https://komjadikavics.com/assets/decision.js?v=20261002-prelaunch1",
+      "hint": ""
+    }
+  ],
+  "iframes": [],
+  "text": "Szakembereink | Komjádi és Kavics Budapest Szakembereink Szakembereink Válasszon szakmacsoportot, keressen név szerint, vagy szűkítsen témára. A részletes bemutatkozás a szakember Mentalrendelő-profilján érhető el. Szakembereink Szakmacsoport Minden szakember Pszichológus Pszichoterapeuta Coach Mediátor Mentálhigiénés szakember Pár- és családi segítség Sportpszichológiai segítség Név szerint keresek Téma szerint szűrnék Összes Szorongás, stressz, belső feszültség Önismeret, belső bizonytalanság Döntési helyzetek, karrier, előrelépés Párkapcsolati és családi konfliktusok Visszatérő mintázatok, trauma, mélyebb elakadás Mentálhigiénés tanácsadás Sportpszichológia, teljesítményhelyzetek Munkahelyi konfliktus, mediáció, szervezeti elakadás Életvezetés, egyensúly, wellbeing Gyermek és serdülő nehézségek 27 szakember Fábián Mária Ultrarövid Terápia® konzulens · NLP Mester Kovács Tamás Szervezeti konfliktus szakértő Oláh Csaba CBT tanácsadó · Mentálhigiénés szakember Kis-Simon Ildikó Life és business coach · Sport coach Székely Petra Pszichológus · Coach Varga Ágnes Lélektérkép-vezető · Családállítás Galambos Attila Okleveles pszichológus · Alkalmazott egészségpszichológiai szakpszichológus jelölt Kaszás-Nagy Adrienn Kutatópszichológus · Integratív terapeuta jelölt Markovics Annabell Lifestyle specialista · Wellbeing szakértő Benedek Szilvia Munka- és szervezetpszichológus · Karriertanácsadó Pető Andrea Life, business és team coach · AFIAP fotóművész Mácsik Mónika Integratív segítő szakember · Mediátor Nagy Tímea Life coach · Képzésben lévő mentálhigiénés segítő Takács Ibolya Családterapeuta · Mindfulness tanár Molnár Adrián Mentálhigiénés szakember · Mediátor György-Farkas Zsófia Családi és közösségi mediátor · Pár- és családterapeuta jelölt Dr. Petró Kata Pszichoterapeuta szakorvos · Sématerapeuta Bakler Írisz Pszichológus · Coach Magyar Beáta Pszichológus · Sport mentáltréner Dr. Gillay Zoltán Mentálhigiénés szakember · képzésben lévő Párterapeuta Györffy Éva Rendszerszemléletű coach · Tréner Nógrádi Eszter Okleveles pszichológus · Mentálhigiénés szakember Boldizsár Kármen Viselkedéselemző · Life coach Takáts-Rezsu Emese Viselkedéselemző · Sport coach Korinek Janka okleveles pszichológus, képzésben lévő kognitív viselkedésterápiás konzultáns és mindfulness-tanár Szemethy Dániel Okleveles pszichológus · Autogén tréning gyakorlatvezető Tóth Zsuzsanna Okleveles pszichológus · Coach Mit lát ezen az oldalon? Itt rövid, jól átlátható profilokat lát. A cél nem az, hogy rögtön döntsön, hanem hogy könnyebben megtalálja, ki lehet az, akivel érdemes továbblépni. Mi történik a részletes profilnál? A részletes profil a mentalrendelo.hu oldalára visz tovább. Ott hosszabb bemutatkozást, több szakmai információt és a kapcsolatfelvételhez vezető utat találja meg. Hogyan érdemes választani? Hogyan érdemes nézni a profilokat? Nézzen meg többet is: a jó döntés ritkán egyetlen kattintásból születik meg. Figyelje a témát: más fókusz kell szorongásnál, párkapcsolati nehézségnél vagy karrierkérdésnél. Figyelje a szemléletet: sokat számít, hogy inkább pszichológiai, coaching vagy mediációs irány áll Önhöz közel. Ha még bizonytalan: akkor nyugodtan lépjen vissza a témaoldalakhoz, és utána térjen vissza ide. Rövid bemutatkozások és részletesebb eligazítás Szakterületek szerint Coaching, mentálhigiéné és kapcsolati támogatás Itt coaching, mediáció, mentálhigiénés tanácsadás, karrierfókusz, sportpszichológia és családi-kapcsolati munka is elérhető. Fábián Mária Ultrarövid Terápia® konzulens · NLP Mester · Life- és business coach · ProfileXT® minősített értékelő Támogató beszélgetésekkel segíti a klienseket az önismereti fejlődésben és az élethelyzeti döntések tisztázásában. Bemutatkozás Kovács Tamás Szervezeti konfliktus szakértő Sémaszemléletű konfliktusdiagnosztikával és konfliktuskezeléssel támogat vállalati döntéshozókat vezetői, csapat- és munkahelyi konfliktusokban. Szakértői profil Oláh Csaba CBT tanácsadó · Mentálhigiénés szakember · Megoldásfókuszú coach Kiégés, túlgondolás, mentális túlterheltség és irányvesztettség esetén segít tisztább nézőpontot és a hétköznapokban is használható kapaszkodókat találni. Bemutatkozás Kis-Simon Ildikó Life és business coach · Sport coach · Mediátor · Mentálhigiénés szakember Önismeret, önbizalom és motiváció növelésében, a célok kitűzésében és az elérésükhöz vezető lépések megtételében segíti klienseit. Bemutatkozás Székely Petra Pszichológus · Coach · Képzésben lévő komplex integratív terapeuta Önismereti folyamatokban, élethelyzeti elakadások feldolgozásában és személyes fejlődési kérdésekben támogat. Bemutatkozás Tóth Zsuzsanna Okleveles pszichológus · Coach · Autogén tréning gyakorlatvezető Endometriózis, PCOS, inzulinrezisztencia és pajzsmirigy-problémák lelki terheivel dolgozik. Stressz, szorongás, testképi nehézségek és nehezített teherbeesés esetén is támogat. Bemutatkozás Varga Ágnes Lélektérkép-vezető · Családállítás · Önismereti konzulens · Tarot Családi és kapcsolati minták feltárásában, önismereti folyamatokban és rendszerszintű megértésben segít. Bemutatkozás Galambos Attila Okleveles pszichológus · Alkalmazott egészségpszichológiai szakpszichológus jelölt · Sportpszichológiai szakpszichológus · Integratív terapeuta · Relaxációs terapeuta Sportolók és teljesítményhelyzetben lévő kliensek mentális felkészítésében nyújt támogatást. Bemutatkozás Magyar Beáta Pszichológus · Sport mentáltréner · Business és executive coach Önismereti, stresszkezelési, karrier- és vezetői kérdésekben támogatja a hozzá forduló felnőtteket, vezetőket és sportolókat. Bemutatkozás Kaszás-Nagy Adrienn Kutatópszichológus · Integratív terapeuta jelölt · PhD doktorjelölt Élethelyzeti elakadások, belső konfliktusok és önismereti kérdések feldolgozásában támogatja klienseit. Bemutatkozás Markovics Annabell Lifestyle specialista · Wellbeing szakértő Kiegyensúlyozottabb, tudatosabb és harmonikusabb élet kialakításában segíti a hozzá fordulókat. Bemutatkozás Benedek Szilvia Munka- és szervezetpszichológus · Karriertanácsadó Karrierrel, pályaválasztással, munkahelyi kihívásokkal és vezetői fejlődéssel kapcsolatos kérdésekben nyújt támogatást. Bemutatkozás Pető Andrea Life, business és team coach · AFIAP fotóművész · Fotográfus Az önismereti fejlődést, a döntési helyzetek tisztázását és az új perspektívák megtalálását támogatja. Bemutatkozás Mácsik Mónika Integratív segítő szakember · Mediátor · Coach Párkapcsolati és családi konfliktusok rendezésében segíti a feleket megértésen és konstruktív párbeszéden keresztül. Bemutatkozás Nagy Tímea Life coach · Képzésben lévő mentálhigiénés segítő Önismereti kérdésekben, élethelyzeti elakadásoknál és fontos döntések előtt támogatja a hozzá fordulókat. Bemutatkozás Takács Ibolya Családterapeuta · Mindfulness tanár · Rendszerszemléletű szakember A családtagokat a kommunikáció javításában, a konfliktusok megértésében és a harmonikusabb családi működés kialakításában támogatja. Bemutatkozás Molnár Adrián Mentálhigiénés szakember · Mediátor · DIADAL coach · Lelkigondozó Stressz, önbizalom, kapcsolati elakadások és döntési helyzetek esetén segít a belső erőforrások mozgósításában és a következő lépések megtalálásában. Bemutatkozás Dr. Gillay Zoltán Mentálhigiénés szakember · képzésben lévő Párterapeuta Párkapcsolati nehézségek, önismereti elakadások, munkahelyi feszültségek és férfi élethelyzeti kérdések esetén segít nyugodtabban ránézni a visszatérő mintákra. Bemutatkozás Györffy Éva Rendszerszemléletű coach · Tréner · Testterápiás és erdőterápiás szakember · Ultrarövid terápiás konzulens Stressz, kiégés, életmódváltás és belső egyensúlyvesztés esetén segít rendszerszemléletben újra stabilabb működést kialakítani. Bemutatkozás György-Farkas Zsófia Családi és közösségi mediátor · Pár- és családterapeuta jelölt Párkapcsolati és családi konfliktusok, elakadt kommunikáció és bizonytalan életszakaszok esetén segít abban, hogy a felek jobban értsék egymást és önmagukat. Bemutatkozás Boldizsár Kármen Viselkedéselemző · Life coach · Párkapcsolati coach · Pszichológia MA-hallgató Kapcsolati és életúti elakadások, bizalomvesztés, hűtlenség, karrierdöntések és vezetői terhelés esetén támogatja a hozzá fordulókat. Bemutatkozás Takáts-Rezsu Emese Viselkedéselemző · Sport coach · Sport mentál- és csapatépítő tréner · Pszichológia MSc-hallgató Sportolók mentális felkészítésében, teljesítményszorongásban, stresszkezelésben, önbizalomban és csapatműködésben nyújt támogatást 14 éves kortól. Bemutatkozás További szakterületek Pszichológiai és terápiás fókusz Itt inkább a pszichológiai, pszichoterápiás, sématerápiás és EMDR-szemléletű támogatások jelennek meg. Dr. Petró Kata Pszichoterapeuta szakorvos · Sématerapeuta · EMDR terapeuta jelölt · Háziorvos Traumatikus élmények, veszteségek és visszatérő életminták feldolgozásában támogatja a klienseket. Bemutatkozás Bakler Írisz Pszichológus · Coach · Sport mentáltréner Az önismereti fejlődés, a mentális egyensúly és a sportteljesítmény támogatásában segíti klienseit. Bemutatkozás Nógrádi Eszter Okleveles pszichológus · Mentálhigiénés szakember · Szupervízor Felnőttekkel és kamaszokkal dolgozik önismereti, kapcsolati és életvezetési kérdésekben, szorongás, túlterhelődés és neurodiverzitás esetén. Bemutatkozás Korinek Janka okleveles pszichológus, képzésben lévő kognitív viselkedésterápiás konzultáns és mindfulness-tanár Önismereti, önértékelési, szorongásos és stresszhez kapcsolódó nehézségekben, valamint élethelyzeti és munkahelyi elakadásokban segít. Bemutatkozás Szemethy Dániel Okleveles pszichológus · Autogén tréning gyakorlatvezető · Segítő szakember Elsősorban fiatal felnőtteket támogat szorongás, pánik, önértékelési és életvezetési nehézségek, stressz, kiégés, alvásproblémák, valamint kapcsolati és munkahelyi konfliktusok esetén. Bemutatkozás Miben segíthetünk"
+}

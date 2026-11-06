@@ -1,0 +1,1141 @@
+{
+  "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+  "final_url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+  "status": 200,
+  "sha256": "a933fd0fd5b7808815855415b1e4cc5c84260d0915c941cb7a8853c26cce1aba",
+  "title": "Szaknévsor - Pszichoterápia",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h2",
+      "attrs": {},
+      "text": "A pszichoterápiás módszereken alapuló gyakorlat szakmai folyóirata",
+      "parent": "div",
+      "parent_attrs": {}
+    },
+    {
+      "tag": "h1",
+      "attrs": {},
+      "text": "Szaknévsor",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "large-offset-3",
+          "large-9",
+          "subpage-title"
+        ]
+      }
+    },
+    {
+      "tag": "h4",
+      "attrs": {},
+      "text": "Szaknévsor",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "large-9",
+          "subpage-content-right"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Legfrissebb tartalmak",
+      "url": "https://www.mentalport.hu/a-folyoirat/legfrissebb-tartalmak",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/legfrissebb-tartalmak",
+        "class": [
+          "btn-pszichoterapia"
+        ],
+        "title": "Legfrissebb tartalmak"
+      }
+    },
+    {
+      "text": "Előfizetés",
+      "url": "https://www.mentalport.hu/a-folyoirat/elofizetes",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/elofizetes",
+        "class": [
+          "btn-pszichoterapia"
+        ],
+        "title": "Előfizetés"
+      }
+    },
+    {
+      "text": "Ha pszichológiai- pszichoterápiás segítséget keres",
+      "url": "https://www.pszichoterapia.hu/",
+      "attrs": {
+        "href": "https://www.pszichoterapia.hu/",
+        "target": "_blank",
+        "class": [
+          "btn-pszichoterapia"
+        ],
+        "title": "Ha pszichológiai-pszichoterápiás segítséget keres"
+      }
+    },
+    {
+      "text": "Elérhetőségünk",
+      "url": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/"
+      }
+    },
+    {
+      "text": "Pszichoterápia folyóirat szerkesztősége",
+      "url": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/"
+      }
+    },
+    {
+      "text": "MentalPort kft.",
+      "url": "https://www.mentalport.hu/elerhetosegeink/mentalport-kft/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/elerhetosegeink/mentalport-kft/"
+      }
+    },
+    {
+      "text": "Magunkról",
+      "url": "https://www.mentalport.hu/magunkrol/szerkesztok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/szerkesztok/"
+      }
+    },
+    {
+      "text": "Szerkesztők",
+      "url": "https://www.mentalport.hu/magunkrol/szerkesztok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/szerkesztok/"
+      }
+    },
+    {
+      "text": "Történeti adatok",
+      "url": "https://www.mentalport.hu/magunkrol/torteneti-adatok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/torteneti-adatok/"
+      }
+    },
+    {
+      "text": "Küldetés",
+      "url": "https://www.mentalport.hu/magunkrol/kuldetes/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/kuldetes/"
+      }
+    },
+    {
+      "text": "Szerkesztőbizottság",
+      "url": "https://www.mentalport.hu/magunkrol/szerkesztobizottsag/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/szerkesztobizottsag/"
+      }
+    },
+    {
+      "text": "Folyóirat és konferenciája",
+      "url": "https://www.mentalport.hu/magunkrol/folyoirat-es-konferenciaja/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/folyoirat-es-konferenciaja/"
+      }
+    },
+    {
+      "text": "Kiadó",
+      "url": "http://www.pszichoterapia.hu/elerhetosegunk/mentalport-kft/",
+      "attrs": {
+        "href": "http://www.pszichoterapia.hu/elerhetosegunk/mentalport-kft/"
+      }
+    },
+    {
+      "text": "Adatkezelési szabályzat",
+      "url": "https://www.mentalport.hu/magunkrol/adatkezelesi-szabalyzat/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/adatkezelesi-szabalyzat/"
+      }
+    },
+    {
+      "text": "Pszichoterápia szakfolyóirat",
+      "url": "https://www.mentalport.hu/a-folyoirat/elofizetes/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/elofizetes/"
+      }
+    },
+    {
+      "text": "Impresszum",
+      "url": "https://www.mentalport.hu/a-folyoirat/impresszum/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/impresszum/"
+      }
+    },
+    {
+      "text": "Előfizetés",
+      "url": "https://www.mentalport.hu/a-folyoirat/elofizetes/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/elofizetes/"
+      }
+    },
+    {
+      "text": "Hirdetési lehetőség",
+      "url": "https://www.mentalport.hu/a-folyoirat/hirdetesi-lehetoseg/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/hirdetesi-lehetoseg/"
+      }
+    },
+    {
+      "text": "A legfrissebb szám",
+      "url": "https://www.mentalport.hu/a-folyoirat/a-legfrissebb-szam/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/a-legfrissebb-szam/"
+      }
+    },
+    {
+      "text": "Korábbi számok",
+      "url": "https://www.mentalport.hu/a-folyoirat/korabbi-szamok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/korabbi-szamok/"
+      }
+    },
+    {
+      "text": "Abstracts in English",
+      "url": "https://www.mentalport.hu/a-folyoirat/abstracts-in-english/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/abstracts-in-english/"
+      }
+    },
+    {
+      "text": "Tájékoztató szerzőinknek, hozzászólóinknak",
+      "url": "https://www.mentalport.hu/a-folyoirat/szerzoinknek/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szerzoinknek/"
+      }
+    },
+    {
+      "text": "Ízelítő tanulmányokból",
+      "url": "https://www.mentalport.hu/a-folyoirat/izelito-tanulmanyokbol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/izelito-tanulmanyokbol/"
+      }
+    },
+    {
+      "text": "Ízelítő pályázatokból",
+      "url": "https://www.mentalport.hu/a-folyoirat/izelito-palyazatokbol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/izelito-palyazatokbol/"
+      }
+    },
+    {
+      "text": "Szakmai közélet",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/"
+      }
+    },
+    {
+      "text": "Viták",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/korabbi-vitak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/korabbi-vitak/"
+      }
+    },
+    {
+      "text": "Az iskoláját!",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/az-iskolajat/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/az-iskolajat/"
+      }
+    },
+    {
+      "text": "Helyzetkép",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/helyzetkep/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/helyzetkep/"
+      }
+    },
+    {
+      "text": "Útravaló – A jövő pszichoterapeutáinak",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/utravalo-a-jovo-pszichoterapeutainak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/utravalo-a-jovo-pszichoterapeutainak/"
+      }
+    },
+    {
+      "text": "Pszichoterápia konferenciák",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2026-os-konferencia/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2026-os-konferencia/"
+      }
+    },
+    {
+      "text": "2027-es konferencia",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/"
+      }
+    },
+    {
+      "text": "Téma",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/tema/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/tema/"
+      }
+    },
+    {
+      "text": "Az absztraktok elkészítése",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/az-absztraktok-elkeszitese/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/az-absztraktok-elkeszitese/"
+      }
+    },
+    {
+      "text": "Program",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/program/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/program/"
+      }
+    },
+    {
+      "text": "Regisztráció",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/regisztracio/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/regisztracio/"
+      }
+    },
+    {
+      "text": "A konferencia szervezői",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/a-konferencia-szervezoi/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/a-konferencia-szervezoi/"
+      }
+    },
+    {
+      "text": "Műfajok",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/mufajok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/mufajok/"
+      }
+    },
+    {
+      "text": "Jelentkezés a HELLO Stábba",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/jelentkezes-a-hello-stabba/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/jelentkezes-a-hello-stabba/"
+      }
+    },
+    {
+      "text": "Pályázat",
+      "url": "https://www.mentalport.hu/?page_id=3588",
+      "attrs": {
+        "href": "https://www.mentalport.hu/?page_id=3588"
+      }
+    },
+    {
+      "text": "Egyesületi összekötők",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/egyesuleti-osszekotok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/egyesuleti-osszekotok/"
+      }
+    },
+    {
+      "text": "Korábbi Konferenciák",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/korabbi-konferenciak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/korabbi-konferenciak/"
+      }
+    },
+    {
+      "text": "Terápia",
+      "url": "http://www.pszichoterapia.hu/#mentalport-rendelo",
+      "attrs": {
+        "href": "http://www.pszichoterapia.hu/#mentalport-rendelo"
+      }
+    },
+    {
+      "text": "Pszichoterapeuta szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/"
+      }
+    },
+    {
+      "text": "Tájékoztatás a szaknévsorhoz",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/tajekoztatas-a-szaknevsorhoz/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/tajekoztatas-a-szaknevsorhoz/"
+      }
+    },
+    {
+      "text": "Szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+        "aria-current": "page"
+      }
+    },
+    {
+      "text": "Etikai kódex",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/etikai-kodex/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/etikai-kodex/"
+      }
+    },
+    {
+      "text": "Regisztráció (pszichoterapeutáknak)",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/regisztracio/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/regisztracio/"
+      }
+    },
+    {
+      "text": "Szakmai információk",
+      "url": "http://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/",
+      "attrs": {
+        "href": "http://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/"
+      }
+    },
+    {
+      "text": "Pszichoterapeuta szakvizsga",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/"
+      }
+    },
+    {
+      "text": "Tájékoztató a szakvizsgáról",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/"
+      }
+    },
+    {
+      "text": "Szakképzés belépési feltétel",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakkepzes_belepesi_feltetele.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakkepzes_belepesi_feltetele.docx"
+      }
+    },
+    {
+      "text": "Szakképzés alapelvei és felépítése",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pt_kepzesi_osszetevok.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pt_kepzesi_osszetevok.docx"
+      }
+    },
+    {
+      "text": "Szakvizsga általános leírása",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakvizsga_altalanos_leisa.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakvizsga_altalanos_leisa.docx"
+      }
+    },
+    {
+      "text": "Szakvizsga tételsor",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapia_szakvizsga_tetelsor.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapia_szakvizsga_tetelsor.docx"
+      }
+    },
+    {
+      "text": "Honlapok",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/honlapok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/honlapok/"
+      }
+    },
+    {
+      "text": "Szakegyesületi főkonferenciák",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/szakegyesuleti-fokonferenciak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/szakegyesuleti-fokonferenciak/"
+      }
+    },
+    {
+      "text": "Ajánlott tankönyvek",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/ajanlott-tankonyvek/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/ajanlott-tankonyvek/"
+      }
+    },
+    {
+      "text": "Szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/"
+      }
+    },
+    {
+      "text": "Szakmai anyagok koronavírushoz",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakmai-anyagok-koronavirushoz/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakmai-anyagok-koronavirushoz/"
+      }
+    },
+    {
+      "text": "Pszichoterápiás szakmai protokoll",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/pszichoterapias-szakmai-protokoll/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/pszichoterapias-szakmai-protokoll/"
+      }
+    },
+    {
+      "text": "Szakmai kollégium",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakmai-kollegium/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakmai-kollegium/"
+      }
+    },
+    {
+      "text": "Kiadványok",
+      "url": "https://www.mentalport.hu/kiadvanyok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/kiadvanyok/"
+      }
+    },
+    {
+      "text": "Szaknévsor megrendelés",
+      "url": "https://www.mentalport.hu/kiadvanyok/szaknevsor-megrendeles/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/kiadvanyok/szaknevsor-megrendeles/"
+      }
+    },
+    {
+      "text": "Etikai kötet megrendelés",
+      "url": "https://www.mentalport.hu/kiadvanyok/etikai-kotet-megrendeles/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/kiadvanyok/etikai-kotet-megrendeles/"
+      }
+    },
+    {
+      "text": "Legfrissebb tartalmak",
+      "url": "https://www.mentalport.hu/a-folyoirat/legfrissebb-tartalmak",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/legfrissebb-tartalmak",
+        "class": [
+          "btn-pszichoterapia",
+          "bg-blue"
+        ],
+        "title": "Legfrissebb tartalmak"
+      }
+    },
+    {
+      "text": "Előfizetés",
+      "url": "https://www.mentalport.hu/a-folyoirat/elofizetes",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/elofizetes",
+        "class": [
+          "btn-pszichoterapia"
+        ],
+        "title": "Előfizetés"
+      }
+    },
+    {
+      "text": "A pszichoterápiás módszereken alapuló gyakorlat szakmai folyóirata",
+      "url": "https://www.mentalport.hu",
+      "attrs": {
+        "href": "https://www.mentalport.hu"
+      }
+    },
+    {
+      "text": "Ha pszichológiai-pszichoterápiás segítséget keres",
+      "url": "https://www.pszichoterapia.hu/",
+      "attrs": {
+        "href": "https://www.pszichoterapia.hu/",
+        "target": "_blank",
+        "class": [
+          "btn-pszichoterapia"
+        ],
+        "title": "Ha pszichológiai-pszichoterápiás segítséget keres"
+      }
+    },
+    {
+      "text": "Elérhetőségünk",
+      "url": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/"
+      }
+    },
+    {
+      "text": "Pszichoterápia folyóirat szerkesztősége",
+      "url": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/elerhetosegeink/pszichoterapia-folyoirat-szerkesztosege/"
+      }
+    },
+    {
+      "text": "MentalPort kft.",
+      "url": "https://www.mentalport.hu/elerhetosegeink/mentalport-kft/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/elerhetosegeink/mentalport-kft/"
+      }
+    },
+    {
+      "text": "Magunkról",
+      "url": "https://www.mentalport.hu/magunkrol/szerkesztok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/szerkesztok/"
+      }
+    },
+    {
+      "text": "Szerkesztők",
+      "url": "https://www.mentalport.hu/magunkrol/szerkesztok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/szerkesztok/"
+      }
+    },
+    {
+      "text": "Történeti adatok",
+      "url": "https://www.mentalport.hu/magunkrol/torteneti-adatok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/torteneti-adatok/"
+      }
+    },
+    {
+      "text": "Küldetés",
+      "url": "https://www.mentalport.hu/magunkrol/kuldetes/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/kuldetes/"
+      }
+    },
+    {
+      "text": "Szerkesztőbizottság",
+      "url": "https://www.mentalport.hu/magunkrol/szerkesztobizottsag/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/szerkesztobizottsag/"
+      }
+    },
+    {
+      "text": "Folyóirat és konferenciája",
+      "url": "https://www.mentalport.hu/magunkrol/folyoirat-es-konferenciaja/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/folyoirat-es-konferenciaja/"
+      }
+    },
+    {
+      "text": "Kiadó",
+      "url": "http://www.pszichoterapia.hu/elerhetosegunk/mentalport-kft/",
+      "attrs": {
+        "href": "http://www.pszichoterapia.hu/elerhetosegunk/mentalport-kft/"
+      }
+    },
+    {
+      "text": "Adatkezelési szabályzat",
+      "url": "https://www.mentalport.hu/magunkrol/adatkezelesi-szabalyzat/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/magunkrol/adatkezelesi-szabalyzat/"
+      }
+    },
+    {
+      "text": "Pszichoterápia szakfolyóirat",
+      "url": "https://www.mentalport.hu/a-folyoirat/elofizetes/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/elofizetes/"
+      }
+    },
+    {
+      "text": "Impresszum",
+      "url": "https://www.mentalport.hu/a-folyoirat/impresszum/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/impresszum/"
+      }
+    },
+    {
+      "text": "Előfizetés",
+      "url": "https://www.mentalport.hu/a-folyoirat/elofizetes/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/elofizetes/"
+      }
+    },
+    {
+      "text": "Hirdetési lehetőség",
+      "url": "https://www.mentalport.hu/a-folyoirat/hirdetesi-lehetoseg/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/hirdetesi-lehetoseg/"
+      }
+    },
+    {
+      "text": "A legfrissebb szám",
+      "url": "https://www.mentalport.hu/a-folyoirat/a-legfrissebb-szam/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/a-legfrissebb-szam/"
+      }
+    },
+    {
+      "text": "Korábbi számok",
+      "url": "https://www.mentalport.hu/a-folyoirat/korabbi-szamok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/korabbi-szamok/"
+      }
+    },
+    {
+      "text": "Abstracts in English",
+      "url": "https://www.mentalport.hu/a-folyoirat/abstracts-in-english/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/abstracts-in-english/"
+      }
+    },
+    {
+      "text": "Tájékoztató szerzőinknek, hozzászólóinknak",
+      "url": "https://www.mentalport.hu/a-folyoirat/szerzoinknek/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szerzoinknek/"
+      }
+    },
+    {
+      "text": "Ízelítő tanulmányokból",
+      "url": "https://www.mentalport.hu/a-folyoirat/izelito-tanulmanyokbol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/izelito-tanulmanyokbol/"
+      }
+    },
+    {
+      "text": "Ízelítő pályázatokból",
+      "url": "https://www.mentalport.hu/a-folyoirat/izelito-palyazatokbol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/izelito-palyazatokbol/"
+      }
+    },
+    {
+      "text": "Szakmai közélet",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/"
+      }
+    },
+    {
+      "text": "Viták",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/korabbi-vitak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/korabbi-vitak/"
+      }
+    },
+    {
+      "text": "Az iskoláját!",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/az-iskolajat/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/az-iskolajat/"
+      }
+    },
+    {
+      "text": "Helyzetkép",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/helyzetkep/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/helyzetkep/"
+      }
+    },
+    {
+      "text": "Útravaló – A jövő pszichoterapeutáinak",
+      "url": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/utravalo-a-jovo-pszichoterapeutainak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/a-folyoirat/szakmai-kozelet/utravalo-a-jovo-pszichoterapeutainak/"
+      }
+    },
+    {
+      "text": "Pszichoterápia konferenciák",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2026-os-konferencia/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2026-os-konferencia/"
+      }
+    },
+    {
+      "text": "2027-es konferencia",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/"
+      }
+    },
+    {
+      "text": "Téma",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/tema/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/tema/"
+      }
+    },
+    {
+      "text": "Az absztraktok elkészítése",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/az-absztraktok-elkeszitese/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/az-absztraktok-elkeszitese/"
+      }
+    },
+    {
+      "text": "Program",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/program/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/program/"
+      }
+    },
+    {
+      "text": "Regisztráció",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/regisztracio/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/regisztracio/"
+      }
+    },
+    {
+      "text": "A konferencia szervezői",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/a-konferencia-szervezoi/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/a-konferencia-szervezoi/"
+      }
+    },
+    {
+      "text": "Műfajok",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/mufajok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/mufajok/"
+      }
+    },
+    {
+      "text": "Jelentkezés a HELLO Stábba",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/jelentkezes-a-hello-stabba/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/2027-es-konferencia/jelentkezes-a-hello-stabba/"
+      }
+    },
+    {
+      "text": "Pályázat",
+      "url": "https://www.mentalport.hu/?page_id=3588",
+      "attrs": {
+        "href": "https://www.mentalport.hu/?page_id=3588"
+      }
+    },
+    {
+      "text": "Egyesületi összekötők",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/egyesuleti-osszekotok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/egyesuleti-osszekotok/"
+      }
+    },
+    {
+      "text": "Korábbi Konferenciák",
+      "url": "https://www.mentalport.hu/pszichoterapia-konferencia/korabbi-konferenciak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapia-konferencia/korabbi-konferenciak/"
+      }
+    },
+    {
+      "text": "Terápia",
+      "url": "http://www.pszichoterapia.hu/#mentalport-rendelo",
+      "attrs": {
+        "href": "http://www.pszichoterapia.hu/#mentalport-rendelo"
+      }
+    },
+    {
+      "text": "Pszichoterapeuta szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/"
+      }
+    },
+    {
+      "text": "Tájékoztatás a szaknévsorhoz",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/tajekoztatas-a-szaknevsorhoz/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/tajekoztatas-a-szaknevsorhoz/"
+      }
+    },
+    {
+      "text": "Szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+        "aria-current": "page"
+      }
+    },
+    {
+      "text": "Etikai kódex",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/etikai-kodex/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/etikai-kodex/"
+      }
+    },
+    {
+      "text": "Regisztráció (pszichoterapeutáknak)",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/regisztracio/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/regisztracio/"
+      }
+    },
+    {
+      "text": "Szakmai információk",
+      "url": "http://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/",
+      "attrs": {
+        "href": "http://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/"
+      }
+    },
+    {
+      "text": "Pszichoterapeuta szakvizsga",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/"
+      }
+    },
+    {
+      "text": "Tájékoztató a szakvizsgáról",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/tajekoztato-a-szakvizsgarol/"
+      }
+    },
+    {
+      "text": "Szakképzés belépési feltétel",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakkepzes_belepesi_feltetele.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakkepzes_belepesi_feltetele.docx"
+      }
+    },
+    {
+      "text": "Szakképzés alapelvei és felépítése",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pt_kepzesi_osszetevok.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pt_kepzesi_osszetevok.docx"
+      }
+    },
+    {
+      "text": "Szakvizsga általános leírása",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakvizsga_altalanos_leisa.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapeuta_szakvizsga_altalanos_leisa.docx"
+      }
+    },
+    {
+      "text": "Szakvizsga tételsor",
+      "url": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapia_szakvizsga_tetelsor.docx",
+      "attrs": {
+        "href": "http://www.mentalport.hu/wp-content/uploads/2016/04/pszichoterapia_szakvizsga_tetelsor.docx"
+      }
+    },
+    {
+      "text": "Honlapok",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/honlapok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/honlapok/"
+      }
+    },
+    {
+      "text": "Szakegyesületi főkonferenciák",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/szakegyesuleti-fokonferenciak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/szakegyesuleti-fokonferenciak/"
+      }
+    },
+    {
+      "text": "Ajánlott tankönyvek",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/ajanlott-tankonyvek/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakegyesuletek/ajanlott-tankonyvek/"
+      }
+    },
+    {
+      "text": "Szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/"
+      }
+    },
+    {
+      "text": "Szakmai anyagok koronavírushoz",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakmai-anyagok-koronavirushoz/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakmai-anyagok-koronavirushoz/"
+      }
+    },
+    {
+      "text": "Pszichoterápiás szakmai protokoll",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/pszichoterapias-szakmai-protokoll/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/pszichoterapias-szakmai-protokoll/"
+      }
+    },
+    {
+      "text": "Szakmai kollégium",
+      "url": "https://www.mentalport.hu/szakmai-informaciok/szakmai-kollegium/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/szakmai-informaciok/szakmai-kollegium/"
+      }
+    },
+    {
+      "text": "Kiadványok",
+      "url": "https://www.mentalport.hu/kiadvanyok/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/kiadvanyok/"
+      }
+    },
+    {
+      "text": "Szaknévsor megrendelés",
+      "url": "https://www.mentalport.hu/kiadvanyok/szaknevsor-megrendeles/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/kiadvanyok/szaknevsor-megrendeles/"
+      }
+    },
+    {
+      "text": "Etikai kötet megrendelés",
+      "url": "https://www.mentalport.hu/kiadvanyok/etikai-kotet-megrendeles/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/kiadvanyok/etikai-kotet-megrendeles/"
+      }
+    },
+    {
+      "text": "Főoldal",
+      "url": "https://www.mentalport.hu",
+      "attrs": {
+        "property": "item",
+        "typeof": "WebPage",
+        "title": "Főoldal",
+        "href": "https://www.mentalport.hu",
+        "class": [
+          "home"
+        ]
+      }
+    },
+    {
+      "text": "Pszichoterapeuta szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/",
+      "attrs": {
+        "property": "item",
+        "typeof": "WebPage",
+        "title": "Pszichoterapeuta szaknévsor",
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/",
+        "class": [
+          "post",
+          "post-page"
+        ]
+      }
+    },
+    {
+      "text": "Tájékoztatás a szaknévsorhoz",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/tajekoztatas-a-szaknevsorhoz/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/tajekoztatas-a-szaknevsorhoz/"
+      }
+    },
+    {
+      "text": "Szaknévsor",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+        "aria-current": "page"
+      }
+    },
+    {
+      "text": "Etikai kódex",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/etikai-kodex/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/etikai-kodex/"
+      }
+    },
+    {
+      "text": "Regisztráció",
+      "url": "https://www.mentalport.hu/pszichoterapias-szaknevsor/regisztracio/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/pszichoterapias-szaknevsor/regisztracio/"
+      }
+    },
+    {
+      "text": "Pszichoterápia",
+      "url": "https://www.mentalport.hu",
+      "attrs": {
+        "rel": [
+          "home"
+        ],
+        "href": "https://www.mentalport.hu",
+        "title": "Pszichoterápia"
+      }
+    },
+    {
+      "text": "alábbi linken",
+      "url": "https://www.mentalport.hu/legfrissebb-tartalmak/",
+      "attrs": {
+        "href": "https://www.mentalport.hu/legfrissebb-tartalmak/"
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/jquery.min.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/foundation.min.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/jquery.smartmenus.min.js",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/script.js?v=4",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+      "hint": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/\",\"url\":\"https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/\",\"name\":\"Szaknévsor - Pszichoterápia\",\"isPartOf\":{\"@id\":\"https://www.mentalport.hu/#website\"},\"datePublished\":\"2024-03-20T11:49:34+00:00\",\"dateModified\":\"2024-03-20T16:17:06+00:"
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "hint": ""
+    },
+    {
+      "src": "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js?ver=6.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/themes/pszichoterapia/js/szaknevsor_app.js?ver=6.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js?ver=6.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+      "hint": "jQuery(function($) { function filterResults() { var acfField1Value = $('#munkavegzes_helye').val(); var acfField2Value = $('#modszerspecifikus_kepzettseg').val(); $.ajax({ url: 'https://www.mentalport.hu/wp-admin/admin-ajax.php', type: 'POST', data: { action: 'filter_posts', acf_field1_value: acfField1Value, acf_field2_value: acfField2Value }, success: function(response) { $('#filtered-results').html(response); } }); } filterResults(); $('#filter"
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.2",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+      "hint": "/* <![CDATA[ */ var wpcf7 = { \"api\": { \"root\": \"https:\\/\\/www.mentalport.hu\\/wp-json\\/\", \"namespace\": \"contact-form-7\\/v1\" } }; /* ]]> */"
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.2",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+      "hint": ""
+    },
+    {
+      "src": "https://www.mentalport.hu/pszichoterapias-szaknevsor/magyarorszagi-pszichoterapeutak-szaknevsora/",
+      "hint": "/* <![CDATA[ */ var pum_vars = {\"version\":\"1.23.0\",\"pm_dir_url\":\"https:\\/\\/www.mentalport.hu\\/wp-content\\/plugins\\/popup-maker\\/\",\"ajaxurl\":\"https:\\/\\/www.mentalport.hu\\/wp-admin\\/admin-ajax.php\",\"restapi\":\"https:\\/\\/www.mentalport.hu\\/wp-json\\/pum\\/v1\",\"rest_nonce\":null,\"default_theme\":\"7919\",\"debug_mode\":\"\",\"disable_tracking\":\"\",\"disable_url_params\":\"\",\"home_url\":\"\\/\",\"message_position\":\"top\",\"core_sub_forms_enabled\":\"1\",\"popups\":[],\"cookie_dom"
+    },
+    {
+      "src": "https://www.mentalport.hu/wp-content/uploads/pum/pum-site-scripts.js?defer&generated=1789132512&ver=1.23.0",
+      "hint": ""
+    }
+  ],
+  "iframes": [
+    {
+      "src": "https://www.googletagmanager.com/ns.html?id=GTM-5TFJPQ7",
+      "height": "0",
+      "width": "0",
+      "style": "display:none;visibility:hidden"
+    }
+  ],
+  "text": "Szaknévsor - Pszichoterápia Legfrissebb tartalmak Előfizetés Ha pszichológiai- pszichoterápiás segítséget keres Elérhetőségünk Pszichoterápia folyóirat szerkesztősége MentalPort kft. Magunkról Szerkesztők Történeti adatok Küldetés Szerkesztőbizottság Folyóirat és konferenciája Kiadó Adatkezelési szabályzat Pszichoterápia szakfolyóirat Impresszum Előfizetés Hirdetési lehetőség A legfrissebb szám Korábbi számok Abstracts in English Tájékoztató szerzőinknek, hozzászólóinknak Ízelítő tanulmányokból Ízelítő pályázatokból Szakmai közélet Viták Az iskoláját! Helyzetkép Útravaló – A jövő pszichoterapeutáinak Pszichoterápia konferenciák 2027-es konferencia Téma Az absztraktok elkészítése Program Regisztráció A konferencia szervezői Műfajok Jelentkezés a HELLO Stábba Pályázat Egyesületi összekötők Korábbi Konferenciák Terápia Pszichoterapeuta szaknévsor Tájékoztatás a szaknévsorhoz Szaknévsor Etikai kódex Regisztráció (pszichoterapeutáknak) Szakmai információk Pszichoterapeuta szakvizsga Tájékoztató a szakvizsgáról Szakképzés belépési feltétel Szakképzés alapelvei és felépítése Szakvizsga általános leírása Szakvizsga tételsor Szakegyesületek Honlapok Szakegyesületi főkonferenciák Ajánlott tankönyvek Szaknévsor Szakmai anyagok koronavírushoz Pszichoterápiás szakmai protokoll Szakmai kollégium Kiadványok Szaknévsor megrendelés Etikai kötet megrendelés Főoldal > Pszichoterapeuta szaknévsor > Szaknévsor Szaknévsor Navigáció Tájékoztatás a szaknévsorhoz Szaknévsor Etikai kódex Regisztráció Magyarországi pszichoterapeuták szaknévsora 2023 (lezárva 2023. őszén) A szaknévsorban a következő adatok szerepelnek: név alapszakma (orvos vagy pszichológus) munkahely amennyiben van, akkor módszerspecifikus képzettség(ek)et igazoló egyesület(ek) amennyiben kiképző, azt feltüntetjük elérhetőségek (honlap, telefon és/vagy e-mail) Kizárólag azokat az adatokat tüntettük fel, amelyek esetében a regisztráció során a pszichoterapeuta hozzájárulását adta annak megjelenítéséhez, vagy nem jelölte, hogy nem járul hozzá annak közléséhez. Szaknévsor Szűrés tevékenységi hely szerint: Összes Bács-Kiskun vármegye Baranya vármegye Békés vármegye Borsod-Abaúj-Zemplén vármegye Budapest Csongrád-Csanád vármegye Fejér vármegye Győr-Moson-Sopron vármegye Hajdú-Bihar vármegye Heves vármegye Jász-Nagykun-Szolnok vármegye Komárom-Esztergom vármegye Nógrád vármegye Pest vármegye Somogy vármegye Szabolcs-Szatmár-Bereg vármegye Tolna vármegye Vas vármegye Veszprém vármegye Zala vármegye Szűrés módszer szerint: Összes Magyar Komplex Pszichoterápiás Egyesület Pszichoanalitikusan Orientált Pszichoterápiás és Kiképző Egyesület Aktív-analitikus Pszichoterapeuták Egyesülete Csoportanalitikus és Kiképző Társaság Dinamikus Rövidterápiás Egyesület és Alkotó Műhely Integratív Pszichoterápiás Egyesület Magyar C.G. Jung Analitikus Pszichológiai Egyesület Magyar Családterápiás Egyesület Magyar Hipnózis Egyesület Magyar Individuálpszichológiai Egyesület Magyar Komplex Pszichoterápiás Egyesület Magyar Mozgás és Táncterápiás Közhasznú Egyesület Magyar Pszichoanalitikus Egyesület Magyar Pszichodráma Egyesület Magyar Relaxációs és Szimbólumterápiás Egyesület Magyar Személyközpontú Pszichoterápiás és Tanácsadási Egyesület Magyar Viselkedés-, Kognitív és Sématerápiás Egyesület Pszichoanalitikusan Orientált Pszichoterápiás és Kiképző Egyesület Kedves Olvasóink! Megjelent a Pszichoterápia folyóirat legújabb száma. A Szakmai közélet laprész egyes írásai ingyenesen hozzáférhetők. A 35. évfolyam számainak válogatott tartalmai az alábbi linken érhetők el. ×"
+}

@@ -1,0 +1,251 @@
+{
+  "url": "https://asztrologusok.hu/asztrologusok/",
+  "final_url": "https://asztrologusok.hu/asztrologusok/",
+  "status": 200,
+  "sha256": "d4e6364a51569c0bba8e128a077ec992c3aa4384a0155e710b5851fdeb20803d",
+  "title": "Asztrológusok – Asztrológusok Magyarországi Egyesülete",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h3",
+      "attrs": {
+        "class": [
+          "overlay-h-title"
+        ]
+      },
+      "text": "Asztrológusok",
+      "parent": "header",
+      "parent_attrs": {
+        "class": [
+          "overlay-page-title",
+          "overlay-pagetitle-default"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Körmöczi Júlia",
+      "url": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Molnárné Gyürki Erika",
+      "url": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Pernyei Gábor",
+      "url": "https://asztrologusok.hu/2018/12/pernyei-gabor/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2018/12/pernyei-gabor/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Liszkay Judit",
+      "url": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Szabó Zsuzsanna",
+      "url": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Gál Judit",
+      "url": "https://asztrologusok.hu/2018/12/gal-judit/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2018/12/gal-judit/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Juhász Nóra",
+      "url": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+        "target": "_blank",
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Zentai Anna",
+      "url": "https://asztrologusok.hu/2018/12/zentai-anna/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2018/12/zentai-anna/"
+      }
+    },
+    {
+      "text": "Sóvári Melinda",
+      "url": "https://asztrologusok.hu/2023/05/sovari-melinda/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2023/05/sovari-melinda/"
+      }
+    },
+    {
+      "text": "Körmöczi Júlia",
+      "url": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2020/03/bogdan-kormoczi-julia/"
+      }
+    },
+    {
+      "text": "Juhász Nóra",
+      "url": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2018/12/juhasz-nora/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Szabó Zsuzsanna",
+      "url": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2020/03/szabo-zsuzsanna/"
+      }
+    },
+    {
+      "text": "Molnárné Gyürki Erika",
+      "url": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2020/03/molnarne-gyurki-erika/"
+      }
+    },
+    {
+      "text": "Liszkay Judit",
+      "url": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2018/12/liszkay-judit/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Pernyei Gábor",
+      "url": "https://asztrologusok.hu/2018/12/pernyei-gabor/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2018/12/pernyei-gabor/"
+      }
+    },
+    {
+      "text": "Gál Judit",
+      "url": "https://asztrologusok.hu/2018/12/gal-judit/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2018/12/gal-judit/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Zentai Anna",
+      "url": "https://asztrologusok.hu/2018/12/zentai-anna/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2018/12/zentai-anna/"
+      }
+    },
+    {
+      "text": "Sóvári Melinda",
+      "url": "https://asztrologusok.hu/2023/05/sovari-melinda/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2023/05/sovari-melinda/"
+      }
+    },
+    {
+      "text": "Jakab Zoltán Csaba",
+      "url": "https://asztrologusok.hu/2018/12/jakab-zoltan-csaba/",
+      "attrs": {
+        "rel": [
+          "noreferrer",
+          "noopener"
+        ],
+        "href": "https://asztrologusok.hu/2018/12/jakab-zoltan-csaba/",
+        "target": "_blank"
+      }
+    },
+    {
+      "text": "Bánhidi Viktória",
+      "url": "https://asztrologusok.hu/2026/06/banhidi-viktoria/",
+      "attrs": {
+        "href": "https://asztrologusok.hu/2026/06/banhidi-viktoria/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://asztrologusok.hu/asztrologusok/",
+      "hint": "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/14.0.0\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/14.0.0\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/asztrologusok.hu\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.3.14\"}}; /*! This file is auto-generated */ !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setIt"
+    },
+    {
+      "src": "https://asztrologusok.hu/wp-includes/js/jquery/jquery.min.js?ver=3.7.0",
+      "hint": ""
+    },
+    {
+      "src": "https://asztrologusok.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "hint": ""
+    },
+    {
+      "src": "https://asztrologusok.hu/wp-content/themes/overlay/js/custom.js?ver=2.0.11",
+      "hint": ""
+    },
+    {
+      "src": "https://asztrologusok.hu/asztrologusok/",
+      "hint": "/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);"
+    }
+  ],
+  "iframes": [],
+  "text": "Asztrológusok – Asztrológusok Magyarországi Egyesülete Skip to content Hivatalos szakmai lista: Körmöczi Júlia Molnárné Gyürki Erika Pernyei Gábor Liszkay Judit Szabó Zsuzsanna Gál Judit Juhász Nóra Zentai Anna Sóvári Melinda Körmöczi Júlia Juhász Nóra Szabó Zsuzsanna Molnárné Gyürki Erika Liszkay Judit Pernyei Gábor Gál Judit Zentai Anna Sóvári Melinda Jakab Zoltán Csaba Bánhidi Viktória Az asztrológiáról Az egyesületről Asztrológusok Lépj be! Asztrológus vagyok és belépnék! Szeretnék az egyesület pártoló tagja lenni! Egyesületi hírek Programok Tanfolyamok, workshopok az AME szervezésében Tanfolyamok, workshopok AME tagok szervezésében Szakmai csoportok AstroNovum Hírlevél Kapcsolat AME adatok Dokumentumok Könyvtár Etikai kódex és nyilvános állásfoglalások Legutóbbi bejegyzések „Asztrológiai Mozaik” előadás-sorozat indul Sziderikus asztrológia kontra tropikus asztrológia Közgyűlés 2026.05.16-án a MoM-ban! Archívum 2026. június 2026. május 2026. április 2026. január 2025. július 2025. január 2024. november 2024. március 2023. november 2023. szeptember 2023. május 2022. december 2022. május 2022. április 2022. február 2022. január 2021. szeptember 2021. április 2020. december 2020. június 2020. április 2020. március 2020. február 2020. január 2019. október 2019. március 2018. december 2018. január"
+}

@@ -1,0 +1,518 @@
+{
+  "url": "https://pontjolvagyok.hu/szakertok/",
+  "final_url": "https://pontjolvagyok.hu/szakertok/",
+  "status": 200,
+  "sha256": "ce59eb8b688aaebdd4f8e568589573ed00649618ce073417db02e7f91f1e3681",
+  "title": "Szakértők - Pont Jól Vagyok",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "text-extra-dark-gray",
+          "font-weight-500",
+          "no-margin-bottom",
+          "d-inline-block"
+        ]
+      },
+      "text": "Szakértők",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "col-12",
+          "text-center"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Kezdőlap",
+      "url": "https://pontjolvagyok.hu/",
+      "attrs": {
+        "href": "/",
+        "class": [
+          "nav-link"
+        ]
+      }
+    },
+    {
+      "text": "Szakértők",
+      "url": "https://pontjolvagyok.hu/szakertok/",
+      "attrs": {
+        "href": "https://pontjolvagyok.hu/szakertok/",
+        "aria-current": "page",
+        "class": [
+          "nav-link"
+        ]
+      }
+    },
+    {
+      "text": "Match teszt",
+      "url": "https://pontjolvagyok.hu/szakertoi-match-teszt/",
+      "attrs": {
+        "href": "https://pontjolvagyok.hu/szakertoi-match-teszt/",
+        "class": [
+          "nav-link"
+        ]
+      }
+    },
+    {
+      "text": "Események",
+      "url": "https://pontjolvagyok.hu/esemeny/",
+      "attrs": {
+        "href": "/esemeny/",
+        "class": [
+          "nav-link"
+        ]
+      }
+    },
+    {
+      "text": "Tudástár",
+      "url": "https://pontjolvagyok.hu/tudastar/",
+      "attrs": {
+        "href": "https://pontjolvagyok.hu/tudastar/",
+        "class": [
+          "nav-link"
+        ]
+      }
+    },
+    {
+      "text": "Blog/Vlog",
+      "url": "https://pontjolvagyok.hu/blog/",
+      "attrs": {
+        "href": "https://pontjolvagyok.hu/blog/",
+        "class": [
+          "nav-link"
+        ]
+      }
+    },
+    {
+      "text": "Csatlakozás Szakértőként",
+      "url": "https://pontjolvagyok.hu/csatlakozz-szakertokent/",
+      "attrs": {
+        "href": "/csatlakozz-szakertokent/",
+        "class": [
+          "nav-link"
+        ]
+      }
+    },
+    {
+      "text": "Bejelentkezés",
+      "url": "https://pontjolvagyok.hu/fiokom/?akcio=bejelentkezes",
+      "attrs": {
+        "href": "/fiokom/?akcio=bejelentkezes"
+      }
+    },
+    {
+      "text": "Regisztráció",
+      "url": "https://pontjolvagyok.hu/fiokom/?akcio=regisztracio",
+      "attrs": {
+        "href": "/fiokom/?akcio=regisztracio"
+      }
+    },
+    {
+      "text": "Grúz László",
+      "url": "https://pontjolvagyok.hu/szakertok/gruz-laszlo/",
+      "attrs": {
+        "href": "/szakertok/gruz-laszlo/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Kiss Gabriella",
+      "url": "https://pontjolvagyok.hu/szakertok/kiss-gabriella/",
+      "attrs": {
+        "href": "/szakertok/kiss-gabriella/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Meszlényi Zsuzsa",
+      "url": "https://pontjolvagyok.hu/szakertok/meszlenyi-zsuzsa/",
+      "attrs": {
+        "href": "/szakertok/meszlenyi-zsuzsa/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Makó Alida",
+      "url": "https://pontjolvagyok.hu/szakertok/mako-alida/",
+      "attrs": {
+        "href": "/szakertok/mako-alida/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Mártonffy András",
+      "url": "https://pontjolvagyok.hu/szakertok/martonffy-andras/",
+      "attrs": {
+        "href": "/szakertok/martonffy-andras/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Szuromi Veronika",
+      "url": "https://pontjolvagyok.hu/szakertok/szuromi-veronika/",
+      "attrs": {
+        "href": "/szakertok/szuromi-veronika/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Dr. Jójárt Andrea Tünde",
+      "url": "https://pontjolvagyok.hu/szakertok/dr-jojart-andrea-tunde/",
+      "attrs": {
+        "href": "/szakertok/dr-jojart-andrea-tunde/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Dr Preisz Èva Eszter",
+      "url": "https://pontjolvagyok.hu/szakertok/dr-preisz-eva-eszter/",
+      "attrs": {
+        "href": "/szakertok/dr-preisz-eva-eszter/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Oláh Sándor",
+      "url": "https://pontjolvagyok.hu/szakertok/olah-sandor/",
+      "attrs": {
+        "href": "/szakertok/olah-sandor/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Mayer Judit",
+      "url": "https://pontjolvagyok.hu/szakertok/mayer-judit/",
+      "attrs": {
+        "href": "/szakertok/mayer-judit/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Fülöp-Fehér Gabriella",
+      "url": "https://pontjolvagyok.hu/szakertok/fulop-feher-gabriella/",
+      "attrs": {
+        "href": "/szakertok/fulop-feher-gabriella/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Ratkai Dóra",
+      "url": "https://pontjolvagyok.hu/szakertok/ratkai-dora-2/",
+      "attrs": {
+        "href": "/szakertok/ratkai-dora-2/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Jakab István",
+      "url": "https://pontjolvagyok.hu/szakertok/jakab-istvan/",
+      "attrs": {
+        "href": "/szakertok/jakab-istvan/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Ötvös Veronika",
+      "url": "https://pontjolvagyok.hu/szakertok/otvos-veronika/",
+      "attrs": {
+        "href": "/szakertok/otvos-veronika/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Oláh Rita",
+      "url": "https://pontjolvagyok.hu/szakertok/olah-rita-2/",
+      "attrs": {
+        "href": "/szakertok/olah-rita-2/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Koltai Dóra",
+      "url": "https://pontjolvagyok.hu/szakertok/koltai-dora/",
+      "attrs": {
+        "href": "/szakertok/koltai-dora/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Bodó Krisztina",
+      "url": "https://pontjolvagyok.hu/szakertok/bodo-krisztina-2/",
+      "attrs": {
+        "href": "/szakertok/bodo-krisztina-2/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Kotánczi Ildikó",
+      "url": "https://pontjolvagyok.hu/szakertok/kotanczi-ildiko/",
+      "attrs": {
+        "href": "/szakertok/kotanczi-ildiko/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Bukovinszky-Nagy Ágnes",
+      "url": "https://pontjolvagyok.hu/szakertok/bukovinszky-nagy-agnes/",
+      "attrs": {
+        "href": "/szakertok/bukovinszky-nagy-agnes/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Kálmán Márta",
+      "url": "https://pontjolvagyok.hu/szakertok/kalman-marta/",
+      "attrs": {
+        "href": "/szakertok/kalman-marta/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Molnárné Orczi Hajnalka",
+      "url": "https://pontjolvagyok.hu/szakertok/molnarne-orczi-hajnalka/",
+      "attrs": {
+        "href": "/szakertok/molnarne-orczi-hajnalka/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Molnár Ildikó",
+      "url": "https://pontjolvagyok.hu/szakertok/molnar-ildiko/",
+      "attrs": {
+        "href": "/szakertok/molnar-ildiko/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Egri András",
+      "url": "https://pontjolvagyok.hu/szakertok/egri-andras/",
+      "attrs": {
+        "href": "/szakertok/egri-andras/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Bencze Csilla",
+      "url": "https://pontjolvagyok.hu/szakertok/bencze-csilla/",
+      "attrs": {
+        "href": "/szakertok/bencze-csilla/",
+        "class": [
+          "szakember_nev_link",
+          "text-extra-dark-gray",
+          "text-yellow-ochre-hover"
+        ]
+      }
+    },
+    {
+      "text": "Következő",
+      "url": "https://pontjolvagyok.hu/szakertok/?&oldal=2",
+      "attrs": {
+        "class": [
+          "tm_button"
+        ],
+        "href": "/szakertok/?&oldal=2"
+      }
+    },
+    {
+      "text": "Utolsó",
+      "url": "https://pontjolvagyok.hu/szakertok/?&oldal=4",
+      "attrs": {
+        "class": [
+          "tm_button"
+        ],
+        "href": "/szakertok/?&oldal=4"
+      }
+    },
+    {
+      "text": "Etikai kódex",
+      "url": "https://pontjolvagyok.hu/jogi-nyilatkozatok/etikai-kodex/",
+      "attrs": {
+        "href": "/jogi-nyilatkozatok/etikai-kodex/"
+      }
+    },
+    {
+      "text": "Cookie nyilatkozat",
+      "url": "https://pontjolvagyok.hu/jogi-nyilatkozatok/cookie-nyilatkozat/",
+      "attrs": {
+        "href": "/jogi-nyilatkozatok/cookie-nyilatkozat/"
+      }
+    },
+    {
+      "text": "GyIK",
+      "url": "https://pontjolvagyok.hu/gyakran-ismetelt-kerdesek/",
+      "attrs": {
+        "href": "/gyakran-ismetelt-kerdesek/"
+      }
+    },
+    {
+      "text": "Kapcsolat",
+      "url": "https://pontjolvagyok.hu/kapcsolat/",
+      "attrs": {
+        "href": "/kapcsolat/"
+      }
+    },
+    {
+      "text": "Adatvédelmi nyilatkozat",
+      "url": "https://pontjolvagyok.hu/jogi-nyilatkozatok/egyeni-adatvedelmi-nyilatkozat/",
+      "attrs": {
+        "href": "/jogi-nyilatkozatok/egyeni-adatvedelmi-nyilatkozat/"
+      }
+    },
+    {
+      "text": "ÁSZF",
+      "url": "https://pontjolvagyok.hu/jogi-nyilatkozatok/egyeni-altalanos-szerzodesi-feltetelek/",
+      "attrs": {
+        "href": "/jogi-nyilatkozatok/egyeni-altalanos-szerzodesi-feltetelek/"
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/analytics-talk-content-tracking.js?ver=1.20.3",
+      "hint": ""
+    },
+    {
+      "src": "https://www.google.com/recaptcha/api.js?hl=hu",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/szakertok/",
+      "hint": "var myAjax = {\"ajaxurl\":\"https:\\/\\/pontjolvagyok.hu\\/content\\/wp-admin\\/admin-ajax.php\"};"
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/plugins/simplepay-for-woocommerce-premium/assets/js/frontend.js?ver=1.0",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-form-move-tracker.js?ver=1.20.3",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/themes/backbone/assets/js/theme-vendors.min.js?ver=1.0.1",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/themes/backbone/assets/js/main.js?ver=1.0.1",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/themes/backbone/scripts.js?ver=1.0.1",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.2.2",
+      "hint": ""
+    },
+    {
+      "src": "https://pontjolvagyok.hu/content/wp-content/plugins/tehetszmagadert.hu/js/tm-scripts.js?ver=20261106054824250409",
+      "hint": ""
+    }
+  ],
+  "iframes": [],
+  "text": "Szakértők - Pont Jól Vagyok Szakértők | Pont Jól Vagyok - Minőségi Segítők és önismereti programok Betöltés... Keresés a szakértők között Kereső betöltése folyamatban... Célterület Területek választása Mentális, pszichikai jóllét Önismeret Önfejlesztés Stresszkezelés Félelmek, Hiedelmek Tudatos jelenlét Test-tudatosság Minőségi Kapcsolatok Párkapcsolati problémák Belső-gyermek Gyászfeldolgozás Cél, motiváció megtalálása Belső erőforrások Dühkezelés Elakadás, megrekedés Határtartás Spirituális fejlődés Önbizalom Önbecsülés Önelfogadás Férfi-Nő minőség Családi minták Szokások, negatív minták Munka-magánélet egyensúly Fizikai jóllét Pszichoszomatikus problémák Alvásproblémák Táplálkozási problémák Nehéz élethelyzet Életfeladat Férfiasság Nőiesség Apaság Anyaság Gyereknevelés Függőség Kötődési minták Párkapcsolat Identitás Szexualitás Életközepi válság Születési mintázatok Spirituális elakadás Életfeladat/Küldetés Mozaikcsalád Válás Szakmai kategória Kategória választása Mentális, lelki szintről indulva Pszichoterapeauta Klinikai szakpszichológus Pszichológus Család-/párterapeuta, Párkapcsolati facilitátor, Mediátor Coach (Life, Business, Health, Sex) Integrál Tanácsadó Mentálhigiénés segítő Hipnoterapeuta Facilitátorok (pl: PHYCH-K, Integral Relationship) Tréner, Oktató (pl.:Mindfulness, Fókusz) Pszichodráma vezető Családállítás vezető Szomatodráma vezető Önismereti csoport vezető Egyéb - mentális segítő Testi, fizikai szintről indulva Táplálkozási szakértő (pl:dietetikus, étkezési tanácsadó, stb.) Mozgás oktató, csoport vezető (pl.: Jóga, Tánc, Bodywork, stb.) Érintéssel segítő (pl.: Masszázs, Akupunktúra, Manuál terápia, Access BARS, stb.) Légzés oktató, csoport vezető (pl.:Holotrop, Transzlégzés, Biodinamikus) Alvás, Relaxáció szakértő Látás szakértő Fizikai jóllét segítése (Pl.:Kineziológus, Term. Gyógyász, Biorezonancia, Mágnesterápia, Reiki, Health Coach, Integrál orvoslás, Theta Healing) Szellemi síkról indulva Spirituális tanító, vezető Sámán Spirituális esemény szervezője, vezetője Tiszteletbeli tag Helyszín Helyszín választása Mind/Összes Fizikai Online Lokációk választása Budapest Budapest 1. kerület 2. kerület 3. kerület 4. kerület 5. kerület 6. kerület 7. kerület 8. kerület 9. kerület 10. kerület 11. kerület 12. kerület 13. kerület 14. kerület 15. kerület 16. kerület 17. kerület 18. kerület 19. kerület 20. kerület 21. kerület 22. kerület 23. kerület Bács-Kiskun megye Baja Kecskemét Kiskunfélegyháza Kiskunhalas Bács-Kiskun Egyéb Baranya megye Komló Kozármisleny Mohács Pécs Siklós Szigetvár Baranya Egyéb Békés megye Békéscsaba Gyula Orosháza Békés Egyéb Borsod-Abaúj-Zemplén megye Kazincbarcika Miskolc Ózd Borsod-Abaúj-Zemplén Egyéb Csongrád-Csanád megye Hódmezővásárhely Makó Szeged Szentes Csongrád-Csanád Egyéb Fejér megye Dunaújváros Fejér Egyéb Székesfehérvár Győr-Moson-Sopron megye Győr Mosonmagyaróvár Sopron Győr-Moson-Sopron Egyéb Hajdú-Bihar megye Debrecen Hajdúböszörmény Hajdúszoboszló Hajdú-Bihar Egyéb Heves megye Eger Gyöngyös Hatvan Heves Egyéb Jász-Nagykun-Szolnok megye Jászberény Karcag Szolnok Törökszentmiklós Jász-Nagykun-Szolnok Egyéb Komárom-Esztergom megye Esztergom Komárom Tata Tatabánya Komárom-Esztergom Egyéb Nógrád megye Salgótarján Nógrád Egyéb Pest megye Biatorbágy Budakalász Budakeszi Budaörs Cegléd Dabas Dunaharaszti Dunakeszi Érd Fót Göd Gödöllő Gyál Gyömrő Leányfalu Monor Nagykőrös Őrbottyán Pilis és környéke Pomáz Százhalombatta Szentendre Szigethalom Szigetszentmiklós Törökbálint Vác Vecsés Veresegyház Pest Egyéb Somogy megye Kaposvár Siófok Somogy Egyéb Szabolcs-Szatmár-Bereg megye Kisvárda Mátészalka Nyíregyháza Szabolcs-Szatmár-Bereg Egyéb Tolna megye Dombóvár Paks Szekszárd Tolna Egyéb Vas megye Szombathely Vas Egyéb Veszprém megye Ajka Pápa Várpalota Veszprém Veszprém Egyéb Zala megye Keszthely Nagykanizsa Zala Egyéb Zalaegerszeg Külföld Külföld Óradíj Óradíj választása 9.000 - 12.000 12.000 - 15.000 15.000 - 20.000 20.000 - 25.000 25.000 forint felett Nem értelmezhető Egyedi Egyéb szűrők Pro bono vállalás Első konzultáció ingyenes Van szabad kapacitása Keresés kulcsszóra Szakértők Összesen 89 szakértő szerepel az adatbázisban. Megjelenítve: 1-24 (oldalanként maximum 24). Grúz László 1 ajánlás Pszichológus, Coach Kiss Gabriella 4 ajánlás Integrál tanácsadó, Coach, Fókusztréner Meszlényi Zsuzsa 18 ajánlás Mentálhigiénés szakember, szomatodráma konzulens, coach, mediátor Makó Alida 5 ajánlás Mentálhigiénés szakember, Szupervizor, Coach, HR tanácsadó Mártonffy András 13 ajánlás Életvezetési, döntéshozatali coach, Életstratégia-tanácsadó Szuromi Veronika 18 ajánlás Integrál személyiségfejlesztő, Coach Dr. Jójárt Andrea Tünde 5 ajánlás Pszichoterapeuta, Coach Dr Preisz Èva Eszter 11 ajánlás pszichiáter, pszichoterapeuta, tréner Oláh Sándor 22 ajánlás Pszichológus, integrál tanácsadó, fókusztréner Mayer Judit 2 ajánlás Pszichológus, Mentálhigiénés szakember Fülöp-Fehér Gabriella 4 ajánlás Munkapszichológus, business coach Ratkai Dóra Pszichológus és művészetterápiás önismereti kísérő Jakab István 2 ajánlás Pszichológus, Autogén tréner, képzésben lévő Integratív terapeuta Ötvös Veronika 5 ajánlás Pszichológus, Test-orientált terápiás szakember Oláh Rita 16 ajánlás Mentálhigiénés szakember, integrál tanácsadó, pszichodráma vezető Koltai Dóra 34 ajánlás Mentálhigiénés szakember, integrál tanácsadó, csoportvezető Bodó Krisztina 15 ajánlás Mentálhigiénés szakember, Integrál Tanácsadó, Jógaoktató Kotánczi Ildikó 22 ajánlás Integrál tanácsadó, Kognitív Life-és Business Coach, Fókusztréner Bukovinszky-Nagy Ágnes 12 ajánlás Integrál Tanácsadó,, Bodyway csoportvezető asszisztens Kálmán Márta 7 ajánlás Integrál tanácsadó, Szupervizor, Coach, Szervezeti mentor Molnárné Orczi Hajnalka 15 ajánlás Integrál Személyiségfejlesztő, Tanácsadó, Life és Business coach Molnár Ildikó 4 ajánlás Integrál Tanácsadó, Körvezető, Válás és Újjászületés csoportvezető Egri András 11 ajánlás Integrál pszichológiai tanácsadó, Ultrarövid Terápiás® konzulens Bencze Csilla 8 ajánlás Integrál tanácsadó Következő Utolsó Aktuális oldal: 1 / 4 Összesen 89 szakértő szerepel az adatbázisban. Megjelenítve: 1-24 (oldalanként maximum 24). × Feldolgozás folyamatban... Bezárás × Feldolgozás folyamatban... Bezárás"
+}

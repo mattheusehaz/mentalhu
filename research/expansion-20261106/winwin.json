@@ -1,0 +1,1417 @@
+{
+  "url": "https://win-win-mediacio.hu/tagok/",
+  "final_url": "https://win-win-mediacio.hu/tagok/",
+  "status": 200,
+  "sha256": "599c0f63756beff756fe32db2c7acb5103e05cb9003aaab923d3b1d5e51dd230",
+  "title": "Tagok - Win-Win Mediáció",
+  "tables": [],
+  "headings": [
+    {
+      "tag": "h1",
+      "attrs": {
+        "class": [
+          "entry-title",
+          "page-title"
+        ]
+      },
+      "text": "Tagok",
+      "parent": "header",
+      "parent_attrs": {
+        "class": [
+          "entry-header"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Elnökségi tagok",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Stöckert Dávid",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Rédei-Ács Klára",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Nagy Orsolya",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h2",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Tagok",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dubravecz Gyöngyvér",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Kós Mariann",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Kiss Andrea",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Hackl Mónika",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Oláh Gyöngyi",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Pető Gabriella",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Peszeki Kata",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Tűri Béla",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Bozzay Gyöngyi",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Németh-Teke Eszter",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Bennó Zsuzsa",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Kerekes Edit",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Gyulai Zsuzsanna",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Komán Csilla",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Fehér Dóra",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Sárközy Yvette",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {},
+      "text": "",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Szilágyi Ágnes",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Kakuszi Klára",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Karaszi Andrea",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Romhányi Andrea",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Horváth Sándor Domonkos",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Könyves Gusztáv",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "dr. Hanyu Henrietta",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "dr. Kokas Edit Anna",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Nagy Erzsébet",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Nemes Dalma",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Pázmándi Róbert",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Babirák Beáta",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Murányi-Ignáth Anett",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Török Péter",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Bodó Ágnes",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Gurzó Tímea",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Pelbárt Szilvia",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Müller Beáta",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Leitner Judit",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Fodor Tünde",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Fa Emese",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Martos György",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Bolgár László",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Mecseki Boglárka",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dovicsin Renáta",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Dr. Krajcsovicz Anita",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Nyitrai Judit",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Rajkai Zsolt Csaba",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Solymár Ágnes",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Kovács Péter",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    },
+    {
+      "tag": "h3",
+      "attrs": {
+        "style": "text-align: center;"
+      },
+      "text": "Kissné Dr. Vozár Annamária",
+      "parent": "div",
+      "parent_attrs": {
+        "class": [
+          "siteorigin-widget-tinymce",
+          "textwidget"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "text": "Dr. Stöckert Dávid",
+      "url": "https://win-win-mediacio.hu/stockert-david/",
+      "attrs": {
+        "href": "https://win-win-mediacio.hu/stockert-david/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Rédei-Ács Klára",
+      "url": "http://win-win-mediacio.hu/redei-acs-klara/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/redei-acs-klara/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.acsklara.com",
+      "url": "http://www.acsklara.com",
+      "attrs": {
+        "href": "http://www.acsklara.com",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "orsolyamediacio.hu",
+      "url": "https://orsolyamediacio.hu/",
+      "attrs": {
+        "href": "https://orsolyamediacio.hu/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Dubravecz Gyöngyvér",
+      "url": "http://win-win-mediacio.hu/dubravecz-gyongyver/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dubravecz-gyongyver/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.mediatoriroda.com",
+      "url": "http://www.mediatoriroda.com",
+      "attrs": {
+        "href": "http://www.mediatoriroda.com",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Kós Mariann",
+      "url": "http://win-win-mediacio.hu/kos-mariann/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/kos-mariann/",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.mediatormiskolc.hu",
+      "url": "http://www.mediatormiskolc.hu",
+      "attrs": {
+        "href": "http://www.mediatormiskolc.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Dr. Kiss Andrea",
+      "url": "http://win-win-mediacio.hu/dr-kiss-andrea/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr-kiss-andrea/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Hackl Mónika",
+      "url": "http://win-win-mediacio.hu/hackl-monika/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/hackl-monika/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "thetakert.hu",
+      "url": "http://thetakert.hu",
+      "attrs": {
+        "href": "http://thetakert.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Oláh Gyöngyi",
+      "url": "http://win-win-mediacio.hu/olah-gyongyi/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/olah-gyongyi/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Pető Gabriella",
+      "url": "http://win-win-mediacio.hu/peto-gabriella/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/peto-gabriella/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Peszeki Kata",
+      "url": "http://win-win-mediacio.hu/peszeki-kata/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/peszeki-kata/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.hatszemkozt.hu",
+      "url": "http://www.hatszemkozt.hu",
+      "attrs": {
+        "href": "http://www.hatszemkozt.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Tűri Béla",
+      "url": "http://win-win-mediacio.hu/turi-bela/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/turi-bela/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.éntérképész.hu",
+      "url": "http://www.éntérképész.hu",
+      "attrs": {
+        "href": "http://www.éntérképész.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.bozzaylawoffice.hu",
+      "url": "http://www.bozzaylawoffice.hu",
+      "attrs": {
+        "href": "http://www.bozzaylawoffice.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Németh-Teke Eszter",
+      "url": "http://win-win-mediacio.hu/nemeth-teke-eszter/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/nemeth-teke-eszter/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Bennó Zsuzsa",
+      "url": "http://win-win-mediacio.hu/benno-zsuzsa/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/benno-zsuzsa/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Dr. Kerekes Edit",
+      "url": "http://win-win-mediacio.hu/dr-kerekes-edit/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr-kerekes-edit/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Gyulai Zsuzsanna",
+      "url": "http://win-win-mediacio.hu/gyulai-zsuzsanna/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/gyulai-zsuzsanna/",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "kezirasmenedzser.hu",
+      "url": "https://kezirasmenedzser.hu/",
+      "attrs": {
+        "href": "https://kezirasmenedzser.hu/",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Komán Csilla",
+      "url": "http://win-win-mediacio.hu/?page_id=422&preview=true",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/?page_id=422&preview=true",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "coach.komancsilla.com",
+      "url": "http://coach.komancsilla.com/",
+      "attrs": {
+        "href": "http://coach.komancsilla.com/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Dr. Fehér Dóra",
+      "url": "http://win-win-mediacio.hu/dr-feher-dora/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr-feher-dora/"
+      }
+    },
+    {
+      "text": "feherdora-mediator.hu",
+      "url": "https://feherdora-mediator.hu",
+      "attrs": {
+        "href": "https://feherdora-mediator.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Sárközy Yvette",
+      "url": "http://win-win-mediacio.hu/sarkozy-yvette/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/sarkozy-yvette/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.megoldvajo.hu",
+      "url": "http://www.megoldvajo.hu",
+      "attrs": {
+        "href": "http://www.megoldvajo.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Dr. Szilágyi Ágnes",
+      "url": "http://win-win-mediacio.hu/dr-szilagyi-agnes/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr-szilagyi-agnes/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "mediatorirodaszeged.hu",
+      "url": "http://mediatorirodaszeged.hu",
+      "attrs": {
+        "href": "http://mediatorirodaszeged.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Kakuszi Klára",
+      "url": "http://win-win-mediacio.hu/kakuszi-klara/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/kakuszi-klara/"
+      }
+    },
+    {
+      "text": "www.mediatorirodaszeged.hu",
+      "url": "http://www.mediatorirodaszeged.hu",
+      "attrs": {
+        "href": "http://www.mediatorirodaszeged.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Karaszi Andrea",
+      "url": "http://win-win-mediacio.hu/karaszi-andrea/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/karaszi-andrea/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "konzultaciok-neked.hu",
+      "url": "http://konzultaciok-neked.hu",
+      "attrs": {
+        "href": "http://konzultaciok-neked.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Romhányi Andrea",
+      "url": "http://win-win-mediacio.hu/romhanyi-andrea/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/romhanyi-andrea/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Dr. Horváth Sándor Domonkos",
+      "url": "http://win-win-mediacio.hu/dr-horvath-sandor-domonkos/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr-horvath-sandor-domonkos/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Könyves Gusztáv",
+      "url": "http://win-win-mediacio.hu/?page_id=389&preview=true",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/?page_id=389&preview=true",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "http://erismediator.hu",
+      "url": "http://erismediator.hu",
+      "attrs": {
+        "href": "http://erismediator.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "dr. Hanyu Henrietta",
+      "url": "http://win-win-mediacio.hu/drhanyu-henrietta",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/drhanyu-henrietta",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.hanyuhenrietta.hu",
+      "url": "https://www.hanyuhenrietta.hu",
+      "attrs": {
+        "href": "https://www.hanyuhenrietta.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "dr. Kokas Edit Anna",
+      "url": "http://win-win-mediacio.hu/dr-kokas-edit-anna/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr-kokas-edit-anna/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "drkokasedit.hu",
+      "url": "https://drkokasedit.hu/",
+      "attrs": {
+        "href": "https://drkokasedit.hu/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Nagy Erzsébet",
+      "url": "http://win-win-mediacio.hu/nagy-erzsebet/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/nagy-erzsebet/"
+      }
+    },
+    {
+      "text": "Dr. Nemes Dalma",
+      "url": "http://win-win-mediacio.hu/dr-nemes-dalma/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr-nemes-dalma/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "LinkedIn Dr. Nemes Dalma",
+      "url": "https://www.linkedin.com/in/dr-nemes-dalma-168a49b5/",
+      "attrs": {
+        "href": "https://www.linkedin.com/in/dr-nemes-dalma-168a49b5/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Pázmándi Róbert",
+      "url": "http://win-win-mediacio.hu/pazmandi-robert/",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/pazmandi-robert/"
+      }
+    },
+    {
+      "text": "szolnokimediacio.hu",
+      "url": "https://www.szolnokimediacio.hu/",
+      "attrs": {
+        "href": "https://www.szolnokimediacio.hu/"
+      }
+    },
+    {
+      "text": "Babirák Beáta",
+      "url": "http://win-win-mediacio.hu/babirak-beata",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/babirak-beata",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "www.mentatlon.hu",
+      "url": "https://www.mentatlon.hu",
+      "attrs": {
+        "href": "https://www.mentatlon.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener",
+          "noreferrer"
+        ]
+      }
+    },
+    {
+      "text": "Dr. Murányi-Ignáth Anett",
+      "url": "http://win-win-mediacio.hu/dr.-muranyi-ignath-anett",
+      "attrs": {
+        "href": "http://win-win-mediacio.hu/dr.-muranyi-ignath-anett",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.drignathanett.hu",
+      "url": "https://www.drignathanett.hu",
+      "attrs": {
+        "href": "https://www.drignathanett.hu",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.mullerbea-mediator.hu",
+      "url": "https://www.mullerbea-mediator.hu/",
+      "attrs": {
+        "href": "https://www.mullerbea-mediator.hu/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "Rajkai Zsolt Csaba",
+      "url": "https://win-win-mediacio.hu/rajkai-zsolt-csaba/",
+      "attrs": {
+        "href": "https://win-win-mediacio.hu/rajkai-zsolt-csaba/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "www.mediatorok.com",
+      "url": "http://www.mediatorok.com",
+      "attrs": {
+        "href": "http://www.mediatorok.com",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    },
+    {
+      "text": "kovacspetermediator.hu/",
+      "url": "https://kovacspetermediator.hu/",
+      "attrs": {
+        "href": "https://kovacspetermediator.hu/",
+        "target": "_blank",
+        "rel": [
+          "noopener"
+        ]
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://win-win-mediacio.hu/wp-includes/js/jquery/jquery.min.js?ver=3.6.0",
+      "hint": ""
+    },
+    {
+      "src": "https://win-win-mediacio.hu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+      "hint": ""
+    },
+    {
+      "src": "https://win-win-mediacio.hu/wp-content/themes/mh-magazine-lite/js/scripts.js?ver=2.8.6",
+      "hint": ""
+    },
+    {
+      "src": "https://win-win-mediacio.hu/tagok/",
+      "hint": "/* <![CDATA[ */ var cnArgs = {\"ajaxUrl\":\"https:\\/\\/win-win-mediacio.hu\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"36dd269399\",\"hideEffect\":\"fade\",\"position\":\"bottom\",\"onScroll\":\"0\",\"onScrollOffset\":\"100\",\"onClick\":\"0\",\"cookieName\":\"cookie_notice_accepted\",\"cookieTime\":\"2592000\",\"cookieTimeRejected\":\"2592000\",\"cookiePath\":\"\\/\",\"cookieDomain\":\"\",\"redirection\":\"0\",\"cache\":\"0\",\"refuse\":\"1\",\"revokeCookies\":\"0\",\"revokeCookiesOpt\":\"automatic\",\"secure\":\"1\"}; /*"
+    },
+    {
+      "src": "https://win-win-mediacio.hu/wp-content/plugins/cookie-notice/includes/../js/front.min.js?ver=2.0.3",
+      "hint": ""
+    },
+    {
+      "src": "https://win-win-mediacio.hu/tagok/",
+      "hint": "/* <![CDATA[ */ var wpcf7 = {\"apiSettings\":{\"root\":\"https:\\/\\/win-win-mediacio.hu\\/wp-json\\/contact-form-7\\/v1\",\"namespace\":\"contact-form-7\\/v1\"}}; /* ]]> */"
+    },
+    {
+      "src": "https://win-win-mediacio.hu/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.9",
+      "hint": ""
+    }
+  ],
+  "iframes": [],
+  "text": "Tagok - Win-Win Mediáció Elnökségi tagok Dr. Stöckert Dávid Win-Win Mediátorok Egyesülete elnök Budapest Rédei-Ács Klára Win-Win Mediátorok Egyesülete alelnök Budapest, Pest megye www.acsklara.com Nagy Orsolya Win-Win Mediátorok Egyesülete alelnök Szolnok orsolyamediacio.hu Tagok Dubravecz Gyöngyvér Win-Win Mediátorok Egyesülete alapító elnök Budapest www.mediatoriroda.com Kós Mariann alapító tag Budapest, Miskolc www.mediatormiskolc.hu Dr. Kiss Andrea alapító tag Budapest Hackl Mónika alapító tag Budapest thetakert.hu Oláh Gyöngyi alapító tag Budapest Pető Gabriella alapító tag Budapest Peszeki Kata alapító tag Budapest www.hatszemkozt.hu Tűri Béla alapító tag www.éntérképész.hu Dr. Bozzay Gyöngyi alapító tag www.bozzaylawoffice.hu Németh-Teke Eszter alapító tag Sopron Bennó Zsuzsa alapító tag Budapest Dr. Kerekes Edit tag Debrecen Gyulai Zsuzsanna tag Balatonkeresztúr kezirasmenedzser.hu Komán Csilla alapító tag Budapest coach.komancsilla.com Dr. Fehér Dóra tag Szeged, Budapest feherdora-mediator.hu Sárközy Yvette tag Győr www.megoldvajo.hu Dr. Szilágyi Ágnes tag Szeged mediatorirodaszeged.hu Kakuszi Klára tag Szeged www.mediatorirodaszeged.hu Karaszi Andrea Win-Win Mediátorok Egyesülete alelnök Budapest konzultaciok-neked.hu Romhányi Andrea alapító tag Budapest Dr. Horváth Sándor Domonkos tag Győr Könyves Gusztáv tag Tata http://erismediator.hu dr. Hanyu Henrietta tag Budapest www.hanyuhenrietta.hu dr. Kokas Edit Anna tag Győr drkokasedit.hu Nagy Erzsébet tag Szeged Dr. Nemes Dalma tag Budapest LinkedIn Dr. Nemes Dalma Pázmándi Róbert tag Szolnok szolnokimediacio.hu Babirák Beáta tag Budapest, Göd www.mentatlon.hu Dr. Murányi-Ignáth Anett tag Budapest www.drignathanett.hu Török Péter alapító tag Székesfehérvár Bodó Ágnes alapító tag Budapest Gurzó Tímea tag Budakalász Dr. Pelbárt Szilvia tag Nagykovácsi Müller Beáta tag Budapest www.mullerbea-mediator.hu Dr. Leitner Judit alapító tag Budapest Dr. Fodor Tünde alapító tag Budapest Fa Emese alapító tag Budapest Martos György tag Nőtincs Bolgár László tag Böde Mecseki Boglárka tag Budapest Dovicsin Renáta tag Vecsés Dr. Krajcsovicz Anita tag Békéscsaba Nyitrai Judit alapító tag Budapest Rajkai Zsolt Csaba tag Pécs www.mediatorok.com Solymár Ágnes tag Veszprém Kovács Péter tag Budapest kovacspetermediator.hu/ Kissné Dr. Vozár Annamária tag Békéscsaba Keresés: Win-Win Mediáció a facebookon Win-Win Válási és Gazdasági Mediátorok Országos Egyesülete Win-Win Mediáció oldalak Kezdőlap Szolgáltatások Válási mediáció Gazdasági mediáció Iskolai mediáció Párkapcsolati mediáció Családi mediáció Rólunk Tagok Tagfelvétel NEA támogatás Magazin Aktuális Itt vagyunk elérhetőek Cím Aradi vértanúk útja 2. H-7625 Pécs, óra Hétfő—Péntek: 09:00–17:00 Szombat & Vasárnap: 11:00–15:00 Keresés Keresés: A honlap névjegye Ez egy lehetséges jó hely ahhoz, hogy néhány szóval bemutassuk magunkat, vagy a honlapunkat, vagy köszönetet mondjunk valamiért. Itt vagyunk elérhetőek Cím Aradi vértanúk útja 2. H-7625 Pécs, óra Hétfő—Péntek: 09:00–17:00 Szombat & Vasárnap: 11:00–15:00 Copyright © 2026 | WordPress Theme by MH Themes Tájékoztatjuk, hogy a honlap felhasználói élmény fokozásának érdekében sütiket alkalmazunk. A honlapunk használatával ön a tájékoztatásunkat tudomásul veszi. Elfogadom Nem Adatkezelési tájékoztató"
+}
