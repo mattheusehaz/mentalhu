@@ -2,7 +2,7 @@ name: Build expanded directory release
 on:
   push:
     branches: [data/expansion-1000-20261106]
-    paths: [scripts/prepare-expanded-release.py, scripts/test-expanded-catalog.cjs, scripts/finalize-source-audit.py, scripts/collect-hospital-specialists.py, scripts/complete-resource-categories.py, lib/contact-inquiries.cjs, contact.js, admin/contact-admin.js, .github/workflows/build-expanded-release.yml]
+    paths: [scripts/prepare-expanded-release.py, scripts/review-expanded-release.py, scripts/test-expanded-catalog.cjs, scripts/test-contact-browser.cjs, lib/contact-inquiries.cjs, contact.js, admin/contact-admin.js, .github/workflows/build-expanded-release.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -12,14 +12,11 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 12
     services:
       postgres:
         image: postgres:16
-        env:
-          POSTGRES_USER: ci
-          POSTGRES_PASSWORD: ci-local-only
-          POSTGRES_DB: mentalhu_test
+        env: {POSTGRES_USER: ci, POSTGRES_PASSWORD: ci-local-only, POSTGRES_DB: mentalhu_test}
         ports: ['5432:5432']
         options: >-
           --health-cmd "pg_isready -U ci -d mentalhu_test"
@@ -34,33 +31,45 @@ jobs:
       - uses: actions/setup-node@v4
         with: {node-version: '20', cache: npm}
       - run: pip install requests beautifulsoup4
-      - name: Finish source-backed small categories
+      - name: Apply final publication review
         run: |
-          if [ ! -f research/expansion-20261106/hospital-report.json ]; then python scripts/collect-hospital-specialists.py; fi
-          if [ ! -f research/expansion-20261106/resources-report.json ]; then python scripts/complete-resource-categories.py; fi
           python scripts/collect-directory-data.py
-          python scripts/finalize-source-audit.py
-          python scripts/collect-directory-data.py
-      - name: Prepare additive data migrations and contact wiring
-        run: python scripts/prepare-expanded-release.py
-      - name: Install pinned SMTP library and validate application syntax
+          python scripts/review-expanded-release.py data
+          python scripts/prepare-expanded-release.py
+          python scripts/review-expanded-release.py code
+      - name: Validate application syntax
         run: |
-          npm install --save-exact nodemailer
+          npm ci
           node --check server.js
           node --check lib/contact-inquiries.cjs
           node --check lib/public-catalog.cjs
           node --check contact.js
           node --check admin/contact-admin.js
-          node --check scripts/test-expanded-catalog.cjs
       - name: Verify all categories, every public page and inquiry lifecycle
         run: node scripts/test-expanded-catalog.cjs
+      - name: Install isolated browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/browser-tools" --no-package-lock --no-audit --no-fund playwright@1.56.1
+          "$RUNNER_TEMP/browser-tools/node_modules/.bin/playwright" install --with-deps chromium
+          echo "BROWSER_TOOLS=$RUNNER_TEMP/browser-tools/node_modules/playwright" >> "$GITHUB_ENV"
+      - name: Verify real browser form and admin handling
+        run: node scripts/test-contact-browser.cjs
+      - name: Generate reviewed release file manifest
+        run: |
+          python - <<'PY'
+          import json,subprocess
+          paths=['server.js','index.html','lib/public-catalog.cjs','lib/contact-inquiries.cjs','contact.js','contact.css','admin/index.html','admin/kapcsolatfelvetelek.html','admin/contact-admin.js','package.json','package-lock.json','migrations/006_extended_categories.sql','migrations/007_sourced_catalog_expansion.sql','migrations/008_contact_inquiries.sql','catalog-release.json','docs/contact-setup.md','scripts/test-expanded-catalog.cjs','scripts/test-contact-browser.cjs','.github/workflows/expanded-directory-ci.yml']
+          elements=[dict(path=p,mode='100644',type='blob',sha=subprocess.check_output(['git','hash-object','-w',p],text=True).strip()) for p in paths]
+          for p in ['.github/workflows/database-smoke.yml','.github/workflows/catalog-pagination.yml','.github/workflows/home-category-counts.yml','.github/workflows/database-tls.yml']:elements.append(dict(path=p,mode='100644',type='blob',sha=None))
+          with open('release-file-manifest.json','w') as f:json.dump({'elements':elements,'excludes_raw_research':True,'integration_tests':True,'browser_tests':True,'real_emails_sent':0},f,indent=2)
+          PY
       - name: Save generated files and audit on the research branch only
         if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add research/expansion-20261106 migrations server.js index.html lib/public-catalog.cjs lib/contact-inquiries.cjs admin/index.html admin/kapcsolatfelvetelek.html package.json package-lock.json
-          for f in catalog-release.json release-test-report.json; do if [ -f "$f" ]; then git add "$f"; fi; done
-          git diff --cached --quiet || git commit -m 'Build source-backed expanded catalog and private inquiry release for review'
+          git add research/expansion-20261106 migrations server.js index.html lib/public-catalog.cjs lib/contact-inquiries.cjs admin/index.html admin/kapcsolatfelvetelek.html package.json package-lock.json scripts/test-expanded-catalog.cjs
+          for f in catalog-release.json release-test-report.json browser-test-report.json release-file-manifest.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          git diff --cached --quiet || git commit -m 'Finalize tested expanded catalog and contact UI without exposing research files'
           git pull --rebase origin data/expansion-1000-20261106
           git push origin HEAD:data/expansion-1000-20261106
