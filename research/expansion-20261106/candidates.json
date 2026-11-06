@@ -13364,15 +13364,20 @@
     "source_url": "https://csaladterapia.hu/csaladterapeutat-keres",
     "source_name": "Magyar Családterápiás Egyesület",
     "categories": [
-      "par-es-csaladterapeutak"
+      "hipnoterapeutak",
+      "par-es-csaladterapeutak",
+      "pszichologusok"
     ],
     "sources": [
-      "https://csaladterapia.hu/csaladterapeutat-keres"
+      "https://csaladterapia.hu/csaladterapeutat-keres",
+      "https://hipnozis-mhe.hu/userprofile/sergabriella/"
     ],
     "existing_slug": null,
     "evidence": "családterapeuta",
     "retrieved_at": "2026-11-06",
-    "verified": false
+    "verified": false,
+    "email": "sergabriella@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/sergabriella/"
   },
   {
     "slug": "sharmane-dippold-zsuzsanna",
@@ -18288,16 +18293,20 @@
     "source_url": "https://integrativ.hu/integrativ-terapeutak",
     "source_name": "Integratív Pszichoterápiás Egyesület",
     "categories": [
+      "hipnoterapeutak",
       "pszichiaterek",
       "pszichoterapeutak"
     ],
     "sources": [
-      "https://integrativ.hu/integrativ-terapeutak"
+      "https://integrativ.hu/integrativ-terapeutak",
+      "https://hipnozis-mhe.hu/userprofile/fadgyas/"
     ],
     "existing_slug": null,
     "evidence": "pszichoterapeuta, pszichiáter, addiktológus szakorvos",
     "retrieved_at": "2026-11-06",
-    "verified": false
+    "verified": false,
+    "email": "drfadgyasildiko@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/fadgyas/"
   },
   {
     "slug": "feher-gabriella",
@@ -18411,16 +18420,20 @@
     "source_url": "https://integrativ.hu/integrativ-terapeutak",
     "source_name": "Integratív Pszichoterápiás Egyesület",
     "categories": [
+      "hipnoterapeutak",
       "pszichiaterek",
       "pszichoterapeutak"
     ],
     "sources": [
-      "https://integrativ.hu/integrativ-terapeutak"
+      "https://integrativ.hu/integrativ-terapeutak",
+      "https://hipnozis-mhe.hu/userprofile/gatnes/"
     ],
     "existing_slug": null,
     "evidence": "pszichoterapeuta, pszichiáter szakorvos",
     "retrieved_at": "2026-11-06",
-    "verified": false
+    "verified": false,
+    "email": "gatiagi@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/gatnes/"
   },
   {
     "slug": "goldmann-ne-feher-hajnalka",
@@ -27974,6 +27987,2265 @@
     "evidence": "Komplementer módszereket oktató képzőhely; nem egészségügyi ellátási ajánlás.",
     "retrieved_at": "2026-11-06",
     "verified": false
+  },
+  {
+    "slug": "beszterci-felicia",
+    "name": "Beszterci Felícia",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/besztercif/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichiaterek"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/besztercif/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "besztercif@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/besztercif/"
+  },
+  {
+    "slug": "biro-gyula",
+    "name": "Biró Gyula",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/biro/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/biro/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "drgybiro@t-online.hu",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/biro/"
+  },
+  {
+    "slug": "borzsak-eniko",
+    "name": "Borzsák Enikő",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/borzsak.eniko/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/borzsak.eniko/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "eniko357@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/borzsak.eniko/"
+  },
+  {
+    "slug": "csaszar-zsuzsanna",
+    "name": "Császár Zsuzsanna",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/zsuzsu/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/zsuzsu/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "lehellet@icloud.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/zsuzsu/"
+  },
+  {
+    "slug": "csaszar-nagy-noemi",
+    "name": "Császár-Nagy Noémi",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/ncsaszar/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/ncsaszar/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "noemi.csaszar@areus.hu",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/ncsaszar/"
+  },
+  {
+    "slug": "david-tamas",
+    "name": "Dávid Tamás",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/davidtamas/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/davidtamas/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "davidtam.25@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/davidtamas/"
+  },
+  {
+    "slug": "med-menyhart-marianna",
+    "name": "Dr. med. Menyhárt Marianna",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/memarianna/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/memarianna/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "orvosihipnozis@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/memarianna/"
+  },
+  {
+    "slug": "fa-agnes",
+    "name": "Fa Ágnes",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/faagi/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/faagi/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "faagnes@t-online.hu",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/faagi/"
+  },
+  {
+    "slug": "fekete-olivia",
+    "name": "Fekete Olivia",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/fekete.olivia/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/fekete.olivia/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "drfeketeolivia@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/fekete.olivia/"
+  },
+  {
+    "slug": "jakubovits-edit",
+    "name": "Jakubovits Edit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/jakedit/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/jakedit/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "jakedit62@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/jakedit/"
+  },
+  {
+    "slug": "kelemen-szilagyi-adrienn",
+    "name": "Kelemen-Szilágyi Adrienn",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/kszilagyi/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/kszilagyi/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "szilidri@yahoo.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/kszilagyi/"
+  },
+  {
+    "slug": "kemeny-katalin",
+    "name": "Kemény Katalin",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/kemenykatalin/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/kemenykatalin/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "kemenykatalinpsy@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/kemenykatalin/"
+  },
+  {
+    "slug": "koplanyi-katalin",
+    "name": "Koplányi Katalin",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/honey/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichiaterek"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/honey/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "kopikat8@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/honey/"
+  },
+  {
+    "slug": "kovacs-zoltan-ambrus",
+    "name": "Kovács Zoltán Ambrus",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/k.zoltanambrus/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "neurologia",
+      "pszichiaterek"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/k.zoltanambrus/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "k.zoltanambrus@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/k.zoltanambrus/"
+  },
+  {
+    "slug": "molnar-judit-eszter",
+    "name": "Molnár Judit Eszter",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/mje/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "pszichologusok"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/mje/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "juditeszter.molnar@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/mje/"
+  },
+  {
+    "slug": "palinkas-imre",
+    "name": "Pálinkás Imre",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/dpi/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/dpi/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "sceptrum8@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/dpi/"
+  },
+  {
+    "slug": "papp-zoltan",
+    "name": "Papp Zoltán",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/pappz/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak",
+      "neurologia",
+      "pszichiaterek"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/pappz/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "pappzoltan48@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/pappz/"
+  },
+  {
+    "slug": "somogyi-erika",
+    "name": "Somogyi Erika",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/viztigris/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/viztigris/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "viztigris@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/viztigris/"
+  },
+  {
+    "slug": "soti-csaba",
+    "name": "Sőti Csaba",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/soticsaba/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/soticsaba/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "soticsaba@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/soticsaba/"
+  },
+  {
+    "slug": "sumeg-szilvia",
+    "name": "Sümeg Szilvia",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Hipnoterápiás képzettség az MHE nyilvános jegyzéke szerint; a pontos alapvégzettség a forrásoldalon.",
+    "website_url": "",
+    "source_url": "https://hipnozis-mhe.hu/userprofile/sumszi/",
+    "source_name": "Magyar Hipnózis Egyesület",
+    "categories": [
+      "hipnoterapeutak"
+    ],
+    "sources": [
+      "https://hipnozis-mhe.hu/userprofile/sumszi/"
+    ],
+    "existing_slug": null,
+    "evidence": "Az egyesület terapeutajegyzékében hipnoterápiás képzettséggel szerepel. A pontos alapvégzettség és az ellátás feltételei a szakember profilján ellenőrizhetők.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "sumegszilvia@gmail.com",
+    "email_source_url": "https://hipnozis-mhe.hu/userprofile/sumszi/"
+  },
+  {
+    "slug": "bakos-kornel",
+    "name": "Bakos Kornél",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://bakoskornel.hu/tanfolyamok/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "bakoskornel@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "bodi-andrea",
+    "name": "Bódi Andrea",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "csengodine-harsanyi-henriette",
+    "name": "Csengődiné Harsányi Henriette",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://www.hettikincsesladaja.hu/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "hetti.csengodi@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "csontosne-takacs-annamaria",
+    "name": "Csontosné Takács Annamária",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://facebook.com/agykontroll.gyerek.annamari",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "cstannamari@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "gabor-agota",
+    "name": "Gábor Ágota",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "gyerekakfehervar@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "harnoczi-erzsebet",
+    "name": "Harnóczi Erzsébet",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://www.lehetszjobb.hu/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "hartyanine-barta-judit",
+    "name": "Hartyániné Barta Judit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "hartyaninejudit@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "hoffbauerne-sinko-csilla",
+    "name": "Hoffbauerné Sinkó Csilla",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://hscsilla.hu/index.php/bemutatkozas/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "hscsilla@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "hoffer-eva",
+    "name": "Hoffer Éva",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.hoffereva.hu",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "hoffer.eva@hotmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "horvath-brigitta",
+    "name": "Horváth Brigitta",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://www.horvathbrigi.com/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "horvathbrigi.veszprem@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "jelenka-eva",
+    "name": "Jelenka Éva",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.gyermekagykontroll.com",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "agykontroll58@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "kelemen-gyula",
+    "name": "Kelemen Gyula",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "kelemondo49@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "kerteszne-magyar-judit",
+    "name": "Kertészné Magyar Judit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.facebook.com/profile.php?id=61551788248880",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "gyerekagykontrollzseni@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "klemne-ujvari-viktoria",
+    "name": "Klemné Újvári Viktória",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://www.facebook.com/agykalandok",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "klemneujvariviki@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "korbacskane-varga-judit",
+    "name": "Korbacskáné Varga Judit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.agykontrollgyerekeknek.com/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "korbacska.judit@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "kovacs-erika",
+    "name": "Kovács Erika",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://www.kovacserika.com/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@kovacserika.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "makra-zsuzsanna",
+    "name": "Makra Zsuzsanna",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.facebook.com/agykontroll.gyerek.makrazsu",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "zsu.makra@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "maszlag-aniko",
+    "name": "Maszlag Anikó",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "molnar-henriett",
+    "name": "Molnár Henriett",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "nemeth-eszter-judit",
+    "name": "Németh Eszter Judit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "gyermekagykontrollsopron@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "perczel-zoltan",
+    "name": "Perczel Zoltán",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "petercsak-maxim",
+    "name": "Pétercsák Maxim",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://alfahullam.hu",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@alfahullam.hu",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "safrany-irma",
+    "name": "Sáfrány Irma",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "sandor-csilla-judit",
+    "name": "Sándor Csilla Judit",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "strasszer-helga",
+    "name": "Strasszer Helga",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://www.agyturbozas.hu/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "shelga.info@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "szakos-ibolya",
+    "name": "Szakos Ibolya",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "matrozcsoki@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "szekely-gabriella",
+    "name": "Székely Gabriella",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.facebook.com/jolelekkucko",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "jolelekkucko@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "tanko-laszlone",
+    "name": "Tankó Lászlóné",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "tankomarika@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "tihanyi-rita",
+    "name": "Tihanyi Rita",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://gyermekagykontroll.hu",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "hello@gyermekagykontroll.hu",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "topane-illes-ildiko",
+    "name": "Topáné Illés Ildikó",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://gyerekagykontrolltanfolyam.hu",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "topaildiko.topaildiko@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "torokne-marosvolgyi-agnes",
+    "name": "Törökné Marosvölgyi Ágnes",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.facebook.com/agykontrollgyermekeknek/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "marosvolgyi.agnes@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "torocsik-szilvia",
+    "name": "Törőcsik Szilvia",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "szilvia.t@gmx.net",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "varga-diana",
+    "name": "Varga Diána",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "http://www.gyerekagykontroll.com/",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "vargadia@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "wittmann-nagy-renata",
+    "name": "Wittmann-Nagy Renáta",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "",
+    "website_url": "https://www.facebook.com/profile.php?id=61550027292808",
+    "source_url": "https://agykontroll.hu/gyerekoktatok/",
+    "source_name": "Agykontroll Kft. – gyermekoktatói névsor",
+    "categories": [
+      "agykontroll"
+    ],
+    "sources": [
+      "https://agykontroll.hu/gyerekoktatok/"
+    ],
+    "existing_slug": null,
+    "evidence": "A szervező nyilvános gyermekagykontroll-oktatói névsorában szerepel. Önismereti és tanulási program, nem egészségügyi szolgáltatás.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "gyermekagykontrollsiofok@gmail.com",
+    "email_source_url": "https://agykontroll.hu/gyerekoktatok/"
+  },
+  {
+    "slug": "csolnoky-ferenc-korhaz-gyermek-es-ifjusagi-pszichiatriai-szakrendeles-es-gondozo",
+    "name": "Csolnoky Ferenc Kórház Gyermek- és Ifjúsági Pszichiátriai Szakrendelés és Gondozó",
+    "kind": "organization",
+    "city": "Veszprém",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "gyermekpszveszprem@gmail.com",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "szte-szent-gyorgyi-albert-klinikai-kozpont-gyermekgyogyaszati-klinika-gyermek-es-ifjusagpszichiatriai-szakrendeles",
+    "name": "SZTE, Szent-Györgyi Albert Klinikai Központ Gyermekgyógyászati Klinika Gyermek és Ifjúságpszichiátriai szakrendelés",
+    "kind": "organization",
+    "city": "Szeged",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "salgotarjan-megyei-korhaz",
+    "name": "Salgótarján Megyei Kórház",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "pecs-egyesitett-egeszsegugyi-intezmenyek-gyermekpszichiatria",
+    "name": "Pécs-Egyesített Egészségügyi Intézmények-Gyermekpszichiátria",
+    "kind": "organization",
+    "city": "Pécs",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "pecs-klinikai-kozpont-gyermekgyogyaszati-klinika",
+    "name": "Pécs Klinikai Központ Gyermekgyógyászati Klinika",
+    "kind": "organization",
+    "city": "Pécs",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "toparti-pedagogiai-szakszolgalat-es-szakambulancia",
+    "name": "Tóparti Pedagógiai Szakszolgálat és Szakambulancia",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "kenezy-gyula-korhaz-rendelointezet-gyermek-es-ifjusagpszichiatriai-osztaly-gyermekpszichiatriai-szakrendeles",
+    "name": "Kenézy Gyula Kórház Rendelőintézet Gyermek és Ifjúságpszichiátriai Osztály Gyermekpszichiátriai szakrendelés",
+    "kind": "organization",
+    "city": "Debrecen",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "szabolcs-szatmar-bereg-megyei-korhazak-es-egyetemi-oktatokorhaz-josa-andras-oktatokorhaz-gyermekosztaly-gyermek-pszichiatriai-szakambulancia",
+    "name": "Szabolcs-Szatmár-Bereg megyei Kórházak és Egyetemi Oktatókórház Jósa András Oktatókórház Gyermekosztály Gyermek-pszichiátriai szakambulancia",
+    "kind": "organization",
+    "city": "Nyíregyháza",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "dr.dicso.ferenc@szszbmk.hu",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "jasz-nagykun-szolnok-megyei-hetenyi-geza-korhaz-rendelointezet-gyermek-pszichiatriai-szakrendeles",
+    "name": "Jász-Nagykun-Szolnok Megyei Hetényi Géza Kórház-Rendelőintézet Gyermek Pszichiátriai Szakrendelés",
+    "kind": "organization",
+    "city": "Szolnok",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "gyermekideggondozo@hetenyikorhaz.hu",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "elso-lepesek-kora-gyermekkori-intervencios-alapitvany",
+    "name": "Első Lépések Kora Gyermekkori Intervenciós Alapítvány",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "duraczky-egymi-kaposvar",
+    "name": "Duráczky EGYMI Kaposvár",
+    "kind": "organization",
+    "city": "Kaposvár",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "bajai-korhaz-gyermek-es-mentalhygienes-gondozo",
+    "name": "Bajai Kórház Gyermek- és Mentálhygiénés Gondozó",
+    "kind": "organization",
+    "city": "",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "se-i-sz-gyermekgyogyaszati-klinika-gyermek-es-ifjusagpszichiatria",
+    "name": "SE I. sz. Gyermekgyógyászati Klinika, Gyermek- és Ifjúságpszichiátria",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "forrashaz-gondozasi-kozpont",
+    "name": "Forrásház Gondozási Központ",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "budapesti-korai-fejleszto-kozpont",
+    "name": "Budapesti Korai Fejlesztő Központ",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "http://www.koraifejleszto.hu/",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "titkarsag@koraifejleszto.hu",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "aranykapu-gyermekhaz",
+    "name": "Aranykapu Gyermekház",
+    "kind": "organization",
+    "city": "Kecskemét",
+    "qualifications": "",
+    "website_url": "http://www.aranykapugyermekhaz.hu/",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@aranykapugyermekhaz.hu",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "vadaskert-alapitvany",
+    "name": "Vadaskert Alapítvány",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "http://84.206.43.26:7080/ellatas/xtek/;jsessionid=75b4eb86a17f9291ad9c8295d0be?0",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info@vadasnet.hu",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "bethesda-kidsz",
+    "name": "BETHESDA KIDSz",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.bethesda.hu/osztaly/korai-fejlesztes-es-diagnosztika",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "bethesdakidsz@bethesda.hu",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "nemzetkozi-cseperedo-alapitvany",
+    "name": "Nemzetközi Cseperedő Alapítvány",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "http://www.cseperedo.hu/",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "info.cseperedo@gmail.com",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "heim-pal-gyermekkorhaz-faludi-utcai-telephely-mentalhigieniai-kozpont",
+    "name": "Heim Pál Gyermekkórház - Faludi utcai telephely Mentálhigiéniai Központ",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "autizmus-alapitvany",
+    "name": "Autizmus Alapítvány",
+    "kind": "organization",
+    "city": "Budapest",
+    "qualifications": "",
+    "website_url": "https://www.autizmus.hu/vizsgalatdokumentumok",
+    "source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+    "source_name": "MARS Alapítvány – diagnózisközpont-kereső",
+    "categories": [
+      "gyermekkori-diagnosztika"
+    ],
+    "sources": [
+      "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+    ],
+    "existing_slug": null,
+    "evidence": "A MARS Alapítvány diagnózisközpont-keresőjében szereplő ellátóhely. Az életkori határ, vizsgálati kör, beutaló és aktuális fogadás a szolgáltatónál ellenőrizendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "ambulancia@autizmus.hu",
+    "email_source_url": "https://marsalapitvany.hu/diagnoziskozpont-kereso/"
+  },
+  {
+    "slug": "nagymihaly-attila",
+    "name": "Dr. Nagymihály Attila",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-nagymihaly-attila",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-nagymihaly-attila",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-nagymihaly-attila"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "papp-andras",
+    "name": "Dr. Papp András",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-papp-andras",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-papp-andras",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-papp-andras"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "resch-miklos",
+    "name": "Dr. Resch Miklós",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-resch-miklos",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-resch-miklos",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-resch-miklos"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "szabo-antal",
+    "name": "Dr. Szabó Antal",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-szabo-antal",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-szabo-antal",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-szabo-antal"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "antus-zsuzsanna",
+    "name": "Dr. Antus Zsuzsanna",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-antus-zsuzsanna",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-antus-zsuzsanna",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-antus-zsuzsanna"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "barcsay-gyorgy",
+    "name": "Dr. Barcsay György",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-barcsay-gyorgy",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-barcsay-gyorgy",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-barcsay-gyorgy"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "barcsay-veres-amarilla",
+    "name": "Dr. Barcsay-Veres Amarilla",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-barcsay-veres-amarilla",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-barcsay-veres-amarilla",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-barcsay-veres-amarilla"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "biro-bettina",
+    "name": "Dr. Bíró Bettina",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-biro-bettina",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-biro-bettina",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-biro-bettina"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "bodrogi-petra",
+    "name": "Dr. Bodrogi Petra",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-bodrogi-petra",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-bodrogi-petra",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-bodrogi-petra"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "cserhati-zoltan",
+    "name": "Dr. Cserháti Zoltán",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-cserhati-zoltan",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-cserhati-zoltan",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-cserhati-zoltan"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "erdei-zsuzsa",
+    "name": "Dr. Erdei Zsuzsa",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-erdei-zsuzsa",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-erdei-zsuzsa",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-erdei-zsuzsa"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "fust-agnes",
+    "name": "Dr. Füst Ágnes",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-fust-agnes",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-fust-agnes",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-fust-agnes"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "gaal-zsuzsanna",
+    "name": "Dr. Gaál Zsuzsanna",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-gaal-zsuzsanna"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "jaros-katarina",
+    "name": "Dr. Jaros Katarina",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-jaros-katarina",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-jaros-katarina",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-jaros-katarina"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "lendvai-zsanett",
+    "name": "Dr. Lendvai Zsanett",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/lendvai-zsanett",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/lendvai-zsanett",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/lendvai-zsanett"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "megyesi-maria",
+    "name": "Dr. Megyesi Mária",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-megyesi-maria",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-megyesi-maria",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-megyesi-maria"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "torok-matyas",
+    "name": "Dr. Török Mátyás",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-torok-matyas",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-torok-matyas",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-torok-matyas"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "nagy-angela",
+    "name": "Dr. Nagy Angéla",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-nagy-angela",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-nagy-angela",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-nagy-angela"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "nagy-eva",
+    "name": "Dr. Nagy Éva",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-nagy-eva",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-nagy-eva",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-nagy-eva"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "palya-fanni",
+    "name": "Dr. Pálya Fanni",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-palya-fanni"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "somodi-dora",
+    "name": "Dr. Somodi Dóra",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-somodi-dora",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-somodi-dora",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-somodi-dora"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "szalai-iren",
+    "name": "Dr. Szalai Irén",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-szalai-iren",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-szalai-iren",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-szalai-iren"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "toth-emilia",
+    "name": "Dr. Tóth Emília",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-toth-emilia",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-toth-emilia",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-toth-emilia"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "toth-flora",
+    "name": "Dr. Tóth Flóra",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-toth-flora",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-toth-flora",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-toth-flora"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "ur-laszlo",
+    "name": "Dr. Úr László",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-ur-laszlo",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-ur-laszlo",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-ur-laszlo"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "vajda-szilvia",
+    "name": "Dr. Vajda Szilvia",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-vajda-szilvia",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-vajda-szilvia",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-vajda-szilvia"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
+  },
+  {
+    "slug": "volek-eva",
+    "name": "Dr. Volek Éva",
+    "kind": "provider",
+    "city": "",
+    "qualifications": "Szemész szakorvos a rendelő nyilvános munkatársi bemutatkozása szerint.",
+    "website_url": "https://www.budaiszemeszet.hu/orvosok/dr-volek-eva",
+    "source_url": "https://www.budaiszemeszet.hu/orvosok/dr-volek-eva",
+    "source_name": "Budai Szemészeti Központ",
+    "categories": [
+      "szemeszek"
+    ],
+    "sources": [
+      "https://www.budaiszemeszet.hu/orvosok/dr-volek-eva"
+    ],
+    "existing_slug": null,
+    "evidence": "A klinika saját szakorvosi bemutatkozása; időpont és rendelési hely egyeztetendő.",
+    "retrieved_at": "2026-11-06",
+    "verified": false,
+    "email": "",
+    "email_source_url": ""
   },
   {
     "slug": "nemeth-marietta",
