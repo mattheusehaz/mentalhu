@@ -355,6 +355,9 @@ app.get('/leiratkozas/:token', async (req, res) => {
 });
 
 
+// Public catalog pagination v1
+require('./lib/public-catalog.cjs').registerPublicCatalog(app, { pool, dbState, unavailable, directoryShell, listingCards, root: ROOT });
+
 app.get('/api/public/categories', async (_req, res) => {
   try {
     const { rows } = await pool.query(`
@@ -372,39 +375,6 @@ app.get('/api/public/categories', async (_req, res) => {
     console.error('[categories]', safeDbCode(err));
     return unavailable(_req, res);
   }
-});
-
-app.get('/api/public/listings', async (req, res) => {
-  const category = String(req.query.category || '').trim();
-  const city = String(req.query.city || '').trim();
-  const q = String(req.query.q || '').trim();
-  const online = req.query.online === 'true';
-  const limit = Math.min(100, Math.max(1, Number(req.query.limit || 30)));
-  const params = [];
-  const where = ["l.status='published'"];
-  if (category) { params.push(category); where.push('c.slug=$' + params.length); }
-  if (city) { params.push(city); where.push('lower(l.city)=lower($' + params.length + ')'); }
-  if (online) where.push('l.online_available=true');
-  if (q) {
-    params.push('%' + q + '%');
-    where.push('(l.name ILIKE $' + params.length + ' OR l.short_description ILIKE $' + params.length + ' OR l.specialties ILIKE $' + params.length + ' OR l.city ILIKE $' + params.length + ')');
-  }
-  params.push(limit);
-  const { rows } = await pool.query(`
-    SELECT l.id,l.slug,l.name,l.kind,l.short_description,l.city,l.county,l.online_available,
-           l.website_url,l.booking_url,l.price_info,l.qualifications,l.specialties,l.languages,
-           l.profile_image_id,l.logo_image_id,l.verified,l.featured,
-           COALESCE(json_agg(DISTINCT jsonb_build_object('slug',c.slug,'name',c.name,'group_name',c.group_name,'verification_level',c.verification_level))
-             FILTER (WHERE c.id IS NOT NULL),'[]') AS categories
-    FROM directory_listings l
-    LEFT JOIN directory_listing_categories lc ON lc.listing_id=l.id
-    LEFT JOIN directory_categories c ON c.id=lc.category_id
-    WHERE ${where.join(' AND ')}
-    GROUP BY l.id
-    ORDER BY l.featured DESC,l.verified DESC,l.name
-    LIMIT $${params.length}
-  `, params);
-  res.json(rows.map(x => ({...x, profile_image_url:x.profile_image_id?'/media/'+x.profile_image_id:null, logo_image_url:x.logo_image_id?'/media/'+x.logo_image_id:null, url:'/szolgaltato/'+x.slug})));
 });
 
 app.get('/api/public/listings/:slug', async (req, res) => {
@@ -521,33 +491,6 @@ function listingCards(rows) {
   if (!rows.length) return '<div class="listing-card"><h3>Nincs találat</h3><p>Próbálj másik kategóriát, várost vagy keresőkifejezést.</p></div>';
   return rows.map(x => `<a class="listing-card ${x.featured?'featured':''}" href="/szolgaltato/${encodeURIComponent(x.slug)}"><div class="listing-head">${x.profile_image_id?'<img class="listing-avatar" src="/media/'+x.profile_image_id+'" alt="">':'<div class="listing-avatar">'+escapeHtml(x.name.charAt(0))+'</div>'}<div><h3>${escapeHtml(x.name)}</h3>${x.verified?'<div class="verified">✓ Ellenőrzött adatok</div>':''}</div></div><p>${escapeHtml(x.short_description||'Részletes szolgáltatói profil és elérhetőségek.')}</p><div class="chips">${(x.categories||[]).slice(0,3).map(c=>'<span class="chip">'+escapeHtml(c.name)+'</span>').join('')}${x.online_available?'<span class="chip">Online</span>':''}</div><div class="listing-foot"><span>${escapeHtml(x.city||'Magyarország')}</span><span>Profil →</span></div></a>`).join('');
 }
-
-async function queryListings({category='',city='',q='',online=false,limit=60}) {
-  const params=[]; const where=["l.status='published'"];
-  if(category){params.push(category);where.push('c.slug=$' + params.length)}
-  if(city){params.push(city);where.push('lower(l.city)=lower($' + params.length + ')')}
-  if(online)where.push('l.online_available=true');
-  if(q){params.push('%'+q+'%');where.push('(l.name ILIKE $' + params.length + ' OR l.short_description ILIKE $' + params.length + ' OR l.specialties ILIKE $' + params.length + ' OR l.city ILIKE $' + params.length + ')')}
-  params.push(limit);
-  const {rows}=await pool.query(`SELECT l.*,COALESCE(json_agg(DISTINCT jsonb_build_object('slug',c.slug,'name',c.name,'verification_level',c.verification_level)) FILTER(WHERE c.id IS NOT NULL),'[]') AS categories FROM directory_listings l LEFT JOIN directory_listing_categories lc ON lc.listing_id=l.id LEFT JOIN directory_categories c ON c.id=lc.category_id WHERE ${where.join(' AND ')} GROUP BY l.id ORDER BY l.featured DESC,l.verified DESC,l.name LIMIT $${params.length}`,params);
-  return rows;
-}
-
-app.get('/kereses', async (req,res)=>{
-  const q=String(req.query.q||''),category=String(req.query.category||''),city=String(req.query.city||''),online=req.query.online==='true';
-  const rows=await queryListings({q,category,city,online});
-  const cats=await pool.query('SELECT slug,name FROM directory_categories WHERE active=true ORDER BY sort_order');
-  const body=`<main><section class="directory-hero"><div class="directory-hero-inner" style="grid-template-columns:1fr"><div><div class="kicker">KERESÉS</div><h1>Találatok</h1><form class="hero-search" method="get" action="/kereses"><div class="search-grid"><input name="q" value="${escapeHtml(q)}" placeholder="Mit vagy kit keresel?"><select name="category"><option value="">Minden kategória</option>${cats.rows.map(c=>'<option value="'+escapeHtml(c.slug)+'" '+(category===c.slug?'selected':'')+'>'+escapeHtml(c.name)+'</option>').join('')}</select><input name="city" value="${escapeHtml(city)}" placeholder="Város"><button>KERESÉS →</button></div></form></div></div></section><section class="section"><div class="section-head"><div><h2>${rows.length} találat</h2><p>${q?'Keresés: '+escapeHtml(q):'Böngéssz a szolgáltatók között.'}</p></div></div><div class="listing-grid">${listingCards(rows)}</div></section></main>`;
-  res.type('html').send(directoryShell('Keresés',body));
-});
-
-app.get('/kategoria/:slug', async(req,res,next)=>{
-  const cat=await pool.query('SELECT * FROM directory_categories WHERE slug=$1 AND active=true',[req.params.slug]); if(!cat.rows[0])return next();
-  const c=cat.rows[0],rows=await queryListings({category:c.slug});
-  const warning=c.verification_level==='healthcare'?'Ez egészségügyi vagy szabályozott szakmai terület. Ellenőrizd a szolgáltató jogosultságait és végzettségét.':c.verification_level==='alternative'?'Ez alternatív, nem egészségügyi kategória. A szolgáltatások nem helyettesítik az orvosi vagy pszichológiai ellátást.':'A profilokon feltüntetjük az elérhető szakmai hátteret és információkat.';
-  const body=`<main><section class="directory-hero"><div class="directory-hero-inner"><div><div class="kicker">${escapeHtml(c.group_name)}</div><h1>${escapeHtml(c.name)}</h1><p>${escapeHtml(c.description)}</p><div class="trust-note"><span class="trust-dot">i</span><div>${escapeHtml(warning)}</div></div></div><aside class="hero-side"><h3>${rows.length} szolgáltató</h3><p>Szűkítsd a találatokat város vagy online elérhetőség szerint.</p><form method="get" action="/kereses"><input type="hidden" name="category" value="${escapeHtml(c.slug)}"><div style="display:grid;gap:8px"><input name="city" placeholder="Város" style="padding:13px;border:1px solid #ccc"><label style="font-size:12px"><input type="checkbox" name="online" value="true"> Online is elérhető</label><button class="solid-btn" style="border:0">SZŰRÉS</button></div></form></aside></div></section><section class="section"><div class="listing-grid">${listingCards(rows)}</div></section></main>`;
-  res.type('html').send(directoryShell(c.name,body));
-});
 
 app.get('/szolgaltato/:slug', async(req,res,next)=>{
   const {rows}=await pool.query(`SELECT l.*,COALESCE(json_agg(DISTINCT jsonb_build_object('slug',c.slug,'name',c.name,'verification_level',c.verification_level,'group_name',c.group_name)) FILTER(WHERE c.id IS NOT NULL),'[]') AS categories FROM directory_listings l LEFT JOIN directory_listing_categories lc ON lc.listing_id=l.id LEFT JOIN directory_categories c ON c.id=lc.category_id WHERE l.slug=$1 AND l.status='published' GROUP BY l.id`,[req.params.slug]); const x=rows[0]; if(!x)return next();
