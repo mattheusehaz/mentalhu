@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-43050704",
+    "slug": "okosgyuru-alvas-bipolaris-hipomania-kutatas-2026",
+    "title": "Az okosgyűrű alvásadatai felismerhetnek hipomániás tünetekkel járó időszakokat – de előrejelzésről még nincs szó",
+    "category": "Kutatások",
+    "excerpt": "Egy kétéves megfigyeléses kutatásban a viselhető eszközök alvási és aktivitási adatai jól elkülönítették a bipoláris zavarral élők egyes tünetes időszakait. A módszer azonban az egyidejű állapotot osztályozta, és még nem bizonyított, hogy előre tudná jelezni a következő hangulati epizódot.",
+    "content_html": "<p>A bipoláris zavarral élők számára nem mindig egyszerű észrevenni, amikor a hangulat és az aktivitás a hipomániás vagy mániás tartomány felé változik. A szakemberek ezért keresik azokat a mérhető jeleket, amelyek az érintett tudatos beszámolóját kiegészíthetik. Egy november 18-án publikált kutatás szerint az alvás és a mozgás viselhető eszközökkel gyűjtött mintázatai ígéretes információt adhatnak – de az eredmény nem jelenti azt, hogy egy okosgyűrű már képes lenne időben riasztani egy közelgő epizódra.</p>\n<h2>Két év követés, 178 résztvevő</h2>\n<p>Ramzi Halabi és nemzetközi szerzőtársai a JMIR mHealth and uHealth folyóiratban közölt megfigyeléses vizsgálatukban 178, bipoláris zavarral diagnosztizált személy adatait elemezték. A követés átlagosan 540 napig tartott; az aktivitásról és az alvásról folyamatosan gyűjtöttek adatokat, miközben a résztvevők naponta számoltak be a hangulatukról, energiaszintjükről és szorongásukról, hetente pedig egy önkitöltős mániatünet-skálát is kitöltöttek.</p>\n<p>A részletes gépi tanulási elemzés 43 olyan résztvevőn alapult, akinél legalább egyszer a kérdőív alapján meghatározott, emelkedett hangulati tünetekkel járó időszak fordult elő. A kutatók 252 különböző, időbeli és gyakorisági jellemzőt vizsgáltak, majd azt elemezték, melyek különítik el legjobban ezeket az időszakokat a stabilabb állapotoktól.</p>\n<h2>Nem csak az alvás mennyisége, a mintázata is számít</h2>\n<p>A viselhető eszközökből származó jellemzők alapján a besorolás AUROC-értéke 0,91 volt, közel a napi önbeszámolók 0,93-as eredményéhez. Az AUROC azt méri, mennyire képes egy modell a kétféle állapotot elkülöníteni; nem azt jelenti, hogy a felhasználók 91 százalékánál előre jelezte volna a betegséget. A több passzív adatforrást együttesen használó modell 92 százalékos érzékenységet ért el az elemzett tünetes időszakok azonosításában.</p>\n<p>A kutatók szerint az alvási adatok önmagukban is sok információt hordoztak. A tünetes szakaszokban nem egyszerűen kevesebb vagy több alvás, hanem a napi változékonyság és összetettség csökkenése tűnt fontosnak. A rendszer a folyamatban lévő tünetes és tünetmentesebb időszakok közötti különbséget kereste, nem a jövőbeli események megjóslását tesztelte.</p>\n<h2>Mi hiányzik a klinikai használathoz?</h2>\n<p>A legfontosabb korlát, hogy a vizsgálatban a tünetes periódusokat önkitöltős skála alapján határozták meg, nem minden esetben klinikai interjúval igazolt hipomániás vagy mániás epizódként. Az elemzés ezért nem diagnosztikai igazolás. A szerzők a résztvevők összetételének korlátozott általánosíthatóságát és az okosgyűrűk gyártói, nem teljesen átlátható alvásstádium-becslését is kiemelik. A készülékekből származó érzékeny adatok kezelése külön adatvédelmi kérdés.</p>\n<p>A kutatást amerikai, kanadai és cseh közfinanszírozási források támogatták, és a szerzők külön ismertették az érdekeltségeiket. A következő lépés annak előre meghatározott, új mintán végzett vizsgálata lehet, hogy a jelek valóban segítenek-e a tünetromlást még annak bekövetkezése előtt felismerni. Addig a viselhető eszköz adata legfeljebb kiegészítő tájékozódási pont lehet, nem helyettesítheti a pszichiátriai kontrollt vagy az egyéni kezelési tervet.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "",
+    "hero_image_alt": "",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Halabi R. és mtsai: Passive Monitoring for Detecting Hypomanic Symptoms in Bipolar Disorder Using Explainable Machine Learning: Longitudinal Observational Study",
+        "url": "https://doi.org/10.2196/105647",
+        "published_at": "2026-11-18",
+        "doi": "10.2196/105647",
+        "pmid": "43050704",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T11:28:00Z",
+    "revision_sha256": "d9d8148297ab826d7aee16e21f51730be3d22f79df52f58a2436f2b9e9956d9b",
+    "reference": "chat-approval:2026-11-23-user-mehetnek-ki-a-cikkek"
+  }
+}
