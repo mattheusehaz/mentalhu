@@ -1,0 +1,115 @@
+openapi: 3.1.0
+info:
+  title: MENTÁL.hu szerkesztőségi csatoló
+  version: 1.0.0
+  description: Közvetlen, jóváhagyáshoz kötött publikálás a MENTÁL.hu CMS-ben. A szerkesztői jóváhagyást a kliensnek hitelesen ellenőriznie kell.
+servers:
+  - url: https://mental.hu
+security:
+  - EditorialToken: []
+components:
+  securitySchemes:
+    EditorialToken:
+      type: http
+      scheme: bearer
+      description: A szerver környezeti MENTAL_EDITORIAL_API_TOKEN titkával párosított publikáló kliens token.
+  schemas:
+    Source:
+      type: object
+      required: [title, url, published_at, doi, pmid, kind]
+      properties:
+        title: {type: string}
+        url: {type: string, format: uri}
+        published_at: {type: string}
+        doi: {type: string}
+        pmid: {type: string}
+        kind: {type: string, enum: [peer-reviewed, preprint, institutional]}
+      additionalProperties: false
+    Article:
+      type: object
+      required: [external_id, slug, title, category, excerpt, content_html, author_name, hero_image_path, hero_image_alt, hero_image_caption, seo_title, seo_description, featured, sources]
+      properties:
+        external_id: {type: string}
+        slug: {type: string}
+        title: {type: string}
+        category: {type: string}
+        excerpt: {type: string}
+        content_html: {type: string}
+        author_name: {type: string}
+        hero_image_path: {type: string}
+        hero_image_alt: {type: string}
+        hero_image_caption: {type: string}
+        seo_title: {type: string}
+        seo_description: {type: string}
+        featured: {type: boolean}
+        sources:
+          type: array
+          items: {$ref: '#/components/schemas/Source'}
+      additionalProperties: false
+    Approval:
+      type: object
+      required: [decision, method, approved_by, approved_at, revision_sha256, reference]
+      properties:
+        decision: {type: string, const: publish}
+        method: {type: string, const: explicit-chat-approval}
+        approved_by: {type: string, const: owner}
+        approved_at: {type: string, format: date-time}
+        revision_sha256: {type: string}
+        reference: {type: string}
+      additionalProperties: false
+    Package:
+      type: object
+      required: [schema_version, article, approval]
+      properties:
+        schema_version: {type: integer, const: 1}
+        article: {$ref: '#/components/schemas/Article'}
+        approval: {$ref: '#/components/schemas/Approval'}
+      additionalProperties: false
+paths:
+  /api/editorial/articles:
+    get:
+      operationId: listEditorialArticles
+      summary: Cikkek lekérése duplikációellenőrzéshez, beleértve a nem nyilvános állapotokat
+      parameters:
+        - in: query
+          name: limit
+          schema: {type: integer, minimum: 1, maximum: 50}
+        - in: query
+          name: offset
+          schema: {type: integer, minimum: 0}
+      responses:
+        '200':
+          description: Cikkazonosítók és állapotok
+  /api/editorial/articles/{external_id}:
+    get:
+      operationId: getEditorialArticle
+      summary: Egy konkrét cikk státuszának ellenőrzése
+      parameters:
+        - in: path
+          name: external_id
+          required: true
+          schema: {type: string}
+      responses:
+        '200':
+          description: Cikk állapota
+        '404':
+          description: Nem található
+  /api/editorial/publish:
+    post:
+      operationId: publishApprovedEditorialArticle
+      summary: Tulajdonos által kifejezetten jóváhagyott, revízióval rögzített cikk publikálása
+      description: Csak a felhasználó által a beszélgetésben jóváhagyott, változatlan cikk küldhető be. A token nem helyettesíti a jóváhagyást.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/Package'}
+      responses:
+        '201':
+          description: Adatbázisba mentett cikk; az éles oldalt külön ellenőrizni kell
+        '401':
+          description: Hitelesítési hiba
+        '409':
+          description: Duplikált vagy korábban már feldolgozott cikk
+        '422':
+          description: Hibás jóváhagyás, forrás vagy revízió
