@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-43049954",
+    "slug": "adhd-kamaszok-celkezelesi-trening-randomizalt-vizsgalat-2026",
+    "title": "Nem igazolódott egy ADHD-tréning többlethatása: 116 kamaszt vizsgáltak Norvégiában",
+    "category": "Gyermekek és serdülők",
+    "excerpt": "Egy három helyszínen végzett, előre regisztrált norvég klinikai vizsgálatban a célkezelési tréninggel kiegészített szokásos ellátás 12 hét alatt nem hozott kimutatható többletjavulást a kamaszok mindennapi végrehajtó működésében. Az eredmény egy konkrét tréningről szól, nem a pszichológiai segítség egészéről.",
+    "content_html": "<p>Az ADHD-val élő serdülők számára az iskolai feladatok megtervezése, a figyelem visszaterelése és a hosszabb távú célok követése különösen megterhelő lehet. Az ilyen készségeket célzó tréningek kézenfekvőnek tűnnek, a lényegi kérdés mégis az, hogy a gyakorlatok átültethetők-e a való életbe. Egy november 18-án megjelent norvég randomizált vizsgálatban egy konkrét módszer, a Goal Management Training (GMT) hozzáadása nem eredményezett kimutatható többletjavulást a szokásos ellátáshoz képest.</p>\n<h2>Hogyan vizsgálták a célkezelési tréninget?</h2>\n<p>Az Oslói Egyetemhez és norvég egészségügyi intézményekhez kötődő kutatócsoport három gyermek- és ifjúságpszichiátriai járóbeteg-ellátó helyen 116, ADHD-diagnózissal rendelkező serdülőt vont be. Átlagéletkoruk 14,69 év volt, 66 százalékuk lány. Véletlenszerű besorolással 59-en a megszokott ellátás mellé célkezelési tréninget kaptak, 57-en a szokásos ellátásban részesültek. Az eredményeket 12 hét elteltével értékelték.</p>\n<p>A GMT hét héten át heti kétórás csoportos alkalomból állt, szülők és tanárok bevonását célzó foglalkozásokkal kiegészítve. A fiatalok azt gyakorolták, miként álljanak meg egy automatikus reakció előtt, idézzék fel az eredeti célt, és ellenőrizzék, hogy az aktuális lépés valóban azt szolgálja-e. A másik csoport sem maradt segítség nélkül: a norvég járóbeteg-ellátásban szokásos, többféle kezelési elemet magában foglaló támogatást kapta.</p>\n<h2>Nem találtak meggyőző különbséget</h2>\n<p>Az elsődleges eredmény a szülők által kitöltött, a mindennapi végrehajtó működést mérő BRIEF-2 kérdőív összesített pontszáma volt. A két csoport közötti becsült különbség mínusz 2,12 pont volt, de a 95 százalékos konfidenciaintervallum mínusz 7,64 és plusz 3,41 pont közé esett, a p-érték pedig 0,449 volt. A becsült standardizált hatás kicsi maradt (Cohen-féle d = −0,14). A szülők által értékelt ADHD-tünetek és a mindennapi működésre vonatkozó másodlagos eredmények sem mutattak egyértelmű többletelőnyt.</p>\n<p>Néhány, csak a protokollt szorosabban követő résztvevőkön végzett elemzésben kedvezőbb eredmény jelent meg például a tanárok által értékelt figyelmetlenség és az önértékelt munkamemória terén. Ezeket azonban kisebb mintán, többféle összehasonlítás között találták, és az elemzésnél nem korrigáltak minden többszörös tesztelésre. A fő, előre meghatározott eredményt ezért nem írják felül.</p>\n<h2>Miért nem jelenti ez azt, hogy a tréning biztosan semmit sem ér?</h2>\n<p>A szokásos ellátás a vizsgálatban maga is összetett segítség volt, ezért az új program lehetséges pluszhozadéka nehezebben különíthető el. A kutatók azt is jelezték, hogy a résztvevők az alkalmak közötti önálló gyakorlást viszonylag ritkán végezték. Elképzelhető, hogy a tréningen megtanult módszerek a hétköznapokra nem épültek be elég erősen. Az elsődleges szülői értékelés a 116 résztvevőből 92-nél állt rendelkezésre a 12. héten, ami további bizonytalanságot jelent.</p>\n<p>A negatív eredmény nem bizonyítja a tréning és a szokásos ellátás egyenértékűségét, és főként nem cáfolja a más, bizonyítékokon alapuló pszichoszociális ADHD-beavatkozások hasznát. A tanulmány azt mutatja meg, miért fontos külön-külön, jól összehasonlítható csoportokban vizsgálni minden új programot, mielőtt általános hatékonyságot tulajdonítunk neki. A vizsgálatot több norvég egészségügyi és egyetemi forrás támogatta; a szerzők nem jelentettek releváns összeférhetetlenséget. A teljes közlemény szabadon hozzáférhető.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "",
+    "hero_image_alt": "",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Dyresen A. és mtsai: Goal Management Training for Adolescents with ADHD: A Multi-Center Randomized Controlled Effectiveness Trial",
+        "url": "https://link.springer.com/article/10.1007/s10802-026-01522-2",
+        "published_at": "2026-11-18",
+        "doi": "10.1007/s10802-026-01522-2",
+        "pmid": "43049954",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T11:28:00Z",
+    "revision_sha256": "41ae6f8a7e8d71eb3026f86b167e98b66390448bae353ef4ef0c186e4a683a27",
+    "reference": "chat-approval:2026-11-23-user-mehetnek-ki-a-cikkek"
+  }
+}
