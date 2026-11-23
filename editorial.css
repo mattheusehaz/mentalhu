@@ -23,3 +23,10 @@
 .home-page .home-editorial .story-image{aspect-ratio:1.7}
 @media(max-width:960px){.home-latest .home-stories{grid-template-columns:minmax(0,1fr);gap:22px}.home-latest .home-story-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.home-latest .story-compact .story-link{display:block}.home-latest .story-compact .story-image{aspect-ratio:1.8;border-radius:3px 18px 3px 3px}.home-latest .story-compact .story-copy{padding-top:12px}.home-page .home-editorial .articles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.home-latest{padding-top:30px;padding-bottom:25px}.home-latest .home-story-list{grid-template-columns:1fr;gap:18px}.home-latest .story-compact .story-link{display:grid;grid-template-columns:minmax(0,1fr) 110px;gap:13px}.home-latest .story-compact .story-image{grid-column:2;grid-row:1;aspect-ratio:1.25}.home-latest .story-compact .story-copy{grid-column:1;grid-row:1;padding:0}.home-latest .story-compact h3{font-size:21px}.home-page .home-editorial .articles-grid{grid-template-columns:1fr}}
+
+/* Tudástár: four editorial gateways, including the site's own articles. */
+.home-page .resources-block .resource-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:19px}
+.home-page .resources-block .resource-image img{height:170px}
+.home-page .resources-block .resource-card h3{font-size:clamp(22px,1.8vw,27px)}
+@media(max-width:960px){.home-page .resources-block .resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.home-page .resources-block .resource-grid{grid-template-columns:1fr}.home-page .resources-block .resource-image img{height:205px}}
