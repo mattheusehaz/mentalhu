@@ -1,0 +1,106 @@
+.imprint-main {
+  max-width: 960px;
+  padding-block: 34px 84px;
+}
+
+.imprint-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.imprint-breadcrumb li + li::before {
+  content: '/';
+  margin-right: 10px;
+  color: var(--muted);
+}
+
+.imprint-breadcrumb a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.imprint-heading {
+  margin-top: 42px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.imprint-heading h1 {
+  font-family: var(--serif);
+  font-size: clamp(46px, 5.5vw, 68px);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.6px;
+}
+
+.imprint-heading p {
+  max-width: 600px;
+  margin-top: 18px;
+  color: var(--body);
+  font-size: 17px;
+  line-height: 1.7;
+  text-wrap: pretty;
+}
+
+.imprint-company-data {
+  margin: 0;
+  padding: 0;
+}
+
+.imprint-company-data > div {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(0, 2.4fr);
+  gap: 16px 30px;
+  padding-block: 23px;
+  border-bottom: 1px solid var(--line);
+}
+
+.imprint-company-data dt {
+  padding-top: 2px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.imprint-company-data dd {
+  min-width: 0;
+  margin: 0;
+  color: var(--body);
+  font-size: 17px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.imprint-company-data > div:first-child dd {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.imprint-company-data a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.imprint-company-data a:hover {
+  text-decoration-thickness: 2px;
+}
+
+@media (max-width: 640px) {
+  .imprint-main { padding-block: 24px 54px; }
+  .imprint-heading { margin-top: 30px; padding-bottom: 27px; }
+  .imprint-heading h1 { letter-spacing: -1px; }
+  .imprint-heading p { margin-top: 15px; font-size: 16px; }
+  .imprint-company-data > div { grid-template-columns: minmax(0, 1fr); gap: 6px; padding-block: 20px; }
+  .imprint-company-data dt { padding-top: 0; }
+  .imprint-company-data dd { font-size: 16px; }
+}

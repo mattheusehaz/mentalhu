@@ -376,6 +376,12 @@ app.get('/leiratkozas/:token', async (req, res) => {
 });
 
 
+// Company information remains available independently of database readiness.
+app.get('/impresszum', (_req, res) => {
+  res.type('html').send(require('./lib/imprint.cjs').renderImprint());
+});
+app.get(['/impresszum.html', '/impresszum/index.html'], (_req, res) => res.redirect(301, '/impresszum'));
+
 // Article routes and the homepage share the same publication-aware query.
 const articleService = require('./lib/public-articles.cjs').createArticleService({pool,dbState,cleanHtml});
 articleService.register(app);
