@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-42841437",
+    "slug": "digitalis-inszomnia-kognitiv-viselkedesterapia-huszeves-metaelemzes-2026",
+    "title": "Húsz év kutatásai alapján segíthet az online álmatlanság-terápia – de nem minden alkalmazás egyforma",
+    "category": "Alvás",
+    "excerpt": "Huszonöt vizsgálat több mint 14 ezer résztvevőjének eredményeit összegző metaanalízis szerint egy meghatározott, internetes kognitív viselkedésterápiás álmatlanságprogram számottevően javította az alvászavar tüneteit. A következtetés egy kutatásokban tesztelt programra vonatkozik, nem általában az alvásapplikációkra.",
+    "content_html": "<p>Az álmatlanság kezelésére ma már számtalan alkalmazás és online tanácsadó program kínál segítséget. Ezek között azonban jelentős különbség van: egyesek csupán elalvást segítő hangokat vagy általános tippeket adnak, mások strukturált, pszichológiai alapú kezelési elemeket tartalmaznak. Egy új metaanalízis arra ad választ, hogy egy meghatározott, hosszú ideje kutatott internetes program esetében mennyire meggyőző az eredmény.</p>\n<h2>Huszonöt vizsgálat, több mint 14 ezer résztvevő</h2>\n<p>Kelly M. Shaffer és munkatársai a Sleep folyóiratban 2026. október 7-én online publikált metaanalízisükben a Sleep Healthy Using the Internet (SHUTi) nevű digitális kognitív viselkedésterápiás program húsz évének kutatásait összegezték. Összesen 29 közlemény 25 önálló vizsgálatának 14 166 résztvevőjét vették figyelembe, különböző országokból és résztvevői csoportokból.</p>\n<p>Azoknál, akik megkapták a programot, az álmatlanság súlyosságát mérő ISI-pontszám átlagosan legalább nyolc ponttal csökkent a követések során. Az elalváshoz szükséges idő átlagos csökkenése legalább 21 perc, az éjszakai ébrenlét egyik mérése szerint legalább 27 perc volt. Az ilyen, kezelés előtti és utáni változásokat azonban önmagukban nem lehet teljes egészében a program hatásának tulajdonítani.</p>\n<h2>A kontrollcsoportos eredmény a fontosabb</h2>\n<p>Tíz randomizált vizsgálat a programot online edukációs kontrollal vetette össze. Ezek összesítése szerint a programot kapók az álmatlanság súlyosságában nagyobb javulást mutattak az első utóméréstől egészen a hat- és tizenkét hónapos követésig. A standardizált átlagkülönbség az ISI esetében −1,03 és −0,85 között, az elalvási időnél −0,41 és −0,32 között, az éjszakai ébrenlét mérőszámainál −0,48 és −0,45 között mozgott. A teljes terápiás adagot a résztvevők 64 százaléka végezte el.</p>\n<p>Ez a bizonyíték erősebb, mint egy egyszerű felhasználói elégedettségi mérés: a javulás egy másik, aktívnak tekinthető online információs feltételhez képest is jelentkezett. Ugyanakkor a digitális programon belül adott feladatok teljesítése és a felhasználói kitartás meghatározó gyakorlati kérdés lehet.</p>\n<h2>Nem helyettesít minden kezelést</h2>\n<p>A SHUTi eredménye nem jelenti azt, hogy bármelyik alvástréner vagy okostelefonos alkalmazás hasonlóan működne. A kutatás egy konkrét programot vizsgált; az eltérő alkalmazások, a súlyos társbetegségek és az egyéni ellátási igények külön értékelést kívánnak. A résztvevők egy részénél az alvászavar mellett más testi vagy pszichés állapotok is jelen voltak, ami az alkalmazhatóságot bővítheti, de nem ad személyre szabott kezelési útmutatást.</p>\n<p>A tanulmány a digitális CBT-I lehetséges szerepét támasztja alá az ellátáshoz jutás javításában. A közleményhez tartozó teljes szöveghez ebben az ellenőrzésben nem fértem hozzá, ezért a részletes finanszírozási és összeférhetetlenségi adatokra, illetve a nemkívánatos hatások gyakoriságára nem teszek állítást. A cikkben kizárólag a lektorált absztraktban ellenőrizhető eredményeket használtam.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-42841437-hero.jpg",
+    "hero_image_alt": "Nő laptopot használ egy lágyan megvilágított hálószobában este",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Sleep Healthy Using the Internet: A Meta-Analysis of Twenty Years of Research on a Digital Cognitive Behavioral Therapy for Insomnia Program",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42841437/",
+        "published_at": "2026-10-07",
+        "doi": "10.1093/sleep/zsag264",
+        "pmid": "42841437",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T13:46:58Z",
+    "revision_sha256": "e271d1212c625f23f238976d8483624a9a30ee9ef180261e939b77e27bbb5341",
+    "reference": "chat-approval:2026-11-23-owner-message-Jovahagyom-a-kovetkezo-MENTAL.hu-cikkek; image-approval-message-ok-a-kepek-is-jok"
+  }
+}
