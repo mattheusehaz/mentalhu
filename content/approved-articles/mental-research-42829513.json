@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-42829513",
+    "slug": "idosgondozok-digitalis-lepcsozetes-pszichologiai-segitseg-repical-2026",
+    "title": "Digitális pszichológiai segítség idősgondozóknak: egy spanyol vizsgálatban mérséklődött a szorongás és a depresszió",
+    "category": "Munka és kiégés",
+    "excerpt": "Száz­hatvanöt katalóniai idősgondozó részvételével végzett randomizált vizsgálatban egy szakemberek által támogatott, kétlépcsős digitális program csökkentette a szorongásos és depressziós tüneteket a pszichológiai elsősegélyhez képest. A kutatás egyben arra is emlékeztet: a digitális segítség nem feltétlenül jelenti a személyes szakmai támogatás hiányát.",
+    "content_html": "<p>Az idősgondozók munkája egyszerre jelent fizikai megterhelést, érzelmi jelenlétet és folyamatos felelősséget. A tartós stressz és a pszichológiai segítséghez való nehezebb hozzáférés miatt különösen fontos, hogy milyen támogatási formák működnek a gyakorlatban. Egy katalóniai randomizált vizsgálat olyan rendszert tesztelt, amely az egyszerűbb eszközöktől lép tovább az intenzívebb segítség felé, ha arra valóban szükség van.</p>\n<h2>Nem egyetlen alkalmazásról volt szó</h2>\n<p>Leticia González-Spinoglio és munkatársai a Depression and Anxiety folyóiratban 2026. október 2-án közölték a REPICAL vizsgálat eredményeit. A kutatásban 165, pszichés megterhelést jelző, idősotthonban vagy otthoni gondozásban dolgozó felnőttet soroltak véletlenszerűen két csoportba: 83-an az új programot, 82-en az összehasonlító ellátást kapták. Minden résztvevő kapott 15–20 perces pszichológiai elsősegélyt.</p>\n<p>Az aktív csoport első lépésként öt héten át digitális, elfogadásalapú stresszkezelési modulokat végzett, heti rövid segítői telefonhívásokkal. Akiknél a pszichés terhelés továbbra is elérte a meghatározott küszöböt, egy második, öt videós foglalkozásból álló, problémamegoldó és kognitív-viselkedésterápiás elemeket használó szakaszba kerülhettek. A támogatást képzett, felügyelt fiatal szakemberek adták.</p>\n<h2>Mekkora javulást mértek?</h2>\n<p>A 21. héten a szorongásos és depressziós tünetek együttes kérdőívén az aktív csoport eredménye kedvezőbb volt, a csoportok közötti átlagos különbség 4,2 pontot tett ki (95%-os konfidenciaintervallum: 1,1–7,3). A közölt standardizált hatásbecslés 0,8 volt (95%-os intervallum: 0,1–1,4), vagyis a bizonytalanság jelentős, de az eredmény az aktív program javára mutatott. Több másodlagos, például a külön mért szorongásos, depressziós és poszttraumás tüneteknél is kedvező változás látszott. Az egészséggel kapcsolatos életminőségnél viszont nem mutattak ki különbséget.</p>\n<p>Az eredmény értékeléséhez fontos, hogy ez nem csupán automatikus mobilalkalmazás volt. Az emberi segítség, a rendszeres kapcsolat és a fokozatosan növekvő intenzitás a program szerves része lehetett. Nem lehet ezért megállapítani, hogy pontosan melyik elem okozta a javulást.</p>\n<h2>Korlátok és nemkívánatos események</h2>\n<p>A vizsgálat nem érte el a tervezett mintanagyságot, a résztvevők ismerték a csoportbesorolásukat, és minden eredmény önbeszámolón alapult. A kutatók tíz esetben aktiválták az öngyilkossági kockázat kezelésére szolgáló protokollt (négy kontroll- és hat aktív résztvevőnél); egyik eset sem számított közvetlenül magas veszélynek, minden érintettet megfelelő ellátáshoz irányítottak. Más, a vizsgálathoz köthető súlyos nemkívánatos eseményt nem közöltek. Az események részletes hatását ugyanakkor nem építették be az eredményelemzésbe.</p>\n<p>A teljes szövegben elérhető tanulmány finanszírozását spanyol alapítványi és közfinanszírozási támogatások biztosították; a szerzők nem jeleztek összeférhetetlenséget. A kutatás nem bizonyítja, hogy a digitális program helyettesítheti a tartósan túlterhelő munkakörülmények javítását. Arra utal, hogy a gondozók számára megszervezett, szakmailag felügyelt, fokozatos pszichológiai támogatás mérhetően segíthet.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-42829513-hero.jpg",
+    "hero_image_alt": "Idősgondozó mosolyogva beszélget idős nővel",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "A Randomized Controlled Trial of a Digital Stepped-Care Program to Reduce Anxiety and Depressive Symptoms Among Long-Term Care Workers With Psychological Distress: The REPICAL Study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13633456/",
+        "published_at": "2026-10-02",
+        "doi": "10.1155/da/5875889",
+        "pmid": "42829513",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T13:46:58Z",
+    "revision_sha256": "08c1ba0607dfe4d9e058953b1ad469ebcc8861cf24856819099256290523b98d",
+    "reference": "chat-approval:2026-11-23-owner-message-Jovahagyom-a-kovetkezo-MENTAL.hu-cikkek; image-approval-message-ok-a-kepek-is-jok"
+  }
+}
