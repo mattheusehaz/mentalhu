@@ -4,3 +4,6 @@ body:not(.home-page) .brand-symbol[viewBox="0 0 52 44"]{background:transparent u
 body:not(.home-page) .brand-symbol[viewBox="0 0 52 44"]>*{opacity:0}
 @media(max-width:960px){body:not(.home-page) .dir-header{flex-wrap:wrap;gap:12px}body:not(.home-page) .dir-nav{display:flex;flex:1 0 100%;order:3;gap:24px;margin:0;overflow-x:auto;padding:7px 0}body:not(.home-page) .dir-actions{display:flex;margin-left:auto}body:not(.home-page) .dir-nav a{font-size:12px}}
 @media(max-width:640px){body:not(.home-page) .dir-actions .solid-btn{font-size:10px;padding:9px 13px}body:not(.home-page) .dir-header{padding-bottom:12px}}
+
+/* Compact navigation on catalogue and provider pages. */
+@media(max-width:960px){body:not(.home-page) .dir-header>.dir-nav,body:not(.home-page) .dir-header>.dir-actions{display:none}body:not(.home-page) .dir-header>.mobile-menu{display:block;margin-left:auto}}

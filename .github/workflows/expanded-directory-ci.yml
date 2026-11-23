@@ -1,7 +1,7 @@
 name: Directory and contact regression checks
 on:
   push:
-    branches: [main, 'release/expanded-31-*']
+    branches: [main, 'release/expanded-31-*', 'feature/articles-*']
   pull_request:
 permissions:
   contents: read
@@ -44,11 +44,20 @@ jobs:
           echo "BROWSER_TOOLS=$RUNNER_TEMP/browser-tools/node_modules/playwright" >> "$GITHUB_ENV"
       - name: Verify real browser submission and administrative handling
         run: node scripts/test-contact-browser.cjs
+      - name: Verify articles, approval boundaries and editorial browser flows
+        run: |
+          node scripts/validate-editorial.cjs
+          node --test scripts/test-editorial-import.cjs
+          node scripts/test-editorial-import-db.cjs
+          node scripts/test-articles.cjs
       - name: Store test summaries
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: directory-contact-test-results
           path: |
             release-test-report.json
             browser-test-report.json
+            articles-test-report.json
+            test-artifacts/
           retention-days: 14

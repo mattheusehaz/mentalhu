@@ -123,7 +123,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -169,7 +169,7 @@ app.get(['/health/db', '/health/ready'], async (_req, res) => {
 
 // A fallback menu is not evidence that the database is ready.
 app.use((req, res, next) => {
-  const prefixes = ['/api/contact/', '/api/admin/contact/', '/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/cikk/', '/media/', '/leiratkozas/'];
+  const prefixes = ['/api/contact/', '/api/admin/contact/', '/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/media/', '/leiratkozas/'];
   if (!dbState.ready && prefixes.some(prefix => req.path.startsWith(prefix))) return unavailable(req, res);
   next();
 });
@@ -217,6 +217,17 @@ app.get('/api/admin/articles/:id', auth, async (req, res) => {
   const { rows } = await pool.query('SELECT * FROM articles WHERE id=$1', [req.params.id]);
   if (!rows[0]) return res.status(404).json({ error: 'A cikk nem található.' });
   res.json(rows[0]);
+});
+
+app.get('/api/admin/articles/:id/preview', auth, async (req, res) => {
+  const {rows} = await pool.query('SELECT * FROM articles WHERE id=$1', [req.params.id]);
+  if (!rows[0]) return res.status(404).json({error:'A cikk nem található.'});
+  const article = require('./lib/public-articles.cjs').publicArticle(rows[0]);
+  article.content_html = cleanHtml(article.content_html);
+  res.set('Cache-Control','private, no-store');
+  res.set('X-Robots-Tag','noindex, nofollow, noarchive');
+  const content = require('./lib/article-views.cjs').renderArticle(article);
+  res.type('html').send(content.replace('<main ', '<div role="status" class="editorial-preview-notice">Szerkesztőségi előnézet – a mentett változat. ' + (article.status === 'draft' ? 'Ez a piszkozat nem nyilvános.' : 'A cikk publikált.') + '</div><main '));
 });
 
 app.post('/api/admin/articles', auth, async (req, res) => {
@@ -362,8 +373,12 @@ app.get('/leiratkozas/:token', async (req, res) => {
 });
 
 
+// Article routes and the homepage share the same publication-aware query.
+const articleService = require('./lib/public-articles.cjs').createArticleService({pool,dbState,cleanHtml});
+articleService.register(app);
+
 // Public catalog pagination v1
-require('./lib/public-catalog.cjs').registerPublicCatalog(app, { pool, dbState, unavailable, directoryShell, listingCards, root: ROOT });
+require('./lib/public-catalog.cjs').registerPublicCatalog(app, { pool, dbState, unavailable, directoryShell, listingCards, root: ROOT, homeArticles: articleService.homeMarkup });
 
 app.get('/api/public/categories', async (_req, res) => {
   try {
@@ -461,38 +476,10 @@ app.delete('/api/admin/directory/listings/:id', auth, async(req,res)=>{await poo
 app.get('/api/admin/directory/submissions', auth, async(_req,res)=>{const{rows}=await pool.query('SELECT * FROM directory_submissions ORDER BY created_at DESC');res.json(rows)});
 app.put('/api/admin/directory/submissions/:id', auth, async(req,res)=>{const status=['new','reviewed','accepted','rejected'].includes(req.body.status)?req.body.status:'reviewed';const{rows}=await pool.query('UPDATE directory_submissions SET status=$1,updated_at=now() WHERE id=$2 RETURNING *',[status,req.params.id]);res.json(rows[0])});
 
-app.get('/api/public/articles', async (req, res) => {
-  const category = String(req.query.category || '').trim();
-  const limit = Math.min(50, Math.max(1, Number(req.query.limit || 12)));
-  const params = [];
-  let where = "WHERE a.status='published'";
-  if (category) { params.push(category); where += ` AND lower(a.category)=lower($${params.length})`; }
-  params.push(limit);
-  const { rows } = await pool.query(`
-    SELECT a.id,a.slug,a.title,a.category,a.excerpt,a.author_name,a.hero_image_id,a.hero_image_alt,
-           a.reading_minutes,a.published_at,a.featured
-    FROM articles a ${where}
-    ORDER BY a.featured DESC, a.published_at DESC
-    LIMIT $${params.length}
-  `, params);
-  res.json(rows.map(a => ({ ...a, url: '/cikk/' + a.slug, hero_url: a.hero_image_id ? '/media/' + a.hero_image_id : null })));
-});
-
-app.get('/cikk/:slug', async (req, res, next) => {
-  const { rows } = await pool.query(`
-    SELECT a.*, m.id AS media_id FROM articles a
-    LEFT JOIN media m ON m.id=a.hero_image_id
-    WHERE a.slug=$1 AND a.status='published'
-  `, [req.params.slug]);
-  const a = rows[0];
-  if (!a) return next();
-  const hero = a.media_id ? `/media/${a.media_id}` : '/assets/hero-hq.jpg';
-  res.type('html').send(`<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(a.seo_title || a.title)} – MENTÁL.hu</title><meta name="description" content="${escapeHtml(a.seo_description || a.excerpt)}"><link rel="stylesheet" href="/styles.css?v=cms"><link rel="stylesheet" href="/portal-article.css?v=cms"></head><body class="article-page"><header class="topbar"><div class="brand-wrap"><a class="logo" href="/">MENTÁL<span>.hu</span></a><span class="brand-tagline">Jobb emberek. Teljesebb életek.</span></div><nav class="nav"><a href="/rovatok/onismeret.html">ÖNISMERET</a><a href="/rovatok/kapcsolatok.html">KAPCSOLATOK</a><a href="/rovatok/csalad.html">CSALÁD</a><a href="/rovatok/test-es-lelek.html">TEST ÉS LÉLEK</a><a href="/rovatok/munka.html">MUNKA</a></nav></header><main class="article-shell"><nav class="breadcrumb"><a href="/">Főoldal</a><span>›</span><span>${escapeHtml(a.category)}</span></nav><article><header class="article-heading"><div class="article-kicker">${escapeHtml(a.category)}</div><h1>${escapeHtml(a.title)}</h1><p class="article-lead">${escapeHtml(a.excerpt)}</p><div class="article-meta"><strong>${escapeHtml(a.author_name)}</strong><span>◷ ${a.reading_minutes} perc olvasás</span></div></header><figure class="article-cover" style="grid-template-columns:1fr"><img src="${hero}" alt="${escapeHtml(a.hero_image_alt || a.title)}"></figure><div class="article-layout" style="grid-template-columns:minmax(0,820px) 310px"><div class="article-body">${a.content_html}</div><aside class="article-aside"><h3 class="aside-title">MENTÁL.HU</h3><div class="margin-word hand-note">Jobb emberek. Teljesebb életek.</div></aside></div></article></main></body></html>`);
-});
 
 
 function directoryShell(title, body) {
-  return `<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)} – MENTÁL.hu</title><link rel="stylesheet" href="/directory.css?v=logo-20261105"></head><body><header class="dir-header"><a class="brand-lockup" href="/" aria-label="MENTÁL.hu főoldal"><svg class="brand-symbol" viewBox="0 0 52 44" aria-hidden="true"><path d="M5 35V16C5 10 9 6 14 6s9 4 9 10v19"></path><path d="M23 35V16c0-6 4-10 9-10s9 4 9 10v19"></path><circle cx="45" cy="11" r="4"></circle></svg><span class="brand-copy"><strong class="wordmark">MENTÁL<span>.hu</span></strong><small>szakemberek és szolgáltatások</small></span></a><nav class="dir-nav"><a href="/#kategoriak">KATEGÓRIÁK</a><a href="/#kiemeltek">KIEMELTEK</a><a href="/#felkerules">FELKERÜLÉS</a></nav><div class="dir-actions"><a class="outline-btn" href="/admin">BELÉPÉS</a><a class="solid-btn" href="/#felkerules">SZOLGÁLTATÓ VAGYOK</a></div></header>${body}<footer class="footer"><div class="footer-inner"><div><div class="footer-brand">MENTÁL.hu</div><small>Találd meg, aki segíthet.</small></div><small>A katalógus tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai ajánlást.</small></div></footer></body></html>`;
+  return `<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)} – MENTÁL.hu</title><link rel="stylesheet" href="/directory.css?v=logo-20261105"></head><body><header class="dir-header"><a class="brand-lockup" href="/" aria-label="MENTÁL.hu főoldal"><svg class="brand-symbol" viewBox="0 0 52 44" aria-hidden="true"><path d="M5 35V16C5 10 9 6 14 6s9 4 9 10v19"></path><path d="M23 35V16c0-6 4-10 9-10s9 4 9 10v19"></path><circle cx="45" cy="11" r="4"></circle></svg><span class="brand-copy"><strong class="wordmark">MENTÁL<span>.hu</span></strong><small>szakemberek és szolgáltatások</small></span></a><nav class="dir-nav"><a href="/cikkek">Cikkek</a><a href="/#kategoriak">Kategóriák</a><a href="/szolgaltatok">Szakemberek</a><a href="/#tudastar">Tudástár</a><a href="/#felkerules">Felkerülés</a></nav><div class="dir-actions"><a class="outline-btn" href="/admin">BELÉPÉS</a><a class="solid-btn" href="/#felkerules">Szolgáltató vagyok</a></div><details class="mobile-menu"><summary>Menü</summary><nav aria-label="Mobil navigáció"><a href="/cikkek">Cikkek</a><a href="/szolgaltatok">Szakemberek</a><a href="/#kategoriak">Kategóriák</a><a href="/#tudastar">Tudástár</a><a href="/#felkerules">Szolgáltatói regisztráció</a><a href="/admin">Admin belépés</a></nav></details></header>${body}<footer class="footer"><div class="footer-inner"><div><div class="footer-brand">MENTÁL.hu</div><small>Találd meg, aki segíthet.</small><p><a href="/cikkek">Cikkek</a> · <a href="/szolgaltatok">Szakemberek</a></p></div><small>A katalógus tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai ajánlást.</small></div></footer></body></html>`;
 }
 
 function listingCards(rows) {
@@ -516,7 +503,7 @@ function escapeHtml(s='') {
 }
 
 // Do not expose application code, migrations or research snapshots as static pages.
-app.use((req,res,next)=>{let p;try{p=path.posix.normalize(decodeURIComponent(req.path)).toLowerCase();}catch{return res.status(404).end();}if(/^\/(?:research|scripts|lib|migrations|node_modules|\.git|\.github|test|tests)(?:\/|$)/.test(p)||/^\/(?:server\.js|package(?:-lock)?\.json|procfile|dockerfile|readme(?:\.md)?|\.env.*)$/.test(p))return res.status(404).end();next();});
+app.use((req,res,next)=>{let p;try{p=path.posix.normalize(decodeURIComponent(req.path)).toLowerCase();}catch{return res.status(404).end();}if(/^\/(?:cikkek|rovatok|content|docs|research|scripts|lib|migrations|node_modules|\.git|\.github|test|tests)(?:\/|$)/.test(p)||/^\/(?:server\.js|package(?:-lock)?\.json|procfile|dockerfile|readme(?:\.md)?|\.env.*)$/.test(p))return res.status(404).end();next();});
 app.use('/admin', express.static(path.join(ROOT, 'admin'), { index: 'index.html' }));
 app.use(express.static(ROOT, { extensions: ['html'], index: 'index.html' }));
 
@@ -533,6 +520,7 @@ async function initializeDatabase() {
   try {
     if (!DATABASE_URL) throw Object.assign(new Error('Missing database configuration'), { code: 'DATABASE_URL_MISSING' });
     await migrate();
+    await require('./lib/editorial-import.cjs').importEditorialContent({pool,root:ROOT});
     dbState.ready = true;
     dbState.phase = 'ready';
     dbState.error = null;
