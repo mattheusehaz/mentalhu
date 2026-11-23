@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-42840271",
+    "slug": "egyetemistak-online-hibrid-mentalhigienes-program-etu-care-2026",
+    "title": "Egyetemisták mentális támogatása: a tisztán online program közel olyan eredményesnek bizonyult, mint a hibrid változat",
+    "category": "Kutatások",
+    "excerpt": "Egy 1064 francia egyetemista részvételével végzett randomizált vizsgálatban egy nyolchetes digitális mentálhigiénés program kismértékű javulással járt a pszichés terhelés, az alvászavarok és az érzelemszabályozás terén. A teljesen online és a személyes alkalmakat is tartalmazó változat között nem találtak következetes általános különbséget.",
+    "content_html": "<p>Az egyetemisták számára a mentális egészséget támogató szolgáltatások elérhetőségét gyakran korlátozza az idő, a költség és a szakemberhiány. A digitális programok sokakat elérhetnek, de nyitott kérdés, hogy elég-e az online forma, vagy személyes foglalkozásokkal jelentősen jobb eredmény érhető el.</p>\n<h2>Három csoportot hasonlítottak össze</h2>\n<p>A. Theurel és francia munkatársai az Internet Interventions folyóiratban 2026. szeptember 26-án online megjelent vizsgálatukban 1064 egyetemistát osztottak véletlenszerűen három csoportba. A kizárólag online ETUCARE-programban 460 fő vett részt, a digitális anyagokat személyes műhelymunkával kiegészítő hibrid változatban 235 fő, a várólistás kontrollcsoportban pedig 369 fő. A program nyolc hétig tartott, az eredményeket a kezdéskor, a végén és további nyolc hét után mérték.</p>\n<p>A kutatók többek között a pszichés terhelést, az érzelemszabályozást, az alvászavarokat, a jóllétet és az alkoholfogyasztást vizsgálták. A programban részt vevő mindkét csoport több területen kedvezőbb változási pályát mutatott, mint a várólistások. A javulások összességében kicsik voltak; az alkoholfogyasztásra nem találtak egyértelmű eltérő hatást.</p>\n<h2>Többet ad a személyes találkozó?</h2>\n<p>A legtöbb általános kimenetelnél az online és a hibrid program eredménye között nem volt következetes, statisztikailag meggyőző különbség. A feltáró elemzések alapján a kezdetben súlyosabb tüneteket jelző hallgatók a hibrid változatban esetenként nagyobb javulást mutathattak, de ez nem volt az elsődleges bizonyíték arra, hogy a személyes alkalmak általában jobbak. A program teljesítése egyes eredményekhez hozzáadott, de nem magyarázta meg teljesen a csoportkülönbségeket.</p>\n<p>Ez az eredmény a felsőoktatás szervezői számára érdekes lehet: egy jól felépített online program széles körben elérhető támogatási forma lehet anélkül, hogy minden résztvevőnek rendszeres személyes foglalkozást kellene biztosítani. A kutatásból azonban nem következik, hogy a súlyos pszichés problémákkal élő hallgatóknak elegendő volna egy önsegítő webes program.</p>\n<p>A tanulmány fő korlátai között szerepel a várólistás összehasonlítás, az önbeszámolós mérés és az, hogy a vizsgálatot nem regisztrálták előzetesen. A szerzők nem jeleztek érdemi összeférhetetlenséget. Az elérhető absztrakt alapján a vizsgálat elsősorban egy adott francia egyetemi program eredményességét támasztja alá, nem minden digitális mentálhigiénés beavatkozásét. A teljes szöveghez ebben az ellenőrzésben nem sikerült megbízhatóan hozzáférni.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-42840271-hero.jpg",
+    "hero_image_alt": "Egyetemista lány laptopnál egy világos tanulószobában",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Efficacy of a digital mental health program for university students: A randomized controlled trial comparing online and hybrid delivery",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42840271/",
+        "published_at": "2026-09-26",
+        "doi": "10.1016/j.invent.2026.101002",
+        "pmid": "42840271",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T13:46:58Z",
+    "revision_sha256": "4ec9a6690d252c7728728d71596e84dc06070652e649c60f6723568977f2e6d8",
+    "reference": "chat-approval:2026-11-23-owner-message-Jovahagyom-a-kovetkezo-MENTAL.hu-cikkek; image-approval-message-ok-a-kepek-is-jok"
+  }
+}
