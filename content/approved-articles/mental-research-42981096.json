@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-42981096",
+    "slug": "varandossag-szorongas-relax-digitalis-program-randomizalt-2026",
+    "title": "Csökkent a várandósság alatti szorongás egy rövid digitális programmal – de mekkora a valódi különbség?",
+    "category": "Kutatások",
+    "excerpt": "Egy 268 résztvevős brit randomizált vizsgálatban a várandósságra szabott, négyhetes digitális RELAX-program mellett átlagosan 1,5 ponttal alacsonyabb szorongásszintet mértek a GAD-7 skálán, mint a szokásos várandósgondozást kapó csoportban. Az eredmény ígéretes, de nem minden vizsgált területen mutatkozott különbség.",
+    "content_html": "<p>A várandósság sokak számára örömteli, mégis bizonytalansággal és visszatérő aggodalmakkal teli időszak. A szorongásra való hajlam nem mindig jelent diagnosztizálható zavart, mégis befolyásolhatja a mindennapokat. Egy brit kutatócsoport most azt vizsgálta, hogy a terhesség idején végzett rövid, önállóan használható digitális gyakorlatok csökkenthetik-e a tüneteket a szokásos gondozáshoz képest.</p>\n<h2>Négyhetes program, hosszabb követés</h2>\n<p>Colette R. Hirsch és munkatársai a JAMA Network Open folyóiratban 2026. november 4-én közölték a RELAX elnevezésű, több helyszínen végzett, randomizált klinikai vizsgálat eredményeit. A brit kutatásban 268 várandós résztvevőt soroltak két csoportba. A beválasztáskor a terhesség 16–28. hetében jártak, sok visszatérő negatív gondolatot tapasztaltak, és szorongásuk legfeljebb közepes mértékű volt. Az egyik csoport a megszokott ellátás mellé 12, egyenként körülbelül 17 perces digitális foglalkozást kapott négy hét alatt; a másik csak a szokásos ellátásban részesült.</p>\n<p>A program a bizonytalan helyzetek értelmezésének gyakorlását célozta. A kutatók azt várták, hogy a résztvevők kevésbé automatikusan a fenyegető magyarázatot választják majd, és ez csökkentheti a szorongást, valamint a negatív gondolatok ismétlődését.</p>\n<p>Az elsődleges eredmény a nyolcadik héten mért szorongás volt. A RELAX-csoportban a GAD-7 kérdőív pontszáma átlagosan 1,5 ponttal lett alacsonyabb a kontrollcsoporténál (95%-os konfidenciaintervallum: −2,4 és −0,6 között; p = 0,001). Emellett kisebb különbséget találtak a depressziós tünetek, az aggodalmaskodás és a visszatérő negatív gondolkodás egyes mérőszámaiban is.</p>\n<h2>Mi maradt meg a szülés után?</h2>\n<p>A 36. heti, jellemzően a szülés után 12–24 héttel végzett értékelésnél az általános szorongás különbsége még kimutatható volt (GAD-7: −1,0 pont; 95%-os intervallum: −1,9 és −0,1 között). A szülés utáni depressziós tünetek és a visszatérő negatív gondolkodás mérőszámainál is fennmaradt néhány kedvező különbség. Ugyanakkor a mindennapi működésben nem mutatkozott egyértelmű előny, és a későbbi mérésnél több másodlagos kimenetel sem különbözött a csoportok között.</p>\n<p>A feltételezett pszichológiai mechanizmus sem nyert egyszerű igazolást: bár javult a helyzetek pozitívabb értelmezésére való hajlam, az elemzés nem támasztotta alá, hogy éppen ez közvetítette volna a nyolchetes szorongáscsökkenést. A nemkívánatos események előfordulása hasonló volt a két csoportban, és a szerzők nem találtak a programnak tulajdonítható súlyos eseményt.</p>\n<p>A kutatás gyakorlati üzenete az, hogy egy rövid, jól körülhatárolt digitális módszer hasznos kiegészítő lehet egyes, fokozottan aggódó várandósoknak. A különbség azonban nem jelenti a szorongásos zavarok gyógyításának bizonyítékát, és nem helyettesítheti a személyre szabott gondozást. A szerzők szerint a magasabb végzettségű résztvevők felülreprezentáltsága korlátozza az eredmény általánosíthatóságát. A vizsgálat brit egészségügyi kutatási támogatással zajlott; a teljes közlemény elérhető és az összeférhetetlenségi nyilatkozatokat tartalmazza.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-42981096-hero.jpg",
+    "hero_image_alt": "Várandós nő otthoni környezetben, laptopján digitális támogatási program",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "RELAX Perinatal Digital Intervention to Prevent Increasing Anxiety: A Randomized Clinical Trial",
+        "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856249",
+        "published_at": "2026-11-04",
+        "doi": "10.1001/jamanetworkopen.2026.40518",
+        "pmid": "42981096",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T13:46:58Z",
+    "revision_sha256": "fb6ce2ec14993871d589e0aefe43d433f9f26b431983271f7a50696bfe070153",
+    "reference": "chat-approval:2026-11-23-owner-message-Jovahagyom-a-kovetkezo-MENTAL.hu-cikkek; image-approval-message-ok-a-kepek-is-jok"
+  }
+}
