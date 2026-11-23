@@ -174,6 +174,9 @@ app.use((req, res, next) => {
   next();
 });
 
+// API-only direct publication for explicitly approved, immutable editorial packages.
+require('./lib/editorial-api.cjs').registerEditorialApi(app, {pool, dbState, root: ROOT});
+
 const contactService = require('./lib/contact-inquiries.cjs').createContactService({pool,auth,dbState,audit});
 contactService.register(app);
 contactService.start();
