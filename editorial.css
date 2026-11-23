@@ -117,3 +117,26 @@
 .home-page .home-latest .story-compact .story-meta>*+*::before{margin-right:7px}
 @media(max-width:960px){.home-page .home-latest .home-story-list{grid-template-rows:none;gap:11px}.home-page .home-latest .story-compact .story-link{grid-template-columns:minmax(0,1fr) 150px}.home-page .home-latest .story-compact .story-copy{padding:17px}.home-page .home-latest .story-compact h3{font-size:clamp(19px,2.7vw,24px);-webkit-line-clamp:3}}
 @media(max-width:600px){.home-page .home-latest .story-compact .story-link{grid-template-columns:minmax(0,1fr) 105px}.home-page .home-latest .story-compact .story-copy{padding:12px}.home-page .home-latest .story-compact h3{font-size:18px}}
+
+
+/* Focused reading surface: white only within the article column, not page-wide. */
+.editorial-page .editorial-reader>article{
+  width:100%;
+  max-width:1140px;
+  margin:0 auto;
+  padding:clamp(26px,3.8vw,52px);
+  background:#fff;
+  border:1px solid #e8e3da;
+  border-radius:18px;
+  box-shadow:0 10px 36px rgba(20,49,43,.055);
+}
+.editorial-page .editorial-reader>article .reader-heading{margin-top:0}
+.editorial-page .editorial-reader>article .reader-cover{margin-left:0;margin-right:0}
+.editorial-page .editorial-reader .reader-related{max-width:1140px;margin-left:auto;margin-right:auto}
+@media(max-width:640px){
+  .editorial-page .editorial-reader>article{
+    padding:24px 18px 30px;
+    border-radius:12px;
+    box-shadow:none;
+  }
+}
