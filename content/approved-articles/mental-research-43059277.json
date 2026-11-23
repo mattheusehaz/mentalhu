@@ -19,7 +19,7 @@
         "title": "Epidemiology and Psychiatric Sciences – eredeti tudományos közlés",
         "url": "https://www.cambridge.org/core/journals/epidemiology-and-psychiatric-sciences/article/longitudinal-patterns-of-problematic-internet-use-and-subsequent-mental-health-problems-in-adolescents/DDE5C63489D4A1760C915978AB451B87",
         "published_at": "2026-11-20",
-        "doi": "10.1017/S2045796026101103",
+        "doi": "10.1017/s2045796026101103",
         "pmid": "43059277",
         "kind": "peer-reviewed"
       },
@@ -38,7 +38,7 @@
     "method": "explicit-chat-approval",
     "approved_by": "owner",
     "approved_at": "2026-11-23T15:38:00Z",
-    "revision_sha256": "deb612adf29df45b285495c7dcab3c9025e5488f845056209101b70efd6e1cf9",
+    "revision_sha256": "f52f081433df6be2fe7c7f60ef50a5addfaf3e0da771fcda34bc904e370e450c",
     "reference": "chat-message:2026-11-23T16:38+01:00-mehetnek-ki"
   }
 }

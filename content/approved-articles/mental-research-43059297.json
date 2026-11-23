@@ -19,7 +19,7 @@
         "title": "Psychological Medicine – eredeti tudományos közlés",
         "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/effects-of-specialised-and-centralised-versus-generalised-and-decentralised-outpatient-treatment-for-progressed-bipolar-disorder-results-from-the-cag-bipolar-randomised-controlled-trial/D79E5ABD90E3F5F44D286B5C85CD10CA",
         "published_at": "2026-11-20",
-        "doi": "10.1017/S0033291726106606",
+        "doi": "10.1017/s0033291726106606",
         "pmid": "43059297",
         "kind": "peer-reviewed"
       },
@@ -38,7 +38,7 @@
     "method": "explicit-chat-approval",
     "approved_by": "owner",
     "approved_at": "2026-11-23T15:38:00Z",
-    "revision_sha256": "f38d39134ff099bbac5c855d88a876ba34d207792457731a826dd015448eab30",
+    "revision_sha256": "05278e34d2d8b7fa72e69ff63333a795eaf773f63e26470f8d376e70e4b75fc1",
     "reference": "chat-message:2026-11-23T16:38+01:00-mehetnek-ki"
   }
 }
