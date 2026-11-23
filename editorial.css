@@ -105,3 +105,15 @@
 .home-page .quick-category[href="/kategoria/kepzesek"]{--category-image:url('/assets/category-kepzesek.jpg')}
 .home-page .quick-category[href="/kategoria/konferenciak-es-esemenyek"]{--category-image:url('/assets/category-konferenciak-es-esemenyek.jpg')}
 @media(max-width:640px){.home-page .quick-category{min-height:175px}}
+
+/* Five-story homepage editorial: one lead and four balanced compact stories. */
+.home-page .home-latest .home-stories{grid-template-columns:minmax(0,1.28fr) minmax(0,1fr)}
+.home-page .home-latest .home-story-list{grid-template-rows:repeat(4,minmax(0,1fr));gap:9px}
+.home-page .home-latest .story-compact .story-link{grid-template-columns:minmax(0,1fr) 116px}
+.home-page .home-latest .story-compact .story-copy{padding:11px 14px}
+.home-page .home-latest .story-compact h3{font-size:clamp(17px,1.38vw,21px);line-height:1.12;margin-bottom:5px;-webkit-line-clamp:2}
+.home-page .home-latest .story-compact .story-category{font-size:12px;margin-bottom:4px}
+.home-page .home-latest .story-compact .story-meta{font-size:9px;gap:3px 7px}
+.home-page .home-latest .story-compact .story-meta>*+*::before{margin-right:7px}
+@media(max-width:960px){.home-page .home-latest .home-story-list{grid-template-rows:none;gap:11px}.home-page .home-latest .story-compact .story-link{grid-template-columns:minmax(0,1fr) 150px}.home-page .home-latest .story-compact .story-copy{padding:17px}.home-page .home-latest .story-compact h3{font-size:clamp(19px,2.7vw,24px);-webkit-line-clamp:3}}
+@media(max-width:600px){.home-page .home-latest .story-compact .story-link{grid-template-columns:minmax(0,1fr) 105px}.home-page .home-latest .story-compact .story-copy{padding:12px}.home-page .home-latest .story-compact h3{font-size:18px}}
