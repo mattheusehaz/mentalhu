@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-43062354",
+    "slug": "rovid-act-terapia-depresszio-szorongas-metaelemzes-2026",
+    "title": "Segíthet a rövid ACT-terápia a szorongáson és a depresszión? Az összehasonlítás módja sokat számít",
+    "category": "Kutatások",
+    "excerpt": "Negyvenkilenc randomizált vizsgálat összesítése szerint a rövid elfogadás- és elköteleződés-terápia csökkentheti a depressziós és szorongásos tüneteket a várólistához vagy a beavatkozás hiányához képest. Más aktív segítségformáknál viszont nem bizonyult egyértelműen hatásosabbnak.",
+    "content_html": "<p>A pszichológiai segítség egyik gyakorlati kérdése, hogy lehet-e néhány alkalomból álló, jól körülhatárolt beavatkozással érzékelhető változást elérni. A rövid, elfogadás- és elköteleződés-terápiára (ACT) épülő programokat egy új, 2026. november 20-án online megjelent szisztematikus áttekintés és metaanalízis vizsgálta. Az eredmény biztató, de jóval árnyaltabb annál, mint hogy a rövid terápia minden más megoldásnál hatásosabb lenne.</p>\n<h2>Mit neveztek rövid terápiának?</h2>\n<p>Lindakristin Kempe és munkatársai 49 randomizált, kontrollált vizsgálat eredményeit összegezték. A kutatók a rövid ACT-t az egyéni ellátásban legfeljebb hat ülésként vagy hat óraként, csoportos formában legfeljebb hat hétként vagy tizenkét óraként határozták meg. A vizsgálatok mentális problémával élő, testi betegséggel kezelt és nem klinikai populációkat egyaránt érintettek. A tanulmányt a Cognitive Behaviour Therapy közölte.</p>\n<p>Az ACT nem pusztán a kellemetlen gondolatok megszüntetésére törekszik. Az elfogadáson, a pszichológiai rugalmasság fejlesztésén és a személyes értékekhez igazodó cselekvésen van a hangsúly. Ennek rövid formáját elsősorban ott lehet fontos megvizsgálni, ahol kevés a szakember, hosszú a várólista, vagy a rendelkezésre álló idő korlátozott.</p>\n<h2>A passzív és az aktív kontroll között nagy a különbség</h2>\n<p>A depressziós tünetekre vonatkozó 41 vizsgálat összesített, közepes nagyságú hatást mutatott (Hedges-féle g = 0,56). A szorongásos tünetekre 35 vizsgálat alapján kisebb, illetve közepes közötti összesített hatás adódott (g = 0,42). Ez azonban két különféle összehasonlítást takar.</p>\n<p>Amikor a rövid ACT-t passzív kontrollhoz – például várólistához vagy érdemi új beavatkozás nélküli feltételhez – mérték, a depresszió esetében g = 0,67, a szorongásnál g = 0,53 volt az összesített hatás. Aktív kontrollhoz, vagyis valamilyen más tényleges beavatkozáshoz képest viszont a különbség nem bizonyult statisztikailag szignifikánsnak: depressziónál g = 0,14, szorongásnál g = 0,01.</p>\n<p>Ebből nem az következik, hogy az ACT hatástalan, és az sem, hogy minden beavatkozás pontosan azonos eredményt ad. Azt jelenti, hogy ebben az áttekintésben a rövid ACT előnye főként a kevés vagy semmilyen aktív segítséget nem kapó összehasonlító csoportokkal szemben látszott. Egy másik aktív módszerrel szembeni fölényt az összesített adatok nem támasztották alá.</p>\n<h2>Miért kell óvatosan értelmezni az átlagot?</h2>\n<p>A vizsgálatok között rendkívül nagy különbségek voltak. A heterogenitást jelző I² értéke depressziónál 90,61%, szorongásnál 86,22% volt. Ez arra utal, hogy a résztvevők, a kezelési formák, a kontrollfeltételek vagy a vizsgálatok egyéb jellemzői miatt az eredmények erősen eltérhettek. A klinikai és nem klinikai alcsoportok között is látszottak különbségek, de az alcsoportok közvetlen összehasonlítása nem adott meggyőző bizonyítékot eltérő hatásra.</p>\n<p>A kutatás ezért nem alkalmas arra, hogy egy konkrét ember számára megmondja, elegendő-e hat alkalom, és arra sem, hogy a rövid ACT felváltsa a hosszabb pszichoterápiát vagy a szükséges orvosi kezelést. Arra viszont jó érv, hogy a rövidebb, strukturált pszichológiai programokat komolyan vizsgálják és megfelelő körülmények között mérlegeljék. A teljes tanulmány szövegét a jelen feldolgozáskor nem sikerült hozzáférhetővé tenni; az értelmezés a lektorált közlemény PubMeden elérhető kivonatára épül.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "",
+    "hero_image_alt": "",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Kempe L. és mtsai: Brief Acceptance and Commitment Therapy: a systematic review and meta-analysis of effects on depression and anxiety across mental health, physical/medical, and non-clinical populations",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43062354/",
+        "published_at": "2026-11-20",
+        "doi": "10.1080/16506073.2026.2765382",
+        "pmid": "43062354",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T11:28:00Z",
+    "revision_sha256": "31780cb6ea93feb1190405a4391e0ff708bd750544548e0346b32503d813b666",
+    "reference": "chat-approval:2026-11-23-user-mehetnek-ki-a-cikkek"
+  }
+}
