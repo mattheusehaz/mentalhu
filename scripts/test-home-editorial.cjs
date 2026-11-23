@@ -11,20 +11,21 @@ const articles=Array.from({length:6},(_,i)=>({
  hero_url:'/assets/mental-research-43062354-hero.jpg',
  hero_image_alt:'Tesztfotó'
 }));
-test('featured section contains exactly the newest four articles',()=>{
+test('featured section contains exactly the newest five articles',()=>{
  const html=renderHomeFeatured(articles);
  assert.match(html,/article-0/);
  assert.match(html,/article-1/);
  assert.match(html,/article-2/);
  assert.match(html,/article-3/);
- assert.doesNotMatch(html,/article-4/);
+ assert.match(html,/article-4/);
+ assert.doesNotMatch(html,/article-5/);
  assert.match(html,/story-lead/);
- assert.equal((html.match(/story-compact/g)||[]).length,3);
+ assert.equal((html.match(/story-compact/g)||[]).length,4);
 });
-test('lower list contains all articles after the featured four, without repeats',()=>{
+test('lower list contains all articles after the featured five, without repeats',()=>{
  const html=renderHomeArticles(articles);
- assert.doesNotMatch(html,/article-[0123]/);
- for(const id of [4,5]) assert.match(html,new RegExp('article-'+id));
+ assert.doesNotMatch(html,/article-[01234]/);
+ for(const id of [5]) assert.match(html,new RegExp('article-'+id));
 });
 test('static home template puts featured articles before search, remaining after Tudástár',()=>{
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
