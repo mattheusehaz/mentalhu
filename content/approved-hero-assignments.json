@@ -1,0 +1,26 @@
+[
+  {
+    "external_id": "mental-research-43062354",
+    "article_revision": "31780cb6ea93feb1190405a4391e0ff708bd750544548e0346b32503d813b666",
+    "image_path": "/assets/mental-research-43062354-hero.jpg",
+    "image_sha256": "d55649e19078d5fdda184565ebf8fd5e3090e289dde9ef23a182594b3d3a33c9",
+    "alt_text": "Nő a szabadban, sötét felhők és napfény határán, a szorongás és a lelki rugalmasság témájához",
+    "approval_reference": "chat-message:2026-11-23-ok-mehetnek-fel-a-megfelelo-cikkekhez"
+  },
+  {
+    "external_id": "mental-research-43049954",
+    "article_revision": "41ae6f8a7e8d71eb3026f86b167e98b66390448bae353ef4ef0c186e4a683a27",
+    "image_path": "/assets/mental-research-43049954-hero.jpg",
+    "image_sha256": "65860c0c3f5b8acd72951a306a02c899b63d48f35235e9126fd3159275e33ec4",
+    "alt_text": "Tizenéves fiú napirendet és tanulási feladatokat tervez egy támogató felnőtt jelenlétében",
+    "approval_reference": "chat-message:2026-11-23-ok-mehetnek-fel-a-megfelelo-cikkekhez"
+  },
+  {
+    "external_id": "mental-research-43050704",
+    "article_revision": "d9d8148297ab826d7aee16e21f51730be3d22f79df52f58a2436f2b9e9956d9b",
+    "image_path": "/assets/mental-research-43050704-hero.jpg",
+    "image_sha256": "4f88052ceda67598f73c468f4f11c3836362c829e5113e40b17fd93af76957ba",
+    "alt_text": "Okosgyűrűt viselő nő, háttérben alvás- és aktivitásadatok megjelenítésével",
+    "approval_reference": "chat-message:2026-11-23-ok-mehetnek-fel-a-megfelelo-cikkekhez"
+  }
+]
