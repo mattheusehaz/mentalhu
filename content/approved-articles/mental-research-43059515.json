@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-43059515",
+    "slug": "gondozok-lelki-terhei-motivacios-interju-kutatas",
+    "title": "Gondozók lelki terhei: segíthet a motivációs interjú, de még kevés a biztos bizonyíték",
+    "category": "Kutatások",
+    "excerpt": "Egy új, 949 családi és más nem hivatásos gondozó adatait feldolgozó szisztematikus áttekintés szerint a motivációs interjú javíthatja a gondozók felkészültségét, önbizalmát és kommunikációját. A vizsgálatok eltérései és módszertani hibái miatt azonban nem bizonyított, hogy minden helyzetben mérsékli a lelki megterhelést.",
+    "content_html": "<p><strong>Egy új, 949 családi és más nem hivatásos gondozó adatait feldolgozó szisztematikus áttekintés szerint a motivációs interjú javíthatja a gondozók felkészültségét, önbizalmát és kommunikációját. A vizsgálatok eltérései és módszertani hibái miatt azonban nem bizonyított, hogy minden helyzetben mérsékli a lelki megterhelést.</strong></p><p>Egy tartós betegséggel vagy demenciával élő hozzátartozó gondozása gyakran hosszú időn át tartó, nehezen kiszámítható feladat. A gyakorlati teendők mellett döntések, családi konfliktusok és érzelmi terhek is megjelenhetnek. Éppen ezért nemcsak a betegek, hanem a róluk rendszeresen gondoskodó családtagok és más, nem hivatásos segítők támogatása is fontos mentálhigiénés kérdés.</p><p>Az egyik lehetséges módszer a motivációs interjú. Ez olyan együttműködésre épülő beszélgetési megközelítés, amelyben a segítő nem egyszerűen utasításokat ad: a gondozó saját céljainak, bizonytalanságainak és változtatási lehetőségeinek tisztázását támogatja. Egy új szakirodalmi áttekintés azt vizsgálta, mennyire megalapozott ennek alkalmazása a hozzátartozók körében.</p><h2>Nyolc tanulmány, összesen 949 gondozó</h2><p>Camilla Barletta és munkatársai a Research in Nursing &amp; Health folyóiratban 2026. november 20-án online megjelent áttekintésükben hat nagy tudományos adatbázis korábbi közleményeit keresték át 2025 áprilisáig. A 12 624 azonosított rekordból nyolc, 2020 és 2025 között megjelent tanulmány felelt meg a beválasztási feltételeknek. Ezekben összesen 949 nem hivatásos gondozó szerepelt; átlagéletkoruk 50,8 év volt, 60 százalékuk nő.</p><p>Az elemzésbe öt randomizált kontrollált vizsgálat, két kvázi-kísérletes kutatás és egy egyesetet vizsgáló tanulmány került. A támogatást főként ápolók vagy más egészségügyi segítők nyújtották, személyes találkozásokon, távolról vagy a két formát összekapcsolva. A gondozottak között krónikus, idegrendszeri leépüléssel járó és daganatos betegséggel élők is voltak.</p><h2>Miben látszott kedvező változás?</h2><p>A bevont vizsgálatokban a motivációs interjút alkalmazó programok mellett több, a gondozók által jelzett területen kedvező eredmények mutatkoztak. Ide tartozott az önhatékonyság, vagyis a saját feladatokkal való megküzdésbe vetett bizalom, a gondozási helyzetekre való felkészültség, a motiváció és a kommunikáció. Egyes kutatások a lelki jóllét és az észlelt gondozási teher javulásáról is beszámoltak.</p><p>Az áttekintés hozzáférhető absztraktja azonban nem közöl egységes, összevont hatásméretet. Nem lehet ezért azt állítani, hogy a módszer egy meghatározott százalékkal csökkenti a stresszt, vagy biztosan megelőzi a kiégést. A különböző programok, kérdőívek és vizsgálati elrendezések eredményeit a szerzők is óvatosan értékelték.</p><h2>Miért nem tekinthető még bizonyított megoldásnak?</h2><p>Az öt randomizált vizsgálat módszertani torzításkockázata a szerzők értékelése szerint alacsony volt, vagy bizonyos aggályokat vetett fel. A két nem randomizált vizsgálatot viszont kritikus kockázatúnak minősítették, az egyesetes kutatásban pedig több területen bizonytalan maradt az értékelés. A kis számú, egymástól eltérő vizsgálat korlátozza, hogy az eredmények mennyire vihetők át más betegségekre, családi helyzetekre és ellátórendszerekre.</p><p>A motivációs interjú így ígéretes kiegészítője lehet a gondozók támogatásának, de nem helyettesíti a tehermentesítő szolgáltatásokat, a megfelelő szakellátást vagy a mindennapi segítséget. Fontos különbség, hogy egy gondozó kommunikációs készségeinek erősítése nem oldja meg önmagában a túl sok feladatból vagy az elégtelen ellátási kapacitásból eredő gondokat.</p><p>A szerzők további, jobb minőségű kutatásokat sürgetnek, egységesebb eredménymérési módszerekkel és annak pontos ellenőrzésével, hogy az egyes programok valóban a motivációs interjú elveit követik-e. A cikk a lektorált tanulmány elérhető absztraktjára épül; a teljes szöveg, így a finanszírozási és összeférhetetlenségi részletek nem voltak ellenőrizhetők.</p><p>Forrás: https://pubmed.ncbi.nlm.nih.gov/43059515/ · DOI: 10.1002/nur.70145 · PMID: 43059515</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-43059515.jpg",
+    "hero_image_alt": "Középkorú nő figyelmesen beszélget idős hozzátartozójával egy otthoni asztal mellett",
+    "hero_image_caption": "MI által készített illusztráció.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Motivational Interviewing for Informal Caregivers: A Systematic Review of Caregiver-Reported Outcomes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43059515/",
+        "published_at": "2026-11-20",
+        "doi": "10.1002/nur.70145",
+        "pmid": "43059515",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T14:01:00Z",
+    "revision_sha256": "5ca793f242d3e71b6dbc951cf1dd6c8dcbbc4b06b383787ea0d45f9864888ed8",
+    "reference": "chat-approval:2026-11-23T15:01+01:00-publikáld-az-elozo-ket-cikket"
+  }
+}
