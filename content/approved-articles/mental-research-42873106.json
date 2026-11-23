@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-42873106",
+    "slug": "iskolai-alvasprogramok-tudas-depresszios-tunetek-metaelemzes-2026",
+    "title": "Az iskolai alvásprogramok javítják az alvásról szóló tudást, de a tényleges alvásidőnél már bizonytalan az eredmény",
+    "category": "Gyermekek és serdülők",
+    "excerpt": "Harmincnégy kutatás és több mint 22 ezer serdülő adatainak összegzése alapján az iskolai alvásprogramok növelhetik az alvással kapcsolatos tudást, javíthatják az alváshigiénét és mérsékelhetik a depressziós tüneteket. A jobb alvásminőség és a hosszabb alvás azonban nem igazolódott egyértelműen.",
+    "content_html": "<p>Sok iskolában beszélnek már arról, hogy az esti telefonhasználat, a késői lefekvés és a korai tanításkezdés hogyan hat a fiatalokra. A tájékoztatás értékét ritkán vitatják, de lényeges kérdés, hogy az alvásról szóló ismeretek valóban több vagy jobb alvásban mutatkoznak-e meg. Egy friss nemzetközi összegzés éppen ezt a különbséget teszi láthatóvá.</p>\n<h2>Több mint 22 ezer serdülő tapasztalatai</h2>\n<p>Filipa Margarida Duque és a Coimbrai Egyetemhez kötődő munkatársai a JBI Evidence Synthesis folyóiratban 2026. október 12-én publikált szisztematikus áttekintésükben 34 vizsgálatot dolgoztak fel, összesen 22 679, 10–19 éves serdülő részvételével. Randomizált és kvázi-kísérleti kutatásokat is bevontak, és különböző iskolai alvásnevelési programok eredményeit értékelték.</p>\n<p>A randomizált vizsgálatok összesítésében az alvásról szóló tudás jelentősen javult (standardizált átlagkülönbség, SMD = 0,99; 95%-os konfidenciaintervallum: 0,48–1,50). Az alváshigiénés szokásokra vonatkozó összesített különbség kisebb volt (SMD = −0,20; 95%-os intervallum: −0,31 és −0,09 között), a depressziós tüneteknél pedig kedvező, de bizonytalansággal terhelt hatást találtak (SMD = −0,70; 95%-os intervallum: −1,12 és −0,29 között). A skálák előjele a pontozás irányától függ: az itt közölt negatív értékek kedvezőbb, alacsonyabb problémaszintet jeleztek.</p>\n<h2>A tudás nem ugyanaz, mint az alvás</h2>\n<p>Az alvásminőséget mérő összesített eredmény viszont nem volt statisztikailag meggyőző (SMD = 0,06; 95%-os intervallum: −0,16–0,27). Az alváshatékonyság, az alvásidő és az elalváshoz szükséges idő vizsgálatánál sem igazolódott egyértelmű különbség. Ez nem azt jelenti, hogy a programok sosem befolyásolják a tényleges alvást. Inkább azt, hogy az összegzett vizsgálatok nem szolgáltattak kellően egységes és pontos bizonyítékot erre a következtetésre.</p>\n<p>A jelentős eltérés érthető: az iskolai programok tartalma, időtartama és módszertani minősége különbözött, és egy tudásmegosztó foglalkozás másként hathat, mint a napirend vagy az iskolai környezet érdemi változtatása. A depressziós tünetek kedvező eredménye sem jelenti azt, hogy az alvásoktatás bizonyított depressziókezelés lenne.</p>\n<p>A gyakorlati tanulság, hogy az alvással kapcsolatos tájékozottság növelése önmagában is hasznos iskolai cél lehet, de az eredményt érdemes külön mérni a valóban alvással töltött óráktól. A szerzők további, jobb minőségű és hosszabb követésű vizsgálatokat tartanak szükségesnek. Az egyik szerző a folyóirat társszerkesztője, de nem vett részt a cikk szerkesztőségi elbírálásában. A jelen cikk a lektorált absztraktra épül, mert a teljes szöveg nem volt hozzáférhető.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-42873106-hero.jpg",
+    "hero_image_alt": "Alváshoz kapcsolódó foglalkozás egy iskolai osztályban",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Effectiveness of school-based sleep promotion programs for adolescents: a systematic review with meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42873106/",
+        "published_at": "2026-10-12",
+        "doi": "10.11124/jbies-24-00443",
+        "pmid": "42873106",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T13:46:58Z",
+    "revision_sha256": "0c216562d6f4f210d4788364ec7deeec221e9fc38c54ee8b57f687dd8693f224",
+    "reference": "chat-approval:2026-11-23-owner-message-Jovahagyom-a-kovetkezo-MENTAL.hu-cikkek; image-approval-message-ok-a-kepek-is-jok"
+  }
+}
