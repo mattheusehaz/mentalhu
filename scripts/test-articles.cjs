@@ -23,6 +23,7 @@ const req = (url,options={}) => fetch(base+url,{...options,signal:AbortSignal.ti
 async function json(url,options={}) { const response = await req(url,options); assert.equal(response.status,200,url+' '+output); return response.json(); }
 async function page(url,options={}) { const response = await req(url,options); assert.equal(response.status,200,url+' '+output); return response.text(); }
 const apiOptions = (method,data) => ({method,headers:{'Content-Type':'application/json',Cookie:session},body:JSON.stringify(data)});
+const articleClassCount = (markup, className) => [...markup.matchAll(/<article\b[^>]*class="([^"]*)"/g)].filter(match=>match[1].split(/\s+/).includes(className)).length;
 
 async function start() {
   server = spawn(process.execPath,['server.js'],{cwd:root,env:{...process.env,PORT:'18084',NODE_ENV:'test',CMS_JWT_SECRET:secret,CMS_ADMIN_EMAIL:'admin@example.test',CMS_ADMIN_PASSWORD:password},stdio:['ignore','pipe','pipe']});
@@ -46,11 +47,15 @@ async function stop() {
   assert(legacyItems.filter(a=>a.published_at).every(a=>a.published_at.startsWith('2026-09-10')),'Import must not manufacture freshness');
   assert(legacyItems.every(a=>a.hero_url.startsWith('/assets/')));
   const home = await page('/');
-  assert.equal((home.match(/class="story story-/g)||[]).length,5);
-  assert(home.indexOf('id="cikkek"') < home.indexOf('id="kategoriak"'));
+  const expectedHomeTotal=Math.min(baselineTotal,14), expectedFeatured=Math.min(baselineTotal,5), expectedLower=Math.max(0,expectedHomeTotal-expectedFeatured);
+  assert.equal(articleClassCount(home,'story'),expectedHomeTotal);
+  assert.equal(articleClassCount(home,'story-compact'),Math.max(0,expectedFeatured-1));
+  assert.equal(articleClassCount(home,'article-card'),expectedLower);
+  const homeOrder=[home.indexOf('id="friss-cikkek"'),home.search(/<form\b[^>]*action="\/kereses"/),home.indexOf('id="cikkek"'),home.indexOf('id="kategoriak"'),home.indexOf('id="tudastar"')];
+  assert(homeOrder.every((position,index)=>position>=0 && (index===0 || position>homeOrder[index-1])),'Home order: cover, expert search, articles, categories, knowledge');
   assert(home.includes('href="/cikkek"'));
   const archive = await page('/cikkek');
-  assert.equal((archive.match(/class="story story-grid"/g)||[]).length,Math.min(baselineTotal,12));
+  assert.equal(articleClassCount(archive,'story-grid'),Math.min(baselineTotal,12));
   const first = await json('/api/public/articles?paginated=true&limit=3');
   const second = await json('/api/public/articles?paginated=true&limit=3&page=2');
   assert.equal(second.page,2);assert.equal(second.items.length,3);
@@ -91,8 +96,8 @@ async function stop() {
   fs.mkdirSync(path.join(root,'test-artifacts'),{recursive:true});
   await browserPage.goto(base+'/',{waitUntil:'networkidle'});
   await browserPage.locator('#cikkek').screenshot({path:'test-artifacts/articles-home-desktop.png'});
-  assert.equal(await browserPage.locator('.home-editorial .story').count(),5);
-  await browserPage.locator('.dir-nav').getByRole('link',{name:'Cikkek',exact:true}).click();
+  assert.equal(await browserPage.locator('.home-editorial .story').count(),expectedLower);
+  await browserPage.locator('.dir-nav').getByRole('link',{name:'Magazin',exact:true}).click();
   await browserPage.waitForURL('**/cikkek');
   await browserPage.screenshot({path:'test-artifacts/articles-index-desktop.png',fullPage:true});
   await browserPage.getByRole('searchbox').fill('szorongás');
@@ -110,7 +115,7 @@ async function stop() {
   await mp.goto(base+'/',{waitUntil:'networkidle'});
   await mp.locator('#cikkek').screenshot({path:'test-artifacts/articles-home-mobile.png'});
   await mp.locator('.mobile-menu summary').click();
-  await mp.locator('.mobile-menu').getByRole('link',{name:'Cikkek',exact:true}).click();await mp.waitForURL('**/cikkek');
+  await mp.locator('.mobile-menu').getByRole('link',{name:'Magazin',exact:true}).click();await mp.waitForURL('**/cikkek');
   await mp.screenshot({path:'test-artifacts/articles-index-mobile.png',fullPage:true});
   const authLogin=await context.request.post(base+'/api/admin/login',{data:{email:'admin@example.test',password}});assert.equal(authLogin.status(),200);
   await browserPage.goto(base+'/admin/',{waitUntil:'networkidle'});

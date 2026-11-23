@@ -40,7 +40,7 @@ function unavailable(req, res) {
   if (req.path.startsWith('/api/') || req.path.startsWith('/health/')) {
     return res.json({ ok: false, error: 'A katalógus adatbázisa átmenetileg nem elérhető.', code: 'DATABASE_UNAVAILABLE' });
   }
-  return res.type('html').send(directoryShell('A katalógus átmenetileg nem elérhető', '<main class="section"><h1>A katalógus átmenetileg nem elérhető</h1><p>Az adatbázis-kapcsolat jelenleg nem működik. Kérjük, próbáld újra később.</p><p><a href="/">Vissza a főoldalra</a></p></main>'));
+  return res.type('html').send(directoryShell('A katalógus átmenetileg nem elérhető', '<main id="tartalom" class="shell catalog-main"><section class="catalog-status"><p class="eyebrow">MENTÁL.HU KATALÓGUS</p><h1>A katalógus átmenetileg nem elérhető</h1><p>Az adatbázis-kapcsolat jelenleg nem működik. Kérjük, próbáld újra később.</p><a class="button button-green" href="/">Vissza a főoldalra</a></section></main>'));
 }
 app.set('trust proxy', 1);
 app.use(helmet({
@@ -372,7 +372,7 @@ app.post('/api/newsletter/subscribe', newsletterLimiter, async (req, res) => {
 
 app.get('/leiratkozas/:token', async (req, res) => {
   await pool.query("UPDATE newsletter_subscribers SET status='unsubscribed',updated_at=now() WHERE unsubscribe_token=$1", [req.params.token]);
-  res.type('html').send('<!doctype html><meta charset="utf-8"><title>Leiratkozás</title><body style="font-family:Arial;padding:60px;background:#f7f3eb;color:#173c2f"><h1>Sikeres leiratkozás</h1><p>Az e-mail-címedet leiratkoztattuk a MENTÁL.hu hírleveléről.</p><p><a href="/">Vissza a MENTÁL.hu oldalra</a></p></body>');
+  res.type('html').send(directoryShell('Sikeres leiratkozás', '<main id="tartalom" class="shell catalog-main"><section class="catalog-status"><p class="eyebrow">MENTÁL.HU HÍRLEVÉL</p><h1>Sikeres leiratkozás</h1><p>Az e-mail-címedet leiratkoztattuk a MENTÁL.hu hírleveléről.</p><a class="button button-green" href="/">Vissza a főoldalra</a></section></main>', {canonical:'/',active:'magazin'}));
 });
 
 
@@ -481,24 +481,21 @@ app.put('/api/admin/directory/submissions/:id', auth, async(req,res)=>{const sta
 
 
 
-function directoryShell(title, body) {
-  return `<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)} – MENTÁL.hu</title><link rel="stylesheet" href="/directory.css?v=logo-20261105"></head><body><header class="dir-header"><a class="brand-lockup" href="/" aria-label="MENTÁL.hu főoldal"><svg class="brand-symbol" viewBox="0 0 52 44" aria-hidden="true"><path d="M5 35V16C5 10 9 6 14 6s9 4 9 10v19"></path><path d="M23 35V16c0-6 4-10 9-10s9 4 9 10v19"></path><circle cx="45" cy="11" r="4"></circle></svg><span class="brand-copy"><strong class="wordmark">MENTÁL<span>.hu</span></strong><small>szakemberek és szolgáltatások</small></span></a><nav class="dir-nav"><a href="/cikkek">Cikkek</a><a href="/#kategoriak">Kategóriák</a><a href="/szolgaltatok">Szakemberek</a><a href="/#tudastar">Tudástár</a><a href="/#felkerules">Felkerülés</a></nav><div class="dir-actions"><a class="outline-btn" href="/admin">BELÉPÉS</a><a class="solid-btn" href="/#felkerules">Szolgáltató vagyok</a></div><details class="mobile-menu"><summary>Menü</summary><nav aria-label="Mobil navigáció"><a href="/cikkek">Cikkek</a><a href="/szolgaltatok">Szakemberek</a><a href="/#kategoriak">Kategóriák</a><a href="/#tudastar">Tudástár</a><a href="/#felkerules">Szolgáltatói regisztráció</a><a href="/admin">Admin belépés</a></nav></details></header>${body}<footer class="footer"><div class="footer-inner"><div><div class="footer-brand">MENTÁL.hu</div><small>Találd meg, aki segíthet.</small><p><a href="/cikkek">Cikkek</a> · <a href="/szolgaltatok">Szakemberek</a></p></div><small>A katalógus tájékoztató jellegű. A megjelenés önmagában nem jelent szakmai ajánlást.</small></div></footer></body></html>`;
+function directoryShell(title, body, options = {}) {
+  return require('./lib/site-shell.cjs').siteShell(title, body, {
+    active: 'szakemberek', bodyClass: 'directory-page',
+    styles: ['/catalog-design.css?v=folio-20261123'], ...options
+  });
 }
 
 function listingCards(rows) {
-  if (!rows.length) return '<div class="listing-card"><h3>Nincs találat</h3><p>Próbálj másik kategóriát, várost vagy keresőkifejezést.</p></div>';
-  return rows.map(x => `<a class="listing-card ${x.featured?'featured':''}" href="/szolgaltato/${encodeURIComponent(x.slug)}"><div class="listing-head">${x.profile_image_id?'<img class="listing-avatar" src="/media/'+x.profile_image_id+'" alt="">':'<div class="listing-avatar">'+escapeHtml(x.name.charAt(0))+'</div>'}<div><h3>${escapeHtml(x.name)}</h3>${x.verified?'<div class="verified">✓ Ellenőrzött adatok</div>':''}</div></div><p>${escapeHtml(x.short_description||'Részletes szolgáltatói profil és elérhetőségek.')}</p><div class="chips">${(x.categories||[]).slice(0,3).map(c=>'<span class="chip">'+escapeHtml(c.name)+'</span>').join('')}${x.online_available?'<span class="chip">Online</span>':''}</div><div class="listing-foot"><span>${escapeHtml(x.city||'Magyarország')}</span><span>Adatlap és kapcsolat →</span></div></a>`).join('');
+  return require('./lib/directory-views.cjs').listingCards(rows);
 }
 
 app.get('/szolgaltato/:slug', async(req,res,next)=>{
   const {rows}=await pool.query(`SELECT l.*,COALESCE(json_agg(DISTINCT jsonb_build_object('slug',c.slug,'name',c.name,'verification_level',c.verification_level,'group_name',c.group_name)) FILTER(WHERE c.id IS NOT NULL),'[]') AS categories FROM directory_listings l LEFT JOIN directory_listing_categories lc ON lc.listing_id=l.id LEFT JOIN directory_categories c ON c.id=lc.category_id WHERE l.slug=$1 AND l.status='published' GROUP BY l.id`,[req.params.slug]); const x=rows[0]; if(!x)return next();
-  const isAlt=(x.categories||[]).some(c=>c.verification_level==='alternative'),isHealth=(x.categories||[]).some(c=>c.verification_level==='healthcare');
-  const disclosure=isAlt?'Alternatív / nem egészségügyi szolgáltatás. Nem helyettesíti az egészségügyi ellátást.':isHealth?'Egészségügyi vagy szabályozott szakmai terület. A jogosultságokat érdemes a megfelelő nyilvántartásban is ellenőrizni.':'A profil a szolgáltató által megadott és/vagy nyilvánosan elérhető információkat tartalmaz.';
-  const body=`<main><section class="directory-hero"><div class="directory-hero-inner"><div><div class="kicker">${(x.categories||[]).map(c=>escapeHtml(c.name)).join(' · ')}</div><h1>${escapeHtml(x.name)}</h1><p>${escapeHtml(x.short_description)}</p><div class="chips">${x.online_available?'<span class="chip">Online is</span>':''}${x.verified?'<span class="chip">✓ Ellenőrzött adatok</span>':''}<span class="chip">${escapeHtml(x.city||'Magyarország')}</span></div><div class="trust-note"><span class="trust-dot">i</span><div>${escapeHtml(disclosure)}</div></div></div><aside class="hero-side">${x.profile_image_id?'<img src="/media/'+x.profile_image_id+'" style="width:100%;max-height:320px;object-fit:cover" alt="">':''}<h3>Kapcsolat</h3>${x.website_url?'<p><a href="'+escapeHtml(x.website_url)+'" target="_blank" rel="noopener">Weboldal ↗</a></p>':''}${x.booking_url?'<p><a class="solid-btn" href="'+escapeHtml(x.booking_url)+'" target="_blank" rel="noopener">IDŐPONT / FOGLALÁS</a></p>':''}${x.phone?'<p>'+escapeHtml(x.phone)+'</p>':''}</aside></div></section><section class="section"><div style="display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:40px"><article><div class="section-head"><div><h2>Bemutatkozás</h2></div></div><p style="font:18px/1.7 Georgia,serif;color:#4e5c54;white-space:pre-wrap">${escapeHtml(x.description||x.short_description)}</p></article><aside style="background:#e7ece3;padding:24px"><h3 style="font:normal 25px Georgia,serif;color:#153c30">Adatok</h3>${x.qualifications?'<p><strong>Végzettség / háttér</strong><br>'+escapeHtml(x.qualifications)+'</p>':''}${x.specialties?'<p><strong>Szakterületek</strong><br>'+escapeHtml(x.specialties)+'</p>':''}${x.price_info?'<p><strong>Árak</strong><br>'+escapeHtml(x.price_info)+'</p>':''}${x.languages?'<p><strong>Nyelvek</strong><br>'+escapeHtml(x.languages)+'</p>':''}${x.address?'<p><strong>Cím</strong><br>'+escapeHtml(x.address)+'</p>':''}</aside></div></section></main>`;
-  const sourceLink=x.source_url?'<p><a href="'+escapeHtml(x.source_url)+'" target="_blank" rel="noopener noreferrer">Nyilvános forrás és elérhetőség ↗</a></p>':'';
-  const eventInfo=x.event_start?'<p>Meghirdetett időpont: '+escapeHtml(new Date(x.event_start).toLocaleString('hu-HU',{timeZone:'Europe/Budapest'}))+'</p>':'';
-  const profile=body.replace('<h3>Kapcsolat</h3>','<h3>Kapcsolat</h3>'+sourceLink+eventInfo+'<p><a class="solid-btn" href="#kapcsolat">Kapcsolatfelvételi űrlap</a></p>');
-  res.type('html').send(directoryShell(x.name,profile.replace('</main>',contactService.markup(x)+'</main>')));
+  const body = require('./lib/directory-views.cjs').renderProfile(x, { contactMarkup: contactService.markup(x) });
+  res.type('html').send(directoryShell(x.name, body, {canonical:'/szolgaltato/'+encodeURIComponent(x.slug),description:x.short_description || ''}));
 });
 
 function escapeHtml(s='') {

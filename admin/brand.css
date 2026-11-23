@@ -1,0 +1,80 @@
+/* Shared MENTÁL.hu typography and palette; the existing CMS controls are retained. */
+:root { --ink: #183c33; --red: #183c33; --paper: #fafbf7; --sage: #edf0e6; --line: #dce1d7; --muted: #69716a; }
+.cms-page, .contact-admin-page { margin: 0; background: #fafbf7; color: #343e37; font: 400 16px/1.55 'DM Sans', Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+.cms-page *, .contact-admin-page * { box-sizing: border-box; }
+.cms-page button, .cms-page input, .cms-page textarea, .cms-page select { font-family: 'DM Sans', Arial, sans-serif; }
+.cms-page :is(a, button, input, select, textarea, summary):focus-visible { outline: 2px solid #a56b47; outline-offset: 4px; }
+.cms-page .shell { grid-template-columns: 250px minmax(0, 1fr); }
+.cms-page .sidebar { background: #183c33; padding: 32px 20px 24px; }
+.cms-page .brand, .contact-admin-brand { display: inline-flex; align-items: center; gap: 9px; font: 500 30px/1.15 'Newsreader', Georgia, serif; letter-spacing: -.8px; text-decoration: none; white-space: nowrap; }
+.cms-page .brand .admin-wordmark { font-size: 30px; }
+.cms-page .brand .admin-wordmark > span { font-size: 20px; }
+.admin-brand-symbol { width: 32px; height: 30px; fill: #edb293; flex: none; }
+.cms-page .cms-label { font-size: 12px; letter-spacing: 1.8px; color: #cfdbc8; opacity: 1; margin: 12px 0 30px 41px; }
+.cms-page .sidebar nav { gap: 7px; }
+.cms-page .sidebar button { background: transparent; color: #e7eddf; font-size: 14px; font-weight: 500; border-radius: 5px; min-height: 44px; }
+.cms-page .sidebar button.active { background: #edb293; color: #183c33; }
+.cms-page .sidebar button:hover { background: #315648; color: #fff; }
+.cms-page .sidebar button.active:hover { background: #e6a480; color: #183c33; }
+.cms-page .sidebar .contact-admin-link { font-size: 14px; color: #f3f5e8 !important; border-color: #638074 !important; border-radius: 5px !important; }
+.cms-page .sidebar .contact-admin-link:hover { background: #315648; }
+.cms-page .sidebar .ghost { border-color: #638074 !important; }
+.cms-page .main { padding: 38px; max-width: 1500px; }
+.cms-page h1 { font: 500 43px/1.15 'Newsreader', Georgia, serif; letter-spacing: -1px; color: #183c33; }
+.cms-page h2 { font: 500 28px/1.2 'Newsreader', Georgia, serif; color: #183c33; }
+.cms-page .login-card { max-width: 475px; margin: 11vh auto; padding: 36px; border: 1px solid #dce1d7; border-radius: 8px; background: #fff; box-shadow: 0 8px 30px #183c3305; }
+.cms-page .login-card p { margin: 12px 0 26px; line-height: 1.6; }
+.cms-page .login-card form > button { width: 100%; background: #183c33; color: #fff; min-height: 49px; font-weight: 600; }
+.cms-page label { font-size: 14px; line-height: 1.5; font-weight: 500; }
+.cms-page label small { font-size: 12px; line-height: 1.6; color: #69716a; }
+.cms-page input, .cms-page select, .cms-page textarea { min-width: 0; border: 1px solid #bac8b7; border-radius: 5px; padding: 12px 14px; background: #fafbf7; color: #183c33; font-size: 16px; line-height: 1.45; }
+.cms-page select { appearance: none; padding-right: 37px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23183c33' stroke-width='1.4' d='m4 6 4 4 4-4'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; background-size: 16px; }
+.cms-page input[type=checkbox] { width: 18px; height: 18px; accent-color: #183c33; }
+.cms-page button, .cms-page .button { min-height: 43px; padding: 11px 17px; border-radius: 5px; font-size: 14px; line-height: 1.4; background: #edf0e6; color: #183c33; }
+.cms-page .primary { background: #183c33; color: #fff; }
+.cms-page .primary:hover { background: #2b5747; }
+.cms-page .danger { color: #923e2d; background: #fff0eb; border: 1px solid #d6a795; }
+.cms-page .panel { min-width: 0; padding: 28px; border-radius: 7px; border-color: #dce1d7; overflow-x: auto; }
+.cms-page .top { gap: 20px; }
+.cms-page .top p { font-size: 14px; }
+.cms-page .toolbar select { max-width: 210px; }
+.cms-page .table th, .cms-page .table td { padding: 15px 12px; font-size: 14px; border-color: #dce1d7; }
+.cms-page .table th { font-size: 12px; letter-spacing: .5px; color: #69716a; background: #fafbf7; }
+.cms-page .badge { border-radius: 4px; font-size: 12px; background: #edf0e6; }
+.cms-page .badge.published { background: #e7efdf; color: #315c38; }
+.cms-page .article-link { font: 500 21px/1.2 'Newsreader', Georgia, serif; }
+.cms-page .media-card { border-radius: 6px; }
+.cms-page .media-card .meta { font-size: 13px; line-height: 1.5; }
+.cms-page .msg { font-size: 14px; line-height: 1.6; }
+.cms-page .field-hint, .cms-page .articles-intro a, .cms-page .article-sources p, .cms-page .article-sources ul { font-size: 14px; }
+.cms-page .articles-intro p { font-size: 16px; }
+.cms-page .article-sources { border-radius: 5px; background: #fafbf7; }
+.cms-page .article-sources h2 { font-family: 'Newsreader', Georgia, serif; }
+.cms-page .upload-box { border-radius: 5px; }
+.contact-admin-brand { order: -1; margin-right: auto; color: #183c33; }
+.contact-admin-brand > span > span { font-size: 20px; }
+@media (max-width: 1000px) {
+  .cms-page .shell { grid-template-columns: 1fr; }
+  .cms-page .sidebar { position: static; height: auto; padding: 24px; }
+  .cms-page .sidebar nav { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .cms-page .cms-label { margin-bottom: 20px; }
+  .cms-page .sidebar .ghost { margin-top: 20px !important; align-self: flex-start; }
+  .cms-page .main { padding: 26px; }
+  .cms-page .login-card { margin: 32px auto; }
+  .cms-page #categoryChecks { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
+}
+@media (max-width: 650px) {
+  .cms-page .sidebar { padding: 22px 20px; }
+  .cms-page .sidebar nav { grid-template-columns: 1fr 1fr; }
+  .cms-page .sidebar nav button { padding: 11px; }
+  .cms-page .main { padding: 20px; }
+  .cms-page h1 { font-size: 35px; }
+  .cms-page .login-card { margin: 15px auto 28px; padding: 27px 23px; }
+  .cms-page .panel { padding: 22px 18px; }
+  .cms-page .top { flex-direction: column; }
+  .cms-page .toolbar { flex-direction: column; align-items: stretch; }
+  .cms-page .toolbar select, .cms-page .toolbar input { max-width: none; }
+  .cms-page #categoryChecks { grid-template-columns: 1fr !important; }
+  .cms-page .grid2, .cms-page .grid3, .cms-page .media-picker { grid-template-columns: 1fr; }
+  .contact-admin-brand { flex-basis: 100%; margin-bottom: 6px; }
+}

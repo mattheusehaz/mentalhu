@@ -35,6 +35,8 @@ jobs:
           node --check lib/public-catalog.cjs
           node --check contact.js
           node --check admin/contact-admin.js
+          node --check mental.js
+          node --test scripts/test-home-editorial.cjs
       - name: Verify every public page and private inquiry lifecycle
         run: node scripts/test-expanded-catalog.cjs
       - name: Install isolated browser test tools

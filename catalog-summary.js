@@ -11,8 +11,8 @@
       box.dataset.total = String(data.total);
       const title = box.querySelector('strong'), description = box.querySelector('span'), link = box.querySelector('a');
       if (title) title.textContent = data.total + ' adatlap';
-      if (description) description.textContent = data.categories + ' kategóriában. A főoldal csak ízelítő; a teljes lista itt érhető el.';
-      if (link) { link.href = '/szolgaltatok'; link.textContent = 'Mind a ' + data.total + ' adatlap megtekintése →'; }
+      if (description) description.textContent = ' ' + data.categories + ' kategóriában.';
+      if (link) { link.href = '/szolgaltatok'; link.textContent = 'A teljes katalógus'; }
     } catch { /* Keep the server-rendered count or static link; never fabricate zero. */ }
   }
   update();
