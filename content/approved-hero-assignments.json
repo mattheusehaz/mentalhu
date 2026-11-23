@@ -22,5 +22,21 @@
     "image_sha256": "4f88052ceda67598f73c468f4f11c3836362c829e5113e40b17fd93af76957ba",
     "alt_text": "Okosgyűrűt viselő nő, háttérben alvás- és aktivitásadatok megjelenítésével",
     "approval_reference": "chat-message:2026-11-23-ok-mehetnek-fel-a-megfelelo-cikkekhez"
+  },
+  {
+    "external_id": "mental-research-43059277",
+    "article_revision": "f52f081433df6be2fe7c7f60ef50a5addfaf3e0da771fcda34bc904e370e450c",
+    "image_path": "/assets/mental-research-43059277-hero.jpg",
+    "image_sha256": "18d1752479e03cf85d2b24842ce4c3c3b4685b2d53a78db143901b733f03c509",
+    "alt_text": "Kamasz lány este, tanulóasztal mellett a telefonját nézi; illusztráció a problémás internethasználatról",
+    "approval_reference": "chat-message:2026-11-23-kepek-valamiert-nem-mentek-fel-ehhez-a-ket-cikkhez"
+  },
+  {
+    "external_id": "mental-research-43059297",
+    "article_revision": "05278e34d2d8b7fa72e69ff63333a795eaf773f63e26470f8d376e70e4b75fc1",
+    "image_path": "/assets/mental-research-43059297-hero.jpg",
+    "image_sha256": "d76437e72d9830c0c1df486935fd16a7db6b3e019bccb50222ee02aa0f6304d2",
+    "alt_text": "Szakemberrel konzultáló páciens egy világos pszichiátriai ambulancián; illusztráció a bipoláris gondozásról",
+    "approval_reference": "chat-message:2026-11-23-kepek-valamiert-nem-mentek-fel-ehhez-a-ket-cikkhez"
   }
 ]
