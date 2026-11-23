@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-42845154",
+    "slug": "kozossegi-media-depresszio-szorongas-kis-atlagos-hatas-2026",
+    "title": "Mekkora szerepe van a közösségi médiának a fiatalok szorongásában? Egy új metaanalízis meglepően kis kapcsolatot talált",
+    "category": "Kutatások",
+    "excerpt": "Harminchét követéses vagy kísérleti vizsgálat áttekintése szerint a közösségimédia-használat mennyisége és a fiatalok szorongásos, illetve depressziós tünetei között átlagosan igen gyenge kapcsolat mutatható ki. A kutatás nem bizonyítja, hogy a digitális tér ártalmatlan, inkább azt jelzi: önmagában a használati idő nem magyarázza meg a fiatalok mentális nehézségeit.",
+    "content_html": "<p>A közösségi médiáról folyó viták egyik leggyakoribb állítása, hogy a fiatalok romló mentális egészségének fő okozója a képernyő előtt töltött idő. A kérdés azonban nem dönthető el pusztán azzal, hogy egy adott pillanatban a sokat internetező fiatalok több szorongásról vagy rosszabb hangulatról számolnak-e be. Az is elképzelhető, hogy egy nehezebb lelki időszakban valaki eleve többet fordul a közösségi oldalakhoz.</p>\n<h2>Mitől más ez az áttekintés?</h2>\n<p>William Peachey és munkatársai a British Journal of Clinical Psychology folyóiratban 2026. október 8-án közölt metaanalízisükben kifejezetten olyan tanulmányokat válogattak, amelyek időben követik a résztvevőket, illetve kísérletesen vizsgálnak valamilyen összefüggést. Összesen 37 kutatás felelt meg a feltételeknek: 36 longitudinális megfigyeléses vizsgálat és egy kísérlet. A mintákban 10–24 éves fiatalok szerepeltek. A közösségimédia-használatot elsősorban önbevallásos idő- vagy gyakoriságméréssel követték, a szorongást és a depressziós tüneteket standardizált skálákkal vizsgálták.</p>\n<p>A depresszióra vonatkozó 12 vizsgálat összesített korrelációja r = 0,08 volt (95%-os konfidenciaintervallum: 0,04–0,11); a szorongásra vonatkozó öt vizsgálaté r = 0,093 (95%-os intervallum: 0,059–0,126). Ezek statisztikailag kimutatható, de nagyon kicsi átlagos kapcsolatok. Az összefüggés erősségét a depressziónál nem magyarázta érdemben a közlemény éve, a követés hossza vagy a résztvevők átlagéletkora.</p>\n<h2>Mit nem jelent a kicsi átlag?</h2>\n<p>Nem jelenti azt, hogy az online zaklatás, a káros tartalmak, az alvásból elvett idő vagy egyes platformhasználati mintázatok ne jelenthetnének komoly kockázatot. Azt sem jelenti, hogy minden fiatal egyformán reagál. Az elemzés főként arra alkalmas, hogy a használat mennyisége és a tünetek súlyossága közötti átlagos, közel lineáris összefüggést becsülje. A minőséget, a tartalmakat, a személyes sérülékenységet és a kétirányú hatásokat ennél nehezebb elkülöníteni.</p>\n<p>A kutatás arra figyelmeztet, hogy a fiatalok mentális nehézségeinek teljes magyarázatát egyetlen digitális szokásban keresni félrevezető lehet. A családi és iskolai környezet, az alvás, a társas kapcsolatok, a megélhetési bizonytalanság és a megfelelő ellátás elérhetősége ugyancsak fontos vizsgálati szempont. A mostani eredmény nem felmentés a technológiai cégek számára, hanem érv a pontosabb, okokat valóban elkülönítő kutatás mellett.</p>\n<p>A feldolgozás a lektorált közlemény hozzáférhető absztraktjára épül; a teljes tanulmányt nem tudtam elolvasni. Így a finanszírozásról, az egyes vizsgálatok módszertani minőségéről és a részletes alcsoporteredményekről nem vonok le további következtetéseket.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-42845154-hero.jpg",
+    "hero_image_alt": "Fiatal nő egy kávézó ablakánál, telefon az asztalon",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Social media exposure and anxiety and depression in young people: A systematic review and meta-analysis of longitudinal and experimental studies",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42845154/",
+        "published_at": "2026-10-08",
+        "doi": "10.1111/bjc.70100",
+        "pmid": "42845154",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T13:46:58Z",
+    "revision_sha256": "7e1e828eb0f1b75f54887859841159026cb77fd59dd6faef32b15586f0dbc655",
+    "reference": "chat-approval:2026-11-23-owner-message-Jovahagyom-a-kovetkezo-MENTAL.hu-cikkek; image-approval-message-ok-a-kepek-is-jok"
+  }
+}
