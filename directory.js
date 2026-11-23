@@ -33,11 +33,38 @@
     } catch { /* Preserve measured server-rendered counts during a failed refresh. */ }
     finally { countsLoading = false; }
   }
+  // Category illustrations are editorial fallback images, never provider portraits.
+  const categoryImageMap = Object.freeze({
+    pszichologusok: 'pszichologusok',
+    pszichiaterek: 'pszichiaterek',
+    pszichoterapeutak: 'pszichoterapeutak',
+    coachok: 'coachok',
+    dietetikusok: 'dietetikusok',
+    'par-es-csaladterapeutak': 'par-es-csaladterapeutak',
+    kepzesek: 'kepzesek',
+    'konferenciak-es-esemenyek': 'konferenciak-es-esemenyek',
+    'magazinok-es-portalok': 'magazinok-es-portalok',
+    'cikkek-es-kutatas': 'cikkek-es-kutatas',
+    'mentalhigienes-szakemberek': 'pszichologusok',
+    hipnoterapeutak: 'pszichoterapeutak',
+    mediatorok: 'par-es-csaladterapeutak',
+    'karrier-tanacsadok': 'coachok',
+    'joga-es-mozgas': 'coachok',
+    'alvas-es-relaxacio': 'pszichiaterek',
+    'kozossegek-es-csoportok': 'konferenciak-es-esemenyek',
+    'podcastok-es-konyvek': 'magazinok-es-portalok'
+  });
+  function categoryImage(categories) {
+    const category = categories.find(item => item && categoryImageMap[item.slug]);
+    const key = category ? categoryImageMap[category.slug] : 'pszichoterapeutak';
+    return '/assets/category-' + key + '.jpg';
+  }
   function providerCard(item) {
     const name = String(item.name || 'Szolgáltató');
     const categories = Array.isArray(item.categories) ? item.categories.filter(c => c && c.name).slice(0, 2) : [];
     const image = /^\/media\/\d+$/.test(item.profile_image_url || '') ? item.profile_image_url : null;
-    const cover = image ? '<img src="'+esc(image)+'" alt="'+esc(name)+'" loading="lazy" width="400" height="260">' : '<span class="provider-initial" aria-hidden="true">'+esc(name.charAt(0))+'</span>';
+    const fallback = categoryImage(categories);
+    const cover = image ? '<img src="'+esc(image)+'" data-category-fallback="'+esc(fallback)+'" alt="'+esc(name)+'" loading="lazy" width="400" height="260">' : '<img src="'+esc(fallback)+'" alt="" loading="lazy" width="400" height="260">';
     return '<a class="provider-card" href="/szolgaltato/'+encodeURIComponent(item.slug)+'"><div class="provider-art">'+cover+'</div><div class="provider-info"><h3>'+esc(name)+'</h3><div class="provider-location">'+icon('pin')+esc(item.city || (item.online_available ? 'Online' : 'Helyszín az adatlapon'))+'</div><div class="provider-tags">'+categories.map(c => '<span>'+esc(c.name)+'</span>').join('')+(item.online_available?'<span>Online is</span>':'')+'</div>'+(item.verified?'<span class="verified">✓ Ellenőrzött adatok</span>':'')+'</div></a>';
   }
   async function loadProviders() {
@@ -53,9 +80,11 @@
       }
       box.innerHTML = listings.map(providerCard).join('');
       box.querySelectorAll('img').forEach(img => img.addEventListener('error', () => {
-        const replacement = document.createElement('span');
-        replacement.className = 'provider-initial'; replacement.textContent = (img.alt || 'M').charAt(0);
-        replacement.setAttribute('aria-hidden','true'); img.replaceWith(replacement);
+        const fallback = img.dataset.categoryFallback || '/assets/category-pszichoterapeutak.jpg';
+        if (img.src.endsWith(fallback)) return;
+        img.alt = '';
+        img.removeAttribute('data-category-fallback');
+        img.src = fallback;
       }, {once:true}));
       if (status) status.textContent = '';
       const next = byId('nextProviders');
