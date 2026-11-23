@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-43058262",
+    "slug": "demencia-antipszichotikumok-valos-elet-riszperidon-kvetiapin-bizonytalansag",
+    "title": "Demenciában adott antipszichotikumok: a hétköznapi eredmények mögött nagyon gyenge a bizonyíték",
+    "category": "Időskori mentális egészség",
+    "excerpt": "Egy 17 vizsgálatot és 7748 beteget áttekintő új elemzés szerint a demencia viselkedési és pszichés tüneteire adott antipszichotikumok valós életbeli hatásáról meglepően bizonytalanok az adatok. Egyes tünetek javulását megfigyelték, de ez nem bizonyítja önmagában a gyógyszerek hatását; az elesés, a mozgászavarok és a halálozás kockázata külön figyelmet igényel.",
+    "content_html": "<p><strong>Egy 17 vizsgálatot és 7748 beteget áttekintő új elemzés szerint a demencia viselkedési és pszichés tüneteire adott antipszichotikumok valós életbeli hatásáról meglepően bizonytalanok az adatok. Egyes tünetek javulását megfigyelték, de ez nem bizonyítja önmagában a gyógyszerek hatását; az elesés, a mozgászavarok és a halálozás kockázata külön figyelmet igényel.</strong></p><p>A demenciával élő embereknél a memóriazavar mellett nyugtalanság, agresszivitás, téveszmék vagy más, az érintettnek és környezetének is megterhelő viselkedési és pszichés tünetek jelentkezhetnek. Ezek kezelésére a gyakorlatban olykor második generációs antipszichotikumokat alkalmaznak. A kérdés azonban nem pusztán az, hogy egy tünet csökken-e a kezelés ideje alatt, hanem az is, mennyit javít valóban maga a gyógyszer, és milyen árat kell fizetni a mellékhatásokban.</p><p>Rocío Morales-Delgado és munkatársai a Psychopharmacology folyóiratban 2026. november 20-án közölt szisztematikus áttekintésükben kifejezetten a mindennapi ellátásból származó megfigyeléses és kvázikísérleti kutatásokat gyűjtötték össze. A 17 bevont vizsgálat összesen 7748 résztvevő adatait tartalmazta. Alzheimer-kórral, vaszkuláris vagy kevert demenciával élő betegeket vizsgáltak, akiknél viselkedési vagy pszichés tünetek is jelen voltak.</p><h2>A tünetek változása nem ugyanaz, mint a bizonyított gyógyszerhatás</h2><p>Az elemzés szerint a riszperidont követő öt, összesen 1469 beteget vizsgáló kutatásban a kezelés előtti állapothoz képest jelentős átlagos tünetcsökkenést jeleztek (standardizált átlagos különbség: −1,36; 95 százalékos konfidenciaintervallum: −1,67 és −1,06 között). A vizsgálatok eredményei azonban erősen eltértek egymástól: a heterogenitási mutató 82,1 százalék volt. Ráadásul az előtte–utána összehasonlításból nem derül ki, hogy a javulás mekkora része tulajdonítható a gyógyszernek, és mennyit magyarázhat a tünetek természetes ingadozása, a kísérő ellátás vagy más körülmény.</p><p>A kvetiapin esetében mindössze négy, összesen 89 betegre kiterjedő vizsgálat adott összevonható előtte–utána adatot. Itt az átlagos változás konfidenciaintervalluma a javulás hiányát is megengedte; a szerzők nem tudtak megbízható hatást kimutatni. Ez azonban nem bizonyítja, hogy a készítmény hatástalan: a minta kicsi, a tanulmányok közötti eltérés pedig igen nagy volt. A riszperidon és az olanzapin közvetlen összevetésére is csak két tanulmány állt rendelkezésre. Ezek összevont eredménye széles bizonytalansági tartomány mellett nem igazolt különbséget a két szer hatásában.</p><h2>A kockázatokról sem szabad megfeledkezni</h2><p>Az áttekintés beszámol mozgásszabályozási mellékhatásokról, elesésekről és halálesetekről is. A szerzők szerint ezek miatt a kezelés előnyeit és kockázatait minden esetben egyénileg kell mérlegelni és folyamatosan ellenőrizni. Az összegzett megfigyeléses adatok ugyanakkor nem teszik lehetővé, hogy a bekövetkezett események mindegyikéről megállapítsuk: azt a gyógyszer okozta.</p><p>A kutatók az összes vizsgált kimenetelnél nagyon alacsonynak minősítették a bizonyíték megbízhatóságát. Ez a közlés legfontosabb megállapítása: a rutinszerű használat nem helyettesíti a jól összehasonlítható, módszertanilag erős eredményeket. A vizsgálat nem szolgál alapul arra, hogy valaki saját döntésére elkezdjen, abbahagyjon vagy kicseréljen egy gyógyszert. A szerzők nem jeleztek összeférhetetlenséget; a teljes tanulmány előfizetés mögött érhető el.</p><h2>Források</h2><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/43058262/\">Morales-Delgado R és mtsai.: Real world evidence of second-generation antipsychotics for the management of behavioral and psychological symptoms of dementia (Psychopharmacology, 2026)</a>; DOI: 10.1007/s00213-026-07209-2; PMID: 43058262</p><p><a href=\"https://link.springer.com/article/10.1007/s00213-026-07209-2\">A folyóirat közleménye és nyilvános ábra-összefoglalói (Springer Nature)</a></p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-43058262.jpg",
+    "hero_image_alt": "Gyógyszerek és mérleg a kockázatok és előnyök mérlegelésének jelképeként",
+    "hero_image_caption": "Illusztráció: mesterséges intelligenciával készült kép.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Morales-Delgado R és mtsai.: Real world evidence of second-generation antipsychotics for the management of behavioral and psychological symptoms of dementia (Psychopharmacology, 2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43058262/",
+        "published_at": "2026-11-20",
+        "doi": "10.1007/s00213-026-07209-2",
+        "pmid": "43058262",
+        "kind": "peer-reviewed"
+      },
+      {
+        "title": "A folyóirat közleménye és nyilvános ábra-összefoglalói (Springer Nature)",
+        "url": "https://link.springer.com/article/10.1007/s00213-026-07209-2",
+        "published_at": "2026-11-20",
+        "doi": "",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T14:31:46Z",
+    "revision_sha256": "2826b532f1b8edf1cb5a7b178510fc7467eb812fb09be0addf22d285e154b25b",
+    "reference": "chat-approval:2026-11-23-mehetnek-utana-ki-ezek-is-valami-jo-keppel"
+  }
+}

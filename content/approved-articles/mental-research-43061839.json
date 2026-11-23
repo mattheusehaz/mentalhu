@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-43061839",
+    "slug": "varandosgondozas-bantalmazas-szures-psziches-eroszak-azonositas-metaelemzes",
+    "title": "A várandósgondozásban a párkapcsolati bántalmazás több formája rejtve maradhat",
+    "category": "Kapcsolatok",
+    "excerpt": "Tizenhárom kutatás és több mint 614 ezer érintett adatát összesítve a rutinszerű várandóssági és szülés körüli szűrések 3,6 százalékban azonosítottak párkapcsolati bántalmazást. Ez nem a bántalmazás tényleges előfordulási aránya: az alkalmazott kérdőívek sokszor éppen a lelki kontroll és elszigetelés formáit vizsgálták hiányosan.",
+    "content_html": "<p><strong>Tizenhárom kutatás és több mint 614 ezer érintett adatát összesítve a rutinszerű várandóssági és szülés körüli szűrések 3,6 százalékban azonosítottak párkapcsolati bántalmazást. Ez nem a bántalmazás tényleges előfordulási aránya: az alkalmazott kérdőívek sokszor éppen a lelki kontroll és elszigetelés formáit vizsgálták hiányosan.</strong></p><p>A párkapcsolati bántalmazás nem kizárólag fizikai erőszakot jelent. A megfélemlítés, az elszigetelés, a kontroll és a manipuláció ugyanúgy az érintett biztonságát és lelki állapotát érintheti. A várandósgondozás és a szülés utáni ellátás ezért különleges lehetőséget kínálhat arra, hogy az egészségügy felismerje a veszélyeztetett helyzeteket. Ehhez azonban olyan szűrésre van szükség, amely nem csak néhány könnyen megfogalmazható kérdésre korlátozódik.</p><p>Megan L. Willis, Hugh Bidstrup, Rebecca O’Reilly és Natalie Windsor 2026. november 20-án a Trauma, Violence, &amp; Abuse folyóiratban megjelent szisztematikus áttekintésükben azt vizsgálták, a rutinszerű perinatális ellátás során milyen arányban sikerült azonosítani a párkapcsolati bántalmazást, és pontosan mire kérdeztek rá az ehhez használt eszközök. A szerzők öt kutatási adatbázist kerestek át 2025. május 16-án, majd 13 lektorált vizsgálat eredményeit összesítették. Ezek együttesen 614 799 személy adatát érintették.</p><h2>Mit jelent a 3,6 százalék?</h2><p>Az összesített elemzésben a rutinszerű szűrések a vizsgáltak 3,6 százalékánál azonosítottak bántalmazást. A 95 százalékos konfidenciaintervallum 2,5 és 5,1 százalék között volt. Ezt a számot nem szabad úgy értelmezni, hogy a várandós vagy frissen szült emberek mindössze ekkora hányada él át bántalmazást. A kutatás nem a valós előfordulás reprezentatív felmérése volt, hanem azt mérte, hogy a meglévő egészségügyi szűrési gyakorlat mennyi esetet ismert fel.</p><p>A tanulmányokban alkalmazott kérdőívek nagyon különböztek egymástól, és sok eszköz pszichometriai megbízhatóságát nem igazolták megfelelően. A fizikai és a lelki bántalmazás többnyire szerepelt a kérdések között, a lelki erőszak azonban gyakran az érzelmi sértésekre szűkült. A kontroll, a manipuláció és az elszigetelés több vizsgálatból hiányzott, és a szexuális bántalmazás feltérképezése is hiányos volt. Ha egy eszköz nem kérdez egy jelenségre, az attól még nem szűnik meg létezni.</p><h2>Miért fontos ez a mentálhigiéné szempontjából?</h2><p>Az eredmények arra figyelmeztetnek, hogy az ellátásban rögzített alacsony arány nem feltétlenül megnyugtató adat. A rutinszűrés minőségét a kérdések köre, a kérdőívek validáltsága és az a környezet is befolyásolhatja, amelyben valaki biztonságosan beszélhet a tapasztalatairól. A mostani áttekintés azonban nem vizsgálta randomizált kísérletben, hogy egy új szűrési módszer önmagában több áldozatot segítene-e megfelelő támogatáshoz; ezért ilyen hatást nem lehet neki tulajdonítani.</p><p>A tanulság elsősorban szakmai: a várandósság körüli ellátásban a lelki és kapcsolati biztonság felmérésének többnek kell lennie egy mechanikusan kipipált kérdéssornál. A kutatás az alkalmazott szűrőeszközök fejlesztésének és megfelelő értékelésének fontosságára hívja fel a figyelmet, nem pedig arra, hogy a 3,6 százalékból általános előfordulási becslést készítsünk. A teljes tanulmány szövege nem volt szabadon hozzáférhető; az eredmények az eredeti absztrakt alapján ellenőrizhetők.</p><h2>Források</h2><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/43061839/\">Willis ML és mtsai.: Screening for Intimate Partner Violence Victimisation in Perinatal Care: A Systematic Review and Meta-Analysis (Trauma, Violence, &amp; Abuse, 2026)</a>; DOI: 10.1177/15248380261495001; PMID: 43061839</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-43061839.jpg",
+    "hero_image_alt": "Nyugodt, üres várandósgondozási vizsgáló, nyitott ajtóval",
+    "hero_image_caption": "Illusztráció: mesterséges intelligenciával készült kép.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Willis ML és mtsai.: Screening for Intimate Partner Violence Victimisation in Perinatal Care: A Systematic Review and Meta-Analysis (Trauma, Violence, & Abuse, 2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43061839/",
+        "published_at": "2026-11-20",
+        "doi": "10.1177/15248380261495001",
+        "pmid": "43061839",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-23T14:31:46Z",
+    "revision_sha256": "1dda8026fae5a3b0f51d52e0e42d3313d40429026749824688b42fc954893fa0",
+    "reference": "chat-approval:2026-11-23-mehetnek-utana-ki-ezek-is-valami-jo-keppel"
+  }
+}
