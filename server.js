@@ -123,7 +123,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -524,6 +524,8 @@ async function initializeDatabase() {
     if (!DATABASE_URL) throw Object.assign(new Error('Missing database configuration'), { code: 'DATABASE_URL_MISSING' });
     await migrate();
     await require('./lib/editorial-import.cjs').importEditorialContent({pool,root:ROOT});
+    const heroImport = await require('./lib/editorial-hero-import.cjs').importApprovedHeroAssignments({pool,root:ROOT});
+    if (heroImport.errors.length) console.error('[editorial-heroes] errors:', heroImport.errors.length);
     dbState.ready = true;
     dbState.phase = 'ready';
     dbState.error = null;
