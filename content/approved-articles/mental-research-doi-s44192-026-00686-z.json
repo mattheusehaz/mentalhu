@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44192-026-00686-z",
+    "slug": "nem-tervezett-varandossag-szorongas-pozitiv-pszichologia-tanacsadas",
+    "title": "Nem tervezett várandósság: mérséklődött a szorongás hét tanácsadási alkalom után egy kis vizsgálatban",
+    "category": "Kutatások",
+    "excerpt": "Egy 54 nő részvételével végzett iráni randomizált vizsgálatban a pozitív pszichológiára épülő tanácsadás után kedvezőbb szorongás- és egészségmagatartási pontszámokat mértek, mint a szokásos várandósgondozás mellett. A kis minta és a rövid követés miatt a hosszú távú előnyök még nem ismertek.",
+    "content_html": "<p>A nem tervezett várandósság eltérő érzéseket válthat ki, és az érintettek támogatási igényei is különbözhetnek. Fatemeh Mirzalou, Esmat Mehrabi, Roghaiyeh Nourizadeh és Alireza Mortazavi azt vizsgálták, hogy a szokásos gondozással összehasonlítva a pozitív pszichológiai szemléletű tanácsadási program hogyan befolyásolja a várandóssághoz kapcsolódó szorongást és az egészséggel kapcsolatos szokásokat. Eredményeik 2026. november 23-án jelentek meg a Discover Mental Health folyóiratban.</p><p>Az egészségügyi központokból bevont 54 résztvevőt véletlenszerűen két csoportba osztották. Az egyik csoport hét egyéni tanácsadási alkalmat kapott, a másik a megszokott várandósgondozásban részesült. A szorongást és az egészségmagatartást kérdőíves interjúkkal mérték a program előtt és négy héttel annak befejezése után.</p><h2>Mit mutattak a kérdőívek?</h2><p>A tanácsadási csoport várandóssághoz kapcsolódó szorongáspontszáma átlagosan 28,14 (szórás: 4,83), a kontrollcsoporté 31,81 (szórás: 6,56) volt. Az egészségmagatartási skálán 126,77, illetve 109,33 pontot mértek. A kiindulási értékekre korrigált elemzés mindkét mutatónál statisztikailag szignifikáns különbséget jelzett (p = 0,001).</p><p>A pontszámok eltérése nem árulja el önmagában, hogy a résztvevők mekkora, a mindennapokban érzékelhető javulást tapasztaltak. A nyilvános absztrakt nem közöl konfidenciaintervallumot a korrigált csoportkülönbségekre. Mivel a kontrollcsoport nem kapott azonos intenzitású másik tanácsadást, a többletfigyelem és a pozitív pszichológiai módszer saját hatása nem különíthető el.</p><h2>A támogatás szerepe</h2><p>A vizsgálat a lelki támogatás szerepére hívja fel a figyelmet, nem arra, hogy a várandóssággal kapcsolatban mindenkinek pozitívan kellene éreznie. A rövid követés, a kis minta és a kérdőíves mérés alapján nem tudható, tartósak-e az eredmények, illetve javultak-e a szülészeti kimenetelek. A kutatást a Tabrizi Orvostudományi Egyetem finanszírozta; a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44192-026-00686-z\">A randomized controlled clinical trial: The effect of positive psychology counseling on anxiety and health practices in women with unplanned pregnancy</a>. DOI: 10.1007/s44192-026-00686-z.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44192-026-00686-z.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Nem tervezett várandósság: mérséklődött a szorongás hét tanácsadási alkalom után egy kis vizsgálatban",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "A randomized controlled clinical trial: The effect of positive psychology counseling on anxiety and health practices in women with unplanned pregnancy",
+        "url": "https://link.springer.com/article/10.1007/s44192-026-00686-z",
+        "published_at": "2026-11-23",
+        "doi": "10.1007/s44192-026-00686-z",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "e80a5ae3a2419ef4253f799a1d5f97e57436bdb041400e25d4c23c0edd6151cf",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
