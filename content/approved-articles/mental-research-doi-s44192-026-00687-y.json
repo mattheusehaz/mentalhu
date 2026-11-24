@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44192-026-00687-y",
+    "slug": "onallosag-csokkenese-kognitiv-romlas-depressziv-tunetek",
+    "title": "A mindennapi önállóság csökkenése a lelki és kognitív egészség romlását is jelezheti",
+    "excerpt": "Egy több mint négyezer középkorú és idősebb felnőttet vizsgáló kínai kutatás szerint a tartós vagy fokozódó életviteli nehézségek együtt jártak a kognitív zavarok és a depresszív tünetek együttes előfordulásával.",
+    "category": "Kutatások",
+    "content_html": "<p>Fengyan Jiang és munkatársai öt adatfelvételt elemeztek a China Health and Retirement Longitudinal Study 2011 és 2020 közötti követéses felméréséből. A 45 éves vagy idősebb résztvevők közül 4348 személy került az elemzésbe; a valamennyi kiválasztott háttértényezőt figyelembe vevő modell 3973 ember adataira épült.</p>\n<p>A kutatók 2011 és 2018 között tizenegy mutató alapján értékelték a mindennapi önellátási és összetettebb életviteli feladatok nehézségét. 2020-ban azt vizsgálták, hogy egyszerre jelen vannak-e az iskolázottsághoz igazított kognitív teljesítmény alapján meghatározott problémák és a kérdőívvel mért depresszív tünetek.</p>\n<h2>A tartós nehézségek erősebb összefüggést mutattak</h2>\n<p>A stabilan kevés nehézséggel élők 11,8 százalékánál, a tartósan nagyfokú nehézségekkel élők 35,8 százalékánál volt jelen mindkét probléma. A korrigált esélyhányados a romló életviteli képességű csoportban 1,51 (95%-os konfidenciaintervallum: 1,19–1,90), a tartósan korlátozott csoportban 2,33 (1,73–3,13), a változó mintázatú csoportban 2,12 (1,31–3,36) volt. A javuló csoport eltérése nem volt statisztikailag szignifikáns.</p>\n<p>A mindennapi önállóság változásának követése így támpontot adhat ahhoz, hogy a fizikai problémák mellett a lelkiállapotra és a gondolkodási képességekre is figyelem irányuljon. A vizsgálat megfigyeléses: nem bizonyítja, hogy az önállóság csökkenése okozza a pszichés vagy kognitív problémákat. A mért tünetek nem azonosak klinikai depresszió- vagy demenciadiagnózissal. A becslések nem általánosíthatók közvetlenül Magyarországra, és az életviteli mutató nem validált előrejelző eszköz.</p>\n<p>A kutatást guangzhoui klinikai és egészségügyi tudományos programok támogatták; a szerzők nem jeleztek összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44192-026-00687-y\">Jiang F., Pan N., Zhang X. és mtsai: Longitudinal functional limitation patterns are associated with coexisting cognitive impairment and depressive symptoms in Chinese adults aged 45 years and older. Discover Mental Health (2026).</a> DOI: 10.1007/s44192-026-00687-y.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44192-026-00687-y.svg",
+    "hero_image_alt": "Idősebb ember a mindennapi önállóság jelképes környezetében",
+    "hero_image_caption": "Szerkesztőségi illusztráció; nem az eredeti kutatás képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Longitudinal functional limitation patterns are associated with coexisting cognitive impairment and depressive symptoms in Chinese adults aged 45 years and older",
+        "url": "https://link.springer.com/article/10.1007/s44192-026-00687-y",
+        "published_at": "2026-11-23",
+        "doi": "10.1007/s44192-026-00687-y",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T16:18:49Z",
+    "revision_sha256": "36fd46db91852e7d46298ef670ec0cc17eb5b893aea717cb3814ca1825802575",
+    "reference": "chat-message:Az mi pszichológiai hatásai, önállóság elvesztése és a depresszió évszakok cikkek (3db) mehet ki képpel"
+  }
+}
