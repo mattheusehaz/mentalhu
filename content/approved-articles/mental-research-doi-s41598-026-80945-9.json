@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s41598-026-80945-9",
+    "slug": "szules-utani-meheltavolitas-lelki-teher-hallgatas-irani-kutatas",
+    "title": "A hallgatás is teher lehet a szülés körüli méheltávolítás után – 16 nő tapasztalatait vizsgálták",
+    "category": "Kutatások",
+    "excerpt": "Tizenhat iráni nővel készített mélyinterjúk mutatják meg, milyen szerepet játszhat a megbélyegzéstől való félelem, a gyász és a párkapcsolati támogatás egy életmentő szülészeti műtét után. A kis kvalitatív vizsgálat nem általánosítható minden érintettre.",
+    "content_html": "<p>Az életveszélyes szülészeti vérzés miatt elvégzett méheltávolítás életet menthet, ugyanakkor végleg megszünteti a későbbi gyermekvállalás lehetőségét. Egy új, iráni nőkkel készült kvalitatív kutatás nem elsősorban az orvosi felépülést vizsgálta, hanem azt, hogyan lehet együtt élni egy olyan veszteséggel, amelyről az érintett olykor a környezetének sem mer beszélni.</p><p>Zahra Saedi és munkatársai 16, 26 és 45 év közötti, házasságban élő nőt kérdeztek meg. Mindegyiküknél a méhlepény rendellenes tapadása miatt, a szülés körüli időszakban kellett elvégezni a műtétet, hat-harminc hónappal az interjú előtt; valamennyien legalább egy élő gyermek édesanyjai voltak. A kutatók félig strukturált interjúkat elemeztek, vagyis nem előre megadott válaszlehetőségeket számoltak, hanem a beszámolók visszatérő jelentéseit azonosították.</p><h2>A titkolózás nem feltétlenül a megtörtént elutasításból fakadt</h2><p>Az elemzés négy fő témát és tizenhárom altémát tárt fel. A résztvevők közül többen csak szűk körben beszéltek a műtétről. A hallgatás hátterében elsősorban az elővételezett megbélyegzés állt: attól tartottak, hogy sajnálat, ítélkezés, házastársi elutasítás vagy társadalmi értékvesztés érheti őket. Ez lényeges különbség: az interjúk nem azt bizonyítják, hogy a környezet ténylegesen ilyen módon viselkedett velük, hanem azt, hogy a várható reakcióktól való félelem maga is alakította a döntéseiket.</p><p>A titkolózás egyes beszámolókban fokozott éberséggel, lelki kimerültséggel, magánnyal és kimondatlan gyásszal kapcsolódott össze. A társ támogatása megkönnyíthette a korlátozott megnyílást, míg az ítélkezéstől vagy a házasság megrendülésétől való félelem visszatarthatta azt. Néhány nő arról számolt be, hogy fokozatosan új értelmet tudott adni önmagáról alkotott képének: a már meglévő gyermekekkel való kapcsolat, a hit vagy a személyes érték újradefiniálása is szerepet kapott ebben.</p><h2>Mi következik ebből az ellátás számára?</h2><p>Az eredmény arra utal, hogy az ilyen műtéten átesett nők támogatásában a testi gyógyuláson túl a veszteség megnevezésének lehetősége, a bizalmas kommunikáció és a párkapcsolati közeg is figyelmet érdemelhet. Ez azonban még nem bizonyítja, hogy egy konkrét pszichológiai vagy párterápiás beavatkozás hatásos volna. Ehhez nagyobb, több helyszínen végzett és a beavatkozást ténylegesen értékelő vizsgálatok szükségesek.</p><p>A tanulmány mindössze 16, egy meghatározott egészségügyi és társadalmi környezetből érkező nő tapasztalatait dolgozta fel, ezért sem az iráni nők egészére, sem más országok érintettjeire nem vetíthető ki automatikusan. A kvalitatív módszer erőssége a személyes tapasztalatok részletes megértése, nem pedig a jelenségek gyakoriságának mérése. A szerzők nem kaptak a kutatáshoz célzott külső támogatást, és nem jeleztek összeférhetetlenséget.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s41598-026-80945-9.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A hallgatás is teher lehet a szülés körüli méheltávolítás után – 16 nő tapasztalatait vizsgálták",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "A hallgatás is teher lehet a szülés körüli méheltávolítás után – 16 nő tapasztalatait vizsgálták",
+    "seo_description": "Tizenhat iráni nővel készített mélyinterjúk mutatják meg, milyen szerepet játszhat a megbélyegzéstől való félelem, a gyász és a párkapcsolati támogatás egy életmentő szülészeti műtét után. A kis kvalitatív vizsgálat nem általánosítható minden érintettre.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Hidden wounds and the reconstruction of dignity after emergency peripartum hysterectomy in Iranian women",
+        "url": "https://www.nature.com/articles/s41598-026-80945-9",
+        "published_at": "2026-11-23",
+        "doi": "10.1038/s41598-026-80945-9",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "4f2b0b9d301a2900758f8143fb1ed2e77d4e7e56082d3b0bd682eaa1e5f40ad4",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
