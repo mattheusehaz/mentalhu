@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12913-026-16133-2",
+    "slug": "orvosok-kieges-rise-program",
+    "title": "Orvosi kiégés: kedvezőbb tünetpontszámok egy két és fél napos program után",
+    "category": "Kutatások",
+    "excerpt": "Egy kis amerikai követéses vizsgálatban az orvosok érzelmi kimerültsége és munkával kapcsolatos eltávolodása mérséklődött egy pszichoedukációs program után. Kontrollcsoport hiányában nem bizonyított, hogy a változást maga a program okozta.",
+    "content_html": "<p>Amanda T. Sawyer, Patricia S. Robinson, Hong Tao és Amanda K. Bailey a RISE elnevezésű, két és fél napos pszichoedukációs programot értékelték. A jellemzően közepes vagy magas kiégési tünetekkel részt vevő orvosokat a kezdéskor, majd egy és három hónappal később kérdezték meg.</p><h2>A három hónapos követés eredménye</h2><p>A 34 értékelhető résztvevőnél az érzelmi kimerültség átlagpontszáma 35,53-ról 27,76-ra, majd 27,18-ra változott. A deperszonalizáció pontszáma 12,18-ról 8,88-ra csökkent három hónap alatt, a személyes teljesítmény érzete 31,26-ról 38,91-re nőtt. Az időhatás parciális éta-négyzet értéke rendre 0,319, 0,162 és 0,564 volt. Ezek nem a programnak tulajdonítható hatásméretek.</p><p>A kis minta és a kontrollcsoport hiánya miatt a természetes javulás, az elvárások, a pihenés vagy egyéb körülmények hatása nem különíthető el. A nyilvános absztrakt nem közölte a változások konfidenciaintervallumait. A kutatás nem mutatja meg, hogy a program egy év múlva is előnyös-e.</p><p>A kiégés megelőzésében az egyéni támogatás mellett a munkaterhelés és a szervezeti feltételek is figyelmet érdemelnek. A vizsgálatot az AdventHealth belső forrásból finanszírozta, a szerzők nem jeleztek összeférhetetlenséget. A regisztráció azonosítója NCT06462443.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12913-026-16133-2\">Resilience, Insight, Self-Compassion, and Empowerment (RISE): a prospective study of a psychoeducational retreat program for physicians experiencing burnout</a>. DOI: 10.1186/s12913-026-16133-2.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12913-026-16133-2.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Orvosi kiégés: kedvezőbb tünetpontszámok egy két és fél napos program után",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Resilience, Insight, Self-Compassion, and Empowerment (RISE): a prospective study of a psychoeducational retreat program for physicians experiencing burnout",
+        "url": "https://link.springer.com/article/10.1186/s12913-026-16133-2",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12913-026-16133-2",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "a94dac9fee6709676ee2727d554b782eca644dff32d6613f074450267f9fffd4",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
