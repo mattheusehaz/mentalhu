@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12888-026-08902-4",
+    "slug": "fiatalok-fuggosegi-rehabilitacioja-segitok-egyuttmukodese",
+    "title": "Fiatalok függőségi rehabilitációja: a segítők közötti együttműködés is számít",
+    "category": "Kutatások",
+    "excerpt": "Egy ausztrál bentlakásos addiktológiai intézmény tíz munkatársával készült interjúk alapján a kutatók a terápiás kapcsolat mellett a személyzet együttműködését, a lakók egymás közötti viszonyát és az intézményi feltételeket emelték ki. A javasolt modell eredményességét még nem vizsgálták.",
+    "content_html": "<p>Jennifer S. Lee, Lauren Mullaney, Brin F. S. Grenyer és Ely M. Marceau egy 16–24 éves fiatalokat ellátó ausztrál rehabilitációs intézmény munkatársait kérdezték meg. Hat klinikai és négy más munkakörben dolgozó személy interjúját elemezték. A kérdések olyan fiatalok ellátására vonatkoztak, akiknél a személyzet borderline személyiségzavarra emlékeztető vonásokat észlelt; a diagnózisokat nem ellenőrizték függetlenül.</p><h2>A terápiás kapcsolat nem elszigetelten működik</h2><p>Kilenc interjúalany számolt be az intenzív érzelmi állapotok és veszélyhelyzetek kezelésével kapcsolatos nehézségekről, ugyanennyien igényeltek további képzést. Hét munkatárs tért ki a csapaton belüli kommunikációra. A lakók közötti konfliktusok és az ellátást szabályozó jogi, szervezeti feltételek szintén visszatérő témák voltak.</p><p>A szerzők ezekből négy szintet átfogó elméleti modellt alkottak. Ennek gyakorlati kérdése, hogy a fiatal számára mennyire kiszámítható a környezet akkor is, amikor különböző munkatársakkal kerül kapcsolatba. A közösen kialakított keretek és az esetmegbeszélések lehetséges szerepét érdemes további vizsgálatokban ellenőrizni.</p><h2>Mit nem bizonyít a kutatás?</h2><p>A vizsgálat egyetlen intézményre és a dolgozók nézőpontjára korlátozódott. A fiatalokat és hozzátartozóikat nem kérdezték meg, a kezelés eredményességét nem mérték. A tízfős interjúminta nem alkalmas a jelenségek általános gyakoriságának vagy a beavatkozások hatásméretének megállapítására.</p><p>A kutatás jelentősége, hogy a rehabilitáció minőségéről szóló gondolkodást az egyéni terápián túl az intézményi működésre is kiterjeszti. Nem igazolja azonban, hogy az új modell csökkentené a visszaesést, a kezelés megszakítását vagy a krízisek számát. A kutatást Új-Dél-Wales egészségügyi innovációs alapja támogatta; a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12888-026-08902-4\">A multi-level relational model of treatment dynamics in youth with substance use disorder and borderline personality disorder features</a>. BMC Psychiatry, 2026. november 23. DOI: 10.1186/s12888-026-08902-4.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12888-026-08902-4.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Fiatalok függőségi rehabilitációja: a segítők közötti együttműködés is számít",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "A multi-level relational model of treatment dynamics in youth with substance use disorder and borderline personality disorder features",
+        "url": "https://link.springer.com/article/10.1186/s12888-026-08902-4",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s12888-026-08902-4",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "e34bd2a064562a5c57de336bd583cdba2d40a5273eb13ff8c3069f8719074f05",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
