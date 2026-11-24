@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-1868752",
+    "slug": "pszichoterapia-korai-javulas-motivacio-elorejelzes",
+    "title": "Ha a pszichoterápia lassan halad: a szakember benyomása és a páciens motivációja önmagában nem elég",
+    "category": "Kutatások",
+    "excerpt": "Egy 172 páciens bevonásával végzett holland kutatásban sem a terapeuták, sem a szupervizorok korai értékelése nem jelezte megbízhatóan a nyolcadik ülésig elért tüneti javulást. A változásra való készenlét sem bizonyult megbízható előrejelzőnek.",
+    "content_html": "<p>Vivian Peerbooms és munkatársai egy rotterdami járóbeteg-ellátó központban 95 szorongásos és 77 depressziós pácienst vizsgáltak. A résztvevők kognitív viselkedésterápiát vagy interperszonális pszichoterápiát kaptak. A tüneteket a kezdéskor és a nyolcadik alkalom után mérték, a szakemberek a negyedik alkalom után értékelték az addigi eredményt. A szupervizorok csak a kezelési dokumentációt ismerték.</p>\n<h2>Nem a kezelés végéről szólnak az adatok</h2>\n<p>A nyolcadik alkalomra a résztvevők közel 73 százaléka nem érte el a kutatók által előre meghatározott tüneti javulási küszöböt. A terapeuták értékelésének esélyhányadosa 0,90 (95%-os konfidenciaintervallum: 0,54–1,50), a szupervizoroké 1,05 (0,74–1,51) volt. Mindkét intervallum magában foglalta az 1-et, vagyis a kapcsolat hiánya is összeegyeztethető az adatokkal. A motivációt és a problémák feltételezett okait együttesen vizsgáló modell sem javította érdemben az előrejelzést.</p>\n<h2>A lassú javulás nem feltétlenül a motiváció hiánya</h2>\n<p>A tanulmány nem követte a pácienseket a terápia végéig, és a kezelésből való kiesést sem vizsgálta eredményként. A megkeresett 728 páciensből csak 172-nél állt rendelkezésre mindkét tünetmérés. A kis és heterogén minta, valamint a szupervizorok értékeléseinek gyenge egyezése korlátozza az általánosíthatóságot. A szerzők nem jeleztek kutatási finanszírozást vagy kereskedelmi összeférhetetlenséget.</p>\n<p>A kutatás fontos gyakorlati kérdést vet fel: ha a páciens nem érzi jobban magát, érdemes erről közösen beszélni és rendszeresen követni a változást. A lassú haladásból önmagában nem következik, hogy a páciens nem akar változni. A vizsgálat ugyanakkor nem tesztelte, hogy a rendszeres visszajelzés bevezetése javítaná-e a kezelés eredményességét.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1868752/full\">Early prediction of treatment failure in anxiety and depressive disorders</a>. Frontiers in Psychology, 2026. november 23. DOI: 10.3389/fpsyg.2026.1868752.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-1868752.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Ha a pszichoterápia lassan halad: a szakember benyomása és a páciens motivációja önmagában nem elég",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Early prediction of treatment failure in anxiety and depressive disorders",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1868752/full",
+        "published_at": "2026-11-23",
+        "doi": "10.3389/fpsyg.2026.1868752",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "db57797659bbe9144f282f9b5623639f82a1e59571d0906b3c4658a8b8c87347",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
