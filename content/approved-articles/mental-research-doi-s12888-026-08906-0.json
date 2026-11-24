@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12888-026-08906-0",
+    "slug": "depresszio-evszak-agyi-aktivitas-eeg",
+    "title": "Évszakok és depresszió: mit mutathatnak az agyi elektromos jelek?",
+    "excerpt": "Egy új EEG-elemzés eltérő agyi aktivitási mintázatokat talált a depresszióval élő nők és férfiak különböző évszakokban készült felvételein. Az eredmény kutatási támpont, nem új diagnosztikai módszer.",
+    "category": "Kutatások",
+    "content_html": "<p>A depresszió tüneteinek évszakos változása nem mindenkinél egyforma. Jie Xiang és munkatársai a BMC Psychiatry 2026. november 24-én megjelent tanulmányában azt vizsgálták, hogy az évszak és a nem összefügg-e a nyugalmi agyi elektromos aktivitással.</p>\n<p>A TDBRAIN archívumból 124, major depresszióval diagnosztizált felnőtt összesen 132 EEG-felvételét elemezték. Nyolc ember két különböző évszakban is részt vett mérésen. Az EEG-jellemzőket a depresszív tünetek Beck-féle kérdőívével vetették össze.</p>\n<h2>A jó statisztikai eredmény még nem klinikai teszt</h2>\n<p>A gépi tanulási modell egyik legerősebb eredménye a télen vizsgált nők csoportjában született: a becsült és mért tünetpontszámok korrelációja 0,9405 volt. Ez nem 94 százalékos diagnosztikai pontosságot jelent, hanem két számsor együttjárásának mértékét. A vizsgálatban kizárólag depresszióval diagnosztizált résztvevők szerepeltek.</p>\n<p>A kis évszakos alcsoportok, a nem teljesen független felvételek és a kontrollcsoport hiánya korlátozzák az értelmezést. A gyógyszerszedés, a társbetegségek és a tényleges fényexpozíció hatását sem tudták teljeskörűen figyelembe venni. Az adatokból nem következik, hogy az évszak okozza a megfigyelt eltéréseket, vagy hogy az EEG alkalmas lenne a depresszió rutinszerű felismerésére.</p>\n<p>A tanulmány inkább arra ösztönöz, hogy az agyi jelzőszámok kutatásában is figyeljenek az egyéni különbségekre és a mérés körülményeire. Kínai állami és tartományi kutatási programok finanszírozták a munkát; a szerzők nem jeleztek összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12888-026-08906-0\">Xiang J., Cui Y., Li H., Niu Y., Zhou M. és Dai J.: Gender- and season-specific neural signature revealed by resting EEG in major depressive disorder. BMC Psychiatry (2026).</a> DOI: 10.1186/s12888-026-08906-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12888-026-08906-0.svg",
+    "hero_image_alt": "Évszakos fények és EEG-hullámok szimbolikus illusztrációja",
+    "hero_image_caption": "Szerkesztőségi illusztráció; nem az eredeti kutatás képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Gender- and season-specific neural signature revealed by resting EEG in major depressive disorder",
+        "url": "https://link.springer.com/article/10.1186/s12888-026-08906-0",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12888-026-08906-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T16:18:49Z",
+    "revision_sha256": "261b219ba06ee7f9db7ad0e6d630985ec741717b8dccca3b19bef1c192f1eea6",
+    "reference": "chat-message:Az mi pszichológiai hatásai, önállóság elvesztése és a depresszió évszakok cikkek (3db) mehet ki képpel"
+  }
+}
