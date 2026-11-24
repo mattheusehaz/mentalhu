@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s11332-026-02019-7",
+    "slug": "alvashiany-edzes-hangulat-metaanalizis",
+    "title": "Egy rosszul átaludt éjszaka után a mozgás hangulati előnye is bizonytalanabb lehet",
+    "category": "Kutatások",
+    "excerpt": "Hat kis kísérlet összesítése szerint alváshiányban kedvezőtlenebb lehet az egyszeri edzésre adott hangulati reakció. Az azonban nem bizonyított, hogy a mozgás megbízhatóan csökkenti az alváshiány okozta álmosságot. A bizonyítékok bizonyossága nagyon alacsony.",
+    "content_html": "<p>Mateus Assis Benfica és munkatársai 79, átlagosan 28 éves egészséges felnőtt adatait tartalmazó vizsgálatokat tekintettek át. Az egyes kísérletek eltérő alváskorlátozási és mozgásprotokollokat használtak. Az összegzésben az alváshiányos és kipihent állapotban végzett mozgás, illetve az alváshiányos állapotban végzett edzés és a nem edzés összehasonlítása két külön kérdés volt.</p><p>A hangulati zavartság standardizált különbsége 0,92 volt az alváshiányos állapot hátrányára (95%-os konfidenciaintervallum: 0,40–1,43). Az alváshiány után végzett edzés álmosságra gyakorolt becsült hatása −0,65 volt (−1,32 és 0,02 között); az intervallum a nulla különbséget is megengedte.</p><h2>A nagy becslés sem jelent biztos eredményt</h2><p>Minden bevont vizsgálatnál magas torzítási kockázatot állapítottak meg, a minták kicsik voltak. A szerzők ezért mindkét eredmény bizonyosságát nagyon alacsonynak ítélték. A kutatás nem krónikus álmatlansággal élő emberek kezeléséről szólt, és nem indokolja a rendszeres mozgás kerülését. Az edzéstől azonban nem érdemes az elmaradt alvás következményeinek biztos megszüntetését várni.</p><p>A kutatás nem kapott külső finanszírozást; a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s11332-026-02019-7\">Psychological responses to acute physical exercise in sleep-deprived healthy individuals: a systematic review and meta-analysis</a>. DOI: 10.1007/s11332-026-02019-7.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s11332-026-02019-7.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Egy rosszul átaludt éjszaka után a mozgás hangulati előnye is bizonytalanabb lehet",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "Egy rosszul átaludt éjszaka után a mozgás hangulati előnye is bizonytalanabb lehet",
+    "seo_description": "Hat kis kísérlet összesítése szerint alváshiányban kedvezőtlenebb lehet az egyszeri edzésre adott hangulati reakció. Az azonban nem bizonyított, hogy a mozgás megbízhatóan csökkenti az alváshiány okozta álmosságot. A bizonyítékok bizonyossága nagyon alacsony.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Psychological responses to acute physical exercise in sleep-deprived healthy individuals: a systematic review and meta-analysis",
+        "url": "https://link.springer.com/article/10.1007/s11332-026-02019-7",
+        "published_at": "2026-11-23",
+        "doi": "10.1007/s11332-026-02019-7",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "10b0782c86d6e6c3eab00f8d52bb53812e3b25a3710df98ebe4b86b94484f900",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
