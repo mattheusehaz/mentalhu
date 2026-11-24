@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-2004057",
+    "slug": "serdulok-mozgas-onkentesseg-kozosseg",
+    "title": "A többet mozgó kamaszok gyakrabban önkénteskednek – de nem bizonyított, hogy a sport teszi őket segítőkészebbé",
+    "category": "Kutatások",
+    "excerpt": "Közel 35 ezer amerikai serdülő adatait elemezve összefüggést találtak a fizikai aktivitás és az önkéntesség között. A kapcsolat egy része a szülők által értékelt pszichoszociális működéssel függött össze, de az ok-okozati sorrend nem ismert.",
+    "content_html": "<p>Honggang Wang az amerikai National Survey of Children’s Health 2022–2023-as adatait vizsgálta. A 12–17 évesek közül 34 939 résztvevő teljes adatsorával dolgozott. A súlyozott mintában 42,5 százalék végzett önkéntes vagy közösségi szolgálatot.</p>\n<h2>Mit mutatott a statisztikai modell?</h2>\n<p>Heti egy további mozgásnaphoz átlagosan 2,65 százalékponttal magasabb önkéntességi valószínűség társult (95%-os konfidenciaintervallum: 2,24–3,10 százalékpont). A pszichoszociális működés és a kortárskapcsolatok közvetett összefüggéseinek együttes becslése 0,48 százalékpont volt (0,38–0,58). A modellben a pszichoszociális működésen keresztüli kapcsolat volt erősebb.</p>\n<h2>A segítőkészség több annál, mint amit a felmérés mért</h2>\n<p>A szülőktől származó válaszok alapján értékelték a kíváncsiságot, a kitartást és a nehéz helyzetekben megőrzött önuralmat. A kortárskapcsolatokat egyetlen kérdéssel mérték. Az önkéntesség nem azonos az empátiával, és a mozgás gyakorisága nem mutatja meg az edzés intenzitását vagy társas környezetét.</p>\n<p>A felmérés nem próbált ki sportprogramot. A családi lehetőségek és az iskolai környezet egyaránt befolyásolhatják, hogy egy fiatal sportol-e, illetve önkénteskedik-e. Érdemes ezért olyan közösségi programokat vizsgálni, amelyek teret adnak a mozgásnak és az együttműködésnek, de hatásukat külön kutatásnak kell igazolnia. A szerző nem jelzett finanszírozást vagy kereskedelmi összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2004057/full\">Physical activity and adolescent prosocial behavior: a serial mediation model informed by TPSR theory</a>. DOI: 10.3389/fpsyg.2026.2004057.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-2004057.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A többet mozgó kamaszok gyakrabban önkénteskednek – de nem bizonyított, hogy a sport teszi őket segítőkészebbé",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Physical activity and adolescent prosocial behavior: a serial mediation model informed by TPSR theory",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2004057/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fpsyg.2026.2004057",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "275f7f85fd333b86a5ef29500775e13c8be8e90511e0a399bc7db03d5cc2087e",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
