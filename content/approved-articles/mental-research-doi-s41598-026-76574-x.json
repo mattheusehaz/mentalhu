@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s41598-026-76574-x",
+    "slug": "stresszreakcio-kieges-napkozbeni-feszultseg-vizsgalat",
+    "title": "A kiégés tüneteihez a stresszre adott erős reakció kapcsolódott leginkább egy 28 napos vizsgálatban",
+    "category": "Kutatások",
+    "excerpt": "Négy héten át, naponta négyszer kérdeztek meg 194 felnőttet a stresszről. Az elemzés szerint a stresszes eseményekre adott erősebb reakció együtt járt a kiégés tüneteivel, de a mérések nem jelezték előre megbízhatóan a későbbi állapotot.",
+    "content_html": "<p>A munkahelyi kiégés vizsgálatakor többnyire azt kérdezik, mennyi terhelést él át valaki, mennyire kimerült, vagy hogyan érzi magát az elmúlt hetekben. Egy új ausztrál kutatás más nézőpontot választott: a mindennapi stresszreakciókat próbálta elkapni akkor, amikor azok ténylegesen jelentkeznek. A 2026. november 23-án megjelent tanulmány arra jutott, hogy a napi feszültség különböző összetevői nem egyformán kapcsolódnak a kiégés tüneteihez.</p><p>Stuart Hayes és munkatársai 194 felnőttet vontak be, akik 28 napon keresztül naponta négyszer jelezték, milyen stresszhatások érték őket, és mennyire érzik magukat feszültnek. A résztvevők a vizsgálat elején, a 14. és a 28. napon külön kérdőíveket töltöttek ki a kiégésről, a szorongásról, a munka iránti elköteleződésről és az észlelt stresszről. A mintában 73,2 százalék volt a nők aránya.</p><h2>Nem ugyanaz, ha erősen reagálunk, lassan nyugszunk meg vagy egymásra rakódik a stressz</h2><p>A kutatók három folyamatot különítettek el: mekkora feszültségnövekedést vált ki egy stresszor, mennyit csökken a feszültség a nap folyamán, illetve felhalmozódik-e a terhelés az egymást követő időszakokban. A fő statisztikai elemzésben 78 olyan résztvevő adatai szerepeltek, akiknél a szükséges ismételt mérések rendelkezésre álltak.</p><p>A három mutató együttesen a korábbi kiégési tünetek és az általánosan észlelt stressz figyelembevétele után további 11,2 százalékpontnyi megmagyarázott varianciát adott a 14. napi kiégési tünetekhez (ΔR² = 0,112; p = 0,004). A legkövetkezetesebb kapcsolat a stresszre adott reakció erősségénél jelentkezett. A napon belüli korai megnyugvás csak az egyik statisztikai eljárással adott szignifikáns eredményt. A stressz felhalmozódása inkább a szorongás tüneteivel függött össze; a kiégésnél nem jelent meg ilyen egyértelmű kapcsolat.</p><h2>A pillanatnyi kapcsolat nem előrejelzés</h2><p>A tanulmány egyik legfontosabb korlátja, hogy a napi stresszmutatók és a 14. napon mért kiégés részben ugyanabból az időszakból származtak. Az elemzés tehát elsősorban együttjárást mutatott, nem azt, hogy a fokozott stresszreakció később szükségszerűen kiégést okoz. Amikor a kutatók a 28. napra próbáltak előre jelezni, az első két hét stresszmutatói a 14. napi tüneteken felül már nem adtak megbízható többletinformációt.</p><p>A vizsgálat a kiégés tüneteiről, nem pedig igazolt klinikai diagnózisokról szólt, az adatok önbeszámolón alapultak, és a fő elemzésben az eredetileg bevont 194 főnél jóval kevesebben szerepeltek. Emiatt az eredményekből nem következik személyre szabott stresszkezelési recept. Arra viszont felhívják a figyelmet, hogy a kiégés kutatásában érdemes külön mérni a stressz intenzitását, az arra adott reakciót és a regenerálódás időbeli mintázatát.</p><p>A kutatás alapjául szolgáló adatgyűjtést az ausztrál védelmi kutatási szervezet támogatta; a szerzők szerint a támogatók nem vettek részt az elemzésben vagy a közlésről szóló döntésben. Murat Yücel egyetemi mentális egészségügyi központ és az Enosis Therapeutics tanácsadó testületében is szerepet vállal, a többi szerző nem jelzett összeférhetetlenséget.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s41598-026-76574-x.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A kiégés tüneteihez a stresszre adott erős reakció kapcsolódott leginkább egy 28 napos vizsgálatban",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "A kiégés tüneteihez a stresszre adott erős reakció kapcsolódott leginkább egy 28 napos vizsgálatban",
+    "seo_description": "Négy héten át, naponta négyszer kérdeztek meg 194 felnőttet a stresszről. Az elemzés szerint a stresszes eseményekre adott erősebb reakció együtt járt a kiégés tüneteivel, de a mérések nem jelezték előre megbízhatóan a későbbi állapotot.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Ecological momentary assessment of stress reactivity, recovery, and pileup in relation to burnout symptoms",
+        "url": "https://www.nature.com/articles/s41598-026-76574-x",
+        "published_at": "2026-11-23",
+        "doi": "10.1038/s41598-026-76574-x",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "818170391575f6d1a9137bf7469ac6b74542d6aee945adfb69f04faaa99fdfb6",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
