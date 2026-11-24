@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s40359-026-05955-8",
+    "slug": "kotodesi-kerdoiv-nemet-validalas",
+    "title": "Bizonytalan kötődés és közelségkeresés: nem biztos, hogy érdemes egyetlen pontszámmal mérni",
+    "category": "Kutatások",
+    "excerpt": "Egy 1468 németországi felnőttet bevonó vizsgálat szerint a sérülékeny kötődést mérő VASQ német változatának két alskálája megfelelő belső konzisztenciát mutatott, de a közös összpontszám értelmezése kérdéses maradt.",
+    "content_html": "<p>Nora M. Laskowski, Gerrit Brandt, Marietta Lieb és Georgios Paslakis a Prolific online felületén toboroztak németországi felnőtteket. A kérdőív fordítását visszafordítással ellenőrizték, majd a tételek működését és a skála statisztikai szerkezetét vizsgálták. Egy gyengén teljesítő tételt elhagytak.</p><h2>Két dimenzió, eltérő jelentés</h2><p>A bizonytalanság alskálájának Cronbach-alfa értéke 0,86, a közelségkeresésé 0,71, a teljes skáláé 0,78 volt. A két látens faktor becsült korrelációja −0,01, a módosított modell illeszkedése pedig korlátozott maradt (CFI: 0,71; RMSEA: 0,10). A teljes pontszám a lelki terheléssel 0,61-es korrelációt mutatott.</p><p>Az autisztikus vonások a bizonytalansággal 0,53-as, a közelségkereséssel mindössze 0,01-es korrelációt mutattak. Ez nem jelenti azt, hogy az autizmus kötődési zavar lenne. A mérőeszköz eltérő jelenségek megkülönböztetésére való alkalmassága további vizsgálatot igényel.</p><p>Az eredmény arra figyelmeztet, hogy a belső konzisztencia nem bizonyítja egy összpontszám érvényességét. Egy ilyen kérdőív nem önálló diagnózis, és más nyelvi változatokra az eredmény nem vihető át automatikusan. A kutatás nem kapott külön támogatást, a nyílt hozzáférést a Projekt DEAL finanszírozta; összeférhetetlenséget nem jelentettek.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s40359-026-05955-8\">Initial validation of the german translation of the vulnerable attachment style questionnaire (VASQ-D): factor structure and psychometric properties</a>. DOI: 10.1186/s40359-026-05955-8.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s40359-026-05955-8.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Bizonytalan kötődés és közelségkeresés: nem biztos, hogy érdemes egyetlen pontszámmal mérni",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Initial validation of the german translation of the vulnerable attachment style questionnaire (VASQ-D): factor structure and psychometric properties",
+        "url": "https://link.springer.com/article/10.1186/s40359-026-05955-8",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s40359-026-05955-8",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "7588818446c194dfa24bde0bbfa187eae6ce5556900560e62796cc0ba9f14ba9",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
