@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s40359-026-05958-5",
+    "slug": "idoskori-szorongas-depresszio-egyutteles-lakhatasi-helyzet",
+    "title": "Időskori depresszió és szorongás: az együttélés körülményei is számíthatnak",
+    "category": "Kutatások",
+    "excerpt": "Egy több mint tízezer idős kínai ember adatait feldolgozó kutatásban eltérő kapcsolódásokat találtak a lelki tünetek között attól függően, kivel éltek együtt a résztvevők. Az azonos szorongáspontszám nem feltétlenül takart azonos tüneti mintázatot.",
+    "content_html": "<p>Yuke Yang és Zhihao Ma a kínai időskori egészségfelmérés 2018-as adatállományából 10 789, legalább 65 éves ember adatait dolgozta fel. Az egyedül, kizárólag házastárssal, házastárssal és gyermekekkel, illetve csak gyermekekkel élőket hasonlították össze. Két bevett tüneti kérdőívet (CESD-10 és GAD-7) és a háttértényezőket figyelembe vevő statisztikai hálózatelemzést alkalmaztak.</p><h2>Nem csak a tünetek összege érdekes</h2><p>A depresszív tünetek súlyossága különbözött a lakhatási csoportok között, a teljes szorongáspontszámoknál viszont kevés egyértelmű eltérés mutatkozott. A megnyugvás nehézsége és a nehezen kontrollálható aggodalom minden csoportban a tüneti kapcsolatháló fontos eleme volt. Páronkénti összehasonlításban a 136 lehetséges tünetkapcsolatból 13–23 esetében találtak statisztikailag alátámasztott különbséget. Ez nem a tünetek gyakorisága, hanem a becsült kapcsolatok eltérése.</p><h2>Az egyedülélés nem azonos a magánnyal</h2><p>Az egyszeri felmérésből nem lehet megállapítani, hogy a lakhatási helyzet okozza-e a lelki nehézségeket, vagy azok is befolyásolják az együttélés módját. Az sem derül ki pusztán a háztartás összetételéből, hogy az érintett mennyi támogatást kap, illetve milyenek a családi kapcsolatai. Az eredmény nem alapoz meg eltérő kezelési előírásokat az egyes háztartástípusokra. Az időskori lelkiállapot értékelésénél azonban indokolt lehet a kapcsolati környezetet is megismerni. A kutatást két kínai társadalomtudományi kutatási program támogatta (26XWB003 és 26LLWM10); a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s40359-026-05958-5\">Network structure of the co-occurrence of depressive and anxiety symptoms in Chinese older adults: does living arrangement matter?</a>. BMC Psychology, 2026. november 23. DOI: 10.1186/s40359-026-05958-5.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s40359-026-05958-5.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Időskori depresszió és szorongás: az együttélés körülményei is számíthatnak",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Network structure of the co-occurrence of depressive and anxiety symptoms in Chinese older adults: does living arrangement matter?",
+        "url": "https://link.springer.com/article/10.1186/s40359-026-05958-5",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s40359-026-05958-5",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "ab17c4dba04ad6bfa8cc92e9be56f3f513e8665d5da8938f4cb70cc1fd54396e",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
