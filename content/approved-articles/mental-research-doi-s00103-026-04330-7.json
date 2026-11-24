@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s00103-026-04330-7",
+    "slug": "europai-fiatalok-magany-mentalis-egeszseg-cronos",
+    "title": "A fiatal európaiak rosszabb lelki egészségről számoltak be – Magyarországon is figyelmeztetőek az adatok",
+    "category": "Kutatások",
+    "excerpt": "Egy 11 országot felölelő európai felmérésben a 35 év alattiak gyakrabban minősítették rossznak lelki egészségüket, mint az idősebbek. A magyar országos becslés a vizsgált országok között a legmagasabb volt, de a hazai minta mindössze 212 főből állt.",
+    "content_html": "<p>Insa Backhaus-Hoven és Terje Andreas Eikemo a European Social Survey CRONOS-3 adatfelvételét elemezte. A 2024 szeptembere és 2025 júniusa közötti felmérésből 7968 ember válaszait dolgozták fel. A súlyozott adatok szerint a 35 év alattiak 12,5 százaléka, a legalább 35 évesek 4,7 százaléka értékelte rossznak vagy nagyon rossznak mentális egészségét.</p><h2>A magány és a lelkiállapot kapcsolata</h2><p>Az életkorra, nemre és iskolázottságra korrigált elemzésben a magányos válaszadóknál a rossz lelki egészség gyakoriságának aránya 5,85 volt (95%-os konfidenciaintervallum: 4,63–7,40). A társas támogatás hiányánál ez 2,34 (1,94–2,82), a gyermekkori barátság hiányánál 2,54 (1,95–3,30) volt.</p><p>Magyarországon a súlyozott becslés 11,5 százalék, Finnországban 4,9 százalék volt. Ezek nem diagnosztizált betegségek arányai, és a kis magyar minta miatt nem indokolt országos rangsort vagy magyar fiatalokra vonatkozó külön becslést levezetni belőlük. A magány és a rossz lelkiállapot kölcsönösen erősítheti egymást; az elemzés nem tisztázza az okságot.</p><p>A felmérés indokolttá teszi a társas kapcsolatok és az ellátáshoz jutás együttes vizsgálatát. A közlés nyílt hozzáférését a Norvég Tudományos és Műszaki Egyetem támogatta; a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s00103-026-04330-7\">Mental health and social inequalities among young Europeans: findings from the CROss-National Online Survey (CRONOS)</a>. DOI: 10.1007/s00103-026-04330-7.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s00103-026-04330-7.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A fiatal európaiak rosszabb lelki egészségről számoltak be – Magyarországon is figyelmeztetőek az adatok",
+    "hero_image_caption": "MI-vel támogatott szerkesztőségi illusztráció. Nem a kutatás résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "A fiatal európaiak rosszabb lelki egészségről számoltak be – Magyarországon is figyelmeztetőek az adatok",
+    "seo_description": "Egy 11 országot felölelő európai felmérésben a 35 év alattiak gyakrabban minősítették rossznak lelki egészségüket, mint az idősebbek. A magyar országos becslés a vizsgált országok között a legmagasabb volt, de a hazai minta mindössze 212 főből állt.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Mental health and social inequalities among young Europeans: findings from the CROss-National Online Survey (CRONOS)",
+        "url": "https://link.springer.com/article/10.1007/s00103-026-04330-7",
+        "published_at": "2026-11-23",
+        "doi": "10.1007/s00103-026-04330-7",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T04:35:00Z",
+    "revision_sha256": "b06bc43a96ed551123be17023ca2f544398b5b8bd6337ce944d9c0450ec70220",
+    "reference": "chat-message:A fiatal európaiak lelki egészsége és ami utána jönnek cikkek mehetnek ki képpel."
+  }
+}
