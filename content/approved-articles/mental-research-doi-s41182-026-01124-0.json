@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s41182-026-01124-0",
+    "slug": "kamaszok-megkuzdes-csaladi-beszelgetesek",
+    "title": "A megküzdés és a tartalmas családi beszélgetések együtt járhatnak a kamaszok jobb lelkiállapotával",
+    "category": "Kutatások",
+    "excerpt": "Hat indiai helyszínen végzett, több mint hatezer fiatalt bevonó kutatás szerint a konstruktív megküzdési szokások kedvezőbb önértékelt lelki jólléttel társultak. A vizsgálat nem igazolja, hogy a készségek fejlesztése önmagában javulást okozna.",
+    "content_html": "<p>U. Venkatesh és munkatársai 10–19 éves iskolások válaszait elemezték. Az 5704 értékelhető jólléti kérdőív alapján 14,31 százalék került a kutatók által meghatározott alacsony, 39,87 százalék a közepes és 45,83 százalék a legkedvezőbb kategóriába. Ezek nem klinikai diagnózisok.</p><h2>A családi környezet szerepe</h2><p>Az 5238 fő adatait tartalmazó végső modellben a közepes megküzdési pontszámhoz 2,08-as (95%-os konfidenciaintervallum: 1,69–2,56), a magas pontszámhoz 2,31-es (1,81–2,94) korrigált esélyhányados társult a kedvezőbb jólléti kategóriába tartozásra. A jövő tervezése (1,46; 1,07–1,98) és a tartalmas családi beszélgetések (1,37; 1,03–1,82) szintén pozitív kapcsolatot mutattak.</p><p>Az egyszeri mérés nem állapítja meg a kapcsolat irányát. A megküzdésről szóló kérdések a viselkedés gyakoriságát, nem annak eredményességét vagy helyzethez illeszkedését vizsgálták. A jólléti mutató nem klinikailag validált diagnosztikai eszköz, és a hiányzó adatok is szűkítették az elemzést.</p><p>Érdemes a megküzdés tanulását támogató családi és iskolai környezet lehetőségeit vizsgálni, nem pedig a fiatalokra hárítani jóllétük teljes felelősségét. A munkát az Indiai Orvostudományi Kutatási Tanács finanszírozta (EMTR/SG-DL/2024/07–6); összeférhetetlenséget nem jelentettek.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s41182-026-01124-0\">Coping strategies, psychosocial factors, and mental well-being among school-going adolescents in India: evidence from a multi-site cross-sectional study</a>. DOI: 10.1186/s41182-026-01124-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s41182-026-01124-0.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A megküzdés és a tartalmas családi beszélgetések együtt járhatnak a kamaszok jobb lelkiállapotával",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Coping strategies, psychosocial factors, and mental well-being among school-going adolescents in India: evidence from a multi-site cross-sectional study",
+        "url": "https://link.springer.com/article/10.1186/s41182-026-01124-0",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s41182-026-01124-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "e979aff9bd38cb7c62e546ca5023a75a53558af2a291577806eb74bf10be8e2f",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
