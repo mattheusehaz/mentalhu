@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12144-026-10355-7",
+    "slug": "kotodesi-szorongas-tarskereso-alkalmazasok-elutasitas",
+    "title": "Kötődési szorongás és társkereső alkalmazások: az elutasítástól való félelem is szerepet játszhat",
+    "category": "Kutatások",
+    "excerpt": "Egy 796 kínai egyetemistát vizsgáló felmérésben a szülőkhöz fűződő szorongó kötődési mintázatok a társkereső alkalmazások problémás használatával társultak. A kutatók az elutasításra való érzékenység lehetséges szerepét is vizsgálták, de az ok-okozati kapcsolatot nem bizonyították.",
+    "content_html": "<p>Az online ismerkedés során a válasz elmaradása vagy egy kapcsolat megszakadása különböző érzelmi reakciókat válthat ki. Tiezhu Li, Jundong Liao, Xiaofei Qiao, Xuan Cheng, Jiaming Yu és Li Lei a kínai Renmin Egyetemről azt vizsgálták, hogyan kapcsolódnak az ilyen tapasztalatok a szülőkhöz fűződő kötődéshez.</p>\n<p>Az interneten toborzott 796 egyetemista kérdőíveket töltött ki az anyához és az apához fűződő kötődési szorongásról és elkerülésről, az online és személyes elutasításra való érzékenységről, valamint a társkeresők problémás használatáról.</p>\n<h2>Nem minden bizonytalan kötődési mintázat egyforma</h2>\n<p>A válaszok statisztikai csoportosítása négy mintázatot különített el. A magas kötődési szorongással és alacsony elkerüléssel, illetve a mindkét dimenzióban közepes értékkel jellemezhető csoportban az elutasításérzékenységen keresztül is kimutatható volt összefüggés a problémás alkalmazáshasználattal. A második csoportban a férfiak magasabb problémáshasználat-pontszámokról számoltak be, mint a nők.</p>\n<h2>A gyakori használat önmagában nem diagnózis</h2>\n<p>Az egyszeri kérdőíves adatfelvétel nem tisztázza, melyik jelenség előzte meg a másikat. A négy csoport statisztikai mintázat, nem négy klinikai diagnózis. Az elutasítástól való félelem egy segítő beszélgetés lehetséges témája lehet, de a kutatás nem tesztelt terápiát, és eredményei nem általánosíthatók automatikusan más életkorokra vagy országokra.</p>\n<p>A nyilvános absztrakt nem közli a hatásbecslések bizonytalansági tartományait. A szerzők nem számoltak be külső kutatási támogatásról vagy összeférhetetlenségről.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s12144-026-10355-7\">Who is most vulnerable to problematic dating app use? Evidence from insecure parent–child attachment profiles among Chinese college students</a>. Current Psychology, 2026. november 24. DOI: 10.1007/s12144-026-10355-7.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12144-026-10355-7.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Kötődési szorongás és társkereső alkalmazások: az elutasítástól való félelem is szerepet játszhat",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Who is most vulnerable to problematic dating app use? Evidence from insecure parent–child attachment profiles among Chinese college students",
+        "url": "https://link.springer.com/article/10.1007/s12144-026-10355-7",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s12144-026-10355-7",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "e8d5ba5334151f66324061200e4a854d02a635c300890345c956d07d24e3f175",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
