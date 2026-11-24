@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12889-026-30521-7",
+    "slug": "szabadido-es-lelki-egeszseg-tizenegy-ev-norveg-kutatas",
+    "title": "A lelki nehézségek a szabadidős aktivitást is visszafoghatják – tizenegy év norvég adatai alapján",
+    "category": "Kutatások",
+    "excerpt": "Egy több mint 33 ezer embert felölelő norvég vizsgálatban a szabadidős elfoglaltságok és a lelkiállapot közötti kapcsolat mindkét irányban megjelent. A depresszív tünetek kevesebb későbbi aktivitással, egyes elfoglaltságok pedig kedvezőbb későbbi tünetpontszámokkal jártak együtt.",
+    "content_html": "<p>Bodil Elisabeth Valstad Aasan és munkatársai a norvég HUNT egészségfelmérés 2006–2008-as és 2017–2019-es adatfelvételéből 33 819 ember adatait elemezték. Tíz szabadidős elfoglaltságot három kategóriába soroltak: kulturális, vallási és aktív tevékenységek. A szorongásos és depresszív tüneteket a HADS kérdőívvel mérték.</p><h2>A kapcsolat mindkét irányban megjelent</h2><p>A kezdeti depresszív tünetek alacsonyabb későbbi részvétellel függtek össze mindhárom kategóriában. A kezdeti szorongás az aktív elfoglaltságok későbbi alacsonyabb szintjével társult. Fordított irányban az aktív tevékenységeknél a későbbi depresszív tünetek modellbeli együtthatója −0,130 (95%-os konfidenciaintervallum: −0,167 és −0,093 között), a kulturális részvételnél −0,064 (−0,108 és −0,021 között) volt. Az aktív elfoglaltságok a későbbi szorongással is fordított kapcsolatot mutattak (−0,043; −0,077 és −0,008 között). Ezek nem százalékos kockázatcsökkenések.</p><h2>A részvétel feltételei is fontosak</h2><p>Két, egymástól több mint egy évtizedre eső mérés nem mutatja meg a köztes változások sorrendjét. A megfigyeléses vizsgálatból nem következik, hogy egy kulturális program vagy egy aktív elfoglaltság önmagában megelőzi a depressziót. A lelki terheléssel küzdők számára érdemes a részvétel akadályait is vizsgálni, ahelyett, hogy pusztán aktivitást várnánk el tőlük. A HUNT felmérést norvég közintézmények együttműködése finanszírozta; a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12889-026-30521-7\">Bidirectional associations between leisure engagement and mental health over 11 years: evidence from the HUNT study, Norway</a>. BMC Public Health, 2026. november 23. DOI: 10.1186/s12889-026-30521-7.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12889-026-30521-7.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A lelki nehézségek a szabadidős aktivitást is visszafoghatják – tizenegy év norvég adatai alapján",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Bidirectional associations between leisure engagement and mental health over 11 years: evidence from the HUNT study, Norway",
+        "url": "https://link.springer.com/article/10.1186/s12889-026-30521-7",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s12889-026-30521-7",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "d4bc05f922eb8424411c8d7e5431687257a4755b4e815d5464f76fad2cb69fb8",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
