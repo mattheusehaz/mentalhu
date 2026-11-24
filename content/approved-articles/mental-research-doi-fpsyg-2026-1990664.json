@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-1990664",
+    "slug": "serdulok-erzelmi-eves-mozgas-testkep",
+    "title": "Mozgás, testkép és érzelmi evés kamaszkorban: gyenge összefüggést találtak egy kínai vizsgálatban",
+    "category": "Kutatások",
+    "excerpt": "Egy 852 serdülő bevonásával végzett kínai kutatásban a fizikai aktivitás és az érzelmi evés között gyenge fordított kapcsolat mutatkozott. A háttértényezőket is figyelembe vevő elemzés azonban nem igazolta, hogy önmagában a mozgás csökkentené az érzelmi evést.",
+    "content_html": "<p>Az érzelmi evés során az étkezés az éhség mellett érzelmi állapotokra is válaszolhat. Jinrong Yu és munkatársai négy csinani iskola 12–16 éves tanulóinál kérdőívekkel vizsgálták a mozgás, az érzelmi evés, az énkép egyértelműsége és a test mások általi megítélésével kapcsolatos szorongás összefüggéseit.</p>\n<h2>Az összefüggés korlátozott magyarázóereje</h2>\n<p>A mozgás és az érzelmi evés korrelációja −0,111 volt. A teljes adatokkal rendelkező 843 tanulónál a korrigált közvetlen együttható −0,0686 lett (p = 0,067). A feltételezett közvetett összefüggések összesített együtthatója −0,0694 volt (95%-os bootstrap-konfidenciaintervallum: −0,1002 és −0,0411). Az énkép és a testszorongás felcserélt sorrendjével is kimutatható közvetett kapcsolat adódott. A végső modell az érzelmi evés változatosságának mindössze 7,1 százalékát magyarázta.</p>\n<p>A kutatók egyszeri, önbeszámolós felmérést végeztek, nem mértek tényleges változást egy mozgásprogram után. A mintaválasztás nem véletlenszerű volt; a testsúllyal, diétázással és pszichés terheléssel kapcsolatos adatok hiányoztak az elemzésből. A kutatást a Santung tartományi társadalomtudományi alap (22CTYJ07) és a Santungi Egyetem oktatáskutatási programja támogatta; a szerzők nem jeleztek kereskedelmi összeférhetetlenséget.</p>\n<p>A családok és a segítők számára a vizsgálat a testtel kapcsolatos aggodalmak és az étkezés együttes megértésének fontosságát jelzi. Nem következik belőle, hogy a több sport vagy az étkezés szigorúbb ellenőrzése megoldaná a lelki problémákat. A kutatás nem evészavar-kezelést tesztelt.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1990664/full\">Associations between physical activity and emotional eating in adolescents: a cross-sectional serial mediation analysis of self-concept clarity and social physique anxiety</a>. DOI: 10.3389/fpsyg.2026.1990664.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-1990664.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Mozgás, testkép és érzelmi evés kamaszkorban: gyenge összefüggést találtak egy kínai vizsgálatban",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Associations between physical activity and emotional eating in adolescents: a cross-sectional serial mediation analysis of self-concept clarity and social physique anxiety",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1990664/full",
+        "published_at": "2026-11-23",
+        "doi": "10.3389/fpsyg.2026.1990664",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "4eb7e0a03e7ffb23fb0512e730cc41dc8231e63d4a64f7ce43ebcd64e5ce82a6",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
