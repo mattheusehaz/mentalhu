@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44247-026-00318-0",
+    "slug": "digitalis-pszichologiai-ellatas-bevezetes",
+    "title": "Nem elég egy jó alkalmazás: mitől válhat a digitális pszichológiai segítség a mindennapi ellátás részévé?",
+    "category": "Kutatások",
+    "excerpt": "Egy 31 tanulmányt összegző áttekintés szerint a szakember vagy képzett segítő támogatásával működő digitális mentális egészségügyi programok bevezetéséhez a technológián túl szervezeti és finanszírozási feltételek is szükségesek.",
+    "content_html": "<p>Iris C. Brunner és munkatársai hat szakirodalmi adatbázisban kerestek 2025 márciusáig. Közel hatezer találatból 31, 2013 és 2025 között közölt vizsgálat felelt meg a feltételeknek. Nem pusztán az önálló alkalmazásokkal, hanem emberi segítséggel kiegészített online programokkal és személyes ellátással kombinált megoldásokkal foglalkoztak.</p><p>A programokat a páciensek és az ellátók általában elfogadhatónak és megvalósíthatónak ítélték, de a tényleges igénybevétel eltérő volt. A tartós működés szempontjából a meglévő betegnyilvántartásokkal való együttműködés, az adatbiztonság, a munkatársak képzése, a stabil finanszírozás és az intézményi vezetés támogatása visszatérő tényezőnek bizonyult.</p><h2>A hozzáférés nem csak technikai kérdés</h2><p>A kutatás nem számított összesített klinikai hatásméretet és nem rangsorolta a bevezetési stratégiákat. A tanulmányok túlnyomórészt magas jövedelmű nyugati országokból származtak, mindössze öt foglalkozott hátrányos helyzetű vagy szűkös erőforrású környezettel. A különböző ellátórendszerekben ezért nem feltétlenül ugyanaz a megoldás működik.</p><p>A digitális segítség értékét nem pusztán a letöltések száma mutatja: fontos, hogy az emberek megfelelő támogatással ténylegesen használni tudják, és szükség esetén más ellátási formához is eljussanak. Az áttekintést a Norvég Kutatási Tanács támogatta (309264); a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s44247-026-00318-0\">Implementation strategies for guided digital mental health interventions in routine care: a scoping review</a>. DOI: 10.1186/s44247-026-00318-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44247-026-00318-0.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Nem elég egy jó alkalmazás: mitől válhat a digitális pszichológiai segítség a mindennapi ellátás részévé?",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "Nem elég egy jó alkalmazás: mitől válhat a digitális pszichológiai segítség a mindennapi ellátás részévé?",
+    "seo_description": "Egy 31 tanulmányt összegző áttekintés szerint a szakember vagy képzett segítő támogatásával működő digitális mentális egészségügyi programok bevezetéséhez a technológián túl szervezeti és finanszírozási feltételek is szükségesek.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Implementation strategies for guided digital mental health interventions in routine care: a scoping review",
+        "url": "https://link.springer.com/article/10.1186/s44247-026-00318-0",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s44247-026-00318-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "860a09fe532e81c6da32aedfcec40f31da97c809d2c6f3c632e0ae6813a5c30e",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
