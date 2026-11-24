@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44274-026-01231-z",
+    "slug": "klimavaltozas-szorongas-indiai-diakok",
+    "title": "A klímaváltozás miatt aggódó kamaszok lelki nehézségeit is érdemes megismerni",
+    "category": "Kutatások",
+    "excerpt": "Egy több mint háromezer indiai középiskolást vizsgáló felmérésben a diákok 63 százaléka közepes vagy annál erősebb aggodalmat jelzett a klímaváltozással kapcsolatban. A szorongásról beszámolók körében gyakoribbak voltak a pszichoszociális nehézségek.",
+    "content_html": "<p>Ujjawal Mishra, Vivek Kumar Yadav és Sujita Kumar Kar 27 lucknow-i iskola 11–12. évfolyamos tanulóit kérdezte meg. A klímával kapcsolatos érzelmek mellett a gyermekek és serdülők pszichoszociális működésének szűrésére szolgáló SDQ kérdőívet alkalmazták.</p><h2>Az aggodalom nem önmagában betegség</h2><p>A klímaváltozás miatt szorongást jelző diákoknál a határérték közeli vagy emelkedett SDQ-összpontszám korrigált esélyhányadosa 1,44 volt (95%-os konfidenciaintervallum: 1,23–1,68), az életkor, a nem és a képzési irány figyelembevételével. A lányok több klímával kapcsolatos negatív érzelemről számoltak be. Az esélyhányados nem azonos a kockázat százalékos növekedésével.</p><p>Az egyszeri önbeszámolós felmérés nem bizonyítja, hogy a klímaszorongás okozza a lelki problémákat. Az iskolákat nem véletlenszerűen választották ki; a klímával kapcsolatos kérdések mérési egyenértékűségét nem ellenőrizték, a tünetpontszámokat klinikai diagnózissal nem igazolták.</p><p>A gyakorlati jelentőség az, hogy a fiatalok környezeti aggodalmai is helyet kaphatnak az iskolai segítő beszélgetésekben, anélkül, hogy automatikusan kórosnak minősítenénk őket. A kutatás nem vizsgált beavatkozást. A szerzők nem jeleztek finanszírozást vagy összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44274-026-01231-z\">Climate change–related psychosocial difficulties among students in Lucknow, India</a>. DOI: 10.1007/s44274-026-01231-z.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44274-026-01231-z.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A klímaváltozás miatt aggódó kamaszok lelki nehézségeit is érdemes megismerni",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Climate change–related psychosocial difficulties among students in Lucknow, India",
+        "url": "https://link.springer.com/article/10.1007/s44274-026-01231-z",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s44274-026-01231-z",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "1767122e7d41576dd0c13b3f916505fffa7f769c37b4ee37adf29f6792da6a5a",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
