@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44220-026-00749-8",
+    "slug": "depresszio-genetikai-hajlam-es-szivbetegsegek-355-ezer-ember",
+    "title": "A depresszió genetikai hajlama a szívbetegségek kockázatával is összefügghet",
+    "category": "Kutatások",
+    "excerpt": "Több mint 355 ezer ember genetikai és egészségügyi adatainak elemzése alapján a depresszió öröklött hajlamát jelző pontszám következetes kapcsolatot mutatott több szív- és anyagcsere-betegséggel. Ez nem jelenti azt, hogy a depresszió okozza ezeket a betegségeket, vagy hogy egy genetikai teszt önmagában megjósolhatná a kockázatukat.",
+    "content_html": "<p>A depresszió és a szív- és érrendszeri betegségek kapcsolata régóta ismert, ám kevésbé világos, milyen szerepet játszanak ebben a közös genetikai tényezők. Egy 2026. november 23-án a Nature Mental Health folyóiratban megjelent kutatás három észak-európai adatállományban, összesen 355 717 ember adataival vizsgálta ezt a kérdést. Az eredmények szerint a depresszióra utaló genetikai hajlam több anyagcsere- és szívbetegséggel következetesebben függött össze, mint több más pszichiátriai állapot genetikai pontszáma.</p>\n<p>Jacob Bergstedt és munkatársai a svéd ikernyilvántartásból 17 378, az észt biobankból 208 384, a norvég anya-gyermek kohorszból pedig 129 955 résztvevő adatait elemezték. Hat pszichiátriai állapothoz, köztük a depresszióhoz, az ADHD-hoz, a szorongáshoz, a poszttraumás stresszhez és a szkizofréniához készített poligénes pontszámokat vetettek össze tíz, orvosi dokumentációban rögzített szív- és anyagcsere-betegséggel.</p>\n<h2>Nem ugyanaz a genetikai hajlam és a betegség</h2>\n<p>A poligénes pontszám sok örökletes genetikai változat együttes mintázatát foglalja össze. Nem diagnózis, és nem jelenti azt, hogy aki magas pontszámot kap, biztosan depressziós lesz. A kutatók ezért nem a depressziós betegek és az egészséges emberek egyszerű összehasonlítását végezték, hanem azt nézték, hogy a genetikai pontszámok miként kapcsolódnak a később vagy korábban nyilvántartott betegségekhez.</p>\n<p>Az első elemzésekben a depresszió genetikai pontszáma például az elhízással, a 2-es típusú cukorbetegséggel, az iszkémiás szívbetegséggel és a szívelégtelenséggel is összefüggött. A depresszióra utaló pontszám legmagasabb és legalacsonyabb tizedébe tartozók összevetésekor az elhízás esélyhányadosa 1,66, az iszkémiás szívbetegségé 1,63, a szívelégtelenségé 1,58 volt. Ezek statisztikai esélyhányadosok, nem az egyéni kockázat százalékos előrejelzései, és nem bizonyítanak oksági hatást.</p>\n<p>A kapcsolat akkor is nagyrészt fennmaradt, amikor a kutatók figyelembe vették a többi vizsgált pszichiátriai genetikai pontszámot, a testtömegindexet, a dohányzást és az iskolázottságot. Az ADHD-hoz és a poszttraumás stresszhez kapcsolódó eredmények ezzel szemben a korrekciók után jobban gyengültek. A szerzők ezt úgy értelmezték, hogy egyes kezdetben különállónak látszó genetikai kapcsolatok a depresszióval közös genetikai háttérrel is magyarázhatók.</p>\n<h2>A szkizofréniával kapcsolatban különösen fontos a félreértések elkerülése</h2>\n<p>A szkizofrénia genetikai pontszáma több kimenetnél éppen fordított irányú összefüggést mutatott. Ez nem azt jelenti, hogy a szkizofrénia véd a szívbetegségekkel szemben. A szkizofréniával élő emberek testi egészségét más tényezők, köztük a gyógyszerek hatásai, az életkörülmények és az ellátáshoz jutás is befolyásolják. A genetikai statisztika nem helyettesíti a valódi betegek egészségi kockázatainak vizsgálatát.</p>\n<p>A kutatás egyik fontos korlátja, hogy európai származású népességekből készült genetikai referenciaadatokat és észak-európai kohorszokat használt, így az eredmény nem általánosítható automatikusan minden népességre. A dohányzást és a testtömegindexet sem minden időpontban mérték; a megfigyeléses elemzésből nem következik, hogy egy-egy gén vagy pszichiátriai állapot közvetlenül szívbetegséget okoz.</p>\n<p>Az eredmények elsősorban a depresszió és a testi betegségek közös biológiai hátterének kutatását segítik. Nem indokolják új genetikai szűrővizsgálat bevezetését, és nem változtatják meg azt az alapelvet, hogy a mentális és a testi egészséget együtt érdemes figyelembe venni.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.nature.com/articles/s44220-026-00749-8\">Genetic liability to depression has distinctive associations with cardiometabolic diseases</a>. DOI: 10.1038/s44220-026-00749-8.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44220-026-00749-8.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A depresszió genetikai hajlama a szívbetegségek kockázatával is összefügghet",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "A depresszió genetikai hajlama a szívbetegségek kockázatával is összefügghet",
+    "seo_description": "Több mint 355 ezer ember genetikai és egészségügyi adatainak elemzése alapján a depresszió öröklött hajlamát jelző pontszám következetes kapcsolatot mutatott több szív- és anyagcsere-betegséggel. Ez nem jelenti azt, hogy a depresszió okozza ezeket a betegségeket, vagy hogy egy genetikai teszt önmagában megjósolhatná a kockázatukat.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Genetic liability to depression has distinctive associations with cardiometabolic diseases",
+        "url": "https://www.nature.com/articles/s44220-026-00749-8",
+        "published_at": "2026-11-23",
+        "doi": "10.1038/s44220-026-00749-8",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "48c30eeca1c9c0978fd720c4ff6cdc61f044477cd61b99b16f193e52781bf136",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
