@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s10389-026-02928-4",
+    "slug": "termeszetben-mozgas-gyermekek-lelki-egeszsege",
+    "title": "A természetben végzett mozgás jót tehet a fiatalok lelkiállapotának, de a bizonyítékok még gyengék",
+    "category": "Kutatások",
+    "excerpt": "Tizenkét kutatás új összegzése szerint a szabadtéri, természetközeli mozgás kedvezően kapcsolódhat a gyermekek jóllétéhez és társas kapcsolataihoz. A depresszióra, szorongásra és stresszre vonatkozó eredmények azonban nem egységesek.",
+    "content_html": "<p>Noelia Mayordomo-Pinilla, Bingen Marcos-Rivero, Jorge Rojo-Ramos és Pedro Antonio Sánchez-Miguel három adatbázisban kerestek 2025. október 24-ig. A 2390 találatból 12 vizsgálat felelt meg a feltételeknek. A minták három főtől több mint hatszáz főig terjedtek, a programok és a mérési módszerek eltértek.</p><h2>A jóllét és a tünetek nem ugyanazok</h2><p>Az életelégedettség, a vitalitás és a társas kapcsolódás területén több kedvező eredmény született. A szorongásos és depresszív tüneteknél, illetve a stressznél vegyesebb volt a kép. Egy parki mozgásprogram például a csoporton belüli vitalitás javulását jelezte, de a kontrollcsoporthoz képest nem igazolt különbséget.</p><p>A szerzők az eltérő vizsgálatok miatt nem számítottak közös hatásméretet. A legtöbb eredmény bizonyosságát nagyon alacsonynak ítélték. A természet, a mozgás és a közösségi élmény önálló hatását nem lehet megbízhatóan elkülöníteni.</p><p>Az iskolák és települések számára érdemes lehet hozzáférhető szabadtéri programokat kialakítani és értékelni, de ez nem helyettesíti a pszichés problémák kezelését. A nyílt hozzáférést a CRUE-CSIC megállapodás biztosította; a szerzők nem jeleztek releváns összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s10389-026-02928-4\">A systematic review of the effects of green exercise on mental health of children and adolescents</a>. DOI: 10.1007/s10389-026-02928-4.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s10389-026-02928-4.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A természetben végzett mozgás jót tehet a fiatalok lelkiállapotának, de a bizonyítékok még gyengék",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "A systematic review of the effects of green exercise on mental health of children and adolescents",
+        "url": "https://link.springer.com/article/10.1007/s10389-026-02928-4",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s10389-026-02928-4",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "73a314b8ec321d8f180045da89142d7bb9f6c4dc374f963715ba83db1e2e7a6b",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
