@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s41598-026-79990-1",
+    "slug": "dmt-szuggesztibilitas-jelenteseadas-pszichedelikum-kiserlet",
+    "title": "A DMT fokozta a szokatlan jelentéstulajdonítást és a szuggesztibilitást egy 25 fős kísérletben",
+    "category": "Kutatások",
+    "excerpt": "Egy kettős vak, keresztezett elrendezésű vizsgálatban 25 egészséges önkéntesnél erősödött a szokatlan jelentéstulajdonítás és több befolyásolhatósági mutató DMT hatására. A kísérlet nem vizsgált terápiás eredményességet.",
+    "content_html": "<p>Mi történik akkor, amikor egy hétköznapi benyomás rendkívül jelentősnek tűnik, és az ember a szokásosnál fogékonyabbá válik a környezetéből érkező sugalmazásokra? A pszichedelikumok kutatásában mindkét jelenség fontos, de nem ugyanazt jelentik. Egy új brazil kísérlet arra kereste a választ, hogy a rövid hatású DMT ezekre a folyamatokra hogyan hat, és miként kapcsolódnak az átéltek érzelmi színezetéhez.</p><p>Isabel Wießner, Marcelo Falchi-Carvalho és munkatársaik 25 egészséges felnőtt önkéntessel dolgoztak. A résztvevők egy véletlen sorrendű, kettős vak, keresztezett elrendezésű kísérletben DMT-t és aktív placebót is kaptak, majd több kérdőívvel és feladattal mérték a szokatlan jelentéstulajdonítást, a szuggesztibilitást, a hangulati élményeket és a megváltozott tudatállapot különböző vonásait. A tanulmány 2026. november 23-án jelent meg a Scientific Reports folyóiratban.</p><h2>A jelentésadás és a sugalmazhatóság nem ugyanaz, mint a pszichózis vagy a gyógyulás</h2><p>A DMT hatására az aktív placebóhoz képest emelkedtek a szokatlan jelentéstulajdonítás mért mutatói. Ez azt jelenti, hogy a résztvevők egyes ingereknek és belső élményeknek a szokásosnál nagyobb jelentőséget tulajdonítottak. Több szuggesztibilitási és pszichedelikus élménymutató is magasabb lett, de nem minden vizsgált terület változott egyformán.</p><p>A jelentéstulajdonítás mutatói főként az intenzív, misztikusnak leírt élményekkel és a pozitív érzelmekkel jártak együtt. A szuggesztibilitás szintén kapcsolódott a kellemes érzelmi élményekhez, viszont egyes kellemetlen érzelmi és nehezen szavakba önthető élménymutatókkal ellentétes irányú összefüggést mutatott. Az összefüggések nem igazolják, hogy az egyik jelenség okozta a másikat.</p><h2>Miért különösen fontosak a korlátok?</h2><p>A kísérlet kis mintán, egészséges, korábban DMT-t már kipróbáló önkéntesekkel zajlott, és akut pszichológiai folyamatokat vizsgált. Nem depressziós vagy pszichotikus betegek gyógyulását követte, és nem mért hosszú távú terápiás hatást. A szokatlan jelentéstulajdonítás nem jelent önmagában pszichózist; a szuggesztibilitás pedig nem azonos a pszichoterápiára adott kedvező válasszal. A fokozott befolyásolhatóságnak akár kedvezőtlen oldala is lehet, ezért az eredményekből nem vezethető le biztonságos önkezelési módszer.</p><p>A tanulmány újabb, ellenőrizhető részletet ad a pszichedelikus állapotok lélektanáról. Ahhoz viszont, hogy a kutatók klinikai alkalmazhatóságról beszélhessenek, nagyobb és sokszínűbb minták, megfelelő kontrollok, valamint a lehetséges előnyöket és ártalmakat egyaránt követő vizsgálatok kellenek. A kutatást brazil állami kutatásfinanszírozó szervezetek támogatták; a szerzők nem jeleztek összeférhetetlenséget.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s41598-026-79990-1.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A DMT fokozta a szokatlan jelentéstulajdonítást és a szuggesztibilitást egy 25 fős kísérletben",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "A DMT fokozta a szokatlan jelentéstulajdonítást és a szuggesztibilitást egy 25 fős kísérletben",
+    "seo_description": "Egy kettős vak, keresztezett elrendezésű vizsgálatban 25 egészséges önkéntesnél erősödött a szokatlan jelentéstulajdonítás és több befolyásolhatósági mutató DMT hatására. A kísérlet nem vizsgált terápiás eredményességet.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "DMT-induced aberrant salience and suggestibility correlate with mystical experiences and positive emotionality",
+        "url": "https://www.nature.com/articles/s41598-026-79990-1",
+        "published_at": "2026-11-23",
+        "doi": "10.1038/s41598-026-79990-1",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "db290c805e0f2c12c2c50b553f149eebbbb7cf5b11101f8e262cd0494b2165fd",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
