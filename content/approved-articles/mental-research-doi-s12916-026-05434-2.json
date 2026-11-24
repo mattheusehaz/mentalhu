@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12916-026-05434-2",
+    "slug": "valtozokori-depresszio-sved-kutatas-halalozas",
+    "title": "A változókor idején jelentkező depresszió tartós figyelmet igényel – több mint egymillió nő adatai alapján",
+    "category": "Kutatások",
+    "excerpt": "Egy nagyszabású svéd követéses vizsgálatban a 45–55 éves korban depresszióval diagnosztizált nőknél magasabb halálozási kockázatot figyeltek meg, különösen a diagnózist követő első évben. A kutatás nem bizonyítja, hogy ezt a menopauza vagy a depresszió önmagában okozta.",
+    "content_html": "<p>Alicia Nevriana és munkatársai 113 868, 45–55 éves korban depresszióval diagnosztizált svéd nőt hasonlítottak össze 1 138 680, ilyen diagnózissal nem rendelkező nővel. A születési év és a lakóhely szerint illesztett csoportok egészségügyi adatait legfeljebb húsz évig követték.</p>\n<h2>Különösen fontos a diagnózist követő időszak</h2>\n<p>A teljes követés alatt az összhalálozás korrigált eseményintenzitási aránya 1,21 volt (95%-os konfidenciaintervallum: 1,18–1,25); az első évben 2,36 (2,13–2,61). A nyers halálozási ráta százezer személyévre vetítve 469,5, illetve 267,0 volt. Az öngyilkosság miatti halálozásnál 4,72-es korrigált arányt mértek (4,20–5,31). Ezek csoportszintű statisztikai összefüggések, nem egyéni prognózisok.</p>\n<p>Azoknál is fennmaradt az összefüggés, akiknél a változókori átmenetre utaló egészségügyi dokumentáció állt rendelkezésre. A korábbi depressziós epizódokkal élőknél különösen fontos lehet a hosszabb távú követés.</p>\n<h2>A változókor nem önmagában magyarázza az eredményt</h2>\n<p>A menopauza tényleges időpontja nem volt mindenkinél ismert, ezért az életkort használták közelítésként. A dohányzásról, a testtömegindexről és egyes életeseményekről nem álltak rendelkezésre megfelelő adatok. A vizsgálat nem hasonlított össze kezeléseket.</p>\n<p>A kutatás arra hívja fel a figyelmet, hogy a középkorban jelentkező depressziót nem érdemes múló hormonális kellemetlenségként elintézni. A lelki és testi egészségügyi ellátás összehangolása, valamint a segítséghez való tartós hozzáférés fontos szempont. A kutatást több svéd kutatási alap, a Karolinska Intézet és további alapítványok támogatták; a szerzők nem jeleztek összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12916-026-05434-2\">Perimenopausal depression and risk of premature mortality: a register-based matched cohort study</a>. DOI: 10.1186/s12916-026-05434-2.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12916-026-05434-2.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A változókor idején jelentkező depresszió tartós figyelmet igényel – több mint egymillió nő adatai alapján",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Perimenopausal depression and risk of premature mortality: a register-based matched cohort study",
+        "url": "https://link.springer.com/article/10.1186/s12916-026-05434-2",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12916-026-05434-2",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "ce04b9d2abf9e98778776aabb2edf4077fbefd2091dacc15338db3cedb59f399",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
