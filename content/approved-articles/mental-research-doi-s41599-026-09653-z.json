@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s41599-026-09653-z",
+    "slug": "fertozestol-valo-felelem-es-tarsas-ellenszenv-koveteses-kutatas",
+    "title": "Nem igazolódott egyértelműen, hogy a fertőzéstől való félelem fokozza a másokkal szembeni undort",
+    "category": "Kutatások",
+    "excerpt": "Egy öt időpontban végzett, 403 amerikai résztvevős követéses kutatás nem talált megbízható bizonyítékot arra, hogy a járványtól való félelem változása később önmagában megváltoztatná a társas csoportokkal kapcsolatos undorreakciókat. Az eredmény árnyalja a pszichológiai „viselkedéses immunrendszer” elméletének egy részét.",
+    "content_html": "<p>Erősebb lesz-e az emberek másokkal szembeni idegenkedése, ha egy járvány idején fenyegetőbbnek érzik a fertőzéseket? A pszichológia egyik elmélete, a „viselkedéses immunrendszer” szerint a kórokozóktól való félelem nemcsak a fertőzéselkerülő szokásokat, hanem a társas ítéleteket és undorreakciókat is befolyásolhatja. Egy új, öt mérési hullámból álló kutatás azonban nem talált erős alátámasztást az elmélet egyik fontos előrejelzésére.</p>\n<p>Andleeb Zahra, Kinga Bierwiaczonek, Gordon Hodson és Jonas Kunst a COVID–19-járvány idején 403 egyesült államokbeli résztvevő válaszait elemezték. A kérdőívek több időpontban mérték, mennyire érzik fenyegetőnek a fertőzések jelenlétét, mennyire tartanak a betegségektől, mekkora stresszt élnek át, és milyen undorreakciókat jeleznek a saját, illetve más társas csoportokkal kapcsolatban.</p>\n<h2>Az együtt változó érzésekből nem feltétlenül következik ok-okozati kapcsolat</h2>\n<p>A vizsgálat különlegessége, hogy a kutatók nem álltak meg annál, hogy az egy időpontban mért félelem és undor összefügg-e. Öthullámos, úgynevezett véletlen metszéspontos keresztkésleltetéses modellekkel próbálták elválasztani az emberek közötti tartós különbségeket az egyes személyeken belüli időbeli változásoktól. Így azt vizsgálhatták, hogy például a fertőzéstől való félelem növekedése előre jelzi-e ugyanannál az embernél a későbbi undor erősödését.</p>\n<p>A szerzők szerint a járvány előrehaladtával több vizsgált félelem-, stressz- és undormutató is emelkedett. A döntő kérdésben azonban a késleltetett összefüggések túlnyomó része statisztikailag nem volt meggyőző. A fertőzési fenyegetés észlelésének vagy az érzelmi reakcióknak a változásai nem jósolták megbízhatóan az undor későbbi változását; néhány eredmény az elméleti várakozással ellentétes irányba mutatott.</p>\n<h2>Mit cáfol, és mit nem cáfol a vizsgálat?</h2>\n<p>Az eredmény nem azt bizonyítja, hogy fertőzésveszély idején soha nem erősödhet a társas elutasítás, és nem jelenti a teljes elmélet megdőlését sem. A 403 résztvevő egy konkrét ország, egy rendkívüli időszak online felmérésében vett részt. A kérdőívek önbeszámolón alapulnak, az elemzés pedig megfigyeléses: ok-okozati hatást nem tud közvetlenül bizonyítani vagy végleg kizárni. A nem szignifikáns eredmény arra sem bizonyíték, hogy a hatás minden körülmény között pontosan nulla.</p>\n<p>A vizsgálat mégis fontos, mert a járványok társadalomlélektani következményeiről szóló magyarázatokat erősebb próbának veti alá, mint egyetlen időpont adatait összehasonlító kutatás. Ha két érzés egyszerre erősödik, abból önmagában nem következik, hogy az egyik okozza a másikat. A pszichológiai elméleteket éppen az ilyen, a korábbi feltevéseket nem egyértelműen megerősítő vizsgálatok pontosíthatják.</p>\n<p>A kutatást az Oslói Egyetem belső támogatása finanszírozta. A szerzők nem jeleztek összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.nature.com/articles/s41599-026-09653-z\">Limited evidence for the social consequences of the behavioural immune system: insights from random-intercept cross-lagged panel models</a>. DOI: 10.1057/s41599-026-09653-z.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s41599-026-09653-z.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Nem igazolódott egyértelműen, hogy a fertőzéstől való félelem fokozza a másokkal szembeni undort",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "Nem igazolódott egyértelműen, hogy a fertőzéstől való félelem fokozza a másokkal szembeni undort",
+    "seo_description": "Egy öt időpontban végzett, 403 amerikai résztvevős követéses kutatás nem talált megbízható bizonyítékot arra, hogy a járványtól való félelem változása később önmagában megváltoztatná a társas csoportokkal kapcsolatos undorreakciókat. Az eredmény árnyalja a pszichológiai „viselkedéses immunrendszer” elméletének egy részét.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Limited evidence for the social consequences of the behavioural immune system: insights from random-intercept cross-lagged panel models",
+        "url": "https://www.nature.com/articles/s41599-026-09653-z",
+        "published_at": "2026-11-23",
+        "doi": "10.1057/s41599-026-09653-z",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "2c554f23d60b1c6f862c9437a90ae3e88106d036214c8c2cd5bf2042aa42e41f",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
