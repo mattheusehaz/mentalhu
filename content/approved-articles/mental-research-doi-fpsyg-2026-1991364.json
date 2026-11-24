@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-1991364",
+    "slug": "fizikai-aktivitas-depressziv-tunetek-kinai-felmeres",
+    "title": "Mozgás és depresszív tünetek: a több mint 11 ezer fős felmérés eredménye az elemzés módjától is függött",
+    "category": "Kutatások",
+    "excerpt": "Egy kínai országos felmérésben a több fizikai aktivitás kevesebb depresszív tünettel járt együtt. A statisztikai súlyozás azonban jelentősen módosította az eredményt, így a kutatásból nem állapítható meg a depresszió megelőzéséhez ideális mozgásmennyiség.",
+    "content_html": "<p>Mennyi mozgás mellett a legkedvezőbb a lelkiállapot? Peng Wang, Xiaoe Zhang és Huiling Song a 2024-es kínai országos sport- és társadalmi felmérés 11 379 felnőtt résztvevőjének válaszait elemezte; a teljes háttéradatokkal rendelkező fő mintában 10 096 ember szerepelt. Eredményeiket 2026. november 23-án közölte a Frontiers in Psychology.</p><p>A mozgás mennyiségét az aktivitás időtartamát és intenzitását egyesítő MET-percben, a depresszív tüneteket a tíztételes CES-D kérdőívvel becsülték. A súlyozott mintában 25,2 százalék érte el a tüneti küszöböt; ez nem klinikai depressziódiagnózis.</p><h2>Az összefüggés nem egyenes vonalú</h2><p>A fő modellben a legtöbbet mozgó negyed esélyhányadosa a legkevesebbet mozgókhoz viszonyítva 0,71 volt (95 százalékos konfidenciaintervallum: 0,63–0,80). A görbe minimuma hozzávetőleg heti 4000 MET-percnél jelentkezett. Ennél magasabb aktivitásnál már kevés adat állt rendelkezésre.</p><p>A felmérés eredeti mintavételi súlyainak alkalmazásakor viszont a kapcsolat nem maradt statisztikailag szignifikáns. A szélsőséges súlyok korlátozásával ismét kedvező irányú, de bizonytalanabb becsléseket kaptak. A 4000 MET-perces érték ezért nem tekinthető terápiás célnak.</p><h2>Mi volt előbb: a kevesebb mozgás vagy a rosszabb hangulat?</h2><p>Az egyszeri, önbeszámolós felmérés erre nem ad választ. Elképzelhető például, hogy a depresszív tünetek miatt csökken az aktivitás, vagy egy testi betegség mindkettőt befolyásolja. A kutatás értéke, hogy az összefüggés alakját és az eredmény módszertani érzékenységét együtt mutatja be. Nem helyettesíti a kezelés hatását vizsgáló kísérleteket, és nem ad egyéni mozgáselőírást.</p><p>A szerzők nem jeleztek külön finanszírozást vagy kereskedelmi összeférhetetlenséget.</p><p><strong>Eredeti forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1991364/full\">Dose–response relationship between weekly physical activity volume and depressive symptoms among Chinese adults: a cross-sectional analysis of a national sports and society survey</a>. DOI: 10.3389/fpsyg.2026.1991364.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-1991364.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Mozgás és depresszív tünetek: a több mint 11 ezer fős felmérés eredménye az elemzés módjától is függött",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Dose–response relationship between weekly physical activity volume and depressive symptoms among Chinese adults: a cross-sectional analysis of a national sports and society survey",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1991364/full",
+        "published_at": "2026-11-23",
+        "doi": "10.3389/fpsyg.2026.1991364",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "34a59b31aa9f4e461794a18392921e68b6d8e91626e7db3e65a10fc095dd51e7",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
