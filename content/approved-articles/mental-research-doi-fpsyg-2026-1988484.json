@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-1988484",
+    "slug": "felnottkori-adhd-erzelmi-szabalyozas-749-paciens",
+    "title": "Felnőttkori ADHD: az érzelmi szabályozás nehézségei nagyobb lelki terheléssel járhatnak",
+    "category": "Kutatások",
+    "excerpt": "Egy 749 felnőtt ADHD-s páciens adatait feldolgozó német kutatásban az erősebb érzelmi szabályozási nehézségek több depresszív tünettel és a mindennapi működés nagyobb zavarával jártak együtt. A vizsgálat nem igazolt új ADHD-altípust.",
+    "content_html": "<p>A figyelem fenntartásán és az impulzusok kezelésén túl az ADHD-val élő felnőttek számára az érzelmek szabályozása is kihívást jelenthet. A lipcsei egyetemi klinika 2013 és 2023 között vizsgált pácienseinek dokumentációját Taini Theuerkorn, Nicole Mauche és munkatársaik elemezték. A tanulmány 2026. november 23-án jelent meg a Frontiers in Psychology folyóiratban.</p><h2>Nem mindegy, hogyan képezik a csoportokat</h2><p>A kutatók egy klinikusi értékelőskála 28 tételéből hat tünetprofilt alakítottak ki. Három profilt utólag az érzelmi labilitás, az indulatosság és az érzelmi túlreakciók alapján egy csoportba vontak. Ide került a vizsgált páciensek 60,9 százaléka, más csoportosításokkal azonban 24,6 és 77 százalék közötti arány adódott. Ezért egyik érték sem tekinthető az érzelemszabályozási nehézségek általános gyakoriságának.</p><p>Az érzelmileg terheltebb csoport általános pszichés tünetpontszáma magasabb volt (64,5, illetve 60,1; r = 0,28). A depresszív tünetek és a működési nehézségek különbsége az ADHD alaptüneteire végzett statisztikai korrekció után is fennmaradt. A társuló diagnózisok számának különbsége viszont nem.</p><h2>Az értékelésben az érzelmekre is érdemes figyelni</h2><p>A vizsgálat egyetlen szakrendelés visszamenőleges adataira épült; bizonyos súlyos társuló pszichiátriai állapotokat kizártak, és az érzelmi csoportosítás ugyanazon skálából származott, mint az ADHD-tünetek egy része. Az adatok ezért nem bizonyítanak okságot. A kutatás alapján indokolt külön figyelmet szentelni az érzelmi nehézségeknek, de még nem tudható, mely beavatkozások javítják célzottan ezeket.</p><p>A közlés költségeit a Lipcsei Egyetem nyílt hozzáférésű publikációs alapja támogatta. Az egyik szerző, Michael Strauß gyógyszeripari előadói díjakról és tanácsadói szerepekről számolt be.</p><p><strong>Eredeti forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1988484/full\">Exploratory symptom profiles and clinical correlates in adults with attention-deficit/hyperactivity disorder: a retrospective study using the Wender-Reimherr Adult Attention Deficit Disorder Scale</a>. DOI: 10.3389/fpsyg.2026.1988484.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-1988484.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Felnőttkori ADHD: az érzelmi szabályozás nehézségei nagyobb lelki terheléssel járhatnak",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Exploratory symptom profiles and clinical correlates in adults with attention-deficit/hyperactivity disorder: a retrospective study using the Wender-Reimherr Adult Attention Deficit Disorder Scale",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1988484/full",
+        "published_at": "2026-11-23",
+        "doi": "10.3389/fpsyg.2026.1988484",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "c869c09990412291e0d3357924e1e8bde88e536165fcd762628d668467709328",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
