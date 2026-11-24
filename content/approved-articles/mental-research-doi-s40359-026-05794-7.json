@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s40359-026-05794-7",
+    "slug": "serdulok-tehernek-erzik-magukat-meroeszkoz",
+    "title": "Amikor egy serdülő úgy érzi, hogy terhet jelent másoknak: új mérőeszközt vizsgáltak",
+    "category": "Kutatások",
+    "excerpt": "Egy pakisztáni kutatásban a fiatalok önmaguk leértékelésével és a társas kapcsolatokban megélt érzékenységgel összefüggő tapasztalatait vizsgálták. Az új kérdőív biztató mérési tulajdonságokat mutatott, de nem igazolták, hogy előre jelzi az öngyilkossági eseményeket.",
+    "content_html": "<p>Rohama Luqman, Aiman Shahzad és Ayesha Jabeen először 30, 11–19 éves serdülő válaszaiból dolgozta ki a kérdéseket, majd 400 lahori állami és magániskolai tanuló bevonásával értékelte a skálát. A mintát két 200 fős csoportra osztották: az elsőben feltárták, a másodikban ellenőrizték a kérdések mögött kirajzolódó statisztikai szerkezetet.</p>\n<h2>A mérés és az előrejelzés nem ugyanaz</h2>\n<p>A két azonosított dimenzió az önleértékelés és a kapcsolati érzékenység volt. A belső konzisztencia magasnak bizonyult (Cronbach-alfa: 0,95), egy korábbi, hasonló jelenséget vizsgáló kérdőívvel pedig 0,61-es korrelációt mértek. A módosított kétfaktoros modell illeszkedése elfogadható volt (RMSEA: 0,062; 90%-os konfidenciaintervallum: 0,057–0,066), de nem tökéletes.</p>\n<p>A magas belső konzisztencia azt jelzi, hogy a kérdésekre adott válaszok összefüggnek egymással. Ettől még nem tudjuk, hogy egy adott pontszám alapján milyen pontossággal lehetne előre jelezni egy későbbi krízist. A vizsgálat nem követéses, és egyetlen város nem véletlenszerűen kiválasztott iskolai mintájára korlátozódott. A szerzők nem jeleztek külön kutatási támogatást vagy összeférhetetlenséget.</p>\n<p>A tanulság a segítő beszélgetések szempontjából az, hogy érdemes teret adni annak is, hogyan éli meg a fiatal a helyét a kapcsolataiban. Egy kérdőív nem helyettesíti a szakember személyes értékelését, és az érzések nem azonosak a valósággal: a segítségkérésnek nem kell kiérdemeltnek lennie.</p>\n<p>Magyarországon a 116-123-as lelki elsősegély ingyenesen, éjjel-nappal hívható. Közvetlen veszélyben a 112-es segélyhívót kell hívni.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s40359-026-05794-7\">Development and validation of a perceived burdensomeness scale for adolescent suicide risk</a>. DOI: 10.1186/s40359-026-05794-7.</p>\n<p><a href=\"https://sos116-123.hu/\">Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége</a>.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s40359-026-05794-7.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Amikor egy serdülő úgy érzi, hogy terhet jelent másoknak: új mérőeszközt vizsgáltak",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Development and validation of a perceived burdensomeness scale for adolescent suicide risk",
+        "url": "https://link.springer.com/article/10.1186/s40359-026-05794-7",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s40359-026-05794-7",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      },
+      {
+        "title": "Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége",
+        "url": "https://sos116-123.hu/",
+        "published_at": "",
+        "doi": "",
+        "pmid": "",
+        "kind": "institutional"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "7ce79d8902ce2bea9912ad0a04b049a06e89484c629da848a5ca4f3e11891393",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
