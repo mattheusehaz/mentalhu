@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s10484-026-09817-2",
+    "slug": "lassu-legzes-szorongas-nyolc-het",
+    "title": "Nyolc hét légzőgyakorlat után sem igazoltak szorongáscsökkenést egy norvég vizsgálatban",
+    "category": "Kutatások",
+    "excerpt": "Egy 109 résztvevővel indított, véletlen besorolásos norvég kutatás nem talált meggyőző bizonyítékot arra, hogy a lassú vagy gyorsabb ütemű légzőgyakorlat csökkentené a szorongást. A testérzetekre irányuló figyelem változására is csak gyenge bizonyítékot kaptak.",
+    "content_html": "<p>Robin Devillers, Håvard R. Karlsen, Sofie Christensen és Charlotte Fiskum főként egyetemistákat vizsgált. A résztvevőket lassú légzést gyakorló (36 fő), gyorsabb ütemben lélegző (39 fő) és várólistás (34 fő) csoportba sorolták. A program nyolc hétig tartott, napi tízperces gyakorlással.</p>\n<h2>A testi jelzések érzékelése nem azonos a szorongás enyhülésével</h2>\n<p>A szorongásnál az elemzés inkább a változás hiányát támasztotta alá. A szívritmus-variabilitásnál a két légzéses csoport közötti becsült különbség 0,09 volt, a 90%-os bayesi intervallum −0,12 és 0,30 közé esett. Egyik csoporton belül sem találtak egyértelmű változást. A test belső jelzéseire irányuló figyelem mindkét légzéses csoportban kedvezően változhatott, de a bizonyíték gyenge volt.</p>\n<h2>Miért nem vonható le végleges következtetés?</h2>\n<p>A minta kicsi volt, a gyorsabb légzéses csoportban nagyobb volt a lemorzsolódás, az utómérések pedig a vizsgaidőszak közelében zajlottak. Az eredmények érzékenyek voltak a hiányzó adatok kezelésére. A vizsgálat nem szorongásos zavarral kezelt betegek terápiáját értékelte. Nem cáfolja minden légzéstechnika lehetséges hasznát, de nem támasztja alá az általános, biztos szorongáscsökkentő hatás ígéretét sem.</p>\n<p>A kutatást a Norvég Tudományos és Műszaki Egyetem finanszírozta; összeférhetetlenséget nem jelentettek. A szerzők jelezték, hogy az elemzőprogramok készítésében és az eredmények közlésében MI-eszközt is használtak.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s10484-026-09817-2\">A Bayesian Multivariate Analysis for Breathing Interventions: Investigating the Effects on Anxiety, Interoception and Heart Rate Variability</a>. DOI: 10.1007/s10484-026-09817-2.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s10484-026-09817-2.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Nyolc hét légzőgyakorlat után sem igazoltak szorongáscsökkenést egy norvég vizsgálatban",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "Nyolc hét légzőgyakorlat után sem igazoltak szorongáscsökkenést egy norvég vizsgálatban",
+    "seo_description": "Egy 109 résztvevővel indított, véletlen besorolásos norvég kutatás nem talált meggyőző bizonyítékot arra, hogy a lassú vagy gyorsabb ütemű légzőgyakorlat csökkentené a szorongást. A testérzetekre irányuló figyelem változására is csak gyenge bizonyítékot kaptak.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "A Bayesian Multivariate Analysis for Breathing Interventions: Investigating the Effects on Anxiety, Interoception and Heart Rate Variability",
+        "url": "https://link.springer.com/article/10.1007/s10484-026-09817-2",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s10484-026-09817-2",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "61722d25af618186b1f81f8709df72b4fa247c86c7fd007c281b52d5122170d8",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
