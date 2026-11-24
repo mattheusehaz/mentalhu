@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s41380-026-03857-0",
+    "slug": "gyermekkori-artalmak-biologiai-oregedes-epigenetikus-orak",
+    "title": "A gyermekkori ártalmak nyoma a biológiai öregedésben: nem mindegy, melyik órával mérünk",
+    "category": "Kutatások",
+    "excerpt": "Egy 17 vizsgálatot és összesen 10 940 résztvevőt felölelő metaanalízis szerint a gyermekkori kedvezőtlen élmények összefüggése a biológiai öregedéssel főként az újabb epigenetikai mérőeszközökkel mutatható ki. A kutatás nem bizonyítja, hogy a trauma minden érintettnél felgyorsítja az öregedést.",
+    "content_html": "<p>Lehet-e mérhető biológiai következménye annak, ha valaki gyerekkorában tartós bizonytalanságot, bántalmazást vagy elhanyagolást él át? A kérdésre évek óta keresik a választ, de az eredmények sokszor ellentmondanak egymásnak. A Molecular Psychiatry folyóiratban 2026. november 23-án közölt metaanalízis egyik legfontosabb tanulsága az, hogy az eltérés részben magukból a mérőeszközökből eredhet.</p>\n<p>Joseph Morgan és munkatársai 17, embereken végzett kutatás adatait összegezték, összesen 10 940 résztvevővel. A tanulmányok gyermekkori kedvezőtlen tapasztalatokat, korai stresszt és a DNS metilációs mintázatából becsült biológiai életkort vizsgáltak. A kutatók nyolcféle úgynevezett epigenetikai órát hasonlítottak össze. Ezek nem azt mérik, hány évet élt valaki, hanem különböző molekuláris mintázatok alapján az életkorhoz vagy az egészségi kockázatokhoz kapcsolódó becsléseket adnak.</p>\n<h2>Miért mutatnak mást az egyes biológiai órák?</h2>\n<p>A régebbi, Horvath- és Hannum-féle órákat elsősorban a naptári életkor becslésére fejlesztették. Az újabb GrimAge és DunedinPACE már az egészségi állapothoz, illetve az öregedés üteméhez kapcsolódó biológiai jelzéseket is figyelembe vesz. Az összesítésben ez utóbbi két mérőeszköz mutatta a legkövetkezetesebb kapcsolatot a gyermekkori ártalmak számával és egyes típusaival, köztük a bántalmazással, az elhanyagolással és a családi működés zavaraival.</p>\n<p>A DunedinPACE esetében az összefüggések több alcsoportban is fennmaradtak. Az életkori csoportok között volt különbség, nemek szerinti egyértelmű eltérést azonban az összegzés nem igazolt. Fontos, hogy a kutatók nem egyetlen, minden epigenetikai órára érvényes hatásméretet találtak: az eredmény attól is függött, melyik mutatót és milyen gyermekkori élményt vizsgálták.</p>\n<h2>Mit jelent ez a mindennapokban?</h2>\n<p>Az eredmény a gyermekkori ártalmak hosszú távú testi és lelki összefüggéseinek kutatását segítheti. Arra figyelmeztet, hogy egy epigenetikai teszt eredményét nem lehet a módszer ismerete nélkül értelmezni. Különösen nem helyes néhány metilációs adatból megmondani egy embernek, hogy a gyerekkora miatt hány évet veszített az életéből.</p>\n<p>A bevont kutatások megfigyeléses kapcsolatokon alapultak; számos tényező, például a későbbi életkörülmények, a dohányzás és az egészségi állapot is befolyásolhatja a DNS-metilációt. A metaanalízis ezért nem bizonyítja az oksági láncot, és nem jelenti azt sem, hogy a gyermekkori trauma szükségszerűen vagy visszafordíthatatlanul gyorsítja az öregedést. Egyelőre nem alapoz meg egyéni diagnózist vagy kezelési döntést.</p>\n<p>A kutatást a brit Biotechnology and Biological Sciences Research Council támogatta; a szerzők nem jeleztek összeférhetetlenséget. A tanulmány leginkább a kutatási módszerek pontosításában jelent előrelépést: az a fontos, hogy mit mérünk, és mit állíthatunk az így kapott számból.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.nature.com/articles/s41380-026-03857-0\">Epigenetic clocks and adverse childhood experiences: a meta-analysis</a>. DOI: 10.1038/s41380-026-03857-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s41380-026-03857-0.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A gyermekkori ártalmak nyoma a biológiai öregedésben: nem mindegy, melyik órával mérünk",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "A gyermekkori ártalmak nyoma a biológiai öregedésben: nem mindegy, melyik órával mérünk",
+    "seo_description": "Egy 17 vizsgálatot és összesen 10 940 résztvevőt felölelő metaanalízis szerint a gyermekkori kedvezőtlen élmények összefüggése a biológiai öregedéssel főként az újabb epigenetikai mérőeszközökkel mutatható ki. A kutatás nem bizonyítja, hogy a trauma minden érintettnél felgyorsítja az öregedést.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Epigenetic clocks and adverse childhood experiences: a meta-analysis",
+        "url": "https://www.nature.com/articles/s41380-026-03857-0",
+        "published_at": "2026-11-23",
+        "doi": "10.1038/s41380-026-03857-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "324a14297d6b4a48992da9354a6ded4ca5aaf822094d941a72ff492d852f9bff",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
