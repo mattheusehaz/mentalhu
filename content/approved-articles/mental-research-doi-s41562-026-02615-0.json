@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s41562-026-02615-0",
+    "slug": "mesterseges-intelligencia-mental-egeszseg-bizonyitekok",
+    "title": "Mit tudunk valójában a mesterséges intelligencia pszichológiai hatásairól?",
+    "excerpt": "A Nature Human Behaviour új áttekintése szerint az AI emberi kapcsolatokra, gondolkodásra és mentális egészségre gyakorolt hatásairól szóló legsúlyosabb állítások mögött egyelőre korlátozottak a bizonyítékok. Ez azonban nem jelenti azt, hogy a kockázatok kizárhatók.",
+    "category": "Kutatások",
+    "content_html": "<p>Christopher Summerfield és a brit AI Security Institute munkatársai nyolc, mesterséges intelligenciával kapcsolatos aggodalmat vizsgáltak a 2026. november 24-én megjelent szakirodalmi áttekintésükben. A kérdések a gondolkodási képességektől és az emberi kapcsolatoktól a pszichés jólléten át az érzelmi függésig és a manipulálhatóságig terjedtek.</p>\n<p>Az áttekintés többféle kutatási megközelítést fog össze: emberi résztvevőkkel végzett vizsgálatokat, beszélgetésnaplók elemzését, AI-modellek tesztelését és szimulációkat. Ezek nem azonos típusú bizonyítékok. Egy modell veszélyes válaszra való képessége például önmagában nem mondja meg, milyen gyakran alakul ki tényleges pszichés ártalom a felhasználók körében.</p>\n<h2>A bizonyíték hiánya nem a veszély hiánya</h2>\n<p>A szerzők összegző álláspontja szerint a legriasztóbb általános állításokat jelenleg csak korlátozott empirikus bizonyíték támasztja alá. A kutatási terület azonban fiatal, és számos kérdés tisztázatlan. Az elérhető kivonat nem közöl összesített hatásméreteket, ezért ebből nem számszerűsíthető a mentális egészségre gyakorolt hatás.</p>\n<p>Mentálhigiénés szempontból fontos különválasztani az egyéni káros tapasztalatokat attól a kérdéstől, hogy egy technológia átlagosan milyen következményekkel jár a teljes népességben. Az áttekintésből nem következik, hogy az AI biztonságos helyettesítője volna az emberi kapcsolatoknak vagy a szakellátásnak. A szerzők mindannyian az AI Security Institute alkalmazottai; nézeteik nem feltétlenül tükrözik intézményük vagy a brit kormány álláspontját.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.nature.com/articles/s41562-026-02615-0\">Summerfield C., Anselmetti R., Avin S. és mtsai: Empirical evidence for eight ways that AI is impacting people. Nature Human Behaviour (2026).</a> DOI: 10.1038/s41562-026-02615-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s41562-026-02615-0.svg",
+    "hero_image_alt": "Ember és mesterséges neurális hálózat stilizált találkozása",
+    "hero_image_caption": "Szerkesztőségi illusztráció; nem az eredeti kutatás képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Empirical evidence for eight ways that AI is impacting people",
+        "url": "https://www.nature.com/articles/s41562-026-02615-0",
+        "published_at": "2026-11-24",
+        "doi": "10.1038/s41562-026-02615-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T16:18:49Z",
+    "revision_sha256": "4c734068bd7db7bb10fda4fb2a455b20410534aada6d2882338c4a24faffa664",
+    "reference": "chat-message:Az mi pszichológiai hatásai, önállóság elvesztése és a depresszió évszakok cikkek (3db) mehet ki képpel"
+  }
+}
