@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12888-026-08905-1",
+    "slug": "depresszioszures-haziorvos-szakellatas-szimulacio",
+    "title": "A depresszió szűrése önmagában nem oldja meg a szakellátáshoz jutás problémáját",
+    "category": "Kutatások",
+    "excerpt": "Egy német számítógépes modell szerint még a minden háziorvosi viziten alkalmazott depressziószűrés is átlagosan csak körülbelül egy hónappal rövidítené le a szakellátással való első kapcsolatfelvételig tartó időt. A kutatás nem valós betegek kezelését vizsgálta.",
+    "content_html": "<p>Matthias Klee, Maximilian Wilhelm és Sebastian Kohlmann hat különböző szűrési gyakoriságot hasonlított össze. Forgatókönyvenként ezer szimulációt futtattak, egyenként százezer, a német népesség adatai alapján létrehozott virtuális személlyel. A modell a depressziós epizódokat, a segítségkérést, a felismerést és a továbbirányítást is figyelembe vette.</p><p>A teljes szűrés és a szűrés nélküli helyzet összevetésekor az utolsó depressziós epizód kezdetétől a szakellátással való első kapcsolatfelvételig eltelt idő átlagosan 1,04 hónappal csökkent (95%-os szimulációs intervallum: 0,99–1,09 hónapnyi csökkenés). A kapcsolatfelvétel 24 hónapon belüli eseményintenzitásának aránya 1,27 volt. A szűrés további kiterjesztésével a többletnyereség csökkent.</p><h2>A felismerés még nem kezelés</h2><p>A szűrés nem segít közvetlenül annak, aki nem fordul orvoshoz, és a pozitív eredmény sem biztosítja automatikusan a szakellátást. A modell feltételezései egyszerűsítik a valóságot, a német ellátási viszonyokra épülnek, és a rendkívül szűk szimulációs intervallum nem jelenti a valós hatás ugyanolyan pontos ismeretét. Magyarországon más ellátási környezetben külön vizsgálatra lenne szükség.</p><p>A tanulmány a szűrés mellett a tényleges segítséghez vezető út megszervezésének fontosságát hangsúlyozza. A munkát a Heidelbergi Egyetemi Kórház finanszírozta; a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12888-026-08905-1\">The impact of depression screening in primary care on the time to first contact with specialized mental health care in untreated individuals with depression: a population-based simulation study</a>. DOI: 10.1186/s12888-026-08905-1.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12888-026-08905-1.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A depresszió szűrése önmagában nem oldja meg a szakellátáshoz jutás problémáját",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "A depresszió szűrése önmagában nem oldja meg a szakellátáshoz jutás problémáját",
+    "seo_description": "Egy német számítógépes modell szerint még a minden háziorvosi viziten alkalmazott depressziószűrés is átlagosan csak körülbelül egy hónappal rövidítené le a szakellátással való első kapcsolatfelvételig tartó időt. A kutatás nem valós betegek kezelését vizsgálta.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "The impact of depression screening in primary care on the time to first contact with specialized mental health care in untreated individuals with depression: a population-based simulation study",
+        "url": "https://link.springer.com/article/10.1186/s12888-026-08905-1",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s12888-026-08905-1",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "289c2002d7cb345702b965f5abfe4712e1ded35efc7dd75a2fff7e7afb5f8a5c",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
