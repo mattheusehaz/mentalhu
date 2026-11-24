@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44202-026-01006-w",
+    "slug": "onegyutterzes-felelem-lelki-terheles",
+    "title": "Miért lehet nehéz együttérzőnek lenni önmagunkkal?",
+    "category": "Kutatások",
+    "excerpt": "Egy 280 iráni felnőtt részvételével végzett kutatásban az együttérzéstől való félelem nagyobb lelki terheléssel, az önmagunk iránti együttérzés pedig alacsonyabb tünetpontszámmal járt együtt. A felmérés nem bizonyítja, hogy az egyik okozza a másikat.",
+    "content_html": "<p>Amikor valaki nehéz helyzetbe kerül, nem feltétlenül könnyű elfogadnia a megértést vagy önmagával türelmesen bánnia. Az önegyüttérzés fogalma azt jelenti, hogy saját nehézségeinkhez megértéssel fordulunk, anélkül, hogy tagadnánk a problémát vagy feladnánk a felelősségünket.</p><p>Yasaman Sepidkar és Mehdi Reza Sarafraz, a Sirázi Egyetem kutatói 280 felnőttet toboroztak online. A minta 72,9 százaléka nő volt, és a résztvevők többsége 18–30 éves. Kérdőívekkel vizsgálták az együttérzéshez kapcsolódó félelmeket, a megküzdést, az önegyüttérzést és a lelkiállapotot.</p><h2>Mit mutatott az elemzés?</h2><p>A statisztikai modellben az együttérzéstől való erősebb félelem kedvezőtlenebb megküzdési mintázattal (standardizált együttható: β = 0,467) és nagyobb lelki terheléssel (β = 0,319) társult. Az önegyüttérzés és a lelki terhelés között fordított irányú összefüggést mértek (β = −0,445). Mindhárom kapcsolatnál p értéke 0,001 alatti volt.</p><p>A modell az önegyüttérzésen keresztül közvetett kapcsolatokat is jelzett. Ez nem bizonyítja a feltételezett lélektani folyamat időbeli vagy oksági sorrendjét. Az együtthatók nem a javulás százalékos mértékei.</p><h2>Mi maradt bizonytalan?</h2><p>A vizsgálat egyszeri önbeszámolókon alapult, a résztvevők nem reprezentatív mintából kerültek ki. A korrigált becslések bizonytalansági tartományát a nyilvános absztrakt nem közölte. A kutatók nem próbáltak ki pszichológiai beavatkozást, ezért az eredményekből nem következik, hogy az önegyüttérzés fejlesztése önmagában csökkenti a tüneteket. A szerzők nem jeleztek finanszírozást vagy összeférhetetlenséget.</p><p>A kutatás gyakorlati kérdést vet fel: vajon mi nehezíti meg, hogy valaki elfogadja a támogatást, akár másoktól, akár saját magától? Ennek feltárása a segítő beszélgetés egyik lehetséges témája, nem önálló kezelési előírás.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44202-026-01006-w\">The mediating role of self-compassion in the relationship between fear of compassion, maladaptive coping strategies, well-being and psychological distress</a>. Discover Psychology, 2026. november 23. DOI: 10.1007/s44202-026-01006-w.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44202-026-01006-w.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Miért lehet nehéz együttérzőnek lenni önmagunkkal?",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "The mediating role of self-compassion in the relationship between fear of compassion, maladaptive coping strategies, well-being and psychological distress",
+        "url": "https://link.springer.com/article/10.1007/s44202-026-01006-w",
+        "published_at": "2026-11-23",
+        "doi": "10.1007/s44202-026-01006-w",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "3284c6ada7a9f8ad4b3acbbb170e4510cab67b8fb28e2b809107331fa90e4bcd",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
