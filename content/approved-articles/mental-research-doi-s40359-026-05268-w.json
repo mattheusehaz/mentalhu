@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s40359-026-05268-w",
+    "slug": "szulestol-valo-felelem-tokofobia-kerdoiv",
+    "title": "A szüléstől való erős félelem felismerése: mit tud mérni egy újonnan adaptált kérdőív?",
+    "category": "Kutatások",
+    "excerpt": "Egy 426 várandós nő részvételével végzett egyiptomi vizsgálatban megbízhatónak bizonyult a szüléstől való súlyos félelmet vizsgáló kérdőív arab nyelvű változata. A kutatás azonban még nem határozta meg, milyen pontszámtól indokolt klinikai diagnózisra gondolni.",
+    "content_html": "<p>A tokofóbia a szüléssel kapcsolatos súlyos félelmet jelöli. Eman Atef Elsokary és munkatársai 2025 szeptembere és 2026 januárja között várandósgondozó intézményekben és online toboroztak résztvevőket. A Tokophobia Assessment Questionnaire kérdéseit lefordították, visszafordították és kulturálisan adaptálták.</p>\n<h2>Három terület, egy összpontszám</h2>\n<p>A 21 tételes változat három dimenziója a fizikai és társas szükségletek kielégítésével kapcsolatos nehézség, a szüléstől való félelem és a várandósság kerülése volt. A három faktor a variancia 75,49 százalékát magyarázta. A belső konzisztenciát mérő McDonald-ómega 0,98 volt; az erős általános faktor az összpontszám használatát is alátámasztotta. Az első várandósság és a krónikus testi betegség magasabb pontszámokkal társult.</p>\n<h2>A jó kérdőív még nem diagnózis</h2>\n<p>A kutatók nem ellenőrizték a kérdőív időbeli stabilitását, és nem állapítottak meg klinikai határértéket. A résztvevők 60,1 százaléka alapképzésben szerzett diplomával rendelkezett, ezért a minta nem feltétlenül tükrözi az egyiptomi várandósok egészét. Az eredmény más nyelvekre és országokra sem vihető át automatikusan. A szerzők nem jeleztek külön finanszírozást vagy összeférhetetlenséget.</p>\n<p>A tanulmány értéke a szülés körüli lelki nehézségek strukturált felmérésének fejlesztése. A várandósgondozásban a kérdőív a beszélgetést segítheti, de nem helyettesítheti a személyes értékelést, és nem vizsgálták vele pszichológiai kezelés eredményességét.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s40359-026-05268-w\">Cross-cultural adaptation and psychometric validation of the Arabic Tokophobia Assessment Questionnaire (TAQ-Ar) among Egyptian pregnant women</a>. DOI: 10.1186/s40359-026-05268-w.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s40359-026-05268-w.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: A szüléstől való erős félelem felismerése: mit tud mérni egy újonnan adaptált kérdőív?",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Cross-cultural adaptation and psychometric validation of the Arabic Tokophobia Assessment Questionnaire (TAQ-Ar) among Egyptian pregnant women",
+        "url": "https://link.springer.com/article/10.1186/s40359-026-05268-w",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s40359-026-05268-w",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "ebd5109d5e4cf9669e143dec6772bbe2a7cfcf3447c2f4dabbc7efa8b0cb0a50",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
