@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12888-026-08892-3",
+    "slug": "tapasztalati-segitok-depresszio-supeer-mood",
+    "title": "Depresszió: a saját tapasztalattal rendelkező segítők csoportja is javíthatja a lelkiállapotot",
+    "category": "Kutatások",
+    "excerpt": "Egy mallorcai, véletlen besorolásos vizsgálatban a depresszióval élő felnőttek hathetes, tapasztalati segítők által vezetett programja után kedvezőbb tünetpontszámokat mértek, mint egy pszichológiai mobilalkalmazás használata után. A tartós hatás egyelőre nem ismert.",
+    "content_html": "<p>Xandra Gonzalez-Garcia és munkatársai 81 depresszióval diagnosztizált felnőttet osztottak véletlenszerűen két csoportba. Negyvenegy résztvevő heti csoportfoglalkozásokra kapott lehetőséget, negyven pedig kognitív viselkedésterápiás alapú alkalmazást használhatott. Mindkét beavatkozás hat hétig tartott.</p>\n<h2>Mit jelentett a különbség?</h2>\n<p>A Beck-féle depressziókérdőíven a csoportprogram javára 5,82 pontos korrigált különbséget mértek (95%-os konfidenciaintervallum: 2,93–8,72 pont; parciális éta-négyzet: 0,185). Az életminőség szorongásra és depresszióra vonatkozó részmutatója is kedvezőbben alakult, az általános egészségérzetben és a legtöbb másodlagos mutatóban azonban nem igazoltak eltérést.</p>\n<p>A csoportprogramot 27 résztvevő fejezte be (65,8%), az alkalmazást használók 54 százaléka jelzett legalább közepes használati intenzitást. A két részvételi mutató eltérő definíciója miatt közvetlenül nem egyenértékű.</p>\n<h2>A tapasztalati segítség helye az ellátásban</h2>\n<p>A kis létszám és a rövid követés korlátozza a következtetéseket. A személyes csoportélmény és a segítők saját megélt tapasztalatának önálló hatását nem lehet elkülöníteni. A kutatás nem bizonyítja, hogy a program helyettesíthetné a pszichoterápiát vagy a gyógyszeres kezelést. A vizsgálatot a Baleár-szigeteki ápolói kamara támogatta (2023–02725); összeférhetetlenséget nem jelentettek. A klinikai vizsgálat regisztrációja: NCT06398561.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12888-026-08892-3\">Peer-led intervention for individuals with major depression: post-intervention and implementation outcomes from the SUPEERMood randomized controlled trial</a>. DOI: 10.1186/s12888-026-08892-3.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12888-026-08892-3.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Depresszió: a saját tapasztalattal rendelkező segítők csoportja is javíthatja a lelkiállapotot",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "Depresszió: a saját tapasztalattal rendelkező segítők csoportja is javíthatja a lelkiállapotot",
+    "seo_description": "Egy mallorcai, véletlen besorolásos vizsgálatban a depresszióval élő felnőttek hathetes, tapasztalati segítők által vezetett programja után kedvezőbb tünetpontszámokat mértek, mint egy pszichológiai mobilalkalmazás használata után. A tartós hatás egyelőre nem ismert.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Peer-led intervention for individuals with major depression: post-intervention and implementation outcomes from the SUPEERMood randomized controlled trial",
+        "url": "https://link.springer.com/article/10.1186/s12888-026-08892-3",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12888-026-08892-3",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "ebe913d12765dd42138a2c906dbbca6158f4a12adaf3cd61c7823a83e85c57ed",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
