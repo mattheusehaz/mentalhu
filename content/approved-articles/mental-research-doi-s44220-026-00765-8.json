@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44220-026-00765-8",
+    "slug": "depresszio-szivbetegseg-gyulladasos-markerek-bizonyitekok",
+    "title": "Depresszió és szívbetegség: kilenc közös gyulladásos jelzőt találtak, de a bizonyítékok még gyengék",
+    "category": "Kutatások",
+    "excerpt": "Egy 103 korábbi metaanalízist áttekintő kutatás kilenc olyan gyulladásos jelzőt emelt ki, amely a depresszióval és a szív-érrendszeri betegségekkel is összefügghet. A közös biológiai háttér ígéretes kutatási irány, de az eredmények egyelőre nem alkalmasak diagnosztikai vérteszt vagy kezelés megalapozására.",
+    "content_html": "<p>A depressziót gyakran kizárólag lelki problémaként, a szív- és érrendszeri betegségeket pedig kizárólag testi állapotként kezeljük. A két terület azonban számos ponton összekapcsolódik. A Nature Mental Health folyóiratban 2026. november 23-án megjelent új ernyőáttekintés azt vizsgálta, hogy a szervezet gyulladásos folyamatait jelző vérben mérhető anyagok közül melyek mutatnak következetes összefüggést mindkét betegségcsoporttal.</p>\n<p>Xuhang Zhao és munkatársai öt tudományos adatbázisban kerestek a 2026. április 1-jéig megjelent kutatások között. Összesen 103 szisztematikus áttekintést és metaanalízist vontak be: 45 a depresszióval, 58 a szív- és érrendszeri betegségekkel foglalkozott. A feldolgozott szakirodalomban 157 különböző gyulladásos jelző szerepelt, de mindkét területen mindössze 21-et vizsgáltak. Ezekre 314 összesített becslés állt rendelkezésre.</p>\n<h2>Kilenc jelző kapott kiemelt figyelmet</h2>\n<p>A kutatók előre meghatározott statisztikai és mintanagyság-kritériumok alapján kilenc jelzőnél találtak erősen valószínűsíthető közös összefüggést. Köztük volt a C-reaktív protein, vagyis a CRP és annak nagy érzékenységű mérése, valamint az interleukin-6 és az interleukin-18. A listára további gyulladásos fehérjék, fehérvérsejttípusok és egyszerű vérképértékekből képzett arányszámok is felkerültek.</p>\n<p>A felsorolt jelzők nem egyformán meggyőzőek. Amikor az elemzők szigorúbb minőségi szűrést alkalmaztak, kilencből hat jelző mögött maradt megfelelő keresztterületi alátámasztás. Az interleukin-18, a CCL2 nevű kemokin és a vérlemezkék, illetve limfociták aránya esetében nagyobb lett a bizonytalanság. Az sem derült ki, hogy a depresszió és a szívbetegség ugyanazon gyulladásos folyamat révén alakul-e ki.</p>\n<h2>A legfontosabb eredmény talán a bizonyítékok gyengesége</h2>\n<p>A szerzők az áttekintések módszertani megbízhatóságát is értékelték. A 103 összesítő tanulmányból 78-at kritikusan alacsony, 25-öt alacsony bizalmi szintűnek minősítettek. Ez komoly korlát: hiába ismétlődik meg egy statisztikai kapcsolat sok publikációban, a mérési eltérések, az egymást átfedő eredeti vizsgálatok és a zavaró tényezők miatt a bizonyíték még nem feltétlenül erős.</p>\n<p>A CRP például sokféle állapotban, fertőzésnél vagy más gyulladásos folyamatnál is emelkedhet. A mostani áttekintés alapján nem mondható meg egy vérvételből, hogy valaki depressziós-e, vagy kialakul-e nála szívbetegség. A kutatás azt sem bizonyítja, hogy a gyulladás csökkentése önmagában hatékony depressziókezelés volna. Ehhez célzott, jól megtervezett követéses és beavatkozásos vizsgálatok kellenek.</p>\n<p>A szerzők szerint a közös jelzők olyan kutatási irányokat adhatnak, amelyek a jövőben segítenek tisztázni a depresszió és a szív-érrendszeri egészség kapcsolatát. A munkát kínai, brit és európai kutatási támogatások segítették; az egyik társszerző gyógyszeripari tiszteletdíjról és szakmai utazási támogatásokról nyilatkozott. Az eredmények mindenesetre nem változtatják meg a ma indokolt klinikai kivizsgálást.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.nature.com/articles/s44220-026-00765-8\">Bridging depression and cardiovascular disease: shared inflammatory biomarkers from an umbrella review</a>. DOI: 10.1038/s44220-026-00765-8.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44220-026-00765-8.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Depresszió és szívbetegség: kilenc közös gyulladásos jelzőt találtak, de a bizonyítékok még gyengék",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "Depresszió és szívbetegség: kilenc közös gyulladásos jelzőt találtak, de a bizonyítékok még gyengék",
+    "seo_description": "Egy 103 korábbi metaanalízist áttekintő kutatás kilenc olyan gyulladásos jelzőt emelt ki, amely a depresszióval és a szív-érrendszeri betegségekkel is összefügghet. A közös biológiai háttér ígéretes kutatási irány, de az eredmények egyelőre nem alkalmasak diagnosztikai vérteszt vagy kezelés megalapozására.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Bridging depression and cardiovascular disease: shared inflammatory biomarkers from an umbrella review",
+        "url": "https://www.nature.com/articles/s44220-026-00765-8",
+        "published_at": "2026-11-23",
+        "doi": "10.1038/s44220-026-00765-8",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "45853672e15adea131d8114ec1471bb8adb1cfa86b0241c10f1474fcbebe25cf",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
