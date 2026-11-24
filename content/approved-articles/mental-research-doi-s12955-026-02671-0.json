@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12955-026-02671-0",
+    "slug": "daganatos-betegek-szorongas-depresszio-egeszsegerzet",
+    "title": "Daganatos betegségek mellett a szorongás és a depresszió eltérően kapcsolódhat az egészségérzet alakulásához",
+    "category": "Kutatások",
+    "excerpt": "Egy 632 fős német onkológiai vizsgálatban a depresszióról vagy szorongásos zavarról beszámoló betegek rosszabbnak értékelték egészségüket. Az egyéves követés alatt a két állapothoz eltérő változási mintázat társult.",
+    "content_html": "<p>Jonas Prenissl és munkatársai egy berlini egyetemi klinika járóbetegeit öt időpontban vizsgálták: a kezdéskor, majd egy, három, hat és tizenkét hónap elteltével. Az általános egészségérzetet 0–100 pontos vizuális skálán mérték. A depresszió és a szorongásos zavar fennállását a betegek saját beszámolója alapján határozták meg.</p><p>A szorongásos zavart jelző betegek kezdetben átlagosan 51,82, a többiek 57,58 pontot értek el. A depresszió esetében 51,25, illetve 57,83 pont volt a két érték. A szorongásos zavarról nem beszámolóknál később javulás jelentkezett, a zavart jelzőknél nem mutatkozott hasonló változás (csoport és idő interakciója: p = 0,011). A depresszió szerinti változási pályák eltérése nem volt statisztikailag egyértelmű (p = 0,080).</p><h2>Az egészségérzet is része az ellátásnak</h2><p>A vizsgálat nem ellenőrizte a pszichiátriai diagnózisokat, a daganat típusára, stádiumára és kezelésére nem korrigált. Nem állapítható meg, hogy a szorongás okozta-e a kedvezőtlenebb alakulást; a mért egészségérzet nem a testi betegség objektív előrehaladását jelzi.</p><p>A kutatás a pszichés terhelés követésének fontosságát emeli ki, de nem vizsgálta pszichoterápia hatását. A közlés nyílt hozzáférését a Projekt DEAL támogatta; a szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12955-026-02671-0\">Health-related quality of life in cancer care: longitudinal associations with depression and anxiety</a>. DOI: 10.1186/s12955-026-02671-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12955-026-02671-0.svg",
+    "hero_image_alt": "Szerkesztőségi illusztráció: Daganatos betegségek mellett a szorongás és a depresszió eltérően kapcsolódhat az egészségérzet alakulásához",
+    "hero_image_caption": "Szerkesztőségi, digitálisan készített tematikus illusztráció. Nem a tanulmány résztvevőit vagy eredeti ábráit ábrázolja.",
+    "seo_title": "Daganatos betegségek mellett a szorongás és a depresszió eltérően kapcsolódhat az egészségérzet alakulásához",
+    "seo_description": "Egy 632 fős német onkológiai vizsgálatban a depresszióról vagy szorongásos zavarról beszámoló betegek rosszabbnak értékelték egészségüket. Az egyéves követés alatt a két állapothoz eltérő változási mintázat társult.",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Health-related quality of life in cancer care: longitudinal associations with depression and anxiety",
+        "url": "https://link.springer.com/article/10.1186/s12955-026-02671-0",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s12955-026-02671-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-24T10:47:00Z",
+    "revision_sha256": "7b0edaa73651c79e6c7cdb811e2aa8893541898285ed94ef2342e4d9b5dc0cb4",
+    "reference": "chat-message:Mehet ki az összes írás, a reggeli publikálás eredményét se látom"
+  }
+}
