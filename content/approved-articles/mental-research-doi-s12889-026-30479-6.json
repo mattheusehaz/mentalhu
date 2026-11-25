@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12889-026-30479-6",
+    "slug": "klimaszorongas-osszeeskuveses-hiedelmek-fiatalok",
+    "title": "Klímaszorongás és összeesküvés-elméletek: mit mutat egy német ifjúsági kutatás?",
+    "category": "Kutatások",
+    "excerpt": "A környezeti válság miatt érzett aggodalom egyes formái összefüggtek a klímapolitikával kapcsolatos összeesküvéses hiedelmekkel egy 413 fős német vizsgálatban. A kutatók ugyanakkor nem igazolták, hogy az aktív megküzdés mérsékelné ezt a kapcsolatot.",
+    "content_html": "<p>David Phan, Nora Spirkl, Julian Kauk és Julia Asbrand a BMC Public Health folyóiratban 2026. november 24-én közölték előzetesen regisztrált vizsgálatukat. A 2024 júniusa és 2025 februárja között kitöltött online kérdőívek alapján 413, 15–25 éves fiatal adatait elemezték. Az átlagéletkor 20,26 év volt.</p>\n<p>A kutatók elkülönítették a környezeti aggodalom különböző összetevőit, és külön mérték az általános szorongást, a depresszív tüneteket, a stresszt, valamint a klímapolitikai összeesküvésekbe vetett hitet.</p>\n<h2>Nem minden lelki nehézség mutatott önálló összefüggést</h2>\n<p>A vizsgált pszichológiai tényezők és a klímapolitikai hiedelmek közötti egyszerű korrelációk 0,13 és 0,28 között voltak, vagyis többnyire gyenge kapcsolatról beszélhetünk. Az összeesküvéses magyarázatokra való általános fogékonyság figyelembevétele mellett a tudományba vetett hitre is korrigált elemzésben a klímaszorongás érzelmi tünetei, a visszatérő aggodalmas gondolatok és a saját környezeti hatással kapcsolatos szorongás maradtak szignifikánsak. Az általános szorongás, a depresszív tünetek és a stressz esetében ez már nem volt igazolható.</p>\n<p>A szerzők várakozásával ellentétben a jelentéskeresésre és problémamegoldásra irányuló megküzdés egyik vizsgált összefüggést sem mérsékelte kimutathatóan. Ebből nem következik, hogy az aktív megküzdés káros vagy hogy más szempontból ne lehetne hasznos.</p>\n<h2>Az aggodalom nem diagnózis</h2>\n<p>A felmérés nem bizonyítja, hogy a szorongás idézi elő a hiedelmeket. A minta közel háromnegyede nőként azonosította magát, több mint fele egyetemista volt. A klímapolitikai hiedelmek mérésére átalakított kérdőív részben a politikai bizalmatlanságot is mérhette, ezért további validálást igényel.</p>\n<p>A mentálhigiénés beszélgetésekben érdemes különválasztani a környezeti veszélyek miatti érthető aggodalmat, az érzelmi megterhelést és a konkrét információk hitelességének megítélését. Önmagában egy politikai vélemény vagy egy klímaváltozással kapcsolatos félelem nem tesz senkit mentálisan beteggé. A kutatás nem vizsgált terápiás beavatkozást.</p>\n<p>A kutatás külön támogatás nélkül készült, a nyílt hozzáférés költségét a Freie Universität Berlin finanszírozta. A szerzők nem jeleztek összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12889-026-30479-6\">Phan D., Spirkl N., Kauk J., Asbrand J.: Coping with a planet in crisis: psychological distress and climate-policy-related conspiracy beliefs in youth. BMC Public Health (2026).</a> DOI: 10.1186/s12889-026-30479-6.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12889-026-30479-6.svg",
+    "hero_image_alt": "Fiatalok környezeti híreket olvasnak egy városi téren",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Coping with a planet in crisis: psychological distress and climate-policy-related conspiracy beliefs in youth",
+        "url": "https://link.springer.com/article/10.1186/s12889-026-30479-6",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12889-026-30479-6",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "f51abbbef84a66ae2e2e07b484a30139f2f0fc15dd1008100b70088c61cd5db1",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

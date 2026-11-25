@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44192-026-00679-y",
+    "slug": "okostelefon-hasznalat-kamaszok-lelki-terhelese-india",
+    "title": "Okostelefon és kamaszkori lelki terhelés: a használat gyakorisága is számíthat",
+    "category": "Kutatások",
+    "excerpt": "Egy 507 nyugat-indiai serdülőt vizsgáló kutatásban a gyakoribb telefonhasználat összefüggött a pszichés megterheléssel. A felmérés ugyanakkor nem bizonyítja, hogy a telefonhasználat okozta a tüneteket.",
+    "content_html": "<p>Az okostelefon tanulási eszköz, szórakozási lehetőség és kapcsolattartási csatorna is lehet. Manisha Gore, Julia Morgan és Bhavana Desai 2026. november 24-én a Discover Mental Health folyóiratban közölték a vidéki serdülők digitális szokásairól végzett kutatásukat.</p>\n<p>Tíz iskola 507, 14–18 éves diákját kérdezték meg Nyugat-Indiában. A mennyiségi felmérés mellett szülőkkel és iskolaigazgatókkal is készítettek interjúkat. A pszichés megterhelést a GHQ-12 általános egészségi kérdőívvel mérték.</p>\n<h2>A képernyő egyszerre lehet segítség és zavaró tényező</h2>\n<p>A diákok több mint fele napi három-négy órás okostelefon-használatról, 62 százalékuk tanulás közbeni figyelemelterelődésről számolt be. A pszichés megterhelésre utaló kérdőíves eredményt 53,8 százaléknál jelezték. A használati gyakoriság és a megterhelés közötti összefüggés statisztikailag szignifikáns volt (p = 0,001), de a nyilvánosan ellenőrizhető kivonat nem ad hatásméretet vagy konfidenciaintervallumot. A kérdőíves eredmény nem klinikai diagnózis.</p>\n<p>Az interjúkban az oktatási előnyök és a jólléttel kapcsolatos aggályok egyaránt megjelentek. Az eredmény nem támaszt alá egyetlen, minden kamaszra érvényes képernyőidő-határt. Érdemes külön vizsgálni, mire használják a fiatalok a telefont, és hogyan illeszkedik a használat a tanuláshoz, az alváshoz és a társas kapcsolatokhoz.</p>\n<p>A keresztmetszeti vizsgálat nem tisztázza az okságot; az sem zárható ki, hogy a már meglévő lelki nehézségek mellett változnak a digitális szokások. A vidéki indiai minta nem reprezentálja a magyar fiatalokat. A szerzők nem jeleztek összeférhetetlenséget; a nyílt hozzáférést a Symbiosis International egyetem finanszírozta.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44192-026-00679-y\">Gore M., Morgan J., Desai B.: Smartphone use and psychological distress among school going adolescents in rural Western India a mixed methods study. Discover Mental Health (2026).</a> DOI: 10.1007/s44192-026-00679-y.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44192-026-00679-y.svg",
+    "hero_image_alt": "Fiatalok egy vidéki indiai otthon verandáján, egyikük telefonnal",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Smartphone use and psychological distress among school going adolescents in rural Western India a mixed methods study",
+        "url": "https://link.springer.com/article/10.1007/s44192-026-00679-y",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s44192-026-00679-y",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "6a8894f586fde563fba630fe56d08f0931354cf775a3b6b1fe283d949c38e9a1",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

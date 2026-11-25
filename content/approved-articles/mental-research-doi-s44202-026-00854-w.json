@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44202-026-00854-w",
+    "slug": "szuloi-konfliktusok-rendezese-kamaszkori-depressziv-tunetek",
+    "title": "A szülők vitáinak rendezése és a kamaszok lelki egészsége is összefügghet",
+    "category": "Kutatások",
+    "excerpt": "Egy 845 etiópiai középiskolást vizsgáló kutatásban a szülői konfliktusok kedvezőbbnek érzékelt rendezése kevesebb depresszív tünettel járt együtt. Az anya és a kamasz közötti érzelmi kapcsolat is szerepet kapott a statisztikai modellben.",
+    "content_html": "<p>A családi viták mentálhigiénés jelentősége nem merül ki abban, hogy milyen gyakran fordulnak elő. Az is fontos kérdés, hogyan élik meg a gyerekek a nézeteltérések lezárását. Tesfaye Desalegn és Dame Abera a Discover Psychology folyóiratban 2026. november 24-én közölt vizsgálatukban ezt a kérdést elemezték.</p>\n<p>2024 áprilisában két etiópiai állami középiskolában 845, átlagosan 16 éves, vér szerinti szüleivel élő diák kérdőíves adatait vizsgálták. A kamaszok a szülők konfliktuskezeléséről, az anyjukkal való kapcsolatukról és saját depresszív tüneteikről számoltak be.</p>\n<h2>Az érzelmi közelség szerepe</h2>\n<p>A konfliktusrendezés és a depresszív tünetek közötti egyszerű korreláció gyenge volt (r = −0,12). Az anyával megélt érzelmi közelség erősebb negatív összefüggést mutatott a tünetekkel (r = −0,31). A közvetítő modellben a becsült közvetett kapcsolat standardizált együtthatója −0,141 volt (95%-os konfidenciaintervallum: −0,202 és −0,095 között). A modell illeszkedése nem volt egyöntetűen jó.</p>\n<p>A számok nem bizonyítják, hogy a konfliktusok rendezése az anya–gyermek kapcsolaton keresztül csökkenti a depressziót. Minden adat ugyanattól a serdülőtől származott, egyetlen adatfelvételből; a lelkiállapot a korábbi viták felidézését is befolyásolhatta. A kutatók módosították a kérdőíveket, és 36 statisztikailag szélsőséges esetet kizártak. Az apával való kapcsolat szerepét külön nem vizsgálták.</p>\n<p>A családok támogatásában ezért érdemes a szülői együttműködésre és a kamasz által megélt kapcsolati biztonságra egyaránt figyelni. A felelősség nem hárítható az anyára vagy a gyermekre; a vizsgálat nem tesztelt családterápiás beavatkozást. Külön kutatási támogatás nem volt, összeférhetetlenséget nem jeleztek.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44202-026-00854-w\">Desalegn T., Abera D.: Mother adolescent bonding mediates the relationship between perceived marital conflict resolution and depressive symptoms among Ethiopian adolescents. Discover Psychology 6, 336 (2026).</a> DOI: 10.1007/s44202-026-00854-w.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44202-026-00854-w.svg",
+    "hero_image_alt": "Családi beszélgetés és támogató anya–gyermek kapcsolat",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Mother adolescent bonding mediates the relationship between perceived marital conflict resolution and depressive symptoms among Ethiopian adolescents",
+        "url": "https://link.springer.com/article/10.1007/s44202-026-00854-w",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s44202-026-00854-w",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "b7b67ba0cc10141f8cea4e25cc90feae68ce27dc47375a8c458e32eab2377c27",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

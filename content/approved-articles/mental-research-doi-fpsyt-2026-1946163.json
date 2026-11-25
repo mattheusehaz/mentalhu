@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyt-2026-1946163",
+    "slug": "digitalis-lelki-segitseg-menekultek-hozzaferes-akadalyok",
+    "title": "A digitális lelki segítséghez nem elég az internet: három nemzetközi program tapasztalatai",
+    "category": "Kutatások",
+    "excerpt": "A menekülteknek és az ellátásból kiszoruló fiataloknak nyújtott online pszichológiai támogatás eredményes bevezetéséhez a nyelvi és kulturális alkalmazkodás, az emberi segítség és a helyi ellátórendszerrel való kapcsolat is fontos lehet.",
+    "content_html": "<p>Kristofer Vernmark és munkatársai a Frontiers in Psychiatry 2026. november 24-i tanulmányában három digitális mentálhigiénés program tapasztalatait dolgozták fel. Az UNICEF uSupport rendszere fiatalokat, a Raha internetes pszichológiai program migránsokat és menekülteket, a Svájci Vöröskereszt Sui alkalmazása pedig Svájcban élő menekülteket támogat. A fejlesztők és a megvalósítók beszámolóiból közös szakmai ajánlásokat fogalmaztak meg.</p>\n<h2>Mi történik a regisztráció után?</h2>\n<p>A Raha programjaiban 253 ember kapott segítséget, közülük 195 (77,1%) fejezte be a beavatkozást. A tízhetes programban a résztvevők hetente kaptak támogatást a nyelvükön beszélő pszichológustól. Az online részvételt azonban a bizonytalan lakhatási és életkörülmények, az időhiány, valamint helyenként az internet- és áramellátás problémái is nehezítették. A befejezési arány nem a gyógyulás aránya.</p>\n<p>A programok tapasztalataiból az következik, hogy az ellátást nem érdemes pusztán egy alkalmazás elérhetőségével mérni. Az is kérdés, hogy a rászorulók tudnak-e róla, értik-e a nyelvét, biztonságban érzik-e személyes adataikat, illetve kapnak-e megfelelő támogatást, ha állapotuk romlik. A szerzők a fenntartható finanszírozást és a helyben elérhető ellátásokhoz kapcsolódó továbbirányítást is fontosnak tartják.</p>\n<p>A közlemény nem új, összehasonlító hatásvizsgálat. A három szándékosan kiválasztott eset eltérő célokat szolgált; az ajánlások kidolgozásában a programok megvalósítói vettek részt, független értékelők és felhasználók közvetlen részvétele nélkül. Ez kedvező irányú értékelési torzítást eredményezhet. A munka egyes szerzőit a Svéd Kutatási Tanács támogatta; kereskedelmi vagy pénzügyi összeférhetetlenséget nem jelentettek.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1946163/full\">Vernmark K., Aebersold M., Ailarova A. és mtsai: Developing and delivering digital mental health interventions for underserved groups: challenges, opportunities and key recommendations from three case studies. Frontiers in Psychiatry 17:1946163 (2026).</a> DOI: 10.3389/fpsyt.2026.1946163.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyt-2026-1946163.svg",
+    "hero_image_alt": "Online támogató konzultáció laptopon",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Developing and delivering digital mental health interventions for underserved groups: challenges, opportunities and key recommendations from three case studies",
+        "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1946163/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fpsyt.2026.1946163",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "09a2df39c7baec359664bf744ddd6e414996410c58740bea15ad15b9040c0f2d",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

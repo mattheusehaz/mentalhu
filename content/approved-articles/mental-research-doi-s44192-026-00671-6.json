@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44192-026-00671-6",
+    "slug": "tanari-eloitelet-imposztorjelenseg-serdulok-lelki-egeszsege",
+    "title": "A tanári előítéletek és az imposztorjelenség is összefügghet a kamaszok lelki nehézségeivel",
+    "category": "Kutatások",
+    "excerpt": "Hét berlini iskola 575 serdülőjének vizsgálatában a tanári elfogultság és a saját képességek megkérdőjelezése egyaránt összefüggött a befelé irányuló lelki nehézségekkel. A kutatás azonban nem igazolta, hogy az előítéletek az imposztorjelenségen keresztül kapcsolódnának a tünetekhez.",
+    "content_html": "<p>Az iskolai sikerek nem minden fiatal számára járnak együtt azzal az érzéssel, hogy megérdemelte őket. Az imposztorjelenség során az érintett hajlamos saját teljesítményét alábecsülni, és attól tartani, hogy mások rájönnek vélt alkalmatlanságára. Ez önmagában nem pszichiátriai diagnózis.</p>\n<p>Susanne Birnkammer és munkatársai a Discover Mental Health folyóiratban megjelent kutatásukban 575, átlagosan 16 éves diák adatait elemezték hét berlini középiskolából. A tanári elfogultság, az imposztorjelenség és a belső lelki megterhelés közötti kapcsolatokat vizsgálták, az etnikai és nemi identitást is figyelembe véve.</p>\n<h2>A várt közvetítő kapcsolatot nem találták meg</h2>\n<p>A tanári elfogultság együtt járt a nagyobb lelki megterheléssel, de nem mutatott igazolt összefüggést az imposztorjelenséggel. Ez utóbbi önállóan kapcsolódott a lelki nehézségekhez. A szerzők által feltételezett közvetítő modell nem kapott statisztikai alátámasztást.</p>\n<p>Az iskolai mentálhigiéné szempontjából érdemes külön figyelmet fordítani a méltányos bánásmódra és a diákok önértékelésére. Egy fiatal önbizalmának erősítése nem helyettesíti az esetleges igazságtalan bánásmód feltárását, és fordítva.</p>\n<p>A keresztmetszeti adatokból nem állapítható meg az ok-okozati irány. Az elérhető absztrakt nem tartalmazza a hatásméreteket és azok bizonytalanságát, így a kapcsolatok gyakorlati erőssége nem számszerűsíthető. A kutatás a német szövetségi családügyi minisztérium és az Európai Szociális Alap Plusz támogatásával készült; a szerzők nem jeleztek összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44192-026-00671-6\">Birnkammer S., Thun M. J., Kipnis E., Kelmendi A., Lazaridou F. B., Calvano C.: Teacher-based bias, the imposter phenomenon, and internalizing distress among adolescents in Germany. Discover Mental Health (2026).</a> DOI: 10.1007/s44192-026-00671-6.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44192-026-00671-6.svg",
+    "hero_image_alt": "Elgondolkodó diák egy osztályteremben",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Teacher-based bias, the imposter phenomenon, and internalizing distress among adolescents in Germany",
+        "url": "https://link.springer.com/article/10.1007/s44192-026-00671-6",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s44192-026-00671-6",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "a795bc31da1d0197a5e369689291d5cf625a5f381e920c201187d854bd6eb799",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

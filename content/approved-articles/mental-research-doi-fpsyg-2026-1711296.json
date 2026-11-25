@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-1711296",
+    "slug": "erzelmek-kialakulasa-erzelemszabalyozas-laboratorium",
+    "title": "Mi történik, amikor megpróbálunk érezni valamit? Egy érzelemszabályozási kísérlet tanulságai",
+    "category": "Kutatások",
+    "excerpt": "Egy szlovén laboratóriumi vizsgálat résztvevői gyakran maguk alakították ki a képekhez kapcsolódó érzelmi élményüket. A kutatás arra figyelmeztet, hogy az érzelmek előidézése és szabályozása a kísérletekben nem mindig választható élesen szét.",
+    "content_html": "<p>Az érzelmek kutatásában gyakran alkalmaznak előre kiválasztott képeket, amelyeknek kellemetlen vagy kellemes érzést kellene kiváltaniuk. Aleš Oblak és munkatársai a Frontiers in Psychology november 24-i közleményében azt vizsgálták, hogyan élik meg a résztvevők az ilyen feladatokat.</p>\n<p>Harminc egészséges önkéntes érzelmi tartalmú képeket nézett, miközben munkamemória-feladatot végzett. Egyes helyzetekben átélhették a keletkező érzéseket, máskor arra kérték őket, hogy igyekezzenek semleges érzelmi állapotot fenntartani. A kutatók részletes, az élmény kibontakozására összpontosító interjúkat elemeztek.</p>\n<h2>Az érzelmi válasz néha nem automatikus</h2>\n<p>A beszámolók szerint a képek sokszor nem váltottak ki azonnali érzelmi reakciót. A résztvevők elképzelték a helyzetet, jelentést tulajdonítottak neki, és együttérzéssel kapcsolódtak hozzá. A kialakuló érzés olykor a feladat után is fennmaradt. A vizsgálat kvalitatív, nem számszerűsíti az egyes folyamatok gyakoriságát a népességben vagy a szabályozási módszerek hatásosságát.</p>\n<p>A kutatási eredmény azért érdekes, mert az érzelemszabályozásra adott utasítás hatása attól is függhet, hogy az érzelmet milyen módon éli meg vagy alakítja ki az ember. Ez azonban nem jelenti azt, hogy a mindennapi szorongás vagy szomorúság szabadon választható, illetve akaraterővel megszüntethető.</p>\n<p>A kis, szlovéniai minta, a kevés kísérleti ismétlés és maga az interjúmódszer is korlátozza a következtetéseket. A feladat során rögzített teljesítmény- és érzelmi pontszámokat ebben a közleményben nem elemezték. A munkát szlovén kutatási és klinikai programok támogatták; Grega Repovš két technológiai vállalkozásban tanácsadói és tulajdonosi érdekeltséget jelentett, valamint a folyóirat szerkesztőbizottságának tagja volt.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1711296/full\">Oblak A., Rigler S., Horvat Golob K., Jamnik K., Repovš G., Bon J.: Vibing out with the task: qualitative insights into sensemaking during cognitive-affective task performance. Frontiers in Psychology 17 (2026).</a> DOI: 10.3389/fpsyg.2026.1711296.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-1711296.svg",
+    "hero_image_alt": "Egy résztvevő érzelmi tartalmú képet néz egy pszichológiai laborban",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Vibing out with the task: qualitative insights into sensemaking during cognitive-affective task performance",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1711296/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fpsyg.2026.1711296",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "64b8da2716c57228908efe9ec4e7a37b0c2ef64062479a0f05860978f1ebabfa",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s44217-026-02456-z",
+    "slug": "tanuloi-autonomia-iskolai-csaladi-teljesitmenynyomas",
+    "title": "A szorgalom még nem jelent önállóságot: mit mutat egy közel 1500 diákot vizsgáló kutatás?",
+    "category": "Kutatások",
+    "excerpt": "Egy vietnámi iskolai felmérésben a tanulmányi és családi teljesítménynyomás kisebb tanulói önállósággal függött össze. Meglepő módon a kérdőívvel mért tanulási motiváció sem járt együtt nagyobb önrendelkezéssel.",
+    "content_html": "<p>Lehet egy diák kitartó és érdeklődő úgy is, hogy kevés beleszólása van saját tanulásába. Thu Nguyen Thi és munkatársai a Discover Education 2026. november 24-i közleményében hét hanoi iskola 1489, hatodik–kilencedik évfolyamos tanulójának válaszait elemezték. A 2025 augusztusa és 2026 januárja között végzett kérdőíves vizsgálatban külön értékelték a véleménynyilvánítás, a választás és a tanulásért vállalt felelősség lehetőségét.</p>\n<h2>A teljesítmény és az önállóság két külön kérdés</h2>\n<p>A statisztikai modellben az iskolai és a családi nyomás mindhárom területtel negatív, az önállóságot támogató iskolai környezet pedig pozitív kapcsolatot mutatott. A családi teljesítménynyomás és a véleménynyilvánítás közötti standardizált együttható −0,313 volt (95%-os konfidenciaintervallum: −0,352 és −0,274). Az iskolai támogatás és a választási lehetőség kapcsolatánál ez 0,292 (0,249–0,335) volt. A motivációhoz tartozó együtthatók −0,253 és −0,235 között alakultak.</p>\n<p>Az eredmény nem azt jelenti, hogy a motiváció káros. Inkább arra érdemes figyelni, hogy a szorgalom és az önálló döntéshozatal nem ugyanaz a képesség. Egy gyermek kiválóan teljesítheti a felnőttek által kijelölt feladatokat anélkül, hogy maga alakíthatná céljait vagy megfogalmazhatná fenntartásait.</p>\n<p>A keresztmetszeti, önbevallásos kutatás nem igazol okságot. A minta nem reprezentatív, több mérőeszközt a helyi környezethez igazítottak, az intézményi etikai felülvizsgálat pedig utólag történt. Mentális zavarokat nem mértek. Külön finanszírozást és összeférhetetlenséget nem jeleztek.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1007/s44217-026-02456-z\">Thi T. N., Thi X. N., Nam C. D.: Associations of academic pressure, academic motivation, family factors, and school autonomy support with learner autonomy among lower secondary students in Hanoi, Vietnam. Discover Education 5, 1376 (2026).</a> DOI: 10.1007/s44217-026-02456-z.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s44217-026-02456-z.svg",
+    "hero_image_alt": "Vietnámi diák tanul az íróasztalánál",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Associations of academic pressure, academic motivation, family factors, and school autonomy support with learner autonomy among lower secondary students in Hanoi, Vietnam",
+        "url": "https://link.springer.com/article/10.1007/s44217-026-02456-z",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s44217-026-02456-z",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "31cf3461d936073117367ec1b2cabc37ca3e1620343b5a58a3c816137cf84391",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

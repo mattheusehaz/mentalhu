@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12888-026-08916-y",
+    "slug": "pszichiatriai-ellatas-betegek-bevonasa-dontesek",
+    "title": "Nem minden pszichiátriai beteg szeretne ugyanúgy részt venni a kezeléséről szóló döntésekben",
+    "category": "Kutatások",
+    "excerpt": "Egy svéd felmérésben a válaszadók 42 százaléka bizonytalanságot jelzett a kezelésével kapcsolatos döntésekben. A betegek számára a meghallgatás különösen fontosnak bizonyult, miközben nem mindenki igényelt azonos mértékű aktív részvételt.",
+    "content_html": "<p>A kezelésbe való bevonás nem feltétlenül jelenti azt, hogy a betegnek minden döntésben ugyanakkora felelősséget kell vállalnia. A személyre szabott együttműködéshez azt is meg kell érteni, milyen szerepet szeretne betölteni az érintett.</p>\n<p>Märta Sund Levander, Ann Catrine Eldh és Berit M. Gustafsson egy svéd pszichiátriai intézményben 2022 és 2024 között 150, nem pszichotikus zavarral ellátott felnőttet kérdezett meg. Közülük 101 járóbeteg-, 49 fekvőbeteg-ellátásban részesült. Négy validált kérdőívvel vizsgálták a döntési bizonytalanságot, az együttműködést és a részvétellel kapcsolatos igényeket.</p>\n<h2>A meghallgatás fontosabb lehet, mint az önálló döntés</h2>\n<p>A döntési bizonytalanságot mérő kérdőív 142 kitöltője közül 60-an (42%) jeleztek döntési konfliktust. A részvételi igényeket értékelők 62,5 százaléka nélkülözhetetlennek tartotta, hogy meghallgassák. A részvételi preferenciáikat és tapasztalataikat egyaránt megadó 62 beteg körében a kezelési célok meghatározásánál és az ellátás tervezésénél gyakran eltért a megélt részvétel a kívánttól.</p>\n<p>A gyakorlatban nemcsak a túl kevés bevonás jelenthet problémát: az érintett számára a kívánatosnál nagyobb felelősség is megterhelő lehet. Érdemes ezért megbeszélni, ki milyen szerepet szeretne vállalni, és mennyi információra, támogatásra van szüksége.</p>\n<p>A meghívott 585 betegnek mindössze 25,6 százaléka vett részt, és több kérdőív hiányosan érkezett vissza. Az egyetlen intézményből származó minta nem reprezentálja a teljes pszichiátriai betegpopulációt. A vizsgálat nem mérte, hogy a részvétel növelése javítja-e a kezelési eredményeket. Külön kutatási támogatás nem volt, a szerzők összeférhetetlenséget nem jelentettek.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12888-026-08916-y\">Sund Levander M., Eldh A. C., Gustafsson B. M.: Patient participation in specialist psychiatric care: which aspects matter to whom? BMC Psychiatry (2026).</a> DOI: 10.1186/s12888-026-08916-y.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12888-026-08916-y.svg",
+    "hero_image_alt": "Páciens és mentális egészségügyi szakember beszélgetése",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Patient participation in specialist psychiatric care: which aspects matter to whom?",
+        "url": "https://link.springer.com/article/10.1186/s12888-026-08916-y",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12888-026-08916-y",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "75b2f05ce7d9aefcb91db99aafa30472c205bfd96a5ee37a008ae0ff1d7435dc",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

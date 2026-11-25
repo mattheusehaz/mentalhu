@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12888-026-08913-1",
+    "slug": "gyermekkori-adhd-diagnozis-fiatal-felnottek-tapasztalatai",
+    "title": "Mit jelent felnőttként egy gyermekkori ADHD-diagnózis?",
+    "category": "Kutatások",
+    "excerpt": "Egy svéd interjús kutatásban a fiatal felnőttek többnyire segítségként tekintettek a gyermekkorukban kapott ADHD-diagnózisra, bár a megbélyegzés és a különbözőség érzése is megjelent a beszámolóikban.",
+    "content_html": "<p>Camilla Carlsson, Håkan Jarbin és Ingrid Larsson a BMC Psychiatry 2026. november 23-án megjelent tanulmányában 17 fiatal felnőttel készített interjút. A résztvevőket egy svéd régió 2017-es betegcsoportjából választották ki: gyermekkorukban olyan ADHD-val diagnosztizálták őket, amelyhez viszonylag kevés társuló probléma kapcsolódott. A 44 meghívottból 17-en vettek részt.</p>\n<h2>Megértés és segítség, de megbélyegzés is</h2>\n<p>Az interjúkban a diagnózis sokak számára értelmezhetőbbé tette a korábbi nehézségeket, és segített enyhíteni az önmagukkal szembeni kritikát. Az iskolai támogatás és a kezelés elérhetőbbé vált; a gyógyszerekkel kapcsolatos tapasztalatok azonban eltértek. A résztvevők a kirekesztettségről és az előítéletekről is beszéltek. Mások a hasonló nehézségekkel élő emberek közösségéhez éreztek erősebb kötődést.</p>\n<p>A kutatás egyik fontos tanulsága, hogy az ellátásnak érdemes figyelmet fordítania arra is, miként épül be a diagnózis a fiatal önmagáról alkotott képébe. A támogatás szükséglethez igazítása akkor is fontos lehet, ha egy korábbi diagnózist később felülvizsgálnak.</p>\n<p>A kis létszámú, visszatekintő interjús vizsgálat nem alkalmas a diagnózis előnyeinek vagy ártalmainak számszerűsítésére, és nem bizonyítja, hogy a diagnózisok számának emelkedése önmagában milyen hatást gyakorol a fiatalokra. A regionális minta és az önkéntes részvétel korlátozza az általánosíthatóságot. A szerzők nem kaptak külső kutatási támogatást; a nyílt hozzáférést a Halmstadi Egyetem finanszírozta. Összeférhetetlenséget nem jelentettek.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12888-026-08913-1\">Carlsson C., Jarbin H., Larsson I. BMC Psychiatry 26, 941 (2026).</a> DOI: 10.1186/s12888-026-08913-1.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12888-026-08913-1.svg",
+    "hero_image_alt": "Fiatal felnőtt az íróasztalánál, gyermekkori emlékek és jegyzetek között",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Exploring how the surge of attention-deficit/hyperactivity disorder (ADHD) diagnoses has influenced the lives of young adults diagnosed with ADHD in childhood - a qualitative study",
+        "url": "https://link.springer.com/article/10.1186/s12888-026-08913-1",
+        "published_at": "2026-11-23",
+        "doi": "10.1186/s12888-026-08913-1",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "59a155a43644a395342a0b5d9c7d931de47e29e8894ceeafb474e50a883be66a",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

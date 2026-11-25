@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fragi-2026-1973340",
+    "slug": "alvaspanaszok-magany-depresszio-indiai-nok",
+    "title": "Az alvási nehézségek mögött a magány és a létbizonytalanság is megjelenhet",
+    "category": "Kutatások",
+    "excerpt": "Egy több mint húszezer középkorú és idősebb indiai nő adatait feldolgozó kutatásban az alváspanaszok a depresszióval, a magánnyal és az élelmiszer-bizonytalansággal is összefüggtek. Az eredmények az alvás társadalmi körülményeire irányítják a figyelmet.",
+    "content_html": "<p>Anshika Singh és munkatársai a Frontiers in Aging folyóirat 2026. november 24-i közleményében az indiai LASI felmérés 2017–2018-as adatainak új elemzését ismertették. A vidéken élő, legalább 45 éves nők közül 21 147 került a leíró vizsgálatba, 20 674 pedig a több háttértényezőt figyelembe vevő statisztikai modellbe.</p>\n<p>A résztvevők 42,8 százaléka (95%-os konfidenciaintervallum: 41,4–44,1%) számolt be hetente legalább három alkalommal jelentkező alvási vagy nappali kipihentségi problémáról. Ez tünetgyakoriság, nem klinikai inszomniadiagnózis.</p>\n<h2>Nem kizárólag az éjszakai szokások számítanak</h2>\n<p>A korrigált esélyhányados depresszió esetén 2,25 (95%-os konfidenciaintervallum: 2,02–2,50), élelmiszer-bizonytalanságnál 1,49 (1,29–1,73), magány esetén 1,28 (1,12–1,48) volt. Ezek az értékek nem a megbetegedési kockázat közvetlen arányai. A testi fájdalom és a krónikus betegségek jelenléte szintén együtt járt az alváspanaszokkal.</p>\n<p>Az alvásproblémák hátterének feltárásakor ezért az életkörülményekre és a lelkiállapotra is érdemes figyelni. A keresztmetszeti kutatás nem határozza meg az ok-okozati irányt, és nem vizsgálta a beavatkozások eredményességét. Az önbevallás, a hiányzó adatok kizárása és a gyógyszerszedés figyelembevételének hiánya további korlát. A korábbi indiai adatokból nem következtethetünk a mai magyarországi gyakoriságra.</p>\n<p>A kutatást a Rostocki Egyetem szociológiai és demográfiai intézete támogatta. Az egyik szerző a VART Consulting munkatársa volt; a többiek nem jelentettek kereskedelmi vagy pénzügyi összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1973340/full\">Singh A., Singh S., Bora JK., Singh A., Hossain M. és Doblhammer G. Frontiers in Aging 7:1973340 (2026).</a> DOI: 10.3389/fragi.2026.1973340.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fragi-2026-1973340.svg",
+    "hero_image_alt": "Éjszaka ébren ülő nő egy vidéki indiai otthonban",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Factors associated with insomnia symptoms among rural women aged 45 years and above in India: a secondary analysis of LASI wave one",
+        "url": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1973340/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fragi.2026.1973340",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "061ed758228fa0eb81b0644ea8c064f4037f1811134979daad11517fc62955f5",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}
