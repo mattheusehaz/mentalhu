@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s40615-026-03288-1",
+    "slug": "jarvany-letbizonytalansag-depressziv-tunetek",
+    "title": "A járvány idején halmozódó létbizonytalanság a lelki egészséggel is összefüggött",
+    "category": "Kutatások",
+    "excerpt": "Egy 1078 délkelet-ázsiai származású amerikai felnőttet vizsgáló kutatás szerint a több életterületen egyszerre jelentkező nehézségek mellett gyakoribb volt a depresszióra utaló kérdőíves eredmény.",
+    "content_html": "<p>Ndifreke Etim és munkatársai 2026. november 24-én megjelent tanulmányukban kambodzsai, filippínó, thai és vietnámi származású felnőttek adatait vizsgálták. A kutatók az egészségügyi ellátás, a lakhatás, az élelmiszer, az ivóvíz, a gyógyszerek és a közlekedés területén jelentkező járványügyi nehézségeket elemezték.</p><h2>Amikor egyszerre több területen jelentkeznek problémák</h2><p>A statisztikai elemzés négy csoportot különített el: kevés nehézség (52,7%), elsősorban ellátási akadályok (21%), több területen kisebb nehézségek (14,9%), illetve több területen súlyos nehézségek (11,4%).</p><p>A kevés nehézséggel jellemzett csoporthoz viszonyítva a pozitív depressziószűrés gyakorisági aránya a több kisebb akadállyal szembesülőknél 2,13 (95%-os konfidenciaintervallum: 1,45–3,14), a súlyosabb akadályokkal jellemzetteknél 1,84 (1,13–3,00) volt. Az elsősorban ellátási akadályokkal küzdőknél az 1,49-es becslés bizonytalanabb volt (0,92–2,41). Az eredmények nem igazolják, hogy a kisebb nehézségek károsabbak lennének a súlyosabbaknál.</p><p>A legsúlyosabb csoportban gyakoribb volt az alacsony jövedelem, a külföldi születés és a korlátozott angol nyelvtudás. A lelki segítségnyújtás során ezért a gyakorlati élethelyzet feltárása is fontos lehet: egy pszichológiai konzultáció önmagában nem oldja meg a lakhatási vagy megélhetési nehézségeket.</p><p>A megfigyeléses vizsgálat kiindulási adatokat elemzett, ezért nem bizonyít okságot. A PHQ-8 szűrőkérdőív pozitív eredménye nem klinikai diagnózis. A kutatásból a jelenlegi magyarországi helyzetre sem lehet közvetlenül következtetni.</p><p>A vizsgálatot az amerikai NIMHD intézet finanszírozta (U01MD017434). A szerzők nem jeleztek összeférhetetlenséget.</p><p><strong>Forrás:</strong> Etim N., Sabado-Liwag M., Martorell C., Maniquis K., Foo M. A., Sngiem S., Kwan P. – Journal of Racial and Ethnic Health Disparities (2026). <a href=\"https://link.springer.com/article/10.1007/s40615-026-03288-1\">Patterns of COVID-19-Related Challenges and Depression Among Southeast Asian American Adults</a>. DOI: 10.1007/s40615-026-03288-1.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s40615-026-03288-1.svg",
+    "hero_image_alt": "Nő a háztartás kiadásait tekinti át",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Patterns of COVID-19-Related Challenges and Depression Among Southeast Asian American Adults",
+        "url": "https://link.springer.com/article/10.1007/s40615-026-03288-1",
+        "published_at": "2026-11-24",
+        "doi": "10.1007/s40615-026-03288-1",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "37a2fd54982d235413211a2a80c38ac14e90083939f00d3a388ff8be2baf3c37",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

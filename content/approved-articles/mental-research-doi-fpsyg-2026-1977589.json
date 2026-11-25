@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-1977589",
+    "slug": "kleptomania-vesztesegkerules-japan-kutatas",
+    "title": "A kleptománia és a veszteségkerülés: nem feltétlenül a jutalom megszerzése áll a háttérben",
+    "category": "Kutatások",
+    "excerpt": "Egy japán vizsgálatban a kleptomániával diagnosztizált résztvevők a veszteségek elkerülésére érzékenyebben reagáltak, mint a többi vizsgált csoport tagjai. Ez új kutatási irányt kínál, de a kényszeres lopás okát nem bizonyítja.",
+    "content_html": "<p>Yukiori Goto és munkatársai a Frontiers in Psychology 2026. november 24-i közleményében 116 Japánban élő felnőtt bevonásával vizsgálták a gazdasági döntéseket. A 63 visszaeső lopás miatt korábban fogvatartott résztvevő közül 16-nál diagnosztizáltak kleptomániát; 53 büntetlen előéletű felnőtt alkotta az összehasonlító csoportot. A kutatók elképzelt vásárlási helyzeteket és laboratóriumi kockázatvállalási feladatokat alkalmaztak.</p><h2>Eltérő döntési mintázatok</h2><p>A kockázati feladatban 107 ember adata volt elemezhető, közöttük 13 kleptomániával élő résztvevőé. A veszteségkerülés és a kockázatvállalás viszonyát jelző mutató a kleptomániás csoportban magasabb volt, mint a többi visszaesőnél (Cohen-féle d = 1,356) és a kontrollcsoportnál (d = 1,102). Az elképzelt vásárlásoknál az ár változására is érzékenyebben reagáltak. A nagy standardizált csoportkülönbségek a kis minta miatt független megerősítést igényelnek.</p><p>A kutatók felvetették, hogy egyes esetekben a veszteségtől való félelem is összefügghet a lopási késztetéssel. A laboratóriumi eredmény azonban nem bizonyítja ezt a mindennapi életben. Különösen fontos, hogy az agyi aktivitást mérő vizsgálatot éppen a kleptomániás csoportban nem tudták elvégezni, így az idegrendszeri magyarázat csak hipotézis.</p><p>A keresztmetszeti elrendezés, a kevés résztvevő és a nem teljesen ismert anyagi körülmények korlátozzák a következtetéseket. A feladatok nem alkalmasak diagnózisra vagy a büntetőjogi felelősség megítélésére. A kutatás jelentősége inkább abban áll, hogy a kényszeres viselkedés mögötti érzelmi és döntési folyamatokat érdemes tovább vizsgálni. A munkát a Japán Tudományfejlesztési Társaság támogatta (25K00898); az egyik szerző vállalati alkalmazott, egy másik a folyóirat szerkesztőbizottságának tagja volt.</p><p><strong>Forrás:</strong> Goto Y., Yoshino S., Kita C., Won M., Lee Y-A. <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1977589/full\">Behavioral economic profiles in theft recidivists with and without kleptomania</a>. Frontiers in Psychology (2026). DOI: 10.3389/fpsyg.2026.1977589.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-1977589.svg",
+    "hero_image_alt": "Elgondolkodó vásárló egy üzletben",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Behavioral economic profiles in theft recidivists with and without kleptomania",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1977589/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fpsyg.2026.1977589",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "e3a9cb4d2d0509b725a12d908feada8a5889ac0eb9d93543d6c04ebb3a49b116",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-1928895",
+    "slug": "kiberhondria-online-egeszsegkereses-kerdoiv",
+    "title": "Amikor a tünetek internetes keresése nem megnyugtat, hanem tovább növeli az aggodalmat",
+    "category": "Kutatások",
+    "excerpt": "Egy szaúd-arábiai kutatás az egészséggel kapcsolatos problémás internetes keresést mérő kérdőív rövidítését vizsgálta. A kedvező statisztikai illeszkedés ellenére az új változat klinikai használatra még nem alkalmas.",
+    "content_html": "<p>Az egészségügyi információk keresése hasznos lehet, de az ismétlődő keresés olykor fokozza a félelmet. Ezt a jelenséget nevezik kiberhondriának. Mohamed Mohamedalhadi Hassan Suliman és munkatársai 304, 18–25 éves egyetemistával vizsgálták a Cyberchondria Severity Scale arab nyelvű változatát.</p>\n<p>Az eredeti 33 kérdésből 16 maradt. Három összetevő különült el a statisztikai modellben: a kényszeres keresés, a lelki megterhelés és a megnyugtatás keresése. Ezek azonban egymással akár 0,90-es korrelációt mutattak, a megnyugtatáskeresés megbízhatósági mutatója pedig csak 0,56 volt. A férfiak és nők válaszainak mérési szerkezete hasonlónak bizonyult, ami önmagában nem igazolja a mérőeszköz érvényességét.</p>\n<p>Ugyanazokon az adatokon választották ki a kérdéseket és ellenőrizték a rövidített változatot, ezért az eredmények túl kedvezőnek tűnhetnek. Az egyetlen egyetemről származó minta sem reprezentatív. Nem bizonyított, hogy az eszköz elkülöníti a problémás keresést az általános egészségszorongástól.</p>\n<p>A kutatás nem kínál diagnosztikai tesztet. Arra viszont felhívja a figyelmet, hogy a keresés gyakorisága mellett annak érzelmi következményeit is érdemes vizsgálni. A munkát a Ha’ili Egyetem támogatta; pénzügyi összeférhetetlenséget nem jelentettek.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1928895/full\">Suliman MMH., Hega AAM., Zayed AMA., Al-Shammari SA.: Item reduction, factor structure, and gender invariance of an Arabic Cyberchondria Severity Scale in Saudi university students: a preliminary study using covariance-based structural equation modeling</a>. Frontiers in Psychology (2026). DOI: 10.3389/fpsyg.2026.1928895.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-1928895.svg",
+    "hero_image_alt": "Aggódó nő egészségügyi információt keres a telefonján",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Item reduction, factor structure, and gender invariance of an Arabic Cyberchondria Severity Scale in Saudi university students: a preliminary study using covariance-based structural equation modeling",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1928895/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fpsyg.2026.1928895",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "2c6013f52e0b4b746b7ad821a0f0077f6051713e6710cc9e3b508c6023f02261",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

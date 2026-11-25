@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12962-026-00868-0",
+    "slug": "online-depresszioszures-szakellatas-kezeles-discover",
+    "title": "Az online depressziószűrés után csak minden ötödik résztvevő jutott el a szakellátásig",
+    "category": "Kutatások",
+    "excerpt": "Egy német vizsgálat 666 résztvevője közül fél éven belül 132 számolt be mentális egészségügyi szakellátási kapcsolatról vagy antidepresszáns szedésének megkezdéséről. A kezelés tényleges elindítása ennél ritkább volt.",
+    "content_html": "<p>Léon Kreis és munkatársai a DISCOVER vizsgálat adatait elemezték a Cost Effectiveness and Resource Allocation folyóiratban 2026. november 24-én megjelent közleményükben. A résztvevőknek a szűréskor legalább közepes súlyosságú depresszív tüneteik voltak, de aktuális depressziódiagnózisuk vagy kezelésük nem volt.</p>\n<h2>A kapcsolatfelvétel még nem kezelés</h2>\n<p>A szakellátási kapcsolatot gyakrabban jelezték azok, akik már kezdetben rosszabb életminőségről, nagyobb egészségügyi kiadásokról vagy munkából való kiesésről számoltak be. Egy szűkebb meghatározással végzett kiegészítő elemzésben mindössze 7 százalék jelezte a kezelés megkezdését.</p>\n<p>A szakellátással kapcsolatba kerülők becsült társadalmi költsége fél év alatt 2537 euróval volt magasabb (95%-os konfidenciaintervallum: 1177–3897 euró, 2022-es árakon). Az életminőséggel korrigált életévekben nem mutattak ki különbséget.</p>\n<p>A szakellátás igénybevétele nem véletlenszerűen történt, ezért az eredmény nem bizonyítja, hogy a kezelés növelte a költségeket, vagy hogy hatástalan lenne. A rövid követési idő, az önbevallás és a kezelés időpontjának hiánya korlátozza az értékelést.</p>\n<p>A szűrés sikerét ezért érdemes a további betegút alapján is megítélni. A pozitív kérdőív nem diagnózis, és a segítségkérés lehetősége nem azonos a tényleges ellátással.</p>\n<p>A kutatást a Német Kutatási Alapítvány támogatta. Több szerző kutatási támogatásokról nyilatkozott; egyikük a folyóirat társszerkesztője.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12962-026-00868-0\">Determinants, costs, and effects of mental healthcare initiation after online depression screening: results of the DISCOVER trial</a>. DOI: 10.1186/s12962-026-00868-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12962-026-00868-0.svg",
+    "hero_image_alt": "Egy felnőtt online kérdőívet tölt ki",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Determinants, costs, and effects of mental healthcare initiation after online depression screening: results of the DISCOVER trial",
+        "url": "https://link.springer.com/article/10.1186/s12962-026-00868-0",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12962-026-00868-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "e29ea9274dafa29f2830ce3df7ecfc818f0e7034813b968709261a84b5d626b9",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

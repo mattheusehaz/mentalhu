@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12916-026-05438-y",
+    "slug": "valtozokor-lelki-tunetek-felkeszultseg",
+    "title": "A változókor lelki tüneteire is fel kell készülni: több mint 14 ezer nő tapasztalata Svédországból",
+    "category": "Kutatások",
+    "excerpt": "A svéd felmérésben a felkészültségükről nyilatkozó nők háromnegyede felkészületlennek érezte magát a változókorra. A lelki és alvási panaszokkal orvoshoz fordulók külön figyelmet érdemelnek.",
+    "content_html": "<p>Rebecca Götze Eriksson és munkatársai a BMC Medicine 2026. november 24-i közleményében 14 020, 45–60 éves nő 2024-ben felvett kérdőíves adatait elemezték. A menopauzával összefüggő tüneteket mérő MRS skálán 38,3 százalék közepes, 43,8 százalék súlyos tünetterhelést jelzett. Ez a minta jellemzője, nem országos gyakorisági becslés.</p>\n<h2>Nem csak a hőhullámokra érdemes figyelni</h2>\n<p>Az ellátást keresők között 2312 nő alkotta azt a statisztikai csoportot, amelyben a lelki és alvási panaszok domináltak. Körükben 57,6 százalék ért el súlyos összesített tünetpontszámot. Korábbi vagy jelenlegi szisztémás hormonkezelést 66,7 százalékuk jelzett, szemben a hőhullámok és izzadás által jellemzett csoport 82,4 százalékával. A különbség nem bizonyítja, hogy a kezelés elmaradása indokolatlan volt.</p>\n<p>A felkészültségről nyilatkozó 12 745 nő 75,7 százaléka alacsony felkészültséget jelzett. A mentálhigiénés és nőgyógyászati ellátás együttműködése, valamint a korai tájékoztatás ezért fontos ellátásszervezési kérdés. A lelki tünetek más okból is kialakulhatnak; kivizsgálásuk és a kezelés megválasztása egyéni mérlegelést igényel.</p>\n<p>Az önbevallásos, keresztmetszeti felmérésben a felsőfokú végzettségűek felülreprezentáltak, a tünetcsoportok elkülönülése gyenge volt. A kutatást svéd állami, regionális és alapítványi források támogatták. Három szerző a vizsgálattól független gyógyszeripari előadói díjakat, illetve kutatási támogatást jelentett.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s12916-026-05438-y\">Götze Eriksson R., Skalkidou A., Cruz N., Sundström Poromaa I., Lindén Hirschberg A., Iliadis S. I. — BMC Medicine (2026). Symptom patterns, treatment use, and preparedness for menopause in Swedish women: a cross-sectional survey</a> DOI: 10.1186/s12916-026-05438-y.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12916-026-05438-y.svg",
+    "hero_image_alt": "Változókorban lévő nő ébren fekszik az ágyban",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Symptom patterns, treatment use, and preparedness for menopause in Swedish women: a cross-sectional survey",
+        "url": "https://link.springer.com/article/10.1186/s12916-026-05438-y",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12916-026-05438-y",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "ff12f9ae3d06d8998fd72a39419afa725773af9ae1bd64041933c215ffd40528",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

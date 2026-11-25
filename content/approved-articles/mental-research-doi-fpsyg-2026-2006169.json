@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-2006169",
+    "slug": "iskolai-stressz-biologiai-jelzok-gepi-tanulas",
+    "title": "Az iskolai stressz nem olvasható ki egyszerűen a biológiai jelzőszámokból",
+    "category": "Kutatások",
+    "excerpt": "Egy 83 német serdülőt vizsgáló kutatásban a gépi tanulás négy biológiai mutatóból kettőt tudott a viszonyítási modellnél pontosabban becsülni. Az eredmény még nem alkalmas egyéni stresszszűrésre.",
+    "content_html": "<p>Jonne Lohilahti és Frances Hoferichter a Frontiers in Psychology november 24-i közleményében 59 lehetséges magyarázó változót vizsgáltak. A diákok átlagéletkora 13,72 év volt. A keresztmetszeti elemzés a nyál kortizol- és alfa-amiláz-szintjére, az oxidatív stresszre és a telomerek hosszára terjedt ki.</p>\n<p>Az alfa-amiláz becslési hibája a véletlenerdő-modellben 6,3 százalékkal, a telomerhosszé a Lasso-regresszióban 15,2 százalékkal csökkent a viszonyítási modellhez képest. A másik két mutatónál nem igazolódott ilyen javulás. Ezek a százalékok a logaritmikusan átalakított értékek becslési hibájára, nem a stressz csökkenésére vonatkoznak.</p>\n<p>A kudarc elkerülésére irányuló motiváció fontosnak bizonyult az alfa-amiláz modelljében. A telomerhossz becslésében az iskolatípus és a digitális szokások is szerepet kaptak. Ez nem bizonyítja, hogy ezek a tényezők biológiai károsodást okoznak.</p>\n<p>A kis minta és a független ellenőrző adatsor hiánya miatt a modellek általánosíthatósága bizonytalan. A tanulók támogatásához továbbra is szükséges megismerni a saját élményeiket és körülményeiket. A vizsgálatot a Greifswaldi Egyetem támogatta; a szerzők nem jeleztek pénzügyi összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2006169/full\">Lohilahti J., Hoferichter F.: Identifying predictors of stress biomarkers in secondary school students using machine learning</a>. Frontiers in Psychology (2026). DOI: 10.3389/fpsyg.2026.2006169.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-2006169.svg",
+    "hero_image_alt": "Serdülő és mintavételi eszközt tartó kutató",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Identifying predictors of stress biomarkers in secondary school students using machine learning",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2006169/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fpsyg.2026.2006169",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "ada22336e8d30f187f894d085e1148d72f51245dbcd124be741a78e5164231b9",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

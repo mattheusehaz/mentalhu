@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-fpsyg-2026-2023087",
+    "slug": "tanari-empatia-egyetemista-jollet-kozosseg",
+    "title": "A tanári empátia erősítheti a közösséghez tartozás érzését",
+    "category": "Kutatások",
+    "excerpt": "Két kínai egyetemi videókísérlet szerint az empatikus oktatói viselkedés kedvezőbb közösségi várakozásokkal járt. A két héttel később mért jóllétben is találtak különbséget, de a tartós hatás még nem igazolt.",
+    "content_html": "<p>Aiping Chen, Zhenni Gao és Mei Zhou a Frontiers in Psychology folyóiratban ismertetett vizsgálatukban külön változtatták az oktató empatikus viselkedését és a tantermi légkört. Az első kísérletben 160 hallgatóval ellenőrizték a videók működését. A másodikba 472-en kerültek be, közülük 428 hallgató adata volt elemezhető.</p>\n<p>A kiindulási jóllétre korrigálva a magasabb empátiájú oktatói helyzethez 1,201 ponttal kedvezőbb WHO-5 eredmény tartozott a 25 pontos skálán (95%-os konfidenciaintervallum: 0,588–1,814). A tantermi légkör önálló hatása és az empátiával való kölcsönhatása a jóllétre nem volt statisztikailag igazolható.</p>\n<p>A közösséghez tartozás várható érzésén keresztül becsült közvetett kapcsolat pozitív légkörben erősebb volt. A különbség 0,280 pont (95%-os bootstrap-intervallum: 0,065–0,545). A közvetítő tényezőt azonban nem manipulálták kísérletileg, így annak oksági szerepe nem bizonyított.</p>\n<p>A hallgatók elképzelt tantermi helyzetet értékeltek, nem tényleges, tartós oktatói kapcsolatot. Az eredmény ezért inkább valódi tantermekben tesztelendő hipotézis, mint kész mentálhigiénés beavatkozás. A szerzők nem jelentettek külön támogatást vagy pénzügyi összeférhetetlenséget.</p>\n<p><strong>Forrás:</strong> <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2023087/full\">Chen A., Gao Z., Zhou M.: Emotionally supportive pedagogies and student wellbeing: the role of teacher empathy, classroom belongingness, and classroom emotional climate</a>. Frontiers in Psychology (2026). DOI: 10.3389/fpsyg.2026.2023087.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-fpsyg-2026-2023087.svg",
+    "hero_image_alt": "Figyelmes oktató beszélget egy hallgatóval",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Emotionally supportive pedagogies and student wellbeing: the role of teacher empathy, classroom belongingness, and classroom emotional climate",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.2023087/full",
+        "published_at": "2026-11-24",
+        "doi": "10.3389/fpsyg.2026.2023087",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "2f0161b496b541f8bf5ccf267151567d16813ea476b003c9f70537836ad97f3f",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

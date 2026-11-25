@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s40359-026-05860-0",
+    "slug": "internet-tarsas-bizalom-szubjektiv-jollet",
+    "title": "Az internet és a jóllét kapcsolata: nem mindegy, kiben bízunk",
+    "category": "Kutatások",
+    "excerpt": "Egy kínai, több időpontban felvett adatokat elemző kutatás szerint az internethasználat és a társas bizalom összefüggése függhet az életkörülményektől. A nagyobb bizalom azonban nem járt automatikusan jobb jólléttel.",
+    "content_html": "<p>Qing Wang és Xuebo Zhang a BMC Psychology 2026. november 24-én megjelent tanulmányában a China Family Panel Studies adatait elemezték. Személyen belüli változásokat is vizsgáló modelleket és időben késleltetett regressziókat alkalmaztak, hogy elkülönítsék a bizalom különböző formáit.</p>\n<p>Az internethasználat együtt járt az idegenek, illetve a családtagok és szomszédok iránti nagyobb bizalommal. Az utóbbi bizalmi mutatón keresztül ugyanakkor nagyon kicsi negatív közvetett összefüggést becsültek a szubjektív jólléttel (b = −0,005). Az idegenek iránti bizalom esetében a jólléthez vezető közvetett kapcsolat nem volt statisztikailag igazolható. A jobb objektív társadalmi-gazdasági helyzet erősítette az internethasználat és az idegenek iránti bizalom kapcsolatát (interakciós együttható: 0,369; p = 0,011).</p>\n<p>Az eredmény nem indokol általános következtetést arról, hogy az internet javítja vagy rontja a lelkiállapotot. A digitális hozzáférés mellett érdemes vizsgálni, milyen kapcsolati lehetőségeket teremt a használat, és kik tudnak ezekből előnyt kovácsolni.</p>\n<p>A megfigyeléses adatok nem igazolnak okságot. Az elérhető kivonat nem közli a mintanagyságot és a fenti becslések konfidenciaintervallumait, ezért a gyakorlati jelentőség korlátozottan értékelhető. Külön kutatási támogatást és összeférhetetlenséget a szerzők nem jelentettek.</p>\n<p><strong>Forrás:</strong> <a href=\"https://link.springer.com/article/10.1186/s40359-026-05860-0\">Wang Q., Zhang X. — BMC Psychology (2026). The conditional effects of internet use on well-being: heterogeneous trust mechanisms and socioeconomic boundaries of digital capital conversion</a> DOI: 10.1186/s40359-026-05860-0.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s40359-026-05860-0.svg",
+    "hero_image_alt": "Férfi videóhívásban beszélget egy családtagjával",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "The conditional effects of internet use on well-being: heterogeneous trust mechanisms and socioeconomic boundaries of digital capital conversion",
+        "url": "https://link.springer.com/article/10.1186/s40359-026-05860-0",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s40359-026-05860-0",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "95030ef880d606443efdc581b2ca86068faeb7a6c86258a933333001711882c4",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}

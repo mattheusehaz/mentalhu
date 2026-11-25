@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-s12991-026-00701-1",
+    "slug": "helicobacter-pylori-depresszio-immunanyagcsere",
+    "title": "A Helicobacter pylori és a depresszió: új összefüggést találtak, de kezelési következtetés még nincs",
+    "category": "Kutatások",
+    "excerpt": "Egy 3312 brit résztvevő adatain alapuló kutatásban a Helicobacter pylori ellen termelődő antitestek jelenléte együtt járt a depresszióra utaló kérdőíves eredményekkel. A kapcsolat szerény volt, és nem bizonyítja, hogy a baktérium okozza a depressziót.",
+    "content_html": "<p>Xinjie Zeng és munkatársai az Annals of General Psychiatry 2026. november 24-i közleményében a UK Biobank 37–73 éves résztvevőinek adatait elemezték. A szeropozitivitást öt bakteriális antigénnel szembeni antitestválasz alapján határozták meg. A depressziós státuszt kérdőíves válaszokból állapították meg, nem klinikai vizsgálattal.</p><p>Az életmódbeli, demográfiai és biokémiai tényezőkre korrigált esélyhányados 1,23 volt (95%-os konfidenciaintervallum: 1,02–1,47). Ez nem 23 százalékpontos kockázatnövekedést jelent. Az antitestek jelenléte önmagában az aktív fertőzést sem bizonyítja.</p><h2>A testi és lelki folyamatok kapcsolata</h2><p>A statisztikai modellben az inzulinrezisztencia becsült mutatója az összefüggés 12,6 százalékát magyarázta közvetett kapcsolatként. A kiegészítő mendeli randomizációs elemzésben a genetikailag becsült katalázellenes antitestszint és egy depresszióhoz kapcsolódó fenotípus között igen kis pozitív összefüggést találtak (esélyhányados: 1,012; 95%-os konfidenciaintervallum: 1,002–1,020).</p><p>A keresztmetszeti elemzés nem igazol időbeli sorrendet, a genetikai módszer pedig saját előfeltevésektől függ. A vizsgálat nem tesztelte, hogy a fertőzés kezelése javítja-e a depressziós tüneteket. A lelki panaszok kivizsgálását ezért nem helyettesítheti a baktérium kimutatása, és a kutatás önmagában nem indokol antibiotikumos kezelést depresszió miatt.</p><p>A munkát a Fujian Medical University Union Hospital és egy tartományi kutatási program támogatta. A szerzők összeférhetetlenséget nem jelentettek.</p><p><strong>Forrás:</strong> Zeng X., Wang J., Luo L., Hu F., Zhang H., Zhang F., Fan L. – Annals of General Psychiatry (2026). <a href=\"https://link.springer.com/article/10.1186/s12991-026-00701-1\">Helicobacter pylori seropositivity and depression-related outcomes: evidence from UK Biobank and Mendelian randomization</a>. DOI: 10.1186/s12991-026-00701-1.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "/assets/mental-research-s12991-026-00701-1.svg",
+    "hero_image_alt": "Orvos és páciens beszélget egy rendelőben",
+    "hero_image_caption": "MI-generált szerkesztőségi illusztráció; nem a kutatás eredeti képe.",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Helicobacter pylori seropositivity and depression-related outcomes: evidence from UK Biobank and Mendelian randomization",
+        "url": "https://link.springer.com/article/10.1186/s12991-026-00701-1",
+        "published_at": "2026-11-24",
+        "doi": "10.1186/s12991-026-00701-1",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-25T13:02:14Z",
+    "revision_sha256": "020fa8a3c45d6e5e6f03890d361202b6a93bce1d99b505be022733b8ff3105b0",
+    "reference": "chat-message:2026-11-25T13:02:14Z — 10-enként haladj akkor. első 10 képgenerálás és publiklálás, majd utána a többi 10-enként; előzmény (2026-11-25T13:00:37Z): mindegyikhez generálj normális képet és mehetnek fel"
+  }
+}
