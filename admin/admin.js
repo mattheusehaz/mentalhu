@@ -80,23 +80,24 @@ async function refreshArticles(){
 function renderArticles(){
   const q=$('#articleSearch').value.toLowerCase(), st=$('#statusFilter').value;
   const rows=articles.filter(a=>(!q||a.title.toLowerCase().includes(q)||(a.category||'').toLowerCase().includes(q))&&(!st||a.status===st));
-  $('#articleTable').innerHTML=`<table class="table"><thead><tr><th>CÍM</th><th>ROVAT</th><th>STÁTUSZ</th><th>FRISSÍTVE</th><th></th></tr></thead><tbody>${rows.map(a=>`<tr><td><a href="#" class="article-link" data-edit="${a.id}">${esc(a.title)}</a></td><td>${esc(a.category)}</td><td><span class="badge ${a.status==='published'?'published':''}">${a.status==='published'?'Publikált':'Piszkozat'}</span></td><td>${new Date(a.updated_at).toLocaleString('hu-HU')}</td><td>${a.status==='published'?'<a target="_blank" href="/cikk/'+encodeURIComponent(a.slug)+'">Megnyitás ↗</a>':''}</td></tr>`).join('')}</tbody></table>`;
+  $('#articleTable').innerHTML=`<table class="table"><thead><tr><th>CÍM</th><th>TÉMA</th><th>STÁTUSZ</th><th>FRISSÍTVE</th><th></th></tr></thead><tbody>${rows.map(a=>`<tr><td><a href="#" class="article-link" data-edit="${a.id}">${esc(a.title)}</a></td><td>${esc(a.category)}</td><td><span class="badge ${a.status==='published'?'published':''}">${a.status==='published'?'Publikált':'Piszkozat'}</span></td><td>${new Date(a.updated_at).toLocaleString('hu-HU')}</td><td>${a.status==='published'?'<a target="_blank" href="/cikk/'+encodeURIComponent(a.slug)+'">Megnyitás ↗</a>':''}</td></tr>`).join('')}</tbody></table>`;
   $$('[data-edit]').forEach(x=>x.addEventListener('click',e=>{e.preventDefault();editArticle(x.dataset.edit)}));
 }
 $('#articleSearch').addEventListener('input',renderArticles); $('#statusFilter').addEventListener('change',renderArticles);
 
 function resetEditor(){
   articleMetadata={hero_image_path:null,sources:[]}; savedArticleStatus='draft';
-  $('#articleForm').reset(); $('#articleId').value=''; $('#authorName').value='MENTÁL.hu'; $('#status').value='draft'; $('#deleteArticleBtn').hidden=true; $('#editorMsg').textContent=''; $('#editorMsg').className='msg';
+  $('#articleForm').reset(); $('#category').value='Mentális egészség'; $('#articleId').value=''; $('#authorName').value='MENTÁL.hu'; $('#status').value='draft'; $('#deleteArticleBtn').hidden=true; $('#editorMsg').textContent=''; $('#editorMsg').className='msg';
   updateArticleLinks(); updateArticleStatus(); updateHeroPreview(); renderArticleSources();
 }
 async function editArticle(id){
   const a=await api('/api/admin/articles/'+encodeURIComponent(id)); openView('editor');
   articleMetadata={hero_image_path:a.hero_image_path||null,sources:Array.isArray(a.sources)?a.sources:[]}; savedArticleStatus=a.status||'draft';
-  if(a.category&&!Array.from($('#category').options).some(option=>option.value===a.category)){
-    const option=document.createElement('option'); option.value=a.category; option.textContent=a.category; $('#category').append(option);
+  const category=a.category&&a.category!=='Kutatások'?a.category:'Mentális egészség';
+  if(!Array.from($('#category').options).some(option=>option.value===category)){
+    const option=document.createElement('option'); option.value=category; option.textContent=category; $('#category').append(option);
   }
-  $('#articleId').value=a.id; $('#title').value=a.title; $('#slug').value=a.slug; $('#category').value=a.category||'Kutatások'; $('#excerpt').value=a.excerpt||''; $('#contentHtml').value=a.content_html||''; $('#authorName').value=a.author_name||'MENTÁL.hu'; $('#heroImageId').value=a.hero_image_id||''; $('#heroImageAlt').value=a.hero_image_alt||''; $('#seoTitle').value=a.seo_title||''; $('#seoDescription').value=a.seo_description||''; $('#status').value=a.status||'draft'; $('#featured').checked=!!a.featured; $('#deleteArticleBtn').hidden=false; $('#editorMsg').textContent=''; $('#editorMsg').className='msg';
+  $('#articleId').value=a.id; $('#title').value=a.title; $('#slug').value=a.slug; $('#category').value=category; $('#excerpt').value=a.excerpt||''; $('#contentHtml').value=a.content_html||''; $('#authorName').value=a.author_name||'MENTÁL.hu'; $('#heroImageId').value=a.hero_image_id||''; $('#heroImageAlt').value=a.hero_image_alt||''; $('#seoTitle').value=a.seo_title||''; $('#seoDescription').value=a.seo_description||''; $('#status').value=a.status||'draft'; $('#featured').checked=!!a.featured; $('#deleteArticleBtn').hidden=false; $('#editorMsg').textContent=''; $('#editorMsg').className='msg';
   updateArticleLinks(); updateArticleStatus(); updateHeroPreview(); renderArticleSources();
 }
 function payload(){return{title:$('#title').value,slug:$('#slug').value,category:$('#category').value,excerpt:$('#excerpt').value,content_html:$('#contentHtml').value,author_name:$('#authorName').value,hero_image_id:$('#heroImageId').value||null,hero_image_path:articleMetadata.hero_image_path,hero_image_alt:$('#heroImageAlt').value,sources:articleMetadata.sources,status:$('#status').value,featured:$('#featured').checked,seo_title:$('#seoTitle').value,seo_description:$('#seoDescription').value}}

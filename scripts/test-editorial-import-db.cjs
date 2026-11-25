@@ -10,6 +10,7 @@ const crypto = require('node:crypto');
 const { Pool } = require('pg');
 const { buildDatabaseConfig } = require('../lib/database-config.cjs');
 const { prepareArticle, articleRevision, importApprovedArticles, importLegacyArticles } = require('../lib/editorial-import.cjs');
+const { backfillArticleTopics } = require('../lib/article-topics.cjs');
 
 const database = new URL(process.env.DATABASE_URL || 'http://invalid');
 assert(['postgres:', 'postgresql:'].includes(database.protocol) && ['127.0.0.1', 'localhost', '[::1]'].includes(database.hostname) && /^\/[a-zA-Z0-9_]*test[a-zA-Z0-9_]*$/.test(database.pathname), 'Disposable local test database required');
@@ -22,13 +23,13 @@ const root = fs.mkdtempSync(path.join(os.tmpdir(), 'mental-editorial-db-'));
 const approvedDir = path.join(root, 'content/approved-articles');
 fs.mkdirSync(approvedDir, {recursive:true});
 const originalFile = path.join(approvedDir, externalId + '.json');
-const logger = {error:()=>{}};
+const logger = {error:()=>{},log:()=>{},info:()=>{}};
 const ids = [];
 const importKeys = ['approved:' + externalId, 'approved:' + duplicateId, 'legacy:' + legacySlug + '.html'];
 
 function fixture(id = externalId) {
   return prepareArticle({
-    external_id:id,slug:id,title:'Izolált tesztcikk – nem kutatási eredmény',category:'Kutatások',
+    external_id:id,slug:id,title:'Alvás – izolált tesztcikk, nem kutatási eredmény',category:'Kutatások',
     excerpt:'Kizárólag helyi, törlendő adatbázisteszt.',
     content_html:'<p>' + 'Ez a tartalom kizárólag az izolált tesztadatbázisban vizsgálja a publikálási folyamatot. '.repeat(3) + '</p>',
     sources:[{title:'Helyi tesztforrás',url:'https://example.test/research/' + runId,doi:'10.9999/ci-editorial-' + runId,kind:'peer-reviewed'}]
@@ -58,6 +59,7 @@ const runApproved = () => importApprovedArticles({pool,root,logger});
   const stored = (await pool.query('SELECT * FROM articles WHERE external_id=$1',[externalId])).rows[0];
   ids.push(stored.id);
   assert.equal(stored.status,'published');assert.equal(stored.publication_origin,'research-watch');
+  assert.equal(stored.category,'Alvás','New research imports store a specific topic');
   assert.equal(stored.content_revision,packageData.approval.revision_sha256);
   assert.equal(stored.content_html,packageData.article.content_html);
   assert.equal(stored.approval_ref,packageData.approval.reference);
@@ -66,10 +68,30 @@ const runApproved = () => importApprovedArticles({pool,root,logger});
   const audit = (await pool.query("SELECT details FROM cms_audit_log WHERE action='publish_approved_article' AND entity_type='article' AND entity_id=$1",[String(stored.id)])).rows;
   assert.equal(audit.length,1);assert.equal(audit[0].details.revision,stored.content_revision);
 
+  // Existing generic labels are updated once without changing the approved publication.
+  const preservedPublication = {published_at:stored.published_at,status:stored.status,content_revision:stored.content_revision,content_html:stored.content_html};
+  await pool.query("UPDATE articles SET category='Kutatások' WHERE id=$1",[stored.id]);
+  assert.equal((await backfillArticleTopics({pool,logger})).updated,1);
+  const topicUpdated = (await pool.query('SELECT category,published_at,status,content_revision,content_html FROM articles WHERE id=$1',[stored.id])).rows[0];
+  assert.deepEqual(topicUpdated,{category:'Alvás',...preservedPublication});
+  const topicAuditCount = async()=> (await pool.query("SELECT count(*)::int AS count FROM cms_audit_log WHERE action='update_article_topic' AND entity_type='article' AND entity_id=$1",[String(stored.id)])).rows[0].count;
+  assert.equal(await topicAuditCount(),1);
+  assert.equal((await backfillArticleTopics({pool,logger})).updated,0);
+  assert.equal(await topicAuditCount(),1,'A repeated backfill must not duplicate the audit entry');
+  assert.deepEqual(JSON.parse(fs.readFileSync(originalFile,'utf8')),packageData,'Topic assignment leaves the immutable approved package untouched');
+
+  // A specific topic chosen by an editor wins over automatic classification.
+  await pool.query("UPDATE articles SET category='Munka' WHERE id=$1",[stored.id]);
+  assert.equal((await backfillArticleTopics({pool,logger})).updated,0);
+  const manuallyAssigned = (await pool.query('SELECT category,published_at,status,content_revision,content_html FROM articles WHERE id=$1',[stored.id])).rows[0];
+  assert.deepEqual(manuallyAssigned,{category:'Munka',...preservedPublication});
+  assert.equal(await topicAuditCount(),1);
+
   // A redeploy is idempotent and does not create another audit publication.
   result = await runApproved();
   assert.equal(result.imported,0);assert.equal(result.skipped,1);assert.deepEqual(result.errors,[]);
   assert.equal((await pool.query('SELECT count(*)::int AS count FROM articles WHERE external_id=$1',[externalId])).rows[0].count,1);
+  assert.equal((await pool.query('SELECT category FROM articles WHERE id=$1',[stored.id])).rows[0].category,'Munka');
   assert.equal((await pool.query("SELECT count(*)::int AS count FROM cms_audit_log WHERE action='publish_approved_article' AND entity_id=$1",[String(stored.id)])).rows[0].count,1);
 
   // A new external ID cannot duplicate the same primary study.
@@ -123,7 +145,7 @@ const runApproved = () => importApprovedArticles({pool,root,logger});
   assert.equal(result.skipped,1);assert.equal(result.imported,0);
   assert.equal((await pool.query('SELECT count(*)::int AS count FROM articles WHERE slug=$1',[legacySlug])).rows[0].count,0);
 
-  console.log(JSON.stringify({ok:true,approvedPublication:true,audit:true,idempotent:true,doiDeduplication:true,revisionGuard:true,immutableImports:true,ownerEditsPreserved:true,deletionNotResurrected:true,legacyDraftPreserved:true,productionArticlesCreated:0}));
+  console.log(JSON.stringify({ok:true,approvedPublication:true,audit:true,idempotent:true,topicAssignment:true,topicBackfillIdempotent:true,topicPreservesApprovedContent:true,manualTopicPreserved:true,doiDeduplication:true,revisionGuard:true,immutableImports:true,ownerEditsPreserved:true,deletionNotResurrected:true,legacyDraftPreserved:true,productionArticlesCreated:0}));
 })().catch(error=>{console.error(error);process.exitCode=1;}).finally(async()=>{
   try {
     await pool.query("DELETE FROM cms_audit_log WHERE entity_type='article' AND (entity_id=ANY($1::text[]) OR details->>'import_key'=ANY($2::text[]))",[ids.map(String),importKeys]);

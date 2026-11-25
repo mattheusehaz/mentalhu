@@ -76,7 +76,10 @@ async function stop() {
   assert.equal((await json('/api/public/articles?limit=NaN')).length,Math.min(baselineTotal,12));
   const search = await json('/api/public/articles?paginated=true&q='+encodeURIComponent('szorongás'));
   assert(search.total>=1);
-  assert((await page('/cikkek?q='+encodeURIComponent('szorongás'))).includes('A szorongás nem mindig látványos'));
+  const searchPage = await page('/cikkek?q='+encodeURIComponent('szorongás'));
+  assert.deepEqual(articleLinks(searchPage),search.items.map(article=>article.url),'Search archive matches the current paginated API results');
+  const legacySearchTitle = 'A szorongás nem mindig látványos';
+  assert((await page('/cikkek?q='+encodeURIComponent(legacySearchTitle))).includes(legacySearchTitle),'Older articles remain discoverable by title as the archive grows');
   const allOld = legacyItems;
   for(const a of allOld) {
     const article=await page(a.url);assert(article.includes(a.title));assert(article.includes('href="/cikkek"'));

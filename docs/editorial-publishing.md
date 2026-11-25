@@ -4,9 +4,15 @@ A `/cikkek` és a főoldal ugyanabból a `published` állapotú cikkadatbázisb�
 
 ## Már megjelent írások
 
-A `009_articles_editorial.sql` migráció után az `importEditorialContent({pool, root})` beolvassa a `cikkek/*.html` korábban nyilvános írásait. A címet, bevezetőt, rovatot, törzset, borítót és képaláírást megőrzi. A nyolc dátummal rendelkező írás eredeti dátuma 2026. szeptember 10. A dátum nélkül megjelent `amikor-elfaradunk-egymasban` cikk `published_at` mezője üres marad: a rendszer nem mutatja új kutatásként vagy friss megjelenésként.
+A `009_articles_editorial.sql` migráció után az `importEditorialContent({pool, root})` beolvassa a `cikkek/*.html` korábban nyilvános írásait. A címet, bevezetőt, témát, törzset, borítót és képaláírást megőrzi. A nyolc dátummal rendelkező írás eredeti dátuma 2026. szeptember 10. A dátum nélkül megjelent `amikor-elfaradunk-egymasban` cikk `published_at` mezője üres marad: a rendszer nem mutatja új kutatásként vagy friss megjelenésként.
 
 Az import nem írja felül a CMS-ben már létező cikket, akkor sem, ha az piszkozat. A külön `article_import_ledger` napló megmarad a cikk törlése után is. Újraindításkor a szerkesztő által módosított, visszavont vagy törölt cikk nem kerül vissza automatikusan.
+
+## Témafelcímek
+
+A cikk `category` mezője a valódi témát jelöli: például `Alvás`, `Szorongás`, `Depresszió`, `ADHD`, `Kapcsolatok` vagy `Munka és kiégés`. Az új tervezet témáját a cím és a tartalom súlypontja alapján, még a jóváhagyásra mutatás előtt kell kiválasztani. A `Kutatások` a cikk eredetét írja le, ezért nem használjuk témafelcímként. Az adminban a mező neve **Téma**; az üres szerkesztő alapértéke `Mentális egészség`, amely helyett érdemes konkrét témát választani.
+
+A tulajdonos kérésére a korábbi általános `Kutatások` kategóriájú cikkek szerkesztett témafelcímeket kapnak. Ez a CMS `category` metaadatának feltételes módosítása, auditnaplóval; a már konkrét szerkesztői témát nem írja felül. A jóváhagyott importcsomagok és a hozzájuk tartozó változatazonosítók változatlanok maradnak. A cikk szövege, forrásai és publikálási állapota ettől nem változik.
 
 ## Kutatásfigyelő és jóváhagyás a beszélgetésben
 
@@ -32,7 +38,7 @@ Az alábbi minta séma, nem publikálható cikk. A példa szövegeit, az időt �
     "external_id": "mental-research-egyedi-azonosito",
     "slug": "a-jovahagyott-cikk-slugja",
     "title": "A jóváhagyott cím",
-    "category": "Kutatások",
+    "category": "Alvás",
     "excerpt": "A jóváhagyott bevezető.",
     "content_html": "<p>A teljes, forrásokkal alátámasztott és jóváhagyott magyar cikk.</p>",
     "author_name": "MENTÁL.hu",

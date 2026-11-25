@@ -10,6 +10,7 @@ const multer = require('multer');
 const sanitizeHtml = require('sanitize-html');
 const slugify = require('slugify');
 const { Pool } = require('pg');
+const { resolveArticleTopic, backfillArticleTopics } = require('./lib/article-topics.cjs');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -240,8 +241,9 @@ app.post('/api/admin/articles', auth, async (req, res) => {
   const slug = articleSlug(req.body.slug, title);
   const content = cleanHtml(req.body.content_html || '');
   const status = req.body.status === 'published' ? 'published' : 'draft';
+  const category = resolveArticleTopic({slug,title,category:req.body.category,excerpt:req.body.excerpt});
   const values = [
-    slug, title, String(req.body.category || 'Önismeret'), String(req.body.excerpt || ''),
+    slug, title, category, String(req.body.excerpt || ''),
     content, String(req.body.author_name || 'MENTÁL.hu'),
     req.body.hero_image_id || null, String(req.body.hero_image_alt || ''),
     status, Boolean(req.body.featured), String(req.body.seo_title || ''),
@@ -276,6 +278,7 @@ app.put('/api/admin/articles/:id', auth, async (req, res) => {
   const status = req.body.status === 'published' ? 'published' : 'draft';
   const wasPublished = current.rows[0].status === 'published';
   const publishedAt = status === 'published' ? (wasPublished ? current.rows[0].published_at : new Date()) : null;
+  const category = resolveArticleTopic({slug,title,category:req.body.category,excerpt:req.body.excerpt});
 
   try {
     const { rows } = await pool.query(`
@@ -285,7 +288,7 @@ app.put('/api/admin/articles/:id', auth, async (req, res) => {
         seo_description=$12,reading_minutes=$13,published_at=$14,updated_at=now()
       WHERE id=$15 RETURNING *
     `, [
-      slug,title,String(req.body.category || 'Önismeret'),String(req.body.excerpt || ''),content,
+      slug,title,category,String(req.body.excerpt || ''),content,
       String(req.body.author_name || 'MENTÁL.hu'),req.body.hero_image_id || null,
       String(req.body.hero_image_alt || ''),status,Boolean(req.body.featured),
       String(req.body.seo_title || ''),String(req.body.seo_description || ''),
@@ -527,6 +530,8 @@ async function initializeDatabase() {
     if (!DATABASE_URL) throw Object.assign(new Error('Missing database configuration'), { code: 'DATABASE_URL_MISSING' });
     await migrate();
     await require('./lib/editorial-import.cjs').importEditorialContent({pool,root:ROOT});
+    try { await backfillArticleTopics({pool}); }
+    catch (error) { console.error('[article-topics] update failed:', safeDbCode(error)); }
     const heroImport = await require('./lib/editorial-hero-import.cjs').importApprovedHeroAssignments({pool,root:ROOT});
     if (heroImport.errors.length) console.error('[editorial-heroes] errors:', heroImport.errors.length);
     dbState.ready = true;
