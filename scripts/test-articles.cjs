@@ -24,6 +24,11 @@ async function json(url,options={}) { const response = await req(url,options); a
 async function page(url,options={}) { const response = await req(url,options); assert.equal(response.status,200,url+' '+output); return response.text(); }
 const apiOptions = (method,data) => ({method,headers:{'Content-Type':'application/json',Cookie:session},body:JSON.stringify(data)});
 const articleClassCount = (markup, className) => [...markup.matchAll(/<article\b[^>]*class="([^"]*)"/g)].filter(match=>match[1].split(/\s+/).includes(className)).length;
+const articleLinks = markup => [...new Set([...markup.matchAll(/\bhref="(\/cikk\/[^"]+)"/g)].map(match=>match[1]))];
+function homeSection(markup, id) {
+  const match = markup.match(new RegExp('<section\\b[^>]*\\bid="'+id+'"[^>]*>[\\s\\S]*?<\\/section>'));
+  return match ? match[0] : '';
+}
 
 async function start() {
   server = spawn(process.execPath,['server.js'],{cwd:root,env:{...process.env,PORT:'18084',NODE_ENV:'test',CMS_JWT_SECRET:secret,CMS_ADMIN_EMAIL:'admin@example.test',CMS_ADMIN_PASSWORD:password},stdio:['ignore','pipe','pipe']});
@@ -47,12 +52,20 @@ async function stop() {
   assert(legacyItems.filter(a=>a.published_at).every(a=>a.published_at.startsWith('2026-09-10')),'Import must not manufacture freshness');
   assert(legacyItems.every(a=>a.hero_url.startsWith('/assets/')));
   const home = await page('/');
-  const expectedHomeTotal=Math.min(baselineTotal,14), expectedFeatured=Math.min(baselineTotal,5), expectedLower=Math.max(0,expectedHomeTotal-expectedFeatured);
+  const expectedHomeTotal=Math.min(baselineTotal,35), expectedFeatured=Math.min(baselineTotal,5);
+  const expectedLower=Math.min(Math.max(baselineTotal-5,0),15), expectedContinued=Math.min(Math.max(baselineTotal-20,0),15);
+  const homeFeatured=homeSection(home,'friss-cikkek'), homeLower=homeSection(home,'cikkek'), homeContinued=homeSection(home,'tovabbi-cikkek');
   assert.equal(articleClassCount(home,'story'),expectedHomeTotal);
-  assert.equal(articleClassCount(home,'story-compact'),Math.max(0,expectedFeatured-1));
-  assert.equal(articleClassCount(home,'article-card'),expectedLower);
-  const homeOrder=[home.indexOf('id="friss-cikkek"'),home.search(/<form\b[^>]*action="\/kereses"/),home.indexOf('id="cikkek"'),home.indexOf('id="kategoriak"'),home.indexOf('id="tudastar"')];
-  assert(homeOrder.every((position,index)=>position>=0 && (index===0 || position>homeOrder[index-1])),'Home order: cover, expert search, articles, categories, knowledge');
+  assert.equal(articleClassCount(homeFeatured,'story'),expectedFeatured);
+  assert.equal(articleClassCount(homeFeatured,'story-compact'),Math.max(0,expectedFeatured-1));
+  assert.equal(articleClassCount(homeLower,'article-card'),expectedLower);
+  assert.equal(articleClassCount(homeContinued,'article-card'),expectedContinued);
+  const expectedHomeUrls=initial.items.slice(0,35).map(article=>article.url);
+  const renderedHomeUrls=[...articleLinks(homeFeatured),...articleLinks(homeLower),...articleLinks(homeContinued)];
+  assert.equal(new Set(renderedHomeUrls).size,expectedHomeTotal,'No article repeats between featured and either grid');
+  assert.deepEqual(renderedHomeUrls,expectedHomeUrls,'Homepage preserves the newest published article order');
+  const homeOrder=[home.indexOf('id="friss-cikkek"'),home.search(/<form\b[^>]*action="\/kereses"/),home.indexOf('id="cikkek"'),home.indexOf('id="pause-title"'),home.indexOf('<!-- home-more-articles:start -->'),home.indexOf('id="kategoriak"'),home.indexOf('id="tudastar"')];
+  assert(homeOrder.every((position,index)=>position>=0 && (index===0 || position>homeOrder[index-1])),'Home order: cover, expert search, first grid, pause, continuation, categories, knowledge');
   assert(home.includes('href="/cikkek"'));
   const archive = await page('/cikkek');
   assert.equal(articleClassCount(archive,'story-grid'),Math.min(baselineTotal,12));
@@ -96,7 +109,17 @@ async function stop() {
   fs.mkdirSync(path.join(root,'test-artifacts'),{recursive:true});
   await browserPage.goto(base+'/',{waitUntil:'networkidle'});
   await browserPage.locator('#cikkek').screenshot({path:'test-artifacts/articles-home-desktop.png'});
-  assert.equal(await browserPage.locator('.home-editorial .story').count(),expectedLower);
+  assert.equal(await browserPage.locator('#cikkek .story').count(),expectedLower);
+  assert.equal(await browserPage.locator('#tovabbi-cikkek .story').count(),expectedContinued);
+  const browserHomeUrls=await browserPage.locator('#friss-cikkek .story-link, #cikkek .story-link, #tovabbi-cikkek .story-link').evaluateAll(links=>links.map(link=>link.getAttribute('href')));
+  assert.deepEqual(browserHomeUrls,expectedHomeUrls,'Browser renders 5 + 15 + 15 distinct latest stories');
+  for(const [selector,expected] of [['#cikkek',expectedLower],['#tovabbi-cikkek',expectedContinued]]) {
+    if(expected===15) {
+      const layout=await browserPage.locator(selector+' .article-grid').evaluate(grid=>({columns:getComputedStyle(grid).gridTemplateColumns.split(/\s+/).length,rows:new Set([...grid.querySelectorAll(':scope > article')].map(card=>Math.round(card.getBoundingClientRect().top))).size}));
+      assert.deepEqual(layout,{columns:3,rows:5},selector+' must have three columns and five rows on desktop');
+    }
+  }
+  if(expectedContinued)await browserPage.locator('#tovabbi-cikkek').screenshot({path:'test-artifacts/articles-home-more-desktop.png'});
   await browserPage.locator('.dir-nav').getByRole('link',{name:'Magazin',exact:true}).click();
   await browserPage.waitForURL('**/cikkek');
   await browserPage.screenshot({path:'test-artifacts/articles-index-desktop.png',fullPage:true});
@@ -114,6 +137,9 @@ async function stop() {
   }
   await mp.goto(base+'/',{waitUntil:'networkidle'});
   await mp.locator('#cikkek').screenshot({path:'test-artifacts/articles-home-mobile.png'});
+  assert.equal(await mp.locator('#cikkek .story').count(),expectedLower);
+  assert.equal(await mp.locator('#tovabbi-cikkek .story').count(),expectedContinued);
+  if(expectedContinued)await mp.locator('#tovabbi-cikkek').screenshot({path:'test-artifacts/articles-home-more-mobile.png'});
   await mp.locator('.mobile-menu summary').click();
   await mp.locator('.mobile-menu').getByRole('link',{name:'Magazin',exact:true}).click();await mp.waitForURL('**/cikkek');
   await mp.screenshot({path:'test-artifacts/articles-index-mobile.png',fullPage:true});
@@ -141,7 +167,7 @@ async function stop() {
   assert.equal((await req('/cikkek//'+original.slug+'.html')).status,404,'Normalized static paths must not leak unpublished articles');
   await pool.query('UPDATE articles SET title=$1,status=$2 WHERE id=$3',[original.title,'published',original.id]);
   assert.equal((await pool.query("SELECT count(*)::int AS n FROM articles WHERE publication_origin='legacy'")).rows[0].n,legacyFiles.length);
-  const report={ok:true,legacyArticles:legacyFiles.length,baselineTotal,originalDatesPreserved:true,serverRenderedHome:true,archiveSearch:true,pagination:true,draftHidden:true,privatePreview:true,publishUpdatesHome:true,unpublishHidesLegacyUrl:true,restartPreservesCmsEdits:true,desktopAndMobile:true,browserAdminDraftCreation:true,browserErrors:errors,realResearchArticlesPublished:0};
+  const report={ok:true,legacyArticles:legacyFiles.length,baselineTotal,originalDatesPreserved:true,serverRenderedHome:true,homeFeatured:expectedFeatured,homeFirstGrid:expectedLower,homeContinuationGrid:expectedContinued,homeNoRepeats:true,archiveSearch:true,pagination:true,draftHidden:true,privatePreview:true,publishUpdatesHome:true,unpublishHidesLegacyUrl:true,restartPreservesCmsEdits:true,desktopAndMobile:true,browserAdminDraftCreation:true,browserErrors:errors,realResearchArticlesPublished:0};
   fs.writeFileSync(path.join(root,'articles-test-report.json'),JSON.stringify(report,null,2));
   console.log('ARTICLE_TESTS_OK',JSON.stringify(report));
 })().catch(error=>{console.error(error.stack);console.error(output);process.exitCode=1;}).finally(async()=>{
