@@ -184,7 +184,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -227,6 +227,16 @@ app.get(['/health/db', '/health/ready'], async (_req, res) => {
     res.status(503).json({ ok: false, database: false, migrations: dbState.ready, phase: dbState.phase, code: safeDbCode(err) });
   }
 });
+
+// Measurement stays separate from page rendering and never includes signed-in administrators.
+const statisticsService = require('./lib/site-statistics.cjs').createStatisticsService({
+  pool, auth, dbState,
+  secret: crypto.createHmac('sha256', JWT_SECRET).update('mental-site-statistics-v1').digest('hex'),
+  isAdmin: req => !!getAdminUser(req)
+});
+statisticsService.register(app);
+statisticsService.start();
+app.use(statisticsService.publicMiddleware);
 
 // A fallback menu is not evidence that the database is ready.
 app.use((req, res, next) => {

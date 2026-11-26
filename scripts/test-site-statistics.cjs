@@ -1,0 +1,58 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const vm=require('node:vm');
+const {calendar,dayOf,weekOf,midnight,periodOf,pageFor,signToken,verifyToken,visitorKey,ignored,sameOrigin,createStatisticsService}=require('../lib/site-statistics.cjs');
+const secret='stats-test-secret-which-is-never-used-in-production';
+const ua='Mozilla/5.0 Chrome/130.0.0.0 Safari/537.36';
+const request=(headers={},extra={})=>({get:name=>({'user-agent':ua,host:'mental.hu',origin:'https://mental.hu',...headers})[name],ip:'192.0.2.5',protocol:'https',...extra});
+assert.equal(dayOf(new Date('2026-11-25T23:30:00Z')),'2026-11-26');
+assert.equal(weekOf('2026-11-29'),'2026-11-23');
+assert.equal(weekOf('2026-11-30'),'2026-11-30');
+assert.equal(midnight('2026-03-29'),'2026-03-28T23:00:00.000Z');
+assert.equal(midnight('2026-03-30'),'2026-03-29T22:00:00.000Z');
+assert.equal(midnight('2026-10-25'),'2026-10-24T22:00:00.000Z');
+assert.equal(midnight('2026-10-26'),'2026-10-25T23:00:00.000Z');
+const spring=calendar(new Date('2026-03-29T15:00:00Z')),autumn=calendar(new Date('2026-10-25T15:00:00Z'));
+assert.equal((Date.parse(spring.today.end)-Date.parse(spring.today.start))/3600000,23);
+assert.equal((Date.parse(autumn.today.end)-Date.parse(autumn.today.start))/3600000,25);
+assert.equal(periodOf('30days',new Date('2026-11-26T10:00:00Z'),'2026-01-01').startDay,'2026-10-28');
+assert.equal(periodOf('invalid',new Date('2026-11-26T10:00:00Z'),'2026-01-01').key,'week');
+assert.deepEqual(pageFor('/cikk/alvas-es-stressz'),{kind:'article',slug:'alvas-es-stressz'});
+assert.deepEqual(pageFor('/cikkek/'),{kind:'site',slug:''});
+assert.equal(pageFor('/api/admin/articles'),null);assert.equal(pageFor('/admin'),null);assert.equal(pageFor('/cikk/a%2fb'),null);
+const current=new Date('2026-11-26T12:00:00Z'),token=signToken(secret,{kind:'article',slug:'alvas'},current);
+assert.equal(verifyToken(secret,token,current).slug,'alvas');
+assert.equal(verifyToken(secret,token+'x',current),null);
+assert.equal(verifyToken(secret,token.split('.')[0]+'.'+'é'.repeat(43),current),null);
+assert.equal(verifyToken('other-secret',token,current),null);
+assert.equal(verifyToken(secret,token,new Date(current.getTime()+21601000)),null);
+assert.equal(verifyToken(secret,token,new Date(current.getTime()-60000)),null);
+assert.equal(verifyToken(secret,'x'.repeat(1201),current),null);
+assert.equal(visitorKey(secret,request(),'2026-11-23'),visitorKey(secret,request(),'2026-11-23'));
+assert.notEqual(visitorKey(secret,request(),'2026-11-23'),visitorKey(secret,request(),'2026-11-30'));
+assert.notEqual(visitorKey(secret,request(),'2026-11-23'),visitorKey(secret,request({}, {ip:'192.0.2.6'}),'2026-11-23'));
+assert.equal(ignored(request()),false);
+for(const headers of [{dnt:'1'},{'sec-gpc':'1'},{'sec-purpose':'prefetch'},{'user-agent':'Googlebot'},{'user-agent':'HeadlessChrome/125'}])assert.equal(ignored(request(headers)),true);
+assert.equal(ignored(request(),()=>true),true);assert.equal(sameOrigin(request()),true);
+for(const origin of ['null','https://other.example','http://mental.hu','https://mental.hu.other.example'])assert.equal(sameOrigin(request({origin})),false);
+const service=createStatisticsService({pool:{},auth:()=>{},dbState:{ready:true},secret});
+function rendered(pathname,status=200,method='GET',headers={}){
+ const req=request(headers,{path:pathname,method});let output='';
+ const res={statusCode:status,get:()=> 'text/html; charset=utf-8',set:()=>{},send(value){output=value;return this;}};
+ service.publicMiddleware(req,res,()=>{});res.send('<!doctype html><body>Content</body>');return output;
+}
+assert.match(rendered('/cikk/test'),/src="\/statistics.js/);
+for(const args of [['/admin'],['/api/public/listings'],['/cikk/missing',404],['/',200,'HEAD'],['/',200,'GET',{dnt:'1'}]])assert.doesNotMatch(rendered(...args),/statistics.js/);
+const tracker=fs.readFileSync(path.join(__dirname,'../statistics.js'),'utf8');
+function runClient({visible=true,gpc=false,beacon=true}={}){
+ const listeners={},calls=[];const document={currentScript:{dataset:{token:'signed-test'}},visibilityState:visible?'visible':'hidden',addEventListener:(event,fn)=>{listeners[event]=fn;}};
+ const navigator={globalPrivacyControl:gpc,sendBeacon:(url,body)=>{calls.push(['beacon',url,body]);return beacon;}};
+ vm.runInNewContext(tracker,{document,navigator,window:{},Blob,fetch:(url,options)=>{calls.push(['fetch',url,options]);return Promise.resolve();}});
+ return {document,listeners,calls};
+}
+const background=runClient({visible:false});assert.equal(background.calls.length,0);background.document.visibilityState='visible';background.listeners.visibilitychange();background.listeners.visibilitychange();assert.equal(background.calls.length,1);
+assert.equal(runClient({gpc:true}).calls.length,0);
+assert.deepEqual(runClient({beacon:false}).calls.map(x=>x[0]),['beacon','fetch']);
+console.log('PASS Budapest day/week/DST boundaries, signed page tokens, privacy/bot exclusions, HTML instrumentation and visible-once client beacons');

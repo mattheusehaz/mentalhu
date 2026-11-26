@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#183c33">
+  <title>Statisztikák – MENTÁL.hu admin</title>
+  <link rel="icon" href="/favicon.ico?v=20261123" sizes="16x16 32x32 48x48">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261123" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261123" sizes="180x180">
+  <link rel="stylesheet" href="/assets/fonts/fonts.css">
+  <link rel="stylesheet" href="/admin/statistics-admin.css?v=20261126-1">
+</head>
+<body class="statistics-page">
+  <a class="skip-link" href="#statisticsMain">Ugrás a statisztikákhoz</a>
+  <header class="stats-header">
+    <a href="/admin" class="stats-brand" aria-label="MENTÁL.hu szerkesztőségi admin">
+      <svg viewBox="0 0 64 54" aria-hidden="true"><path d="M3 49 17 8l9 13-8 28H3Zm19-44c5-4 10 1 13 10l13 34H35L22 13c-1-3-2-5 0-8Zm14 0c6-5 12-1 16 11l11 33H50L39 15c-1-4-3-6-7-6Z"/></svg>
+      <span>MENTÁL<span>.hu</span></span>
+    </a>
+    <nav aria-label="Adminisztráció">
+      <a href="/admin">Szerkesztőségi admin</a>
+      <a href="/admin/kapcsolatfelvetelek.html">Kapcsolatfelvételek</a>
+      <a href="/admin/statisztikak.html" aria-current="page">Statisztikák</a>
+    </nav>
+  </header>
+  <main id="statisticsMain" class="stats-main">
+    <div class="stats-title-row">
+      <div><p class="stats-eyebrow">MENTÁL.hu · Adminisztráció</p><h1>Statisztikák</h1><p class="stats-intro">Az oldal olvasói, a tartalmak megtekintései és a szolgáltatóknak küldött megkeresések.</p></div>
+      <button id="refreshStatistics" class="stats-button" type="button">Adatok frissítése <span aria-hidden="true">↻</span></button>
+    </div>
+    <p id="statisticsMessage" class="stats-message" role="status" aria-live="polite">Statisztikák betöltése…</p>
+    <section id="statisticsLogin" class="stats-notice" hidden>
+      <h2>Adminisztrátori belépés szükséges</h2>
+      <p>A statisztikákat csak a bejelentkezett adminisztrátorok láthatják.</p>
+      <a href="/admin" class="stats-button">Belépés az adminfelületre</a>
+    </section>
+    <div id="statisticsBody" hidden>
+      <section class="stats-visitors" aria-label="Mai és heti látogatottság">
+        <article class="stats-visitor-card">
+          <div class="stats-card-heading"><h2>Ma</h2><span id="todayDate" class="stats-card-period">–</span></div>
+          <p class="stats-visitor-number" id="todayVisitors">–</p><p class="stats-visitor-label">becsült egyedi látogató</p>
+          <dl class="stats-card-details"><div><dt>Oldalmegtekintés</dt><dd id="todayViews">–</dd></div><div><dt>Kapcsolatfelvétel</dt><dd id="todayContacts">–</dd></div></dl>
+        </article>
+        <article class="stats-visitor-card stats-visitor-card-week">
+          <div class="stats-card-heading"><h2>Ezen a héten</h2><span id="weekDate" class="stats-card-period">–</span></div>
+          <p class="stats-visitor-number" id="weekVisitors">–</p><p class="stats-visitor-label">becsült egyedi látogató</p>
+          <dl class="stats-card-details"><div><dt>Oldalmegtekintés</dt><dd id="weekViews">–</dd></div><div><dt>Kapcsolatfelvétel</dt><dd id="weekContacts">–</dd></div></dl>
+        </article>
+      </section>
+      <p class="stats-time-note">Magyarországi idő szerint (Europe/Budapest). A hét hétfőn kezdődik. A heti látogatószám egy látogatót a héten egyszer vesz figyelembe.</p>
+
+      <section class="stats-panel stats-trend-panel" aria-labelledby="trendHeading">
+        <div class="stats-section-heading"><div><h2 id="trendHeading">Az elmúlt 14 nap</h2><p>Becsült látogatók, naponta</p></div><span class="stats-chart-key"><span aria-hidden="true"></span>Látogatók</span></div>
+        <figure class="stats-trend-figure"><div class="stats-trend-scroll"><ol id="statisticsTrend" class="stats-trend" aria-label="Napi becsült látogatószámok"></ol></div><figcaption id="trendCaption" class="stats-hint">A mérés előtti napokra nincs látogatottsági adat.</figcaption></figure>
+      </section>
+
+      <section class="stats-period-section" aria-labelledby="periodHeading">
+        <div class="stats-section-heading stats-period-heading"><div><h2 id="periodHeading">Tartalmak és kapcsolatfelvételek</h2><p id="statisticsPeriod">–</p></div><label class="stats-field">Időszak<select id="statisticsRange"><option value="today">Ma</option><option value="week" selected>Ez a hét</option><option value="30days">Elmúlt 30 nap</option><option value="all">Teljes időszak</option></select></label></div>
+        <dl class="stats-totals"><div><dt>Oldalmegtekintés</dt><dd id="periodViews">–</dd></div><div><dt>Cikkmegtekintés</dt><dd id="periodArticleViews">–</dd></div><div><dt>Adatlapmegtekintés</dt><dd id="periodListingViews">–</dd></div><div><dt>Kapcsolatfelvétel</dt><dd id="periodContacts">–</dd></div></dl>
+
+        <section class="stats-panel stats-table-panel" aria-labelledby="articlesHeading">
+          <div class="stats-section-heading"><div><h3 id="articlesHeading">Cikkek</h3><p id="articlesCount">–</p></div><form id="articlesSearchForm" class="stats-search" role="search"><label for="articlesSearch" class="stats-sr-only">Keresés a cikkek között</label><input id="articlesSearch" type="search" maxlength="250" placeholder="Keresés cím alapján" autocomplete="off"><button type="submit" aria-label="Cikkek keresése">Keresés</button></form></div>
+          <p id="articlesMessage" class="stats-table-message" role="status" aria-live="polite"></p>
+          <div id="articlesTable" class="stats-table-scroll" tabindex="0" role="region" aria-label="Cikkmegtekintések"></div>
+          <div class="stats-pagination"><button id="articlesPrevious" type="button" disabled>← Előző</button><span id="articlesPage">–</span><button id="articlesNext" type="button" disabled>Következő →</button></div>
+        </section>
+
+        <section class="stats-panel stats-table-panel" aria-labelledby="listingsHeading">
+          <div class="stats-section-heading"><div><h3 id="listingsHeading">Szolgáltatói adatlapok</h3><p id="listingsCount">–</p></div><form id="listingsSearchForm" class="stats-search" role="search"><label for="listingsSearch" class="stats-sr-only">Keresés a szolgáltatói adatlapok között</label><input id="listingsSearch" type="search" maxlength="250" placeholder="Név vagy település" autocomplete="off"><button type="submit" aria-label="Adatlapok keresése">Keresés</button></form></div>
+          <p id="listingsMessage" class="stats-table-message" role="status" aria-live="polite"></p>
+          <div id="listingsTable" class="stats-table-scroll" tabindex="0" role="region" aria-label="Adatlapmegtekintések és kapcsolatfelvételek"></div>
+          <div class="stats-pagination"><button id="listingsPrevious" type="button" disabled>← Előző</button><span id="listingsPage">–</span><button id="listingsNext" type="button" disabled>Következő →</button></div>
+        </section>
+      </section>
+      <aside class="stats-method" aria-labelledby="methodHeading">
+        <h2 id="methodHeading">Mit számolunk?</h2>
+        <p id="statisticsStarted">A látogatottságmérés kezdetének betöltése…</p>
+        <p><strong>Látogató:</strong> sütik nélkül becsült egyedi látogató. A napi és heti összesítésben az azonosnak becsült látogató csak egyszer szerepel. A hálózat vagy böngésző változása, illetve közösen használt hálózat miatt a szám eltérhet a tényleges személyek számától. A bejelentkezett adminisztrátorok és a felismert robotok látogatásai nem kerülnek a mérésbe.</p>
+        <p><strong>Megtekintés:</strong> a nyilvános oldal megjelenítése. A cikk és az adatlap újratöltése új megtekintést jelenthet. A mérés letiltása vagy a böngésző követésvédelme miatt egyes megtekintések kimaradhatnak.</p>
+        <p><strong>Kapcsolatfelvétel:</strong> az adatlap űrlapján beküldött, sikeresen elmentett megkeresés. Egy megkeresést egyszer számolunk, a levélküldés állapotától függetlenül. A korábban elmentett, még adatlaphoz köthető megkeresések is szerepelhetnek; a részletek a <a href="/admin/kapcsolatfelvetelek.html">Kapcsolatfelvételek</a> menüpontban láthatók.</p>
+      </aside>
+      <p id="statisticsUpdated" class="stats-updated"></p>
+    </div>
+    <noscript><p class="stats-notice">A statisztikák megjelenítéséhez engedélyezd a JavaScriptet a böngészőben.</p></noscript>
+  </main>
+  <script src="/admin/statistics-admin.js?v=20261126-1" defer></script>
+</body>
+</html>
