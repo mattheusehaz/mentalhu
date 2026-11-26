@@ -85,7 +85,8 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
       return {url:authorizationEndpoint + '?' + query, verifier, state};
     };
 
-    browser = await chromium.launch({headless:true});
+    // A missed route must fail locally instead of reaching the real callback service.
+    browser = await chromium.launch({headless:true, args:['--host-resolver-rules=MAP chatgpt.com ~NOTFOUND']});
     const context = await browser.newContext();
     let legacyPolicy = false;
     await context.route('**/*', async route => {
@@ -94,12 +95,19 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
         const headers = await route.request().allHeaders();
         callbacks.push({url:target, referer:headers.referer});
         // The real external ChatGPT service is never contacted by this test.
-        return route.fulfill({status:200, contentType:'text/html', body:'<!doctype html><title>Local callback fixture</title><p>Callback captured in isolated CI.</p>'});
+        return route.fulfill({status:200, contentType:'text/html', body:'<!doctype html><title>Local callback fixture</title><p data-testid="oauth-ci-callback">Callback captured in isolated CI.</p>'});
       }
       if (target.origin === baseUrl || target.origin === attackerOrigin) {
         if (legacyPolicy && target.origin === baseUrl && target.pathname === '/mcp/oauth/authorize' && route.request().method() === 'GET') {
-          const response = await route.fetch();
+          const response = await route.fetch({maxRedirects:0});
           return route.fulfill({response, headers:{...response.headers(), 'referrer-policy':'no-referrer'}});
+        }
+        if (target.origin === baseUrl && target.pathname === '/mcp/oauth/authorize' && route.request().method() === 'POST') {
+          // A network-continued redirect can bypass the next route handler. Fetch
+          // only the local response, then let the browser follow its synthetic
+          // 303 as a new interceptable request. Preserve the native Origin/body.
+          const response = await route.fetch({maxRedirects:0});
+          return route.fulfill({response});
         }
         // Never inject Origin; the native browser must supply it itself.
         return route.continue();
@@ -150,6 +158,8 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
     assert.equal(posts.at(-1).origin, baseUrl);
     assert.equal(accepted.status(), 303);
     await page.waitForURL(url => url.origin === 'https://chatgpt.com' && url.pathname === '/connector_platform_oauth_redirect');
+    await page.getByTestId('oauth-ci-callback').waitFor({state:'visible'});
+    assert.equal(callbacks.length, 1, 'The approval callback must be fulfilled by the local browser fixture');
     const callback = new URL(page.url());
     assert.equal(callback.searchParams.get('state'), start.state);
     assert.equal(callback.searchParams.get('iss'), baseUrl);
@@ -172,6 +182,8 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
     assert.equal(denied.status(), 303);
     assert.equal(posts.at(-1).origin, baseUrl);
     await page.waitForURL(url => url.origin === 'https://chatgpt.com' && url.pathname === '/connector_platform_oauth_redirect');
+    await page.getByTestId('oauth-ci-callback').waitFor({state:'visible'});
+    assert.equal(callbacks.length, 2, 'The denial callback must be fulfilled by the local browser fixture');
     const deniedCallback = new URL(page.url());
     assert.equal(deniedCallback.searchParams.get('state'), deniedStart.state);
     assert.equal(deniedCallback.searchParams.get('iss'), baseUrl);
