@@ -1,1 +1,8 @@
-{"release": "folio-20261123", "theme": "green-offwhite-peach", "category_navigation_count": 31, "frontend_scripts": "external", "content_source": "database"}
+{
+  "release": "folio-20261123",
+  "theme": "green-offwhite-peach",
+  "category_navigation_count": 31,
+  "frontend_scripts": "external",
+  "content_source": "database",
+  "deploy_marker": "ai-identity-article-20261126-1"
+}
