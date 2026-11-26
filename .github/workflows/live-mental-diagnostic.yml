@@ -1,0 +1,35 @@
+name: Live MENTAL diagnostic
+on:
+  push:
+    branches: ['feature/articles-live-diagnose-20261126']
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    env:
+      EDITORIAL_TOKEN: ${{ secrets.MENTAL_EDITORIAL_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect live site
+        shell: bash
+        run: |
+          set -u
+          echo "TOKEN_PRESENT=$([ -n "$EDITORIAL_TOKEN" ] && echo yes || echo no)"
+          echo "--- FRONTEND VERSION ---"
+          curl -sS -L --max-time 20 -w "\nHTTP:%{http_code}\n" https://mental.hu/frontend-version.json || true
+          echo "--- HEALTH ---"
+          curl -sS -L --max-time 20 -w "\nHTTP:%{http_code}\n" https://mental.hu/health/ready || true
+          echo "--- ARTICLE ---"
+          curl -sS -L --max-time 20 -o /tmp/article.html -w "HTTP:%{http_code}\n" https://mental.hu/cikk/hogyan-dolgozzuk-fel-az-ai-okozta-munkahelyi-identitasveszteseget || true
+          grep -o "Hogyan dolgozzuk fel az AI okozta munkahelyi identitásveszteséget?" /tmp/article.html | head -1 || true
+          echo "--- VIDEO AI ---"
+          curl -sS -L --max-time 20 -o /dev/null -w "HTTP:%{http_code} TYPE:%{content_type} SIZE:%{size_download}\n" https://mental.hu/video/ai-identitasvesztes.mp4 || true
+          echo "--- VIDEO LOSS ---"
+          curl -sS -L --max-time 20 -o /dev/null -w "HTTP:%{http_code} TYPE:%{content_type} SIZE:%{size_download}\n" https://mental.hu/video/vesztesegek.mp4 || true
+          echo "--- EDITORIAL API AUTH CHECK ---"
+          if [ -n "$EDITORIAL_TOKEN" ]; then
+            curl -sS -L --max-time 20 -H "Authorization: Bearer $EDITORIAL_TOKEN" -w "\nHTTP:%{http_code}\n" "https://mental.hu/api/editorial/articles/mental-ai-identitasvesztes-20261126" || true
+          else
+            echo "NO_TOKEN"
+          fi
