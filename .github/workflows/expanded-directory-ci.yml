@@ -1,14 +1,14 @@
 name: Directory and contact regression checks
 on:
   push:
-    branches: [main, 'release/expanded-31-*', 'feature/articles-*', 'feature/admin-statistics-*']
+    branches: [main, 'release/expanded-31-*', 'feature/articles-*', 'feature/admin-statistics-*', 'feature/provider-*']
   pull_request:
 permissions:
   contents: read
 jobs:
   integration:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     services:
       postgres:
         image: postgres:16
@@ -41,6 +41,17 @@ jobs:
           node --check statistics.js
           node --check admin/statistics-admin.js
           node --test scripts/test-site-statistics.cjs scripts/test-related-providers.cjs
+      - name: Verify provider accounts, profiles and recoverable trash
+        run: |
+          node --check lib/provider-accounts.cjs
+          node --check lib/provider-profiles.cjs
+          node --check lib/directory-submissions.cjs
+          node --check provider-account.js
+          node --check admin/admin.js
+          node --test scripts/test-provider-accounts.cjs scripts/test-provider-profiles.cjs scripts/test-provider-views.cjs scripts/test-submission-trash.cjs scripts/test-mail-transport.cjs
+          node --test scripts/test-provider-accounts-db.cjs scripts/test-provider-profiles-db.cjs scripts/test-submission-trash-db.cjs
+        env:
+          TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Verify every public page and private inquiry lifecycle
         run: node scripts/test-expanded-catalog.cjs
       - name: Verify visitor aggregation and contact statistics
@@ -60,6 +71,10 @@ jobs:
         run: node scripts/test-contact-browser.cjs
       - name: Verify statistics dashboard and article provider sidebar
         run: node scripts/test-statistics-browser.cjs
+      - name: Verify provider invitation, profile publishing and trash in browsers
+        run: node scripts/test-provider-browser.cjs
+        env:
+          TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Verify articles, approval boundaries and editorial browser flows
         run: |
           node scripts/validate-editorial.cjs

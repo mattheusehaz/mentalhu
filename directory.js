@@ -109,7 +109,8 @@
     if (button) button.disabled = true;
     if (message) { message.className = 'form-message'; message.textContent = 'Beküldés…'; }
     try {
-      const data = await request('/api/directory/submit', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)});
+      const session = await request('/api/directory/submission-form', {credentials:'same-origin'});
+      const data = await request('/api/directory/submit', {method:'POST', credentials:'same-origin', referrerPolicy:'same-origin', headers:{'Content-Type':'application/json','X-Provider-CSRF':session.csrf_token}, body:JSON.stringify(payload)});
       if (data.ok !== true) throw new Error('A beküldés nem sikerült.');
       if (message) message.textContent = 'Köszönjük! A jelentkezésed megérkezett, a megjelenés előtt átnézzük az adatokat.';
       form.reset();

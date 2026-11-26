@@ -184,7 +184,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -256,6 +256,27 @@ require('./lib/mcp-server.cjs').registerMcpConnector(app, {
 const contactService = require('./lib/contact-inquiries.cjs').createContactService({pool,auth,dbState,audit});
 contactService.register(app);
 contactService.start();
+
+const providerAccounts = require('./lib/provider-accounts.cjs').createProviderAccountService({
+  pool,dbState,audit,
+  secret:crypto.createHmac('sha256',JWT_SECRET).update('mental-provider-accounts-v1').digest('hex'),
+  baseUrl:process.env.MENTAL_PUBLIC_URL||'https://mental.hu',
+  mailer:{
+    ready:async client=>contactService.mailReady(await contactService.settings(false,client)),
+    seal:contactService.seal,unseal:contactService.unseal,
+    send:async message=>require('./lib/mail-transport.cjs').sendMailMessage(await contactService.settings(),message)
+  }
+});
+providerAccounts.register(app);
+providerAccounts.start();
+require('./lib/directory-submissions.cjs').createSubmissionService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
+require('./lib/provider-profiles.cjs').createProviderProfileService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
+for(const [route,mode] of Object.entries({'/belepes':'login','/regisztracio':'register','/elfelejtett-jelszo':'forgot','/jelszo-visszaallitas':'reset','/fiokom':'account','/szolgaltatoi-adatkezeles':'privacy'})) {
+  app.get(route,(_req,res)=>{
+    res.set({'Cache-Control':'private, no-store','X-Robots-Tag':'noindex, nofollow','Referrer-Policy':'same-origin'});
+    res.type('html').send(require('./lib/provider-views.cjs').renderProviderPage(mode));
+  });
+}
 
 app.post('/api/admin/login', authLimiter, async (req, res) => {
   const email = String(req.body.email || '').trim().toLowerCase();
@@ -501,15 +522,34 @@ app.get('/api/public/listings/:slug', async (req, res) => {
   res.json({...publicListing,profile_image_url:x.profile_image_id?'/media/'+x.profile_image_id:null,logo_image_url:x.logo_image_id?'/media/'+x.logo_image_id:null});
 });
 
-app.post('/api/directory/submit', newsletterLimiter, async (req, res) => {
-  const email = String(req.body.email||'').trim().toLowerCase();
-  const name = String(req.body.name||'').trim();
-  if (!name || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).json({error:'Név és érvényes e-mail-cím szükséges.'});
-  const { rows } = await pool.query(`
-    INSERT INTO directory_submissions(name,contact_name,email,phone,website_url,category_slugs,city,online_available,description,qualifications,consent)
-    VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11) RETURNING id
-  `, [name,String(req.body.contact_name||''),email,String(req.body.phone||''),String(req.body.website_url||''),String(req.body.category_slugs||''),String(req.body.city||''),Boolean(req.body.online_available),String(req.body.description||''),String(req.body.qualifications||''),Boolean(req.body.consent)]);
-  res.status(201).json({ok:true,id:rows[0].id,message:'Köszönjük, a beküldést ellenőrizzük.'});
+const submissionLimiter=rateLimit({windowMs:60*60*1000,limit:8,standardHeaders:true,legacyHeaders:false,message:{error:'Túl sok jelentkezési kísérlet. Próbáld újra később.'}});
+app.get('/api/directory/submission-form',(req,res)=>res.set('Cache-Control','private, no-store').json({csrf_token:providerAccounts.csrfFor(req,res)}));
+app.post('/api/directory/submit',submissionLimiter,async(req,res)=>{
+  res.set('Cache-Control','no-store');
+  try{providerAccounts.protect(req);}catch{return res.status(403).json({error:'A jelentkezési űrlap lejárt. Frissítsd az oldalt.'});}
+  if(req.body.company_website)return res.status(201).json({ok:true,message:'Köszönjük, a beküldést ellenőrizzük.'});
+  const limits={name:200,contact_name:200,email:254,phone:60,website_url:500,city:120,description:5000,qualifications:3000,category_slugs:600};
+  const body={};
+  for(const [key,max] of Object.entries(limits)){
+    const value=req.body[key]??'';if(typeof value!=='string'||value.length>max||/[\0\u0001-\u0008\u000b\u000c\u000e-\u001f]/.test(value))return res.status(400).json({error:'A jelentkezés egyik mezője érvénytelen vagy túl hosszú.'});
+    body[key]=value.trim();
+  }
+  body.email=body.email.toLowerCase();
+  if(body.name.length<2||!require('./lib/provider-accounts.cjs').validEmail(body.email)||body.description.length<20)return res.status(400).json({error:'Név, érvényes e-mail-cím és legalább 20 karakteres bemutatkozás szükséges.'});
+  if(req.body.consent!==true&&req.body.consent!=='true')return res.status(400).json({error:'A jelentkezéshez fogadd el az adatkezelési tájékoztatót.'});
+  if(body.website_url){let url;try{url=new URL(body.website_url);}catch{return res.status(400).json({error:'Érvényes webcímet adj meg.'});}if(!['http:','https:'].includes(url.protocol)||url.username||url.password)return res.status(400).json({error:'Érvényes http:// vagy https:// webcímet adj meg.'});}
+  const categories=[...new Set(body.category_slugs.split(',').map(x=>x.trim()).filter(Boolean))];
+  if(!categories.length||categories.length>5)return res.status(400).json({error:'Válassz legalább egy, legfeljebb öt kategóriát.'});
+  const valid=(await pool.query('SELECT slug FROM directory_categories WHERE active=true AND slug=ANY($1::text[])',[categories])).rows;
+  if(valid.length!==categories.length)return res.status(400).json({error:'Válassz elérhető kategóriát.'});
+  const client=await pool.connect();
+  try{
+    await client.query('BEGIN');await client.query('SELECT pg_advisory_xact_lock(hashtextextended($1,6938036))',[body.email]);
+    const recent=(await client.query("SELECT id FROM directory_submissions WHERE lower(email)=$1 AND created_at>now()-interval '15 minutes' LIMIT 1",[body.email])).rows[0];
+    if(!recent)await client.query('INSERT INTO directory_submissions(name,contact_name,email,phone,website_url,category_slugs,city,online_available,description,qualifications,consent) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,true)',[body.name,body.contact_name,body.email,body.phone,body.website_url,categories.join(','),body.city,req.body.online_available===true||req.body.online_available==='true',body.description,body.qualifications]);
+    await client.query('COMMIT');
+    res.status(201).json({ok:true,message:'Köszönjük, a jelentkezést rögzítettük és ellenőrizzük. Az elfogadásról e-mailben értesítünk.'});
+  }catch(error){await client.query('ROLLBACK').catch(()=>{});throw error;}finally{client.release();}
 });
 
 app.get('/api/admin/directory/categories', auth, async (_req,res)=>{
@@ -558,8 +598,6 @@ app.put('/api/admin/directory/listings/:id', auth, async (req,res)=>{
   }catch(e){await client.query('ROLLBACK');if(e.code==='23505')return res.status(409).json({error:'Ez a slug már foglalt.'});throw e;}finally{client.release();}
 });
 app.delete('/api/admin/directory/listings/:id', auth, async(req,res)=>{await pool.query('DELETE FROM directory_listings WHERE id=$1',[req.params.id]);audit('delete','directory_listing',req.params.id,req.user.email);res.json({ok:true})});
-app.get('/api/admin/directory/submissions', auth, async(_req,res)=>{const{rows}=await pool.query('SELECT * FROM directory_submissions ORDER BY created_at DESC');res.json(rows)});
-app.put('/api/admin/directory/submissions/:id', auth, async(req,res)=>{const status=['new','reviewed','accepted','rejected'].includes(req.body.status)?req.body.status:'reviewed';const{rows}=await pool.query('UPDATE directory_submissions SET status=$1,updated_at=now() WHERE id=$2 RETURNING *',[status,req.params.id]);res.json(rows[0])});
 
 
 
@@ -586,7 +624,7 @@ function escapeHtml(s='') {
 
 // Do not expose application code, migrations or research snapshots as static pages.
 app.use((req,res,next)=>{let p;try{p=path.posix.normalize(decodeURIComponent(req.path)).toLowerCase();}catch{return res.status(404).end();}if(/^\/(?:cikkek|rovatok|content|docs|research|scripts|lib|migrations|node_modules|\.git|\.github|test|tests)(?:\/|$)/.test(p)||/^\/(?:server\.js|package(?:-lock)?\.json|procfile|dockerfile|readme(?:\.md)?|\.env.*)$/.test(p))return res.status(404).end();next();});
-app.use('/admin', express.static(path.join(ROOT, 'admin'), { index: 'index.html' }));
+app.use('/admin',(_req,res,next)=>{res.set({'Referrer-Policy':'same-origin','Cache-Control':'private, no-store','X-Robots-Tag':'noindex, nofollow'});next();},express.static(path.join(ROOT, 'admin'), { index: 'index.html' }));
 app.use(express.static(ROOT, { extensions: ['html'], index: 'index.html' }));
 
 app.use((err, req, res, _next) => {

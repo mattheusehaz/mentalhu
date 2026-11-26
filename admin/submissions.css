@@ -1,0 +1,45 @@
+/* Reversible submissions inbox, using the existing editorial admin palette. */
+.cms-page .submission-head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:25px}
+.cms-page .submission-head h2{margin:0 0 9px;font-size:30px}
+.cms-page .submission-head p{margin:0;color:var(--muted);font-size:14px;line-height:1.65;max-width:660px}
+.cms-page .submission-trash-toggle{flex:none;display:inline-flex;align-items:center;gap:9px;border:1px solid #aebdac;background:transparent;min-height:45px}
+.cms-page .submission-trash-toggle[aria-pressed=true]{background:var(--sage);border-color:var(--ink)}
+.cms-page .submission-trash-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.cms-page .submission-filters{display:grid;grid-template-columns:minmax(200px,1fr) minmax(155px,200px) auto auto;align-items:end;gap:14px;margin-bottom:21px}
+.cms-page .submission-filters label{margin:0}
+.cms-page .submission-filters button{min-height:49px}
+.cms-page .submission-list-meta{display:flex;align-items:baseline;justify-content:space-between;gap:18px;margin-bottom:14px}
+.cms-page .submission-list-meta p{margin:0;font-size:14px;color:var(--muted)}
+.cms-page .submission-list-meta .error{color:#923e2d}
+.cms-page .submission-notice{display:flex;align-items:center;gap:20px;justify-content:space-between;padding:15px 18px;margin:0 0 20px;background:#edf3e8;border-left:3px solid #53764c;line-height:1.65}
+.cms-page .submission-notice p{margin:0;font-size:14px}
+.cms-page .submission-notice button{flex:none;background:white;border:1px solid #bcc8b5}
+.cms-page .submission-notice[hidden],.cms-page #submissionUndo[hidden]{display:none}
+.cms-page .submission-table-scroll{overflow-x:auto;min-width:0}
+.cms-page .submission-table{min-width:850px;table-layout:fixed}
+.cms-page .submission-table th:nth-child(1){width:29%}
+.cms-page .submission-table th:nth-child(2){width:22%}
+.cms-page .submission-table th:nth-child(3){width:23%}
+.cms-page .submission-table th:nth-child(4){width:26%}
+.cms-page .submission-table td{vertical-align:top;overflow-wrap:anywhere}
+.cms-page .submission-name{font:500 22px/1.2 'Newsreader',Georgia,serif;display:block;margin-bottom:8px;color:var(--ink)}
+.cms-page .submission-description,.cms-page .submission-table small{display:block;color:var(--muted);font-size:13px;line-height:1.6;margin-top:6px}
+.cms-page .submission-table details{font-size:13px;line-height:1.65;margin-top:12px}
+.cms-page .submission-table summary{cursor:pointer;color:var(--ink);font-weight:500}
+.cms-page .submission-table details p{white-space:pre-wrap;max-height:300px;overflow:auto;margin:10px 0}
+.cms-page .submission-table details a{color:var(--ink);text-underline-offset:3px}
+.cms-page .submission-actions{display:flex;gap:7px;flex-wrap:wrap;align-items:flex-start}
+.cms-page .submission-actions button{padding:8px 11px;min-height:38px;font-size:13px}
+.cms-page .submission-actions .submission-invite{width:100%;text-align:left}
+.cms-page .submission-actions button:disabled{opacity:.55;cursor:default}
+.cms-page .submission-mail{margin-top:10px;font-size:13px;line-height:1.55;color:var(--muted)}
+.cms-page .submission-mail.warning{color:#8b4c22}
+.cms-page .submission-account{font-size:13px;margin-top:7px;color:#315c38}
+.cms-page .submission-pagination{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:22px;font-size:14px;color:var(--muted)}
+.cms-page .submission-pagination button:disabled{opacity:.45;cursor:default}
+.cms-page .submission-empty{padding:32px 20px;border:1px dashed var(--line);color:var(--muted);font-size:15px;line-height:1.65}
+.cms-page .provider-account-filters{grid-template-columns:minmax(200px,1fr) auto auto}
+.cms-page .provider-account-notice{font-size:14px;line-height:1.65;color:#315c38}
+.cms-page .provider-account-notice:empty{display:none}
+@media(max-width:1200px){.cms-page .submission-filters{grid-template-columns:minmax(190px,1fr) minmax(150px,1fr)}.cms-page .submission-filters button{min-height:43px}}
+@media(max-width:650px){.cms-page .submission-head{gap:18px;flex-direction:column}.cms-page .submission-head h2{font-size:28px}.cms-page .submission-trash-toggle{align-self:flex-end}.cms-page .submission-filters{grid-template-columns:1fr 1fr;gap:12px}.cms-page .submission-filters label{grid-column:1/-1}.cms-page .submission-list-meta,.cms-page .submission-notice{align-items:flex-start;flex-direction:column}.cms-page .submission-pagination{gap:8px}.cms-page .submission-pagination button{padding:10px;font-size:13px}}
