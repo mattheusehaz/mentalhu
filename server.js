@@ -63,6 +63,37 @@ app.use(express.json({ limit: '2mb' }));
 app.use(express.urlencoded({ extended: true, limit: '2mb' }));
 app.use(cookieParser());
 
+const ARTICLE_VIDEO_ASSETS = {
+  'ai-identitasvesztes.mp4': [
+    'assets/video-data/ai-identitas/part-00.b64','assets/video-data/ai-identitas/part-01.b64',
+    'assets/video-data/ai-identitas/part-02.b64','assets/video-data/ai-identitas/part-03.b64',
+    'assets/video-data/ai-identitas/part-04.b64','assets/video-data/ai-identitas/part-05.b64'
+  ],
+  'vesztesegek.mp4': [
+    'assets/video-data/vesztesegek/part-00.b64','assets/video-data/vesztesegek/part-01.b64',
+    'assets/video-data/vesztesegek/part-02.b64','assets/video-data/vesztesegek/part-03.b64',
+    'assets/video-data/vesztesegek/part-04.b64','assets/video-data/vesztesegek/part-05.b64',
+    'assets/video-data/vesztesegek/part-06.b64'
+  ]
+};
+app.get('/video/:name', (req, res, next) => {
+  const parts = ARTICLE_VIDEO_ASSETS[req.params.name];
+  if (!parts) return next();
+  try {
+    const encoded = parts.map(file => fs.readFileSync(path.join(ROOT, file), 'utf8')).join('');
+    const bytes = Buffer.from(encoded, 'base64');
+    res.set({
+      'Content-Type': 'video/mp4',
+      'Content-Length': String(bytes.length),
+      'Cache-Control': 'public, max-age=31536000, immutable'
+    });
+    res.send(bytes);
+  } catch (error) {
+    console.error('[article-video]', error.code || 'VIDEO_READ_ERROR');
+    next();
+  }
+});
+
 const authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, limit: 20, standardHeaders: true, legacyHeaders: false });
 const newsletterLimiter = rateLimit({ windowMs: 15 * 60 * 1000, limit: 25, standardHeaders: true, legacyHeaders: false });
 
@@ -90,12 +121,14 @@ function cleanHtml(html = '') {
   return sanitizeHtml(html, {
     allowedTags: [
       'p','h2','h3','h4','strong','em','b','i','u','blockquote','ul','ol','li',
-      'a','br','hr','figure','figcaption'
+      'a','br','hr','figure','figcaption','video','source'
     ],
     allowedAttributes: {
       a: ['href','target','rel'],
       figure: ['class'],
-      figcaption: ['class']
+      figcaption: ['class'],
+      video: ['controls','preload','playsinline','poster','aria-label'],
+      source: ['src','type']
     },
     allowedSchemes: ['http','https','mailto'],
     transformTags: {
