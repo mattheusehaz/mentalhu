@@ -1,0 +1,24 @@
+name: Live MENTAL article check
+on:
+  push:
+    branches: ['feature/articles-live-check-20261126']
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check live article
+        shell: bash
+        run: |
+          set -u
+          echo "--- FRONTEND VERSION ---"
+          curl -sS -L --max-time 20 -w "\nHTTP:%{http_code}\n" https://mental.hu/frontend-version.json || true
+          echo "--- ARTICLE ---"
+          curl -sS -L --max-time 20 -o /tmp/article.html -w "HTTP:%{http_code}\n" https://mental.hu/cikk/hogyan-dolgozzuk-fel-az-ai-okozta-munkahelyi-identitasveszteseget || true
+          grep -o "Hogyan dolgozzuk fel az AI okozta munkahelyi identitásveszteséget?" /tmp/article.html | head -1 || true
+          grep -o "<video" /tmp/article.html | wc -l || true
+          grep -o "Minden búcsúdban benne vagy" /tmp/article.html | head -1 || true
+          echo "--- HOME ---"
+          curl -sS -L --max-time 20 https://mental.hu/ -o /tmp/home.html || true
+          grep -o "Hogyan dolgozzuk fel az AI okozta munkahelyi identitásveszteséget?" /tmp/home.html | head -1 || true
