@@ -69,11 +69,14 @@ async function writeApi(context, route, data, {method='POST', status=200, admin=
   assert.equal(response.status(), status, route + ': ' + (result.error || ''));
   return result;
 }
-async function perform(page, method, route, action, status = 200) {
+async function perform(page, method, route, action, status = 200, {readBody = true} = {}) {
   const pending = page.waitForResponse(response => response.url() === base + route && response.request().method() === method);
   const [response] = await Promise.all([pending, action()]);
-  const result = await response.json();
-  assert.equal(response.status(), status, route + ': ' + (result.error || ''));
+  // Successful auth writes navigate immediately; Chromium may release the old
+  // document's response body before Playwright reads it. Those callers verify
+  // the destination and session separately, while all other replies stay strict.
+  const result = readBody ? await response.json() : null;
+  assert.equal(response.status(), status, route + ': ' + (result?.error || ''));
   return result;
 }
 async function newContext(options = {}) {
@@ -132,7 +135,7 @@ async function activate(page, token, email, password) {
   await page.locator('#providerActivationPassword').fill(password);
   await page.locator('#providerActivationConfirm').fill(password);
   await page.locator('#providerActivationConsent').check();
-  await perform(page, 'POST', '/api/provider/activate', () => page.locator('#providerActivationForm button[type="submit"]').click());
+  await perform(page, 'POST', '/api/provider/activate', () => page.locator('#providerActivationForm button[type="submit"]').click(), 200, {readBody:false});
   await page.waitForURL(base + '/fiokom');
   await page.locator('#providerAccountBody').waitFor({state:'visible'});
 }
@@ -158,7 +161,7 @@ async function providerLogin(page, email, password) {
   await page.locator('#providerLoginForm').waitFor({state:'visible'});
   await page.locator('#providerLoginEmail').fill(email);
   await page.locator('#providerLoginPassword').fill(password);
-  await perform(page, 'POST', '/api/provider/login', () => page.locator('#providerLoginForm button[type="submit"]').click());
+  await perform(page, 'POST', '/api/provider/login', () => page.locator('#providerLoginForm button[type="submit"]').click(), 200, {readBody:false});
   await page.waitForURL(base + '/fiokom');
   await page.locator('#providerAccountBody').waitFor({state:'visible'});
 }
@@ -363,11 +366,11 @@ async function main() {
   await ownerPage.locator('#providerCurrentPassword').fill(resetPassword);
   await ownerPage.locator('#providerNewPassword').fill(changedPassword);
   await ownerPage.locator('#providerNewPasswordConfirm').fill(changedPassword);
-  await perform(ownerPage, 'POST', '/api/provider/change-password', () => ownerPage.locator('#providerChangePasswordForm button[type="submit"]').click());
+  await perform(ownerPage, 'POST', '/api/provider/change-password', () => ownerPage.locator('#providerChangePasswordForm button[type="submit"]').click(), 200, {readBody:false});
   await ownerPage.waitForURL(base + '/belepes?jelszo=modositva');
   assert.equal((await getJson(owner, '/api/provider/session')).authenticated, false);
   await providerLogin(ownerPage, providerEmail, changedPassword);
-  await perform(ownerPage, 'POST', '/api/provider/logout', () => ownerPage.locator('[data-provider-logout]').click());
+  await perform(ownerPage, 'POST', '/api/provider/logout', () => ownerPage.locator('[data-provider-logout]').click(), 200, {readBody:false});
   await ownerPage.waitForURL(base + '/belepes');
   assert.equal((await owner.request.get(base + '/api/provider/profile')).status(), 401);
   await ownerPage.goto(base + '/admin/', {waitUntil:'networkidle'});
