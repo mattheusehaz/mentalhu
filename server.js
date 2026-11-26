@@ -115,22 +115,51 @@ function audit(action, entityType, entityId, actorEmail, details = {}) {
   ).catch(err => console.error('audit error', err));
 }
 
+function getAdminUser(req) {
+  try {
+    const user=jwt.verify(req.cookies.mental_cms,JWT_SECRET);
+    return user.role==='admin' && user.email===ADMIN_EMAIL ? {email:user.email,role:'admin'} : null;
+  } catch { return null; }
+}
+
+async function verifyAdminCredentials(email,password) {
+  if(typeof email!=='string'||typeof password!=='string'||email.trim().toLowerCase()!==ADMIN_EMAIL||!password||password.length>1024)return null;
+  let valid=false;
+  if(ADMIN_PASSWORD_HASH)valid=await bcrypt.compare(password,ADMIN_PASSWORD_HASH);
+  else if(ADMIN_PASSWORD){const supplied=Buffer.from(password),expected=Buffer.from(ADMIN_PASSWORD);valid=supplied.length===expected.length&&crypto.timingSafeEqual(supplied,expected);}
+  return valid ? {email:ADMIN_EMAIL,role:'admin'} : null;
+}
+
 function cleanHtml(html = '') {
   return sanitizeHtml(html, {
     allowedTags: [
       'p','h2','h3','h4','strong','em','b','i','u','blockquote','ul','ol','li',
-      'a','br','hr','figure','figcaption','video','source'
+      'a','br','hr','figure','figcaption','img','video','source'
     ],
     allowedAttributes: {
       a: ['href','target','rel'],
       figure: ['class'],
       figcaption: ['class'],
-      video: ['controls','preload','playsinline','poster','aria-label'],
+      img: ['src','alt','width','height','loading'],
+      video: ['src','controls','preload','playsinline','poster','aria-label'],
       source: ['src','type']
     },
     allowedSchemes: ['http','https','mailto'],
     transformTags: {
-      a: sanitizeHtml.simpleTransform('a', { rel: 'noopener noreferrer' }, true)
+      a: sanitizeHtml.simpleTransform('a', { rel: 'noopener noreferrer' }, true),
+      img: (tagName,attribs) => {
+        if(!/^\/(?:media\/[1-9]\d*|assets\/[a-zA-Z0-9._/-]+\.(?:jpg|jpeg|png|webp|avif))$/i.test(attribs.src||'')||(attribs.src||'').includes('..'))return {tagName:'span',attribs:{}};
+        return {tagName,attribs:{...attribs,loading:'lazy'}};
+      },
+      video: (tagName,attribs) => {
+        if(attribs.src&&!/^\/media\/[1-9]\d*$/.test(attribs.src))delete attribs.src;
+        if(attribs.poster&&(attribs.poster.includes('..')||!/^\/(?:media\/[1-9]\d*|assets\/[a-zA-Z0-9._/-]+\.(?:jpg|jpeg|png|webp|avif))$/i.test(attribs.poster)))delete attribs.poster;
+        return {tagName,attribs:{...attribs,controls:'',playsinline:'',preload:'metadata'}};
+      },
+      source: (tagName,attribs) => {
+        if(!/^\/(?:media\/[1-9]\d*|video\/[a-z0-9-]+\.mp4)$/.test(attribs.src||''))return {tagName:'span',attribs:{}};
+        return {tagName,attribs:{src:attribs.src,type:'video/mp4'}};
+      }
     }
   });
 }
@@ -155,7 +184,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -201,13 +230,18 @@ app.get(['/health/db', '/health/ready'], async (_req, res) => {
 
 // A fallback menu is not evidence that the database is ready.
 app.use((req, res, next) => {
-  const prefixes = ['/api/contact/', '/api/admin/contact/', '/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/media/', '/leiratkozas/'];
+  const prefixes = ['/api/contact/', '/api/admin/contact/', '/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/mcp/', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/media/', '/leiratkozas/'];
   if (!dbState.ready && prefixes.some(prefix => req.path.startsWith(prefix))) return unavailable(req, res);
   next();
 });
 
 // API-only direct publication for explicitly approved, immutable editorial packages.
 require('./lib/editorial-api.cjs').registerEditorialApi(app, {pool, dbState, root: ROOT});
+
+require('./lib/mcp-server.cjs').registerMcpConnector(app, {
+  pool,dbState,root:ROOT,auth,getAdminUser,verifyAdminCredentials,
+  baseUrl:process.env.MENTAL_PUBLIC_URL||'https://mental.hu'
+});
 
 const contactService = require('./lib/contact-inquiries.cjs').createContactService({pool,auth,dbState,audit});
 contactService.register(app);
@@ -218,10 +252,8 @@ app.post('/api/admin/login', authLimiter, async (req, res) => {
   const password = String(req.body.password || '');
   if (email !== ADMIN_EMAIL || !password) return res.status(401).json({ error: 'Hibás belépési adatok.' });
 
-  let valid = false;
-  if (ADMIN_PASSWORD_HASH) valid = await bcrypt.compare(password, ADMIN_PASSWORD_HASH);
-  else if (ADMIN_PASSWORD) valid = password.length === ADMIN_PASSWORD.length && crypto.timingSafeEqual(Buffer.from(password), Buffer.from(ADMIN_PASSWORD));
-  if (!valid) return res.status(401).json({ error: 'Hibás belépési adatok.' });
+  const user = await verifyAdminCredentials(email,password);
+  if (!user) return res.status(401).json({ error: 'Hibás belépési adatok.' });
 
   const token = jwt.sign({ email, role: 'admin' }, JWT_SECRET, { expiresIn: '12h' });
   res.cookie('mental_cms', token, {

@@ -17,6 +17,6 @@ A tranzakció és `article_import_ledger` megakadályozza, hogy a GitHub-importt
 
 ## Biztonsági és kiadási megjegyzések
 
-A jelenlegi interfész gép–gép REST API. ChatGPT-ben való közvetlen híváshoz külön fel kell venni megfelelő hitelesítésű saját connector/MCP-integrációként, és meg kell oldani a hitelesítő adat védett kezelését. **A GitHubra feltöltött kód önmagában még nem bizonyít telepítést vagy működő ChatGPT-csatlakozást.**
+Ez az interfész gép–gép REST API. A ChatGPT-kapcsolódáshoz külön OAuth-alapú MCP-csatoló tartozik a `https://mental.hu/mcp` címen; beállítása és szerkesztési folyamata a [csatoló dokumentációjában](mcp-connector.md) olvasható. A régi REST-tokent nem kell átmásolni a ChatGPT-be. **A GitHubra feltöltött kód önmagában még nem bizonyít telepítést vagy működő ChatGPT-csatlakozást.**
 
 Minden publikálás után ellenőrizni kell a `/api/public/articles` végpontot és a visszakapott `/cikk/<slug>` oldalt. A szerverválasz vagy a sikeres HTTP 201 sem helyettesíti a nyilvános visszaellenőrzést.

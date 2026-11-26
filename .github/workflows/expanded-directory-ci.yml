@@ -39,6 +39,8 @@ jobs:
           node --test scripts/test-home-editorial.cjs
       - name: Verify every public page and private inquiry lifecycle
         run: node scripts/test-expanded-catalog.cjs
+      - name: Verify MCP authentication, media, drafts and publication
+        run: node --test scripts/test-mcp-oauth.cjs scripts/test-mcp-media.cjs scripts/test-mcp-articles.cjs scripts/test-mcp-server.cjs
       - name: Install isolated browser test tools
         run: |
           npm install --prefix "$RUNNER_TEMP/browser-tools" --no-package-lock --no-audit --no-fund playwright@1.56.1
