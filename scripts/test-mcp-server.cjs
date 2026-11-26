@@ -117,7 +117,7 @@ test('OAuth to Streamable HTTP to private draft to public article works end to e
     const initialized=await rpc('initialize',{protocolVersion:LATEST_PROTOCOL_VERSION,capabilities:{},clientInfo:{name:'Isolated CI',version:'1.0.0'}});assert.equal(initialized.serverInfo.name,'mentalhu-editorial');
     assert.equal((await rpc('tools/list',{})).tools.length,10);
     assert.equal((await call('mental_get_site_info')).mcp_url,baseUrl+'/mcp');
-    const image=Buffer.concat([Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+yP9sAAAAASUVORK5CYII=','base64'),Buffer.from(runId)]);
+    const image=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a5CYAAAAASUVORK5CYII=','base64');
     const uploaded=await call('mental_upload_image',{approved:true,base64:image.toString('base64'),filename:runId+'.png',alt:'Izolált kép'});mediaId=uploaded.media_id;assert(uploaded.private);
     assert.equal((await request(uploaded.url)).status,404);
     const content='<p>'+('Kizárólag izolált adatbázisban futó, törlendő tesztcikk. '.repeat(6))+'</p>';
