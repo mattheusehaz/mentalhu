@@ -29,6 +29,7 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
   const callbacks = [];
   let server, attackerServer, browser;
   let credentialChecks = 0;
+  let legacyPolicy = false;
 
   try {
     const schema = (await pool.query("SELECT to_regclass('mcp_oauth_clients') AS clients,to_regclass('cms_audit_log') AS audit")).rows[0];
@@ -38,7 +39,11 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
     app.use(express.json({limit:'32kb'}));
     app.use(express.urlencoded({extended:false, limit:'32kb'}));
     app.use(cookieParser());
-    app.use((req, _res, next) => {
+    app.use((req, res, next) => {
+      if (legacyPolicy && req.method === 'GET' && req.path === '/mcp/oauth/authorize') {
+        const setHeader = res.setHeader.bind(res);
+        res.setHeader = (name, value) => setHeader(name, name.toLowerCase() === 'referrer-policy' ? 'no-referrer' : value);
+      }
       if (req.method === 'POST' && req.path === '/mcp/oauth/authorize') {
         // Deliberately keep only non-secret transport metadata.
         posts.push({origin:req.get('origin'), contentType:req.get('content-type')});
@@ -88,34 +93,41 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
     // A missed route must fail locally instead of reaching the real callback service.
     browser = await chromium.launch({headless:true, args:['--host-resolver-rules=MAP chatgpt.com ~NOTFOUND']});
     const context = await browser.newContext();
-    let legacyPolicy = false;
-    await context.route('**/*', async route => {
-      const target = new URL(route.request().url());
-      if (target.origin === 'https://chatgpt.com' && target.pathname === '/connector_platform_oauth_redirect') {
-        const headers = await route.request().allHeaders();
-        callbacks.push({url:target, referer:headers.referer});
-        // The real external ChatGPT service is never contacted by this test.
-        return route.fulfill({status:200, contentType:'text/html', body:'<!doctype html><title>Local callback fixture</title><p data-testid="oauth-ci-callback">Callback captured in isolated CI.</p>'});
-      }
-      if (target.origin === baseUrl || target.origin === attackerOrigin) {
-        if (legacyPolicy && target.origin === baseUrl && target.pathname === '/mcp/oauth/authorize' && route.request().method() === 'GET') {
-          const response = await route.fetch({maxRedirects:0});
-          return route.fulfill({response, headers:{...response.headers(), 'referrer-policy':'no-referrer'}});
-        }
-        if (target.origin === baseUrl && target.pathname === '/mcp/oauth/authorize' && route.request().method() === 'POST') {
-          // A network-continued redirect can bypass the next route handler. Fetch
-          // only the local response, then let the browser follow its synthetic
-          // 303 as a new interceptable request. Preserve the native Origin/body.
-          const response = await route.fetch({maxRedirects:0});
-          return route.fulfill({response});
-        }
-        // Never inject Origin; the native browser must supply it itself.
-        return route.continue();
-      }
-      return route.abort('blockedbyclient');
-    });
     const page = await context.newPage();
     page.setDefaultTimeout(15000);
+    // Fetch interception pauses each redirect independently, unlike the high-level
+    // route handler for an existing redirect chain. Local requests stay native.
+    const cdp = await context.newCDPSession(page);
+    const interceptionErrors = [], browserErrors = [];
+    page.on('requestfailed', request => browserErrors.push({origin:new URL(request.url()).origin, error:request.failure()?.errorText}));
+    const intercept = async event => {
+      const target = new URL(event.request.url);
+      if (target.origin === 'https://chatgpt.com' && target.pathname === '/connector_platform_oauth_redirect') {
+        const referer = Object.entries(event.request.headers).find(([name]) => name.toLowerCase() === 'referer')?.[1];
+        callbacks.push({url:target, referer});
+        // The real external ChatGPT service is never contacted by this test.
+        return cdp.send('Fetch.fulfillRequest', {requestId:event.requestId,responseCode:200,
+          responseHeaders:[{name:'Content-Type',value:'text/html; charset=utf-8'}],
+          body:Buffer.from('<!doctype html><title>Local callback fixture</title><p data-testid="oauth-ci-callback">Callback captured in isolated CI.</p>').toString('base64')});
+      }
+      if (target.origin === baseUrl || target.origin === attackerOrigin) {
+        // Never inject Origin; the native browser must supply it itself.
+        return cdp.send('Fetch.continueRequest', {requestId:event.requestId});
+      }
+      return cdp.send('Fetch.failRequest', {requestId:event.requestId,errorReason:'BlockedByClient'});
+    };
+    cdp.on('Fetch.requestPaused', event => {
+      intercept(event).catch(async error => {
+        interceptionErrors.push(error.message);
+        await cdp.send('Fetch.failRequest', {requestId:event.requestId,errorReason:'BlockedByClient'}).catch(()=>{});
+      });
+    });
+    await cdp.send('Fetch.enable', {patterns:[{urlPattern:'*',requestStage:'Request'}]});
+    const waitForCallback = async () => {
+      try { await page.getByTestId('oauth-ci-callback').waitFor({state:'visible'}); }
+      catch { assert.fail('Local callback failed: ' + JSON.stringify({interceptionErrors,browserErrors,callbacks:callbacks.length})); }
+      assert.equal(new URL(page.url()).origin,'https://chatgpt.com');
+    };
     const fillCredentials = async value => {
       await page.getByLabel('E-mail-cím', {exact:true}).fill(email);
       await page.getByLabel('Adminisztrátori jelszó', {exact:true}).fill(value);
@@ -157,8 +169,7 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
     const accepted = await submit('Kapcsolat engedélyezése');
     assert.equal(posts.at(-1).origin, baseUrl);
     assert.equal(accepted.status(), 303);
-    await page.waitForURL(url => url.origin === 'https://chatgpt.com' && url.pathname === '/connector_platform_oauth_redirect');
-    await page.getByTestId('oauth-ci-callback').waitFor({state:'visible'});
+    await waitForCallback();
     assert.equal(callbacks.length, 1, 'The approval callback must be fulfilled by the local browser fixture');
     const callback = new URL(page.url());
     assert.equal(callback.searchParams.get('state'), start.state);
@@ -181,8 +192,7 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
     const denied = await submit('Mégse');
     assert.equal(denied.status(), 303);
     assert.equal(posts.at(-1).origin, baseUrl);
-    await page.waitForURL(url => url.origin === 'https://chatgpt.com' && url.pathname === '/connector_platform_oauth_redirect');
-    await page.getByTestId('oauth-ci-callback').waitFor({state:'visible'});
+    await waitForCallback();
     assert.equal(callbacks.length, 2, 'The denial callback must be fulfilled by the local browser fixture');
     const deniedCallback = new URL(page.url());
     assert.equal(deniedCallback.searchParams.get('state'), deniedStart.state);
@@ -202,6 +212,7 @@ test('Native OAuth form preserves Origin, rejects forgeries and returns the appr
     assert.equal(credentialChecks, 2, 'A cross-origin form remains rejected even with matching cookie, CSRF token and test credentials');
     assert.equal((await pool.query('SELECT used_at FROM mcp_oauth_requests WHERE request_id=$1', [requestId])).rows[0].used_at, null);
     assert.equal(callbacks.length, 2, 'Only the explicit allow and deny actions reach intercepted callbacks');
+    assert.deepEqual(interceptionErrors, []);
     console.log('MCP_OAUTH_BROWSER_OK', JSON.stringify({legacyOriginNullRejected:true, nativeOriginPreserved:true, wrongPassword:401,
       approval:303, tokenValidated:true, denial:303, crossOriginForgery:403, externalCallbackRequests:0}));
   } finally {
