@@ -80,7 +80,7 @@ test('OAuth to Streamable HTTP to private draft to public article works end to e
   const {createArticleService}=require('../lib/public-articles.cjs');
   const {cleanMcpArticleHtml}=require('../lib/mcp-articles.cjs');
   const pool=new Pool({connectionString:databaseValue,ssl:false});
-  const app=express();app.use(express.json({limit:'2mb'}));app.use(cookieParser());
+  const app=express();app.use(express.json({limit:'2mb'}));app.use(express.urlencoded({extended:false,limit:'2mb'}));app.use(cookieParser());
   const http=app.listen(0,'127.0.0.1');await once(http,'listening');
   const baseUrl='http://127.0.0.1:'+http.address().port;
   const runId='mcp-http-'+crypto.randomBytes(8).toString('hex');
