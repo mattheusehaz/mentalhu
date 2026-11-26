@@ -17,10 +17,10 @@ const schema='provider_accounts_test_'+crypto.randomBytes(8).toString('hex');
 const admin=new Pool({connectionString,ssl:false});
 const db=new Pool({connectionString,ssl:false,options:'-c search_path='+schema});
 const key=crypto.randomBytes(32),deliveries=[];
-let configured=false,deliveryError=null,service,server,base;
+let configured=false,deliveryError=null,emptyDeliveryResult=false,service,server,base;
 function seal(value){const iv=crypto.randomBytes(12),cipher=crypto.createCipheriv('aes-256-gcm',key,iv);const body=Buffer.concat([cipher.update(JSON.stringify(value)),cipher.final()]);return [iv,cipher.getAuthTag(),body].map(b=>b.toString('base64url')).join('.');}
 function unseal(value){if(!value)return null;const [iv,tag,body]=value.split('.').map(s=>Buffer.from(s,'base64url'));const cipher=crypto.createDecipheriv('aes-256-gcm',key,iv);cipher.setAuthTag(tag);return JSON.parse(Buffer.concat([cipher.update(body),cipher.final()]).toString());}
-const mailer={ready:async()=>configured,seal,unseal,send:async message=>{if(deliveryError)throw Object.assign(new Error('Isolated mail failure'),{code:deliveryError});deliveries.push(message);return{id:'ci-message-'+message.id};}};
+const mailer={ready:async()=>configured,seal,unseal,send:async message=>{if(deliveryError)throw Object.assign(new Error('Isolated mail failure'),{code:deliveryError});deliveries.push(message);return emptyDeliveryResult?{}:{id:'ci-message-'+message.id};}};
 const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function transaction(fn){const client=await db.connect();try{await client.query('BEGIN');const value=await fn(client);await client.query('COMMIT');return value;}catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}}
 function client(extraCookies={}) {
@@ -122,8 +122,16 @@ async function main(){
 
  // An uncertain transmission is recorded once, not silently sent repeatedly.
  await db.query("INSERT INTO directory_submissions(name,email) VALUES('Uncertain mail','uncertain@example.test') RETURNING id").then(async result=>{const pending=await approve(result.rows[0].id);deliveryError='MAIL_RESULT_UNCERTAIN';await flush();const row=(await db.query('SELECT delivery_status,attempts FROM provider_account_mail WHERE id=$1',[pending.mail_id])).rows[0];assert.equal(row.delivery_status,'uncertain');assert.equal(row.attempts,1);deliveryError=null;});
+ await db.query("INSERT INTO directory_submissions(name,email) VALUES('Missing receipt','no-receipt@example.test') RETURNING id").then(async result=>{const pending=await approve(result.rows[0].id);emptyDeliveryResult=true;await flush();const row=(await db.query('SELECT delivery_status,accepted_at,attempts FROM provider_account_mail WHERE id=$1',[pending.mail_id])).rows[0];assert.equal(row.delivery_status,'uncertain');assert.equal(row.accepted_at,null);assert.equal(row.attempts,1);emptyDeliveryResult=false;});
+ const interruptedId=(await db.query("INSERT INTO directory_submissions(name,email) VALUES('Interrupted delivery','interrupted@example.test') RETURNING id")).rows[0].id;
+ const interrupted=await approve(interruptedId);
+ await db.query("UPDATE provider_account_mail SET delivery_status='sending',sending_since=now()-interval '6 minutes',attempts=1 WHERE id=$1",[interrupted.mail_id]);
+ const recovery=createProviderAccountService({pool:db,dbState:{ready:true},secret:'isolated-provider-account-secret',baseUrl:'http://127.0.0.1',mailer,env:{NODE_ENV:'test'}});
+ await recovery.runWorker();
+ const recovered=(await db.query('SELECT delivery_status,error_code,accepted_at,attempts FROM provider_account_mail WHERE id=$1',[interrupted.mail_id])).rows[0];
+ assert.equal(recovered.delivery_status,'uncertain');assert.equal(recovered.error_code,'WORKER_INTERRUPTED');assert.equal(recovered.accepted_at,null);assert.equal(recovered.attempts,1);
  assert.equal((await owner.call('/api/provider/session')).headers.get('cache-control'),'private, no-store');
- console.log('PROVIDER_ACCOUNTS_DB_OK',JSON.stringify({signup:true,encryptedOutbox:true,mailSetupQueue:true,acceptIdempotent:true,tokenOwnership:true,tokenReplayBlocked:true,concurrentActivation:true,csrf:true,adminIsolation:true,resetRevokesSessions:true,suspensionRevokesSessions:true,trashRevokesUnclaimedApproval:true,existingAccountPasswordPreserved:true,uncertainMailNotRepeated:true,realEmailsSent:0}));
+ console.log('PROVIDER_ACCOUNTS_DB_OK',JSON.stringify({signup:true,encryptedOutbox:true,mailSetupQueue:true,acceptIdempotent:true,tokenOwnership:true,activationRequiresConsent:true,tokenReplayBlocked:true,concurrentActivation:true,csrf:true,adminIsolation:true,resetRevokesSessions:true,suspensionRevokesSessions:true,trashRevokesUnclaimedApproval:true,existingAccountPasswordPreserved:true,uncertainMailNotRepeated:true,missingReceiptNotAccepted:true,interruptedDeliveryNotRepeated:true,realEmailsSent:0}));
 }
 
 main().catch(error=>{console.error(error.stack);process.exitCode=1;}).finally(async()=>{service?.stop();if(server)await new Promise(resolve=>server.close(resolve));await db.end();await admin.query('DROP SCHEMA IF EXISTS '+schema+' CASCADE').catch(()=>{});await admin.end();});

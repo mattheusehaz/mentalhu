@@ -202,8 +202,10 @@ async function main() {
   await guestPage.locator('#submitForm [name="consent"]').check();
   const submitted = await perform(guestPage, 'POST', '/api/directory/submit',
     () => guestPage.locator('#submitForm button[type="submit"]').click(), 201);
-  assert(submitted.id, 'Homepage submission returns a persisted application');
-  const submissionId = submitted.id;
+  assert.equal(submitted.ok, true, 'Homepage submission returns the generic acknowledgement');
+  const persisted = await db.query('SELECT id,email FROM directory_submissions WHERE email=$1', [providerEmail]);
+  assert.equal(persisted.rowCount, 1, 'Homepage form persists exactly one application in the isolated test database');
+  const submissionId = persisted.rows[0].id;
   await until(async () => (await guestPage.locator('#submitMsg').textContent()).includes('megérkezett'), 'public submission confirmation');
   assert.equal((await db.query('SELECT email FROM directory_submissions WHERE id=$1', [submissionId])).rows[0].email, providerEmail);
 
