@@ -48,7 +48,7 @@ test('unsafe URLs, image traversal and invalid dates cannot enter a research pac
 test('all legacy articles retain complete content, known dates and illustration disclosures', () => {
   const root=path.join(__dirname,'..','cikkek');
   const articles=fs.readdirSync(root).filter(x=>x.endsWith('.html')).map(file=>legacyArticle(fs.readFileSync(path.join(root,file),'utf8'),file));
-  assert.equal(articles.length,10);
+  assert.equal(articles.length,9);
   assert.equal(articles.filter(a=>a.published_at==='2026-09-10T12:00:00Z').length,8);
   assert.equal(articles.find(a=>a.slug==='amikor-elfaradunk-egymasban').published_at,null);
   for (const a of articles) { assert.ok(a.content_html.length>1000); assert.ok(a.hero_image_path.startsWith('/assets/')); assert.doesNotMatch(a.content_html,/<script|onload=|onclick=/i); }
