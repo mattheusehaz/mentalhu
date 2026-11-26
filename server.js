@@ -74,22 +74,39 @@ const ARTICLE_VIDEO_ASSETS = {
     'assets/video-data/vesztesegek/part-02.b64','assets/video-data/vesztesegek/part-03.b64'
   ]
 };
-app.get('/video/:name', (req, res, next) => {
-  const parts = ARTICLE_VIDEO_ASSETS[req.params.name];
-  if (!parts) return next();
+// Prefer full-resolution, fast-start MP4 files. Express streams these with HTTP Range support.
+const hdArticleVideos = new Map([
+  ['ai-identitasvesztes.mp4','ai-identitasvesztes-hd.mp4'],
+  ['vesztesegek.mp4','vesztesegek-hd.mp4']
+]);
+app.get('/video/:name', async (req, res, next) => {
+  const name=req.params.name;
+  const hd=hdArticleVideos.get(name);
+  if (!hd) return next();
+  const file=path.join(ROOT,'assets','videos',hd);
   try {
-    const encoded = parts.map(file => fs.readFileSync(path.join(ROOT, file), 'utf8')).join('');
-    const bytes = Buffer.from(encoded, 'base64');
-    res.set({
-      'Content-Type': 'video/mp4',
-      'Content-Length': String(bytes.length),
-      'Cache-Control': 'public, max-age=31536000, immutable'
+    const stat=await fs.promises.stat(file).catch(error=>{
+      if(error.code==='ENOENT') return null;
+      throw error;
     });
+    if(stat?.isFile()) {
+      res.set('Cache-Control','public, max-age=300, must-revalidate');
+      return res.sendFile(file,{acceptRanges:true,cacheControl:false},error=>{if(error)next(error);});
+    }
+    // Preserve existing playback until the replacement files are uploaded.
+    const parts=ARTICLE_VIDEO_ASSETS[name];
+    const encoded=(await Promise.all(parts.map(part=>fs.promises.readFile(path.join(ROOT,part),'utf8')))).join('');
+    const bytes=Buffer.from(encoded,'base64');
+    res.set({'Content-Type':'video/mp4','Cache-Control':'no-store','Accept-Ranges':'bytes'});
+    const ranges=req.range(bytes.length,{combine:true});
+    if(ranges===-1) return res.status(416).set('Content-Range','bytes */'+bytes.length).end();
+    if(Array.isArray(ranges)&&ranges.type==='bytes'&&ranges.length===1){
+      const {start,end}=ranges[0];
+      res.status(206).set('Content-Range','bytes '+start+'-'+end+'/'+bytes.length);
+      return res.send(bytes.subarray(start,end+1));
+    }
     res.send(bytes);
-  } catch (error) {
-    console.error('[article-video]', error.code || 'VIDEO_READ_ERROR');
-    next();
-  }
+  } catch(error){next(error);}
 });
 
 const authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, limit: 20, standardHeaders: true, legacyHeaders: false });
