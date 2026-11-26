@@ -1,5 +1,5 @@
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
-let articles=[],media=[],subscribers=[],listings=[],directoryCategories=[],submissions=[],currentView='listings';
+let articles=[],media=[],listings=[],directoryCategories=[],submissions=[],currentView='listings';
 let articleMetadata={hero_image_path:null,sources:[]}, savedArticleStatus='draft';
 const submissionState={trash:false,page:1,pages:1,seq:0,controller:null,undo:null,busy:false,poll:null,timer:null,focusId:'',locateLinked:false};
 const submissionMailState={loading:false,testing:false,ready:false};
@@ -14,14 +14,14 @@ async function api(url,opts={}){
   if(!r.ok) {const error=new Error(data.error||data||'Hiba történt');error.status=r.status;error.code=data.code;throw error;}
   return data;
 }
-function showLogin(){ $('#loginView').hidden=false; $('#appView').hidden=true;providerAdminCsrf='';clearTimeout(submissionState.poll); }
+function showLogin(){ window.MentalNewsletterAdmin?.reset();$('#loginView').hidden=false; $('#appView').hidden=true;providerAdminCsrf='';clearTimeout(submissionState.poll); }
 function showApp(me){
   $('#loginView').hidden=true;$('#appView').hidden=false;$('#userLabel').textContent=me.email||'';
   const params=new URL(window.location.href).searchParams,linked=params.get('submission')||'';
   submissionState.focusId=/^[1-9]\d{0,18}$/.test(linked)&&BigInt(linked)<=9223372036854775807n?linked:'';
   submissionState.locateLinked=!!submissionState.focusId;
   if(submissionState.focusId){submissionState.trash=false;submissionState.page=1;$('#submissionSearch').value='';$('#submissionStatusFilter').value='';}
-  openView(submissionState.focusId||params.get('view')==='submissions'?'submissions':'listings');refreshListings();loadDirectoryCategories();
+  openView(submissionState.focusId||params.get('view')==='submissions'?'submissions':['subscribers','newsletter'].includes(params.get('view'))?'subscribers':'listings');refreshListings();loadDirectoryCategories();
 }
 function openView(name){
   currentView=name;
@@ -34,7 +34,7 @@ function openView(name){
   $('#newArticleBtn').hidden=!['listings','listingEditor','articles','editor'].includes(name);
   $('#newArticleBtn').textContent=['articles','editor'].includes(name)?'+ Új cikk':'+ Új szolgáltató';
   if(name==='media') refreshMedia();
-  if(name==='subscribers') refreshSubscribers();
+  if(name==='subscribers') window.MentalNewsletterAdmin?.open();else window.MentalNewsletterAdmin?.close();
   if(name==='submissions'){refreshSubmissions();refreshSubmissionNotifications();}
   else clearTimeout(submissionState.poll);
   if(name==='providerAccounts') refreshProviderAccounts();
@@ -304,9 +304,5 @@ $('#mediaForm').addEventListener('submit',async e=>{
   try{const r=await fetch('/api/admin/media',{method:'POST',body:fd});const d=await r.json();if(!r.ok)throw new Error(d.error||'Hiba');msg.textContent='Feltöltve. Kép ID: '+d.id;msg.className='msg ok';$('#mediaForm').reset();refreshMedia()}catch(err){msg.textContent=err.message;msg.className='msg error'}
 });
 
-async function refreshSubscribers(){
-  subscribers=await api('/api/admin/subscribers');$('#subscriberCount').textContent=subscribers.filter(s=>s.status==='active').length+' aktív feliratkozó';
-  $('#subscriberTable').innerHTML=`<table class="table"><thead><tr><th>E-MAIL</th><th>STÁTUSZ</th><th>FORRÁS</th><th>FELIRATKOZÁS</th></tr></thead><tbody>${subscribers.map(s=>`<tr><td>${esc(s.email)}</td><td><span class="badge ${s.status==='active'?'published':''}">${s.status==='active'?'Aktív':'Leiratkozott'}</span></td><td>${esc(s.source)}</td><td>${new Date(s.consent_at).toLocaleString('hu-HU')}</td></tr>`).join('')}</tbody></table>`;
-}
 
 (async()=>{try{const me=await api('/api/admin/me');showApp(me)}catch{showLogin()}})();

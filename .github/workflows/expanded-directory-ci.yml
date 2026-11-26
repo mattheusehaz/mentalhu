@@ -1,7 +1,7 @@
 name: Directory and contact regression checks
 on:
   push:
-    branches: [main, 'release/expanded-31-*', 'feature/articles-*', 'feature/admin-statistics-*', 'feature/provider-*']
+    branches: [main, 'release/expanded-31-*', 'feature/articles-*', 'feature/admin-statistics-*', 'feature/provider-*', 'feature/personalized-weekly-newsletter']
   pull_request:
 permissions:
   contents: read
@@ -55,6 +55,18 @@ jobs:
           TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Verify every public page and private inquiry lifecycle
         run: node scripts/test-expanded-catalog.cjs
+      - name: Verify personalized newsletter schedule and delivery lifecycle
+        run: |
+          node --check lib/newsletter.cjs
+          node --check lib/newsletter-topics.cjs
+          node --check lib/newsletter-mail.cjs
+          node --check lib/newsletter-views.cjs
+          node --check newsletter.js
+          node --check admin/newsletter.js
+          node --test scripts/test-newsletter.cjs
+          node --test scripts/test-newsletter-db.cjs
+        env:
+          TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Verify visitor aggregation and contact statistics
         run: node --test scripts/test-site-statistics-db.cjs
         env:
@@ -82,6 +94,10 @@ jobs:
           node --test scripts/test-editorial-import.cjs
           node scripts/test-editorial-import-db.cjs
           node scripts/test-articles.cjs
+      - name: Verify newsletter signup, preferences, unsubscribe and administration
+        run: node scripts/test-newsletter-browser.cjs
+        env:
+          TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Store test summaries
         if: always()
         uses: actions/upload-artifact@v4

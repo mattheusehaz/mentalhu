@@ -93,7 +93,6 @@ app.get('/video/:name', (req, res, next) => {
 });
 
 const authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, limit: 20, standardHeaders: true, legacyHeaders: false });
-const newsletterLimiter = rateLimit({ windowMs: 15 * 60 * 1000, limit: 25, standardHeaders: true, legacyHeaders: false });
 
 function auth(req, res, next) {
   try {
@@ -184,7 +183,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql','019_submission_notifications.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql','019_submission_notifications.sql','020_newsletter.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -240,7 +239,7 @@ app.use(statisticsService.publicMiddleware);
 
 // A fallback menu is not evidence that the database is ready.
 app.use((req, res, next) => {
-  const prefixes = ['/api/contact/', '/api/admin/contact/', '/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/articles', '/api/admin/media', '/api/admin/mcp/', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/media/', '/leiratkozas/'];
+  const prefixes = ['/api/contact/', '/api/admin/contact/', '/api/public/', '/api/directory/', '/api/newsletter/', '/api/admin/newsletter', '/api/admin/articles', '/api/admin/media', '/api/admin/mcp/', '/api/admin/subscribers', '/api/admin/directory/', '/kereses', '/kategoria/', '/szolgaltato/', '/media/', '/leiratkozas/'];
   if (!dbState.ready && prefixes.some(prefix => req.path.startsWith(prefix))) return unavailable(req, res);
   next();
 });
@@ -260,6 +259,7 @@ contactService.start();
 const providerMailer={
     ready:async client=>contactService.mailReady(await contactService.settings(false,client)),
     seal:contactService.seal,unseal:contactService.unseal,
+    provider:async()=> (await contactService.settings()).provider,
     send:async message=>require('./lib/mail-transport.cjs').sendMailMessage(await contactService.settings(),message)
 };
 const providerAccounts = require('./lib/provider-accounts.cjs').createProviderAccountService({
@@ -275,6 +275,11 @@ const submissionNotifications=require('./lib/submission-notifications.cjs').crea
 });
 submissionNotifications.register(app);
 submissionNotifications.start();
+const newsletterService=require('./lib/newsletter.cjs').createNewsletterService({
+  pool,dbState,auth,audit,accounts:providerAccounts,mailer:providerMailer,baseUrl:process.env.MENTAL_PUBLIC_URL||'https://mental.hu'
+});
+newsletterService.register(app);
+newsletterService.start();
 require('./lib/directory-submissions.cjs').createSubmissionService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
 require('./lib/provider-profiles.cjs').createProviderProfileService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
 for(const [route,mode] of Object.entries({'/belepes':'login','/regisztracio':'register','/elfelejtett-jelszo':'forgot','/jelszo-visszaallitas':'reset','/fiokom':'account','/szolgaltatoi-adatkezeles':'privacy'})) {
@@ -442,42 +447,6 @@ app.get('/media/:id', async (req, res) => {
   res.set('Cache-Control', 'public, max-age=31536000, immutable');
   res.send(rows[0].data);
 });
-
-app.get('/api/admin/subscribers', auth, async (_req, res) => {
-  const { rows } = await pool.query('SELECT id,email,status,source,consent_at,created_at,updated_at FROM newsletter_subscribers ORDER BY created_at DESC');
-  res.json(rows);
-});
-
-app.get('/api/admin/subscribers.csv', auth, async (_req, res) => {
-  const { rows } = await pool.query("SELECT email,status,source,consent_at,created_at FROM newsletter_subscribers ORDER BY created_at DESC");
-  const esc = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
-  const csv = ['email,status,source,consent_at,created_at', ...rows.map(r => [r.email,r.status,r.source,r.consent_at,r.created_at].map(esc).join(','))].join('\n');
-  res.set('Content-Type', 'text/csv; charset=utf-8');
-  res.set('Content-Disposition', 'attachment; filename="mentalhu-hirlevel.csv"');
-  res.send('\ufeff' + csv);
-});
-
-app.post('/api/newsletter/subscribe', newsletterLimiter, async (req, res) => {
-  const email = String(req.body.email || '').trim().toLowerCase();
-  const source = String(req.body.source || 'website').slice(0, 80);
-  const consent = String(req.body.consent_text || 'Feliratkozom a MENTÁL.hu hírlevelére.').slice(0, 500);
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).json({ error: 'Érvényes e-mail-cím szükséges.' });
-  const token = crypto.randomBytes(32).toString('hex');
-  await pool.query(`
-    INSERT INTO newsletter_subscribers(email,status,source,consent_text,unsubscribe_token)
-    VALUES($1,'active',$2,$3,$4)
-    ON CONFLICT (email) DO UPDATE SET
-      status='active',source=EXCLUDED.source,consent_text=EXCLUDED.consent_text,
-      consent_at=now(),updated_at=now()
-  `, [email, source, consent, token]);
-  res.json({ ok: true, message: 'Sikeres feliratkozás.' });
-});
-
-app.get('/leiratkozas/:token', async (req, res) => {
-  await pool.query("UPDATE newsletter_subscribers SET status='unsubscribed',updated_at=now() WHERE unsubscribe_token=$1", [req.params.token]);
-  res.type('html').send(directoryShell('Sikeres leiratkozás', '<main id="tartalom" class="shell catalog-main"><section class="catalog-status"><p class="eyebrow">MENTÁL.HU HÍRLEVÉL</p><h1>Sikeres leiratkozás</h1><p>Az e-mail-címedet leiratkoztattuk a MENTÁL.hu hírleveléről.</p><a class="button button-green" href="/">Vissza a főoldalra</a></section></main>', {canonical:'/',active:'magazin'}));
-});
-
 
 // Company information remains available independently of database readiness.
 app.get('/impresszum', (_req, res) => {
