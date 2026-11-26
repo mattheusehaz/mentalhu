@@ -41,7 +41,7 @@ const description = 'Kizárólag elszigetelt böngészős ellenőrzéshez kész�
 const shortDescription = 'Elszigetelt tesztadatlap a szolgáltatói jelentkezés és a katalógus ellenőrzéséhez.';
 const unsealer = createContactService({pool:db, auth:()=>{}, dbState:{ready:true}, env:{CMS_JWT_SECRET:secret, CONTACT_DATA_KEY:dataKey}});
 const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
-const errors = [], requests = [], tokens = [], pages = [];
+const errors = [], requests = [], tokens = [], pages = [], layoutFailures = [];
 let child, browser, base, output = '', schemaCreated = false;
 
 async function until(check, label, timeout = 15000) {
@@ -86,8 +86,10 @@ async function newContext(options = {}) {
   return context;
 }
 async function noOverflow(page) {
-  assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),
-    'No horizontal document overflow on ' + new URL(page.url()).pathname);
+  const dimensions = await page.evaluate(() => ({documentWidth:document.documentElement.scrollWidth, viewportWidth:innerWidth}));
+  if (dimensions.documentWidth > dimensions.viewportWidth + 1) {
+    layoutFailures.push({path:new URL(page.url()).pathname, ...dimensions});
+  }
 }
 async function screenshot(page, name, target = null) {
   await page.evaluate(async () => { await document.fonts.ready; });
@@ -382,6 +384,8 @@ async function main() {
   const delivery = (await db.query("SELECT count(*) FILTER(WHERE attempts>0 OR delivery_status IN ('sending','accepted'))::int AS attempts FROM provider_account_mail")).rows[0];
   assert.equal(delivery.attempts, 0, 'No real email delivery was attempted');
   assert.deepEqual(errors, [], 'No uncaught browser JavaScript exceptions');
+  console.log('PROVIDER_BROWSER_FUNCTIONAL_OK');
+  assert.deepEqual(layoutFailures, [], 'No horizontal document overflow across desktop and mobile screenshots');
   console.log('PROVIDER_BROWSER_OK', JSON.stringify({publicApplication:true, adminLogin:true, trashAndRestore:true,
     idempotentInvitation:true, encryptedPendingMail:true, activation:true, ownedProfile:true, publication:true,
     categoryCounts:true, hideAndRepublish:true, registration:true, unapprovedCannotPublish:true,

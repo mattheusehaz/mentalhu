@@ -1,4 +1,5 @@
 /* Reversible submissions inbox, using the existing editorial admin palette. */
+.cms-page .main,.cms-page #appView{min-width:0}
 .cms-page .submission-head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:25px}
 .cms-page .submission-head h2{margin:0 0 9px;font-size:30px}
 .cms-page .submission-head p{margin:0;color:var(--muted);font-size:14px;line-height:1.65;max-width:660px}
@@ -15,7 +16,7 @@
 .cms-page .submission-notice p{margin:0;font-size:14px}
 .cms-page .submission-notice button{flex:none;background:white;border:1px solid #bcc8b5}
 .cms-page .submission-notice[hidden],.cms-page #submissionUndo[hidden]{display:none}
-.cms-page .submission-table-scroll{overflow-x:auto;min-width:0}
+.cms-page .submission-table-scroll{overflow-x:auto;min-width:0;width:100%;max-width:100%}
 .cms-page .submission-table{min-width:850px;table-layout:fixed}
 .cms-page .submission-table th:nth-child(1){width:29%}
 .cms-page .submission-table th:nth-child(2){width:22%}
@@ -42,4 +43,5 @@
 .cms-page .provider-account-notice{font-size:14px;line-height:1.65;color:#315c38}
 .cms-page .provider-account-notice:empty{display:none}
 @media(max-width:1200px){.cms-page .submission-filters{grid-template-columns:minmax(190px,1fr) minmax(150px,1fr)}.cms-page .submission-filters button{min-height:43px}}
-@media(max-width:650px){.cms-page .submission-head{gap:18px;flex-direction:column}.cms-page .submission-head h2{font-size:28px}.cms-page .submission-trash-toggle{align-self:flex-end}.cms-page .submission-filters{grid-template-columns:1fr 1fr;gap:12px}.cms-page .submission-filters label{grid-column:1/-1}.cms-page .submission-list-meta,.cms-page .submission-notice{align-items:flex-start;flex-direction:column}.cms-page .submission-pagination{gap:8px}.cms-page .submission-pagination button{padding:10px;font-size:13px}}
+@media(max-width:1000px){.cms-page .shell{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:650px){.cms-page .submission-head{gap:18px;flex-direction:column}.cms-page .submission-head h2{font-size:28px}.cms-page .submission-trash-toggle{align-self:flex-end}.cms-page .submission-filters{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.cms-page .submission-filters label{grid-column:1/-1}.cms-page .submission-list-meta,.cms-page .submission-notice{align-items:flex-start;flex-direction:column}.cms-page .submission-pagination{gap:8px}.cms-page .submission-pagination button{padding:10px;font-size:13px}}
