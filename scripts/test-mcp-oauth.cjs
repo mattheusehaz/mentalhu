@@ -93,7 +93,12 @@ test('OAuth HTTP and PostgreSQL flow binds consent, codes, resource, scopes and 
     const badRedirect = await startAuthorization(readClient,'mental:read',{redirect_uri:'https://evil.example/callback'});assert.equal(badRedirect.response.status,400);assert.equal(badRedirect.response.headers.get('location'),null);
     const started = await startAuthorization(readClient);assert.equal(started.response.status,200);assert(started.html.includes('&lt;svg'));assert(!started.html.includes('<svg'));assert(started.cookie);assert.equal(started.response.headers.get('cache-control'),'no-store');
     assert(started.response.headers.get('content-security-policy').includes("form-action 'self' " + redirectUri + ';'),'Consent must allow the exact ChatGPT callback after form submission');
+    assert.equal(started.response.headers.get('referrer-policy'),'same-origin','Native form submission must preserve the same-origin Origin header');
     const missingOrigin = await form('/mcp/oauth/authorize',{request_id:started.request_id,csrf_token:started.csrf_token,decision:'allow',email,password},{cookie:started.cookie});assert.equal(missingOrigin.status,403);
+    for(const origin of ['null','https://untrusted.example']){
+      const forbidden=await form('/mcp/oauth/authorize',{request_id:started.request_id,csrf_token:started.csrf_token,decision:'allow',email,password},{origin,cookie:started.cookie});
+      assert.equal(forbidden.status,403,'A valid CSRF token must not bypass the trusted origin check');
+    }
     const wrongCsrf = await approve(started,{csrf_token:'a'.repeat(43)});assert.equal(wrongCsrf.response.status,403);
     const wrongPassword = await approve(started,{password:'incorrect'});assert.equal(wrongPassword.response.status,401);const wrongPasswordBody=await wrongPassword.response.text();assert(!wrongPasswordBody.includes('incorrect'));assert(!wrongPasswordBody.includes(password));
     const consent = await approve(started);assert.equal(consent.response.status,303);assert.equal(consent.location.origin,'https://chatgpt.com');assert.equal(consent.location.searchParams.get('state'),started.params.state);assert.equal(consent.location.searchParams.get('iss'),baseUrl);

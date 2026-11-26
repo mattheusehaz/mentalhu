@@ -46,6 +46,8 @@ jobs:
           npm install --prefix "$RUNNER_TEMP/browser-tools" --no-package-lock --no-audit --no-fund playwright@1.56.1
           "$RUNNER_TEMP/browser-tools/node_modules/.bin/playwright" install --with-deps chromium
           echo "BROWSER_TOOLS=$RUNNER_TEMP/browser-tools/node_modules/playwright" >> "$GITHUB_ENV"
+      - name: Verify native browser OAuth consent and callback
+        run: node --test scripts/test-mcp-oauth-browser.cjs
       - name: Verify real browser submission and administrative handling
         run: node scripts/test-contact-browser.cjs
       - name: Verify articles, approval boundaries and editorial browser flows
