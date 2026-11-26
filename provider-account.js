@@ -10,6 +10,12 @@
  let csrf='',session=null,profile=null,booting=false,profileBusy=false;
  let token=new URLSearchParams(window.location.hash.slice(1)).get('token')||'';
  if(token)history.replaceState(null,'',window.location.pathname+window.location.search);
+ // An email link may open in the registration/reset page that is already open.
+ // Restart the page so the incoming fragment follows the same one-time read,
+ // removal and verification path, with fresh form state and no persisted token.
+ window.addEventListener('hashchange',()=>{
+  if(['register','reset'].includes(mode)&&new URLSearchParams(window.location.hash.slice(1)).get('token'))window.location.reload();
+ });
 
  function showMessage(id,text,type='') {
   const element=byId(id);if(!element)return;
