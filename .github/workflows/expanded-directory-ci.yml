@@ -46,10 +46,11 @@ jobs:
           node --check lib/provider-accounts.cjs
           node --check lib/provider-profiles.cjs
           node --check lib/directory-submissions.cjs
+          node --check lib/submission-notifications.cjs
           node --check provider-account.js
           node --check admin/admin.js
-          node --test scripts/test-provider-accounts.cjs scripts/test-provider-profiles.cjs scripts/test-provider-views.cjs scripts/test-submission-trash.cjs scripts/test-mail-transport.cjs
-          node --test scripts/test-provider-accounts-db.cjs scripts/test-provider-profiles-db.cjs scripts/test-submission-trash-db.cjs
+          node --test scripts/test-provider-accounts.cjs scripts/test-provider-profiles.cjs scripts/test-provider-views.cjs scripts/test-submission-trash.cjs scripts/test-mail-transport.cjs scripts/test-submission-notifications.cjs
+          node --test scripts/test-provider-accounts-db.cjs scripts/test-provider-profiles-db.cjs scripts/test-submission-trash-db.cjs scripts/test-submission-notifications-db.cjs
         env:
           TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Verify every public page and private inquiry lifecycle

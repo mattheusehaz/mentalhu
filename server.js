@@ -184,7 +184,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql','019_submission_notifications.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -257,18 +257,24 @@ const contactService = require('./lib/contact-inquiries.cjs').createContactServi
 contactService.register(app);
 contactService.start();
 
+const providerMailer={
+    ready:async client=>contactService.mailReady(await contactService.settings(false,client)),
+    seal:contactService.seal,unseal:contactService.unseal,
+    send:async message=>require('./lib/mail-transport.cjs').sendMailMessage(await contactService.settings(),message)
+};
 const providerAccounts = require('./lib/provider-accounts.cjs').createProviderAccountService({
   pool,dbState,audit,
   secret:crypto.createHmac('sha256',JWT_SECRET).update('mental-provider-accounts-v1').digest('hex'),
   baseUrl:process.env.MENTAL_PUBLIC_URL||'https://mental.hu',
-  mailer:{
-    ready:async client=>contactService.mailReady(await contactService.settings(false,client)),
-    seal:contactService.seal,unseal:contactService.unseal,
-    send:async message=>require('./lib/mail-transport.cjs').sendMailMessage(await contactService.settings(),message)
-  }
+  mailer:providerMailer
 });
 providerAccounts.register(app);
 providerAccounts.start();
+const submissionNotifications=require('./lib/submission-notifications.cjs').createSubmissionNotificationService({
+  pool,dbState,auth,audit,accounts:providerAccounts,mailer:providerMailer,baseUrl:process.env.MENTAL_PUBLIC_URL||'https://mental.hu'
+});
+submissionNotifications.register(app);
+submissionNotifications.start();
 require('./lib/directory-submissions.cjs').createSubmissionService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
 require('./lib/provider-profiles.cjs').createProviderProfileService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
 for(const [route,mode] of Object.entries({'/belepes':'login','/regisztracio':'register','/elfelejtett-jelszo':'forgot','/jelszo-visszaallitas':'reset','/fiokom':'account','/szolgaltatoi-adatkezeles':'privacy'})) {

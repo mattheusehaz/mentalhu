@@ -1,7 +1,8 @@
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let articles=[],media=[],subscribers=[],listings=[],directoryCategories=[],submissions=[],currentView='listings';
 let articleMetadata={hero_image_path:null,sources:[]}, savedArticleStatus='draft';
-const submissionState={trash:false,page:1,pages:1,seq:0,controller:null,undo:null,busy:false,poll:null,timer:null};
+const submissionState={trash:false,page:1,pages:1,seq:0,controller:null,undo:null,busy:false,poll:null,timer:null,focusId:'',locateLinked:false};
+const submissionMailState={loading:false,testing:false,ready:false};
 const providerAccountState={page:1,pages:1,seq:0,controller:null,busy:false,timer:null};
 let providerAdminCsrf='',providerAdminCsrfRequest=null;
 
@@ -14,7 +15,14 @@ async function api(url,opts={}){
   return data;
 }
 function showLogin(){ $('#loginView').hidden=false; $('#appView').hidden=true;providerAdminCsrf='';clearTimeout(submissionState.poll); }
-function showApp(me){ $('#loginView').hidden=true; $('#appView').hidden=false; $('#userLabel').textContent=me.email||''; openView('listings'); refreshListings(); loadDirectoryCategories(); }
+function showApp(me){
+  $('#loginView').hidden=true;$('#appView').hidden=false;$('#userLabel').textContent=me.email||'';
+  const params=new URL(window.location.href).searchParams,linked=params.get('submission')||'';
+  submissionState.focusId=/^[1-9]\d{0,18}$/.test(linked)&&BigInt(linked)<=9223372036854775807n?linked:'';
+  submissionState.locateLinked=!!submissionState.focusId;
+  if(submissionState.focusId){submissionState.trash=false;submissionState.page=1;$('#submissionSearch').value='';$('#submissionStatusFilter').value='';}
+  openView(submissionState.focusId||params.get('view')==='submissions'?'submissions':'listings');refreshListings();loadDirectoryCategories();
+}
 function openView(name){
   currentView=name;
   const map={listings:'listingsView',listingEditor:'listingEditorView',submissions:'submissionsView',providerAccounts:'providerAccountsView',articles:'articlesView',editor:'editorView',media:'mediaView',subscribers:'subscribersView'};
@@ -27,7 +35,7 @@ function openView(name){
   $('#newArticleBtn').textContent=['articles','editor'].includes(name)?'+ Új cikk':'+ Új szolgáltató';
   if(name==='media') refreshMedia();
   if(name==='subscribers') refreshSubscribers();
-  if(name==='submissions') refreshSubmissions();
+  if(name==='submissions'){refreshSubmissions();refreshSubmissionNotifications();}
   else clearTimeout(submissionState.poll);
   if(name==='providerAccounts') refreshProviderAccounts();
   if(name==='articles') refreshArticles();
@@ -83,14 +91,46 @@ async function ensureProviderAdminCsrf(){
 }
 const submissionStatusNames={new:'Új',reviewed:'Átnézve',accepted:'Elfogadva',rejected:'Elutasítva'};
 const invitationStatusNames={needs_mail:'Levélküldés beállítására vár',queued:'Értesítés küldésre vár',sending:'Értesítés küldése folyamatban',accepted:'A levélküldő átvette az értesítést',failed:'A levélküldés sikertelen',uncertain:'Bizonytalan küldési eredmény',cancelled:'Meghívó visszavonva'};
+const adminNoticeStatusNames={needs_mail:'a levélküldés beállítására vár',queued:'küldésre vár',sending:'küldés folyamatban',accepted:'a levélküldő átvette',failed:'sikertelen küldés',uncertain:'bizonytalan küldési eredmény',cancelled:'küldés leállítva'};
 const submissionDate=value=>{const d=new Date(value);return Number.isNaN(d.valueOf())?'':new Intl.DateTimeFormat('hu-HU',{timeZone:'Europe/Budapest',dateStyle:'medium',timeStyle:'short'}).format(d);};
 function submissionWebsite(value){try{const url=new URL(value);return ['http:','https:'].includes(url.protocol)?url.href:'';}catch{return '';}}
+function clearSubmissionFocus(){
+  submissionState.focusId='';submissionState.locateLinked=false;$('#submissionFocus').hidden=true;
+  const url=new URL(window.location.href);url.searchParams.delete('submission');history.replaceState(null,'',url.pathname+url.search+url.hash);
+}
+function updateSubmissionTestButton(){
+  $('#submissionNotificationTest').disabled=submissionMailState.loading||submissionMailState.testing||!submissionMailState.ready||submissionState.busy;
+}
+async function refreshSubmissionNotifications(){
+  if(submissionMailState.loading)return;submissionMailState.loading=true;updateSubmissionTestButton();
+  const state=$('#submissionNotificationState');state.textContent='Értesítések betöltése…';
+  try{
+    const data=await api('/api/admin/directory/submission-notifications');
+    if(typeof data.recipient!=='string'||!data.recipient)throw new Error('Az értesítési beállítás nem tölthető be.');
+    $('#submissionNotificationRecipient').textContent=data.recipient;submissionMailState.ready=data.mail_ready===true;
+    state.textContent=submissionMailState.ready?'Új jelentkezéskor automatikus e-mailt küldünk.':'Az értesítések a levélküldés beállítására várnak.';
+  }catch(error){submissionMailState.ready=false;state.textContent=error.message;}
+  finally{submissionMailState.loading=false;updateSubmissionTestButton();}
+}
+$('#submissionNotificationTest')?.addEventListener('click',async()=>{
+  if(submissionMailState.testing||submissionState.busy||!submissionMailState.ready)return;
+  submissionMailState.testing=true;updateSubmissionTestButton();const message=$('#submissionNotificationMessage');message.className='msg';message.textContent='Tesztértesítés küldése…';
+  try{
+    const token=await ensureProviderAdminCsrf();
+    const result=await api('/api/admin/directory/submission-notifications/test',{method:'POST',headers:{'X-Provider-CSRF':token},body:JSON.stringify({})});
+    if(typeof result.provider_message_id!=='string'||!result.provider_message_id)throw new Error('A küldés eredménye nem ellenőrizhető. Az ismétlés előtt ellenőrizd a levélküldő naplóját.');
+    message.textContent=result.message||'A tesztértesítést a levélküldő átvette. Címzett: '+result.recipient;message.className='msg ok';
+  }catch(error){if(error.status===403)providerAdminCsrf='';message.textContent=error.message;message.className='msg error';}
+  finally{submissionMailState.testing=false;updateSubmissionTestButton();}
+});
+$('#submissionShowAll')?.addEventListener('click',()=>{clearSubmissionFocus();submissionState.trash=false;submissionState.page=1;$('#submissionSearch').value='';$('#submissionStatusFilter').value='';refreshSubmissions();});
 function submissionNotice(message,undoId=null){
   $('#submissionNoticeText').textContent=message;$('#submissionNotice').hidden=!message;submissionState.undo=undoId;$('#submissionUndo').hidden=!undoId;
 }
 function renderSubmissions(data){
   if(!Array.isArray(data.items)||!Number.isFinite(Number(data.total)))throw new Error('A jelentkezések válasza hiányos.');
   submissions=data.items;submissionState.page=data.page;submissionState.pages=data.pages;
+  $('#submissionFocus').hidden=!submissionState.focusId;$('#submissionFocusLabel').textContent=submissionState.focusId?'A levélből megnyitott jelentkezés: #'+submissionState.focusId:'';
   $('#submissionHeading').textContent=submissionState.trash?'Kukába helyezett jelentkezések':'Beérkezett szolgáltatói jelentkezések';
   $('#submissionIntro').textContent=submissionState.trash?'A kukában lévő jelentkezések bármikor visszaállíthatók. A már létrehozott szolgáltatói fiókokat a kukába helyezés nem törli.':'Az elfogadás e-mailes meghívót indít a jelentkező saját szolgáltatói fiókjához.';
   $('#submissionTrashToggle').setAttribute('aria-pressed',String(submissionState.trash));
@@ -98,17 +138,18 @@ function renderSubmissions(data){
   $('#submissionCount').textContent=data.total+' '+(submissionState.trash?'jelentkezés a kukában':'jelentkezés')+($('#submissionSearch').value.trim()||$('#submissionStatusFilter').value?' a szűrés szerint':'');
   $('#submissionPage').textContent=data.page+' / '+data.pages+'. oldal';
   $('#submissionPrevious').disabled=submissionState.busy||data.page<=1;$('#submissionNext').disabled=submissionState.busy||data.page>=data.pages;
-  if(!submissions.length){$('#submissionTable').innerHTML='<p class="submission-empty">'+(submissionState.trash?'A kuka üres, vagy nincs a szűrésnek megfelelő jelentkezés.':'Nincs a szűrésnek megfelelő jelentkezés.')+'</p>';return;}
+  if(!submissions.length){$('#submissionTable').innerHTML='<p class="submission-empty">'+(submissionState.focusId?'A hivatkozott jelentkezés nem található. Az összes jelentkezéshez a fenti gombbal térhetsz vissza.':submissionState.trash?'A kuka üres, vagy nincs a szűrésnek megfelelő jelentkezés.':'Nincs a szűrésnek megfelelő jelentkezés.')+'</p>';return;}
   const button=(x,action,text,extra='')=>'<button type="button" data-sub-id="'+esc(x.id)+'" data-sub-action="'+action+'" '+extra+(submissionState.busy?' disabled':'')+'>'+text+'</button>';
   $('#submissionTable').innerHTML='<table class="table submission-table"><thead><tr><th scope="col">Jelentkezés</th><th scope="col">Kapcsolat és kategória</th><th scope="col">Státusz és értesítés</th><th scope="col">Műveletek</th></tr></thead><tbody>'+submissions.map(x=>{
     const website=submissionWebsite(x.website_url);
     const details=[x.contact_name?'Kapcsolattartó: '+x.contact_name:'',x.description||'',x.qualifications?'Képesítések: '+x.qualifications:''].filter(Boolean).join('\n\n');
     const mailText=x.mail_status?(x.mail_kind==='invite'&&x.mail_expires_at&&new Date(x.mail_expires_at)<new Date()&&!x.account_activated?'A meghívó lejárt; új meghívó küldhető.':invitationStatusNames[x.mail_status]||'Értesítés állapota: '+x.mail_status):x.status==='accepted'?'Ehhez a korábbi elfogadáshoz még nincs értesítés.':'';
     const mailWarning=['needs_mail','failed','uncertain','cancelled'].includes(x.mail_status);
+    const adminNotice=x.admin_notice_status?'<small class="submission-admin-mail '+(['needs_mail','failed','uncertain'].includes(x.admin_notice_status)?'warning':'')+'"'+(x.admin_notice_recipient?' title="Címzett: '+esc(x.admin_notice_recipient)+'"':'')+'>Adminértesítés: '+esc(adminNoticeStatusNames[x.admin_notice_status]||x.admin_notice_status)+'</small>':'';
     let actions=submissionState.trash?button(x,'restore','Visszaállítás','class="primary"'):
       button(x,'review','Átnézve',x.status==='reviewed'?'disabled':'')+button(x,'accept','Elfogadva','class="primary"'+(x.status==='accepted'?' disabled':''))+button(x,'reject','Elutasítva',x.status==='rejected'?'disabled':'')+button(x,'trash','Kukába','class="danger"');
     if(!submissionState.trash&&x.status==='accepted')actions+=button(x,'invite',(x.account_activated?'Értesítés':'Meghívó')+(x.mail_status?' újraküldése':' küldése'),'class="submission-invite"'+(['queued','sending'].includes(x.mail_status)?' disabled':''));
-    return '<tr data-submission-id="'+esc(x.id)+'"><td><strong class="submission-name">'+esc(x.name)+'</strong><small>'+esc(submissionState.trash?'Kukába helyezve: '+submissionDate(x.deleted_at):submissionDate(x.created_at))+'</small>'+((details||website)?'<details><summary>Jelentkezés részletei</summary><p>'+esc(details)+'</p>'+(website?'<a href="'+esc(website)+'" target="_blank" rel="noopener noreferrer">Megadott weboldal</a>':'')+'</details>':'')+'</td><td>'+esc(x.email)+'<small>'+esc(x.phone||'')+'</small><small>'+esc(x.category_slugs||'')+'</small><small>'+esc([x.city,x.online_available?'Online is elérhető':''].filter(Boolean).join(' · '))+'</small></td><td><span class="badge '+(x.status==='accepted'?'published':'')+'">'+esc(submissionStatusNames[x.status]||x.status)+'</span>'+(x.account_activated?'<div class="submission-account">Szolgáltatói fiók létrehozva</div>':'')+(mailText?'<div class="submission-mail '+(mailWarning?'warning':'')+'">'+esc(mailText)+'</div>':'')+(x.mail_status==='needs_mail'?'<small><a href="/admin/kapcsolatfelvetelek.html">Levélküldés beállításai</a></small>':'')+'</td><td><div class="submission-actions">'+actions+'</div></td></tr>';
+    return '<tr data-submission-id="'+esc(x.id)+'"><td><strong class="submission-name">'+esc(x.name)+'</strong><small>'+esc(submissionState.trash?'Kukába helyezve: '+submissionDate(x.deleted_at):submissionDate(x.created_at))+'</small>'+((details||website)?'<details'+(String(x.id)===submissionState.focusId?' open':'')+'><summary>Jelentkezés részletei</summary><p>'+esc(details)+'</p>'+(website?'<a href="'+esc(website)+'" target="_blank" rel="noopener noreferrer">Megadott weboldal</a>':'')+'</details>':'')+'</td><td>'+esc(x.email)+'<small>'+esc(x.phone||'')+'</small><small>'+esc(x.category_slugs||'')+'</small><small>'+esc([x.city,x.online_available?'Online is elérhető':''].filter(Boolean).join(' · '))+'</small></td><td><span class="badge '+(x.status==='accepted'?'published':'')+'">'+esc(submissionStatusNames[x.status]||x.status)+'</span>'+adminNotice+(x.account_activated?'<div class="submission-account">Szolgáltatói fiók létrehozva</div>':'')+(mailText?'<div class="submission-mail '+(mailWarning?'warning':'')+'">'+esc(mailText)+'</div>':'')+(x.mail_status==='needs_mail'?'<small><a href="/admin/kapcsolatfelvetelek.html">Levélküldés beállításai</a></small>':'')+'</td><td><div class="submission-actions">'+actions+'</div></td></tr>';
   }).join('')+'</tbody></table>';
 }
 async function refreshSubmissions({quiet=false}={}){
@@ -118,10 +159,17 @@ async function refreshSubmissions({quiet=false}={}){
   try{
     await ensureProviderAdminCsrf();
     const query=new URLSearchParams({paginated:'true',trash:String(submissionState.trash),page:String(submissionState.page),page_size:'25',q:$('#submissionSearch').value.trim(),status:$('#submissionStatusFilter').value});
-    const data=await api('/api/admin/directory/submissions?'+query,{signal:submissionState.controller.signal});
+    if(submissionState.focusId)query.set('submission_id',submissionState.focusId);
+    let data=await api('/api/admin/directory/submissions?'+query,{signal:submissionState.controller.signal});
     if(seq!==submissionState.seq)return;
+    if(submissionState.focusId&&submissionState.locateLinked&&!submissionState.trash&&Array.isArray(data.items)&&data.items.length===0){
+      query.set('trash','true');const trashed=await api('/api/admin/directory/submissions?'+query,{signal:submissionState.controller.signal});
+      if(seq!==submissionState.seq)return;
+      if(Array.isArray(trashed.items)&&trashed.items.length){data=trashed;submissionState.trash=true;}
+    }
+    submissionState.locateLinked=false;
     renderSubmissions(data);message.textContent='';
-    if(currentView==='submissions'&&submissions.some(x=>['queued','sending'].includes(x.mail_status)))submissionState.poll=setTimeout(()=>{if(currentView==='submissions'&&!submissionState.busy)refreshSubmissions({quiet:true});},5000);
+    if(currentView==='submissions'&&submissions.some(x=>['queued','sending'].includes(x.mail_status)||['queued','sending'].includes(x.admin_notice_status)))submissionState.poll=setTimeout(()=>{if(currentView==='submissions'&&!submissionState.busy)refreshSubmissions({quiet:true});},5000);
   }catch(error){if(error.name==='AbortError'||seq!==submissionState.seq)return;message.textContent=error.message;message.className='msg error';}
   finally{if(seq===submissionState.seq)$('#submissionTable').setAttribute('aria-busy','false');}
 }
@@ -133,17 +181,18 @@ async function submissionAction(id,action){
     const token=await ensureProviderAdminCsrf(),status={accept:'accepted',review:'reviewed',reject:'rejected'}[action];
     const result=await api('/api/admin/directory/submissions/'+encodeURIComponent(id)+(status?'':'/'+(action==='invite'?'invitation':action)),{method:status?'PUT':'POST',headers:{'X-Provider-CSRF':token},body:JSON.stringify(status?{status}:{})});
     submissionNotice(result.message||'A műveletet elmentettük.',action==='trash'?id:null);
+    if(submissionState.focusId===String(id)&&['trash','restore'].includes(action))submissionState.trash=action==='trash';
     submissionState.busy=false;await refreshSubmissions();
   }catch(error){if(error.status===403)providerAdminCsrf='';message.textContent=error.message;message.className='msg error';}
-  finally{submissionState.busy=false;$$('#submissionsView button').forEach(button=>button.disabled=false);$('#submissionPrevious').disabled=submissionState.page<=1;$('#submissionNext').disabled=submissionState.page>=submissionState.pages;$$('#submissionTable [data-sub-action]').forEach(button=>{const row=submissions.find(x=>String(x.id)===button.dataset.subId);if(!row)return;button.disabled=(button.dataset.subAction==='accept'&&row.status==='accepted')||(button.dataset.subAction==='review'&&row.status==='reviewed')||(button.dataset.subAction==='reject'&&row.status==='rejected')||(button.dataset.subAction==='invite'&&['queued','sending'].includes(row.mail_status));});}
+  finally{submissionState.busy=false;$$('#submissionsView button').forEach(button=>button.disabled=false);updateSubmissionTestButton();$('#submissionPrevious').disabled=submissionState.page<=1;$('#submissionNext').disabled=submissionState.page>=submissionState.pages;$$('#submissionTable [data-sub-action]').forEach(button=>{const row=submissions.find(x=>String(x.id)===button.dataset.subId);if(!row)return;button.disabled=(button.dataset.subAction==='accept'&&row.status==='accepted')||(button.dataset.subAction==='review'&&row.status==='reviewed')||(button.dataset.subAction==='reject'&&row.status==='rejected')||(button.dataset.subAction==='invite'&&['queued','sending'].includes(row.mail_status));});}
 }
 $('#submissionTable')?.addEventListener('click',event=>{const button=event.target.closest('[data-sub-action]');if(button)submissionAction(button.dataset.subId,button.dataset.subAction);});
-$('#submissionTrashToggle')?.addEventListener('click',()=>{submissionState.trash=!submissionState.trash;submissionState.page=1;refreshSubmissions();});
+$('#submissionTrashToggle')?.addEventListener('click',()=>{clearSubmissionFocus();submissionState.trash=!submissionState.trash;submissionState.page=1;refreshSubmissions();});
 $('#submissionUndo')?.addEventListener('click',()=>{if(submissionState.undo)submissionAction(submissionState.undo,'restore');});
-$('#submissionSearchForm')?.addEventListener('submit',event=>{event.preventDefault();clearTimeout(submissionState.timer);submissionState.page=1;refreshSubmissions();});
-$('#submissionSearch')?.addEventListener('input',()=>{clearTimeout(submissionState.timer);submissionState.timer=setTimeout(()=>{submissionState.page=1;refreshSubmissions();},300);});
-$('#submissionStatusFilter')?.addEventListener('change',()=>{submissionState.page=1;refreshSubmissions();});
-$('#submissionRefresh')?.addEventListener('click',()=>refreshSubmissions());
+$('#submissionSearchForm')?.addEventListener('submit',event=>{event.preventDefault();clearSubmissionFocus();clearTimeout(submissionState.timer);submissionState.page=1;refreshSubmissions();});
+$('#submissionSearch')?.addEventListener('input',()=>{clearSubmissionFocus();clearTimeout(submissionState.timer);submissionState.timer=setTimeout(()=>{submissionState.page=1;refreshSubmissions();},300);});
+$('#submissionStatusFilter')?.addEventListener('change',()=>{clearSubmissionFocus();submissionState.page=1;refreshSubmissions();});
+$('#submissionRefresh')?.addEventListener('click',()=>{refreshSubmissions();refreshSubmissionNotifications();});
 $('#submissionPrevious')?.addEventListener('click',()=>{if(submissionState.page>1){submissionState.page--;refreshSubmissions();}});
 $('#submissionNext')?.addEventListener('click',()=>{if(submissionState.page<submissionState.pages){submissionState.page++;refreshSubmissions();}});
 

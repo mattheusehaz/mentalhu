@@ -16,6 +16,18 @@ A kuka nem törli és nem függeszti fel a már aktivált szolgáltatói fiókot
 
 ## Elfogadás és meghívás
 
+### Új jelentkezések adminértesítése
+
+Minden új, hozzájárulással rögzített katalógusjelentkezésről értesítés megy a **den@proptechdigital.com** címre. A címzettet a szerver határozza meg; a beküldő nem írhatja felül. A levél tartalmazza a jelentkező adatait, a kategóriák nevét, a bemutatkozást, a képesítéseket és az adott rekordot megnyitó `/admin/?submission=<id>` hivatkozást. A linkhez CMS-belépés szükséges, a jelentkező elérhetőségei nem kerülnek az URL-be.
+
+A `019_submission_notifications.sql` trigger a jelentkezéssel egy tranzakcióban hozza létre a küldési feladatot, a főoldali és a szolgáltatói fiókból érkező beküldéseknél egyaránt. A migráció nem indít visszamenőleges küldést. Az eleve új rekord ismételt mentése és a kuka visszaállítása nem küld újabb levelet; egy átnézett vagy elutasított jelentkezés tényleges újrabeküldése igen. A még várakozó korábbi értesítést ilyenkor felváltja az új.
+
+A háttérfeldolgozó tíz másodpercenként ellenőrzi a várólistát. A kapcsolatfelvételi űrlap engedélyezési kapcsolójától függetlenül használja a mentett levélküldőt. Párhuzamos alkalmazáspéldányok nem dolgozhatják fel egyszerre ugyanazt a feladatot. A biztos 429-es elutasítás legfeljebb három, azonos azonosítójú próbálkozást kap; a bizonytalan hálózati eredmény, az 5xx válasz vagy a megszakadt küldés külön ellenőrzést igényel, automatikusan nem ismétlődik. Az adminlistában külön **Adminértesítés** állapot jelzi az eredményt.
+
+A Beküldések fejlécében látszik az értesítési cím, és **Tesztértesítés** küldhető kizárólag erre a címre. A teszt nem hoz létre jelentkezést, és nem tartalmaz valódi jelentkezői adatokat.
+
+### Elfogadó levél a jelentkezőnek
+
 Az **Elfogadva** gomb egyetlen adatbázis-tranzakcióban menti a státuszt, a fiókhoz kapcsolást, a jóváhagyást és a kimenő levél feladatát. Ha valamelyik mentés meghiúsul, egyik rész sem marad félkészen. Ugyanannak az elfogadásnak az ismétlése nem hoz létre ismétlődő levelet.
 
 Ha a jelentkezőnek még nincs igazolt fiókja, a levél egyszer használható, 7 napig érvényes regisztrációs hivatkozást tartalmaz. A címzett a hivatkozáson állítja be saját jelszavát. Ha már van igazolt fiókja, elfogadási értesítést kap a `/fiokom` oldal hivatkozásával; a meglévő jelszavát a rendszer nem változtatja meg.
@@ -102,6 +114,7 @@ A meglévő `directory_submissions` táblának a fiókmigráció előtt létezni
 1. `016_provider_accounts.sql`: fiókok, munkamenetek, tokenek, titkosított levél-várólista, események és korlátozások.
 2. `017_submission_trash.sql`: a jelentkezések kukamezői és a fiókhoz kapcsolás.
 3. `018_provider_listing_owners.sql`: a fiók és a saját katalógusadatlap közötti egyértelmű tulajdonosi kapcsolat.
+4. `019_submission_notifications.sql`: új jelentkezések és újrabeküldések adminértesítése.
 
 A jelentkezés módosításakor az alkalmazás előbb a kapcsolódó fiókot, majd a jelentkezést zárolja; ez megegyezik a fiókhoz tartozó adatlap mentésének zársorrendjével. Az admin író végpontjain a CMS-hitelesítés mellett ugyanarról az originről érkező kérés és a `/api/admin/directory/submissions/session` végpontról kapott `X-Provider-CSRF` fejléc szükséges. A fiók- és jelentkezési API-válaszok nem cache-elhetők.
 

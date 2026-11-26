@@ -38,7 +38,7 @@ async function main(){
   await db.query(`CREATE TABLE directory_submissions(id BIGSERIAL PRIMARY KEY,name TEXT NOT NULL,contact_name TEXT NOT NULL DEFAULT '',email TEXT NOT NULL,phone TEXT NOT NULL DEFAULT '',website_url TEXT NOT NULL DEFAULT '',category_slugs TEXT NOT NULL DEFAULT '',city TEXT NOT NULL DEFAULT '',online_available BOOLEAN NOT NULL DEFAULT false,description TEXT NOT NULL DEFAULT '',qualifications TEXT NOT NULL DEFAULT '',consent BOOLEAN NOT NULL DEFAULT true,status TEXT NOT NULL DEFAULT 'new',created_at TIMESTAMPTZ NOT NULL DEFAULT now(),updated_at TIMESTAMPTZ NOT NULL DEFAULT now());
     INSERT INTO directory_submissions(name,email,phone,status) VALUES('Visszaállítható jelentkezés','one@example.test','+36 20 555 0101','reviewed'),('Elfogadásra váró','two@example.test','','new'),('Hibateszt','three@example.test','','new');`);
   // Use the production schema, in its production dependency order, and verify replay safety.
-  for(let pass=0;pass<2;pass++)for(const name of ['016_provider_accounts.sql','017_submission_trash.sql']){
+  for(let pass=0;pass<2;pass++)for(const name of ['016_provider_accounts.sql','017_submission_trash.sql','019_submission_notifications.sql']){
     await db.query(fs.readFileSync(path.join(__dirname,'../migrations',name),'utf8'));
   }
   const app=express();app.use(express.json());
@@ -53,6 +53,8 @@ async function main(){
   assert.equal((await call(prefix+'/0/trash',{method:'POST',data:{}})).status,400);
   assert.equal((await call(prefix+'/1',{method:'PUT',data:{status:'deleted'}})).status,400);
   const initial=await call(prefix+'?paginated=true&page_size=2');assert.equal(initial.body.total,3);assert.equal(initial.body.pages,2);assert.equal(initial.body.trash_count,0);
+  const linked=await call(prefix+'?paginated=true&submission_id=2');assert.equal(linked.body.total,1);assert.equal(linked.body.items[0].id,'2');
+  assert.equal((await call(prefix+'?paginated=true&submission_id=2%20OR%201=1')).status,400);
   assert(Array.isArray((await call(prefix)).body),'Legacy GET remains an array');
   const trash=await call(prefix+'/1/trash',{method:'POST',data:{}});assert.equal(trash.status,200);assert.equal(trash.body.status,'reviewed');assert(trash.body.deleted_at);assert.equal(trash.body.phone,'+36 20 555 0101');
   const again=await call(prefix+'/1/trash',{method:'POST',data:{}});assert.equal(again.body.deleted_at,trash.body.deleted_at,'Repeated trash does not lose original trash timestamp');

@@ -213,19 +213,51 @@ async function main() {
   const submissionId = persisted.rows[0].id;
   await until(async () => (await guestPage.locator('#submitMsg').textContent()).includes('megérkezett'), 'public submission confirmation');
   assert.equal((await db.query('SELECT email FROM directory_submissions WHERE id=$1', [submissionId])).rows[0].email, providerEmail);
+  await db.query("INSERT INTO directory_submissions(name,email,description,category_slugs,status) VALUES($1,$2,$3,$4,'reviewed')",
+    ['Másik elszigetelt jelentkezés', 'other-' + suffix + '@example.test', description, category.slug]);
 
   // Admin login, recoverable trash, and acceptance use the actual admin controls.
   const admin = await newContext(), adminPage = await admin.newPage();
-  await adminPage.goto(base + '/admin/', {waitUntil:'networkidle'});
+  await adminPage.goto(base + '/admin/?submission=' + submissionId, {waitUntil:'networkidle'});
+  await adminPage.locator('#loginView').waitFor({state:'visible'});
+  assert.equal(new URL(adminPage.url()).searchParams.get('submission'), submissionId, 'Login preserves the exact email-link target');
   await adminPage.locator('#loginEmail').fill('admin@example.test');
   await adminPage.locator('#loginPassword').fill(adminPassword);
   await perform(adminPage, 'POST', '/api/admin/login', () => adminPage.locator('#loginForm button').click());
   await adminPage.locator('#appView').waitFor({state:'visible'});
   assert.equal((await getJson(admin, '/api/provider/session')).authenticated, false, 'CMS session is not a provider session');
-  await adminPage.locator('[data-view="submissions"]').click();
+  const row = adminPage.locator('[data-submission-id="' + submissionId + '"]');
+  await row.waitFor({state:'visible'});
+  assert.equal(await adminPage.locator('#viewTitle').textContent(), 'Beküldések', 'The application link opens its admin view after login');
+  assert.equal(await adminPage.locator('#submissionTable [data-submission-id]').count(), 1, 'Email links filter by exact ID despite another active application');
+  assert.equal(await row.locator('details').evaluate(element => element.open), true, 'Linked application details are expanded');
+  assert.equal(await adminPage.locator('#submissionFocus').isVisible(), true);
+  assert.equal(await adminPage.locator('#submissionTrashToggle').getAttribute('aria-pressed'), 'false');
+  const notificationConfig = await getJson(admin, '/api/admin/directory/submission-notifications');
+  assert.equal(notificationConfig.recipient, 'den@proptechdigital.com');
+  assert.equal(notificationConfig.mail_ready, false, 'Admin alerts share the deliberately unconfigured test mailer');
+  await until(async () => await adminPage.locator('#submissionNotificationRecipient').textContent() === notificationConfig.recipient,
+    'Admin notification recipient rendered');
+  assert.equal(await adminPage.locator('#submissionNotificationTest').isDisabled(), true, 'A test alert cannot send without mail configuration');
+  assert.match(await adminPage.locator('#submissionNotificationState').textContent(), /beállítására várnak/);
+  const notificationRows = await getJson(admin, '/api/admin/directory/submissions?paginated=true&submission_id=' + submissionId);
+  assert.equal(notificationRows.items.length, 1);
+  assert(['queued','needs_mail'].includes(notificationRows.items[0].admin_notice_status), 'New application has a durable pending admin notification');
+  assert.equal(notificationRows.items[0].admin_notice_recipient, notificationConfig.recipient);
+  assert.match(await row.locator('.submission-admin-mail').textContent(), /Adminértesítés: (küldésre vár|a levélküldés beállítására vár)/);
+  await adminPage.locator('#submissionShowAll').click();
+  await until(async () => await adminPage.locator('#submissionTable [data-submission-id]').count() > 1, 'Clearing the ID filter restores all active applications');
+  assert.equal(new URL(adminPage.url()).searchParams.has('submission'), false);
+  assert.equal(await adminPage.locator('#submissionFocus').isVisible(), false);
+  assert.equal(await adminPage.locator('#submissionTrashToggle').getAttribute('aria-pressed'), 'false');
+  await adminPage.goto(base + '/admin/?view=submissions', {waitUntil:'networkidle'});
+  await adminPage.locator('#submissionsView').waitFor({state:'visible'});
+  await row.waitFor({state:'visible'});
+  assert.equal(await adminPage.locator('#viewTitle').textContent(), 'Beküldések', 'The test-letter link opens Beküldések without an application ID');
+  assert.equal(await adminPage.locator('#submissionFocus').isVisible(), false);
+  assert(await adminPage.locator('#submissionTable [data-submission-id]').count() > 1);
   await adminPage.locator('#submissionSearch').fill(applicantName);
   await adminPage.locator('#submissionSearchForm button[type="submit"]').click();
-  const row = adminPage.locator('[data-submission-id="' + submissionId + '"]');
   await row.waitFor({state:'visible'});
   await perform(adminPage, 'POST', '/api/admin/directory/submissions/' + submissionId + '/trash',
     () => row.locator('[data-sub-action="trash"]').click());
@@ -235,6 +267,23 @@ async function main() {
   await adminPage.locator('#submissionTrashToggle').click();
   await row.waitFor({state:'visible'});
   assert.equal(await adminPage.locator('#submissionTrashToggle').getAttribute('aria-pressed'), 'true');
+  const trashedLinkPage = await admin.newPage();
+  await trashedLinkPage.goto(base + '/admin/?submission=' + submissionId, {waitUntil:'networkidle'});
+  const linkedTrashRow = trashedLinkPage.locator('[data-submission-id="' + submissionId + '"]');
+  await linkedTrashRow.waitFor({state:'visible'});
+  assert.equal(await trashedLinkPage.locator('#submissionTrashToggle').getAttribute('aria-pressed'), 'true', 'An old email link finds its application in the trash');
+  assert.equal(await trashedLinkPage.locator('#submissionTable [data-submission-id]').count(), 1);
+  assert.equal(await linkedTrashRow.locator('details').evaluate(element => element.open), true);
+  await trashedLinkPage.setViewportSize({width:390, height:844});
+  await screenshot(trashedLinkPage, 'provider-submission-deep-link-mobile', '#submissionsView');
+  await trashedLinkPage.locator('#submissionShowAll').click();
+  await until(async () => await trashedLinkPage.locator('#submissionTrashToggle').getAttribute('aria-pressed') === 'false' &&
+    await trashedLinkPage.locator('#submissionTable [data-submission-id]').count() > 0 && await linkedTrashRow.count() === 0,
+    'Show all leaves a trash deep link');
+  assert.equal(new URL(trashedLinkPage.url()).searchParams.has('submission'), false);
+  assert.equal(await trashedLinkPage.locator('#submissionTrashToggle').getAttribute('aria-pressed'), 'false');
+  assert.equal(await linkedTrashRow.count(), 0, 'The trashed application stays out of the active inbox');
+  await trashedLinkPage.close();
   await screenshot(adminPage, 'provider-submissions-trash-desktop', '#submissionsView');
   await adminPage.setViewportSize({width:390, height:844});
   await screenshot(adminPage, 'provider-submissions-trash-mobile', '#submissionsView');
@@ -386,6 +435,8 @@ async function main() {
   }
   const delivery = (await db.query("SELECT count(*) FILTER(WHERE attempts>0 OR delivery_status IN ('sending','accepted'))::int AS attempts FROM provider_account_mail")).rows[0];
   assert.equal(delivery.attempts, 0, 'No real email delivery was attempted');
+  const adminDelivery = (await db.query("SELECT count(*) FILTER(WHERE attempts>0 OR delivery_status IN ('sending','accepted'))::int AS attempts FROM directory_submission_notifications")).rows[0];
+  assert.equal(adminDelivery.attempts, 0, 'No real admin notification delivery was attempted');
   assert.deepEqual(errors, [], 'No uncaught browser JavaScript exceptions');
   console.log('PROVIDER_BROWSER_FUNCTIONAL_OK');
   assert.deepEqual(layoutFailures, [], 'No horizontal document overflow across desktop and mobile screenshots');
@@ -393,7 +444,9 @@ async function main() {
     idempotentInvitation:true, encryptedPendingMail:true, activation:true, ownedProfile:true, publication:true,
     categoryCounts:true, hideAndRepublish:true, registration:true, unapprovedCannotPublish:true,
     resetSingleUse:true, sessionsRevoked:true, passwordChange:true, logout:true, cmsIsolation:true,
-    responsiveScreenshots:true, tokenUrlAndStorageSafety:true, realEmailsSent:0}));
+    responsiveScreenshots:true, tokenUrlAndStorageSafety:true, adminNotificationState:true,
+    submissionDeepLink:true, linkedAdminLogin:true, trashedSubmissionLink:true, clearSubmissionLink:true,
+    submissionViewLink:true, realEmailsSent:0}));
 }
 
 main().catch(async error => {

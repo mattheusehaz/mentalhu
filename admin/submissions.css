@@ -3,6 +3,19 @@
 .cms-page .submission-head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:25px}
 .cms-page .submission-head h2{margin:0 0 9px;font-size:30px}
 .cms-page .submission-head p{margin:0;color:var(--muted);font-size:14px;line-height:1.65;max-width:660px}
+.cms-page .submission-notification-settings{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px 20px;margin-bottom:22px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13px;line-height:1.6}
+.cms-page .submission-notification-settings>div{min-width:0;flex:1 1 270px;overflow-wrap:anywhere}
+.cms-page .submission-notification-settings p{margin:0}
+.cms-page .submission-notification-settings strong{font-weight:500;color:var(--ink)}
+.cms-page .submission-notification-state{color:var(--muted)}
+.cms-page .submission-notification-settings button{flex:none;padding:9px 13px;font-size:13px;background:transparent;border:1px solid var(--line)}
+.cms-page .submission-notification-settings button:disabled{opacity:.5;cursor:default}
+.cms-page #submissionNotificationMessage{flex-basis:100%;overflow-wrap:anywhere}
+.cms-page #submissionNotificationMessage:empty{display:none}
+.cms-page .submission-focus{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 15px;margin-bottom:20px;background:#edf3e8;border-left:3px solid #53764c;line-height:1.6}
+.cms-page .submission-focus[hidden]{display:none}
+.cms-page .submission-focus p{margin:0;font-size:14px;overflow-wrap:anywhere}
+.cms-page .submission-focus button{flex:none;padding:9px 12px;font-size:13px;background:white;border:1px solid #bcc8b5}
 .cms-page .submission-trash-toggle{flex:none;display:inline-flex;align-items:center;gap:9px;border:1px solid #aebdac;background:transparent;min-height:45px}
 .cms-page .submission-trash-toggle[aria-pressed=true]{background:var(--sage);border-color:var(--ink)}
 .cms-page .submission-trash-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -35,6 +48,8 @@
 .cms-page .submission-actions button:disabled{opacity:.55;cursor:default}
 .cms-page .submission-mail{margin-top:10px;font-size:13px;line-height:1.55;color:var(--muted)}
 .cms-page .submission-mail.warning{color:#8b4c22}
+.cms-page .submission-admin-mail{margin-top:10px!important}
+.cms-page .submission-admin-mail.warning{color:#8b4c22}
 .cms-page .submission-account{font-size:13px;margin-top:7px;color:#315c38}
 .cms-page .submission-pagination{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:22px;font-size:14px;color:var(--muted)}
 .cms-page .submission-pagination button:disabled{opacity:.45;cursor:default}
@@ -44,4 +59,4 @@
 .cms-page .provider-account-notice:empty{display:none}
 @media(max-width:1200px){.cms-page .submission-filters{grid-template-columns:minmax(190px,1fr) minmax(150px,1fr)}.cms-page .submission-filters button{min-height:43px}}
 @media(max-width:1000px){.cms-page .shell{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:650px){.cms-page .submission-head{gap:18px;flex-direction:column}.cms-page .submission-head h2{font-size:28px}.cms-page .submission-trash-toggle{align-self:flex-end}.cms-page .submission-filters{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.cms-page .submission-filters label{grid-column:1/-1}.cms-page .submission-list-meta,.cms-page .submission-notice{align-items:flex-start;flex-direction:column}.cms-page .submission-pagination{gap:8px}.cms-page .submission-pagination button{padding:10px;font-size:13px}}
+@media(max-width:650px){.cms-page .submission-head{gap:18px;flex-direction:column}.cms-page .submission-head h2{font-size:28px}.cms-page .submission-trash-toggle{align-self:flex-end}.cms-page .submission-filters{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.cms-page .submission-filters label{grid-column:1/-1}.cms-page .submission-list-meta,.cms-page .submission-notice,.cms-page .submission-focus{align-items:flex-start;flex-direction:column}.cms-page .submission-pagination{gap:8px}.cms-page .submission-pagination button{padding:10px;font-size:13px}}
