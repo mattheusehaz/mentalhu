@@ -66,14 +66,11 @@ app.use(cookieParser());
 const ARTICLE_VIDEO_ASSETS = {
   'ai-identitasvesztes.mp4': [
     'assets/video-data/ai-identitas/part-00.b64','assets/video-data/ai-identitas/part-01.b64',
-    'assets/video-data/ai-identitas/part-02.b64','assets/video-data/ai-identitas/part-03.b64',
-    'assets/video-data/ai-identitas/part-04.b64','assets/video-data/ai-identitas/part-05.b64'
+    'assets/video-data/ai-identitas/part-02.b64','assets/video-data/ai-identitas/part-03.b64'
   ],
   'vesztesegek.mp4': [
     'assets/video-data/vesztesegek/part-00.b64','assets/video-data/vesztesegek/part-01.b64',
-    'assets/video-data/vesztesegek/part-02.b64','assets/video-data/vesztesegek/part-03.b64',
-    'assets/video-data/vesztesegek/part-04.b64','assets/video-data/vesztesegek/part-05.b64',
-    'assets/video-data/vesztesegek/part-06.b64'
+    'assets/video-data/vesztesegek/part-02.b64','assets/video-data/vesztesegek/part-03.b64'
   ]
 };
 app.get('/video/:name', (req, res, next) => {
