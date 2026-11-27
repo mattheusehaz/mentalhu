@@ -7,6 +7,7 @@ const cookieParser = require('cookie-parser');
 const { createArticleService } = require('../lib/public-articles.cjs');
 const { createReaderLocationService, COOKIE_NAME } = require('../lib/reader-location.cjs');
 const { resolveCity } = require('../lib/hungary-locations.cjs');
+const { createStatisticsService } = require('../lib/site-statistics.cjs');
 
 async function fixture(t, { ready = true, providerFailure = false, autoCity = 'debrecen' } = {}) {
   const queries = [];
@@ -29,6 +30,7 @@ async function fixture(t, { ready = true, providerFailure = false, autoCity = 'd
   const app = express();
   app.use(express.json());
   app.use(cookieParser());
+  app.use(createStatisticsService({ pool, auth: () => {}, dbState: { ready }, secret: 'geographic-http-test-statistics-only' }).publicMiddleware);
   createArticleService({ pool, dbState: { ready }, cleanHtml: html => html, readerLocation }).register(app);
   app.use((err, _req, res, _next) => res.status(500).json({ code: err.code || 'FAILED' }));
   const server = await new Promise(resolve => { const instance = app.listen(0, '127.0.0.1', () => resolve(instance)); });
@@ -73,11 +75,12 @@ test('manual city overrides IP, survives SSR navigation and resets to automatic'
   assert.deepEqual((await manual.json()).location, { id: 'budapest', name: 'Budapest', source: 'manual' });
   const repeat = await post(endpoint, {}, { Cookie: saved });
   assert.equal((await repeat.json()).location.id, 'budapest');
-  const html = await fetch(base + '/cikk/teszt-cikk', { headers: { Cookie: saved, 'do-connecting-ip': '5.2.2.1' } });
+  const html = await fetch(base + '/cikk/teszt-cikk', { headers: { Cookie: saved, 'do-connecting-ip': '5.2.2.1', 'User-Agent': 'Mozilla/5.0 Chrome/130.0.0.0 Safari/537.36' } });
   assertPrivate(html);
   const markup = await html.text();
   assert.match(markup, /data-provider-city-id="budapest"/);
   assert.match(markup, /Olvasható cikk/);
+  assert.match(markup, /src="\/statistics.js/, 'Full HTML instrumentation must preserve private location response headers');
   assert(!markup.includes('5.2.2.1'));
   assert(!markup.includes('47.498'));
   const selection = queries.filter(query => Array.isArray(query.values)).at(-1);

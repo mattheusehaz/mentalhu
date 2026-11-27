@@ -59,7 +59,8 @@ async function noOverflow(page) {
   page.on('pageerror', error => errors.push(error.message));
   await page.goto(base + '/', {waitUntil:'networkidle'});
   await until(async () => Number((await json(admin, '/api/admin/statistics?range=today')).today.views) === Number(initial.today.views) + 1, 'visible homepage measurement');
-  await page.goto(base + '/cikk/' + article.slug, {waitUntil:'networkidle'});
+  const articleResponse = await page.goto(base + '/cikk/' + article.slug, {waitUntil:'networkidle'});
+  assert.match(articleResponse.headers()['cache-control'], /private.*no-store/, 'Instrumented personalized articles remain private and uncacheable');
   await until(async () => Number((await json(admin, '/api/admin/statistics?range=today')).today.article_views) === Number(initial.today.article_views) + 1, 'article measurement');
   const providerCount = await page.locator('a.reader-provider-card').count();
   assert(providerCount >= 1 && providerCount <= 4, 'At most four relevant related provider cards from the fixture catalogue');
