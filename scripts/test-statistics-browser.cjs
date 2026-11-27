@@ -61,10 +61,14 @@ async function noOverflow(page) {
   await until(async () => Number((await json(admin, '/api/admin/statistics?range=today')).today.views) === Number(initial.today.views) + 1, 'visible homepage measurement');
   await page.goto(base + '/cikk/' + article.slug, {waitUntil:'networkidle'});
   await until(async () => Number((await json(admin, '/api/admin/statistics?range=today')).today.article_views) === Number(initial.today.article_views) + 1, 'article measurement');
-  assert.equal(await page.locator('a.reader-provider-card').count(), 4, 'Four related provider cards');
+  const providerCount = await page.locator('a.reader-provider-card').count();
+  assert(providerCount >= 1 && providerCount <= 4, 'At most four relevant related provider cards from the fixture catalogue');
   const links = await page.locator('a.reader-provider-card').evaluateAll(nodes => nodes.map(node => node.getAttribute('href')));
-  assert.equal(new Set(links).size, 4);
+  assert.equal(new Set(links).size, providerCount);
   assert(links.every(link => /^\/szolgaltato\/[^/?#]+$/.test(link)), 'Internal provider profile links');
+  if (!(await page.locator('[data-related-providers]').getAttribute('data-provider-city-id'))) {
+    assert.equal(await page.locator('.reader-provider-match').filter({hasText:'Online konzultáció'}).count(), providerCount, 'Unknown location shows explicitly labelled online consultations');
+  }
   const desktopMargin = await page.locator('.reader-margin--providers').boundingBox();
   const desktopContent = await page.locator('.reader-content').boundingBox();
   assert(desktopMargin.x + desktopMargin.width <= desktopContent.x + 1, 'Provider sidebar is left of article text');

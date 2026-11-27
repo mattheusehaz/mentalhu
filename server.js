@@ -465,7 +465,17 @@ app.get('/impresszum', (_req, res) => {
 app.get(['/impresszum.html', '/impresszum/index.html'], (_req, res) => res.redirect(301, '/impresszum'));
 
 // Article routes and the homepage share the same publication-aware query.
-const articleService = require('./lib/public-articles.cjs').createArticleService({pool,dbState,cleanHtml});
+// This application's production entry point runs behind DigitalOcean App
+// Platform, whose ingress supplies DO-Connecting-IP. The reusable resolver
+// ignores proxy headers by default. Set MENTAL_GEO_TRUST_DO_HEADER=0 if this
+// entry point is moved to a different hosting platform or exposed directly.
+const readerLocation = require('./lib/reader-location.cjs').createReaderLocationService({
+  env: {
+    NODE_ENV: process.env.NODE_ENV,
+    MENTAL_GEO_TRUST_DO_HEADER: process.env.MENTAL_GEO_TRUST_DO_HEADER ?? (process.env.NODE_ENV === 'production' ? '1' : '0')
+  }
+});
+const articleService = require('./lib/public-articles.cjs').createArticleService({pool,dbState,cleanHtml,readerLocation});
 articleService.register(app);
 
 // Public catalog pagination v1

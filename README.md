@@ -21,6 +21,7 @@ A `folio-20261123` arculat közös elemei a `lib/site-shell.cjs`, `mental.css` �
 
 - Főoldal: `index.html`, a szerver cseréli ki a cikk-, kategóriaszám- és katalógusösszesítő blokkokat. A menü után közvetlenül a témasor következik.
 - Cikkarchívum és cikkolvasó: `lib/article-views.cjs`, `editorial.css`.
+- Cikkek melletti, település és téma szerinti szakemberajánló: `lib/related-providers.cjs`, `lib/reader-location.cjs`, `related-providers.js/css`; működés és frissítés: [docs/GEO_RECOMMENDATIONS.md](docs/GEO_RECOMMENDATIONS.md).
 - Katalógus, keresési találatok és profilok: `lib/public-catalog.cjs`, `lib/directory-views.cjs`, `catalog-design.css`.
 - Kapcsolatfelvétel: `lib/contact-inquiries.cjs`, `contact.css`.
 - Adminfelület: `admin/`, a közös arculati kiegészítés `admin/brand.css`.

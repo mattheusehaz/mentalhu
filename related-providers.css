@@ -1,0 +1,53 @@
+/* A small location control stays inside the existing editorial sidebar. */
+.provider-location { margin: 0 0 20px; padding: 14px; border: 1px solid var(--line); border-radius: 5px; background: #f1f4ed; }
+.provider-location [hidden] { display: none !important; }
+.provider-location-label { margin: 0 0 5px; font: 500 11px/1.5 var(--sans); color: #546257; }
+.provider-location-current { display: flex; align-items: flex-start; gap: 8px; margin: 0; font: 500 17px/1.4 var(--sans); overflow-wrap: anywhere; }
+.provider-location-current svg { flex: 0 0 17px; width: 17px; height: 17px; margin-top: 3px; }
+.provider-location-current strong { font-weight: 500; }
+.provider-location-hint { margin: 8px 0 12px; font: 400 12px/1.6 var(--sans); color: #546257; }
+.provider-city-picker { margin: 0; }
+.provider-city-picker summary { width: fit-content; max-width: 100%; padding: 7px 0; cursor: pointer; font: 500 13px/1.5 var(--sans); color: #28583f; text-decoration: underline; text-underline-offset: 3px; }
+.provider-city-picker summary::marker { font-size: 11px; }
+.provider-city-form { margin: 5px 0 13px; padding-top: 11px; border-top: 1px solid #d6ded0; }
+.provider-city-form label { display: block; margin-bottom: 7px; font: 500 12px/1.5 var(--sans); }
+.provider-city-search { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+.provider-city-search input { box-sizing: border-box; width: 100%; min-width: 0; padding: 9px 10px; border: 1px solid #aebba6; border-radius: 3px; background: #fffefa; color: var(--ink); font: 400 16px/1.4 var(--sans); }
+.provider-city-search input::placeholder { color: #67715f; }
+.provider-city-search button { padding: 8px 13px; border: 1px solid #28583f; border-radius: 3px; background: #28583f; color: white; font: 500 13px/1.4 var(--sans); cursor: pointer; }
+.provider-city-search button:hover { background: #1b432e; }
+.provider-city-status { margin: 9px 0; font: 400 12px/1.55 var(--sans); color: #546257; }
+.provider-city-status:empty { display: none; }
+.provider-city-results { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.provider-city-results li { margin: 0; padding: 0; min-width: 0; }
+.provider-city-result { display: block; width: 100%; padding: 9px 10px; text-align: left; overflow-wrap: anywhere; border: 1px solid transparent; border-radius: 3px; color: var(--ink); background: #fffefa; font: 500 14px/1.5 var(--sans); cursor: pointer; }
+.provider-city-result:hover { border-color: #aebba6; background: #e5ecdE; }
+.provider-location-actions { display: flex; flex-wrap: wrap; column-gap: 14px; row-gap: 1px; }
+.provider-location-button { display: inline-block; max-width: 100%; border: 0; border-radius: 0; padding: 7px 0; background: none; color: #28583f; font: 500 12px/1.5 var(--sans); text-align: left; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.provider-location-button:disabled { color: #546257; cursor: wait; text-decoration: none; }
+.provider-location-memory { margin: 9px 0 0; font: 400 11px/1.5 var(--sans); color: #546257; }
+.provider-location-attribution { margin: 11px 0 0; font: 400 10px/1.5 var(--sans); color: #546257; }
+.provider-location-attribution a { text-decoration: underline; text-underline-offset: 2px; }
+.provider-location-status { margin: 10px 0 0; font: 400 12px/1.6 var(--sans); color: #28583f; }
+.provider-location-status.is-error { color: #873c31; }
+.provider-location-retry { margin-top: 3px; }
+.provider-location :is(button, input, summary):focus-visible { outline: 2px solid #28583f; outline-offset: 3px; }
+.reader-provider-match { display: block; width: fit-content; padding: 3px 7px; margin: 0 0 6px; border-radius: 3px; background: #e7eee1; color: #28583f; font: 500 11px/1.4 var(--sans); }
+[data-related-providers] .reader-providers-note { margin-top: 8px; }
+[data-provider-results][aria-busy="true"] { min-height: 40px; }
+@media (max-width: 959px) {
+  .provider-location { max-width: 460px; padding: 16px; }
+  .provider-location-hint { font-size: 13px; }
+  .provider-city-search { flex-wrap: nowrap; }
+  .provider-city-search input { flex: 1 1 auto; width: 0; }
+  .provider-location-button, .provider-city-picker summary { padding-block: 9px; font-size: 14px; }
+  .provider-location-memory { font-size: 12px; }
+  .provider-location-attribution { font-size: 11px; }
+  .provider-location-status, .provider-city-status { font-size: 13px; }
+  .reader-provider-match { font-size: 12px; }
+}
+@media (max-width: 374px) {
+  .provider-location { padding: 13px; }
+  .provider-city-search { flex-wrap: wrap; }
+  .provider-city-search input { flex-basis: 100%; width: 100%; }
+}

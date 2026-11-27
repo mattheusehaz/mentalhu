@@ -1,7 +1,7 @@
 name: Directory and contact regression checks
 on:
   push:
-    branches: [main, 'release/expanded-31-*', 'feature/articles-*', 'feature/admin-statistics-*', 'feature/provider-*', 'feature/personalized-weekly-newsletter', 'feature/reader-accounts-ratings']
+    branches: [main, 'release/expanded-31-*', 'feature/articles-*', 'feature/admin-statistics-*', 'feature/provider-*', 'feature/personalized-weekly-newsletter', 'feature/reader-accounts-ratings', 'feature/geo-article-providers']
   pull_request:
 permissions:
   contents: read
@@ -41,6 +41,16 @@ jobs:
           node --check statistics.js
           node --check admin/statistics-admin.js
           node --test scripts/test-site-statistics.cjs scripts/test-related-providers.cjs
+      - name: Verify geographic recommendations and private location preferences
+        run: |
+          node --check lib/hungary-locations.cjs
+          node --check lib/reader-location.cjs
+          node --check lib/public-articles.cjs
+          node --check related-providers.js
+          node --test scripts/test-hungary-locations.cjs scripts/test-reader-location.cjs scripts/test-reader-location-http.cjs scripts/test-related-providers-views.cjs
+          node --test scripts/test-related-providers.cjs scripts/test-related-providers-geo.cjs
+        env:
+          TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Verify provider accounts, profiles and recoverable trash
         run: |
           node --check lib/provider-accounts.cjs
@@ -95,6 +105,10 @@ jobs:
         run: node scripts/test-contact-browser.cjs
       - name: Verify statistics dashboard and article provider sidebar
         run: node scripts/test-statistics-browser.cjs
+      - name: Verify article city selection and geolocation in browsers
+        run: node scripts/test-related-providers-browser.cjs
+        env:
+          TEST_DATABASE_URL: postgresql://ci:ci-local-only@127.0.0.1:5432/mentalhu_test
       - name: Verify provider invitation, profile publishing and trash in browsers
         run: node scripts/test-provider-browser.cjs
         env:

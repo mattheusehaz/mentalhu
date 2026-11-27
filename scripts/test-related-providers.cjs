@@ -62,6 +62,8 @@ test('provider lookup is bounded and produces profile URLs from slugs', async ()
   assert.equal(query.values[1], 4);
   assert.equal(query.query_timeout, 1500);
   assert.equal(rows[0].url, '/szolgaltato/minta%20%2F%20nev');
+  assert.equal(rows[0].match_type, 'online', 'Unknown location uses the online fallback');
+  assert.equal(rows[0].distance_km, null);
 });
 
 test('an optional provider-query failure leaves the public article readable', async () => {
