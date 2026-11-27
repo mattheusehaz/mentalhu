@@ -62,7 +62,7 @@ async function getJson(context, route, status = 200) {
   return response.json();
 }
 async function writeApi(context, route, data, {method='POST', status=200, admin=false} = {}) {
-  const session = await getJson(context, admin ? '/api/admin/directory/submissions/session' : '/api/provider/session');
+  const session = await getJson(context, admin ? '/api/admin/directory/submissions/session' : '/api/account/session');
   const response = await context.request.fetch(base + route, {method, data,
     headers:{Origin:base, 'X-Provider-CSRF':session.csrf_token}});
   const result = await response.json();
@@ -121,7 +121,7 @@ function tokenFromMail(mail, expectedPath, expectedEmail) {
   const url = new URL(match[0]);
   assert.equal(url.origin, base, 'Test invitation stays on the local server');
   assert.equal(url.pathname, expectedPath);
-  assert.equal(url.search, '', 'Tokens are never query parameters');
+  assert.equal(url.searchParams.has('token'),false,'Tokens are never query parameters');
   tokens.push(match[1]);
   return match[1];
 }
@@ -135,13 +135,13 @@ async function activate(page, token, email, password) {
   await page.locator('#providerActivationPassword').fill(password);
   await page.locator('#providerActivationConfirm').fill(password);
   await page.locator('#providerActivationConsent').check();
-  await perform(page, 'POST', '/api/provider/activate', () => page.locator('#providerActivationForm button[type="submit"]').click(), 200, {readBody:false});
-  await page.waitForURL(base + '/fiokom');
+  await perform(page, 'POST', '/api/account/activate', () => page.locator('#providerActivationForm button[type="submit"]').click(), 200, {readBody:false});
+  await page.waitForURL(url=>url.origin===base&&url.pathname==='/fiokom');
   await page.locator('#providerAccountBody').waitFor({state:'visible'});
 }
 async function saveProfile(page, action) {
   const selector = action === 'unpublish' ? '#providerUnpublish' : '#providerProfileForm button[value="' + action + '"]';
-  const result = await perform(page, 'PUT', '/api/provider/profile', () => page.locator(selector).click());
+  const result = await perform(page, 'PUT', '/api/account/provider-profile', () => page.locator(selector).click());
   await until(async () => await page.locator('#providerProfileForm').getAttribute('aria-busy') === 'false', 'profile save rendered');
   assert.equal(await page.locator('#providerProfileMessage.is-error').count(), 0);
   return result;
@@ -157,12 +157,12 @@ async function fillProfile(page, name, category) {
   await page.locator('#providerCategoryChoices input[value="' + category + '"]').check();
 }
 async function providerLogin(page, email, password) {
-  await page.goto(base + '/belepes', {waitUntil:'networkidle'});
+  await page.goto(base + '/belepes?next=%2Ffiokom%3Fszolgaltato%3D1', {waitUntil:'networkidle'});
   await page.locator('#providerLoginForm').waitFor({state:'visible'});
   await page.locator('#providerLoginEmail').fill(email);
   await page.locator('#providerLoginPassword').fill(password);
-  await perform(page, 'POST', '/api/provider/login', () => page.locator('#providerLoginForm button[type="submit"]').click(), 200, {readBody:false});
-  await page.waitForURL(base + '/fiokom');
+  await perform(page, 'POST', '/api/account/login', () => page.locator('#providerLoginForm button[type="submit"]').click(), 200, {readBody:false});
+  await page.waitForURL(url=>url.origin===base&&url.pathname==='/fiokom');
   await page.locator('#providerAccountBody').waitFor({state:'visible'});
 }
 
@@ -193,26 +193,17 @@ async function main() {
   assert(category && Number.isInteger(category.listing_count), 'An active catalog category is available');
   const originalCount = category.listing_count;
 
-  // The public homepage form obtains CSRF protection and saves a real fake application.
+  // The homepage now leads into one reader account. A pre-existing application
+  // fixture exercises legacy moderation/trash/invitation without anonymous writes.
   await guestPage.goto(base + '/', {waitUntil:'networkidle'});
   assert.equal(await guestPage.locator('.header-login[href="/belepes"]').count(), 1);
   assert.equal(await guestPage.locator('.site-header a[href^="/admin"]').count(), 0);
-  await guestPage.locator('details.registration-box > summary').click();
-  for (const [name, value] of Object.entries({name:applicantName, contact_name:contactName, email:providerEmail,
-    phone:'+36 20 555 0101', website_url:'https://example.test', city:'Budapest', description,
-    qualifications:'Böngészős tesztadat, nem valós képesítés.'})) {
-    await guestPage.locator('#submitForm [name="' + name + '"]').fill(value);
-  }
-  await guestPage.locator('#submitCategory').selectOption(category.slug);
-  await guestPage.locator('#submitForm [name="consent"]').check();
-  const submitted = await perform(guestPage, 'POST', '/api/directory/submit',
-    () => guestPage.locator('#submitForm button[type="submit"]').click(), 201);
-  assert.equal(submitted.ok, true, 'Homepage submission returns the generic acknowledgement');
-  const persisted = await db.query('SELECT id,email FROM directory_submissions WHERE email=$1', [providerEmail]);
-  assert.equal(persisted.rowCount, 1, 'Homepage form persists exactly one application in the isolated test database');
-  const submissionId = persisted.rows[0].id;
-  await until(async () => (await guestPage.locator('#submitMsg').textContent()).includes('megérkezett'), 'public submission confirmation');
-  assert.equal((await db.query('SELECT email FROM directory_submissions WHERE id=$1', [submissionId])).rows[0].email, providerEmail);
+  assert.equal(await guestPage.locator('#submitForm').count(),0,'Anonymous application form was replaced');
+  assert.equal(await guestPage.locator('[data-provider-join]').count(),1);
+  const persisted=await db.query(`INSERT INTO directory_submissions(name,contact_name,email,phone,website_url,city,description,qualifications,category_slugs,consent)
+    VALUES($1,$2,$3,'+36 20 555 0101','https://example.test','Budapest',$4,'Elszigetelt tesztadat.',$5,true) RETURNING id`,
+    [applicantName,contactName,providerEmail,description,category.slug]);
+  const submissionId=persisted.rows[0].id;
   await db.query("INSERT INTO directory_submissions(name,email,description,category_slugs,status) VALUES($1,$2,$3,$4,'reviewed')",
     ['Másik elszigetelt jelentkezés', 'other-' + suffix + '@example.test', description, category.slug]);
 
@@ -225,7 +216,7 @@ async function main() {
   await adminPage.locator('#loginPassword').fill(adminPassword);
   await perform(adminPage, 'POST', '/api/admin/login', () => adminPage.locator('#loginForm button').click());
   await adminPage.locator('#appView').waitFor({state:'visible'});
-  assert.equal((await getJson(admin, '/api/provider/session')).authenticated, false, 'CMS session is not a provider session');
+  assert.equal((await getJson(admin, '/api/account/session')).authenticated, false, 'CMS session is not a provider session');
   const row = adminPage.locator('[data-submission-id="' + submissionId + '"]');
   await row.waitFor({state:'visible'});
   assert.equal(await adminPage.locator('#viewTitle').textContent(), 'Beküldések', 'The application link opens its admin view after login');
@@ -316,12 +307,12 @@ async function main() {
   await screenshot(ownerPage, 'provider-login-mobile');
   await ownerPage.setViewportSize({width:1440, height:1080});
   await activate(ownerPage, invitation, providerEmail, providerPassword);
-  const session = await getJson(owner, '/api/provider/session');
+  const session = await getJson(owner, '/api/account/session');
   assert(session.authenticated && session.user.approved && session.user.email_verified);
   assert.equal(session.mail_ready, false);
   assert((await db.query('SELECT consent_at FROM provider_accounts WHERE id=$1', [session.user.id])).rows[0].consent_at);
   assert((await db.query('SELECT consumed_at FROM provider_account_tokens WHERE id=$1', [inviteMail.token_id])).rows[0].consumed_at);
-  await writeApi(guest, '/api/provider/activate', {token:invitation, password:providerPassword, consent:true}, {status:410});
+  await writeApi(guest, '/api/account/activate', {token:invitation, password:providerPassword, consent:true}, {status:410});
   assert.equal(await ownerPage.locator('#providerProfile_name').inputValue(), applicantName, 'Accepted application prefills the editor');
   assert.equal(await ownerPage.locator('#providerProfile_email').inputValue(), providerEmail);
   assert(await ownerPage.locator('#providerProfile_email').evaluate(input => input.readOnly));
@@ -366,26 +357,28 @@ async function main() {
   await signupPage.locator('#providerRegisterName').fill('Önálló teszt jelentkező');
   await signupPage.locator('#providerRegisterEmail').fill(signupEmail);
   await signupPage.locator('#providerRegisterConsent').check();
-  const registered = await perform(signupPage, 'POST', '/api/provider/register',
+  const registered = await perform(signupPage, 'POST', '/api/account/register',
     () => signupPage.locator('#providerRegisterForm button[type="submit"]').click(), 202);
   assert.equal(registered.mail_ready, false);
   await signupPage.locator('#providerRegistrationResult').waitFor({state:'visible'});
   assert.match(await signupPage.locator('#providerRegistrationResultMessage').textContent(), /folyamatban/);
   const signupMail = await latestMail(signupEmail, 'setup');
   await activate(signupPage, tokenFromMail(signupMail, '/regisztracio', signupEmail), signupEmail, providerPassword);
-  assert.equal((await getJson(signup, '/api/provider/session')).user.approved, false);
+  assert.equal((await getJson(signup, '/api/account/session')).user.approved, false);
   assert.equal(await signupPage.locator('#providerPublish').isVisible(), false);
+  await perform(signupPage,'POST','/api/account/provider-profile/start',()=>signupPage.locator('#providerStart').click());
+  await signupPage.locator('#providerProfileWorkspace').waitFor({state:'visible'});
   await fillProfile(signupPage, 'Önálló teszt jelentkező', category.slug);
   const pending = await saveProfile(signupPage, 'submit');
   assert.equal(pending.listing.status, 'pending');
   assert.notEqual(String(pending.listing.id), String(published.listing.id), 'Each provider receives their own profile');
-  await writeApi(signup, '/api/provider/profile', {action:'publish'}, {method:'PUT', status:403});
+  await writeApi(signup, '/api/account/provider-profile', {action:'publish'}, {method:'PUT', status:403});
   assert.equal((await guest.request.get(base + '/api/public/listings/' + pending.listing.slug)).status(), 404);
 
   // The reset form consumes its token once and invalidates the existing provider session.
   await guestPage.goto(base + '/elfelejtett-jelszo', {waitUntil:'networkidle'});
   await guestPage.locator('#providerForgotEmail').fill(providerEmail);
-  const forgot = await perform(guestPage, 'POST', '/api/provider/forgot-password',
+  const forgot = await perform(guestPage, 'POST', '/api/account/forgot-password',
     () => guestPage.locator('#providerForgotForm button[type="submit"]').click(), 202);
   assert.equal(forgot.mail_ready, false);
   await guestPage.locator('#providerForgotResult').waitFor({state:'visible'});
@@ -397,15 +390,15 @@ async function main() {
   assert.equal(new URL(guestPage.url()).hash, '');
   await guestPage.locator('#providerResetPassword').fill(resetPassword);
   await guestPage.locator('#providerResetConfirm').fill(resetPassword);
-  await perform(guestPage, 'POST', '/api/provider/reset-password', () => guestPage.locator('#providerResetForm button[type="submit"]').click());
+  await perform(guestPage, 'POST', '/api/account/reset-password', () => guestPage.locator('#providerResetForm button[type="submit"]').click());
   await guestPage.locator('#providerResetResult').waitFor({state:'visible'});
-  assert.equal((await getJson(guest, '/api/provider/session')).authenticated, false, 'Reset does not implicitly sign in');
-  assert.equal((await owner.request.get(base + '/api/provider/profile')).status(), 401, 'Reset revokes a previously active session');
-  await writeApi(guest, '/api/provider/reset-password', {token:resetToken, password:changedPassword}, {status:410});
+  assert.equal((await getJson(guest, '/api/account/session')).authenticated, false, 'Reset does not implicitly sign in');
+  assert.equal((await owner.request.get(base + '/api/account/provider-profile')).status(), 401, 'Reset revokes a previously active session');
+  await writeApi(guest, '/api/account/reset-password', {token:resetToken, password:changedPassword}, {status:410});
   await ownerPage.goto(base + '/belepes', {waitUntil:'networkidle'});
   await ownerPage.locator('#providerLoginEmail').fill(providerEmail);
   await ownerPage.locator('#providerLoginPassword').fill(providerPassword);
-  await perform(ownerPage, 'POST', '/api/provider/login', () => ownerPage.locator('#providerLoginForm button[type="submit"]').click(), 401);
+  await perform(ownerPage, 'POST', '/api/account/login', () => ownerPage.locator('#providerLoginForm button[type="submit"]').click(), 401);
   await until(async () => (await ownerPage.locator('#providerPageMessage').textContent()).trim().length > 0 &&
     await ownerPage.locator('#providerLoginForm').getAttribute('aria-busy') === 'false', 'old password rejected in UI');
   await providerLogin(ownerPage, providerEmail, resetPassword);
@@ -415,13 +408,13 @@ async function main() {
   await ownerPage.locator('#providerCurrentPassword').fill(resetPassword);
   await ownerPage.locator('#providerNewPassword').fill(changedPassword);
   await ownerPage.locator('#providerNewPasswordConfirm').fill(changedPassword);
-  await perform(ownerPage, 'POST', '/api/provider/change-password', () => ownerPage.locator('#providerChangePasswordForm button[type="submit"]').click(), 200, {readBody:false});
+  await perform(ownerPage, 'POST', '/api/account/change-password', () => ownerPage.locator('#providerChangePasswordForm button[type="submit"]').click(), 200, {readBody:false});
   await ownerPage.waitForURL(base + '/belepes?jelszo=modositva');
-  assert.equal((await getJson(owner, '/api/provider/session')).authenticated, false);
+  assert.equal((await getJson(owner, '/api/account/session')).authenticated, false);
   await providerLogin(ownerPage, providerEmail, changedPassword);
-  await perform(ownerPage, 'POST', '/api/provider/logout', () => ownerPage.locator('[data-provider-logout]').click(), 200, {readBody:false});
+  await perform(ownerPage, 'POST', '/api/account/logout', () => ownerPage.locator('[data-provider-logout]').click(), 200, {readBody:false});
   await ownerPage.waitForURL(base + '/belepes');
-  assert.equal((await owner.request.get(base + '/api/provider/profile')).status(), 401);
+  assert.equal((await owner.request.get(base + '/api/account/provider-profile')).status(), 401);
   await ownerPage.goto(base + '/admin/', {waitUntil:'networkidle'});
   await ownerPage.locator('#loginView').waitFor({state:'visible'});
   assert.equal(await ownerPage.locator('#appView').isVisible(), false);

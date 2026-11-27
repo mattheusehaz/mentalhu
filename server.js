@@ -183,7 +183,7 @@ async function migrate() {
   const parts = [0,1,2,3].map(i => fs.readFileSync(path.join(ROOT, 'migrations', '004_directory_expansion.sql.gz.b64.part' + i), 'utf8').trim());
   steps.push({ name: '004_directory_expansion', sql: zlib.gunzipSync(Buffer.from(parts.join(''), 'base64'), { maxOutputLength: 5 * 1024 * 1024 }).toString('utf8') });
   steps.push({ name: '005_restore_import_category_links.sql', sql: fs.readFileSync(path.join(ROOT, 'migrations', '005_restore_import_category_links.sql'), 'utf8') });
-  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql','019_submission_notifications.sql','020_newsletter.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
+  for (const name of ['006_extended_categories.sql','007_sourced_catalog_expansion.sql','008_contact_inquiries.sql','009_articles_editorial.sql','010_editorial_hero_updates.sql','011_replace_conflicting_ai_identity_legacy.sql','012_mcp_oauth.sql','013_mcp_article_drafts.sql','014_mcp_media.sql','015_site_statistics.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql','019_submission_notifications.sql','020_newsletter.sql','021_reader_accounts.sql','022_provider_ratings.sql','023_provider_crm.sql']) steps.push({name,sql:fs.readFileSync(path.join(ROOT,'migrations',name),'utf8')});
   const client = await pool.connect();
   let locked = false;
   try {
@@ -282,6 +282,16 @@ newsletterService.register(app);
 newsletterService.start();
 require('./lib/directory-submissions.cjs').createSubmissionService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
 require('./lib/provider-profiles.cjs').createProviderProfileService({pool,dbState,auth,audit,accounts:providerAccounts}).register(app);
+require('./lib/provider-ratings.cjs').createProviderRatingService({pool,dbState,accounts:providerAccounts,audit}).register(app);
+const providerCrm=require('./lib/provider-crm.cjs').createProviderCrmService({
+  pool,dbState,accounts:providerAccounts,seal:contactService.seal,unseal:contactService.unseal,audit
+});
+providerCrm.register(app);
+providerCrm.start();
+app.get('/fiokom/ugyfelek',(_req,res)=>{
+  res.set({'Cache-Control':'private, no-store','Pragma':'no-cache','X-Robots-Tag':'noindex, nofollow','Referrer-Policy':'same-origin'});
+  res.type('html').send(require('./lib/provider-crm-views.cjs').renderProviderCrmPage());
+});
 for(const [route,mode] of Object.entries({'/belepes':'login','/regisztracio':'register','/elfelejtett-jelszo':'forgot','/jelszo-visszaallitas':'reset','/fiokom':'account','/szolgaltatoi-adatkezeles':'privacy'})) {
   app.get(route,(_req,res)=>{
     res.set({'Cache-Control':'private, no-store','X-Robots-Tag':'noindex, nofollow','Referrer-Policy':'same-origin'});
@@ -497,34 +507,15 @@ app.get('/api/public/listings/:slug', async (req, res) => {
   res.json({...publicListing,profile_image_url:x.profile_image_id?'/media/'+x.profile_image_id:null,logo_image_url:x.logo_image_id?'/media/'+x.logo_image_id:null});
 });
 
-const submissionLimiter=rateLimit({windowMs:60*60*1000,limit:8,standardHeaders:true,legacyHeaders:false,message:{error:'Túl sok jelentkezési kísérlet. Próbáld újra később.'}});
-app.get('/api/directory/submission-form',(req,res)=>res.set('Cache-Control','private, no-store').json({csrf_token:providerAccounts.csrfFor(req,res)}));
-app.post('/api/directory/submit',submissionLimiter,async(req,res)=>{
-  res.set('Cache-Control','no-store');
-  try{providerAccounts.protect(req);}catch{return res.status(403).json({error:'A jelentkezési űrlap lejárt. Frissítsd az oldalt.'});}
-  if(req.body.company_website)return res.status(201).json({ok:true,message:'Köszönjük, a beküldést ellenőrizzük.'});
-  const limits={name:200,contact_name:200,email:254,phone:60,website_url:500,city:120,description:5000,qualifications:3000,category_slugs:600};
-  const body={};
-  for(const [key,max] of Object.entries(limits)){
-    const value=req.body[key]??'';if(typeof value!=='string'||value.length>max||/[\0\u0001-\u0008\u000b\u000c\u000e-\u001f]/.test(value))return res.status(400).json({error:'A jelentkezés egyik mezője érvénytelen vagy túl hosszú.'});
-    body[key]=value.trim();
-  }
-  body.email=body.email.toLowerCase();
-  if(body.name.length<2||!require('./lib/provider-accounts.cjs').validEmail(body.email)||body.description.length<20)return res.status(400).json({error:'Név, érvényes e-mail-cím és legalább 20 karakteres bemutatkozás szükséges.'});
-  if(req.body.consent!==true&&req.body.consent!=='true')return res.status(400).json({error:'A jelentkezéshez fogadd el az adatkezelési tájékoztatót.'});
-  if(body.website_url){let url;try{url=new URL(body.website_url);}catch{return res.status(400).json({error:'Érvényes webcímet adj meg.'});}if(!['http:','https:'].includes(url.protocol)||url.username||url.password)return res.status(400).json({error:'Érvényes http:// vagy https:// webcímet adj meg.'});}
-  const categories=[...new Set(body.category_slugs.split(',').map(x=>x.trim()).filter(Boolean))];
-  if(!categories.length||categories.length>5)return res.status(400).json({error:'Válassz legalább egy, legfeljebb öt kategóriát.'});
-  const valid=(await pool.query('SELECT slug FROM directory_categories WHERE active=true AND slug=ANY($1::text[])',[categories])).rows;
-  if(valid.length!==categories.length)return res.status(400).json({error:'Válassz elérhető kategóriát.'});
-  const client=await pool.connect();
-  try{
-    await client.query('BEGIN');await client.query('SELECT pg_advisory_xact_lock(hashtextextended($1,6938036))',[body.email]);
-    const recent=(await client.query("SELECT id FROM directory_submissions WHERE lower(email)=$1 AND created_at>now()-interval '15 minutes' LIMIT 1",[body.email])).rows[0];
-    if(!recent)await client.query('INSERT INTO directory_submissions(name,contact_name,email,phone,website_url,category_slugs,city,online_available,description,qualifications,consent) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,true)',[body.name,body.contact_name,body.email,body.phone,body.website_url,categories.join(','),body.city,req.body.online_available===true||req.body.online_available==='true',body.description,body.qualifications]);
-    await client.query('COMMIT');
-    res.status(201).json({ok:true,message:'Köszönjük, a jelentkezést rögzítettük és ellenőrizzük. Az elfogadásról e-mailben értesítünk.'});
-  }catch(error){await client.query('ROLLBACK').catch(()=>{});throw error;}finally{client.release();}
+// Registration and explicit provider extension now own directory applications.
+// Keep a clear response for old bookmarked forms; never accept a second,
+// anonymous route around the verified account and moderation workflow.
+app.get('/api/directory/submission-form',(req,res)=>res.set('Cache-Control','private, no-store').json({
+  registration_url:'/regisztracio',profile_url:'/fiokom?szolgaltato=1',requires_account:true
+}));
+app.post('/api/directory/submit',(_req,res,next)=>{res.set('Cache-Control','private, no-store');next();},providerAccounts.requireAccount,(req,res)=>{
+  if(!req.accountUser.is_provider)return res.status(403).json({code:'PROVIDER_PROFILE_REQUIRED',error:'Előbb hozz létre szolgáltatói adatlapot a saját fiókodban.',profile_url:'/fiokom?szolgaltato=1'});
+  return res.status(410).json({code:'PROFILE_APPLICATION_REQUIRED',error:'A megjelenésre a saját fiókod szolgáltatói adatlapjáról jelentkezhetsz.',profile_url:'/fiokom?szolgaltato=1'});
 });
 
 app.get('/api/admin/directory/categories', auth, async (_req,res)=>{
@@ -589,8 +580,15 @@ function listingCards(rows) {
 
 app.get('/szolgaltato/:slug', async(req,res,next)=>{
   const {rows}=await pool.query(`SELECT l.*,COALESCE(json_agg(DISTINCT jsonb_build_object('slug',c.slug,'name',c.name,'verification_level',c.verification_level,'group_name',c.group_name)) FILTER(WHERE c.id IS NOT NULL),'[]') AS categories FROM directory_listings l LEFT JOIN directory_listing_categories lc ON lc.listing_id=l.id LEFT JOIN directory_categories c ON c.id=lc.category_id WHERE l.slug=$1 AND l.status='published' GROUP BY l.id`,[req.params.slug]); const x=rows[0]; if(!x)return next();
-  const body = require('./lib/directory-views.cjs').renderProfile(x, { contactMarkup: contactService.markup(x) });
-  res.type('html').send(directoryShell(x.name, body, {canonical:'/szolgaltato/'+encodeURIComponent(x.slug),description:x.short_description || ''}));
+  const body = require('./lib/directory-views.cjs').renderProfile(x, {
+    contactMarkup: contactService.markup(x),
+    ratingsMarkup: require('./lib/rating-views.cjs').renderRatingPanel({slug:x.slug})
+  });
+  res.type('html').send(directoryShell(x.name, body, {
+    canonical:'/szolgaltato/'+encodeURIComponent(x.slug),description:x.short_description || '',
+    styles:['/catalog-design.css?v=folio-20261123','/service-ratings.css?v=readers-20261127'],
+    scripts:['/service-ratings.js?v=readers-20261127']
+  }));
 });
 
 function escapeHtml(s='') {

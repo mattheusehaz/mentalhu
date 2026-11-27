@@ -18,8 +18,9 @@ test('links use only the configured canonical origin and public users expose no 
   assert.equal(trustedBase('http://127.0.0.1:12345'),'http://127.0.0.1:12345');
   for(const url of ['http://mental.hu','https://evil@mental.hu','https://mental.hu/path','https://mental.hu?next=evil','javascript:alert(1)'])assert.throws(()=>trustedBase(url));
   const user=publicUser({id:1,email:'test@example.hu',display_name:'Test',password_hash:'secret',email_verified_at:new Date(),approved_at:null,disabled_at:null});
-  assert.deepEqual(Object.keys(user),['id','email','display_name','email_verified','approved','disabled']);
+  assert.deepEqual(Object.keys(user),['id','email','display_name','email_verified','approved','disabled','is_provider','has_provider_profile']);
   assert.equal(user.approved,false);assert.equal(user.email_verified,true);
+  assert.equal(user.is_provider,false);assert.equal(user.has_provider_profile,false);
 });
 
 test('provider CSRF is cookie-bound and rejects malformed, absent and foreign origins',()=>{

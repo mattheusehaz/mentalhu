@@ -38,7 +38,7 @@ async function main(){
   await db.query(`CREATE TABLE directory_submissions(id BIGSERIAL PRIMARY KEY,name TEXT NOT NULL,contact_name TEXT NOT NULL DEFAULT '',email TEXT NOT NULL,phone TEXT NOT NULL DEFAULT '',website_url TEXT NOT NULL DEFAULT '',category_slugs TEXT NOT NULL DEFAULT '',city TEXT NOT NULL DEFAULT '',online_available BOOLEAN NOT NULL DEFAULT false,description TEXT NOT NULL DEFAULT '',qualifications TEXT NOT NULL DEFAULT '',consent BOOLEAN NOT NULL DEFAULT true,status TEXT NOT NULL DEFAULT 'new',created_at TIMESTAMPTZ NOT NULL DEFAULT now(),updated_at TIMESTAMPTZ NOT NULL DEFAULT now());
     INSERT INTO directory_submissions(name,email,phone,status) VALUES('Visszaállítható jelentkezés','one@example.test','+36 20 555 0101','reviewed'),('Elfogadásra váró','two@example.test','','new'),('Hibateszt','three@example.test','','new');`);
   // Use the production schema, in its production dependency order, and verify replay safety.
-  for(let pass=0;pass<2;pass++)for(const name of ['016_provider_accounts.sql','017_submission_trash.sql','019_submission_notifications.sql']){
+  for(let pass=0;pass<2;pass++)for(const name of ['016_provider_accounts.sql','017_submission_trash.sql','019_submission_notifications.sql','021_reader_accounts.sql']){
     await db.query(fs.readFileSync(path.join(__dirname,'../migrations',name),'utf8'));
   }
   const app=express();app.use(express.json());

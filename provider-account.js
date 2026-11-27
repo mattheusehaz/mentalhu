@@ -1,4 +1,4 @@
-/* Provider self-service. Credentials and email tokens stay out of browser storage. */
+/* Reader accounts and optional provider self-service. Credentials and email tokens stay out of browser storage. */
 (() => {
  'use strict';
  const main=document.querySelector('[data-provider-page]');
@@ -8,6 +8,11 @@
  const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
  const fields=['name','kind','short_description','description','city','county','address','website_url','booking_url','email','phone','qualifications','specialties','languages','price_info'];
  let csrf='',session=null,profile=null,booting=false,profileBusy=false;
+ const safeNext=value=>window.MentalAccount?.safeNext(value)||'/fiokom';
+ let next=safeNext(new URLSearchParams(window.location.search).get('next'));
+ let showProfessional=new URLSearchParams(window.location.search).get('szolgaltato')==='1';
+ function authLinks(){main.querySelectorAll('a[href]').forEach(link=>{const url=new URL(link.getAttribute('href'),location.origin);if(url.origin===location.origin&&['/belepes','/regisztracio','/elfelejtett-jelszo'].includes(url.pathname)){url.searchParams.set('next',next);link.href=url.pathname+url.search;}});}
+ authLinks();
  let token=new URLSearchParams(window.location.hash.slice(1)).get('token')||'';
  if(token)history.replaceState(null,'',window.location.pathname+window.location.search);
  // An email link may open in the registration/reset page that is already open.
@@ -29,7 +34,7 @@
  }
  async function api(path,{method='GET',data}={}) {
   const headers={Accept:'application/json'};
-  if(method!=='GET'){headers['Content-Type']='application/json';headers['X-Provider-CSRF']=csrf;}
+  if(method!=='GET'){headers['Content-Type']='application/json';headers['X-Account-CSRF']=csrf;}
   let response;
   try{response=await fetch(path,{method,headers,credentials:'same-origin',cache:'no-store',referrerPolicy:'same-origin',signal:AbortSignal.timeout(20000),...(data===undefined?{}:{body:JSON.stringify(data)})});}
   catch(error){throw new Error(error.name==='TimeoutError'||error.name==='AbortError'?'A kérés túl sokáig tartott. Az adataid megmaradtak; próbáld újra.':'A kapcsolat megszakadt. Ellenőrizd az internetkapcsolatot, és próbáld újra.');}
@@ -59,18 +64,17 @@
   finally{busy(form,false);}
  }
  function updateHeader() {
-  if(!session?.authenticated)return;
-  document.querySelectorAll('.header-login,.mobile-menu a[href="/belepes"]').forEach(link=>{link.textContent='Fiókom';link.href='/fiokom';});
+  window.MentalAccount?.updateSession(session);
  }
  function showSignedIn() {
   const panel=byId('providerSignedIn');
   if(!panel)return;
-  panel.hidden=false;byId('providerSignedInEmail').textContent=session.user?.email||'';
+  panel.hidden=false;byId('providerSignedInEmail').textContent=session.user?.email||'';const destination=panel.querySelector('a');destination.href=next;destination.textContent=next.startsWith('/szolgaltato/')?'Vissza a szolgáltatóhoz':'Fiókom';
   const form=byId(mode==='login'?'providerLoginForm':'providerRegisterForm');if(form)form.hidden=true;
  }
  async function logout(button) {
   button.disabled=true;showMessage('providerPageMessage','Kijelentkezés…');
-  try{await api('/api/provider/logout',{method:'POST',data:{}});window.location.assign('/belepes');}
+  try{await api('/api/account/logout',{method:'POST',data:{}});window.location.assign('/belepes');}
   catch(error){showMessage('providerPageMessage',error.message,'error');button.disabled=false;}
  }
  function showTokenError(error) {
@@ -84,14 +88,15 @@
  async function loadToken() {
   if(!token){showTokenError(new Error('A folytatáshoz nyisd meg az e-mailben kapott teljes hivatkozást.'));return;}
   if(mode==='register')byId('providerRegisterForm').hidden=true;
-  const info=await api('/api/provider/token-info',{method:'POST',data:{token}});
+  const info=await api('/api/account/token-info',{method:'POST',data:{token}});
+  if(info.next){next=safeNext(info.next);authLinks();}
   if(mode==='reset'){
    if(info.kind!=='reset')throw new Error('Ez a hivatkozás másik fiókművelethez tartozik. Nyisd meg a levélben szereplő teljes hivatkozást.');
    byId('providerResetEmail').textContent=info.email||'';byId('providerResetForm').hidden=false;busy(byId('providerResetForm'),false);
   }else{
    if(!['invite','setup'].includes(info.kind))throw new Error('Ez a hivatkozás jelszó-visszaállításhoz tartozik. Nyisd meg a levélben szereplő teljes hivatkozást.');
    byId('providerHeading').textContent=info.kind==='invite'?'Elfogadtuk a jelentkezésedet':'Fiókod aktiválása';
-   byId('providerIntro').textContent=info.kind==='invite'?'Állíts be jelszót, majd töltsd ki a szolgáltatói adatlapodat.':'Állíts be jelszót, és készítsd elő a saját szolgáltatói adatlapodat.';
+   byId('providerIntro').textContent=info.kind==='invite'?'Állíts be jelszót, majd töltsd ki a szolgáltatói adatlapodat.':'Állíts be jelszót a MENTÁL.hu olvasói fiókodhoz. Szolgáltatói adatlapot később is hozzáadhatsz.';
    byId('providerActivationEmail').value=info.email||'';
    byId('providerActivationName').value=info.display_name||'';
    byId('providerActivationForm').hidden=false;
@@ -137,6 +142,27 @@
   if(!link.hidden)link.href=expected;
   byId('providerAccountBody').hidden=false;byId('providerAccountLoading').hidden=true;
  }
+ function renderAccount(result) {
+  if(!result?.user)throw new Error('A fiókod most nem tölthető be. Próbáld újra.');
+  profile=result;session.user=result.user;
+  const hasProfile=result.has_provider_profile===true||result.user.is_provider===true||result.user.has_provider_profile===true;
+  byId('providerAccountName').textContent=result.user.display_name||'Saját fiókod';
+  byId('providerAccountEmail').textContent=result.user.email||'';
+  byId('providerAccountBody').hidden=false;byId('providerAccountLoading').hidden=true;
+  byId('providerStart').hidden=hasProfile;byId('providerEditorLink').hidden=!hasProfile;
+  byId('providerCrmCard').hidden=!hasProfile;byId('providerCrmLink').hidden=!hasProfile;
+  byId('readerProviderTitle').textContent=hasProfile?'Szolgáltatói adatlapod':'Szolgáltatóként is csatlakoznál?';
+  byId('providerUpgradeIntro').textContent=hasProfile?'Szerkeszd a szakmai bemutatkozásodat és az elérhetőségeidet, vagy kezeld a megkereséseidet.':'Hozd létre a szakmai adatlapodat ebben a fiókban, töltsd ki a bemutatkozásodat, és küldd be ellenőrzésre. A nyilvános megjelenéshez jóváhagyás szükséges.';
+  byId('readerDashboard').hidden=hasProfile&&showProfessional;
+  byId('providerProfileWorkspace').hidden=!(hasProfile&&showProfessional);
+  if(hasProfile){
+   renderProfile(result);
+   byId('providerUpgradeState').hidden=false;
+   byId('providerUpgradeState').textContent='Adatlapod állapota: '+byId('providerProfileStatus').textContent.toLocaleLowerCase('hu')+'.';
+  }else byId('providerUpgradeState').hidden=true;
+  if(showProfessional&&!hasProfile)byId('providerStart').focus({preventScroll:true});
+  if(hasProfile&&showProfessional){byId('providerHeading').textContent='Szolgáltatói adatlapom';byId('providerIntro').textContent='Szerkeszd a szakmai bemutatkozásodat, majd küldd be ellenőrzésre a nyilvános megjelenéshez.';}
+ }
  function profilePayload(action) {
   const form=byId('providerProfileForm'),data={action};
   for(const key of fields)data[key]=form.elements.namedItem(key)?.value.trim()||'';
@@ -159,7 +185,7 @@
   const form=byId('providerProfileForm');
   if(profileBusy||!validProfile(form,action))return;
   profileBusy=true;busy(form,true);byId('providerUnpublish').disabled=true;showMessage('providerProfileMessage','Mentés…');
-  try{const result=await api('/api/provider/profile',{method:'PUT',data:profilePayload(action)});renderProfile(result);showMessage('providerProfileMessage',result.message||'Az adatlapot elmentettük.','success');}
+  try{const result=await api('/api/account/provider-profile',{method:'PUT',data:profilePayload(action)});renderAccount(result);showMessage('providerProfileMessage',result.message||'Az adatlapot elmentettük.','success');}
   catch(error){if(error.status===401){showMessage('providerProfileMessage','A munkameneted lejárt. Jelentkezz be újra; a még el nem mentett szöveget előbb másold ki.','error');}else showMessage('providerProfileMessage',error.message,'error');}
   finally{profileBusy=false;busy(form,false);byId('providerUnpublish').disabled=false;}
  }
@@ -168,12 +194,13 @@
   byId('providerRetry').hidden=true;showMessage('providerPageMessage','Betöltés…');
   main.querySelectorAll('[data-provider-submit]').forEach(button=>{button.disabled=true;});
   try{
-   session=await api('/api/provider/session');
+   session=window.MentalAccount?await window.MentalAccount.session():await api('/api/account/session');
+   if(session.csrf_token)csrf=session.csrf_token;
    if(!csrf)throw new Error('A fiókfelület nem tölthető be. Próbáld újra.');
    updateHeader();showMessage('providerPageMessage','');
    if(mode==='account'){
-    if(!session.authenticated){window.location.replace('/belepes');return;}
-    renderProfile(await api('/api/provider/profile'));
+    if(!session.authenticated){window.location.replace('/belepes?next='+encodeURIComponent(showProfessional?'/fiokom?szolgaltato=1':'/fiokom'));return;}
+    renderAccount(await api('/api/account/provider-profile'));
    }else if(mode==='reset'||mode==='register'&&token){
     try{await loadToken();}catch(error){showTokenError(error);}
    }else if(session.authenticated&&['login','register'].includes(mode)){showSignedIn();}
@@ -191,12 +218,12 @@
  byId('providerRetry')?.addEventListener('click',boot);
  byId('providerLoginForm')?.addEventListener('submit',event=>{
   event.preventDefault();const form=event.currentTarget;if(!validForm(form))return;
-  void submit(form,async()=>{await api('/api/provider/login',{method:'POST',data:{email:form.elements.email.value.trim(),password:form.elements.password.value}});form.elements.password.value='';window.location.assign('/fiokom');});
+  void submit(form,async()=>{await api('/api/account/login',{method:'POST',data:{email:form.elements.email.value.trim(),password:form.elements.password.value}});form.elements.password.value='';window.location.assign(next);});
  });
  byId('providerRegisterForm')?.addEventListener('submit',event=>{
   event.preventDefault();const form=event.currentTarget;if(!validForm(form))return;
   void submit(form,async()=>{
-   const result=await api('/api/provider/register',{method:'POST',data:{email:form.elements.email.value.trim(),display_name:form.elements.display_name.value.trim(),consent:form.elements.consent.checked}});
+   const result=await api('/api/account/register',{method:'POST',data:{email:form.elements.email.value.trim(),display_name:form.elements.display_name.value.trim(),consent:form.elements.consent.checked,next}});
    showMessage('providerPageMessage','');form.hidden=true;
    const panel=byId('providerRegistrationResult');panel.hidden=false;panel.querySelector('h2').textContent=result.mail_ready===false?'A kérésedet rögzítettük':'Ellenőrizd a leveleidet';
    byId('providerRegistrationResultMessage').textContent=result.message||'A regisztrációs kérésedet rögzítettük. A fiók létrehozásához kövesd az e-mailben kapott hivatkozást.';
@@ -204,21 +231,30 @@
  });
  byId('providerActivationForm')?.addEventListener('submit',event=>{
   event.preventDefault();const form=event.currentTarget;if(!validPasswords(form,'providerActivationPassword','providerActivationConfirm'))return;
-  void submit(form,async()=>{await api('/api/provider/activate',{method:'POST',data:{token,password:form.elements.password.value,display_name:form.elements.display_name.value.trim(),consent:form.elements.consent.checked}});token='';form.elements.password.value='';form.elements.password_confirmation.value='';window.location.assign('/fiokom');});
+  void submit(form,async()=>{const result=await api('/api/account/activate',{method:'POST',data:{token,password:form.elements.password.value,display_name:form.elements.display_name.value.trim(),consent:form.elements.consent.checked}});token='';form.elements.password.value='';form.elements.password_confirmation.value='';window.location.assign(result.next?safeNext(result.next):next);});
  });
  byId('providerForgotForm')?.addEventListener('submit',event=>{
   event.preventDefault();const form=event.currentTarget;if(!validForm(form))return;
-  void submit(form,async()=>{const result=await api('/api/provider/forgot-password',{method:'POST',data:{email:form.elements.email.value.trim()}});form.hidden=true;showMessage('providerPageMessage','');byId('providerForgotResult').hidden=false;byId('providerForgotResultMessage').textContent=result.message||'Ha ehhez az e-mail-címhez aktív fiók tartozik, elküldjük a jelszó-visszaállító hivatkozást.';});
+  void submit(form,async()=>{const result=await api('/api/account/forgot-password',{method:'POST',data:{email:form.elements.email.value.trim(),next}});form.hidden=true;showMessage('providerPageMessage','');byId('providerForgotResult').hidden=false;byId('providerForgotResultMessage').textContent=result.message||'Ha ehhez az e-mail-címhez aktív fiók tartozik, elküldjük a jelszó-visszaállító hivatkozást.';});
  });
  byId('providerResetForm')?.addEventListener('submit',event=>{
   event.preventDefault();const form=event.currentTarget;if(!validPasswords(form,'providerResetPassword','providerResetConfirm'))return;
-  void submit(form,async()=>{await api('/api/provider/reset-password',{method:'POST',data:{token,password:form.elements.password.value}});token='';form.reset();form.hidden=true;showMessage('providerPageMessage','');byId('providerResetResult').hidden=false;});
+  void submit(form,async()=>{const result=await api('/api/account/reset-password',{method:'POST',data:{token,password:form.elements.password.value}});if(result.next){next=safeNext(result.next);authLinks();}token='';form.reset();form.hidden=true;showMessage('providerPageMessage','');byId('providerResetResult').hidden=false;});
  });
  byId('providerProfileForm')?.addEventListener('submit',event=>{event.preventDefault();void saveProfile(event.submitter?.value||'save');});
  byId('providerUnpublish')?.addEventListener('click',()=>{void saveProfile('unpublish');});
+ byId('providerStart')?.addEventListener('click',async()=>{
+  const button=byId('providerStart');if(button.disabled)return;button.disabled=true;showMessage('providerUpgradeMessage','Az adatlap létrehozása…');
+  try{
+   const result=await api('/api/account/provider-profile/start',{method:'POST',data:{}});
+   showProfessional=true;history.replaceState(null,'','/fiokom?szolgaltato=1');renderAccount(result);showMessage('providerUpgradeMessage','');
+   byId('providerProfileWorkspace').scrollIntoView({block:'start',behavior:'instant'});byId('providerProfile_name').focus({preventScroll:true});
+  }catch(error){showMessage('providerUpgradeMessage',error.message,'error');}
+  finally{button.disabled=false;}
+ });
  byId('providerChangePasswordForm')?.addEventListener('submit',event=>{
   event.preventDefault();const form=event.currentTarget;if(!validPasswords(form,'providerNewPassword','providerNewPasswordConfirm'))return;
-  void submit(form,async()=>{await api('/api/provider/change-password',{method:'POST',data:{current_password:form.elements.current_password.value,password:form.elements.password.value}});form.reset();window.location.assign('/belepes?jelszo=modositva');},'providerPasswordMessage');
+  void submit(form,async()=>{await api('/api/account/change-password',{method:'POST',data:{current_password:form.elements.current_password.value,password:form.elements.password.value}});form.reset();window.location.assign('/belepes?jelszo=modositva');},'providerPasswordMessage');
  });
  void boot();
 })();

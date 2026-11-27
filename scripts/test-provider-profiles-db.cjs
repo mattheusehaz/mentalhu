@@ -38,7 +38,7 @@ function client(cookies={},adminAccess=false){
 }
 
 async function seedAccount(email,{approved=false}={}){
- const row=(await db.query("INSERT INTO provider_accounts(email,display_name,password_hash,email_verified_at,approved_at,consent_at,consent_version) VALUES($1,'Teszt Szolgáltató','private-hash-must-not-leak',now(),CASE WHEN $2 THEN now() ELSE NULL END,now(),'test') RETURNING id,email",[email,approved])).rows[0];
+ const row=(await db.query("INSERT INTO provider_accounts(email,display_name,password_hash,email_verified_at,approved_at,consent_at,consent_version,provider_profile_started_at) VALUES($1,'Teszt Szolgáltató','private-hash-must-not-leak',now(),CASE WHEN $2 THEN now() ELSE NULL END,now(),'test',now()) RETURNING id,email",[email,approved])).rows[0];
  const token=crypto.randomBytes(32).toString('hex');
  await db.query("INSERT INTO provider_account_sessions(session_hash,account_id,expires_at) VALUES($1,$2,now()+interval '1 day')",[hash(token),row.id]);
  const session=client({mental_provider:token});await session.bootstrap();return {...row,token,client:session};
@@ -53,7 +53,7 @@ async function main(){
  const connection=await db.connect();
  try{
   await connection.query('BEGIN');
-  for(const file of ['001_init.sql','002_directory.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql'])await connection.query(fs.readFileSync(path.join(__dirname,'../migrations',file),'utf8'));
+  for(const file of ['001_init.sql','002_directory.sql','016_provider_accounts.sql','017_submission_trash.sql','018_provider_listing_owners.sql','021_reader_accounts.sql'])await connection.query(fs.readFileSync(path.join(__dirname,'../migrations',file),'utf8'));
   await connection.query('COMMIT');
  }catch(error){await connection.query('ROLLBACK');throw error;}finally{connection.release();}
  await db.query("UPDATE directory_categories SET active=false WHERE slug='coachok'");

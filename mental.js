@@ -5,6 +5,35 @@
   const $$ = selector => [...document.querySelectorAll(selector)];
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const icon = name => '<svg class="icon" aria-hidden="true"><use href="#i-' + name + '"/></svg>';
+  function safeNext(value) {
+    if (typeof value !== 'string' || value.length > 500 || /[\\\r\n\0]/.test(value)) return '/fiokom';
+    if (value === '/fiokom' || value === '/fiokom?szolgaltato=1' || value === '/fiokom/ugyfelek') return value;
+    return /^\/szolgaltato\/[a-zA-Z0-9_-]+(?:#ertekelesek)?$/.test(value) ? value : '/fiokom';
+  }
+  let accountSessionRequest,accountSessionGeneration=0,accountSessionPending=false;
+  function updateAccountHeader(session) {
+    const authenticated = session?.authenticated === true;
+    $$('[data-account-login]').forEach(link => {link.textContent=authenticated?'Fiókom':'Belépés';link.href=authenticated?'/fiokom':'/belepes';});
+    $$('[data-account-register]').forEach(link => {link.hidden=authenticated;});
+    $$('[data-provider-join]').forEach(link => {link.href=authenticated?'/fiokom?szolgaltato=1':'/regisztracio?next=%2Ffiokom%3Fszolgaltato%3D1';link.textContent=authenticated?'Szolgáltatói adatlapom':'Regisztráció és csatlakozás';});
+    $$('[data-provider-join-login]').forEach(link => {link.hidden=authenticated;});
+    window.dispatchEvent(new CustomEvent('mental-account-change',{detail:session}));
+  }
+  async function accountSession(force=false) {
+    if (!accountSessionRequest || (force && !accountSessionPending)) {
+      const generation=++accountSessionGeneration;
+      accountSessionPending=true;
+      accountSessionRequest=(async()=>{
+      const response=await fetch('/api/account/session',{credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'},referrerPolicy:'same-origin',signal:AbortSignal.timeout(15000)});
+      if (!response.ok) throw new Error('A fiókadatok most nem érhetők el.');
+      const result=await response.json();if(generation===accountSessionGeneration)updateAccountHeader(result);return result;
+      })().catch(error=>{if(generation===accountSessionGeneration)accountSessionRequest=null;throw error;}).finally(()=>{if(generation===accountSessionGeneration)accountSessionPending=false;});
+    }
+    return accountSessionRequest;
+  }
+  window.MentalAccount={safeNext,session:accountSession,updateSession:updateAccountHeader};
+  void accountSession().catch(()=>{});
+  window.addEventListener('pageshow',event=>{if(event.persisted)void accountSession(true).catch(()=>{});});
   const safeArticleUrl = value => typeof value === 'string' && /^\/cikk\/[a-zA-Z0-9%._~-]+$/.test(value) ? value : '';
   const safeImage = value => typeof value === 'string' && /^\/(?:assets\/[a-zA-Z0-9._/-]+|media\/\d+)$/.test(value) && !value.includes('..') ? value : '';
   const key = 'mental-saved-articles-v1';

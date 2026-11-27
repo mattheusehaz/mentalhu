@@ -48,6 +48,7 @@ async function main(){
   INSERT INTO directory_submissions(name,contact_name,email) VALUES('Első szolgáltató','Teszt Jelentkező','invited@example.test'),('Törölhető jelentkező','Törölhető','trash@example.test');`);
  const migration=fs.readFileSync(path.join(__dirname,'../migrations/016_provider_accounts.sql'),'utf8');
  await transaction(connection=>connection.query(migration));
+ await transaction(connection=>connection.query(fs.readFileSync(path.join(__dirname,'../migrations/021_reader_accounts.sql'),'utf8')));
  const app=express();app.use(express.json());app.use(cookieParser());
  service=createProviderAccountService({pool:db,dbState:{ready:true},secret:'isolated-provider-account-secret',baseUrl:'http://127.0.0.1',mailer,env:{NODE_ENV:'test'}});
  service.register(app);app.get('/protected',service.requireAccount,(req,res)=>res.json(req.providerUser));

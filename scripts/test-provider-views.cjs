@@ -43,10 +43,22 @@ test('page form identifiers and described-by references are unambiguous',()=>{
   }
  }
 });
-test('public header offers provider login and registration without restoring admin login',()=>{
+test('public header offers reader login and registration without restoring admin login',()=>{
  const header=siteHeader();
- assert.match(header,/class="header-login" href="\/belepes">Belépés/);
- assert.match(header,/href="\/regisztracio">Szolgáltatói regisztráció/);
+ assert.match(header,/class="header-login" href="\/belepes"[^>]*>Belépés/);
+ assert.match(header,/href="\/regisztracio"[^>]*>Regisztráció/);
  assert.doesNotMatch(header,/href="\/admin/);
  assert.throws(()=>renderProviderPage('administrator'),/Unknown provider page/);
+});
+
+test('reader account starts with explicit optional provider upgrade and private rating gate',()=>{
+ const page=renderProviderPage('account');
+ assert.match(page,/id="readerDashboard"/);assert.match(page,/id="providerStart"/);
+ assert.match(page,/id="providerProfileWorkspace"[^>]*hidden/);
+ assert.match(page,/id="providerCrmCard"[^>]*hidden/);
+ const {renderRatingPanel}=require('../lib/rating-views.cjs');
+ const gate=renderRatingPanel({slug:'teszt-szolgaltato'});
+ assert.match(gate,/data-service-ratings/);assert.match(gate,/bejelentkezés után/);
+ assert.doesNotMatch(gate,/aggregateRating|ratingValue|reviewCount|[1-5] csillag/);
+ assert.equal(renderRatingPanel({slug:'../admin'}),'');
 });
