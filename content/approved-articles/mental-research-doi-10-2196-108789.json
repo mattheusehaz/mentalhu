@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-doi-10-2196-108789",
+    "slug": "generativ-ai-pszichologiai-segitseg-metaanalizis-korlatai",
+    "title": "Az AI-alapú pszichológiai segítség hatása kicsi és bizonytalan – húsz kísérlet tanulságai",
+    "category": "Kutatások",
+    "excerpt": "Húsz randomizált vizsgálat metaanalízise szerint a generatív mesterséges intelligenciára épülő programok átlagosan kis mértékben enyhíthetik a depressziós tüneteket, de szorongás esetén nem igazolódott egyértelmű előny. A vizsgálatok többségénél jelentős módszertani kockázatot találtak.",
+    "content_html": "<p>Egyre több digitális szolgáltatás ígér személyre szabott lelki támogatást generatív mesterséges intelligenciával. Az azonban, hogy egy rendszer képes természetesnek ható beszélgetést folytatni, még nem bizonyítja, hogy terápiás hatása is van. Yexuan Xiao, Nan Jiang és munkatársaik új, lektorált elemzése azt vizsgálta, milyen eredményeket értek el az ilyen rendszerek valódi, véletlen besorolású kísérletekben.</p><h2>Húsz randomizált vizsgálat eredménye</h2><p>A kutatók a PubMed, az Embase, a Web of Science és a Scopus adatbázisaiban keresték a 2020 elejétől 2026. március 31-ig megjelent kísérleteket. A közel húszezer találatból húsz randomizált kontrollált vizsgálat felelt meg a követelményeknek. Ezek nem egyetlen alkalmazást, hanem különböző felépítésű, eltérő célokra használt generatív AI-rendszereket teszteltek: egyesek strukturált pszichológiai gyakorlatokhoz kapcsolódtak, mások egészségügyi tájékoztatást vagy beszélgetéses segítséget nyújtottak. A kontrollcsoportok is különböztek: volt várólista, szokásos ellátás és aktív összehasonlító megoldás is.</p><p>A depressziós tünetekben a fő statisztikai elemzés kis átlagos előnyt mutatott: Hedges g = −0,21 (95 százalékos konfidenciaintervallum: −0,41 és −0,02 között). Ez nem 21 százalékos gyógyulási arány, hanem különböző tünetmérő skálák eredményeinek standardizált összehasonlítása. Amikor a szerzők a kevés és eltérő vizsgálat esetén óvatosabb Hartung–Knapp–Sidik–Jonkman számítási eljárást alkalmazták, a bizonytalansági intervallum már a hatás hiányát is tartalmazta (−0,46 és 0,04 között). Vagyis az elsődleges becslés nem tekinthető különösen stabilnak.</p><p>A szorongásos tüneteknél az összesített különbség nem volt statisztikailag meggyőző (g = −0,14; 95 százalékos intervallum: −0,31 és 0,02 között). Mindkét tünetcsoportnál jelentős volt a kutatások közötti eltérés, az I² mutató 63 százalékot ért el. A negatív érzelmek enyhülésében kedvező irányú eredmény mutatkozott, míg a pozitív érzelmek javulása nem igazolódott egyértelműen.</p><h2>Nem tudjuk, hogy maga a generatív AI segített-e</h2><p>Az elemzés egyik fontos tanulsága, hogy a generatív technológia önálló hozzáadott értéke nem különíthető el biztonsággal az alkalmazás többi elemétől. A jól strukturált terápiás feladatok, a szakemberi felügyelet, a visszatérő használat és a gondosan megtervezett felhasználói élmény éppúgy szerepet játszhattak az eredményekben, mint maga a nyelvi modell. A várólistával szemben általában nagyobbnak látszó előny nem jelentett megbízható különbséget a kontrolltípusokat összehasonlító statisztikai próbákban.</p><p>A résztvevők bevonódása több vizsgálatban kedvezőbbnek mutatkozott a generatív rendszereknél. Az empátiáról vegyes eredmények születtek: a szabályalapú programokkal összevetve kedvezőbb lehetett az élmény, emberi segítséggel összehasonlítva már nem rajzolódott ki egységes előny. Az aktív beszélgetéses kontrollokhoz képest a terápiás kapcsolat minőségében sem mutatkozott egyértelmű különbség. Ezek az eredmények nem bizonyítják, hogy egy chatbot ugyanazt a szakmai kapcsolatot nyújtja, mint egy pszichoterapeuta.</p><h2>A biztonságosságról kevés a jó adat</h2><p>A húsz vizsgálat közül tizennégyet magas torzításkockázatúnak minősítettek, négynél módszertani aggályok merültek fel, és csak kettőt értékeltek alacsony kockázatúnak. A bizonyítékok összességükben alacsony vagy nagyon alacsony megbízhatóságúak voltak. A kutatások többsége rövid távú eredményeket mért, három hónapon túli követésből kevés adat állt rendelkezésre. A lehetséges káros következményeket, például a téves tanácsok, a nem megfelelő krízisreakció vagy az adatvédelmi hibák hatását is hiányosan dokumentálták.</p><p>A mostani eredmények ezért nem támasztják alá, hogy bármely generatív chatbot önálló pszichoterápiaként biztonságosan alkalmazható. Inkább arra utalnak, hogy bizonyos gondosan megtervezett, ellenőrzött digitális programok kiegészítő segítséget adhatnak. A tanulmányt a kínai oktatási minisztérium támogatta. John Torous társszerző a JMIR Mental Health főszerkesztője, de a közlemény szerkesztési és elbírálási folyamatában nem vett részt. A szerzők a kézirat nyelvi szerkesztéséhez AI-eszközt is használtak, amit külön feltüntettek.</p><p>Eredeti tanulmány: https://www.jmir.org/2026/1/e108789 – DOI: 10.2196/108789.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "",
+    "hero_image_alt": "",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Effectiveness of Generative AI–Based Interventions in Behavioral Medicine: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "url": "https://www.jmir.org/2026/1/e108789",
+        "published_at": "2026-11-27",
+        "doi": "10.2196/108789",
+        "pmid": "",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-28T08:30:46Z",
+    "revision_sha256": "c5a5bd97d6280201f3c3de3a8a927094e2fa03fd9588ceced594582f39bb7a07",
+    "reference": "chat-message:mehetnek ki (2026-11-28, current conversation)"
+  }
+}

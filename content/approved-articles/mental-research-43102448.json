@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "article": {
+    "external_id": "mental-research-43102448",
+    "slug": "lakhatasi-bizonytalansag-diakok-lelki-ellatas-akadalyok",
+    "title": "Lakhatási bizonytalanságban élő diákok: több lelki segítség kellene, de nehezebb elérni",
+    "category": "Kutatások",
+    "excerpt": "Több mint 76 ezer kaliforniai középiskolás adatai szerint a bizonytalan lakhatás magasabb mentális ellátási igénnyel és több hozzáférési akadállyal társult. Nem a szakemberrel való beszélgetés iránti nyitottság különbözött, hanem elsősorban az elérhető erőforrások és a segítséghez vezető út.",
+    "content_html": "<p>Egy kamasz számára a lelki segítségkéréshez nemcsak az szükséges, hogy felismerje a problémáját, hanem az is, hogy tudja, kihez fordulhat, legyen rá anyagi lehetősége és legyen legalább egy ember, akivel beszélhet. Ezek a feltételek különösen bizonytalanok lehetnek, ha a család lakhatása sem stabil. Egy új amerikai kutatás nagy középiskolás mintán vizsgálta, miként kapcsolódik a lakhatási helyzet a mentális egészségügyi ellátáshoz való hozzáféréshez.</p><h2>Több mint 76 ezer diák válaszai</h2><p>Sara Geierstanger, Tuzo Mwarumba, Melissa Saphir, Joanne H. Yang és Samira Soleimanpour a 2023–2024-es tanévben 76 258 kaliforniai középiskolástól gyűjtött kérdőíves adatokat elemeztek. A kutatók azt hasonlították össze, hogy a stabil és a bizonytalan lakhatási helyzetben élő fiatalok milyen gyakran jeleztek mentális ellátási igényt, kaptak-e segítséget, és milyen akadályokat érzékeltek. Az összefüggéseket vegyes hatású logisztikus regresszióval vizsgálták, több tényező statisztikai figyelembevételével.</p><p>A bizonytalan lakhatásban élő diákoknál nagyobb volt annak az esélye, hogy mentális egészségügyi segítségre szorulónak érezzék magukat (korrigált esélyhányados: 1,25). A segítséghez jutás akadályai közül gyakoribb volt, hogy nem tudták, hol kérjenek támogatást (1,19), nem állt rendelkezésükre elegendő pénz (1,23), vagy úgy érezték, nincs senki, akivel beszélhetnének (1,44). Ezek esélyhányadosok, nem az érintett fiatalok százalékos arányai, és nem lehet belőlük közvetlenül egy-egy diák egyéni kockázatát kiszámítani.</p><h2>Nem a segítségkérési hajlandóság volt a fő különbség</h2><p>A kutatás egyik fontos eredménye, hogy a tanácsadóval vagy terapeutával való beszélgetés iránti nyitottság nem különbözött kimutathatóan a lakhatási helyzet szerint. Azok között, akik segítségigényt jeleztek, a teljes mintában a tényleges ellátáshoz jutás sem mutatott egyértelmű különbséget. Amikor azonban a kutatók a lakhatási bizonytalanság szűkebben meghatározott, súlyosabb formáit vizsgálták, az ellátás igénybevételének korrigált esélye alacsonyabb volt (esélyhányados: 0,72).</p><p>A két eredmény nem ellentmondásos: attól függően, milyen élethelyzeteket sorolunk a lakhatási bizonytalanság körébe, eltérő erősségű hátrányok válhatnak láthatóvá. A vizsgálat nem mutatta ki, hogy a lakhatási probléma önmagában okozza a pszichés nehézségeket vagy közvetlenül az ellátás elmaradását. A lakhatás, a családi jövedelem, a társas támogatás és az élethelyzeti stressz egymással is összefügghet.</p><h2>A hozzáférést kell könnyebbé tenni</h2><p>Az eredmények gyakorlati jelentősége az, hogy a mentális ellátás fejlesztése nem korlátozódhat arra, hogy a fiatalokat bátorítjuk a segítségkérésre. Legalább ennyire fontosak az egyértelmű tájékoztatási utak, az alacsony költségű vagy térítésmentes támogatás és azok az iskolai vagy közösségi kapcsolatok, amelyek révén a problémákkal nem kell egyedül maradniuk. Ez különösen fontos megfontolás lehet a gyermek- és ifjúsági ellátásban, bár a jelen tanulmány nem tesztelt konkrét beavatkozást.</p><p>A közlemény a Journal of Adolescent Health folyóiratban jelent meg 2026. november 27-én. A mostani ismertetés az eredeti tanulmány elérhető absztraktjára épül: a teljes szöveg, az összeférhetetlenségi és finanszírozási nyilatkozat, továbbá az egyes becslések konfidenciaintervallumai nem voltak ellenőrizhetők, ezért ezekről nem teszünk állítást. A kaliforniai adatok nem tekinthetők a magyar diákokra közvetlenül érvényes előfordulási becslésnek.</p><p>Eredeti közlemény és PMID: https://pubmed.ncbi.nlm.nih.gov/43102448/ – PMID: 43102448.</p>",
+    "author_name": "MENTÁL.hu",
+    "hero_image_path": "",
+    "hero_image_alt": "",
+    "hero_image_caption": "",
+    "seo_title": "",
+    "seo_description": "",
+    "featured": false,
+    "sources": [
+      {
+        "title": "Receipt of and Perceived Barriers to Mental Health Care Among Youth Experiencing Homelessness",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43102448/",
+        "published_at": "2026-11-27",
+        "doi": "",
+        "pmid": "43102448",
+        "kind": "peer-reviewed"
+      }
+    ]
+  },
+  "approval": {
+    "decision": "publish",
+    "method": "explicit-chat-approval",
+    "approved_by": "owner",
+    "approved_at": "2026-11-28T08:30:46Z",
+    "revision_sha256": "4cfd3d1a7aec44f61894186e4070a45735dcff6d6e0e8230298a7b5178bd11f3",
+    "reference": "chat-message:mehetnek ki (2026-11-28, current conversation)"
+  }
+}
